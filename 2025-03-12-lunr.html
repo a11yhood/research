@@ -12,7 +12,9 @@ var idx = lunr(function () {
   this.field('description')
   documents.forEach(function (doc) {this.add(doc)}, this)
 })
-
+d3.select("#completion").selectAll("option").data(
+    Object.keys(idx.invertedIndex)
+).join("option").text(d => d)
 function updateSearch(event) {
     event?.preventDefault()
     var table = d3.select(document.forms.search).select("table");
@@ -46,7 +48,7 @@ globalThis.documents =  documents
 updateSearch()
 </script>
 <form name=search>
-    <label>query<input type=text name=q value=bottle></label>
+    <label>query<input type=text name=q list=completion value=bottle></label>
     <input type=submit >
     <fieldset name=results>
         <legend>results</legend>
@@ -62,5 +64,6 @@ updateSearch()
             <template><tr><th></th><td></td></tr></template>
         </table>
     </fieldset>
+    <datalist id=completion></datalist>
 </form></body>
 </html>
