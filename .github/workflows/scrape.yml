@@ -1,6 +1,8 @@
 name: scraper
 run-name: ATscraper
 on: [push]
+permissions:
+  contents: write
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
