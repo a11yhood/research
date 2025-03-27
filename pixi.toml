@@ -7,7 +7,10 @@ platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
-scrape-github = "jupyter execute --kernel_name python3 --timeout 600 2025-03-27-github-graphql.ipynb"
+scrape-github = """
+jupyter nbconvert --kernel_name python3 --timeout 600 --inplace 2025-03-27-github-graphql.ipynb &&
+jupyter nbconvert --to html --output-dir reports 2025-03-27-github-graphql.ipynb
+"""
 
 [dependencies]
 python = ">=3.13.2,<3.14"
@@ -18,6 +21,7 @@ platformdirs = ">=4.3.7,<5"
 pandas = ">=2.2.3,<3"
 toolz = ">=1.0.0,<2"
 jinja2 = ">=3.1.6,<4"
+nbconvert = ">=7.16.6,<8"
 
 [pypi-dependencies]
 python-graphql-client = ">=0.4.3, <0.5"
