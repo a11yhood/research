@@ -1,6 +1,17 @@
 name: scraper
 run-name: ATscraper
-on: [push]
+on: 
+  schedule:
+    # every 3am
+    cron: "0 3 * * *"
+  push:
+    # add automated notebooks
+    paths:
+      - 2025-03-27-github-graphql.ipynb
+      - pixi.toml
+      - pixi.lock
+
+
 permissions:
   contents: write
 env:
