@@ -3,9 +3,12 @@ run-name: ATscraper
 on: 
   schedule:
     # every 3am
-    cron: "0 3 * * *"
+    - cron: "0 3 * * *"
   push:
+    branches: [main]
     # add automated notebooks
+    pull_request:
+      branches: ['*']
     paths:
       - 2025-03-27-github-graphql.ipynb
       - pixi.toml
