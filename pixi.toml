@@ -9,11 +9,11 @@ version = "0.1.0"
 [tasks]
 scrape-github = """
     echo "execute the github scraper" 
-    && jupyter nbconvert --inplace 
+    && time jupyter nbconvert --inplace 
     --execute --ExecutePreprocessor.kernel_name python3 --ExecutePreprocessor.timeout 600 
     2025-03-27-github-graphql.ipynb
     && echo "generate report"
-    && jupyter nbconvert --to html --output-dir reports 2025-03-27-github-graphql.ipynb
+    && time jupyter nbconvert --to html --output-dir reports 2025-03-27-github-graphql.ipynb
 """
 
 [dependencies]
