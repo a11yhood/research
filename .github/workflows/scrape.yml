@@ -5,10 +5,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4    
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
         cache: true
-        auth-host: prefix.dev
-        auth-token: ${{ secrets.PREFIX_DEV_TOKEN }}        
+        cache-key: scraper
     - run: pixi run scrape-github
