@@ -11,6 +11,7 @@ on:
       branches: ['*']
     paths:
       - 2025-03-27-github-graphql.ipynb
+      - 2025-03-27-thingiverse.ipynb
       - pixi.toml
       - pixi.lock
       - .github/workflows/*
@@ -31,10 +32,10 @@ jobs:
         pixi-version: v0.41.4
         cache: true
         cache-key: scraper
-    - run: pixi run scrape-github
     - run: pixi run scrape-thingiverse
       env:
         THINGIVERSE_ACCESS_TOKEN: ${{secrets.THINGIVERSE_ACCESS_TOKEN}}
+    - run: pixi run scrape-github
     - run: pixi run scrape-ravelry
       env:
         RAVELRY_USERNAME: ${{secrets.RAVELRY_USERNAME}}
