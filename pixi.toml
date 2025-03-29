@@ -15,6 +15,18 @@ scrape-github = """
     && echo "generate report"
     && time jupyter nbconvert --to html --output-dir reports 2025-03-27-github-graphql.ipynb
 """
+scrape-thingiverse = """
+    echo "execute the thingiverse scraper" 
+    && time jupyter nbconvert --inplace 
+    --execute --ExecutePreprocessor.kernel_name python3 --ExecutePreprocessor.timeout 600 
+    2025-03-27-thingiverse.ipynb
+    && echo "generate report"
+    && time jupyter nbconvert --to html --output-dir reports 2025-03-27-thingiverse.ipynb
+"""
+scrape-ravelry = """
+    echo "execute the ravelry scraper" 
+"""
+
 
 [dependencies]
 python = ">=3.13.2,<3.14"
@@ -26,6 +38,7 @@ pandas = ">=2.2.3,<3"
 toolz = ">=1.0.0,<2"
 jinja2 = ">=3.1.6,<4"
 nbconvert = ">=7.16.6,<8"
+requests-cache = ">=1.2.1,<2"
 
 [pypi-dependencies]
 python-graphql-client = ">=0.4.3, <0.5"
