@@ -25,6 +25,11 @@ scrape-thingiverse = """
 """
 scrape-ravelry = """
     echo "execute the ravelry scraper" 
+    && time jupyter nbconvert --inplace 
+    --execute --ExecutePreprocessor.kernel_name python3 --ExecutePreprocessor.timeout 600 
+    2025-02-24-ravelry.ipynb
+    && echo "generate report"
+    && time jupyter nbconvert --to html --output-dir reports 2025-03-27-ravelry.ipynb
 """
 
 
