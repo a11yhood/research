@@ -41,27 +41,8 @@ jobs:
       env:
         RAVELRY_USERNAME: ${{secrets.RAVELRY_USERNAME}}
         RAVELRY_PASSWORD: ${{secrets.RAVELRY_PASSWORD}}
-    # - name: Upload static files as artifact
-    #   id: deployment
-    #   uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
-    #   with:
-    #     path: .
-    - run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"        
-        git add .
-        git commit -m "generated"
-        git checkout -b gh-pages
-        git merge -Xtheirs main
-        git push --force origin gh-pages
-  # deploy:
-  #   # Add a dependency to the build job
-  #   needs: scrape
-  #   permissions:
-  #     pages: write      # to deploy to Pages
-  #     id-token: write   # to verify the deployment originates from an appropriate source
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+  site:
+    needs: scrape
+    uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
+    secrets: 
+      personal_access_token: ${{ secrets.token }}
