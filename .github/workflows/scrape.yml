@@ -23,9 +23,12 @@ permissions:
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
-  scrape:
+  github:
     runs-on: ubuntu-latest
     environment: scraper
+    concurrency:
+      group: scrape
+      cancel-in-progress: false
     steps:
     - uses: actions/checkout@v4    
     - uses: prefix-dev/setup-pixi@v0.8.3
@@ -41,8 +44,41 @@ jobs:
       env:
         RAVELRY_USERNAME: ${{secrets.RAVELRY_USERNAME}}
         RAVELRY_PASSWORD: ${{secrets.RAVELRY_PASSWORD}}
+  ravelry:
+    runs-on: ubuntu-latest
+    environment: scraper
+    concurrency:
+      group: scrape
+      cancel-in-progress: false
+    steps:
+    - uses: actions/checkout@v4    
+    - uses: prefix-dev/setup-pixi@v0.8.3
+      with:
+        pixi-version: v0.41.4
+        cache: true
+        cache-key: scraper
+    - run: pixi run scrape-ravelry
+      env:
+        RAVELRY_USERNAME: ${{secrets.RAVELRY_USERNAME}}
+        RAVELRY_PASSWORD: ${{secrets.RAVELRY_PASSWORD}}
+  thingiverse:
+    runs-on: ubuntu-latest
+    environment: scraper
+    concurrency:
+      group: scrape
+      cancel-in-progress: false
+    steps:
+    - uses: actions/checkout@v4    
+    - uses: prefix-dev/setup-pixi@v0.8.3
+      with:
+        pixi-version: v0.41.4
+        cache: true
+        cache-key: scraper
+    - run: pixi run scrape-thingiverse
+      env:
+        THINGIVERSE_ACCESS_TOKEN: ${{secrets.THINGIVERSE_ACCESS_TOKEN}}
   site:
-    needs: scrape
+    needs: [github, thingiverse, ravelry]
     uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
     secrets: 
       personal_access_token: ${{ secrets.token }}
