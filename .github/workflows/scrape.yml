@@ -16,7 +16,9 @@ on:
       - pixi.toml
       - pixi.lock
       - .github/workflows/*
-
+concurrency:
+      group: "${{ github.workflow }}-${{ github.sha }}" 
+      cancel-in-progress: false
 
 permissions:
   contents: write
@@ -26,9 +28,6 @@ jobs:
   github:
     runs-on: ubuntu-latest
     environment: scraper
-    concurrency:
-      group: "${{ github.workflow }}-${{ github.ref }}" 
-      cancel-in-progress: false
     steps:
     - uses: actions/checkout@v4    
     - uses: prefix-dev/setup-pixi@v0.8.3
@@ -40,9 +39,6 @@ jobs:
   ravelry:
     runs-on: ubuntu-latest
     environment: scraper
-    concurrency:
-      group: "${{ github.workflow }}-${{ github.sha }}" 
-      cancel-in-progress: false
     steps:
     - uses: actions/checkout@v4    
     - uses: prefix-dev/setup-pixi@v0.8.3
@@ -57,9 +53,6 @@ jobs:
   thingiverse:
     runs-on: ubuntu-latest
     environment: scraper
-    concurrency:
-      group: "${{ github.workflow }}-${{ github.ref }}" 
-      cancel-in-progress: false
     steps:
     - uses: actions/checkout@v4    
     - uses: prefix-dev/setup-pixi@v0.8.3
