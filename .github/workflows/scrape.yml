@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: scraper
     concurrency:
-      group: "${{ github.workflow }}-${{ github.ref }}" 
+      group: "${{ github.workflow }}-${{ github.sha }}" 
       cancel-in-progress: false
     steps:
     - uses: actions/checkout@v4    
