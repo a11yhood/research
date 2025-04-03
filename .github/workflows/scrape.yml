@@ -67,6 +67,7 @@ jobs:
   aggregate:
     runs-on: ubuntu-latest
     environment: scraper
+    continue-on-error: true
     needs: [github, thingiverse, ravelry]
     steps:
     - uses: actions/checkout@v4    
