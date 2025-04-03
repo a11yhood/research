@@ -63,8 +63,21 @@ jobs:
     - run: pixi run scrape-thingiverse
       env:
         THINGIVERSE_ACCESS_TOKEN: ${{secrets.THINGIVERSE_ACCESS_TOKEN}}
-  site:
+
+  aggregate:
+    runs-on: ubuntu-latest
+    environment: scraper
     needs: [github, thingiverse, ravelry]
+    steps:
+    - uses: actions/checkout@v4    
+    - uses: prefix-dev/setup-pixi@v0.8.3
+      with:
+        pixi-version: v0.41.4
+        cache: true
+        cache-key: scraper
+    - run: pixi run scrape-aggregate
+  site:
     uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
+    needs: aggregate
     secrets: 
       personal_access_token: ${{ secrets.token }}

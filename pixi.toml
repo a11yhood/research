@@ -32,6 +32,15 @@ scrape-ravelry = """
     && time jupyter nbconvert --to html --output-dir reports 2025-02-24-ravelry.ipynb
 """
 
+scrape-aggregate = """
+    echo "aggregate the scraper results" 
+    && time jupyter nbconvert --inplace 
+    --execute --ExecutePreprocessor.kernel_name python3 --ExecutePreprocessor.timeout 600 
+    2025-03-01-aggregate.ipynb
+    && echo "generate report"
+    && time jupyter nbconvert --to html --output-dir reports 2025-03-01-aggregate.ipynb
+"""
+
 
 [dependencies]
 python = ">=3.13.2,<3.14"
