@@ -76,8 +76,20 @@ jobs:
         cache: true
         cache-key: scraper
     - run: pixi run scrape-aggregate
+  search:
+    runs-on: ubuntu-latest
+    environment: scraper
+    needs: aggregate
+    steps:
+    - uses: actions/checkout@v4    
+    - uses: prefix-dev/setup-pixi@v0.8.3
+      with:
+        pixi-version: v0.41.4
+        cache: true
+        cache-key: scraper
+    - run: pixi run search
   site:
     uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
-    needs: aggregate
+    needs: search
     secrets: 
       personal_access_token: ${{ secrets.token }}

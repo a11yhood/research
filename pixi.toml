@@ -41,6 +41,15 @@ scrape-aggregate = """
     && time jupyter nbconvert --to html --output-dir reports 2025-03-01-aggregate.ipynb
 """
 
+search = """
+    echo "convert the aggregated search into a web app" 
+    && time jupyter nbconvert --inplace 
+    --execute --ExecutePreprocessor.kernel_name python3 --ExecutePreprocessor.timeout 600 
+    2025-03-12-lunr.ipynb
+    && echo "generate report"
+    && time jupyter nbconvert --to html --output-dir reports 2025-03-12-lunr.ipynb
+"""
+
 
 [dependencies]
 python = ">=3.13.2,<3.14"
@@ -56,3 +65,4 @@ requests-cache = ">=1.2.1,<2"
 
 [pypi-dependencies]
 python-graphql-client = ">=0.4.3, <0.5"
+midgy = { git = "git+https://github.com/deathbeds/midgy" }
