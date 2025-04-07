@@ -112,6 +112,16 @@ jobs:
         pixi-version: v0.41.4
         cache: true
         cache-key: scraper
+    - name: backfill thingiverse cache
+      uses: actions/cache@v4
+      with:
+        path: data/thingiverse
+        key: ${{ runner.os }}-thingiverse
+    - name: backfill ravelry cache
+      uses: actions/cache@v4
+      with:
+        path: data/ravelry
+        key: ${{ runner.os }}-ravelry
     - run: pixi run scrape-aggregate
   search:
     runs-on: ubuntu-latest
