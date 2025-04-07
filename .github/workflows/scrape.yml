@@ -54,6 +54,10 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
+    - uses: actions/cache@v4
+      with:
+        path: data/ravelry
+        key: ${{ runner.os }}-ravelry
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -69,16 +73,17 @@ jobs:
         path: |
           2025-02-24-ravelry.ipynb
           reports/2025-02-24-ravelry.html
-    - uses: actions/cache@v4
-      with:
-        path: data/ravelry
-        key: ${{ runner.os }}-ravelry
     
   thingiverse:
     runs-on: ubuntu-latest
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
+    - name: cache scraped data
+      uses: actions/cache@v4
+      with:
+        path: data/thingiverse
+        key: ${{ runner.os }}-thingiverse
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -93,11 +98,6 @@ jobs:
         path: |
           2025-03-27-thingiverse.ipynb
           reports/2025-03-27-thingiverse.html
-    - name: cache scraped data
-      uses: actions/cache@v4
-      with:
-        path: data/thingiverse
-        key: ${{ runner.os }}-thingiverse
 
   
   aggregate:
