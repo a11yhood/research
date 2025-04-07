@@ -69,7 +69,11 @@ jobs:
         path: |
           2025-02-24-ravelry.ipynb
           reports/2025-02-24-ravelry.html
-  
+    - uses: actions/cache@v4
+      with:
+        path: data/ravelry
+        key: ${{ runner.os }}-ravelry
+    
   thingiverse:
     runs-on: ubuntu-latest
     environment: scraper
