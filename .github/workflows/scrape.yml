@@ -37,31 +37,35 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - uses: actions/cache@v4
+    - uses: actions/download-artifact@v4
+      continue-on-error: true
       with:
-        path: data/github
-        key: ${{ runner.os }}-github
-    - uses: prefix-dev/setup-pixi@v0.8.3
-      with:
-        pixi-version: v0.41.4
-        cache: true
-        cache-key: scraper
-    - run: pixi run scrape-github
-    - uses: actions/upload-artifact@v4
-      with:
-        name: scrape-github-${{ github.run_number }}
-        path: |
-          2025-03-27-github-graphql.ipynb
-          reports/2025-03-27-github-graphql.html
+        name: data/github
+        - uses: prefix-dev/setup-pixi@v0.8.3
+        with:
+          pixi-version: v0.41.4
+          cache: true
+          cache-key: scraper
+          - run: pixi run scrape-github
+          - uses: actions/upload-artifact@v4
+          with:
+            name: data/github
+            path: data/github
+            - uses: actions/upload-artifact@v4
+            with:
+              name: scrape-github-${{ github.run_number }}
+              path: |
+              2025-03-27-github-graphql.ipynb
+              reports/2025-03-27-github-graphql.html
   ravelry:
     runs-on: ubuntu-latest
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - uses: actions/cache@v4
+    - uses: actions/download-artifact@v4
+      continue-on-error: true
       with:
-        path: data/ravelry
-        key: ${{ runner.os }}-ravelry
+        name: data/ravelry
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -71,6 +75,10 @@ jobs:
       env:
         RAVELRY_USERNAME: ${{secrets.RAVELRY_USERNAME}}
         RAVELRY_PASSWORD: ${{secrets.RAVELRY_PASSWORD}}
+    - uses: actions/upload-artifact@v4
+      with:
+        name: data/ravelry
+        path: data/ravelry              
     - uses: actions/upload-artifact@v4
       with:
         name: scrape-ravelry-${{ github.run_number }}
@@ -83,11 +91,10 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - name: cache scraped data
-      uses: actions/cache@v4
+    - uses: actions/download-artifact@v4
+      continue-on-error: true
       with:
-        path: data/thingiverse
-        key: ${{ runner.os }}-thingiverse
+        name: data/thingiverse
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -96,6 +103,10 @@ jobs:
     - run: pixi run scrape-thingiverse
       env:
         THINGIVERSE_ACCESS_TOKEN: ${{secrets.THINGIVERSE_ACCESS_TOKEN}}
+    - uses: actions/upload-artifact@v4
+      with:
+        name: data/thingiverse
+        path: data/thingiverse
     - uses: actions/upload-artifact@v4
       with:
         name: scrape-thingiverse-${{ github.run_number }}
@@ -115,18 +126,20 @@ jobs:
       with:
         pixi-version: v0.41.4
         cache: true
+        # this should use hashfiles
         cache-key: scraper
-    - name: backfill thingiverse cache
-      uses: actions/cache@v4
+    - uses: actions/download-artifact@v4
       with:
-        path: data/thingiverse
-        key: ${{ runner.os }}-thingiverse
-    - name: backfill ravelry cache
-      uses: actions/cache@v4
-      with:
-        path: data/ravelry
-        key: ${{ runner.os }}-ravelry
+        pattern: "data/*"
+        merge-multiple: true
+    - run: ls -lathr
     - run: pixi run scrape-aggregate
+    - uses: actions/upload-artifact@v4
+      with:
+        name: aggregate-${{ github.run_number }}
+        path: |
+          at.json.gz
+
   search:
     runs-on: ubuntu-latest
     environment: scraper
@@ -138,7 +151,17 @@ jobs:
         pixi-version: v0.41.4
         cache: true
         cache-key: scraper
+    - uses: actions/download-artifact@v4
+      with:
+        name: aggregate-${{ github.run_number }}
     - run: pixi run search
+    - uses: actions/upload-artifact@v4
+      with:
+        name: scrape-thingiverse-${{ github.run_number }}
+        path: |
+          2025-03-27-thingiverse.ipynb
+          reports/2025-03-27-thingiverse.html
+    
   site:
     uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
     needs: search
