@@ -40,11 +40,15 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const runNumber = process.env.GITHUB_RUN_NUMBER;
+          const runNumber = process.env.GITHUB_RUN_NUMBER - 1;
+          const owner = repository.owner;
+          const repo = repository.repo;
+          const id = context.id;
+
           const response = await github.rest.actions.listWorkflowRuns({
-            owner: context.owner,
-            repo: context.repo,  
-            workflow_id: context.id,   
+            owner: owner,
+            repo: repo,  
+            workflow_id: id,   
             status: 'success',
             per_page: 100, // Adjust as needed
             page: 1
