@@ -35,9 +35,9 @@ jobs:
   previous: 
     runs-on: ubuntu-latest
     environment: scraper
+    id: previous
     steps:
     - name: Retrieve Previous Workflow ID
-      id: previous
       uses: actions/github-script@v7
       with:
         script: |
@@ -66,13 +66,13 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - run: echo ${{ toJson(steps) }}
+    - run: echo ${{ toJson(jobs) }}
     - uses: actions/download-artifact@v4
       continue-on-error: true
       with:
         name: data-github
         path: data
-        run-id: ${{ steps.previous.outputs.run_id }}
+        run-id: ${{ jobs.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -100,7 +100,7 @@ jobs:
       with:
         name: data-ravelry
         path: data
-        run-id: ${{ steps.previous.outputs.run_id }}
+        run-id: ${{ jobs.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -132,7 +132,7 @@ jobs:
       with:
         name: data-thingiverse
         path: data
-        run-id: ${{ steps.previous.outputs.run_id }}
+        run-id: ${{ jobs.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
