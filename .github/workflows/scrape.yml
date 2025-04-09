@@ -44,17 +44,17 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo
           });
-          const workflow = workflows.data.workflows.find(w => w.name === process.env.GITHUB_WORKFLOW);
+          const workflow = workflows.data.workflows.find(w => w.name === "scraper");
           const data = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
             workflow_id: workflow.id,
             status: 'success'
           });
-    
           if (data.data.workflow_runs.length > 0) {
             core.setOutput('run_id', data.data.workflow_runs[0].id);
-            core.info("run_id", data.data.workflow_runs[0].id);
+            core.info("previous run id");
+            core.info(data.data.workflow_runs[0].id);
           } else {
             core.info('No successful workflows found.');
           }
