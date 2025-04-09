@@ -84,6 +84,7 @@ jobs:
       with:
         name: data-github
         path: data
+        github-token: ${{secrets.GITHUB_TOKEN}}
         run-id: ${{ steps.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
@@ -117,6 +118,7 @@ jobs:
       with:
         name: data-ravelry
         path: data
+        github-token: ${{secrets.GITHUB_TOKEN}}
         run-id: ${{ steps.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
@@ -154,6 +156,7 @@ jobs:
       with:
         name: data-thingiverse
         path: data
+        github-token: ${{secrets.GITHUB_TOKEN}}
         run-id: ${{ steps.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
