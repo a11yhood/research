@@ -190,7 +190,7 @@ jobs:
         cache-key: scraper
     - uses: actions/download-artifact@v4
       with:
-        patterns: data-*
+        pattern: data-*
         path: data
         merge-multiple: true
     - run: ls -lathr
