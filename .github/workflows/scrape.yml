@@ -199,10 +199,10 @@ jobs:
     - run: pixi run search
     - uses: actions/upload-artifact@v4
       with:
-        name: scrape-thingiverse-${{ github.run_number }}
+        name: search-${{ github.run_number }}
         path: |
-          2025-03-27-thingiverse.ipynb
-          reports/2025-03-27-thingiverse.html
+          2025-03-12-lunr.ipynb
+          2025-03-12-lunr.html
     
   site:
     uses: a11yhood/site-settings/.github/workflows/jekyll.yaml@main
