@@ -65,7 +65,7 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - run: echo ${{ steps.previous.outputs }}
+    - run: echo ${{ steps }}
     - uses: actions/download-artifact@v4
       continue-on-error: true
       with:
