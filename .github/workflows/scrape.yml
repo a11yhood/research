@@ -33,28 +33,28 @@ env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
   previous: 
-  - name: Retrieve Run ID
-    uses: actions/github-script@v6
-    with:
-      script: |
-        const runNumber = process.env.GITHUB_RUN_NUMBER - 1;
-        const repository = context.repo;
-        const owner = repository.owner;
-        const repo = repository.repo;
+    - name: Retrieve Run ID
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const runNumber = process.env.GITHUB_RUN_NUMBER - 1;
+          const repository = context.repo;
+          const owner = repository.owner;
+          const repo = repository.repo;
 
-        const response = await github.rest.actions.listWorkflowRuns({
-          owner: owner,
-          repo: repo,
-          per_page: 100, // Adjust as needed
-          page: 1
-        });
+          const response = await github.rest.actions.listWorkflowRuns({
+            owner: owner,
+            repo: repo,
+            per_page: 100, // Adjust as needed
+            page: 1
+          });
 
-        const run = response.data.workflow_runs.find(run => run.run_number === parseInt(runNumber));
-        if (run) {
-          console.log(`Run ID: ${run.id}`);
-          core.setOutput('run_id', run.id);
-        } else {
-          throw new Error(`Run with number ${runNumber} not found`);
+          const run = response.data.workflow_runs.find(run => run.run_number === parseInt(runNumber));
+          if (run) {
+            console.log(`Run ID: ${run.id}`);
+            core.setOutput('run_id', run.id);
+          } else {
+            throw new Error(`Run with number ${runNumber} not found`);
   github:
     runs-on: ubuntu-latest
     environment: scraper
