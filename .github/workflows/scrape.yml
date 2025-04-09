@@ -73,7 +73,7 @@ jobs:
       with:
         name: data-github
         path: data
-        run-id: ${{ jobs.previous.outputs.run_id }}
+        run-id: ${{ job.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -101,7 +101,7 @@ jobs:
       with:
         name: data-ravelry
         path: data
-        run-id: ${{ jobs.previous.outputs.run_id }}
+        run-id: ${{ job.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
@@ -133,7 +133,7 @@ jobs:
       with:
         name: data-thingiverse
         path: data
-        run-id: ${{ jobs.previous.outputs.run_id }}
+        run-id: ${{ job.previous.outputs.run_id }}
     - uses: prefix-dev/setup-pixi@v0.8.3
       with:
         pixi-version: v0.41.4
