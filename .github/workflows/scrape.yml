@@ -66,8 +66,7 @@ jobs:
     needs: previous
     environment: scraper
     steps:
-    - uses: actions/checkout@v4    
-    - run: echo ${{ toJson(job) }}
+    - uses: actions/checkout@v4
     - uses: actions/download-artifact@v4
       continue-on-error: true
       with:
