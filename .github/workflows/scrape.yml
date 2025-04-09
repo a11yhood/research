@@ -44,7 +44,7 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo
           });
-          const workflow = workflows.data.workflows.find(w => w.name === "scraper");
+          const workflow = workflows.data.workflows.find(w => w.name === process.env.GITHUB_WORKFLOW);
           const data = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
@@ -52,9 +52,9 @@ jobs:
             status: 'success'
           });
           if (data.data.workflow_runs.length > 0) {
-            core.setOutput('run_id', data.data.workflow_runs[0].id);
             core.info("previous run id");
             core.info(data.data.workflow_runs[0].id);
+            core.setOutput('run_id', data.data.workflow_runs[0].id);
           } else {
             core.info('No successful workflows found.');
           }
@@ -65,7 +65,7 @@ jobs:
     environment: scraper
     steps:
     - uses: actions/checkout@v4    
-    - run: echo ${{ steps.previous.outputs.run_id }}
+    - run: echo ${{ steps.previous.outputs }}
     - uses: actions/download-artifact@v4
       continue-on-error: true
       with:
