@@ -21,7 +21,7 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo
           });
-          const workflow = workflows.data.workflows.find(w => w.name === process.env.GITHUB_WORKFLOW);
+          const workflow = workflows.data.workflows.find(w => w.name === "scaper");
           const data = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
