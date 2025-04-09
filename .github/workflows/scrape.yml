@@ -33,7 +33,10 @@ env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
   previous: 
-    - name: Retrieve Run ID
+    runs-on: ubuntu-latest
+    environment: scraper
+    steps:
+    - name: Retrieve Previous Workflow ID
       uses: actions/github-script@v6
       with:
         script: |
