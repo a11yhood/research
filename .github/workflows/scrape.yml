@@ -51,10 +51,9 @@ jobs:
             workflow_id: workflow.id,
             status: 'success'
           });
-          core.info(JSON.stringify(data))
     
-          if (workflows.length > 0) {
-            core.setOutput('run_id', workflows[0].id);
+          if (data.workflow_runs.length > 0) {
+            core.setOutput('run_id', data.workflow_runs[0].id);
           } else {
             core.info('No successful workflows found.');
           }
