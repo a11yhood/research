@@ -48,14 +48,13 @@ jobs:
           const response = await github.rest.actions.listWorkflowRuns({
             owner: owner,
             repo: repo,            
-            status: 'success',
             per_page: 100, // Adjust as needed
             page: 1
           });
           if (response.data.workflow_runs.length > 0) {
             // Sort the runs by run_number in descending order to get the most recent successful run
             const lastSuccessfulRun = response.data.workflow_runs
-              .sort((a, b) => b.run_number - a.run_number)[0];
+              .sort((a, b) => b.run_number - a.run_number - (b.status == "success") * 200)[0];
             console.log(`Run ID: ${lastSuccessfulRun.id}`);
             core.setOutput('run_id', lastSuccessfulRun.id);
           } else {
