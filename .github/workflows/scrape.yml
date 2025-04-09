@@ -37,6 +37,7 @@ jobs:
     environment: scraper
     steps:
     - name: Retrieve Previous Workflow ID
+      id: previous
       uses: actions/github-script@v7
       with:
         script: |
