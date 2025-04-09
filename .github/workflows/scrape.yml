@@ -58,6 +58,7 @@ jobs:
             core.setOutput('run_id', run.id);
           } else {
             throw new Error(`Run with number ${runNumber} not found`);
+          }
   github:
     runs-on: ubuntu-latest
     environment: scraper
