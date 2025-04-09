@@ -29,7 +29,7 @@ jobs:
             status: 'success'
           });
           if (data.data.workflow_runs.length > 0) {
-            core.info("run_id", JSON.stringify(data.data.workflow_runs));
+            core.info("run_id", JSON.stringify(data.data["workflow_runs"]));
             core.setOutput('run_id', data.data.workflow_runs[0].id);
             core.info("run_id", data.data.workflow_runs[0].id);
           } else {
