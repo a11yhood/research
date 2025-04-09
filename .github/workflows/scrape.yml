@@ -35,7 +35,8 @@ jobs:
   previous: 
     runs-on: ubuntu-latest
     environment: scraper
-    id: previous
+    outputs:
+      run_id: ${{ steps.previous.outputs.run_id }}
     steps:
     - name: Retrieve Previous Workflow ID
       uses: actions/github-script@v7
