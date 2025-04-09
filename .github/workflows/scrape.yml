@@ -40,10 +40,15 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
+          const workflows = await github.rest.actions.listRepoWorkflows({
+            owner: context.repo.owner,
+            repo: context.repo.repo
+          });
+          const workflow = workflows.data.workflows.find(w => w.name === process.env.GITHUB_WORKFLOW);
           const data = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            workflow_id: process.env.GITHUB_WORKFLOW,
+            workflow_id: workflow,
             status: 'success'
           });
           if (workflows.length > 0) {
