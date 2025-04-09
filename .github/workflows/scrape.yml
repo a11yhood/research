@@ -40,26 +40,25 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const runNumber = process.env.GITHUB_RUN_NUMBER - 1;
-          const repository = context.repo;
-          const owner = repository.owner;
-          const repo = repository.repo;
-
+          const runNumber = process.env.GITHUB_RUN_NUMBER;
           const response = await github.rest.actions.listWorkflowRuns({
-            owner: owner,
-            repo: repo,            
+            owner: context.owner,
+            repo: context.repo,  
+            workflow_id: context.id,   
+            status: 'success',
             per_page: 100, // Adjust as needed
             page: 1
           });
           if (response.data.workflow_runs.length > 0) {
             // Sort the runs by run_number in descending order to get the most recent successful run
             const lastSuccessfulRun = response.data.workflow_runs
-              .sort((a, b) => b.run_number - a.run_number - (b.status == "success") * 200)[0];
+              .sort((a, b) => b.run_number - a.run_number)[0];
             console.log(`Run ID: ${lastSuccessfulRun.id}`);
             core.setOutput('run_id', lastSuccessfulRun.id);
           } else {
             throw new Error('No successful runs found');
           }
+
   github:
     runs-on: ubuntu-latest
     needs: previous
