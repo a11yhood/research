@@ -43,7 +43,7 @@ jobs:
           const data = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            workflow_id: context.workflow,
+            workflow_id: context.run_id,
             status: 'success'
           });
           if (workflows.length > 0) {
