@@ -1,0 +1,507 @@
+{
+  "created_at": "2025-04-09T19:45:50.161283+00:00",
+  "elapsed": 0.25746,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81cefa521563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:50 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:50 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/158843?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/158843?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 158843,
+    "name": "Prosthetic\/Robotic Hand Printable As An Assembled Unit Without Supports",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/03\/ae\/c5\/94\/38\/handheart1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/158843",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:158843",
+    "creator": {
+      "id": 47447,
+      "name": "profhankd",
+      "first_name": "Hank",
+      "last_name": "Dietz",
+      "url": "https:\/\/api.thingiverse.com\/users\/profhankd",
+      "public_url": "https:\/\/www.thingiverse.com\/profhankd",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/52\/d0\/f7\/1c\/54\/dietz070411_thumb_medium.jpg",
+      "count_of_followers": 259,
+      "count_of_following": 0,
+      "count_of_designs": 98,
+      "collection_count": 4,
+      "make_count": 22,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lexington, KY USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/16\/d2\/20\/6a\/c8\/4c5e1dae772f2969ff8c1a5558b854d1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2013-10-01T03:16:04+00:00",
+    "modified": "2013-10-01T03:16:04+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 165,
+    "is_liked": false,
+    "collect_count": 278,
+    "is_collected": false,
+    "comment_count": 11,
+    "is_watched": false,
+    "default_image": {
+      "id": 513056,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/e5\/7c\/84\/ae\/hand20130928.stl",
+      "name": "hand20130928.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928_display_small.jpg"
+        }
+      ],
+      "added": "2013-09-30T22:32:03+00:00"
+    },
+    "description": "You might have heard about the 3D-printed prosthetic hands created by Richard Van As and Ivan Owen for about 100 children thus far. That's a great thing they've been doing. There's also a \"Snap-Together Robohand\" version, thing 92937, which is intended to be easier to build.  I'm sure it is... but it still takes half a day to print the parts and assemble them.  Unfortunately, I had less than 3 hours total on Saturday, September 28, 2013, to give an overview of making technologies and have YMCA Black Achievers students actually build something.  \n\nSo, I designed a new prosthetic\/robotic hand for which all the printed parts print assembled without supports in less than an hour.  You still have to thread some fishing line and rubber bands through it, but from print start to working hand is easily done in less than 90 minutes using a total of about $1 worth of materials!",
+    "instructions": "Printed in PLA at 195C, 0.25mm, 25% fill.  Sliced using cura.  \n\nAn Instructables gives the details:  \nhttp:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/  \n\nFor now, I just have the STL file posted. However, this was built with the same not-yet-released hinge library I tested by making Thing 120179, and I plan to post the openscad source for this too.",
+    "description_html": "<div><p>You might have heard about the 3D-printed prosthetic hands created by Richard Van As and Ivan Owen for about 100 children thus far. That's a great thing they've been doing. There's also a \"Snap-Together Robohand\" version, thing 92937, which is intended to be easier to build.  I'm sure it is... but it still takes half a day to print the parts and assemble them.  Unfortunately, I had less than 3 hours total on Saturday, September 28, 2013, to give an overview of making technologies and have YMCA Black Achievers students actually build something.  <\/p><p>So, I designed a new prosthetic\/robotic hand for which all the printed parts print assembled without supports in less than an hour.  You still have to thread some fishing line and rubber bands through it, but from print start to working hand is easily done in less than 90 minutes using a total of about $1 worth of materials!<\/p><\/div>\n",
+    "instructions_html": "<div><p>Printed in PLA at 195C, 0.25mm, 25% fill.  Sliced using cura.  <\/p><p>An Instructables gives the details:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/\">http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/<\/a>  <\/p><p>For now, I just have the STL file posted. However, this was built with the same not-yet-released hinge library I tested by making Thing 120179, and I plan to post the openscad source for this too.<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>You might have heard about the 3D-printed prosthetic hands created by Richard Van As and Ivan Owen for about 100 children thus far. That's a great thing they've been doing. There's also a \"Snap-Together Robohand\" version, thing 92937, which is intended to be easier to build.  I'm sure it is... but it still takes half a day to print the parts and assemble them.  Unfortunately, I had less than 3 hours total on Saturday, September 28, 2013, to give an overview of making technologies and have YMCA Black Achievers students actually build something.  <\/p><p>So, I designed a new prosthetic\/robotic hand for which all the printed parts print assembled without supports in less than an hour.  You still have to thread some fishing line and rubber bands through it, but from print start to working hand is easily done in less than 90 minutes using a total of about $1 worth of materials!<\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>Printed in PLA at 195C, 0.25mm, 25% fill.  Sliced using cura.  <\/p><p>An Instructables gives the details:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/\">http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/<\/a>  <\/p><p>For now, I just have the STL file posted. However, this was built with the same not-yet-released hinge library I tested by making Thing 120179, and I plan to post the openscad source for this too.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>You might have heard about the 3D-printed prosthetic hands created by Richard Van As and Ivan Owen for about 100 children thus far. That's a great thing they've been doing. There's also a \"Snap-Together Robohand\" version, thing 92937, which is intended to be easier to build.  I'm sure it is... but it still takes half a day to print the parts and assemble them.  Unfortunately, I had less than 3 hours total on Saturday, September 28, 2013, to give an overview of making technologies and have YMCA Black Achievers students actually build something.  <\/p><p>So, I designed a new prosthetic\/robotic hand for which all the printed parts print assembled without supports in less than an hour.  You still have to thread some fishing line and rubber bands through it, but from print start to working hand is easily done in less than 90 minutes using a total of about $1 worth of materials!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>Printed in PLA at 195C, 0.25mm, 25% fill.  Sliced using cura.  <\/p><p>An Instructables gives the details:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/\">http:\/\/www.instructables.com\/id\/ProstheticRobotic-Hand-Printable-As-An-Assembled-U\/<\/a>  <\/p><p>For now, I just have the STL file posted. However, this was built with the same not-yet-released hinge library I tested by making Thing 120179, and I plan to post the openscad source for this too.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/158843\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/158843\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/158843\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/158843\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/158843\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/158843\/tags",
+    "tags": [
+      {
+        "name": "print assembled",
+        "tag": "print_assembled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/print_assembled",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/print_assembled\/things",
+        "absolute_url": "\/tag:print_assembled"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "robohand",
+        "tag": "robohand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+        "absolute_url": "\/tag:robohand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/158843\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2528,
+    "view_count": 12669,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 3,
+    "app_count": 4,
+    "root_comment_count": 8,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 92937,
+        "name": "Snap-Together Robohand",
+        "url": "https:\/\/api.thingiverse.com\/things\/92937",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:92937",
+        "created_at": "2013-06-17T20:56:34+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/bf\/32\/b2\/cf\/c8\/_MG_7675_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/bf\/32\/b2\/cf\/c8\/_MG_7675_preview_card.jpg",
+        "creator": {
+          "id": 928,
+          "name": "MakerBot",
+          "first_name": "MakerBot",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/MakerBot",
+          "public_url": "https:\/\/www.thingiverse.com\/MakerBot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/74\/2d\/76\/2d\/09\/Avatar_MB_02_thumb_medium.jpg",
+          "count_of_followers": 22211,
+          "count_of_following": 37,
+          "count_of_designs": 530,
+          "collection_count": 33,
+          "make_count": 11,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Brooklyn, NY",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/93\/fe\/ba\/38\/a7\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 70,
+        "make_count": 22,
+        "like_count": 2454,
+        "tags": [
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "makerbot",
+            "tag": "makerbot",
+            "url": "https:\/\/api.thingiverse.com\/tags\/makerbot",
+            "count": 6064,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/makerbot\/things",
+            "absolute_url": "\/tag:makerbot"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "robohand",
+            "tag": "robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+            "count": 66,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+            "absolute_url": "\/tag:robohand"
+          },
+          {
+            "name": "robotic",
+            "tag": "robotic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robotic",
+            "count": 268,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic\/things",
+            "absolute_url": "\/tag:robotic"
+          },
+          {
+            "name": "skimbal",
+            "tag": "skimbal",
+            "url": "https:\/\/api.thingiverse.com\/tags\/skimbal",
+            "count": 50,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/skimbal\/things",
+            "absolute_url": "\/tag:skimbal"
+          },
+          {
+            "name": "snap-togeather",
+            "tag": "snap-togeather",
+            "url": "https:\/\/api.thingiverse.com\/tags\/snap-togeather",
+            "count": 1,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/snap-togeather\/things",
+            "absolute_url": "\/tag:snap-togeather"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 4556,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 120179,
+        "name": "HingeBox Printable As An Assembled Unit Without Supports",
+        "url": "https:\/\/api.thingiverse.com\/things\/120179",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:120179",
+        "created_at": "2013-07-19T21:13:17+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e4\/ce\/fe\/6a\/b8\/DSC00865sm_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/e4\/ce\/fe\/6a\/b8\/DSC00865sm_preview_card.jpg",
+        "creator": {
+          "id": 47447,
+          "name": "profhankd",
+          "first_name": "Hank",
+          "last_name": "Dietz",
+          "url": "https:\/\/api.thingiverse.com\/users\/profhankd",
+          "public_url": "https:\/\/www.thingiverse.com\/profhankd",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/52\/d0\/f7\/1c\/54\/dietz070411_thumb_medium.jpg",
+          "count_of_followers": 259,
+          "count_of_following": 0,
+          "count_of_designs": 98,
+          "collection_count": 4,
+          "make_count": 22,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Lexington, KY USA",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/16\/d2\/20\/6a\/c8\/4c5e1dae772f2969ff8c1a5558b854d1_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 28,
+        "make_count": 38,
+        "like_count": 2797,
+        "tags": [
+          {
+            "name": "box",
+            "tag": "box",
+            "url": "https:\/\/api.thingiverse.com\/tags\/box",
+            "count": 17318,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/box\/things",
+            "absolute_url": "\/tag:box"
+          },
+          {
+            "name": "folding",
+            "tag": "folding",
+            "url": "https:\/\/api.thingiverse.com\/tags\/folding",
+            "count": 460,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/folding\/things",
+            "absolute_url": "\/tag:folding"
+          },
+          {
+            "name": "hinge",
+            "tag": "hinge",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hinge",
+            "count": 2372,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hinge\/things",
+            "absolute_url": "\/tag:hinge"
+          },
+          {
+            "name": "hinge box",
+            "tag": "hinge_box",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hinge_box",
+            "count": 5,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hinge_box\/things",
+            "absolute_url": "\/tag:hinge_box"
+          },
+          {
+            "name": "printed assembled",
+            "tag": "printed_assembled",
+            "url": "https:\/\/api.thingiverse.com\/tags\/printed_assembled",
+            "count": 6,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/printed_assembled\/things",
+            "absolute_url": "\/tag:printed_assembled"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 5419,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "hand20130928.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/e5\/7c\/84\/ae\/hand20130928.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "hand20130928.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/e4\/f1\/04\/87\/hand20130928.jpg"
+        },
+        {
+          "name": "handheart1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/ae\/c5\/94\/38\/handheart1.jpg"
+        },
+        {
+          "name": "FXM5ZP6HLZRITNW.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/0d\/8a\/4f\/0d\/FXM5ZP6HLZRITNW.jpg"
+        },
+        {
+          "name": "DSC04108sm.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/28\/7f\/c2\/2f\/DSC04108sm.jpg"
+        },
+        {
+          "name": "DSC04126sm.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/be\/24\/78\/79\/10\/DSC04126sm.jpg"
+        }
+      ]
+    }
+  }
+}

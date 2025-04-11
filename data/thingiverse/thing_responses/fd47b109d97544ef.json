@@ -1,0 +1,623 @@
+{
+  "created_at": "2025-04-09T19:18:18.773100+00:00",
+  "elapsed": 0.241705,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc597dcfd8f95f-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:18:18 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 19:48:18 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw",
+      "_cfuvid": "Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw; _cfuvid=Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1055109?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1055109?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1055109,
+    "name": "Mug Holder (An assistive device for disabled) - Recidal Design",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1055109",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1055109",
+    "creator": {
+      "id": 386072,
+      "name": "Recidal",
+      "first_name": "Recidal",
+      "last_name": "Design",
+      "url": "https:\/\/api.thingiverse.com\/users\/Recidal",
+      "public_url": "https:\/\/www.thingiverse.com\/Recidal",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f1\/7d\/d9\/0d\/57\/recidal_design_100x100_thumb_medium.jpg",
+      "count_of_followers": 23,
+      "count_of_following": 11,
+      "count_of_designs": 3,
+      "collection_count": 10,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sweden",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/36\/ec\/64\/e1\/f9\/13a9a907720cc9c680bd7a2c8cbfb252_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-06T00:01:57+00:00",
+    "modified": "2015-10-06T00:01:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 288,
+    "is_liked": false,
+    "collect_count": 585,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 2981213,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/19\/4a\/c8\/73\/Mug_Holder_v2_by_Recidal_Design_Pict2.jpg",
+      "name": "Mug_Holder_v2_by_Recidal_Design_Pict2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/c5\/6d\/4e\/04\/Mug_Holder_v2_by_Recidal_Design_Pict2_display_small.jpg"
+        }
+      ],
+      "added": "2015-12-07T00:44:57+00:00"
+    },
+    "description": "__*Thank you so much for liking, collecting and downloading my files! This project was created as an entry for the Assistive Technology Challenge here on Thingiverse in order to gain a bit publicity and to spread it to the proper audience. Please follow me to get more printable assistive devices in the future!*__<br>\r\n***\r\n\r\n__Disclaimer!__ *Use it at your own risk. I am not responsible for any harm that may occur to people and any object by flaws in your prints or inappropriate usage. Mine could handle a bit above 0.5kg as you can see on the bottle picture, but please be sure to carefully test its reliability before applying anything heavy onto it! Also be aware that the nuts and screws may not be perfect on every printer. Don't forget to try the test files at the top before printing everything!*<br>\r\n***\r\n\r\n<h4>#AssistiveTech<\/h4>\r\n<h1>Mug Holder - Recidal Design<\/h1>\r\nIs for everyone who need help with lifting a cup, mug, glass, can, or even a bottle to drink. It can enable you to drink directly through a straw, as well as shorten the distance you would need for lifting it to your mouth. It is fully adjustable and should be mountable on most tables.\r\n<br>\r\nBecause of its' __fully modular__ nature you could easily put other stuff instead of the mug arm as well, still using the same base. You could turn it in to a phone holder, paper holder, card holder or anything that you'd like. I'll create more compatible arm-modules later on.\r\n<br>\r\n__Why not print an extra arm that you can place directly under your nose?__\r\n*Actually*, this might even benefit those of you without a disability. Ever felt like needing an extra hand? Maybe you are a gamer that wants to drink without taking your hands off the mouse and keyboard? Maybe you're a late night programmer or writer that desperately need you coffee while under pressure of a deadline? Do you often have one too many and can't hold the glass straight? Well, maybe you're just the lazy kind? Could you relate to any of this? Then give it a try!\r\n\r\n<br><br>\r\n***\r\n__NOTE__: All parts should fit and be assembled properly. If you are having issues please send me a pm for assistance! Also let me know if you need the old files.\r\n\r\nThe old Mug Holder V1 will still continue to be available, but I've abandoned it completely. If you really want to use it instead, please print it at 0.2mm and 50% infill for the best performance. Keep in mind to adjust the file for the appropriate height.\r\n\r\n***\r\n<br>",
+    "instructions": "",
+    "description_html": "<div><p><strong><em>Thank you so much for liking, collecting and downloading my files! This project was created as an entry for the Assistive Technology Challenge here on Thingiverse in order to gain a bit publicity and to spread it to the proper audience. Please follow me to get more printable assistive devices in the future!<\/em><\/strong><br><\/p><hr><p><strong>Disclaimer!<\/strong> <em>Use it at your own risk. I am not responsible for any harm that may occur to people and any object by flaws in your prints or inappropriate usage. Mine could handle a bit above 0.5kg as you can see on the bottle picture, but please be sure to carefully test its reliability before applying anything heavy onto it! Also be aware that the nuts and screws may not be perfect on every printer. Don't forget to try the test files at the top before printing everything!<\/em><br><\/p><hr><h4>#AssistiveTech<\/h4><h1>Mug Holder - Recidal Design<\/h1><p>Is for everyone who need help with lifting a cup, mug, glass, can, or even a bottle to drink. It can enable you to drink directly through a straw, as well as shorten the distance you would need for lifting it to your mouth. It is fully adjustable and should be mountable on most tables.<br><br><br>Because of its' <strong>fully modular<\/strong> nature you could easily put other stuff instead of the mug arm as well, still using the same base. You could turn it in to a phone holder, paper holder, card holder or anything that you'd like. I'll create more compatible arm-modules later on.<br><br><br><strong>Why not print an extra arm that you can place directly under your nose?<\/strong><br><em>Actually<\/em>, this might even benefit those of you without a disability. Ever felt like needing an extra hand? Maybe you are a gamer that wants to drink without taking your hands off the mouse and keyboard? Maybe you're a late night programmer or writer that desperately need you coffee while under pressure of a deadline? Do you often have one too many and can't hold the glass straight? Well, maybe you're just the lazy kind? Could you relate to any of this? Then give it a try!<\/p><p><br><br><\/p><hr><p><strong>NOTE<\/strong>: All parts should fit and be assembled properly. If you are having issues please send me a pm for assistance! Also let me know if you need the old files.<\/p><p>The old Mug Holder V1 will still continue to be available, but I've abandoned it completely. If you really want to use it instead, please print it at 0.2mm and 50% infill for the best performance. Keep in mind to adjust the file for the appropriate height.<\/p><hr><p><br><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><strong><em>Thank you so much for liking, collecting and downloading my files! This project was created as an entry for the Assistive Technology Challenge here on Thingiverse in order to gain a bit publicity and to spread it to the proper audience. Please follow me to get more printable assistive devices in the future!<\/em><\/strong><br><\/p><hr><p><strong>Disclaimer!<\/strong> <em>Use it at your own risk. I am not responsible for any harm that may occur to people and any object by flaws in your prints or inappropriate usage. Mine could handle a bit above 0.5kg as you can see on the bottle picture, but please be sure to carefully test its reliability before applying anything heavy onto it! Also be aware that the nuts and screws may not be perfect on every printer. Don't forget to try the test files at the top before printing everything!<\/em><br><\/p><hr><h4>#AssistiveTech<\/h4><h1>Mug Holder - Recidal Design<\/h1><p>Is for everyone who need help with lifting a cup, mug, glass, can, or even a bottle to drink. It can enable you to drink directly through a straw, as well as shorten the distance you would need for lifting it to your mouth. It is fully adjustable and should be mountable on most tables.<br><br><br>Because of its' <strong>fully modular<\/strong> nature you could easily put other stuff instead of the mug arm as well, still using the same base. You could turn it in to a phone holder, paper holder, card holder or anything that you'd like. I'll create more compatible arm-modules later on.<br><br><br><strong>Why not print an extra arm that you can place directly under your nose?<\/strong><br><em>Actually<\/em>, this might even benefit those of you without a disability. Ever felt like needing an extra hand? Maybe you are a gamer that wants to drink without taking your hands off the mouse and keyboard? Maybe you're a late night programmer or writer that desperately need you coffee while under pressure of a deadline? Do you often have one too many and can't hold the glass straight? Well, maybe you're just the lazy kind? Could you relate to any of this? Then give it a try!<\/p><p><br><br><\/p><hr><p><strong>NOTE<\/strong>: All parts should fit and be assembled properly. If you are having issues please send me a pm for assistance! Also let me know if you need the old files.<\/p><p>The old Mug Holder V1 will still continue to be available, but I've abandoned it completely. If you really want to use it instead, please print it at 0.2mm and 50% infill for the best performance. Keep in mind to adjust the file for the appropriate height.<\/p><hr><p><br><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Flashforge Dreamer<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>50%<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>I would recommend using these settings or higher infill, but less might work as well.<br><br><br><br><strong>Here is how you print the small screw to get the proper height<\/strong>. First of all, measure the table thickness, then add aproximately 20mm which is needed by the model. Subtract 140 with your number to get how far you should lower the screw beneath your build volume using the z-axis. In my case the table is around 37.5mm: <strong>140 - (37.5 + 20) = 82.5<\/strong>. That means a z-axis set to minus 82.5mm.<br><br><br><br><em>All the files below the wrench are optional. Please choose between 138mm\/198mm base.<\/em><\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>The main rule that I had in mind while creating this was that it should be fully printable without any other parts needed from a store. It would also have to be modular and fully adjustable in terms of table thickness and the needed height by the user. I'm always trying to avoid supports when designing things and this one is not an exception. All parts should work at 0.2mm without supports or rafts.<\/p><hr><p><br><br><\/p><h2>UPDATES<\/h2><p><strong>20151021<\/strong>: I've been busy with some other stuff for a few days, but I'm back on track with this project again. My printer is currently printing a few parts as I'm writing this. I'm taking the liberty to carefully test everything before handing out the files in case it has flaws. <\/p><p>Printing the whole thing will most likely take up to 24 hours at 0.2mm with 50% infill. Testing different nuts and resolutions probably took around 5-7 hours as well. It consumes a lot more plastic and time than I had anticipated. Would recommend to keep your spool size in mind while printing this. Used settings will be provided later.<\/p><hr><p><strong>20151025<\/strong>: Testing showed that it was a bit too loose at the base\/table, risking it to move if pushed. I'm doing some refinements of the design to fix this. Also increased the max mug\/glass\/cup size to ~88mm\/44mm (diagonal\/radius). It did however also hold the weight of a heavier cup of tea as well.<br><br><br><strong>Here's the first prototype of V2 before those changes:<\/strong><br><img src=\"http:\/\/www.recidal.com\/rd\/wip\/Recidal_Design_Mug_Holder_WiP.jpg\" alt=\"Recidal Design Mug Holder WiP\" title=\"Recidal Design - Mug Holder WiP\"><\/p><hr><p><strong>20151026<\/strong>: That moment when you realize you're running out of PLA and have to order more. I do have some transparent left though. Also got some Ninjaflex that probably will bend and break the cup\/glass in an instant - maybe even making me wet in the process. I felt like skipping that part, although it might have given you a laugh! :)<\/p><p>I've decided to include some fast and simple testing files for you to see how the parts will fit before printing the larger ones. Since some printers are having difficulties doing perfect circles this will surely help you save both time and plastic if it turns out bad. Hope you'll find it useful!<\/p><hr><p><strong>20151027<\/strong>: Reworked the nuts and screws some more. Oh, thats right, I added another smaller screw to hopefully tighten it more at the base.<\/p><hr><p><strong>20151028<\/strong>: Don't think the screws and nuts can get much better at this point. I've added the test files for download as promised. They shouldn't be too tight or too loose, but it might depend on your printer. Please let me know what you think! I'll start printing the updated version tomorrow. <\/p><p><em>Just to clarify<\/em>; the first prototype did work, but not as well as I had hoped!<\/p><hr><p><strong>20151029<\/strong>: Updated the text as I'm printing. <\/p><hr><p><strong>20151102<\/strong>: Took forever to print and I screwed up with the threads on the large black screw print. Which means that 12 hours was wasted. I've cleaned up the mess in the file and uploaded everything. Also added NinjaFlex add-ons.  <\/p><hr><p><strong>20151111<\/strong>: Updated some of the files. I've also been doing some changes to the base and other parts to eliminate the \"Base Top\" from turning while mounting on a table. Those will be updated shortly.<\/p><hr><p><strong>20151206<\/strong>: Been quiet on updates for a while, but everything is ready.to use now. I won't be doing any changes to the design from this point forward. It will however receive new modules for multipurpose. Thanks for reading my project!<\/p><hr><p><br><br><\/p><\/div><h1 class=\"thing-component-header custom background\">Background<\/h1><div><p><strong>I have a lot of experience with disabilities<\/strong> as seen from a first person view. I was born with a muscle disease and sometimes it feels like even the most basic thing can be a huge obstacle. Being able to take a sip of water, soda, or any other liquid without asking someone for help each time should be considered as crucial part in becoming slightly more independent. This was my aim with the \"Mug Holder\", hopefully giving people the ability to drink more independently as I know that it has helped me.<\/p><p><br><br><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><strong><em>Thank you so much for liking, collecting and downloading my files! This project was created as an entry for the Assistive Technology Challenge here on Thingiverse in order to gain a bit publicity and to spread it to the proper audience. Please follow me to get more printable assistive devices in the future!<\/em><\/strong><br><\/p><hr><p><strong>Disclaimer!<\/strong> <em>Use it at your own risk. I am not responsible for any harm that may occur to people and any object by flaws in your prints or inappropriate usage. Mine could handle a bit above 0.5kg as you can see on the bottle picture, but please be sure to carefully test its reliability before applying anything heavy onto it! Also be aware that the nuts and screws may not be perfect on every printer. Don't forget to try the test files at the top before printing everything!<\/em><br><\/p><hr><h4>#AssistiveTech<\/h4><h1>Mug Holder - Recidal Design<\/h1><p>Is for everyone who need help with lifting a cup, mug, glass, can, or even a bottle to drink. It can enable you to drink directly through a straw, as well as shorten the distance you would need for lifting it to your mouth. It is fully adjustable and should be mountable on most tables.<br><br><br>Because of its' <strong>fully modular<\/strong> nature you could easily put other stuff instead of the mug arm as well, still using the same base. You could turn it in to a phone holder, paper holder, card holder or anything that you'd like. I'll create more compatible arm-modules later on.<br><br><br><strong>Why not print an extra arm that you can place directly under your nose?<\/strong><br><em>Actually<\/em>, this might even benefit those of you without a disability. Ever felt like needing an extra hand? Maybe you are a gamer that wants to drink without taking your hands off the mouse and keyboard? Maybe you're a late night programmer or writer that desperately need you coffee while under pressure of a deadline? Do you often have one too many and can't hold the glass straight? Well, maybe you're just the lazy kind? Could you relate to any of this? Then give it a try!<\/p><p><br><br><\/p><hr><p><strong>NOTE<\/strong>: All parts should fit and be assembled properly. If you are having issues please send me a pm for assistance! Also let me know if you need the old files.<\/p><p>The old Mug Holder V1 will still continue to be available, but I've abandoned it completely. If you really want to use it instead, please print it at 0.2mm and 50% infill for the best performance. Keep in mind to adjust the file for the appropriate height.<\/p><hr><p><br><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Flashforge Dreamer<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2mm<\/p><\/div>\n",
+            "infill": "<div><p>50%<\/p><\/div>\n",
+            "notes": "<div><p>I would recommend using these settings or higher infill, but less might work as well.<br><br><br><br><strong>Here is how you print the small screw to get the proper height<\/strong>. First of all, measure the table thickness, then add aproximately 20mm which is needed by the model. Subtract 140 with your number to get how far you should lower the screw beneath your build volume using the z-axis. In my case the table is around 37.5mm: <strong>140 - (37.5 + 20) = 82.5<\/strong>. That means a z-axis set to minus 82.5mm.<br><br><br><br><em>All the files below the wrench are optional. Please choose between 138mm\/198mm base.<\/em><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>The main rule that I had in mind while creating this was that it should be fully printable without any other parts needed from a store. It would also have to be modular and fully adjustable in terms of table thickness and the needed height by the user. I'm always trying to avoid supports when designing things and this one is not an exception. All parts should work at 0.2mm without supports or rafts.<\/p><hr><p><br><br><\/p><h2>UPDATES<\/h2><p><strong>20151021<\/strong>: I've been busy with some other stuff for a few days, but I'm back on track with this project again. My printer is currently printing a few parts as I'm writing this. I'm taking the liberty to carefully test everything before handing out the files in case it has flaws. <\/p><p>Printing the whole thing will most likely take up to 24 hours at 0.2mm with 50% infill. Testing different nuts and resolutions probably took around 5-7 hours as well. It consumes a lot more plastic and time than I had anticipated. Would recommend to keep your spool size in mind while printing this. Used settings will be provided later.<\/p><hr><p><strong>20151025<\/strong>: Testing showed that it was a bit too loose at the base\/table, risking it to move if pushed. I'm doing some refinements of the design to fix this. Also increased the max mug\/glass\/cup size to ~88mm\/44mm (diagonal\/radius). It did however also hold the weight of a heavier cup of tea as well.<br><br><br><strong>Here's the first prototype of V2 before those changes:<\/strong><br><img src=\"http:\/\/www.recidal.com\/rd\/wip\/Recidal_Design_Mug_Holder_WiP.jpg\" alt=\"Recidal Design Mug Holder WiP\" title=\"Recidal Design - Mug Holder WiP\"><\/p><hr><p><strong>20151026<\/strong>: That moment when you realize you're running out of PLA and have to order more. I do have some transparent left though. Also got some Ninjaflex that probably will bend and break the cup\/glass in an instant - maybe even making me wet in the process. I felt like skipping that part, although it might have given you a laugh! :)<\/p><p>I've decided to include some fast and simple testing files for you to see how the parts will fit before printing the larger ones. Since some printers are having difficulties doing perfect circles this will surely help you save both time and plastic if it turns out bad. Hope you'll find it useful!<\/p><hr><p><strong>20151027<\/strong>: Reworked the nuts and screws some more. Oh, thats right, I added another smaller screw to hopefully tighten it more at the base.<\/p><hr><p><strong>20151028<\/strong>: Don't think the screws and nuts can get much better at this point. I've added the test files for download as promised. They shouldn't be too tight or too loose, but it might depend on your printer. Please let me know what you think! I'll start printing the updated version tomorrow. <\/p><p><em>Just to clarify<\/em>; the first prototype did work, but not as well as I had hoped!<\/p><hr><p><strong>20151029<\/strong>: Updated the text as I'm printing. <\/p><hr><p><strong>20151102<\/strong>: Took forever to print and I screwed up with the threads on the large black screw print. Which means that 12 hours was wasted. I've cleaned up the mess in the file and uploaded everything. Also added NinjaFlex add-ons.  <\/p><hr><p><strong>20151111<\/strong>: Updated some of the files. I've also been doing some changes to the base and other parts to eliminate the \"Base Top\" from turning while mounting on a table. Those will be updated shortly.<\/p><hr><p><strong>20151206<\/strong>: Been quiet on updates for a while, but everything is ready.to use now. I won't be doing any changes to the design from this point forward. It will however receive new modules for multipurpose. Thanks for reading my project!<\/p><hr><p><br><br><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Background",
+        "data": [
+          {
+            "content": "<div><p><strong>I have a lot of experience with disabilities<\/strong> as seen from a first person view. I was born with a muscle disease and sometimes it feels like even the most basic thing can be a huge obstacle. Being able to take a sip of water, soda, or any other liquid without asking someone for help each time should be considered as crucial part in becoming slightly more independent. This was my aim with the \"Mug Holder\", hopefully giving people the ability to drink more independently as I know that it has helped me.<\/p><p><br><br><\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1055109\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1055109\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1055109\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1055109\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1055109\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1055109\/tags",
+    "tags": [
+      {
+        "name": "123D",
+        "tag": "123d",
+        "url": "https:\/\/api.thingiverse.com\/tags\/123d",
+        "count": 257,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/123d\/things",
+        "absolute_url": "\/tag:123D"
+      },
+      {
+        "name": "Adjustable",
+        "tag": "adjustable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adjustable",
+        "count": 1608,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adjustable\/things",
+        "absolute_url": "\/tag:Adjustable"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device for elderly or disabled",
+        "tag": "assistive_device_for_elderly_or_disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled",
+        "count": 59,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled\/things",
+        "absolute_url": "\/tag:assistive_device_for_elderly_or_disabled"
+      },
+      {
+        "name": "Beverage assistive device",
+        "tag": "beverage_assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/beverage_assistive_device",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/beverage_assistive_device\/things",
+        "absolute_url": "\/tag:Beverage_assistive_device"
+      },
+      {
+        "name": "bottle holder",
+        "tag": "bottle_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bottle_holder",
+        "count": 704,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bottle_holder\/things",
+        "absolute_url": "\/tag:bottle_holder"
+      },
+      {
+        "name": "can",
+        "tag": "can",
+        "url": "https:\/\/api.thingiverse.com\/tags\/can",
+        "count": 1471,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/can\/things",
+        "absolute_url": "\/tag:can"
+      },
+      {
+        "name": "Can holder",
+        "tag": "can_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/can_holder",
+        "count": 206,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/can_holder\/things",
+        "absolute_url": "\/tag:Can_holder"
+      },
+      {
+        "name": "Coffee",
+        "tag": "coffee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/coffee",
+        "count": 4464,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/coffee\/things",
+        "absolute_url": "\/tag:Coffee"
+      },
+      {
+        "name": "cup holder",
+        "tag": "cup_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cup_holder",
+        "count": 2298,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cup_holder\/things",
+        "absolute_url": "\/tag:cup_holder"
+      },
+      {
+        "name": "desktop",
+        "tag": "desktop",
+        "url": "https:\/\/api.thingiverse.com\/tags\/desktop",
+        "count": 2210,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/desktop\/things",
+        "absolute_url": "\/tag:desktop"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "flashforge",
+        "tag": "flashforge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flashforge",
+        "count": 1915,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flashforge\/things",
+        "absolute_url": "\/tag:flashforge"
+      },
+      {
+        "name": "gamer",
+        "tag": "gamer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/gamer",
+        "count": 394,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/gamer\/things",
+        "absolute_url": "\/tag:gamer"
+      },
+      {
+        "name": "glass holder",
+        "tag": "glass_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/glass_holder",
+        "count": 112,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/glass_holder\/things",
+        "absolute_url": "\/tag:glass_holder"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 43000,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "mount",
+        "tag": "mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mount",
+        "count": 26839,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mount\/things",
+        "absolute_url": "\/tag:mount"
+      },
+      {
+        "name": "Mug holder",
+        "tag": "mug_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mug_holder",
+        "count": 176,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mug_holder\/things",
+        "absolute_url": "\/tag:Mug_holder"
+      },
+      {
+        "name": "nut",
+        "tag": "nut",
+        "url": "https:\/\/api.thingiverse.com\/tags\/nut",
+        "count": 2413,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/nut\/things",
+        "absolute_url": "\/tag:nut"
+      },
+      {
+        "name": "Recidal",
+        "tag": "recidal",
+        "url": "https:\/\/api.thingiverse.com\/tags\/recidal",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/recidal\/things",
+        "absolute_url": "\/tag:Recidal"
+      },
+      {
+        "name": "screw",
+        "tag": "screw",
+        "url": "https:\/\/api.thingiverse.com\/tags\/screw",
+        "count": 3802,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/screw\/things",
+        "absolute_url": "\/tag:screw"
+      },
+      {
+        "name": "tea",
+        "tag": "tea",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tea",
+        "count": 798,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tea\/things",
+        "absolute_url": "\/tag:tea"
+      },
+      {
+        "name": "teabag holder",
+        "tag": "teabag_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/teabag_holder",
+        "count": 71,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/teabag_holder\/things",
+        "absolute_url": "\/tag:teabag_holder"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1055109\/categories",
+    "file_count": 17,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3752,
+    "view_count": 6749,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 2,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "test_screw_small.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/19\/55\/5e\/1a\/test_screw_small.stl"
+        },
+        {
+          "name": "test_screw_large.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/84\/e1\/58\/6e\/test_screw_large.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Mug_Arm__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/33\/5f\/86\/67\/Mug_Holder_V2_Mug_Arm__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Top__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/fc\/eb\/cb\/2d\/Mug_Holder_V2_Base_Top__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Screw_198mm__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/be\/dc\/c1\/ca\/Mug_Holder_V2_Base_Screw_198mm__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Screw_138mm__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/37\/df\/a7\/53\/Mug_Holder_V2_Base_Screw_138mm__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Small_Screw__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/6c\/97\/6a\/2e\/Mug_Holder_V2_Small_Screw__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Nuts__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/ba\/07\/af\/6e\/Mug_Holder_V2_Nuts__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Wrench__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/36\/7e\/1e\/ba\/Mug_Holder_V2_Wrench__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Screw_198mm__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/3d\/f7\/2f\/9d\/Mug_Holder_V2_Extension_Screw_198mm__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Screw_138mm__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/bd\/b4\/2d\/a5\/Mug_Holder_V2_Extension_Screw_138mm__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Nut__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/12\/8a\/e3\/e3\/Mug_Holder_V2_Nut__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Nut__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/d2\/06\/49\/04\/Mug_Holder_V2_Extension_Nut__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Anti-Slip_Pad_NinjaFlex__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/cb\/89\/c0\/e6\/Mug_Holder_V2_Anti-Slip_Pad_NinjaFlex__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V2_Nut_Strip_NinjaFlex__Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/cd\/f1\/18\/c1\/Mug_Holder_V2_Nut_Strip_NinjaFlex__Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V1_Recidal_Design.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/1e\/d2\/0b\/35\/Mug_Holder_V1_Recidal_Design.stl"
+        },
+        {
+          "name": "Mug_Holder_V1_Recidal_Design.123dx",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/75\/01\/b3\/31\/Mug_Holder_V1_Recidal_Design.123dx"
+        }
+      ],
+      "images": [
+        {
+          "name": "Mug_Holder_v2_by_Recidal_Design_Pict2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/19\/4a\/c8\/73\/Mug_Holder_v2_by_Recidal_Design_Pict2.jpg"
+        },
+        {
+          "name": "Mug_Holder_v2_by_Recidal_Design_Pict1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/87\/e8\/23\/09\/Mug_Holder_v2_by_Recidal_Design_Pict1.jpg"
+        },
+        {
+          "name": "Mug_Holder_v2_by_Recidal_Design_Pict3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/84\/bd\/96\/4c\/Mug_Holder_v2_by_Recidal_Design_Pict3.jpg"
+        },
+        {
+          "name": "Mug_Holder_v2_by_Recidal_Design_Pict4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/7e\/87\/70\/29\/Mug_Holder_v2_by_Recidal_Design_Pict4.jpg"
+        },
+        {
+          "name": "Mug_Holder_v2__Testing_Parts__by_Recidal_Design.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/05\/8f\/76\/39\/Mug_Holder_v2__Testing_Parts__by_Recidal_Design.jpg"
+        },
+        {
+          "name": "Mug_Holder_v2__Mug_Arm__by_Recidal_Design.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/44\/7f\/d0\/d2\/Mug_Holder_v2__Mug_Arm__by_Recidal_Design.jpg"
+        },
+        {
+          "name": "Mug_Holder_v1_by_Recidal_Design.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/69\/4f\/38\/ad\/Mug_Holder_v1_by_Recidal_Design.jpg"
+        },
+        {
+          "name": "Mug_Holder_V1_Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bf\/c6\/8a\/e6\/cc\/Mug_Holder_V1_Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Mug_Arm__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/6f\/d5\/30\/28\/Mug_Holder_V2_Mug_Arm__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Wrench__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/69\/06\/d9\/e9\/1e\/Mug_Holder_V2_Wrench__Recidal_Design.png"
+        },
+        {
+          "name": "test_screw_small.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/b0\/c7\/f9\/4d\/test_screw_small.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Small_Screw__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f5\/35\/b8\/42\/36\/Mug_Holder_V2_Small_Screw__Recidal_Design.png"
+        },
+        {
+          "name": "test_screw_large.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f5\/27\/3d\/2a\/b2\/test_screw_large.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Nuts__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/15\/53\/d3\/c0\/3f\/Mug_Holder_V2_Nuts__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Nut__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/3b\/1d\/f3\/e8\/Mug_Holder_V2_Extension_Nut__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Nut__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/61\/31\/3e\/a2\/Mug_Holder_V2_Nut__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Anti-Slip_Pad_NinjaFlex__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/87\/32\/bc\/8f\/58\/Mug_Holder_V2_Anti-Slip_Pad_NinjaFlex__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Nut_Strip_NinjaFlex__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/76\/67\/aa\/80\/57\/Mug_Holder_V2_Nut_Strip_NinjaFlex__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Top__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cd\/78\/d4\/39\/90\/Mug_Holder_V2_Base_Top__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Screw_138mm__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/3f\/bb\/0e\/5d\/Mug_Holder_V2_Base_Screw_138mm__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Base_Screw_198mm__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/27\/12\/04\/af\/Mug_Holder_V2_Base_Screw_198mm__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Screw_138mm__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f7\/cd\/29\/76\/13\/Mug_Holder_V2_Extension_Screw_138mm__Recidal_Design.png"
+        },
+        {
+          "name": "Mug_Holder_V2_Extension_Screw_198mm__Recidal_Design.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e3\/59\/09\/08\/7b\/Mug_Holder_V2_Extension_Screw_198mm__Recidal_Design.png"
+        }
+      ]
+    }
+  }
+}

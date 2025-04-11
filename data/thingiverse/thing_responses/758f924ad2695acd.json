@@ -1,0 +1,573 @@
+{
+  "created_at": "2025-04-09T19:45:27.264716+00:00",
+  "elapsed": 0.192222,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81404cc31563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:27 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:27 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6841790?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6841790?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6841790,
+    "name": "Finger Blade for People with Hand Impairments",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/b2\/a1\/f6\/fd\/4f\/large_display_cutter_2.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6841790",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6841790",
+    "creator": {
+      "id": 8379269,
+      "name": "INNklusion",
+      "first_name": "Team",
+      "last_name": "INNklusion",
+      "url": "https:\/\/api.thingiverse.com\/users\/INNklusion",
+      "public_url": "https:\/\/www.thingiverse.com\/INNklusion",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/19\/d4\/6f\/28\/a1\/innklusion_profilbild.png",
+      "count_of_followers": 1,
+      "count_of_following": 0,
+      "count_of_designs": 2,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Innsbruck",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/82\/37\/44\/dd\/e4\/banner2.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-11-22T14:07:42+00:00",
+    "modified": "2024-11-22T14:10:43+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 9,
+    "is_liked": false,
+    "collect_count": 6,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21925632,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/7a\/fb\/4b\/73\/cutter_2.png",
+      "name": "cutter_2.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/70\/3c\/fd\/95\/large_thumb_cutter_2.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/3c\/86\/0d\/4a\/medium_thumb_cutter_2.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/9e\/76\/c0\/c0\/small_thumb_cutter_2.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/08\/aa\/01\/05\/tiny_thumb_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/e0\/e0\/43\/fc\/featured_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/e8\/6b\/d0\/63\/card_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/ca\/b9\/da\/1e\/large_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/ab\/d8\/28\/32\/medium_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/34\/46\/74\/c5\/small_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/02\/18\/2f\/98\/birdwing_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/c4\/79\/c5\/b9\/tiny_preview_cutter_2.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/07\/5c\/30\/f9\/tinycard_preview_cutter_2.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/a1\/f6\/fd\/4f\/large_display_cutter_2.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/40\/0e\/f8\/d7\/medium_display_cutter_2.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/b2\/96\/0f\/7d\/small_display_cutter_2.png"
+        }
+      ],
+      "added": "2024-11-22T14:07:42+00:00"
+    },
+    "description": "People with tetraplegia or other forms of limited hand mobility often struggle to use traditional utility knives to open packages or cut materials, as these tools require strength and fine motor skills that they may not possess.\n\nThe developed assistive solution is an innovative thimble with an integrated blade which can be 3D-printed. The thimble is worn over the finger, and the blade is securely fixed at the tip. The blade is positioned in such a way that it can be used safely and with control. Users do not need fine motor skills to operate the adapted cutter, as minimal finger movement activates the blade. Additionally, there is an integrated retraction mechanism to prevent injuries when the thimble is not in use.\n\nWe invite you to download and use this design to make everyday tasks a little easier for people with disabilities.\n\nYou can learn more about us and our projects by visiting our website: https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/\n\n#INNklusion",
+    "instructions": "",
+    "description_html": "<div><p>People with tetraplegia or other forms of limited hand mobility often struggle to use traditional utility knives to open packages or cut materials, as these tools require strength and fine motor skills that they may not possess.<\/p><p>The developed assistive solution is an innovative thimble with an integrated blade which can be 3D-printed. The thimble is worn over the finger, and the blade is securely fixed at the tip. The blade is positioned in such a way that it can be used safely and with control. Users do not need fine motor skills to operate the adapted cutter, as minimal finger movement activates the blade. Additionally, there is an integrated retraction mechanism to prevent injuries when the thimble is not in use.<\/p><p>We invite you to download and use this design to make everyday tasks a little easier for people with disabilities.<\/p><p>You can learn more about us and our projects by visiting our website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/\">https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/<\/a><\/p><h1>INNklusion<\/h1><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>People with tetraplegia or other forms of limited hand mobility often struggle to use traditional utility knives to open packages or cut materials, as these tools require strength and fine motor skills that they may not possess.<\/p><p>The developed assistive solution is an innovative thimble with an integrated blade which can be 3D-printed. The thimble is worn over the finger, and the blade is securely fixed at the tip. The blade is positioned in such a way that it can be used safely and with control. Users do not need fine motor skills to operate the adapted cutter, as minimal finger movement activates the blade. Additionally, there is an integrated retraction mechanism to prevent injuries when the thimble is not in use.<\/p><p>We invite you to download and use this design to make everyday tasks a little easier for people with disabilities.<\/p><p>You can learn more about us and our projects by visiting our website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/\">https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/<\/a><\/p><h1>INNklusion<\/h1><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>Each part is printed separately. The blade holder (blade_holder.stl) has three notches on its top surface where the blade is positioned. The blade, along with its holder, is then inserted into the rail housing (rail_housing.stl) to secure it. The thimble (thimble.stl) is attached to the rail housing using either a bolt or a long M4 screw. Finally, the cover (cover.stl) can be placed over the rail housing. For a firm hold, you may embed three magnets in each part - just make sure to align the magnetic polarity correctly.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>People with tetraplegia or other forms of limited hand mobility often struggle to use traditional utility knives to open packages or cut materials, as these tools require strength and fine motor skills that they may not possess.<\/p><p>The developed assistive solution is an innovative thimble with an integrated blade which can be 3D-printed. The thimble is worn over the finger, and the blade is securely fixed at the tip. The blade is positioned in such a way that it can be used safely and with control. Users do not need fine motor skills to operate the adapted cutter, as minimal finger movement activates the blade. Additionally, there is an integrated retraction mechanism to prevent injuries when the thimble is not in use.<\/p><p>We invite you to download and use this design to make everyday tasks a little easier for people with disabilities.<\/p><p>You can learn more about us and our projects by visiting our website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/\">https:\/\/www.uibk.ac.at\/de\/projects\/innklusion\/<\/a><\/p><h1>INNklusion<\/h1><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>20<\/p><\/div>\n",
+            "notes": "<div><p>Each part is printed separately. The blade holder (blade_holder.stl) has three notches on its top surface where the blade is positioned. The blade, along with its holder, is then inserted into the rail housing (rail_housing.stl) to secure it. The thimble (thimble.stl) is attached to the rail housing using either a bolt or a long M4 screw. Finally, the cover (cover.stl) can be placed over the rail housing. For a firm hold, you may embed three magnets in each part - just make sure to align the magnetic polarity correctly.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6841790\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6841790\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6841790\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6841790\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6841790\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6841790\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive device for elderly or disabled",
+        "tag": "assistive_device_for_elderly_or_disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled",
+        "count": 59,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled\/things",
+        "absolute_url": "\/tag:assistive_device_for_elderly_or_disabled"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disabilities",
+        "tag": "disabilities",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabilities",
+        "count": 54,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabilities\/things",
+        "absolute_url": "\/tag:disabilities"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "Disability aid",
+        "tag": "disability_aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability_aid",
+        "count": 96,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability_aid\/things",
+        "absolute_url": "\/tag:Disability_aid"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2138,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "inclusion",
+        "tag": "inclusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inclusion",
+        "count": 22,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inclusion\/things",
+        "absolute_url": "\/tag:inclusion"
+      },
+      {
+        "name": "inclusive",
+        "tag": "inclusive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inclusive",
+        "count": 28,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inclusive\/things",
+        "absolute_url": "\/tag:inclusive"
+      },
+      {
+        "name": "kitchen tool",
+        "tag": "kitchen_tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kitchen_tool",
+        "count": 1959,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kitchen_tool\/things",
+        "absolute_url": "\/tag:kitchen_tool"
+      },
+      {
+        "name": "technology",
+        "tag": "technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+        "count": 386,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+        "absolute_url": "\/tag:technology"
+      },
+      {
+        "name": "tool",
+        "tag": "tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tool",
+        "count": 12278,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tool\/things",
+        "absolute_url": "\/tag:tool"
+      },
+      {
+        "name": "tools",
+        "tag": "tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tools",
+        "count": 6802,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tools\/things",
+        "absolute_url": "\/tag:tools"
+      },
+      {
+        "name": "utility",
+        "tag": "utility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/utility",
+        "count": 691,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/utility\/things",
+        "absolute_url": "\/tag:utility"
+      },
+      {
+        "name": "utility blade",
+        "tag": "utility_blade",
+        "url": "https:\/\/api.thingiverse.com\/tags\/utility_blade",
+        "count": 166,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/utility_blade\/things",
+        "absolute_url": "\/tag:utility_blade"
+      },
+      {
+        "name": "utility knife",
+        "tag": "utility_knife",
+        "url": "https:\/\/api.thingiverse.com\/tags\/utility_knife",
+        "count": 355,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/utility_knife\/things",
+        "absolute_url": "\/tag:utility_knife"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6841790\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": 1926,
+    "download_count": 19,
+    "view_count": 425,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "blade_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/b5\/bd\/aa\/ea\/blade_holder.stl"
+        },
+        {
+          "name": "cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/72\/e6\/c6\/5d\/cover.stl"
+        },
+        {
+          "name": "rail_housing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/f9\/d8\/cc\/a7\/rail_housing.stl"
+        },
+        {
+          "name": "thimble.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/67\/2b\/e1\/36\/thimble.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "cutter_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/7a\/fb\/4b\/73\/cutter_2.png"
+        },
+        {
+          "name": "cutter_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/b8\/9a\/cd\/96\/cutter_1.png"
+        },
+        {
+          "name": "rail_housing.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/f0\/54\/6d\/a7\/rail_housing.png"
+        },
+        {
+          "name": "thimble.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/a5\/1a\/f3\/e2\/thimble.png"
+        },
+        {
+          "name": "cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/33\/2e\/51\/ad\/cover.png"
+        },
+        {
+          "name": "blade_holder.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/f7\/04\/e3\/27\/blade_holder.png"
+        }
+      ]
+    }
+  }
+}
