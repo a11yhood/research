@@ -1,0 +1,317 @@
+{
+  "created_at": "2025-04-15T03:38:55.021281+00:00",
+  "elapsed": 0.13911,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869ad0ebac95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:38:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:08:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1204700?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1204700?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1204700,
+    "name": "Wheelchair Cupholder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1204700",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1204700",
+    "creator": {
+      "id": 680645,
+      "name": "dboitnot",
+      "first_name": "Dan",
+      "last_name": "Boitnott",
+      "url": "https:\/\/api.thingiverse.com\/users\/dboitnot",
+      "public_url": "https:\/\/www.thingiverse.com\/dboitnot",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 12,
+      "count_of_following": 6,
+      "count_of_designs": 18,
+      "collection_count": 3,
+      "make_count": 4,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-12-16T15:26:10+00:00",
+    "modified": "2015-12-16T15:26:10+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 55,
+    "is_liked": false,
+    "collect_count": 141,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 3035250,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/9a\/52\/53\/31\/cup.png",
+      "name": "cup.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/ca\/21\/23\/91\/cup_display_small.jpg"
+        }
+      ],
+      "added": "2015-12-16T16:54:34+00:00"
+    },
+    "description": "**Important Note:** _This model was originally designed to be printed on a Stratasys-style powder-bed printer. When printing with an FDM process it requires a lot of support. I've uploaded an improved design specifically for FDM printing which requires no support:_ http:\/\/www.thingiverse.com\/thing:1204700\r\n\r\nA cupholder I designed for my wife's wheelchair (a Quickie P222). It works well for normal cups and glasses as well as coffee mugs. The opening on the side makes it easy to insert and remove stemmed wine glasses. This version is designed to lock into a swing-away arm.\r\n\r\nThe model was designed using Fusion 360 and can be accessed here:\r\n  \u2022\u00a0A360: http:\/\/a360.co\/1Qq4SLg\r\n  \u2022\u00a0Fusion 360 Gallery: https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder\r\n  \u2022 Attached STEP file: `cupholder_swing_away.stp`\r\n\r\nThe swing-away arm is for a Qtronix joystick. The part number is 882696 for right-hand or 882697 for left-hand. If you already have one, the swing-away assembly can be disassembled and reversed. Catalog link:\r\n\r\nhttps:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix\r\n\r\nBought new, these are rather expensive parts. Please comment with ideas for alternative mounting options.",
+    "instructions": "",
+    "description_html": "<div><p><strong>Important Note:<\/strong> <em>This model was originally designed to be printed on a Stratasys-style powder-bed printer. When printing with an FDM process it requires a lot of support. I've uploaded an improved design specifically for FDM printing which requires no support:<\/em> <a rel=\"ugc nofollow\" href=\"\/thing:1204700\">http:\/\/www.thingiverse.com\/thing:1204700<\/a><\/p><p>A cupholder I designed for my wife's wheelchair (a Quickie P222). It works well for normal cups and glasses as well as coffee mugs. The opening on the side makes it easy to insert and remove stemmed wine glasses. This version is designed to lock into a swing-away arm.<\/p><p>The model was designed using Fusion 360 and can be accessed here:<br>&bull;&nbsp;A360: <a rel=\"ugc nofollow\" href=\"http:\/\/a360.co\/1Qq4SLg\">http:\/\/a360.co\/1Qq4SLg<\/a><br>&bull;&nbsp;Fusion 360 Gallery: <a rel=\"ugc nofollow\" href=\"https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder\">https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder<\/a><br>&bull; Attached STEP file: <code>cupholder_swing_away.stp<\/code><\/p><p>The swing-away arm is for a Qtronix joystick. The part number is 882696 for right-hand or 882697 for left-hand. If you already have one, the swing-away assembly can be disassembled and reversed. Catalog link:<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix\">https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix<\/a><\/p><p>Bought new, these are rather expensive parts. Please comment with ideas for alternative mounting options.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><strong>Important Note:<\/strong> <em>This model was originally designed to be printed on a Stratasys-style powder-bed printer. When printing with an FDM process it requires a lot of support. I've uploaded an improved design specifically for FDM printing which requires no support:<\/em> <a rel=\"ugc nofollow\" href=\"\/thing:1204700\">http:\/\/www.thingiverse.com\/thing:1204700<\/a><\/p><p>A cupholder I designed for my wife's wheelchair (a Quickie P222). It works well for normal cups and glasses as well as coffee mugs. The opening on the side makes it easy to insert and remove stemmed wine glasses. This version is designed to lock into a swing-away arm.<\/p><p>The model was designed using Fusion 360 and can be accessed here:<br>&bull;&nbsp;A360: <a rel=\"ugc nofollow\" href=\"http:\/\/a360.co\/1Qq4SLg\">http:\/\/a360.co\/1Qq4SLg<\/a><br>&bull;&nbsp;Fusion 360 Gallery: <a rel=\"ugc nofollow\" href=\"https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder\">https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder<\/a><br>&bull; Attached STEP file: <code>cupholder_swing_away.stp<\/code><\/p><p>The swing-away arm is for a Qtronix joystick. The part number is 882696 for right-hand or 882697 for left-hand. If you already have one, the swing-away assembly can be disassembled and reversed. Catalog link:<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix\">https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix<\/a><\/p><p>Bought new, these are rather expensive parts. Please comment with ideas for alternative mounting options.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>LulzBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;TAZ 5&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>100<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Recommend printing with a strong material with 100% infill and full support.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><strong>Important Note:<\/strong> <em>This model was originally designed to be printed on a Stratasys-style powder-bed printer. When printing with an FDM process it requires a lot of support. I've uploaded an improved design specifically for FDM printing which requires no support:<\/em> <a rel=\"ugc nofollow\" href=\"\/thing:1204700\">http:\/\/www.thingiverse.com\/thing:1204700<\/a><\/p><p>A cupholder I designed for my wife's wheelchair (a Quickie P222). It works well for normal cups and glasses as well as coffee mugs. The opening on the side makes it easy to insert and remove stemmed wine glasses. This version is designed to lock into a swing-away arm.<\/p><p>The model was designed using Fusion 360 and can be accessed here:<br>&bull;&nbsp;A360: <a rel=\"ugc nofollow\" href=\"http:\/\/a360.co\/1Qq4SLg\">http:\/\/a360.co\/1Qq4SLg<\/a><br>&bull;&nbsp;Fusion 360 Gallery: <a rel=\"ugc nofollow\" href=\"https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder\">https:\/\/gallery.autodesk.com\/fusion-360\/projects\/wheelchair-cupholder<\/a><br>&bull; Attached STEP file: <code>cupholder_swing_away.stp<\/code><\/p><p>The swing-away arm is for a Qtronix joystick. The part number is 882696 for right-hand or 882697 for left-hand. If you already have one, the swing-away assembly can be disassembled and reversed. Catalog link:<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix\">https:\/\/www.quickie-wheelchairs.com\/wheelchair-parts\/sunrise-medical\/quickie-p222-se\/electronics\/qtronix-electronics\/swing-away-round-arm-joystick-mount-qtronix<\/a><\/p><p>Bought new, these are rather expensive parts. Please comment with ideas for alternative mounting options.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>LulzBot<\/p><\/div>\n",
+            "printer": "<div><p>TAZ 5<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "infill": "<div><p>100<\/p><\/div>\n",
+            "notes": "<div><p>Recommend printing with a strong material with 100% infill and full support.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1204700\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1204700\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1204700\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1204700\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1204700\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1204700\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "cupholder",
+        "tag": "cupholder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cupholder",
+        "count": 1321,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cupholder\/things",
+        "absolute_url": "\/tag:cupholder"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1204700\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1031,
+    "view_count": 2621,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "cupholder_swing_away.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/a7\/91\/90\/57\/cupholder_swing_away.stl"
+        },
+        {
+          "name": "cupholder_swing_away.stp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/b3\/a8\/d6\/25\/cupholder_swing_away.stp"
+        }
+      ],
+      "images": [
+        {
+          "name": "cup.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/9a\/52\/53\/31\/cup.png"
+        },
+        {
+          "name": "SA_joystick_rnd_mount-Qtronix.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/0b\/2c\/aa\/bd\/SA_joystick_rnd_mount-Qtronix.png"
+        },
+        {
+          "name": "cupholder_swing_away.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/de\/68\/84\/a8\/8e\/cupholder_swing_away.png"
+        }
+      ]
+    }
+  }
+}

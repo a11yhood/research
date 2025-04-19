@@ -1,0 +1,574 @@
+{
+  "created_at": "2025-04-11T03:34:56.615745+00:00",
+  "elapsed": 0.267323,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92e76e5a38ff2350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:56 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:56 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1191262?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1191262?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1191262,
+    "name": "FunMove Hand (Electronic Prosthetic Hand) - 1 Servo Motorization_ver.Sung",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1191262",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1191262",
+    "creator": {
+      "id": 496745,
+      "name": "FunMove",
+      "first_name": "Move",
+      "last_name": "Fun",
+      "url": "https:\/\/api.thingiverse.com\/users\/FunMove",
+      "public_url": "https:\/\/www.thingiverse.com\/FunMove",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4b\/a2\/1e\/4e\/d3\/61c77ea7274353f4c0a16e4ef23873c6_thumb_medium.jpg",
+      "count_of_followers": 55,
+      "count_of_following": 1,
+      "count_of_designs": 4,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pusan, Korea",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-12-11T07:38:31+00:00",
+    "modified": "2015-12-11T07:38:31+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 315,
+    "is_liked": false,
+    "collect_count": 571,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 3006585,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/91\/9b\/d9\/a4\/K-007.png",
+      "name": "K-007.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/be\/48\/8e\/c1\/K-007_display_small.jpg"
+        }
+      ],
+      "added": "2015-12-11T07:38:27+00:00"
+    },
+    "description": "\u25a0 design based on Flexy-Hand by Gyrobot.  \r\n\u25a0 New [ gauntlet & Motor housing ] Design by U Hyeon Sung\r\n\r\n\u25a0 FunMove redesign and modify to use Electronic Prosthetic Hand.  \r\n\r\n\u25a0 PREPARATION  \r\n1. 3D Printed FunMove Prosthetic Hand body  \r\n2. 1 (Arduino nano) or (Arduino Pro - mini)  \r\n3. 1 FSR(Pressure sensor) \r\n4. 1 Servo Motor (MG945 or MG946R)  \r\n5. resister( 10K & 1K ) and capacitor ( 220uf )  \r\n6. battery ( 5V ) or ( USB Port )  \r\n\r\nFunMove_Arduino instruction : https:\/\/goo.gl\/ImGJRc\r\n\r\n\u25cf FunMove is a NPO in Korea.\r\nWe believe that human's the simplest happiness come from physical activity.\r\nAccording to our belief, we are making prosthetic limb by utilizing Opensource hardware which are 3D printer and Arduino.\r\n\r\n\u25cf You can see what we are doing from below.\r\n- Developing 3D printed electronic prosthetic limb\r\n- Donating 3D printed prosthetic limb to disabled\r\n- Donating Opensource education to disabled so that they can build and modify their own prosthetic limb.\r\n- Building up donation ecosystem. (Beneficiaries has to donate a prosthetic and opensource education to another disabled)\r\n\r\n\u25cb website : http:\/\/www.fun-move.org\r\n\u25cb Facebook : https:\/\/goo.gl\/Ofiq7I\r\n\u25cb Community : https:\/\/www.facebook.com\/groups\/FunMove\/\r\n\r\n\u25cf \ud380\ubb34\ube0c\ub294 \"\uc778\uac04\uc740 \uc2e0\uccb4\ud65c\ub3d9\uc744 \ud1b5\ud574 \uc990\uac70\uc6c0\uc744 \ub290\ub080\ub2e4\"\ub77c\ub294 \ubbff\uc74c\uc73c\ub85c \uc8fc\ubcc0\uc5d0 \ud65c\ub3d9\uc758 \uc990\uac70\uc6c0\uc744 \uc783\uc5b4\ubc84\ub9ac\uc2e0\ubd84\ub4e4\uc5d0\uac8c \uc990\uac70\uc6c0\uc744 \ucc3e\uc544\ub4dc\ub9ac\uae30\uc704\ud574\r\n3D \ud504\ub9b0\ud130, \uc544\ub450\uc774\ub178 \ub4f1 \uc624\ud508\uc18c\uc2a4 \ud558\ub4dc\uc6e8\uc5b4\ub97c \ud65c\uc6a9\ud574 3D \ud504\ub9b0\ud305 \uc804\uc790 \uc758\uc218\ub97c \ub9cc\ub4e4\uc5b4 \uae30\ubd80\ud558\ub294 \ube44\uc601\ub9ac \ub2e8\uccb4\uc785\ub2c8\ub2e4.\r\n\r\n\u25cf \ud380\ubb34\ube0c\ub294 \uc544\ub798\uc640 \uac19\uc774 \ud65c\ub3d9\ud558\uace0\uc788\uc2b5\ub2c8\ub2e4.\r\n- 3D \ud504\ub9b0\ud305 \uc804\uc790\uc758\uc218 \uac1c\ubc1c\r\n- \uc7a5\uc560\uc778\uc5d0\uac8c \uc804\uc790\uc758\uc218 \uae30\ubd80\r\n- \uc624\ud508\uc18c\uc2a4 \ud558\ub4dc\uc6e8\uc5b4 \uad50\uc721 \uc81c\uacf5\r\n- \ub098\ub214\uc758 \uc120\uc21c\ud658 \uae30\ubd80\uc0dd\ud0dc\uacc4 \uc870\uc131\r\n\r\n\u25cb FunMove documentary : https:\/\/youtu.be\/ABJw2ARsiVE\r\n\u25cb What FunMove Does (English) : https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4\r\n\u25cb What FunMove Does (Korea) : https:\/\/youtu.be\/00PBz9IoKB8\r\n\u25cb FunMove UCC : https:\/\/youtu.be\/vR-SyuV6CWM",
+    "instructions": "",
+    "description_html": "<div><p>&#9632; design based on Flexy-Hand by Gyrobot.<br>&#9632; New [ gauntlet &amp; Motor housing ] Design by U Hyeon Sung<\/p><p>&#9632; FunMove redesign and modify to use Electronic Prosthetic Hand.  <\/p><p>&#9632; PREPARATION  <\/p><ol><li>3D Printed FunMove Prosthetic Hand body  <\/li><li>1 (Arduino nano) or (Arduino Pro - mini)  <\/li><li>1 FSR(Pressure sensor) <\/li><li>1 Servo Motor (MG945 or MG946R)  <\/li><li>resister( 10K &amp; 1K ) and capacitor ( 220uf )  <\/li><li>battery ( 5V ) or ( USB Port )  <\/li><\/ol><p>FunMove_Arduino instruction : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/ImGJRc\">https:\/\/goo.gl\/ImGJRc<\/a><\/p><p>&#9679; FunMove is a NPO in Korea.<br>We believe that human's the simplest happiness come from physical activity.<br>According to our belief, we are making prosthetic limb by utilizing Opensource hardware which are 3D printer and Arduino.<\/p><p>&#9679; You can see what we are doing from below.<\/p><ul><li>Developing 3D printed electronic prosthetic limb<\/li><li>Donating 3D printed prosthetic limb to disabled<\/li><li>Donating Opensource education to disabled so that they can build and modify their own prosthetic limb.<\/li><li>Building up donation ecosystem. (Beneficiaries has to donate a prosthetic and opensource education to another disabled)<\/li><\/ul><p>&#9675; website : <a rel=\"ugc nofollow\" href=\"http:\/\/www.fun-move.org\">http:\/\/www.fun-move.org<\/a><br>&#9675; Facebook : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/Ofiq7I\">https:\/\/goo.gl\/Ofiq7I<\/a><br>&#9675; Community : <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/FunMove\/\">https:\/\/www.facebook.com\/groups\/FunMove\/<\/a><\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; \"&#51064;&#44036;&#51008; &#49888;&#52404;&#54876;&#46041;&#51012; &#53685;&#54644; &#51600;&#44144;&#50880;&#51012; &#45712;&#45184;&#45796;\"&#46972;&#45716; &#48127;&#51020;&#51004;&#47196; &#51452;&#48320;&#50640; &#54876;&#46041;&#51032; &#51600;&#44144;&#50880;&#51012; &#51075;&#50612;&#48260;&#47532;&#49888;&#48516;&#46308;&#50640;&#44172; &#51600;&#44144;&#50880;&#51012; &#52286;&#50500;&#46300;&#47532;&#44592;&#50948;&#54644;<br>3D &#54532;&#47536;&#53552;, &#50500;&#46160;&#51060;&#45432; &#46321; &#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612;&#47484; &#54876;&#50857;&#54644; 3D &#54532;&#47536;&#54021; &#51204;&#51088; &#51032;&#49688;&#47484; &#47564;&#46308;&#50612; &#44592;&#48512;&#54616;&#45716; &#48708;&#50689;&#47532; &#45800;&#52404;&#51077;&#45768;&#45796;.<\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; &#50500;&#47000;&#50752; &#44057;&#51060; &#54876;&#46041;&#54616;&#44256;&#51080;&#49845;&#45768;&#45796;.<\/p><ul><li>3D &#54532;&#47536;&#54021; &#51204;&#51088;&#51032;&#49688; &#44060;&#48156;<\/li><li>&#51109;&#50528;&#51064;&#50640;&#44172; &#51204;&#51088;&#51032;&#49688; &#44592;&#48512;<\/li><li>&#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612; &#44368;&#50977; &#51228;&#44277;<\/li><li>&#45208;&#45588;&#51032; &#49440;&#49692;&#54872; &#44592;&#48512;&#49373;&#53468;&#44228; &#51312;&#49457;<\/li><\/ul><p>&#9675; FunMove documentary : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/ABJw2ARsiVE\">https:\/\/youtu.be\/ABJw2ARsiVE<\/a><br>&#9675; What FunMove Does (English) : <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4\">https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4<\/a><br>&#9675; What FunMove Does (Korea) : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/00PBz9IoKB8\">https:\/\/youtu.be\/00PBz9IoKB8<\/a><br>&#9675; FunMove UCC : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vR-SyuV6CWM\">https:\/\/youtu.be\/vR-SyuV6CWM<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>&#9632; design based on Flexy-Hand by Gyrobot.<br>&#9632; New [ gauntlet &amp; Motor housing ] Design by U Hyeon Sung<\/p><p>&#9632; FunMove redesign and modify to use Electronic Prosthetic Hand.  <\/p><p>&#9632; PREPARATION  <\/p><ol><li>3D Printed FunMove Prosthetic Hand body  <\/li><li>1 (Arduino nano) or (Arduino Pro - mini)  <\/li><li>1 FSR(Pressure sensor) <\/li><li>1 Servo Motor (MG945 or MG946R)  <\/li><li>resister( 10K &amp; 1K ) and capacitor ( 220uf )  <\/li><li>battery ( 5V ) or ( USB Port )  <\/li><\/ol><p>FunMove_Arduino instruction : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/ImGJRc\">https:\/\/goo.gl\/ImGJRc<\/a><\/p><p>&#9679; FunMove is a NPO in Korea.<br>We believe that human's the simplest happiness come from physical activity.<br>According to our belief, we are making prosthetic limb by utilizing Opensource hardware which are 3D printer and Arduino.<\/p><p>&#9679; You can see what we are doing from below.<\/p><ul><li>Developing 3D printed electronic prosthetic limb<\/li><li>Donating 3D printed prosthetic limb to disabled<\/li><li>Donating Opensource education to disabled so that they can build and modify their own prosthetic limb.<\/li><li>Building up donation ecosystem. (Beneficiaries has to donate a prosthetic and opensource education to another disabled)<\/li><\/ul><p>&#9675; website : <a rel=\"ugc nofollow\" href=\"http:\/\/www.fun-move.org\">http:\/\/www.fun-move.org<\/a><br>&#9675; Facebook : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/Ofiq7I\">https:\/\/goo.gl\/Ofiq7I<\/a><br>&#9675; Community : <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/FunMove\/\">https:\/\/www.facebook.com\/groups\/FunMove\/<\/a><\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; \"&#51064;&#44036;&#51008; &#49888;&#52404;&#54876;&#46041;&#51012; &#53685;&#54644; &#51600;&#44144;&#50880;&#51012; &#45712;&#45184;&#45796;\"&#46972;&#45716; &#48127;&#51020;&#51004;&#47196; &#51452;&#48320;&#50640; &#54876;&#46041;&#51032; &#51600;&#44144;&#50880;&#51012; &#51075;&#50612;&#48260;&#47532;&#49888;&#48516;&#46308;&#50640;&#44172; &#51600;&#44144;&#50880;&#51012; &#52286;&#50500;&#46300;&#47532;&#44592;&#50948;&#54644;<br>3D &#54532;&#47536;&#53552;, &#50500;&#46160;&#51060;&#45432; &#46321; &#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612;&#47484; &#54876;&#50857;&#54644; 3D &#54532;&#47536;&#54021; &#51204;&#51088; &#51032;&#49688;&#47484; &#47564;&#46308;&#50612; &#44592;&#48512;&#54616;&#45716; &#48708;&#50689;&#47532; &#45800;&#52404;&#51077;&#45768;&#45796;.<\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; &#50500;&#47000;&#50752; &#44057;&#51060; &#54876;&#46041;&#54616;&#44256;&#51080;&#49845;&#45768;&#45796;.<\/p><ul><li>3D &#54532;&#47536;&#54021; &#51204;&#51088;&#51032;&#49688; &#44060;&#48156;<\/li><li>&#51109;&#50528;&#51064;&#50640;&#44172; &#51204;&#51088;&#51032;&#49688; &#44592;&#48512;<\/li><li>&#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612; &#44368;&#50977; &#51228;&#44277;<\/li><li>&#45208;&#45588;&#51032; &#49440;&#49692;&#54872; &#44592;&#48512;&#49373;&#53468;&#44228; &#51312;&#49457;<\/li><\/ul><p>&#9675; FunMove documentary : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/ABJw2ARsiVE\">https:\/\/youtu.be\/ABJw2ARsiVE<\/a><br>&#9675; What FunMove Does (English) : <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4\">https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4<\/a><br>&#9675; What FunMove Does (Korea) : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/00PBz9IoKB8\">https:\/\/youtu.be\/00PBz9IoKB8<\/a><br>&#9675; FunMove UCC : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vR-SyuV6CWM\">https:\/\/youtu.be\/vR-SyuV6CWM<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Creatable D2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Sliced by Cura 15.04&lt;br&gt;Use PLA or ABS&lt;\/p&gt;&lt;p&gt;Nozzle size : 0.4&lt;br&gt;Layer height : 0.2&lt;br&gt;shell thickness : 0.8&lt;br&gt;bottom\/top thickness : 0.8 (Layer height x 4)&lt;br&gt;Print speed : 50&lt;br&gt;Nozzle temperature : 210&lt;br&gt;Bed temperature : 50&lt;br&gt;Filament Diameter : 1.75&lt;br&gt;Flow : 100%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>&#9632; design based on Flexy-Hand by Gyrobot.<br>&#9632; New [ gauntlet &amp; Motor housing ] Design by U Hyeon Sung<\/p><p>&#9632; FunMove redesign and modify to use Electronic Prosthetic Hand.  <\/p><p>&#9632; PREPARATION  <\/p><ol><li>3D Printed FunMove Prosthetic Hand body  <\/li><li>1 (Arduino nano) or (Arduino Pro - mini)  <\/li><li>1 FSR(Pressure sensor) <\/li><li>1 Servo Motor (MG945 or MG946R)  <\/li><li>resister( 10K &amp; 1K ) and capacitor ( 220uf )  <\/li><li>battery ( 5V ) or ( USB Port )  <\/li><\/ol><p>FunMove_Arduino instruction : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/ImGJRc\">https:\/\/goo.gl\/ImGJRc<\/a><\/p><p>&#9679; FunMove is a NPO in Korea.<br>We believe that human's the simplest happiness come from physical activity.<br>According to our belief, we are making prosthetic limb by utilizing Opensource hardware which are 3D printer and Arduino.<\/p><p>&#9679; You can see what we are doing from below.<\/p><ul><li>Developing 3D printed electronic prosthetic limb<\/li><li>Donating 3D printed prosthetic limb to disabled<\/li><li>Donating Opensource education to disabled so that they can build and modify their own prosthetic limb.<\/li><li>Building up donation ecosystem. (Beneficiaries has to donate a prosthetic and opensource education to another disabled)<\/li><\/ul><p>&#9675; website : <a rel=\"ugc nofollow\" href=\"http:\/\/www.fun-move.org\">http:\/\/www.fun-move.org<\/a><br>&#9675; Facebook : <a rel=\"ugc nofollow\" href=\"https:\/\/goo.gl\/Ofiq7I\">https:\/\/goo.gl\/Ofiq7I<\/a><br>&#9675; Community : <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/FunMove\/\">https:\/\/www.facebook.com\/groups\/FunMove\/<\/a><\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; \"&#51064;&#44036;&#51008; &#49888;&#52404;&#54876;&#46041;&#51012; &#53685;&#54644; &#51600;&#44144;&#50880;&#51012; &#45712;&#45184;&#45796;\"&#46972;&#45716; &#48127;&#51020;&#51004;&#47196; &#51452;&#48320;&#50640; &#54876;&#46041;&#51032; &#51600;&#44144;&#50880;&#51012; &#51075;&#50612;&#48260;&#47532;&#49888;&#48516;&#46308;&#50640;&#44172; &#51600;&#44144;&#50880;&#51012; &#52286;&#50500;&#46300;&#47532;&#44592;&#50948;&#54644;<br>3D &#54532;&#47536;&#53552;, &#50500;&#46160;&#51060;&#45432; &#46321; &#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612;&#47484; &#54876;&#50857;&#54644; 3D &#54532;&#47536;&#54021; &#51204;&#51088; &#51032;&#49688;&#47484; &#47564;&#46308;&#50612; &#44592;&#48512;&#54616;&#45716; &#48708;&#50689;&#47532; &#45800;&#52404;&#51077;&#45768;&#45796;.<\/p><p>&#9679; &#54144;&#47924;&#48652;&#45716; &#50500;&#47000;&#50752; &#44057;&#51060; &#54876;&#46041;&#54616;&#44256;&#51080;&#49845;&#45768;&#45796;.<\/p><ul><li>3D &#54532;&#47536;&#54021; &#51204;&#51088;&#51032;&#49688; &#44060;&#48156;<\/li><li>&#51109;&#50528;&#51064;&#50640;&#44172; &#51204;&#51088;&#51032;&#49688; &#44592;&#48512;<\/li><li>&#50724;&#54536;&#49548;&#49828; &#54616;&#46300;&#50920;&#50612; &#44368;&#50977; &#51228;&#44277;<\/li><li>&#45208;&#45588;&#51032; &#49440;&#49692;&#54872; &#44592;&#48512;&#49373;&#53468;&#44228; &#51312;&#49457;<\/li><\/ul><p>&#9675; FunMove documentary : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/ABJw2ARsiVE\">https:\/\/youtu.be\/ABJw2ARsiVE<\/a><br>&#9675; What FunMove Does (English) : <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4\">https:\/\/www.youtube.com\/watch?v=2CJTqFPWdG4<\/a><br>&#9675; What FunMove Does (Korea) : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/00PBz9IoKB8\">https:\/\/youtu.be\/00PBz9IoKB8<\/a><br>&#9675; FunMove UCC : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vR-SyuV6CWM\">https:\/\/youtu.be\/vR-SyuV6CWM<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Creatable D2<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>20<\/p><\/div>\n",
+            "notes": "<div><p>Sliced by Cura 15.04<br>Use PLA or ABS<\/p><p>Nozzle size : 0.4<br>Layer height : 0.2<br>shell thickness : 0.8<br>bottom\/top thickness : 0.8 (Layer height x 4)<br>Print speed : 50<br>Nozzle temperature : 210<br>Bed temperature : 50<br>Filament Diameter : 1.75<br>Flow : 100%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1191262\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1191262\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1191262\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1191262\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1191262\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1191262\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1191262\/categories",
+    "file_count": 10,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 5133,
+    "view_count": 17835,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 5,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 797558,
+        "name": "FunMove Hand (Electronic Prosthetic Hand) - 1 Servo Motorization_ver.KKB",
+        "url": "https:\/\/api.thingiverse.com\/things\/797558",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:797558",
+        "created_at": "2015-04-28T14:46:07+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/19\/85\/ac\/75\/52\/K-006_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/19\/85\/ac\/75\/52\/K-006_preview_card.jpg",
+        "creator": {
+          "id": 496745,
+          "name": "FunMove",
+          "first_name": "Move",
+          "last_name": "Fun",
+          "url": "https:\/\/api.thingiverse.com\/users\/FunMove",
+          "public_url": "https:\/\/www.thingiverse.com\/FunMove",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4b\/a2\/1e\/4e\/d3\/61c77ea7274353f4c0a16e4ef23873c6_thumb_medium.jpg",
+          "count_of_followers": 55,
+          "count_of_following": 1,
+          "count_of_designs": 4,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Pusan, Korea",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 3,
+        "make_count": 0,
+        "like_count": 240,
+        "tags": [
+          {
+            "name": "Aim",
+            "tag": "aim",
+            "url": "https:\/\/api.thingiverse.com\/tags\/aim",
+            "count": 85,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/aim\/things",
+            "absolute_url": "\/tag:Aim"
+          },
+          {
+            "name": "arduino",
+            "tag": "arduino",
+            "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+            "count": 10220,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+            "absolute_url": "\/tag:arduino"
+          },
+          {
+            "name": "arm",
+            "tag": "arm",
+            "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+            "count": 1718,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+            "absolute_url": "\/tag:arm"
+          },
+          {
+            "name": "Flexy-Hand",
+            "tag": "flexy-hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand",
+            "count": 23,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand\/things",
+            "absolute_url": "\/tag:Flexy-Hand"
+          },
+          {
+            "name": "FunMove",
+            "tag": "funmove",
+            "url": "https:\/\/api.thingiverse.com\/tags\/funmove",
+            "count": 3,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/funmove\/things",
+            "absolute_url": "\/tag:FunMove"
+          },
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "prosthetics",
+            "tag": "prosthetics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+            "count": 99,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+            "absolute_url": "\/tag:prosthetics"
+          },
+          {
+            "name": "Prosthetic hand",
+            "tag": "prosthetic_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+            "count": 228,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+            "absolute_url": "\/tag:Prosthetic_hand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 451,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1275967,
+        "name": "FunMove Hand(Electronic Prosthetic Hand) - (1 or 3) Servo Motorization + Movable Thumb_ver.Chang",
+        "url": "https:\/\/api.thingiverse.com\/things\/1275967",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1275967",
+        "created_at": "2016-01-18T07:54:06+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c4\/bf\/2e\/3c\/b8\/4a47a0db6e60853dedfcfdf08a5ca249_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/c4\/bf\/2e\/3c\/b8\/4a47a0db6e60853dedfcfdf08a5ca249_preview_card.jpg",
+        "creator": {
+          "id": 496745,
+          "name": "FunMove",
+          "first_name": "Move",
+          "last_name": "Fun",
+          "url": "https:\/\/api.thingiverse.com\/users\/FunMove",
+          "public_url": "https:\/\/www.thingiverse.com\/FunMove",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4b\/a2\/1e\/4e\/d3\/61c77ea7274353f4c0a16e4ef23873c6_thumb_medium.jpg",
+          "count_of_followers": 55,
+          "count_of_following": 1,
+          "count_of_designs": 4,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Pusan, Korea",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 9,
+        "make_count": 1,
+        "like_count": 134,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 254,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1055970,
+        "name": "Mini movable Hand_FunMove",
+        "url": "https:\/\/api.thingiverse.com\/things\/1055970",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1055970",
+        "created_at": "2015-10-06T13:05:08+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e9\/e0\/52\/fc\/f2\/K-004_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/e9\/e0\/52\/fc\/f2\/K-004_preview_card.jpg",
+        "creator": {
+          "id": 496745,
+          "name": "FunMove",
+          "first_name": "Move",
+          "last_name": "Fun",
+          "url": "https:\/\/api.thingiverse.com\/users\/FunMove",
+          "public_url": "https:\/\/www.thingiverse.com\/FunMove",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4b\/a2\/1e\/4e\/d3\/61c77ea7274353f4c0a16e4ef23873c6_thumb_medium.jpg",
+          "count_of_followers": 55,
+          "count_of_following": 1,
+          "count_of_designs": 4,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Pusan, Korea",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 0,
+        "like_count": 17,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 27,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "FunMove_LH_Palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/b0\/d8\/7e\/22\/FunMove_LH_Palm.stl"
+        },
+        {
+          "name": "FunMove_LH_Handcover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/1e\/6d\/45\/28\/FunMove_LH_Handcover.stl"
+        },
+        {
+          "name": "FunMove_LH_Palm_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/4a\/d1\/dd\/14\/FunMove_LH_Palm_2.stl"
+        },
+        {
+          "name": "FunMove_LH_Cover_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/55\/68\/42\/cf\/FunMove_LH_Cover_2.stl"
+        },
+        {
+          "name": "FunMove_LH_Finger.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/08\/6d\/34\/84\/FunMove_LH_Finger.stl"
+        },
+        {
+          "name": "FunMove_Finger_Joint.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/89\/b2\/06\/6f\/FunMove_Finger_Joint.stl"
+        },
+        {
+          "name": "FunMove_Motor_housing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/ee\/5f\/77\/b3\/FunMove_Motor_housing.stl"
+        },
+        {
+          "name": "FunMove_Gauntlet_part1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/d0\/df\/8f\/b0\/FunMove_Gauntlet_part1.stl"
+        },
+        {
+          "name": "FunMove_Gauntlet_part2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/ff\/da\/0e\/a4\/FunMove_Gauntlet_part2.stl"
+        },
+        {
+          "name": "FunMove_Hand_1Servo_motorization_Source_Code.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/93\/cf\/a9\/13\/FunMove_Hand_1Servo_motorization_Source_Code.ino"
+        }
+      ],
+      "images": [
+        {
+          "name": "K-007.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/91\/9b\/d9\/a4\/K-007.png"
+        },
+        {
+          "name": "FunMove_LH_Palm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/67\/2b\/6b\/4f\/FunMove_LH_Palm.png"
+        },
+        {
+          "name": "FunMove_LH_Handcover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ba\/4f\/7a\/27\/3b\/FunMove_LH_Handcover.png"
+        },
+        {
+          "name": "FunMove_LH_Palm_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f0\/c5\/71\/38\/25\/FunMove_LH_Palm_2.png"
+        },
+        {
+          "name": "0a610f20916da61fcd65fa0bc185bade.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/9c\/3d\/98\/28\/0a610f20916da61fcd65fa0bc185bade.png"
+        },
+        {
+          "name": "FunMove_LH_Finger.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/b0\/ee\/39\/63\/FunMove_LH_Finger.png"
+        },
+        {
+          "name": "FunMove_Finger_Joint.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6a\/ae\/77\/3e\/21\/FunMove_Finger_Joint.png"
+        },
+        {
+          "name": "FunMove_Motor_housing.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/97\/b4\/02\/b3\/FunMove_Motor_housing.png"
+        },
+        {
+          "name": "FunMove_Gauntlet_part1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/16\/ae\/46\/84\/32\/FunMove_Gauntlet_part1.png"
+        },
+        {
+          "name": "FunMove_Gauntlet_part2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/47\/df\/03\/19\/22\/FunMove_Gauntlet_part2.png"
+        },
+        {
+          "name": "ver2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/6f\/b9\/0a\/6a\/ver2.png"
+        },
+        {
+          "name": "1Servo_motorization.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/b6\/23\/1e\/e2\/1Servo_motorization.jpg"
+        }
+      ]
+    }
+  }
+}

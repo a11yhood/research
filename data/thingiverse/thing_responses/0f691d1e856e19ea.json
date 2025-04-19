@@ -1,0 +1,526 @@
+{
+  "created_at": "2025-04-09T19:45:24.857723+00:00",
+  "elapsed": 0.194945,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81313b0e1563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:24 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:24 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6736769?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6736769?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6736769,
+    "name": "Kinetic Arm",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/37\/ca\/9c\/ff\/2c\/large_display_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6736769",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6736769",
+    "creator": {
+      "id": 755417,
+      "name": "MatBowtell",
+      "first_name": "Mat",
+      "last_name": "Bowtell",
+      "url": "https:\/\/api.thingiverse.com\/users\/MatBowtell",
+      "public_url": "https:\/\/www.thingiverse.com\/MatBowtell",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/bf\/6d\/4a\/a3\/2a\/b78aefa4-902e-4a0e-9aaf-7883926e795a.png",
+      "count_of_followers": 120,
+      "count_of_following": 1,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Melbourne, Australia",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/86\/e5\/53\/4c\/05\/0734c29e-3388-49a0-acc1-9d2a3e9fb5d8.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-09-11T23:58:25+00:00",
+    "modified": "2024-09-11T23:58:25+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 334,
+    "is_liked": false,
+    "collect_count": 117,
+    "is_collected": false,
+    "comment_count": 13,
+    "is_watched": false,
+    "default_image": {
+      "id": 21529277,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/50\/e2\/fa\/ae\/0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png",
+      "name": "0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/b1\/a5\/ea\/02\/large_thumb_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/7e\/74\/57\/79\/medium_thumb_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/d9\/5d\/36\/fc\/small_thumb_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/6e\/83\/47\/d6\/tiny_thumb_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/2c\/16\/13\/e3\/featured_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/37\/ce\/78\/90\/card_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/a4\/a6\/3c\/3f\/large_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/7f\/83\/36\/29\/medium_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/4a\/21\/ec\/8d\/small_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/96\/58\/65\/bb\/birdwing_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/0e\/68\/fa\/16\/tiny_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/3f\/9b\/31\/62\/tinycard_preview_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/ca\/9c\/ff\/2c\/large_display_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/59\/aa\/bd\/ce\/medium_display_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/a6\/8c\/7d\/95\/small_display_0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        }
+      ],
+      "added": "2024-08-20T00:14:25+00:00"
+    },
+    "description": "According to the World Health Organisation, currently 90% of the global population who need assistive technology cannot access or afford it. \r\n\r\nAt Free 3D Hands, we believe in a world where assistive technology is accessible to everyone. \r\n\r\nFree 3D Hands is an Australian charity that designs and provides high-quality, low-cost assistive devices for people with upper limb differences, completely free of charge to anyone, anywhere in the world. We even pay the postage. \r\n\r\nWe share all of our designs under open-source licenses, enabling people worldwide to create and repair their own devices. This approach not only democratises access to assistive technology but also encourages further innovation in this field. \r\n\r\nThe Kinetic Arm is our gift to the world, driven by the hope of creating equal access to assistive technology for all. It is through global collaboration that we can create an exponential impact. \r\n\r\nSharing of the Kinetic Arm design under an open-source license is a milestone made possible by the unwavering support of our incredible community. \r\n\r\nFree 3D Hands is a charitable research and design organisation that relies entirely on donations to continue our mission. We are deeply grateful to our corporate sponsors, philanthropic supporters, community groups, and ongoing, one-time and anonymous donors. Your generosity and belief in our vision has enabled our dedicated team to devote over 4,000 hours over the past 2.5 years to developing the Kinetic Arm, as well as the assembly manual and instructional video over the last 4 months.\r\n\r\nThank you for believing in our vision and for helping us bring the Kinetic Arm to life.\r\n\r\nThe Kinetic Arm is a body-powered device, and is designed to be used by people with trans-radial arm differences, with a functioning elbow to open and close the fingers of the device. The wrist can also rotate into multiple grasp positions. \r\n\r\nThe included 247 page Kinetic Arm Assembly Manual has been developed by our engineering team to be as visual as possible. Each section of the manual links to a Kinetic Arm Assembly Tutorial Video on YouTube to share all of our assembly techniques. \r\n\r\nThe Kinetic Arm Assembly Tutorial Video can be viewed at: https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8\r\n\r\nIf you have any questions regarding the Kinetic Arm or the Kinetic Arm Assembly Manual, please do not hesitate to reach out to us at Free 3D Hands. We would also love to add your Kinetic Arm makes to our Collaborators Wall in the Free 3D Hands Design Centre. Please email us your questions\/photos to info@free3dhands.org. We would love to see how you are changing the world, one arm at a time.\r\n\r\nThe Kinetic Arm design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.\r\nThis design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific trans-radial arm differences and is not intended, and shall not be used, for commercial purposes.\r\nThe acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Arm must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Arm is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with allied health professionals must be sought and obtained before use.\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>According to the World Health Organisation, currently 90% of the global population who need assistive technology cannot access or afford it. <\/p><p>At Free 3D Hands, we believe in a world where assistive technology is accessible to everyone. <\/p><p>Free 3D Hands is an Australian charity that designs and provides high-quality, low-cost assistive devices for people with upper limb differences, completely free of charge to anyone, anywhere in the world. We even pay the postage. <\/p><p>We share all of our designs under open-source licenses, enabling people worldwide to create and repair their own devices. This approach not only democratises access to assistive technology but also encourages further innovation in this field. <\/p><p>The Kinetic Arm is our gift to the world, driven by the hope of creating equal access to assistive technology for all. It is through global collaboration that we can create an exponential impact. <\/p><p>Sharing of the Kinetic Arm design under an open-source license is a milestone made possible by the unwavering support of our incredible community. <\/p><p>Free 3D Hands is a charitable research and design organisation that relies entirely on donations to continue our mission. We are deeply grateful to our corporate sponsors, philanthropic supporters, community groups, and ongoing, one-time and anonymous donors. Your generosity and belief in our vision has enabled our dedicated team to devote over 4,000 hours over the past 2.5 years to developing the Kinetic Arm, as well as the assembly manual and instructional video over the last 4 months.<\/p><p>Thank you for believing in our vision and for helping us bring the Kinetic Arm to life.<\/p><p>The Kinetic Arm is a body-powered device, and is designed to be used by people with trans-radial arm differences, with a functioning elbow to open and close the fingers of the device. The wrist can also rotate into multiple grasp positions. <\/p><p>The included 247 page Kinetic Arm Assembly Manual has been developed by our engineering team to be as visual as possible. Each section of the manual links to a Kinetic Arm Assembly Tutorial Video on YouTube to share all of our assembly techniques. <\/p><p>The Kinetic Arm Assembly Tutorial Video can be viewed at: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8\">https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8<\/a><\/p><p>If you have any questions regarding the Kinetic Arm or the Kinetic Arm Assembly Manual, please do not hesitate to reach out to us at Free 3D Hands. We would also love to add your Kinetic Arm makes to our Collaborators Wall in the Free 3D Hands Design Centre. Please email us your questions\/photos to info@free3dhands.org. We would love to see how you are changing the world, one arm at a time.<\/p><p>The Kinetic Arm design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific trans-radial arm differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Arm must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Arm is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with allied health professionals must be sought and obtained before use.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>According to the World Health Organisation, currently 90% of the global population who need assistive technology cannot access or afford it. <\/p><p>At Free 3D Hands, we believe in a world where assistive technology is accessible to everyone. <\/p><p>Free 3D Hands is an Australian charity that designs and provides high-quality, low-cost assistive devices for people with upper limb differences, completely free of charge to anyone, anywhere in the world. We even pay the postage. <\/p><p>We share all of our designs under open-source licenses, enabling people worldwide to create and repair their own devices. This approach not only democratises access to assistive technology but also encourages further innovation in this field. <\/p><p>The Kinetic Arm is our gift to the world, driven by the hope of creating equal access to assistive technology for all. It is through global collaboration that we can create an exponential impact. <\/p><p>Sharing of the Kinetic Arm design under an open-source license is a milestone made possible by the unwavering support of our incredible community. <\/p><p>Free 3D Hands is a charitable research and design organisation that relies entirely on donations to continue our mission. We are deeply grateful to our corporate sponsors, philanthropic supporters, community groups, and ongoing, one-time and anonymous donors. Your generosity and belief in our vision has enabled our dedicated team to devote over 4,000 hours over the past 2.5 years to developing the Kinetic Arm, as well as the assembly manual and instructional video over the last 4 months.<\/p><p>Thank you for believing in our vision and for helping us bring the Kinetic Arm to life.<\/p><p>The Kinetic Arm is a body-powered device, and is designed to be used by people with trans-radial arm differences, with a functioning elbow to open and close the fingers of the device. The wrist can also rotate into multiple grasp positions. <\/p><p>The included 247 page Kinetic Arm Assembly Manual has been developed by our engineering team to be as visual as possible. Each section of the manual links to a Kinetic Arm Assembly Tutorial Video on YouTube to share all of our assembly techniques. <\/p><p>The Kinetic Arm Assembly Tutorial Video can be viewed at: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8\">https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8<\/a><\/p><p>If you have any questions regarding the Kinetic Arm or the Kinetic Arm Assembly Manual, please do not hesitate to reach out to us at Free 3D Hands. We would also love to add your Kinetic Arm makes to our Collaborators Wall in the Free 3D Hands Design Centre. Please email us your questions\/photos to info@free3dhands.org. We would love to see how you are changing the world, one arm at a time.<\/p><p>The Kinetic Arm design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific trans-radial arm differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Arm must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Arm is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with allied health professionals must be sought and obtained before use.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Bambulabs<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Bambu X1C<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.4mm nozzle, 0.2mm layers<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>Part-specific details in assembly manual<\/p><\/div>                                                        <strong>Filament:<\/strong> Not Relevant PLA\/PLA+, Elastic TPU                    Single \/ Multiple                                        <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Part-specific print settings are detailed in the assembly manual included in the download files.<br>If your slicer software accepts .STEP files, we recommend downloading and using these. Only use the .STL files when .STEP files are not accepted by the slicer software. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>According to the World Health Organisation, currently 90% of the global population who need assistive technology cannot access or afford it. <\/p><p>At Free 3D Hands, we believe in a world where assistive technology is accessible to everyone. <\/p><p>Free 3D Hands is an Australian charity that designs and provides high-quality, low-cost assistive devices for people with upper limb differences, completely free of charge to anyone, anywhere in the world. We even pay the postage. <\/p><p>We share all of our designs under open-source licenses, enabling people worldwide to create and repair their own devices. This approach not only democratises access to assistive technology but also encourages further innovation in this field. <\/p><p>The Kinetic Arm is our gift to the world, driven by the hope of creating equal access to assistive technology for all. It is through global collaboration that we can create an exponential impact. <\/p><p>Sharing of the Kinetic Arm design under an open-source license is a milestone made possible by the unwavering support of our incredible community. <\/p><p>Free 3D Hands is a charitable research and design organisation that relies entirely on donations to continue our mission. We are deeply grateful to our corporate sponsors, philanthropic supporters, community groups, and ongoing, one-time and anonymous donors. Your generosity and belief in our vision has enabled our dedicated team to devote over 4,000 hours over the past 2.5 years to developing the Kinetic Arm, as well as the assembly manual and instructional video over the last 4 months.<\/p><p>Thank you for believing in our vision and for helping us bring the Kinetic Arm to life.<\/p><p>The Kinetic Arm is a body-powered device, and is designed to be used by people with trans-radial arm differences, with a functioning elbow to open and close the fingers of the device. The wrist can also rotate into multiple grasp positions. <\/p><p>The included 247 page Kinetic Arm Assembly Manual has been developed by our engineering team to be as visual as possible. Each section of the manual links to a Kinetic Arm Assembly Tutorial Video on YouTube to share all of our assembly techniques. <\/p><p>The Kinetic Arm Assembly Tutorial Video can be viewed at: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8\">https:\/\/www.youtube.com\/watch?v=OC6OgWWjTK8<\/a><\/p><p>If you have any questions regarding the Kinetic Arm or the Kinetic Arm Assembly Manual, please do not hesitate to reach out to us at Free 3D Hands. We would also love to add your Kinetic Arm makes to our Collaborators Wall in the Free 3D Hands Design Centre. Please email us your questions\/photos to info@free3dhands.org. We would love to see how you are changing the world, one arm at a time.<\/p><p>The Kinetic Arm design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific trans-radial arm differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Arm must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Arm is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with allied health professionals must be sought and obtained before use.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Bambulabs<\/p><\/div>\n",
+            "printer": "<div><p>Bambu X1C<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.4mm nozzle, 0.2mm layers<\/p><\/div>\n",
+            "infill": "<div><p>Part-specific details in assembly manual<\/p><\/div>\n",
+            "filament_brand": "<div><p>Not Relevant<\/p><\/div>\n",
+            "filament_color": "<div><p>Single \/ Multiple<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA\/PLA+, Elastic TPU<\/p><\/div>\n",
+            "notes": "<div><p>Part-specific print settings are detailed in the assembly manual included in the download files.<br>If your slicer software accepts .STEP files, we recommend downloading and using these. Only use the .STL files when .STEP files are not accepted by the slicer software. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6736769\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6736769\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6736769\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6736769\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6736769\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6736769\/tags",
+    "tags": [
+      {
+        "name": "3D printing",
+        "tag": "3d_printing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printing",
+        "count": 11215,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printing\/things",
+        "absolute_url": "\/tag:3D_printing"
+      },
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "Body Powered",
+        "tag": "body_powered",
+        "url": "https:\/\/api.thingiverse.com\/tags\/body_powered",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/body_powered\/things",
+        "absolute_url": "\/tag:Body_Powered"
+      },
+      {
+        "name": "F3DH",
+        "tag": "f3dh",
+        "url": "https:\/\/api.thingiverse.com\/tags\/f3dh",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/f3dh\/things",
+        "absolute_url": "\/tag:F3DH"
+      },
+      {
+        "name": "Free 3D Hands",
+        "tag": "free_3d_hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/free_3d_hands",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/free_3d_hands\/things",
+        "absolute_url": "\/tag:Free_3D_Hands"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "kinetic",
+        "tag": "kinetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kinetic",
+        "count": 124,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kinetic\/things",
+        "absolute_url": "\/tag:kinetic"
+      },
+      {
+        "name": "kinetic arm",
+        "tag": "kinetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kinetic_arm",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kinetic_arm\/things",
+        "absolute_url": "\/tag:kinetic_arm"
+      },
+      {
+        "name": "Mat Bowtell",
+        "tag": "mat_bowtell",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mat_bowtell",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mat_bowtell\/things",
+        "absolute_url": "\/tag:Mat_Bowtell"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6736769\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2176,
+    "view_count": 15110,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 7,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Kinetic_Arm_Assembly_Manual.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/9d\/d4\/ce\/54\/e7fb475a-b0aa-4f15-bb6b-90a8748f9057.pdf"
+        },
+        {
+          "name": "Kinetic_Arm_STEP_Files.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/80\/24\/5a\/24\/ad4aabb2-8334-4fd5-b232-5123a1a80cc7.zip"
+        },
+        {
+          "name": "Kinetic_Arm_STL_Files.zip.001",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/39\/34\/70\/57\/d89b2ea5-328a-4aa4-ae2d-2ec1abd35774.001"
+        },
+        {
+          "name": "Kinetic_Arm_STL_Files.zip.002",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/3c\/fe\/51\/ee\/038b04a4-f314-4cb9-b376-37e0fa1561d7.002"
+        },
+        {
+          "name": "Kinetic_Arm_STL_Files.zip.003",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/4d\/f2\/b0\/84\/151df5af-abc1-4f59-bd34-77dafd7174f9.003"
+        },
+        {
+          "name": "Kinetic_Arm_STL_Files.zip.004",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/73\/52\/a1\/b9\/33bd2af7-6cb3-4983-9405-d14657a39197.004"
+        },
+        {
+          "name": "Sample_Palm_RH65.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/5b\/27\/f8\/f0\/d93069bc-cec5-49a5-a437-25a92d3603c1.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/50\/e2\/fa\/ae\/0d1f58f2-c218-41bd-b6b0-6b2d56528d99.png"
+        },
+        {
+          "name": "7486ac1a-1a2d-4ecb-a686-8746976dbf35.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/13\/4a\/5a\/ea\/7486ac1a-1a2d-4ecb-a686-8746976dbf35.png"
+        },
+        {
+          "name": "63d18c50-bb0d-4ab1-aa34-ad2c8d1f48d2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/14\/65\/9a\/28\/63d18c50-bb0d-4ab1-aa34-ad2c8d1f48d2.png"
+        },
+        {
+          "name": "16ca6814-47ca-48e2-8915-88ad44bb2e0d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/d3\/3a\/ec\/9c\/16ca6814-47ca-48e2-8915-88ad44bb2e0d.png"
+        },
+        {
+          "name": "d515b3be-6ab1-4a82-a05e-febdd38aefd5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/c6\/9b\/94\/d9\/d515b3be-6ab1-4a82-a05e-febdd38aefd5.png"
+        },
+        {
+          "name": "4d03ac46-b4a9-45b1-81e6-f425ef72d340.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/79\/36\/7f\/ce\/4d03ac46-b4a9-45b1-81e6-f425ef72d340.png"
+        },
+        {
+          "name": "4bd8956f-dff3-4787-bde4-c15c4e9863f3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/14\/0c\/aa\/1d\/4bd8956f-dff3-4787-bde4-c15c4e9863f3.png"
+        },
+        {
+          "name": "d93069bc-cec5-49a5-a437-25a92d3603c1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/55\/5d\/3d\/e7\/d93069bc-cec5-49a5-a437-25a92d3603c1.png"
+        }
+      ]
+    }
+  }
+}

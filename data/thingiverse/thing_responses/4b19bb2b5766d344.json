@@ -1,0 +1,620 @@
+{
+  "created_at": "2025-04-11T03:35:03.286462+00:00",
+  "elapsed": 0.21333,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76e844bf92350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:35:03 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:05:03 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4570894?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4570894?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4570894,
+    "name": "Interact Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/64\/5d\/3f\/58\/b3\/large_display_newButton2.PNG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4570894",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4570894",
+    "creator": {
+      "id": 559625,
+      "name": "RockChalk846",
+      "first_name": "Mike",
+      "last_name": "Turvey",
+      "url": "https:\/\/api.thingiverse.com\/users\/RockChalk846",
+      "public_url": "https:\/\/www.thingiverse.com\/RockChalk846",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/63\/eb\/95\/16\/0b\/me.png",
+      "count_of_followers": 37,
+      "count_of_following": 0,
+      "count_of_designs": 39,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Phoenix, AZ",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-08-15T21:06:22+00:00",
+    "modified": "2020-08-15T21:06:22+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 44,
+    "is_liked": false,
+    "collect_count": 117,
+    "is_collected": false,
+    "comment_count": 10,
+    "is_watched": false,
+    "default_image": {
+      "id": 13961342,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/16\/57\/19\/c2\/newButton2.PNG",
+      "name": "newButton2.PNG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/f9\/c4\/4e\/33\/large_thumb_newButton2.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/30\/a2\/b5\/df\/medium_thumb_newButton2.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/c3\/00\/25\/25\/small_thumb_newButton2.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/b6\/2a\/14\/50\/tiny_thumb_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/29\/e5\/50\/00\/featured_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/2f\/63\/38\/8b\/card_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/3a\/0b\/2c\/90\/large_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/a0\/4c\/a4\/a2\/medium_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/4d\/62\/1d\/27\/small_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/d4\/b7\/8f\/b9\/birdwing_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/0c\/ce\/f5\/16\/tiny_preview_newButton2.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/e2\/73\/ba\/f5\/tinycard_preview_newButton2.PNG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/5d\/3f\/58\/b3\/large_display_newButton2.PNG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/e5\/40\/3c\/14\/medium_display_newButton2.PNG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/ee\/85\/fe\/22\/small_display_newButton2.PNG"
+        }
+      ],
+      "added": "2020-08-15T20:55:52+00:00"
+    },
+    "description": "The Interact Switch is a high-quality adaptive switch designed to meet and exceed the performance of commercial switches.  You can read more about its development here:\r\nhttps:\/\/hackaday.io\/projects\/hacker\/83144\r\n\r\nDetailed build instructions can be found here:\r\nhttps:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing\r\n\r\nFor assembly, you will need a ButtonCapBase, ButtonCapHolder, ButtonCapInsert, and a ButtonCap. Note that there are multiple versions of the ButtonCapInsert.  This allows you to tune the switch for proper\/ best operation.  I recommend starting with the 0.6mm insert and adjusting as necessary.\r\n\r\nFor each switch you wish to build, you will also need:\r\n* 1 Omron SS-3GP microswitch \r\n  * (check Octopart for sourcing https:\/\/octopart.com\/search?q=ss-3gp )\r\n* A cable with a 3.5mm mono plug on the end.  Six ft. is a good standard length for a switch.\r\n  * (something like https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx )\r\n  * I've also really liked these cables, and would especially recommend them if you're making a large number of switches: https:\/\/www.aliexpress.com\/item\/32932910517.html\r\n* 3 M2.5x10 pan head screws (any length from 8-12mm is fine.)\r\n\r\nNote: Soldering is required to attach the audio cable to the SS-3GP microswitch\r\nNote 2: This \"thing\" includes a basic flat switch button.  You can find additional cap designs here: https:\/\/www.thingiverse.com\/thing:4739184\r\n\r\nRelated parts:\r\n * Wobble Top\r\n   * https:\/\/www.thingiverse.com\/thing:4785165\r\n * Different Switch caps\r\n   * https:\/\/www.thingiverse.com\/thing:4739184\r\n * Headrest mount \r\n   * https:\/\/www.thingiverse.com\/thing:4183653\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>The Interact Switch is a high-quality adaptive switch designed to meet and exceed the performance of commercial switches.  You can read more about its development here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.io\/projects\/hacker\/83144\">https:\/\/hackaday.io\/projects\/hacker\/83144<\/a><\/p><p>Detailed build instructions can be found here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing\">https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing<\/a><\/p><p>For assembly, you will need a ButtonCapBase, ButtonCapHolder, ButtonCapInsert, and a ButtonCap. Note that there are multiple versions of the ButtonCapInsert.  This allows you to tune the switch for proper\/ best operation.  I recommend starting with the 0.6mm insert and adjusting as necessary.<\/p><p>For each switch you wish to build, you will also need:<\/p><ul><li>1 Omron SS-3GP microswitch <ul><li>(check Octopart for sourcing <a rel=\"ugc nofollow\" href=\"https:\/\/octopart.com\/search?q=ss-3gp\">https:\/\/octopart.com\/search?q=ss-3gp<\/a> )<\/li><\/ul><\/li><li>A cable with a 3.5mm mono plug on the end.  Six ft. is a good standard length for a switch.<ul><li>(something like <a rel=\"ugc nofollow\" href=\"https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx\">https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx<\/a> )<\/li><li>I've also really liked these cables, and would especially recommend them if you're making a large number of switches: <a rel=\"ugc nofollow\" href=\"https:\/\/www.aliexpress.com\/item\/32932910517.html\">https:\/\/www.aliexpress.com\/item\/32932910517.html<\/a><\/li><\/ul><\/li><li>3 M2.5x10 pan head screws (any length from 8-12mm is fine.)<\/li><\/ul><p>Note: Soldering is required to attach the audio cable to the SS-3GP microswitch<br>Note 2: This \"thing\" includes a basic flat switch button.  You can find additional cap designs here: <a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/p><p>Related parts:<\/p><ul><li>Wobble Top<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4785165\">https:\/\/www.thingiverse.com\/thing:4785165<\/a><\/li><\/ul><\/li><li>Different Switch caps<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/li><\/ul><\/li><li>Headrest mount <ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4183653\">https:\/\/www.thingiverse.com\/thing:4183653<\/a><\/li><\/ul><\/li><\/ul><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The Interact Switch is a high-quality adaptive switch designed to meet and exceed the performance of commercial switches.  You can read more about its development here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.io\/projects\/hacker\/83144\">https:\/\/hackaday.io\/projects\/hacker\/83144<\/a><\/p><p>Detailed build instructions can be found here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing\">https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing<\/a><\/p><p>For assembly, you will need a ButtonCapBase, ButtonCapHolder, ButtonCapInsert, and a ButtonCap. Note that there are multiple versions of the ButtonCapInsert.  This allows you to tune the switch for proper\/ best operation.  I recommend starting with the 0.6mm insert and adjusting as necessary.<\/p><p>For each switch you wish to build, you will also need:<\/p><ul><li>1 Omron SS-3GP microswitch <ul><li>(check Octopart for sourcing <a rel=\"ugc nofollow\" href=\"https:\/\/octopart.com\/search?q=ss-3gp\">https:\/\/octopart.com\/search?q=ss-3gp<\/a> )<\/li><\/ul><\/li><li>A cable with a 3.5mm mono plug on the end.  Six ft. is a good standard length for a switch.<ul><li>(something like <a rel=\"ugc nofollow\" href=\"https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx\">https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx<\/a> )<\/li><li>I've also really liked these cables, and would especially recommend them if you're making a large number of switches: <a rel=\"ugc nofollow\" href=\"https:\/\/www.aliexpress.com\/item\/32932910517.html\">https:\/\/www.aliexpress.com\/item\/32932910517.html<\/a><\/li><\/ul><\/li><li>3 M2.5x10 pan head screws (any length from 8-12mm is fine.)<\/li><\/ul><p>Note: Soldering is required to attach the audio cable to the SS-3GP microswitch<br>Note 2: This \"thing\" includes a basic flat switch button.  You can find additional cap designs here: <a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/p><p>Related parts:<\/p><ul><li>Wobble Top<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4785165\">https:\/\/www.thingiverse.com\/thing:4785165<\/a><\/li><\/ul><\/li><li>Different Switch caps<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/li><\/ul><\/li><li>Headrest mount <ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4183653\">https:\/\/www.thingiverse.com\/thing:4183653<\/a><\/li><\/ul><\/li><\/ul><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The Interact Switch is a high-quality adaptive switch designed to meet and exceed the performance of commercial switches.  You can read more about its development here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.io\/projects\/hacker\/83144\">https:\/\/hackaday.io\/projects\/hacker\/83144<\/a><\/p><p>Detailed build instructions can be found here:<br><a rel=\"ugc nofollow\" href=\"https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing\">https:\/\/docs.google.com\/document\/d\/1uWRKXmApZUaSo1I0oyyFrAfncziYsd2_8ai8dunogJs\/edit?usp=sharing<\/a><\/p><p>For assembly, you will need a ButtonCapBase, ButtonCapHolder, ButtonCapInsert, and a ButtonCap. Note that there are multiple versions of the ButtonCapInsert.  This allows you to tune the switch for proper\/ best operation.  I recommend starting with the 0.6mm insert and adjusting as necessary.<\/p><p>For each switch you wish to build, you will also need:<\/p><ul><li>1 Omron SS-3GP microswitch <ul><li>(check Octopart for sourcing <a rel=\"ugc nofollow\" href=\"https:\/\/octopart.com\/search?q=ss-3gp\">https:\/\/octopart.com\/search?q=ss-3gp<\/a> )<\/li><\/ul><\/li><li>A cable with a 3.5mm mono plug on the end.  Six ft. is a good standard length for a switch.<ul><li>(something like <a rel=\"ugc nofollow\" href=\"https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx\">https:\/\/www.cnaweb.com\/6-ft-3-5mm-mono-patch-cable.aspx<\/a> )<\/li><li>I've also really liked these cables, and would especially recommend them if you're making a large number of switches: <a rel=\"ugc nofollow\" href=\"https:\/\/www.aliexpress.com\/item\/32932910517.html\">https:\/\/www.aliexpress.com\/item\/32932910517.html<\/a><\/li><\/ul><\/li><li>3 M2.5x10 pan head screws (any length from 8-12mm is fine.)<\/li><\/ul><p>Note: Soldering is required to attach the audio cable to the SS-3GP microswitch<br>Note 2: This \"thing\" includes a basic flat switch button.  You can find additional cap designs here: <a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/p><p>Related parts:<\/p><ul><li>Wobble Top<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4785165\">https:\/\/www.thingiverse.com\/thing:4785165<\/a><\/li><\/ul><\/li><li>Different Switch caps<ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4739184\">https:\/\/www.thingiverse.com\/thing:4739184<\/a><\/li><\/ul><\/li><li>Headrest mount <ul><li><a rel=\"ugc nofollow\" href=\"\/thing:4183653\">https:\/\/www.thingiverse.com\/thing:4183653<\/a><\/li><\/ul><\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4570894\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4570894\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4570894\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4570894\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4570894\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4570894\/tags",
+    "tags": [
+      {
+        "name": "AAC",
+        "tag": "aac",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aac",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aac\/things",
+        "absolute_url": "\/tag:AAC"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "accessibility-aid",
+        "tag": "accessibility-aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid\/things",
+        "absolute_url": "\/tag:accessibility-aid"
+      },
+      {
+        "name": "adaptive",
+        "tag": "adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive\/things",
+        "absolute_url": "\/tag:adaptive"
+      },
+      {
+        "name": "adaptive device",
+        "tag": "adaptive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device\/things",
+        "absolute_url": "\/tag:adaptive_device"
+      },
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "autism",
+        "tag": "autism",
+        "url": "https:\/\/api.thingiverse.com\/tags\/autism",
+        "count": 102,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/autism\/things",
+        "absolute_url": "\/tag:autism"
+      },
+      {
+        "name": "cerebral palsy",
+        "tag": "cerebral_palsy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cerebral_palsy",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cerebral_palsy\/things",
+        "absolute_url": "\/tag:cerebral_palsy"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "Disability aid",
+        "tag": "disability_aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability_aid",
+        "count": 96,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability_aid\/things",
+        "absolute_url": "\/tag:Disability_aid"
+      },
+      {
+        "name": "Interact Switch",
+        "tag": "interact_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/interact_switch",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/interact_switch\/things",
+        "absolute_url": "\/tag:Interact_Switch"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "special needs",
+        "tag": "special_needs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/special_needs",
+        "count": 42,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/special_needs\/things",
+        "absolute_url": "\/tag:special_needs"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      },
+      {
+        "name": "switch activated",
+        "tag": "switch_activated",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_activated",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_activated\/things",
+        "absolute_url": "\/tag:switch_activated"
+      },
+      {
+        "name": "xbox adaptive",
+        "tag": "xbox_adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive\/things",
+        "absolute_url": "\/tag:xbox_adaptive"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4570894\/categories",
+    "file_count": 8,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1119,
+    "view_count": 2893,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ButtonCapInsert_0.4mm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/ae\/fc\/5d\/8d\/ButtonCapInsert_0.4mm.STL"
+        },
+        {
+          "name": "ButtonCapInsert_0.6mm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/63\/1e\/4d\/3e\/ButtonCapInsert_0.6mm.STL"
+        },
+        {
+          "name": "ButtonCapInsert_0.5mm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/6b\/6a\/d2\/e6\/ButtonCapInsert_0.5mm.STL"
+        },
+        {
+          "name": "ButtonCapInsert_0.7mm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/ff\/32\/23\/c2\/ButtonCapInsert_0.7mm.STL"
+        },
+        {
+          "name": "ButtonCap_3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/e9\/76\/4d\/31\/ButtonCap_3.STL"
+        },
+        {
+          "name": "ButtonCapBase13.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/26\/6a\/d1\/88\/ButtonCapBase13.STL"
+        },
+        {
+          "name": "CapHolder_18.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/3c\/4c\/af\/9e\/CapHolder_18.STL"
+        },
+        {
+          "name": "CapHolder_18_LargerScrewHoles.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/f1\/f5\/1b\/a2\/CapHolder_18_LargerScrewHoles.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "newButton2.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/16\/57\/19\/c2\/newButton2.PNG"
+        },
+        {
+          "name": "switches.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/af\/61\/31\/7c\/switches.jpg"
+        },
+        {
+          "name": "Cap-2.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/4c\/e7\/e9\/c1\/Cap-2.PNG"
+        },
+        {
+          "name": "cap-1.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/06\/81\/e1\/71\/cap-1.PNG"
+        },
+        {
+          "name": "base2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/9e\/1f\/0a\/73\/base2.png"
+        },
+        {
+          "name": "cap_insert.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/43\/48\/28\/c8\/cap_insert.PNG"
+        },
+        {
+          "name": "Base.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/5c\/fa\/b6\/20\/Base.PNG"
+        },
+        {
+          "name": "cap_holder2.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/bc\/b7\/02\/9a\/cap_holder2.PNG"
+        },
+        {
+          "name": "homemade.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/59\/95\/36\/1d\/homemade.PNG"
+        },
+        {
+          "name": "ButtonCapInsert_0.6mm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/da\/7f\/70\/a0\/ButtonCapInsert_0.6mm.png"
+        },
+        {
+          "name": "ButtonCapInsert_0.7mm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/f2\/cc\/44\/75\/ButtonCapInsert_0.7mm.png"
+        },
+        {
+          "name": "ButtonCapInsert_0.4mm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/0e\/73\/d3\/dd\/ButtonCapInsert_0.4mm.png"
+        },
+        {
+          "name": "ButtonCapInsert_0.5mm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/fc\/22\/a5\/57\/ButtonCapInsert_0.5mm.png"
+        },
+        {
+          "name": "ButtonCapBase13.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/71\/bf\/19\/bd\/ButtonCapBase13.png"
+        },
+        {
+          "name": "CapHolder_18.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/59\/f5\/b8\/a2\/CapHolder_18.png"
+        },
+        {
+          "name": "CapHolder_18_LargerScrewHoles.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/4f\/89\/e8\/eb\/CapHolder_18_LargerScrewHoles.png"
+        }
+      ]
+    }
+  }
+}
