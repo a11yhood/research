@@ -1,0 +1,486 @@
+{
+  "created_at": "2025-04-17T03:32:21.415592+00:00",
+  "elapsed": 0.159769,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318dad0cc5981d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:21 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:21 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6237635?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6237635?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6237635,
+    "name": "Customizable LEGO compatible Braille Bricks.",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/c5\/58\/69\/76\/85\/large_display_181ff273-a8d8-4d68-acb5-00de13e330bd.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6237635",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6237635",
+    "creator": {
+      "id": 1307662,
+      "name": "Lyl3",
+      "first_name": "Lyle",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Lyl3",
+      "public_url": "https:\/\/www.thingiverse.com\/Lyl3",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/9c\/a9\/e8\/1c\/8e\/Avatar-Lyl3-9color-256x256.png",
+      "count_of_followers": 2033,
+      "count_of_following": 8,
+      "count_of_designs": 63,
+      "collection_count": 17,
+      "make_count": 26,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/9a\/66\/f0\/a2\/c1\/All-My-Things-45things-600x292.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-09-26T23:49:18+00:00",
+    "modified": "2023-09-26T23:49:18+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 63,
+    "is_liked": false,
+    "collect_count": 107,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19893734,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/bf\/6f\/87\/9c\/181ff273-a8d8-4d68-acb5-00de13e330bd.png",
+      "name": "181ff273-a8d8-4d68-acb5-00de13e330bd.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/39\/e6\/64\/1f\/large_thumb_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/0d\/c2\/6e\/25\/medium_thumb_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/e7\/2f\/c1\/e9\/small_thumb_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/79\/a5\/11\/17\/tiny_thumb_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/04\/02\/16\/8e\/featured_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/a8\/2c\/24\/73\/card_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/ae\/e2\/40\/a2\/large_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/0b\/b2\/75\/2c\/medium_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/3b\/f4\/ad\/47\/small_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/3d\/eb\/9c\/bd\/birdwing_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/52\/d3\/50\/38\/tiny_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/c8\/e8\/f0\/b6\/tinycard_preview_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/58\/69\/76\/85\/large_display_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/a2\/f4\/d0\/c7\/medium_display_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/ec\/0f\/8b\/b0\/small_display_181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        }
+      ],
+      "added": "2023-09-26T22:49:50+00:00"
+    },
+    "description": "###Customizable LEGO compatible Braille Bricks.###\r\n\r\nThis is a customizer for creating a sequence of LEGO compatible Braille bricks according to the Unified English Braille standard.\r\n\r\nYou can enter any of the following letters, numbers, punctuation, and math symbols:\r\n\r\nABCDEFGHIJKLMNOPQRSTUVWXYZ\r\nabcdefghijklmnopqrstuvwxyz\r\n1234567890\r\n,;:.!?'#\r\n+-\u00d7\u00f7=\r\n\r\nNote that the multiplication and division symbols aren't on a keyboard so they can be copied from above if you want to create them.\r\n\r\nYou can also enter the carat (^) character to start a new row of bricks and a space character to print a brick with no dot pattern.\r\n\r\nThe Latin character or symbol is printed below the dot pattern. If the dot pattern is also used with a prefix, like the numbers, both characters will be printed by default. \r\n\r\nThis is a remix of my LEGO Compatible Text Bricks where I hacked out the code and parameters for adding the text on the sides and added in code to vary the dot pattern.\r\n\r\n----\r\n\r\n###Running the Customizer###\r\n\r\nClick the Open in Customizer button to create your own model on Thingiverse.\r\n\r\nNote that Thingiverse hadn't run their customizer queue from Jul 10, 2020 to Aug 4, 2022 and may stop running it at any time again. So if they don't process your customized job, you will have to install and run OpenSCAD (free software) on your own computer to process the code to create your own customized models. See DrLex's instructions linked below for further details.\r\n\r\n[How to Run Customizer on Your Own Computer](https:\/\/www.dr-lex.be\/3d-printing\/customizer.html)\r\n\r\nYou will have to place download the Roboto-Black.ttf font file into the same folder as the OpenSCAD code file.\r\n\r\n----\r\n\r\n###<img alt=\"Lyl3's Designs\" title=\"Lyl3's Designs\" src=\"https:\/\/cdn.thingiverse.com\/renders\/8c\/4e\/40\/d7\/ce\/771666aad442acd92ec0f917fa01d022_thumb_tiny.jpg\">Some of My Designs\r\n\r\nClick an image below (opens in a new tab) or <a rel=\"nofollow\" target=\"_blank\" href=\"\/Lyl3\/designs\">go to my designs page and see them all.<\/a>\r\n\r\nIf you see some thing that you like <img src=\"https:\/\/cdn.thingiverse.com\/assets\/6a\/01\/b4\/1a\/98\/large_display_SmileyLike-29x40.png\">, **please click the <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-unliked.svg\"> <font size=\"+1\"><sup> Like<\/sup><\/font> button** and turn that heart red <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-liked.svg\">.\r\n\r\n<div>\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3867358\"><img alt=\"Customizable LEGO compatible Text Bricks\" title=\"Customizable LEGO compatible Text Bricks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/f4\/0a\/c8\/4c\/ac\/tiny_preview_LEGOTextBricks-06-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3757356\"><img alt=\"Universal Dual Filament Dragon Clip\" title=\"Universal Dual Filament Dragon Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/2d\/63\/4f\/9b\/63\/12d1067b2112c042c9b5c0bb6b57009e_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3911914\"><img alt=\"Customizable Drawer Handle or Cabinet Handle\" title=\"Customizable Drawer Handle or Cabinet Handle\" src=\"https:\/\/cdn.thingiverse.com\/assets\/70\/5e\/e8\/1f\/d3\/tiny_preview_CabinetDrawerHandles-cover02.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3703510\"><img alt=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" title=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" src=\"https:\/\/cdn.thingiverse.com\/renders\/98\/6a\/f0\/f0\/dd\/e4a5a08667a4eebbf3f99b5536932dcf_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3166520\"><img alt=\"Big Nuts Cup\" title=\"Big Nuts Cup\" src=\"https:\/\/cdn.thingiverse.com\/renders\/1a\/e2\/69\/85\/2f\/c5360564f1e1860a6e3ee03981652e6f_preview_tiny.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4244917\"><img alt=\"Customizable Safe Distance Sign - Confused\" title=\"Customizable Safe Distance Sign - Confused\" src=\"https:\/\/cdn.thingiverse.com\/assets\/de\/ac\/b4\/fb\/3b\/tiny_preview_SafeDistanceSign-Cover01-1256x942.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3516901\"><img alt=\"Customizable Dual Letter Blocks Illusion\" title=\"Customizable Dual Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7c\/13\/0a\/79\/13\/tiny_preview_DualMultiLetterBlocksV3.03-M01-M02-M03-M08-cover07-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3321080\"><img alt=\"49 Room Signs Like 'The Office' Logo\" title=\"49 Room Signs Like 'The Office' Logo\" src=\"https:\/\/cdn.thingiverse.com\/assets\/b3\/74\/9e\/ef\/22\/tiny_preview_TheRoomSigns-cover-08a-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3633456\"><img alt=\"Customizable Triple Letter Blocks Ambigram\" title=\"Customizable Triple Letter Blocks Ambigram\" src=\"https:\/\/cdn.thingiverse.com\/assets\/c1\/0a\/3d\/05\/dd\/tiny_preview_TripleLetterBlocks-cover09-ILU-MOM-DAD-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4258942\"><img alt=\"Customizable Safe Distance Sign - Together\" title=\"Customizable Safe Distance Sign - Together\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e6\/e4\/68\/9d\/b1\/tiny_preview_SafeDistanceSign-Together-FiveColor-1256x942.png\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4190541\"><img alt=\"Triforce Earrings with Beveled Edges\" title=\"Triforce Earrings with Beveled Edges\" src=\"https:\/\/cdn.thingiverse.com\/assets\/97\/f4\/12\/f4\/7e\/tiny_preview_Triforce-Earrings-D-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3860734\"><img alt=\"Customizable Tiny Bookcase\" title=\"Customizable Tiny Bookcase\" src=\"https:\/\/cdn.thingiverse.com\/assets\/53\/1b\/b1\/fd\/fa\/tiny_preview_TinyBookcase-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3817537\"><img alt=\"Articulated Posable Stickman\" title=\"Articulated Posable Stickman\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a5\/ce\/cc\/c5\/tiny_preview_AnArticulatedPosableStickman-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3819758\"><img alt=\"Two-Piece Stacking Hexagon Coaster\" title=\"Two-Piece Stacking Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/assets\/47\/94\/8d\/e3\/e9\/tiny_preview_HexagonCoasters-Stacking.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3720179\"><img alt=\"Doorbell Broken Sign\" title=\"Doorbell Broken Sign\" src=\"https:\/\/cdn.thingiverse.com\/assets\/72\/85\/4c\/4d\/8f\/tiny_preview_DoorbellBrokenSignVertical2-1256x942.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3812511\"><img alt=\"Honeycomb Patterned Hexagon Coaster\" title=\"Honeycomb Patterned Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/renders\/a6\/9a\/82\/46\/72\/f879d6c5bcd2de257f08859c7b2515da_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3307331\"><img alt=\"Knob Stove Knobs\" title=\"Knob Stove Knobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/41\/87\/3c\/9b\/tiny_preview_KnobStoveKnobs-censored-705x513.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3363234\"><img alt=\"Peeking Cat Silhouette\" title=\"Peeking Cat Silhouette\" src=\"https:\/\/cdn.thingiverse.com\/renders\/84\/d5\/03\/ff\/fc\/9df1bbf1aaaa2ef702106b67610804c2_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4219633\"><img alt=\"Customizable Engraved Shopping Cart Tokens\" title=\"Customizable Engraved Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/assets\/d0\/ad\/a5\/69\/e2\/tiny_preview_Tokens-01C-1256x942.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3506048\"><img alt=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" title=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/06\/52\/ef\/fe\/34\/fe105cfed8deb0f908ce3ebb1ae8bdd2_preview_tiny.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3252273\"><img alt=\"Door Hook - Strong and Tapered\" title=\"Door Hook - Strong and Tapered\" src=\"https:\/\/cdn.thingiverse.com\/renders\/92\/80\/bd\/57\/fd\/153cfe18095dbc1715d7f594aa281dbc_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3194179\"><img alt=\"Hidden Internal Lithophane Coasters\" title=\"Hidden Internal Lithophane Coasters\" src=\"https:\/\/cdn.thingiverse.com\/renders\/24\/cd\/40\/68\/89\/22ff25daceb0410a2eb8a28f02c69bb2_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3238514\"><img alt=\"Cannabis Cookie Cutter - Marijuana Leaf\" title=\"Cannabis Cookie Cutter - Marijuana Leaf\" src=\"https:\/\/cdn.thingiverse.com\/renders\/e0\/b0\/b8\/6f\/75\/5039787b73a63fecd10424112b91d7f3_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3870473\"><img alt=\"Customizable Systainer Labelled Faceplate\" title=\"Customizable Systainer Labelled Faceplate\" src=\"https:\/\/cdn.thingiverse.com\/assets\/03\/7e\/cb\/f7\/02\/tiny_preview_SystainerLatchFaceplateText-V1p4-Systainer-1256x942.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3508397\"><img alt=\"In Or Out Arrows Illusion\" title=\"In Or Out Arrows Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/cd\/77\/0a\/83\/41\/651e4b6b1da93c77b0412e4ca5718ab4_preview_tiny.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:2824141\"><img alt=\"One Euro Tokens with Hidden Internal Lithophanes\" title=\"One Euro Tokens with Hidden Internal Lithophanes\" src=\"https:\/\/cdn.thingiverse.com\/renders\/b7\/d8\/9a\/3a\/33\/4ca16464cee25b0397397bc56bdc4d56_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4029544\"><img alt=\"Toy Soldier Christmas Decoration\" title=\"Toy Soldier Christmas Decoration\" src=\"https:\/\/cdn.thingiverse.com\/assets\/78\/a6\/a2\/d4\/db\/tiny_preview_ToySoldier-cover02-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3474374\"><img alt=\"Vape Pen Stand and Cartridge Storage Honeycomb\" title=\"Vape Pen Stand and Cartridge Storage Honeycomb\" src=\"https:\/\/cdn.thingiverse.com\/renders\/40\/58\/04\/e7\/3e\/dec142a80c91cbc96e4e10ccd8cf0612_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:2821385\"><img alt=\"Hidden Lithophane Loonie Shopping Cart Tokens\" title=\"Hidden Lithophane Loonie Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/renders\/91\/3e\/ee\/09\/0e\/e973ad15e7e4acde49c0e7d9d93a176a_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:2791995\"><img alt=\"Penny Weight Fidget Spinners\" title=\"Penny Weight Fidget Spinners\" src=\"https:\/\/cdn.thingiverse.com\/renders\/39\/b7\/81\/f4\/ad\/57ddb1f2cf85f62b43f596cee60675d5_preview_tiny.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4039956\"><img alt=\"Snowflake Coasters\" title=\"Snowflake Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/52\/d4\/c0\/55\/62\/tiny_preview_CoasterSnowflakes-cover03-1256x942.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:2829218\"><img alt=\"FlashForg e Creatr Pro Spool Holder\" title=\"FlashForg e Creatr Pro Spool Holder\" src=\"https:\/\/cdn.thingiverse.com\/renders\/c8\/95\/86\/96\/68\/e9f75dee927d23ba94b1af14b9574f08_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3287383\"><img alt=\"DaVinci IQ Vaporizer Stand\" title=\"DaVinci IQ Vaporizer Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ae\/18\/4a\/ba\/5d\/0c68e652448386c2ac8e34ad79589201_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3530989\"><img alt=\"Customizable Triple Letter Blocks Illusion\" title=\"Customizable Triple Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ff\/d1\/91\/e0\/b7\/3a44d9c4b70877a11cfd53c6d5fc3479_preview_tiny.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3577297\"><img alt=\"THE BEST Filament Clip\" title=\"THE BEST Filament Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/fd\/bb\/50\/d9\/23\/7f86441bc5a652d24b087017d0294b7c_preview_tiny.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4633973\"><img alt=\"Customizable LEGO compatible Text Brick Key Fobs\" title=\"Customizable LEGO compatible Text Brick Key Fobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/1f\/20\/9b\/01\/1e\/tiny_preview_KeyFobBricks-cover05-628x472.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4674730\"><img alt=\"Customizable Flexible Christmas Tree\" title=\"Customizable Flexible Christmas Tree\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e9\/5b\/7d\/8b\/23\/tiny_preview_FlexibleChristmasTree-cover02-700x526.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4681765\"><img alt=\"Customizable Christmas Name Ornament\" title=\"Customizable Christmas Name Ornament\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e3\/c9\/66\/8a\/32\/tiny_preview_11c3eee4-9500-4976-86ae-1b73ae5cd5cd.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4689609\"><img alt=\"Customizable Tiny Secret Books\" title=\"Customizable Tiny Secret Books\" src=\"https:\/\/cdn.thingiverse.com\/assets\/31\/c7\/4c\/a9\/bc\/tiny_preview_TinySecretBooks-cover02-628x472.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4695105\"><img alt=\"Customizable Hexagon Monogram Coasters\" title=\"Customizable Hexagon Monogram Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0e\/4e\/0f\/e7\/94\/tiny_preview_HexagonMonogram-cover01B-628x472.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:3569113\"><img alt=\"Cura Profile for FlashForg e Creatr Pro\" title=\"Cura Profile for FlashForg e Creatr Pro\" src=\"https:\/\/cdn.thingiverse.com\/assets\/39\/07\/c8\/69\/6f\/tiny_preview_CuraProfileFlashforgeCreatorPro-CoverGreyTop.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4732170\"><img alt=\"Cura Infill Patterns\" title=\"Cura Infill Patterns\" src=\"https:\/\/cdn.thingiverse.com\/assets\/a1\/ab\/32\/5e\/65\/tiny_preview_CuraIfillPatterns-cover02-628x472.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4753880\"><img alt=\"Customizable Engraved Rings\" title=\"Customizable Engraved Rings\" src=\"https:\/\/cdn.thingiverse.com\/assets\/14\/a9\/61\/89\/da\/tiny_preview_EngravedRings-cover03.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4793066\"><img alt=\"Customizable Plant Tags\" title=\"Customizable Plant Tags\" src=\"https:\/\/cdn.thingiverse.com\/assets\/87\/a5\/eb\/59\/c6\/tiny_preview_PlantTags-cover13-628x472.jpg\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:4815367\"><img alt=\"Customizable Round Rod Hooks\" title=\"Customizable Round Rod Hooks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0a\/12\/96\/c9\/67\/tiny_preview_RoundRodHooks-cover04-628x472.jpg\"><\/a>\u00a0\r\n<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:5657493\"><img alt=\"Toothbrush Holder Tooth\" title=\"Toothbrush Holder Tooth\" src=\"https:\/\/cdn.thingiverse.com\/assets\/6b\/43\/93\/e7\/59\/tiny_preview_25d1fecd-8eb7-492a-95c3-0a96b6fce7ff.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:5715893\"><img alt=\"Customizable Name Cookie Cutter\" title=\"Customizable Name Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a7\/56\/1d\/4b\/tiny_preview_e21ffc70-593b-4fd8-893c-e0cf59dedefa.png\"><\/a>\u00a0<a rel=\"nofollow\" target=\"_blank\" href=\"\/thing:5719464\"><img alt=\"Customizable Name Heart Cookie Cutter\" title=\"Customizable Name Heart Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e4\/76\/fd\/e0\/59\/tiny_preview_9a7f3e52-ed29-4300-8e7e-919a769349e0.png\"><\/a>\u00a0\r\n<\/div>",
+    "instructions": "",
+    "description_html": "<div><h3>Customizable LEGO compatible Braille Bricks.<\/h3><p>This is a customizer for creating a sequence of LEGO compatible Braille bricks according to the Unified English Braille standard.<\/p><p>You can enter any of the following letters, numbers, punctuation, and math symbols:<\/p><p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>1234567890<br>,;:.!?'#<br>+-&times;&divide;=<\/p><p>Note that the multiplication and division symbols aren't on a keyboard so they can be copied from above if you want to create them.<\/p><p>You can also enter the carat (^) character to start a new row of bricks and a space character to print a brick with no dot pattern.<\/p><p>The Latin character or symbol is printed below the dot pattern. If the dot pattern is also used with a prefix, like the numbers, both characters will be printed by default. <\/p><p>This is a remix of my LEGO Compatible Text Bricks where I hacked out the code and parameters for adding the text on the sides and added in code to vary the dot pattern.<\/p><hr><h3>Running the Customizer<\/h3><p>Click the Open in Customizer button to create your own model on Thingiverse.<\/p><p>Note that Thingiverse hadn't run their customizer queue from Jul 10, 2020 to Aug 4, 2022 and may stop running it at any time again. So if they don't process your customized job, you will have to install and run OpenSCAD (free software) on your own computer to process the code to create your own customized models. See DrLex's instructions linked below for further details.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.dr-lex.be\/3d-printing\/customizer.html\">How to Run Customizer on Your Own Computer<\/a><\/p><p>You will have to place download the Roboto-Black.ttf font file into the same folder as the OpenSCAD code file.<\/p><hr><h3><img alt=\"Lyl3's Designs\" title=\"Lyl3's Designs\" src=\"https:\/\/cdn.thingiverse.com\/renders\/8c\/4e\/40\/d7\/ce\/771666aad442acd92ec0f917fa01d022_thumb_tiny.jpg\">Some of My Designs<\/h3><p>Click an image below (opens in a new tab) or <a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/Lyl3\/designs\">go to my designs page and see them all.<\/a><\/p><p>If you see some thing that you like <img src=\"https:\/\/cdn.thingiverse.com\/assets\/6a\/01\/b4\/1a\/98\/large_display_SmileyLike-29x40.png\" alt=\"image\">, <strong>please click the <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-unliked.svg\" alt=\"image\"> <span style=\"font-size: larger;\"><sup> Like<\/sup><\/span> button<\/strong> and turn that heart red <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-liked.svg\" alt=\"image\">.<\/p><div><a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3867358\"><img alt=\"Customizable LEGO compatible Text Bricks\" title=\"Customizable LEGO compatible Text Bricks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/f4\/0a\/c8\/4c\/ac\/tiny_preview_LEGOTextBricks-06-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3757356\"><img alt=\"Universal Dual Filament Dragon Clip\" title=\"Universal Dual Filament Dragon Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/2d\/63\/4f\/9b\/63\/12d1067b2112c042c9b5c0bb6b57009e_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3911914\"><img alt=\"Customizable Drawer Handle or Cabinet Handle\" title=\"Customizable Drawer Handle or Cabinet Handle\" src=\"https:\/\/cdn.thingiverse.com\/assets\/70\/5e\/e8\/1f\/d3\/tiny_preview_CabinetDrawerHandles-cover02.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3703510\"><img alt=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" title=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" src=\"https:\/\/cdn.thingiverse.com\/renders\/98\/6a\/f0\/f0\/dd\/e4a5a08667a4eebbf3f99b5536932dcf_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3166520\"><img alt=\"Big Nuts Cup\" title=\"Big Nuts Cup\" src=\"https:\/\/cdn.thingiverse.com\/renders\/1a\/e2\/69\/85\/2f\/c5360564f1e1860a6e3ee03981652e6f_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4244917\"><img alt=\"Customizable Safe Distance Sign - Confused\" title=\"Customizable Safe Distance Sign - Confused\" src=\"https:\/\/cdn.thingiverse.com\/assets\/de\/ac\/b4\/fb\/3b\/tiny_preview_SafeDistanceSign-Cover01-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3516901\"><img alt=\"Customizable Dual Letter Blocks Illusion\" title=\"Customizable Dual Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7c\/13\/0a\/79\/13\/tiny_preview_DualMultiLetterBlocksV3.03-M01-M02-M03-M08-cover07-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3321080\"><img alt=\"49 Room Signs Like 'The Office' Logo\" title=\"49 Room Signs Like 'The Office' Logo\" src=\"https:\/\/cdn.thingiverse.com\/assets\/b3\/74\/9e\/ef\/22\/tiny_preview_TheRoomSigns-cover-08a-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3633456\"><img alt=\"Customizable Triple Letter Blocks Ambigram\" title=\"Customizable Triple Letter Blocks Ambigram\" src=\"https:\/\/cdn.thingiverse.com\/assets\/c1\/0a\/3d\/05\/dd\/tiny_preview_TripleLetterBlocks-cover09-ILU-MOM-DAD-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4258942\"><img alt=\"Customizable Safe Distance Sign - Together\" title=\"Customizable Safe Distance Sign - Together\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e6\/e4\/68\/9d\/b1\/tiny_preview_SafeDistanceSign-Together-FiveColor-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4190541\"><img alt=\"Triforce Earrings with Beveled Edges\" title=\"Triforce Earrings with Beveled Edges\" src=\"https:\/\/cdn.thingiverse.com\/assets\/97\/f4\/12\/f4\/7e\/tiny_preview_Triforce-Earrings-D-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3860734\"><img alt=\"Customizable Tiny Bookcase\" title=\"Customizable Tiny Bookcase\" src=\"https:\/\/cdn.thingiverse.com\/assets\/53\/1b\/b1\/fd\/fa\/tiny_preview_TinyBookcase-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3817537\"><img alt=\"Articulated Posable Stickman\" title=\"Articulated Posable Stickman\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a5\/ce\/cc\/c5\/tiny_preview_AnArticulatedPosableStickman-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3819758\"><img alt=\"Two-Piece Stacking Hexagon Coaster\" title=\"Two-Piece Stacking Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/assets\/47\/94\/8d\/e3\/e9\/tiny_preview_HexagonCoasters-Stacking.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3720179\"><img alt=\"Doorbell Broken Sign\" title=\"Doorbell Broken Sign\" src=\"https:\/\/cdn.thingiverse.com\/assets\/72\/85\/4c\/4d\/8f\/tiny_preview_DoorbellBrokenSignVertical2-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3812511\"><img alt=\"Honeycomb Patterned Hexagon Coaster\" title=\"Honeycomb Patterned Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/renders\/a6\/9a\/82\/46\/72\/f879d6c5bcd2de257f08859c7b2515da_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3307331\"><img alt=\"Knob Stove Knobs\" title=\"Knob Stove Knobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/41\/87\/3c\/9b\/tiny_preview_KnobStoveKnobs-censored-705x513.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3363234\"><img alt=\"Peeking Cat Silhouette\" title=\"Peeking Cat Silhouette\" src=\"https:\/\/cdn.thingiverse.com\/renders\/84\/d5\/03\/ff\/fc\/9df1bbf1aaaa2ef702106b67610804c2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4219633\"><img alt=\"Customizable Engraved Shopping Cart Tokens\" title=\"Customizable Engraved Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/assets\/d0\/ad\/a5\/69\/e2\/tiny_preview_Tokens-01C-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3506048\"><img alt=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" title=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/06\/52\/ef\/fe\/34\/fe105cfed8deb0f908ce3ebb1ae8bdd2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3252273\"><img alt=\"Door Hook - Strong and Tapered\" title=\"Door Hook - Strong and Tapered\" src=\"https:\/\/cdn.thingiverse.com\/renders\/92\/80\/bd\/57\/fd\/153cfe18095dbc1715d7f594aa281dbc_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3194179\"><img alt=\"Hidden Internal Lithophane Coasters\" title=\"Hidden Internal Lithophane Coasters\" src=\"https:\/\/cdn.thingiverse.com\/renders\/24\/cd\/40\/68\/89\/22ff25daceb0410a2eb8a28f02c69bb2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3238514\"><img alt=\"Cannabis Cookie Cutter - Marijuana Leaf\" title=\"Cannabis Cookie Cutter - Marijuana Leaf\" src=\"https:\/\/cdn.thingiverse.com\/renders\/e0\/b0\/b8\/6f\/75\/5039787b73a63fecd10424112b91d7f3_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3870473\"><img alt=\"Customizable Systainer Labelled Faceplate\" title=\"Customizable Systainer Labelled Faceplate\" src=\"https:\/\/cdn.thingiverse.com\/assets\/03\/7e\/cb\/f7\/02\/tiny_preview_SystainerLatchFaceplateText-V1p4-Systainer-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3508397\"><img alt=\"In Or Out Arrows Illusion\" title=\"In Or Out Arrows Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/cd\/77\/0a\/83\/41\/651e4b6b1da93c77b0412e4ca5718ab4_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2824141\"><img alt=\"One Euro Tokens with Hidden Internal Lithophanes\" title=\"One Euro Tokens with Hidden Internal Lithophanes\" src=\"https:\/\/cdn.thingiverse.com\/renders\/b7\/d8\/9a\/3a\/33\/4ca16464cee25b0397397bc56bdc4d56_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4029544\"><img alt=\"Toy Soldier Christmas Decoration\" title=\"Toy Soldier Christmas Decoration\" src=\"https:\/\/cdn.thingiverse.com\/assets\/78\/a6\/a2\/d4\/db\/tiny_preview_ToySoldier-cover02-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3474374\"><img alt=\"Vape Pen Stand and Cartridge Storage Honeycomb\" title=\"Vape Pen Stand and Cartridge Storage Honeycomb\" src=\"https:\/\/cdn.thingiverse.com\/renders\/40\/58\/04\/e7\/3e\/dec142a80c91cbc96e4e10ccd8cf0612_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2821385\"><img alt=\"Hidden Lithophane Loonie Shopping Cart Tokens\" title=\"Hidden Lithophane Loonie Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/renders\/91\/3e\/ee\/09\/0e\/e973ad15e7e4acde49c0e7d9d93a176a_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2791995\"><img alt=\"Penny Weight Fidget Spinners\" title=\"Penny Weight Fidget Spinners\" src=\"https:\/\/cdn.thingiverse.com\/renders\/39\/b7\/81\/f4\/ad\/57ddb1f2cf85f62b43f596cee60675d5_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4039956\"><img alt=\"Snowflake Coasters\" title=\"Snowflake Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/52\/d4\/c0\/55\/62\/tiny_preview_CoasterSnowflakes-cover03-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2829218\"><img alt=\"FlashForg e Creatr Pro Spool Holder\" title=\"FlashForg e Creatr Pro Spool Holder\" src=\"https:\/\/cdn.thingiverse.com\/renders\/c8\/95\/86\/96\/68\/e9f75dee927d23ba94b1af14b9574f08_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3287383\"><img alt=\"DaVinci IQ Vaporizer Stand\" title=\"DaVinci IQ Vaporizer Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ae\/18\/4a\/ba\/5d\/0c68e652448386c2ac8e34ad79589201_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3530989\"><img alt=\"Customizable Triple Letter Blocks Illusion\" title=\"Customizable Triple Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ff\/d1\/91\/e0\/b7\/3a44d9c4b70877a11cfd53c6d5fc3479_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3577297\"><img alt=\"THE BEST Filament Clip\" title=\"THE BEST Filament Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/fd\/bb\/50\/d9\/23\/7f86441bc5a652d24b087017d0294b7c_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4633973\"><img alt=\"Customizable LEGO compatible Text Brick Key Fobs\" title=\"Customizable LEGO compatible Text Brick Key Fobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/1f\/20\/9b\/01\/1e\/tiny_preview_KeyFobBricks-cover05-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4674730\"><img alt=\"Customizable Flexible Christmas Tree\" title=\"Customizable Flexible Christmas Tree\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e9\/5b\/7d\/8b\/23\/tiny_preview_FlexibleChristmasTree-cover02-700x526.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4681765\"><img alt=\"Customizable Christmas Name Ornament\" title=\"Customizable Christmas Name Ornament\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e3\/c9\/66\/8a\/32\/tiny_preview_11c3eee4-9500-4976-86ae-1b73ae5cd5cd.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4689609\"><img alt=\"Customizable Tiny Secret Books\" title=\"Customizable Tiny Secret Books\" src=\"https:\/\/cdn.thingiverse.com\/assets\/31\/c7\/4c\/a9\/bc\/tiny_preview_TinySecretBooks-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4695105\"><img alt=\"Customizable Hexagon Monogram Coasters\" title=\"Customizable Hexagon Monogram Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0e\/4e\/0f\/e7\/94\/tiny_preview_HexagonMonogram-cover01B-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3569113\"><img alt=\"Cura Profile for FlashForg e Creatr Pro\" title=\"Cura Profile for FlashForg e Creatr Pro\" src=\"https:\/\/cdn.thingiverse.com\/assets\/39\/07\/c8\/69\/6f\/tiny_preview_CuraProfileFlashforgeCreatorPro-CoverGreyTop.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4732170\"><img alt=\"Cura Infill Patterns\" title=\"Cura Infill Patterns\" src=\"https:\/\/cdn.thingiverse.com\/assets\/a1\/ab\/32\/5e\/65\/tiny_preview_CuraIfillPatterns-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4753880\"><img alt=\"Customizable Engraved Rings\" title=\"Customizable Engraved Rings\" src=\"https:\/\/cdn.thingiverse.com\/assets\/14\/a9\/61\/89\/da\/tiny_preview_EngravedRings-cover03.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4793066\"><img alt=\"Customizable Plant Tags\" title=\"Customizable Plant Tags\" src=\"https:\/\/cdn.thingiverse.com\/assets\/87\/a5\/eb\/59\/c6\/tiny_preview_PlantTags-cover13-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4815367\"><img alt=\"Customizable Round Rod Hooks\" title=\"Customizable Round Rod Hooks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0a\/12\/96\/c9\/67\/tiny_preview_RoundRodHooks-cover04-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5657493\"><img alt=\"Toothbrush Holder Tooth\" title=\"Toothbrush Holder Tooth\" src=\"https:\/\/cdn.thingiverse.com\/assets\/6b\/43\/93\/e7\/59\/tiny_preview_25d1fecd-8eb7-492a-95c3-0a96b6fce7ff.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5715893\"><img alt=\"Customizable Name Cookie Cutter\" title=\"Customizable Name Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a7\/56\/1d\/4b\/tiny_preview_e21ffc70-593b-4fd8-893c-e0cf59dedefa.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5719464\"><img alt=\"Customizable Name Heart Cookie Cutter\" title=\"Customizable Name Heart Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e4\/76\/fd\/e0\/59\/tiny_preview_9a7f3e52-ed29-4300-8e7e-919a769349e0.png\"><\/a>&nbsp;<\/div><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h3>Customizable LEGO compatible Braille Bricks.<\/h3><p>This is a customizer for creating a sequence of LEGO compatible Braille bricks according to the Unified English Braille standard.<\/p><p>You can enter any of the following letters, numbers, punctuation, and math symbols:<\/p><p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>1234567890<br>,;:.!?'#<br>+-&times;&divide;=<\/p><p>Note that the multiplication and division symbols aren't on a keyboard so they can be copied from above if you want to create them.<\/p><p>You can also enter the carat (^) character to start a new row of bricks and a space character to print a brick with no dot pattern.<\/p><p>The Latin character or symbol is printed below the dot pattern. If the dot pattern is also used with a prefix, like the numbers, both characters will be printed by default. <\/p><p>This is a remix of my LEGO Compatible Text Bricks where I hacked out the code and parameters for adding the text on the sides and added in code to vary the dot pattern.<\/p><hr><h3>Running the Customizer<\/h3><p>Click the Open in Customizer button to create your own model on Thingiverse.<\/p><p>Note that Thingiverse hadn't run their customizer queue from Jul 10, 2020 to Aug 4, 2022 and may stop running it at any time again. So if they don't process your customized job, you will have to install and run OpenSCAD (free software) on your own computer to process the code to create your own customized models. See DrLex's instructions linked below for further details.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.dr-lex.be\/3d-printing\/customizer.html\">How to Run Customizer on Your Own Computer<\/a><\/p><p>You will have to place download the Roboto-Black.ttf font file into the same folder as the OpenSCAD code file.<\/p><hr><h3><img alt=\"Lyl3's Designs\" title=\"Lyl3's Designs\" src=\"https:\/\/cdn.thingiverse.com\/renders\/8c\/4e\/40\/d7\/ce\/771666aad442acd92ec0f917fa01d022_thumb_tiny.jpg\">Some of My Designs<\/h3><p>Click an image below (opens in a new tab) or <a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/Lyl3\/designs\">go to my designs page and see them all.<\/a><\/p><p>If you see some thing that you like <img src=\"https:\/\/cdn.thingiverse.com\/assets\/6a\/01\/b4\/1a\/98\/large_display_SmileyLike-29x40.png\" alt=\"image\">, <strong>please click the <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-unliked.svg\" alt=\"image\"> <span><sup> Like<\/sup><\/span> button<\/strong> and turn that heart red <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-liked.svg\" alt=\"image\">.<\/p><div><a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3867358\"><img alt=\"Customizable LEGO compatible Text Bricks\" title=\"Customizable LEGO compatible Text Bricks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/f4\/0a\/c8\/4c\/ac\/tiny_preview_LEGOTextBricks-06-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3757356\"><img alt=\"Universal Dual Filament Dragon Clip\" title=\"Universal Dual Filament Dragon Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/2d\/63\/4f\/9b\/63\/12d1067b2112c042c9b5c0bb6b57009e_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3911914\"><img alt=\"Customizable Drawer Handle or Cabinet Handle\" title=\"Customizable Drawer Handle or Cabinet Handle\" src=\"https:\/\/cdn.thingiverse.com\/assets\/70\/5e\/e8\/1f\/d3\/tiny_preview_CabinetDrawerHandles-cover02.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3703510\"><img alt=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" title=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" src=\"https:\/\/cdn.thingiverse.com\/renders\/98\/6a\/f0\/f0\/dd\/e4a5a08667a4eebbf3f99b5536932dcf_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3166520\"><img alt=\"Big Nuts Cup\" title=\"Big Nuts Cup\" src=\"https:\/\/cdn.thingiverse.com\/renders\/1a\/e2\/69\/85\/2f\/c5360564f1e1860a6e3ee03981652e6f_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4244917\"><img alt=\"Customizable Safe Distance Sign - Confused\" title=\"Customizable Safe Distance Sign - Confused\" src=\"https:\/\/cdn.thingiverse.com\/assets\/de\/ac\/b4\/fb\/3b\/tiny_preview_SafeDistanceSign-Cover01-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3516901\"><img alt=\"Customizable Dual Letter Blocks Illusion\" title=\"Customizable Dual Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7c\/13\/0a\/79\/13\/tiny_preview_DualMultiLetterBlocksV3.03-M01-M02-M03-M08-cover07-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3321080\"><img alt=\"49 Room Signs Like 'The Office' Logo\" title=\"49 Room Signs Like 'The Office' Logo\" src=\"https:\/\/cdn.thingiverse.com\/assets\/b3\/74\/9e\/ef\/22\/tiny_preview_TheRoomSigns-cover-08a-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3633456\"><img alt=\"Customizable Triple Letter Blocks Ambigram\" title=\"Customizable Triple Letter Blocks Ambigram\" src=\"https:\/\/cdn.thingiverse.com\/assets\/c1\/0a\/3d\/05\/dd\/tiny_preview_TripleLetterBlocks-cover09-ILU-MOM-DAD-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4258942\"><img alt=\"Customizable Safe Distance Sign - Together\" title=\"Customizable Safe Distance Sign - Together\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e6\/e4\/68\/9d\/b1\/tiny_preview_SafeDistanceSign-Together-FiveColor-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4190541\"><img alt=\"Triforce Earrings with Beveled Edges\" title=\"Triforce Earrings with Beveled Edges\" src=\"https:\/\/cdn.thingiverse.com\/assets\/97\/f4\/12\/f4\/7e\/tiny_preview_Triforce-Earrings-D-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3860734\"><img alt=\"Customizable Tiny Bookcase\" title=\"Customizable Tiny Bookcase\" src=\"https:\/\/cdn.thingiverse.com\/assets\/53\/1b\/b1\/fd\/fa\/tiny_preview_TinyBookcase-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3817537\"><img alt=\"Articulated Posable Stickman\" title=\"Articulated Posable Stickman\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a5\/ce\/cc\/c5\/tiny_preview_AnArticulatedPosableStickman-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3819758\"><img alt=\"Two-Piece Stacking Hexagon Coaster\" title=\"Two-Piece Stacking Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/assets\/47\/94\/8d\/e3\/e9\/tiny_preview_HexagonCoasters-Stacking.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3720179\"><img alt=\"Doorbell Broken Sign\" title=\"Doorbell Broken Sign\" src=\"https:\/\/cdn.thingiverse.com\/assets\/72\/85\/4c\/4d\/8f\/tiny_preview_DoorbellBrokenSignVertical2-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3812511\"><img alt=\"Honeycomb Patterned Hexagon Coaster\" title=\"Honeycomb Patterned Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/renders\/a6\/9a\/82\/46\/72\/f879d6c5bcd2de257f08859c7b2515da_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3307331\"><img alt=\"Knob Stove Knobs\" title=\"Knob Stove Knobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/41\/87\/3c\/9b\/tiny_preview_KnobStoveKnobs-censored-705x513.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3363234\"><img alt=\"Peeking Cat Silhouette\" title=\"Peeking Cat Silhouette\" src=\"https:\/\/cdn.thingiverse.com\/renders\/84\/d5\/03\/ff\/fc\/9df1bbf1aaaa2ef702106b67610804c2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4219633\"><img alt=\"Customizable Engraved Shopping Cart Tokens\" title=\"Customizable Engraved Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/assets\/d0\/ad\/a5\/69\/e2\/tiny_preview_Tokens-01C-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3506048\"><img alt=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" title=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/06\/52\/ef\/fe\/34\/fe105cfed8deb0f908ce3ebb1ae8bdd2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3252273\"><img alt=\"Door Hook - Strong and Tapered\" title=\"Door Hook - Strong and Tapered\" src=\"https:\/\/cdn.thingiverse.com\/renders\/92\/80\/bd\/57\/fd\/153cfe18095dbc1715d7f594aa281dbc_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3194179\"><img alt=\"Hidden Internal Lithophane Coasters\" title=\"Hidden Internal Lithophane Coasters\" src=\"https:\/\/cdn.thingiverse.com\/renders\/24\/cd\/40\/68\/89\/22ff25daceb0410a2eb8a28f02c69bb2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3238514\"><img alt=\"Cannabis Cookie Cutter - Marijuana Leaf\" title=\"Cannabis Cookie Cutter - Marijuana Leaf\" src=\"https:\/\/cdn.thingiverse.com\/renders\/e0\/b0\/b8\/6f\/75\/5039787b73a63fecd10424112b91d7f3_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3870473\"><img alt=\"Customizable Systainer Labelled Faceplate\" title=\"Customizable Systainer Labelled Faceplate\" src=\"https:\/\/cdn.thingiverse.com\/assets\/03\/7e\/cb\/f7\/02\/tiny_preview_SystainerLatchFaceplateText-V1p4-Systainer-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3508397\"><img alt=\"In Or Out Arrows Illusion\" title=\"In Or Out Arrows Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/cd\/77\/0a\/83\/41\/651e4b6b1da93c77b0412e4ca5718ab4_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2824141\"><img alt=\"One Euro Tokens with Hidden Internal Lithophanes\" title=\"One Euro Tokens with Hidden Internal Lithophanes\" src=\"https:\/\/cdn.thingiverse.com\/renders\/b7\/d8\/9a\/3a\/33\/4ca16464cee25b0397397bc56bdc4d56_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4029544\"><img alt=\"Toy Soldier Christmas Decoration\" title=\"Toy Soldier Christmas Decoration\" src=\"https:\/\/cdn.thingiverse.com\/assets\/78\/a6\/a2\/d4\/db\/tiny_preview_ToySoldier-cover02-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3474374\"><img alt=\"Vape Pen Stand and Cartridge Storage Honeycomb\" title=\"Vape Pen Stand and Cartridge Storage Honeycomb\" src=\"https:\/\/cdn.thingiverse.com\/renders\/40\/58\/04\/e7\/3e\/dec142a80c91cbc96e4e10ccd8cf0612_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2821385\"><img alt=\"Hidden Lithophane Loonie Shopping Cart Tokens\" title=\"Hidden Lithophane Loonie Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/renders\/91\/3e\/ee\/09\/0e\/e973ad15e7e4acde49c0e7d9d93a176a_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2791995\"><img alt=\"Penny Weight Fidget Spinners\" title=\"Penny Weight Fidget Spinners\" src=\"https:\/\/cdn.thingiverse.com\/renders\/39\/b7\/81\/f4\/ad\/57ddb1f2cf85f62b43f596cee60675d5_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4039956\"><img alt=\"Snowflake Coasters\" title=\"Snowflake Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/52\/d4\/c0\/55\/62\/tiny_preview_CoasterSnowflakes-cover03-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2829218\"><img alt=\"FlashForg e Creatr Pro Spool Holder\" title=\"FlashForg e Creatr Pro Spool Holder\" src=\"https:\/\/cdn.thingiverse.com\/renders\/c8\/95\/86\/96\/68\/e9f75dee927d23ba94b1af14b9574f08_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3287383\"><img alt=\"DaVinci IQ Vaporizer Stand\" title=\"DaVinci IQ Vaporizer Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ae\/18\/4a\/ba\/5d\/0c68e652448386c2ac8e34ad79589201_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3530989\"><img alt=\"Customizable Triple Letter Blocks Illusion\" title=\"Customizable Triple Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ff\/d1\/91\/e0\/b7\/3a44d9c4b70877a11cfd53c6d5fc3479_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3577297\"><img alt=\"THE BEST Filament Clip\" title=\"THE BEST Filament Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/fd\/bb\/50\/d9\/23\/7f86441bc5a652d24b087017d0294b7c_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4633973\"><img alt=\"Customizable LEGO compatible Text Brick Key Fobs\" title=\"Customizable LEGO compatible Text Brick Key Fobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/1f\/20\/9b\/01\/1e\/tiny_preview_KeyFobBricks-cover05-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4674730\"><img alt=\"Customizable Flexible Christmas Tree\" title=\"Customizable Flexible Christmas Tree\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e9\/5b\/7d\/8b\/23\/tiny_preview_FlexibleChristmasTree-cover02-700x526.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4681765\"><img alt=\"Customizable Christmas Name Ornament\" title=\"Customizable Christmas Name Ornament\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e3\/c9\/66\/8a\/32\/tiny_preview_11c3eee4-9500-4976-86ae-1b73ae5cd5cd.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4689609\"><img alt=\"Customizable Tiny Secret Books\" title=\"Customizable Tiny Secret Books\" src=\"https:\/\/cdn.thingiverse.com\/assets\/31\/c7\/4c\/a9\/bc\/tiny_preview_TinySecretBooks-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4695105\"><img alt=\"Customizable Hexagon Monogram Coasters\" title=\"Customizable Hexagon Monogram Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0e\/4e\/0f\/e7\/94\/tiny_preview_HexagonMonogram-cover01B-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3569113\"><img alt=\"Cura Profile for FlashForg e Creatr Pro\" title=\"Cura Profile for FlashForg e Creatr Pro\" src=\"https:\/\/cdn.thingiverse.com\/assets\/39\/07\/c8\/69\/6f\/tiny_preview_CuraProfileFlashforgeCreatorPro-CoverGreyTop.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4732170\"><img alt=\"Cura Infill Patterns\" title=\"Cura Infill Patterns\" src=\"https:\/\/cdn.thingiverse.com\/assets\/a1\/ab\/32\/5e\/65\/tiny_preview_CuraIfillPatterns-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4753880\"><img alt=\"Customizable Engraved Rings\" title=\"Customizable Engraved Rings\" src=\"https:\/\/cdn.thingiverse.com\/assets\/14\/a9\/61\/89\/da\/tiny_preview_EngravedRings-cover03.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4793066\"><img alt=\"Customizable Plant Tags\" title=\"Customizable Plant Tags\" src=\"https:\/\/cdn.thingiverse.com\/assets\/87\/a5\/eb\/59\/c6\/tiny_preview_PlantTags-cover13-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4815367\"><img alt=\"Customizable Round Rod Hooks\" title=\"Customizable Round Rod Hooks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0a\/12\/96\/c9\/67\/tiny_preview_RoundRodHooks-cover04-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5657493\"><img alt=\"Toothbrush Holder Tooth\" title=\"Toothbrush Holder Tooth\" src=\"https:\/\/cdn.thingiverse.com\/assets\/6b\/43\/93\/e7\/59\/tiny_preview_25d1fecd-8eb7-492a-95c3-0a96b6fce7ff.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5715893\"><img alt=\"Customizable Name Cookie Cutter\" title=\"Customizable Name Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a7\/56\/1d\/4b\/tiny_preview_e21ffc70-593b-4fd8-893c-e0cf59dedefa.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5719464\"><img alt=\"Customizable Name Heart Cookie Cutter\" title=\"Customizable Name Heart Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e4\/76\/fd\/e0\/59\/tiny_preview_9a7f3e52-ed29-4300-8e7e-919a769349e0.png\"><\/a>&nbsp;<\/div><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h3>Customizable LEGO compatible Braille Bricks.<\/h3><p>This is a customizer for creating a sequence of LEGO compatible Braille bricks according to the Unified English Braille standard.<\/p><p>You can enter any of the following letters, numbers, punctuation, and math symbols:<\/p><p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>1234567890<br>,;:.!?'#<br>+-&times;&divide;=<\/p><p>Note that the multiplication and division symbols aren't on a keyboard so they can be copied from above if you want to create them.<\/p><p>You can also enter the carat (^) character to start a new row of bricks and a space character to print a brick with no dot pattern.<\/p><p>The Latin character or symbol is printed below the dot pattern. If the dot pattern is also used with a prefix, like the numbers, both characters will be printed by default. <\/p><p>This is a remix of my LEGO Compatible Text Bricks where I hacked out the code and parameters for adding the text on the sides and added in code to vary the dot pattern.<\/p><hr><h3>Running the Customizer<\/h3><p>Click the Open in Customizer button to create your own model on Thingiverse.<\/p><p>Note that Thingiverse hadn't run their customizer queue from Jul 10, 2020 to Aug 4, 2022 and may stop running it at any time again. So if they don't process your customized job, you will have to install and run OpenSCAD (free software) on your own computer to process the code to create your own customized models. See DrLex's instructions linked below for further details.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.dr-lex.be\/3d-printing\/customizer.html\">How to Run Customizer on Your Own Computer<\/a><\/p><p>You will have to place download the Roboto-Black.ttf font file into the same folder as the OpenSCAD code file.<\/p><hr><h3><img alt=\"Lyl3's Designs\" title=\"Lyl3's Designs\" src=\"https:\/\/cdn.thingiverse.com\/renders\/8c\/4e\/40\/d7\/ce\/771666aad442acd92ec0f917fa01d022_thumb_tiny.jpg\">Some of My Designs<\/h3><p>Click an image below (opens in a new tab) or <a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/Lyl3\/designs\">go to my designs page and see them all.<\/a><\/p><p>If you see some thing that you like <img src=\"https:\/\/cdn.thingiverse.com\/assets\/6a\/01\/b4\/1a\/98\/large_display_SmileyLike-29x40.png\" alt=\"image\">, <strong>please click the <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-unliked.svg\" alt=\"image\"> <span style=\"font-size: larger;\"><sup> Like<\/sup><\/span> button<\/strong> and turn that heart red <img src=\"https:\/\/cdn.thingiverse.com\/site\/assets\/like-button-liked.svg\" alt=\"image\">.<\/p><div><a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3867358\"><img alt=\"Customizable LEGO compatible Text Bricks\" title=\"Customizable LEGO compatible Text Bricks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/f4\/0a\/c8\/4c\/ac\/tiny_preview_LEGOTextBricks-06-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3757356\"><img alt=\"Universal Dual Filament Dragon Clip\" title=\"Universal Dual Filament Dragon Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/2d\/63\/4f\/9b\/63\/12d1067b2112c042c9b5c0bb6b57009e_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3911914\"><img alt=\"Customizable Drawer Handle or Cabinet Handle\" title=\"Customizable Drawer Handle or Cabinet Handle\" src=\"https:\/\/cdn.thingiverse.com\/assets\/70\/5e\/e8\/1f\/d3\/tiny_preview_CabinetDrawerHandles-cover02.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3703510\"><img alt=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" title=\"Endr 3 and Endr 3 Pro Fan Silencer Shrouds for PSU\" src=\"https:\/\/cdn.thingiverse.com\/renders\/98\/6a\/f0\/f0\/dd\/e4a5a08667a4eebbf3f99b5536932dcf_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3166520\"><img alt=\"Big Nuts Cup\" title=\"Big Nuts Cup\" src=\"https:\/\/cdn.thingiverse.com\/renders\/1a\/e2\/69\/85\/2f\/c5360564f1e1860a6e3ee03981652e6f_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4244917\"><img alt=\"Customizable Safe Distance Sign - Confused\" title=\"Customizable Safe Distance Sign - Confused\" src=\"https:\/\/cdn.thingiverse.com\/assets\/de\/ac\/b4\/fb\/3b\/tiny_preview_SafeDistanceSign-Cover01-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3516901\"><img alt=\"Customizable Dual Letter Blocks Illusion\" title=\"Customizable Dual Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7c\/13\/0a\/79\/13\/tiny_preview_DualMultiLetterBlocksV3.03-M01-M02-M03-M08-cover07-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3321080\"><img alt=\"49 Room Signs Like 'The Office' Logo\" title=\"49 Room Signs Like 'The Office' Logo\" src=\"https:\/\/cdn.thingiverse.com\/assets\/b3\/74\/9e\/ef\/22\/tiny_preview_TheRoomSigns-cover-08a-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3633456\"><img alt=\"Customizable Triple Letter Blocks Ambigram\" title=\"Customizable Triple Letter Blocks Ambigram\" src=\"https:\/\/cdn.thingiverse.com\/assets\/c1\/0a\/3d\/05\/dd\/tiny_preview_TripleLetterBlocks-cover09-ILU-MOM-DAD-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4258942\"><img alt=\"Customizable Safe Distance Sign - Together\" title=\"Customizable Safe Distance Sign - Together\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e6\/e4\/68\/9d\/b1\/tiny_preview_SafeDistanceSign-Together-FiveColor-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4190541\"><img alt=\"Triforce Earrings with Beveled Edges\" title=\"Triforce Earrings with Beveled Edges\" src=\"https:\/\/cdn.thingiverse.com\/assets\/97\/f4\/12\/f4\/7e\/tiny_preview_Triforce-Earrings-D-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3860734\"><img alt=\"Customizable Tiny Bookcase\" title=\"Customizable Tiny Bookcase\" src=\"https:\/\/cdn.thingiverse.com\/assets\/53\/1b\/b1\/fd\/fa\/tiny_preview_TinyBookcase-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3817537\"><img alt=\"Articulated Posable Stickman\" title=\"Articulated Posable Stickman\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a5\/ce\/cc\/c5\/tiny_preview_AnArticulatedPosableStickman-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3819758\"><img alt=\"Two-Piece Stacking Hexagon Coaster\" title=\"Two-Piece Stacking Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/assets\/47\/94\/8d\/e3\/e9\/tiny_preview_HexagonCoasters-Stacking.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3720179\"><img alt=\"Doorbell Broken Sign\" title=\"Doorbell Broken Sign\" src=\"https:\/\/cdn.thingiverse.com\/assets\/72\/85\/4c\/4d\/8f\/tiny_preview_DoorbellBrokenSignVertical2-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3812511\"><img alt=\"Honeycomb Patterned Hexagon Coaster\" title=\"Honeycomb Patterned Hexagon Coaster\" src=\"https:\/\/cdn.thingiverse.com\/renders\/a6\/9a\/82\/46\/72\/f879d6c5bcd2de257f08859c7b2515da_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3307331\"><img alt=\"Knob Stove Knobs\" title=\"Knob Stove Knobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/41\/87\/3c\/9b\/tiny_preview_KnobStoveKnobs-censored-705x513.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3363234\"><img alt=\"Peeking Cat Silhouette\" title=\"Peeking Cat Silhouette\" src=\"https:\/\/cdn.thingiverse.com\/renders\/84\/d5\/03\/ff\/fc\/9df1bbf1aaaa2ef702106b67610804c2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4219633\"><img alt=\"Customizable Engraved Shopping Cart Tokens\" title=\"Customizable Engraved Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/assets\/d0\/ad\/a5\/69\/e2\/tiny_preview_Tokens-01C-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3506048\"><img alt=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" title=\"Left Pointing Arrow Illusion with Support Tear-away Tabs and a Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/06\/52\/ef\/fe\/34\/fe105cfed8deb0f908ce3ebb1ae8bdd2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3252273\"><img alt=\"Door Hook - Strong and Tapered\" title=\"Door Hook - Strong and Tapered\" src=\"https:\/\/cdn.thingiverse.com\/renders\/92\/80\/bd\/57\/fd\/153cfe18095dbc1715d7f594aa281dbc_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3194179\"><img alt=\"Hidden Internal Lithophane Coasters\" title=\"Hidden Internal Lithophane Coasters\" src=\"https:\/\/cdn.thingiverse.com\/renders\/24\/cd\/40\/68\/89\/22ff25daceb0410a2eb8a28f02c69bb2_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3238514\"><img alt=\"Cannabis Cookie Cutter - Marijuana Leaf\" title=\"Cannabis Cookie Cutter - Marijuana Leaf\" src=\"https:\/\/cdn.thingiverse.com\/renders\/e0\/b0\/b8\/6f\/75\/5039787b73a63fecd10424112b91d7f3_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3870473\"><img alt=\"Customizable Systainer Labelled Faceplate\" title=\"Customizable Systainer Labelled Faceplate\" src=\"https:\/\/cdn.thingiverse.com\/assets\/03\/7e\/cb\/f7\/02\/tiny_preview_SystainerLatchFaceplateText-V1p4-Systainer-1256x942.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3508397\"><img alt=\"In Or Out Arrows Illusion\" title=\"In Or Out Arrows Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/cd\/77\/0a\/83\/41\/651e4b6b1da93c77b0412e4ca5718ab4_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2824141\"><img alt=\"One Euro Tokens with Hidden Internal Lithophanes\" title=\"One Euro Tokens with Hidden Internal Lithophanes\" src=\"https:\/\/cdn.thingiverse.com\/renders\/b7\/d8\/9a\/3a\/33\/4ca16464cee25b0397397bc56bdc4d56_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4029544\"><img alt=\"Toy Soldier Christmas Decoration\" title=\"Toy Soldier Christmas Decoration\" src=\"https:\/\/cdn.thingiverse.com\/assets\/78\/a6\/a2\/d4\/db\/tiny_preview_ToySoldier-cover02-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3474374\"><img alt=\"Vape Pen Stand and Cartridge Storage Honeycomb\" title=\"Vape Pen Stand and Cartridge Storage Honeycomb\" src=\"https:\/\/cdn.thingiverse.com\/renders\/40\/58\/04\/e7\/3e\/dec142a80c91cbc96e4e10ccd8cf0612_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2821385\"><img alt=\"Hidden Lithophane Loonie Shopping Cart Tokens\" title=\"Hidden Lithophane Loonie Shopping Cart Tokens\" src=\"https:\/\/cdn.thingiverse.com\/renders\/91\/3e\/ee\/09\/0e\/e973ad15e7e4acde49c0e7d9d93a176a_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2791995\"><img alt=\"Penny Weight Fidget Spinners\" title=\"Penny Weight Fidget Spinners\" src=\"https:\/\/cdn.thingiverse.com\/renders\/39\/b7\/81\/f4\/ad\/57ddb1f2cf85f62b43f596cee60675d5_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4039956\"><img alt=\"Snowflake Coasters\" title=\"Snowflake Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/52\/d4\/c0\/55\/62\/tiny_preview_CoasterSnowflakes-cover03-1256x942.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:2829218\"><img alt=\"FlashForg e Creatr Pro Spool Holder\" title=\"FlashForg e Creatr Pro Spool Holder\" src=\"https:\/\/cdn.thingiverse.com\/renders\/c8\/95\/86\/96\/68\/e9f75dee927d23ba94b1af14b9574f08_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3287383\"><img alt=\"DaVinci IQ Vaporizer Stand\" title=\"DaVinci IQ Vaporizer Stand\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ae\/18\/4a\/ba\/5d\/0c68e652448386c2ac8e34ad79589201_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3530989\"><img alt=\"Customizable Triple Letter Blocks Illusion\" title=\"Customizable Triple Letter Blocks Illusion\" src=\"https:\/\/cdn.thingiverse.com\/renders\/ff\/d1\/91\/e0\/b7\/3a44d9c4b70877a11cfd53c6d5fc3479_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3577297\"><img alt=\"THE BEST Filament Clip\" title=\"THE BEST Filament Clip\" src=\"https:\/\/cdn.thingiverse.com\/renders\/fd\/bb\/50\/d9\/23\/7f86441bc5a652d24b087017d0294b7c_preview_tiny.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4633973\"><img alt=\"Customizable LEGO compatible Text Brick Key Fobs\" title=\"Customizable LEGO compatible Text Brick Key Fobs\" src=\"https:\/\/cdn.thingiverse.com\/assets\/1f\/20\/9b\/01\/1e\/tiny_preview_KeyFobBricks-cover05-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4674730\"><img alt=\"Customizable Flexible Christmas Tree\" title=\"Customizable Flexible Christmas Tree\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e9\/5b\/7d\/8b\/23\/tiny_preview_FlexibleChristmasTree-cover02-700x526.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4681765\"><img alt=\"Customizable Christmas Name Ornament\" title=\"Customizable Christmas Name Ornament\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e3\/c9\/66\/8a\/32\/tiny_preview_11c3eee4-9500-4976-86ae-1b73ae5cd5cd.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4689609\"><img alt=\"Customizable Tiny Secret Books\" title=\"Customizable Tiny Secret Books\" src=\"https:\/\/cdn.thingiverse.com\/assets\/31\/c7\/4c\/a9\/bc\/tiny_preview_TinySecretBooks-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4695105\"><img alt=\"Customizable Hexagon Monogram Coasters\" title=\"Customizable Hexagon Monogram Coasters\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0e\/4e\/0f\/e7\/94\/tiny_preview_HexagonMonogram-cover01B-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:3569113\"><img alt=\"Cura Profile for FlashForg e Creatr Pro\" title=\"Cura Profile for FlashForg e Creatr Pro\" src=\"https:\/\/cdn.thingiverse.com\/assets\/39\/07\/c8\/69\/6f\/tiny_preview_CuraProfileFlashforgeCreatorPro-CoverGreyTop.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4732170\"><img alt=\"Cura Infill Patterns\" title=\"Cura Infill Patterns\" src=\"https:\/\/cdn.thingiverse.com\/assets\/a1\/ab\/32\/5e\/65\/tiny_preview_CuraIfillPatterns-cover02-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4753880\"><img alt=\"Customizable Engraved Rings\" title=\"Customizable Engraved Rings\" src=\"https:\/\/cdn.thingiverse.com\/assets\/14\/a9\/61\/89\/da\/tiny_preview_EngravedRings-cover03.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4793066\"><img alt=\"Customizable Plant Tags\" title=\"Customizable Plant Tags\" src=\"https:\/\/cdn.thingiverse.com\/assets\/87\/a5\/eb\/59\/c6\/tiny_preview_PlantTags-cover13-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:4815367\"><img alt=\"Customizable Round Rod Hooks\" title=\"Customizable Round Rod Hooks\" src=\"https:\/\/cdn.thingiverse.com\/assets\/0a\/12\/96\/c9\/67\/tiny_preview_RoundRodHooks-cover04-628x472.jpg\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5657493\"><img alt=\"Toothbrush Holder Tooth\" title=\"Toothbrush Holder Tooth\" src=\"https:\/\/cdn.thingiverse.com\/assets\/6b\/43\/93\/e7\/59\/tiny_preview_25d1fecd-8eb7-492a-95c3-0a96b6fce7ff.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5715893\"><img alt=\"Customizable Name Cookie Cutter\" title=\"Customizable Name Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/a7\/56\/1d\/4b\/tiny_preview_e21ffc70-593b-4fd8-893c-e0cf59dedefa.png\"><\/a>&nbsp;<a rel=\"nofollow ugc\" target=\"_blank\" href=\"\/thing:5719464\"><img alt=\"Customizable Name Heart Cookie Cutter\" title=\"Customizable Name Heart Cookie Cutter\" src=\"https:\/\/cdn.thingiverse.com\/assets\/e4\/76\/fd\/e0\/59\/tiny_preview_9a7f3e52-ed29-4300-8e7e-919a769349e0.png\"><\/a>&nbsp;<\/div><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6237635\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6237635\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6237635\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6237635\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6237635\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6237635\/tags",
+    "tags": [
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 513,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "braille in openscad",
+        "tag": "braille_in_openscad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille_in_openscad",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille_in_openscad\/things",
+        "absolute_url": "\/tag:braille_in_openscad"
+      },
+      {
+        "name": "lego compatible",
+        "tag": "lego_compatible",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lego_compatible",
+        "count": 2826,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lego_compatible\/things",
+        "absolute_url": "\/tag:lego_compatible"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6237635\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 874,
+    "view_count": 1842,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 5,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 3867358,
+        "name": "Customizable LEGO compatible Text Bricks",
+        "url": "https:\/\/api.thingiverse.com\/things\/3867358",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:3867358",
+        "created_at": "2019-09-18T00:35:16+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/5d\/59\/49\/a4\/94\/medium_thumb_LEGOTextBricks-06-1256x942.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/assets\/65\/63\/ce\/bf\/76\/card_preview_LEGOTextBricks-06-1256x942.jpg",
+        "creator": {
+          "id": 1307662,
+          "name": "Lyl3",
+          "first_name": "Lyle",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/Lyl3",
+          "public_url": "https:\/\/www.thingiverse.com\/Lyl3",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/9c\/a9\/e8\/1c\/8e\/Avatar-Lyl3-9color-256x256.png",
+          "count_of_followers": 2033,
+          "count_of_following": 8,
+          "count_of_designs": 63,
+          "collection_count": 17,
+          "make_count": 26,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Canada",
+          "cover": "https:\/\/cdn.thingiverse.com\/assets\/9a\/66\/f0\/a2\/c1\/All-My-Things-45things-600x292.png",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 221,
+        "make_count": 14,
+        "like_count": 9257,
+        "tags": [
+          {
+            "name": "LEGO",
+            "tag": "lego",
+            "url": "https:\/\/api.thingiverse.com\/tags\/lego",
+            "count": 7817,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/lego\/things",
+            "absolute_url": "\/tag:LEGO"
+          },
+          {
+            "name": "lego compatible",
+            "tag": "lego_compatible",
+            "url": "https:\/\/api.thingiverse.com\/tags\/lego_compatible",
+            "count": 2826,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/lego_compatible\/things",
+            "absolute_url": "\/tag:lego_compatible"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 23756,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "LEGOBrailleBricks-v1p0.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/88\/19\/c7\/e7\/d800eb09-08e1-4f5b-8911-52950c7f1129.scad"
+        },
+        {
+          "name": "LEGOBrailleBricks-v1p0.json",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/c4\/35\/04\/c9\/1f982c41-d92f-4a3f-b820-0e011c01d40f.json"
+        },
+        {
+          "name": "Roboto-Black.ttf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/61\/9e\/1d\/a2\/7fa093f1-6f13-4cd0-9613-981a25ca4d82.ttf"
+        },
+        {
+          "name": "LEGOBrailleBricks-braille-bricks.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/bf\/53\/04\/a1\/0917a6fe-af9c-4c85-9b74-79d0876aaae7.stl"
+        },
+        {
+          "name": "LEGOBrailleBricks-allsupported.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/ab\/f7\/91\/68\/9a529b48-9d11-4b99-b6e8-d023e5f30a97.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "181ff273-a8d8-4d68-acb5-00de13e330bd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/bf\/6f\/87\/9c\/181ff273-a8d8-4d68-acb5-00de13e330bd.png"
+        },
+        {
+          "name": "0917a6fe-af9c-4c85-9b74-79d0876aaae7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/58\/62\/eb\/78\/0917a6fe-af9c-4c85-9b74-79d0876aaae7.png"
+        },
+        {
+          "name": "9a529b48-9d11-4b99-b6e8-d023e5f30a97.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/87\/3c\/17\/80\/9a529b48-9d11-4b99-b6e8-d023e5f30a97.png"
+        },
+        {
+          "name": "7e218611-33b3-4098-a176-6339a4d050b4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/50\/76\/fb\/97\/7e218611-33b3-4098-a176-6339a4d050b4.png"
+        }
+      ]
+    }
+  }
+}

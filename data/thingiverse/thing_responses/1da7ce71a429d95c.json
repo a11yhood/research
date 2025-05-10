@@ -1,0 +1,618 @@
+{
+  "created_at": "2025-04-14T03:40:00.302983+00:00",
+  "elapsed": 0.204332,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002de44bd2eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:40:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:10:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2957270?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2957270?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2957270,
+    "name": "Hand Keyboard",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2957270",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2957270",
+    "creator": {
+      "id": 2002834,
+      "name": "HemdaMakers",
+      "first_name": "Hemda",
+      "last_name": "Makers",
+      "url": "https:\/\/api.thingiverse.com\/users\/HemdaMakers",
+      "public_url": "https:\/\/www.thingiverse.com\/HemdaMakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/12\/23\/a9\/9c\/52\/1d8332000ac66587ab17c8b94375f38c_thumb_medium.jpg",
+      "count_of_followers": 21,
+      "count_of_following": 3,
+      "count_of_designs": 4,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tel-Aviv",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-06-12T19:25:55+00:00",
+    "modified": "2018-06-12T19:25:55+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 60,
+    "is_liked": false,
+    "collect_count": 125,
+    "is_collected": false,
+    "comment_count": 8,
+    "is_watched": false,
+    "default_image": {
+      "id": 8342267,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/2f\/7f\/ef\/a8\/IMG_2819.JPG",
+      "name": "IMG_2819.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/94\/a3\/fc\/77\/ec636ef46024169a2e3f3ce3f3283041_display_small.JPG"
+        }
+      ],
+      "added": "2018-06-12T10:45:11+00:00"
+    },
+    "description": "<h1>Hand Keyboard<\/h1>\r\n<h3>portable Bluetooth keyboard that you will be able to use everywhere<\/h3>\r\n<p>As part of our final project in the <a href=\"http:\/\/www.hemda.org.il\/\/\" title=\"With a Title\">\r\nHemdaMakers<\/a> course, we were asked to develop a wearable project. <\/p>\r\n<p>At first our idea was to make a glove that can control a robotic arm wirelessly using a Bluetooth connection. The glove will send values from the Arduino and the potentiometer to the robotic arm and as a result, you would be able to control the robotic arm. <\/p>\r\n<p>While designing the glove and the arm we had the idea that instead of making the glove control an arm, the glove would be a portable Bluetooth keyboard that you will be able to use everywhere.<\/p>\r\n<p>At the end we decided to make the keyboard and we called the project <strong>Hand Keyboard<\/strong>.<\/p>\r\n<h3><u>How the glove works:<\/u><\/h3>\r\n<p>On the back of the glove under the thumb and also under the index finger there are potentiometers that connect to the fingertips with a fishing wire. When you move your fingers the potentiometers rotate and send their values to the Arduino and then the Arduino transforms the signal to a character (depends on the values it received) and shows the output in the Arduino IDE - PC display, currently via the serial monitor, but in the future, we would like to do it wirelessly. <\/p>\r\n<p>The potentiometers return to their 0 value thanks to the rubber band that is attached to the sensor with special parts we design.<\/p>\r\n<p>The thumb act as a \u201cshift\u201d key that changes the letters that the index finger will be able to send. Think of it like the old Nokia phones, the thumb chooses the key and the index finger press it, each \u201cbutton\u201d have 2 letters to shift from and not 3 or 4. <\/p>\r\n<p>IN this project we focused on designing the glove for people with disabilities that are not capable to communicate verbally and have the ability to move fingers a bit.<\/p>\r\n\r\n<p><u>Project was created by<\/u><\/p>\r\n<h3><strong>Rony zlatokrilov and Ben Epstein<\/strong><\/h3>\r\n\r\n<h3><u>Parts and Tools you will need:<\/u><\/h3>\r\n<ul>\r\n<li><a href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&qid=1528815973&sr=8-3&keywords=lilypad&linkCode=sl1&tag=greatdeal0c4-20&linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">\r\nArduino Lilypad<\/a> 1 unit <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/3Pcs-FTDI-Basic-Program-Downloader-USB-TTL-3_3-5V-FT232-For-Arduino-p-1052104.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nFTDI Adapter to connect your Lilypad<\/a> 1 unit <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/Outdoor-Garden-Protective-Gloves-Wear-resistant-Breathable-Glove-for-Housekeeping-Mechanical-Works-p-1282131.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nGlove<\/a> 1 unit <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/10Pcs-11mm-360-Degree-Rotary-Encoder-Code-Switch-Digital-Potentiometer-Knob-p-1122004.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nRotary Encoder \/ Potentiometer<\/a> 2 units <\/li>\r\n<li><a href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&qid=1528815973&sr=8-3&keywords=lilypad&linkCode=sl1&tag=greatdeal0c4-20&linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">\r\nRubber bands - size 10<\/a> 2 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/Geekcreit-30pcs-20x80mm-FR-4-2_54mm-Double-Side-Prototype-PCB-Printed-Circuit-Board-p-1267132.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nSoldering breadboard  <\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/20M-Nylon-Fishing-Line-Monofilament-Fishing-Line-Carp-Wire-Fishing-Sea-Fishing-Line-p-1022862.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nFishing wire <\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/24pcs-DIY-Multi-function-Sewing-Kit-Needle-And-Thread-Tools-Home-Sewing-Set-p-975579.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nSewing kit<\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/Gaoneng-GNB-3_7V-550mAh-50C-Lipo-Battery-White-Plug-p-1126491.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\n3.7V 500Mah Lipo battery<\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/10-Pairs-1S-Battery-Charging-Cable-Male-Female-p-1044078.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\nLipo battery connector<\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/2-Pcs-TP4056-Micro-USB-5V-1A-Lithium-Battery-Charging-Module-Board-TE585-Lipo-Charger-p-1255763.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">\r\n1S micro usb Lipo battery charger<\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&qid=1528815973&sr=8-3&keywords=lilypad&linkCode=sl1&tag=greatdeal0c4-20&linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">\r\nStep up module from 3.7v to 5V<\/a> 1 units <\/li>\r\n<li><a href=\"https:\/\/www.banggood.com\/10-Pcs-DIY-15cm-Silicone-AWG30-Cable-Flexible-Signal-Wire-for-RC-Model-Tool-DIY-Parts-p-1268218.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Silicon wires<\/a> 1 units <\/li>\r\n<li>We print our projects with <a href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&qid=1528815973&sr=8-3&keywords=lilypad&linkCode=sl1&tag=greatdeal0c4-20&linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Makerbot Replicator 2 <\/a>  <\/li> \r\n<li>We like Esun's <a href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&qid=1528815973&sr=8-3&keywords=lilypad&linkCode=sl1&tag=greatdeal0c4-20&linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">PLA<\/a>  <\/li>\r\n<li>I highly recommend this <a href=\"https:\/\/www.banggood.com\/YOUYUE-8586-2-in-1-SMD-Rework-Soldering-Station-Hot-Air-Gun-Solder-Iron-Tool-p-1274186.html?p=CZ2005204372201306X4\" title=\"With a Title\">Soldering station<\/a>  <\/li>\r\n<li>Print Rubber band holder - 2 units <il>\r\n<li>Print Potentiometer base - 2 units <il>\r\n<li>Print Potentimenter holder - 2 units<\/li>\r\n<li>Print finger loop - 4 units : <strong> Please note that you will need rescale it to fit your finger size!<\/strong><\/li><\/ul>\r\n<h3><u>How to build it:<\/u><\/h3>\r\n<ol>\r\n<li>Follow the <a href=\"https:\/\/youtu.be\/fbBxGhAcKqI\/\" title=\"With a Title\">Video<\/a> to get an idea.  <\/li>\r\n<li>Use the images above as a referance.<\/li>\r\n<li>Install <a href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\/\" title=\"With a Title\">Arduino IDE<\/a> if you dont have it already. <\/li>\r\n<li>Download the <a href=\"https:\/\/mega.nz\/#!mNNyQbLK!yn8auYhh2PCCoWj8EjWuO_CP22j6_NJDaqjEkeNe1Eg\/\" title=\"With a Title\">Project code<\/a> and upload it using the FTDI. If you dont know how to do it follow <a href=\"https:\/\/www.arduino.cc\/en\/Guide\/LilyPadWindows\/\" title=\"With a Title\">How to upload code to Arduino Liypad.<\/a><\/li>\r\n<li>Feel free to modify any of the projects files and code, Please share your remix.<\/li><\/ol>\r\n<h1>Please share <Strong>(:<\/strong><\/h1>",
+    "instructions": "",
+    "description_html": "<div><h1>Hand Keyboard<\/h1><h3>portable Bluetooth keyboard that you will be able to use everywhere<\/h3><p>As part of our final project in the <a rel=\"ugc nofollow\" href=\"http:\/\/www.hemda.org.il\/\/\" title=\"With a Title\">HemdaMakers<\/a> course, we were asked to develop a wearable project. <\/p><p>At first our idea was to make a glove that can control a robotic arm wirelessly using a Bluetooth connection. The glove will send values from the Arduino and the potentiometer to the robotic arm and as a result, you would be able to control the robotic arm. <\/p><p>While designing the glove and the arm we had the idea that instead of making the glove control an arm, the glove would be a portable Bluetooth keyboard that you will be able to use everywhere.<\/p><p>At the end we decided to make the keyboard and we called the project <strong>Hand Keyboard<\/strong>.<\/p><h3><span style=\"text-decoration: underline;\">How the glove works:<\/span><\/h3><p>On the back of the glove under the thumb and also under the index finger there are potentiometers that connect to the fingertips with a fishing wire. When you move your fingers the potentiometers rotate and send their values to the Arduino and then the Arduino transforms the signal to a character (depends on the values it received) and shows the output in the Arduino IDE - PC display, currently via the serial monitor, but in the future, we would like to do it wirelessly. <\/p><p>The potentiometers return to their 0 value thanks to the rubber band that is attached to the sensor with special parts we design.<\/p><p>The thumb act as a &ldquo;shift&rdquo; key that changes the letters that the index finger will be able to send. Think of it like the old Nokia phones, the thumb chooses the key and the index finger press it, each &ldquo;button&rdquo; have 2 letters to shift from and not 3 or 4. <\/p><p>IN this project we focused on designing the glove for people with disabilities that are not capable to communicate verbally and have the ability to move fingers a bit.<\/p><p><span style=\"text-decoration: underline;\">Project was created by<\/span><\/p><h3><strong>Rony zlatokrilov and Ben Epstein<\/strong><\/h3><h3><span style=\"text-decoration: underline;\">Parts and Tools you will need:<\/span><\/h3><ul><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Arduino Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/3Pcs-FTDI-Basic-Program-Downloader-USB-TTL-3_3-5V-FT232-For-Arduino-p-1052104.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">FTDI Adapter to connect your Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Outdoor-Garden-Protective-Gloves-Wear-resistant-Breathable-Glove-for-Housekeeping-Mechanical-Works-p-1282131.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Glove<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10Pcs-11mm-360-Degree-Rotary-Encoder-Code-Switch-Digital-Potentiometer-Knob-p-1122004.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Rotary Encoder \/ Potentiometer<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Rubber bands - size 10<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Geekcreit-30pcs-20x80mm-FR-4-2_54mm-Double-Side-Prototype-PCB-Printed-Circuit-Board-p-1267132.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Soldering breadboard  <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/20M-Nylon-Fishing-Line-Monofilament-Fishing-Line-Carp-Wire-Fishing-Sea-Fishing-Line-p-1022862.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Fishing wire <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/24pcs-DIY-Multi-function-Sewing-Kit-Needle-And-Thread-Tools-Home-Sewing-Set-p-975579.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Sewing kit<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Gaoneng-GNB-3_7V-550mAh-50C-Lipo-Battery-White-Plug-p-1126491.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">3.7V 500Mah Lipo battery<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pairs-1S-Battery-Charging-Cable-Male-Female-p-1044078.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Lipo battery connector<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/2-Pcs-TP4056-Micro-USB-5V-1A-Lithium-Battery-Charging-Module-Board-TE585-Lipo-Charger-p-1255763.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">1S micro usb Lipo battery charger<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Step up module from 3.7v to 5V<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pcs-DIY-15cm-Silicone-AWG30-Cable-Flexible-Signal-Wire-for-RC-Model-Tool-DIY-Parts-p-1268218.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Silicon wires<\/a> 1 units <\/li><li>We print our projects with <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Makerbot Replicator 2 <\/a>  <\/li> <li>We like Esun's <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">PLA<\/a>  <\/li><li>I highly recommend this <a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/YOUYUE-8586-2-in-1-SMD-Rework-Soldering-Station-Hot-Air-Gun-Solder-Iron-Tool-p-1274186.html?p=CZ2005204372201306X4\" title=\"With a Title\">Soldering station<\/a>  <\/li><li>Print Rubber band holder - 2 units <\/li><li>Print Potentiometer base - 2 units <\/li><li>Print Potentimenter holder - 2 units<\/li><li>Print finger loop - 4 units : <strong> Please note that you will need rescale it to fit your finger size!<\/strong><\/li><\/ul><h3><span style=\"text-decoration: underline;\">How to build it:<\/span><\/h3><ol><li>Follow the <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/fbBxGhAcKqI\/\" title=\"With a Title\">Video<\/a> to get an idea.  <\/li><li>Use the images above as a referance.<\/li><li>Install <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\/\" title=\"With a Title\">Arduino IDE<\/a> if you dont have it already. <\/li><li>Download the <a rel=\"ugc nofollow\" href=\"https:\/\/mega.nz\/#!mNNyQbLK!yn8auYhh2PCCoWj8EjWuO_CP22j6_NJDaqjEkeNe1Eg\/\" title=\"With a Title\">Project code<\/a> and upload it using the FTDI. If you dont know how to do it follow <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Guide\/LilyPadWindows\/\" title=\"With a Title\">How to upload code to Arduino Liypad.<\/a><\/li><li>Feel free to modify any of the projects files and code, Please share your remix.<\/li><\/ol><h1>Please share <strong>(:<\/strong><\/h1><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h1>Hand Keyboard<\/h1><h3>portable Bluetooth keyboard that you will be able to use everywhere<\/h3><p>As part of our final project in the <a rel=\"ugc nofollow\" href=\"http:\/\/www.hemda.org.il\/\/\" title=\"With a Title\">HemdaMakers<\/a> course, we were asked to develop a wearable project. <\/p><p>At first our idea was to make a glove that can control a robotic arm wirelessly using a Bluetooth connection. The glove will send values from the Arduino and the potentiometer to the robotic arm and as a result, you would be able to control the robotic arm. <\/p><p>While designing the glove and the arm we had the idea that instead of making the glove control an arm, the glove would be a portable Bluetooth keyboard that you will be able to use everywhere.<\/p><p>At the end we decided to make the keyboard and we called the project <strong>Hand Keyboard<\/strong>.<\/p><h3><span>How the glove works:<\/span><\/h3><p>On the back of the glove under the thumb and also under the index finger there are potentiometers that connect to the fingertips with a fishing wire. When you move your fingers the potentiometers rotate and send their values to the Arduino and then the Arduino transforms the signal to a character (depends on the values it received) and shows the output in the Arduino IDE - PC display, currently via the serial monitor, but in the future, we would like to do it wirelessly. <\/p><p>The potentiometers return to their 0 value thanks to the rubber band that is attached to the sensor with special parts we design.<\/p><p>The thumb act as a &ldquo;shift&rdquo; key that changes the letters that the index finger will be able to send. Think of it like the old Nokia phones, the thumb chooses the key and the index finger press it, each &ldquo;button&rdquo; have 2 letters to shift from and not 3 or 4. <\/p><p>IN this project we focused on designing the glove for people with disabilities that are not capable to communicate verbally and have the ability to move fingers a bit.<\/p><p><span>Project was created by<\/span><\/p><h3><strong>Rony zlatokrilov and Ben Epstein<\/strong><\/h3><h3><span>Parts and Tools you will need:<\/span><\/h3><ul><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Arduino Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/3Pcs-FTDI-Basic-Program-Downloader-USB-TTL-3_3-5V-FT232-For-Arduino-p-1052104.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">FTDI Adapter to connect your Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Outdoor-Garden-Protective-Gloves-Wear-resistant-Breathable-Glove-for-Housekeeping-Mechanical-Works-p-1282131.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Glove<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10Pcs-11mm-360-Degree-Rotary-Encoder-Code-Switch-Digital-Potentiometer-Knob-p-1122004.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Rotary Encoder \/ Potentiometer<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Rubber bands - size 10<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Geekcreit-30pcs-20x80mm-FR-4-2_54mm-Double-Side-Prototype-PCB-Printed-Circuit-Board-p-1267132.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Soldering breadboard  <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/20M-Nylon-Fishing-Line-Monofilament-Fishing-Line-Carp-Wire-Fishing-Sea-Fishing-Line-p-1022862.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Fishing wire <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/24pcs-DIY-Multi-function-Sewing-Kit-Needle-And-Thread-Tools-Home-Sewing-Set-p-975579.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Sewing kit<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Gaoneng-GNB-3_7V-550mAh-50C-Lipo-Battery-White-Plug-p-1126491.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">3.7V 500Mah Lipo battery<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pairs-1S-Battery-Charging-Cable-Male-Female-p-1044078.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Lipo battery connector<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/2-Pcs-TP4056-Micro-USB-5V-1A-Lithium-Battery-Charging-Module-Board-TE585-Lipo-Charger-p-1255763.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">1S micro usb Lipo battery charger<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Step up module from 3.7v to 5V<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pcs-DIY-15cm-Silicone-AWG30-Cable-Flexible-Signal-Wire-for-RC-Model-Tool-DIY-Parts-p-1268218.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Silicon wires<\/a> 1 units <\/li><li>We print our projects with <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Makerbot Replicator 2 <\/a>  <\/li> <li>We like Esun's <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">PLA<\/a>  <\/li><li>I highly recommend this <a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/YOUYUE-8586-2-in-1-SMD-Rework-Soldering-Station-Hot-Air-Gun-Solder-Iron-Tool-p-1274186.html?p=CZ2005204372201306X4\" title=\"With a Title\">Soldering station<\/a>  <\/li><li>Print Rubber band holder - 2 units <\/li><li>Print Potentiometer base - 2 units <\/li><li>Print Potentimenter holder - 2 units<\/li><li>Print finger loop - 4 units : <strong> Please note that you will need rescale it to fit your finger size!<\/strong><\/li><\/ul><h3><span>How to build it:<\/span><\/h3><ol><li>Follow the <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/fbBxGhAcKqI\/\" title=\"With a Title\">Video<\/a> to get an idea.  <\/li><li>Use the images above as a referance.<\/li><li>Install <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\/\" title=\"With a Title\">Arduino IDE<\/a> if you dont have it already. <\/li><li>Download the <a rel=\"ugc nofollow\" href=\"https:\/\/mega.nz\/#!mNNyQbLK!yn8auYhh2PCCoWj8EjWuO_CP22j6_NJDaqjEkeNe1Eg\/\" title=\"With a Title\">Project code<\/a> and upload it using the FTDI. If you dont know how to do it follow <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Guide\/LilyPadWindows\/\" title=\"With a Title\">How to upload code to Arduino Liypad.<\/a><\/li><li>Feel free to modify any of the projects files and code, Please share your remix.<\/li><\/ol><h1>Please share <strong>(:<\/strong><\/h1><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20%<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h1>Hand Keyboard<\/h1><h3>portable Bluetooth keyboard that you will be able to use everywhere<\/h3><p>As part of our final project in the <a rel=\"ugc nofollow\" href=\"http:\/\/www.hemda.org.il\/\/\" title=\"With a Title\">HemdaMakers<\/a> course, we were asked to develop a wearable project. <\/p><p>At first our idea was to make a glove that can control a robotic arm wirelessly using a Bluetooth connection. The glove will send values from the Arduino and the potentiometer to the robotic arm and as a result, you would be able to control the robotic arm. <\/p><p>While designing the glove and the arm we had the idea that instead of making the glove control an arm, the glove would be a portable Bluetooth keyboard that you will be able to use everywhere.<\/p><p>At the end we decided to make the keyboard and we called the project <strong>Hand Keyboard<\/strong>.<\/p><h3><span style=\"text-decoration: underline;\">How the glove works:<\/span><\/h3><p>On the back of the glove under the thumb and also under the index finger there are potentiometers that connect to the fingertips with a fishing wire. When you move your fingers the potentiometers rotate and send their values to the Arduino and then the Arduino transforms the signal to a character (depends on the values it received) and shows the output in the Arduino IDE - PC display, currently via the serial monitor, but in the future, we would like to do it wirelessly. <\/p><p>The potentiometers return to their 0 value thanks to the rubber band that is attached to the sensor with special parts we design.<\/p><p>The thumb act as a &ldquo;shift&rdquo; key that changes the letters that the index finger will be able to send. Think of it like the old Nokia phones, the thumb chooses the key and the index finger press it, each &ldquo;button&rdquo; have 2 letters to shift from and not 3 or 4. <\/p><p>IN this project we focused on designing the glove for people with disabilities that are not capable to communicate verbally and have the ability to move fingers a bit.<\/p><p><span style=\"text-decoration: underline;\">Project was created by<\/span><\/p><h3><strong>Rony zlatokrilov and Ben Epstein<\/strong><\/h3><h3><span style=\"text-decoration: underline;\">Parts and Tools you will need:<\/span><\/h3><ul><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Arduino Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/3Pcs-FTDI-Basic-Program-Downloader-USB-TTL-3_3-5V-FT232-For-Arduino-p-1052104.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">FTDI Adapter to connect your Lilypad<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Outdoor-Garden-Protective-Gloves-Wear-resistant-Breathable-Glove-for-Housekeeping-Mechanical-Works-p-1282131.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Glove<\/a> 1 unit <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10Pcs-11mm-360-Degree-Rotary-Encoder-Code-Switch-Digital-Potentiometer-Knob-p-1122004.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Rotary Encoder \/ Potentiometer<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Rubber bands - size 10<\/a> 2 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Geekcreit-30pcs-20x80mm-FR-4-2_54mm-Double-Side-Prototype-PCB-Printed-Circuit-Board-p-1267132.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Soldering breadboard  <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/20M-Nylon-Fishing-Line-Monofilament-Fishing-Line-Carp-Wire-Fishing-Sea-Fishing-Line-p-1022862.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Fishing wire <\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/24pcs-DIY-Multi-function-Sewing-Kit-Needle-And-Thread-Tools-Home-Sewing-Set-p-975579.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Sewing kit<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/Gaoneng-GNB-3_7V-550mAh-50C-Lipo-Battery-White-Plug-p-1126491.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">3.7V 500Mah Lipo battery<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pairs-1S-Battery-Charging-Cable-Male-Female-p-1044078.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Lipo battery connector<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/2-Pcs-TP4056-Micro-USB-5V-1A-Lithium-Battery-Charging-Module-Board-TE585-Lipo-Charger-p-1255763.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">1S micro usb Lipo battery charger<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Step up module from 3.7v to 5V<\/a> 1 units <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/10-Pcs-DIY-15cm-Silicone-AWG30-Cable-Flexible-Signal-Wire-for-RC-Model-Tool-DIY-Parts-p-1268218.html?p=CZ2005204372201306X4\/\" title=\"With a Title\">Silicon wires<\/a> 1 units <\/li><li>We print our projects with <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">Makerbot Replicator 2 <\/a>  <\/li> <li>We like Esun's <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/LilyPad-Arduino-Development-ATmega32u4-textile\/dp\/B01BK18VPI\/ref=as_li_ss_tl?ie=UTF8&amp;qid=1528815973&amp;sr=8-3&amp;keywords=lilypad&amp;linkCode=sl1&amp;tag=greatdeal0c4-20&amp;linkId=99c8345dd57fc9bc14b249bfe31ae202\/\" title=\"With a Title\">PLA<\/a>  <\/li><li>I highly recommend this <a rel=\"ugc nofollow\" href=\"https:\/\/www.banggood.com\/YOUYUE-8586-2-in-1-SMD-Rework-Soldering-Station-Hot-Air-Gun-Solder-Iron-Tool-p-1274186.html?p=CZ2005204372201306X4\" title=\"With a Title\">Soldering station<\/a>  <\/li><li>Print Rubber band holder - 2 units <\/li><li>Print Potentiometer base - 2 units <\/li><li>Print Potentimenter holder - 2 units<\/li><li>Print finger loop - 4 units : <strong> Please note that you will need rescale it to fit your finger size!<\/strong><\/li><\/ul><h3><span style=\"text-decoration: underline;\">How to build it:<\/span><\/h3><ol><li>Follow the <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/fbBxGhAcKqI\/\" title=\"With a Title\">Video<\/a> to get an idea.  <\/li><li>Use the images above as a referance.<\/li><li>Install <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\/\" title=\"With a Title\">Arduino IDE<\/a> if you dont have it already. <\/li><li>Download the <a rel=\"ugc nofollow\" href=\"https:\/\/mega.nz\/#!mNNyQbLK!yn8auYhh2PCCoWj8EjWuO_CP22j6_NJDaqjEkeNe1Eg\/\" title=\"With a Title\">Project code<\/a> and upload it using the FTDI. If you dont know how to do it follow <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Guide\/LilyPadWindows\/\" title=\"With a Title\">How to upload code to Arduino Liypad.<\/a><\/li><li>Feel free to modify any of the projects files and code, Please share your remix.<\/li><\/ol><h1>Please share <strong>(:<\/strong><\/h1><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2957270\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2957270\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2957270\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2957270\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2957270\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2957270\/tags",
+    "tags": [
+      {
+        "name": "3D printing",
+        "tag": "3d_printing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printing",
+        "count": 11246,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printing\/things",
+        "absolute_url": "\/tag:3D_printing"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10223,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "bed leveling",
+        "tag": "bed_leveling",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bed_leveling",
+        "count": 2432,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bed_leveling\/things",
+        "absolute_url": "\/tag:bed_leveling"
+      },
+      {
+        "name": "cummunication",
+        "tag": "cummunication",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cummunication",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cummunication\/things",
+        "absolute_url": "\/tag:cummunication"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "fishing",
+        "tag": "fishing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fishing",
+        "count": 2593,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fishing\/things",
+        "absolute_url": "\/tag:fishing"
+      },
+      {
+        "name": "glove",
+        "tag": "glove",
+        "url": "https:\/\/api.thingiverse.com\/tags\/glove",
+        "count": 208,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/glove\/things",
+        "absolute_url": "\/tag:glove"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1942,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "human",
+        "tag": "human",
+        "url": "https:\/\/api.thingiverse.com\/tags\/human",
+        "count": 835,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/human\/things",
+        "absolute_url": "\/tag:human"
+      },
+      {
+        "name": "innovative",
+        "tag": "innovative",
+        "url": "https:\/\/api.thingiverse.com\/tags\/innovative",
+        "count": 85,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/innovative\/things",
+        "absolute_url": "\/tag:innovative"
+      },
+      {
+        "name": "keyboard",
+        "tag": "keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyboard",
+        "count": 3803,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyboard\/things",
+        "absolute_url": "\/tag:keyboard"
+      },
+      {
+        "name": "Lilypad",
+        "tag": "lilypad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lilypad",
+        "count": 32,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lilypad\/things",
+        "absolute_url": "\/tag:Lilypad"
+      },
+      {
+        "name": "mechanical keyboard",
+        "tag": "mechanical_keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mechanical_keyboard",
+        "count": 2133,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mechanical_keyboard\/things",
+        "absolute_url": "\/tag:mechanical_keyboard"
+      },
+      {
+        "name": "new",
+        "tag": "new",
+        "url": "https:\/\/api.thingiverse.com\/tags\/new",
+        "count": 1182,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/new\/things",
+        "absolute_url": "\/tag:new"
+      },
+      {
+        "name": "no support needed",
+        "tag": "no_support_needed",
+        "url": "https:\/\/api.thingiverse.com\/tags\/no_support_needed",
+        "count": 170,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/no_support_needed\/things",
+        "absolute_url": "\/tag:no_support_needed"
+      },
+      {
+        "name": "part",
+        "tag": "part",
+        "url": "https:\/\/api.thingiverse.com\/tags\/part",
+        "count": 3980,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/part\/things",
+        "absolute_url": "\/tag:part"
+      },
+      {
+        "name": "potentiometer",
+        "tag": "potentiometer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/potentiometer",
+        "count": 537,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/potentiometer\/things",
+        "absolute_url": "\/tag:potentiometer"
+      },
+      {
+        "name": "shifter",
+        "tag": "shifter",
+        "url": "https:\/\/api.thingiverse.com\/tags\/shifter",
+        "count": 785,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/shifter\/things",
+        "absolute_url": "\/tag:shifter"
+      },
+      {
+        "name": "speaker",
+        "tag": "speaker",
+        "url": "https:\/\/api.thingiverse.com\/tags\/speaker",
+        "count": 2509,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/speaker\/things",
+        "absolute_url": "\/tag:speaker"
+      },
+      {
+        "name": "special",
+        "tag": "special",
+        "url": "https:\/\/api.thingiverse.com\/tags\/special",
+        "count": 135,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/special\/things",
+        "absolute_url": "\/tag:special"
+      },
+      {
+        "name": "technology",
+        "tag": "technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+        "count": 386,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+        "absolute_url": "\/tag:technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2957270\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 863,
+    "view_count": 3406,
+    "education": {
+      "grades": [],
+      "subjects": [
+        {
+          "name": "Languages",
+          "slug": "language",
+          "id": 17
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Rubber_Band_Holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/6e\/bb\/cd\/b9\/Rubber_Band_Holder.stl"
+        },
+        {
+          "name": "potentiometer_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/78\/8e\/42\/e2\/potentiometer_holder.stl"
+        },
+        {
+          "name": "Potentiometer__BASE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/cf\/2e\/d3\/d6\/Potentiometer__BASE.stl"
+        },
+        {
+          "name": "finger_loop.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/fa\/69\/95\/06\/finger_loop.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2819.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/2f\/7f\/ef\/a8\/IMG_2819.JPG"
+        },
+        {
+          "name": "IMG_2815.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/69\/08\/6f\/d5\/IMG_2815.JPG"
+        },
+        {
+          "name": "IMG_2813.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/77\/55\/e3\/19\/IMG_2813.JPG"
+        },
+        {
+          "name": "IMG_2814.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/9a\/56\/5f\/b1\/IMG_2814.JPG"
+        },
+        {
+          "name": "IMG_2819.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/1b\/f8\/b4\/50\/IMG_2819.JPG"
+        },
+        {
+          "name": "IMG_2817.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/61\/7a\/1e\/4b\/IMG_2817.JPG"
+        },
+        {
+          "name": "IMG_2818.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/ee\/be\/1a\/d0\/IMG_2818.JPG"
+        },
+        {
+          "name": "IMG_2811.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/0b\/17\/c2\/b9\/IMG_2811.JPG"
+        },
+        {
+          "name": "0ee181ec236f271fec4292200bb55e57.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/09\/91\/16\/e5\/0ee181ec236f271fec4292200bb55e57.png"
+        },
+        {
+          "name": "946e833e098eaf3b5d3dd63f253ed104.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/9a\/97\/b7\/78\/946e833e098eaf3b5d3dd63f253ed104.png"
+        },
+        {
+          "name": "9fb26fe2e841c51ddeda14b9e1c0d6a4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/39\/b8\/44\/1c\/9fb26fe2e841c51ddeda14b9e1c0d6a4.png"
+        },
+        {
+          "name": "0cb1ea9fe2e478d000aa870954c24125.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/12\/8f\/d0\/5e\/0cb1ea9fe2e478d000aa870954c24125.png"
+        }
+      ]
+    }
+  }
+}

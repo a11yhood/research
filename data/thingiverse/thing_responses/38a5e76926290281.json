@@ -1,0 +1,485 @@
+{
+  "created_at": "2025-04-14T03:39:56.811649+00:00",
+  "elapsed": 0.181666,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002dcefa7beb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:56 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:56 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2257846?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2257846?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2257846,
+    "name": "Pen to palm adapter",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2257846",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2257846",
+    "creator": {
+      "id": 765168,
+      "name": "GabrielaB",
+      "first_name": "Gabriela",
+      "last_name": "Bravo",
+      "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+      "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+      "count_of_followers": 125,
+      "count_of_following": 15,
+      "count_of_designs": 19,
+      "collection_count": 6,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "California",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-04-18T21:02:19+00:00",
+    "modified": "2017-04-18T21:02:19+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 110,
+    "is_liked": false,
+    "collect_count": 250,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5850503,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg",
+      "name": "2017-03-24_15.24.21.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        }
+      ],
+      "added": "2017-04-18T21:01:46+00:00"
+    },
+    "description": "This adapter allows to write with the hand movement. it's useful for people that has lost their fingers movement or has limited finger movement.\r\n\r\nThis object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.",
+    "instructions": "",
+    "description_html": "<div><p>This adapter allows to write with the hand movement. it's useful for people that has lost their fingers movement or has limited finger movement.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This adapter allows to write with the hand movement. it's useful for people that has lost their fingers movement or has limited finger movement.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>100%<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;it must be printed al 100% infill for better performance when you shape it with heat.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/01\/5c\/76\/c5\/98\/Imagen1.png\" alt=\"image\"><\/p><pre><code>                &lt;div&gt;&lt;p&gt;After printing you should shape it to the hand of the user by heating it with hot water or a heat gun (be careful with no burn the patient). Use as example the picture above&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This adapter allows to write with the hand movement. it's useful for people that has lost their fingers movement or has limited finger movement.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "No",
+            "infill": "<div><p>100%<\/p><\/div>\n",
+            "notes": "<div><p>it must be printed al 100% infill for better performance when you shape it with heat.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/01\/5c\/76\/c5\/98\/Imagen1.png",
+            "image_id": "32944"
+          },
+          {
+            "content": "<div><p>After printing you should shape it to the hand of the user by heating it with hot water or a heat gun (be careful with no burn the patient). Use as example the picture above<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2257846\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2257846\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2257846\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2257846\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2257846\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2257846\/tags",
+    "tags": [
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2141,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "Orthotics",
+        "tag": "orthotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/orthotics",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/orthotics\/things",
+        "absolute_url": "\/tag:Orthotics"
+      },
+      {
+        "name": "pen",
+        "tag": "pen",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pen",
+        "count": 3738,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pen\/things",
+        "absolute_url": "\/tag:pen"
+      },
+      {
+        "name": "pencil",
+        "tag": "pencil",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pencil",
+        "count": 2473,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pencil\/things",
+        "absolute_url": "\/tag:pencil"
+      },
+      {
+        "name": "pencil holder",
+        "tag": "pencil_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder",
+        "count": 3924,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder\/things",
+        "absolute_url": "\/tag:pencil_holder"
+      },
+      {
+        "name": "pen holder",
+        "tag": "pen_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pen_holder",
+        "count": 4401,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pen_holder\/things",
+        "absolute_url": "\/tag:pen_holder"
+      },
+      {
+        "name": "write",
+        "tag": "write",
+        "url": "https:\/\/api.thingiverse.com\/tags\/write",
+        "count": 67,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/write\/things",
+        "absolute_url": "\/tag:write"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2257846\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 799,
+    "view_count": 3091,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "prot_1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/bb\/37\/25\/ee\/prot_1.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "2017-03-24_15.24.21.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5b\/60\/4f\/75\/2017-03-24_15.24.21.jpg"
+        },
+        {
+          "name": "2017-04-13_16.02.20.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/5f\/65\/a7\/49\/2017-04-13_16.02.20.jpg"
+        },
+        {
+          "name": "3c32374cd9b94b9c487628e3bce6e32d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c4\/b5\/96\/c2\/5c\/3c32374cd9b94b9c487628e3bce6e32d.png"
+        }
+      ]
+    }
+  }
+}

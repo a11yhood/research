@@ -1,0 +1,545 @@
+{
+  "created_at": "2025-04-18T03:29:49.375974+00:00",
+  "elapsed": 0.225139,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9321147a3ad5fac6-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 18 Apr 2025 03:29:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 18 Apr 2025 03:59:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc",
+      "_cfuvid": "GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc; _cfuvid=GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1335929?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1335929?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1335929,
+    "name": "TD_Static Hand",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1335929",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1335929",
+    "creator": {
+      "id": 767196,
+      "name": "tuduong",
+      "first_name": "Tuan",
+      "last_name": "Duong",
+      "url": "https:\/\/api.thingiverse.com\/users\/tuduong",
+      "public_url": "https:\/\/www.thingiverse.com\/tuduong",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_student_thumb_medium.jpg",
+      "count_of_followers": 0,
+      "count_of_following": 0,
+      "count_of_designs": 7,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-02-21T07:41:58+00:00",
+    "modified": "2016-02-21T07:41:58+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 28,
+    "is_liked": false,
+    "collect_count": 50,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 3331247,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/0c\/22\/7b\/a1\/IMG_3.JPG",
+      "name": "IMG_3.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/96\/fd\/27\/87\/8f2141da669ae0855d2cce5c948a3593_display_small.JPG"
+        }
+      ],
+      "added": "2016-02-12T07:02:26+00:00"
+    },
+    "description": "Adapted from the Flexy-Hand by Gyrobot. Compatible with 1\/2-20 threaded wrist units. Thread the fingers with a firm malleable rod. \r\n\r\nHardware: \r\n6-32 machine screw (2x) \r\n6-32 hex nut (2x) \r\n1\/2-20 hex bolt (1x)\r\n\r\nMay require shortening of screws and bolts for a better fit.\r\n\r\nPrint settings:\r\nFingers and palm printed on the Replicator Z18\r\n10% infill for the upper_palm and fingers\r\n30% infill for the lower\r\nDefault speed\r\n\r\nHinges printed on Replicator 2X\r\nInfill: 10%\r\nExtruder temp: 230C\r\nPlatform temp: 50-70C\r\nTravel speed: 90 mm\/s\r\nZ-axis travel speed: 23 mm\/s\r\nExtrusion speed: 30 mm\/s\r\n\r\nScale fingers and hinges to 90% for the small palm.",
+    "instructions": "",
+    "description_html": "<div><p>Adapted from the Flexy-Hand by Gyrobot. Compatible with 1\/2-20 threaded wrist units. Thread the fingers with a firm malleable rod. <\/p><p>Hardware:<br>6-32 machine screw (2x)<br>6-32 hex nut (2x)<br>1\/2-20 hex bolt (1x)<\/p><p>May require shortening of screws and bolts for a better fit.<\/p><p>Print settings:<br>Fingers and palm printed on the Replicator Z18<br>10% infill for the upper_palm and fingers<br>30% infill for the lower<br>Default speed<\/p><p>Hinges printed on Replicator 2X<br>Infill: 10%<br>Extruder temp: 230C<br>Platform temp: 50-70C<br>Travel speed: 90 mm\/s<br>Z-axis travel speed: 23 mm\/s<br>Extrusion speed: 30 mm\/s<\/p><p>Scale fingers and hinges to 90% for the small palm.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Adapted from the Flexy-Hand by Gyrobot. Compatible with 1\/2-20 threaded wrist units. Thread the fingers with a firm malleable rod. <\/p><p>Hardware:<br>6-32 machine screw (2x)<br>6-32 hex nut (2x)<br>1\/2-20 hex bolt (1x)<\/p><p>May require shortening of screws and bolts for a better fit.<\/p><p>Print settings:<br>Fingers and palm printed on the Replicator Z18<br>10% infill for the upper_palm and fingers<br>30% infill for the lower<br>Default speed<\/p><p>Hinges printed on Replicator 2X<br>Infill: 10%<br>Extruder temp: 230C<br>Platform temp: 50-70C<br>Travel speed: 90 mm\/s<br>Z-axis travel speed: 23 mm\/s<br>Extrusion speed: 30 mm\/s<\/p><p>Scale fingers and hinges to 90% for the small palm.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Adapted from the Flexy-Hand by Gyrobot. Compatible with 1\/2-20 threaded wrist units. Thread the fingers with a firm malleable rod. <\/p><p>Hardware:<br>6-32 machine screw (2x)<br>6-32 hex nut (2x)<br>1\/2-20 hex bolt (1x)<\/p><p>May require shortening of screws and bolts for a better fit.<\/p><p>Print settings:<br>Fingers and palm printed on the Replicator Z18<br>10% infill for the upper_palm and fingers<br>30% infill for the lower<br>Default speed<\/p><p>Hinges printed on Replicator 2X<br>Infill: 10%<br>Extruder temp: 230C<br>Platform temp: 50-70C<br>Travel speed: 90 mm\/s<br>Z-axis travel speed: 23 mm\/s<br>Extrusion speed: 30 mm\/s<\/p><p>Scale fingers and hinges to 90% for the small palm.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1335929\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1335929\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1335929\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1335929\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1335929\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1335929\/tags",
+    "tags": [
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 61,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "e-nable",
+        "tag": "e-nable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+        "count": 233,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+        "absolute_url": "\/tag:e-nable"
+      },
+      {
+        "name": "enable",
+        "tag": "enable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enable",
+        "count": 166,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enable\/things",
+        "absolute_url": "\/tag:enable"
+      },
+      {
+        "name": "enabling",
+        "tag": "enabling",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enabling",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enabling\/things",
+        "absolute_url": "\/tag:enabling"
+      },
+      {
+        "name": "Flexy-Hand",
+        "tag": "flexy-hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand\/things",
+        "absolute_url": "\/tag:Flexy-Hand"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "static hand",
+        "tag": "static_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/static_hand",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/static_hand\/things",
+        "absolute_url": "\/tag:static_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1335929\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1489,
+    "view_count": 1383,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 242639,
+        "name": "Flexy-Hand",
+        "url": "https:\/\/api.thingiverse.com\/things\/242639",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:242639",
+        "created_at": "2014-03-04T17:12:57+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 123,
+        "make_count": 50,
+        "like_count": 5112,
+        "tags": [
+          {
+            "name": "Amputees",
+            "tag": "amputees",
+            "url": "https:\/\/api.thingiverse.com\/tags\/amputees",
+            "count": 4,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/amputees\/things",
+            "absolute_url": "\/tag:Amputees"
+          },
+          {
+            "name": "anatomy",
+            "tag": "anatomy",
+            "url": "https:\/\/api.thingiverse.com\/tags\/anatomy",
+            "count": 510,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/anatomy\/things",
+            "absolute_url": "\/tag:anatomy"
+          },
+          {
+            "name": "Body Parts",
+            "tag": "body_parts",
+            "url": "https:\/\/api.thingiverse.com\/tags\/body_parts",
+            "count": 56,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/body_parts\/things",
+            "absolute_url": "\/tag:Body_Parts"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "filaflex",
+            "tag": "filaflex",
+            "url": "https:\/\/api.thingiverse.com\/tags\/filaflex",
+            "count": 227,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/filaflex\/things",
+            "absolute_url": "\/tag:filaflex"
+          },
+          {
+            "name": "flexible",
+            "tag": "flexible",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flexible",
+            "count": 3485,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flexible\/things",
+            "absolute_url": "\/tag:flexible"
+          },
+          {
+            "name": "live hinge",
+            "tag": "live_hinge",
+            "url": "https:\/\/api.thingiverse.com\/tags\/live_hinge",
+            "count": 15,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/live_hinge\/things",
+            "absolute_url": "\/tag:live_hinge"
+          },
+          {
+            "name": "robotics",
+            "tag": "robotics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+            "count": 3572,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+            "absolute_url": "\/tag:robotics"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 9319,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "l_lower_palm_small.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/d3\/44\/36\/41\/l_lower_palm_small.stl"
+        },
+        {
+          "name": "l_upper_palm_small.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/fb\/31\/06\/68\/l_upper_palm_small.stl"
+        },
+        {
+          "name": "l_lower_palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/bb\/d6\/8d\/b9\/l_lower_palm.stl"
+        },
+        {
+          "name": "l_upper_palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/a8\/5b\/a5\/2f\/l_upper_palm.stl"
+        },
+        {
+          "name": "hinge_minus_1mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/1b\/7b\/e7\/3d\/hinge_minus_1mm.stl"
+        },
+        {
+          "name": "hinge.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/03\/df\/2f\/dc\/hinge.stl"
+        },
+        {
+          "name": "r_lower_palm_small.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/8b\/03\/74\/3f\/r_lower_palm_small.stl"
+        },
+        {
+          "name": "r_upper_palm_small.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/af\/03\/0f\/94\/r_upper_palm_small.stl"
+        },
+        {
+          "name": "r_lower_palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/bc\/62\/ff\/32\/r_lower_palm.stl"
+        },
+        {
+          "name": "r_upper_palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/6b\/3f\/20\/cc\/r_upper_palm.stl"
+        },
+        {
+          "name": "Right_Finger_Plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/6d\/8b\/0a\/75\/Right_Finger_Plate.stl"
+        },
+        {
+          "name": "Hand_-_Drawing.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/d7\/50\/70\/3b\/Hand_-_Drawing.pdf"
+        },
+        {
+          "name": "Left_Finger_Plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/82\/c6\/09\/6d\/Left_Finger_Plate.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/0c\/22\/7b\/a1\/IMG_3.JPG"
+        },
+        {
+          "name": "IMG_1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/c5\/c9\/31\/29\/IMG_1.JPG"
+        },
+        {
+          "name": "IMG_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/c4\/3c\/10\/00\/IMG_2.JPG"
+        },
+        {
+          "name": "4f49887d409442c9025af1e24785eb57.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9e\/e4\/c7\/76\/56\/4f49887d409442c9025af1e24785eb57.png"
+        },
+        {
+          "name": "4eaea1a4f1701013478e01a15b1ccac3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/f1\/e4\/70\/ff\/4eaea1a4f1701013478e01a15b1ccac3.png"
+        },
+        {
+          "name": "a0fd931383faf0b659da3faa22541aec.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/49\/30\/00\/31\/a0fd931383faf0b659da3faa22541aec.png"
+        },
+        {
+          "name": "3a92fa81c8a7e560962cfabcc3bf0110.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e0\/41\/94\/16\/54\/3a92fa81c8a7e560962cfabcc3bf0110.png"
+        },
+        {
+          "name": "53c2bbc04ce1a5f4ac5c6cda80c5fba4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/06\/db\/30\/ea\/fd\/53c2bbc04ce1a5f4ac5c6cda80c5fba4.png"
+        },
+        {
+          "name": "efdbd832eab95665286040dc9ddc7d3f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/65\/44\/70\/d5\/efdbd832eab95665286040dc9ddc7d3f.png"
+        },
+        {
+          "name": "b4b1171e01db57b6e13d8a5118b63413.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/8b\/e8\/b5\/01\/b4b1171e01db57b6e13d8a5118b63413.png"
+        },
+        {
+          "name": "230e5d0ede176257106121ed6c4a67fa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f3\/be\/21\/0a\/9e\/230e5d0ede176257106121ed6c4a67fa.png"
+        },
+        {
+          "name": "adec0cfaeccc6b1258eeeffc0fc9c3a4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/b5\/98\/cc\/73\/adec0cfaeccc6b1258eeeffc0fc9c3a4.png"
+        },
+        {
+          "name": "5d7607a9d04e80c80c5adcc05de7294d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/34\/24\/12\/bf\/9c\/5d7607a9d04e80c80c5adcc05de7294d.png"
+        },
+        {
+          "name": "65fed31bf581d3de9276d29f7a62c423.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/29\/b8\/5c\/57\/84\/65fed31bf581d3de9276d29f7a62c423.png"
+        },
+        {
+          "name": "674538e19774b0bb0393d84e76cfc25b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/f8\/07\/f3\/f7\/674538e19774b0bb0393d84e76cfc25b.png"
+        },
+        {
+          "name": "378c18248e4cddebc0cb2970b1651dd3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ee\/7d\/87\/3b\/56\/378c18248e4cddebc0cb2970b1651dd3.png"
+        }
+      ]
+    }
+  }
+}
