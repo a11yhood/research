@@ -1,0 +1,460 @@
+{
+  "created_at": "2025-04-15T03:39:04.054606+00:00",
+  "elapsed": 0.125678,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869e59b65c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:04 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:04 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6193619?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6193619?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6193619,
+    "name": "Tabletop Desk Mouthstick Holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/a9\/e0\/4e\/99\/8a\/large_display_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/6193619",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6193619",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-08-29T20:51:57+00:00",
+    "modified": "2023-08-29T20:51:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 0,
+    "is_liked": false,
+    "collect_count": 1,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19771091,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/ec\/87\/20\/76\/4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG",
+      "name": "4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/6d\/71\/7d\/a9\/large_thumb_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/6b\/47\/4f\/b8\/medium_thumb_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/4e\/33\/92\/65\/small_thumb_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/62\/74\/ae\/8d\/tiny_thumb_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/59\/6d\/c9\/4f\/featured_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/5f\/7a\/97\/25\/card_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/65\/5d\/29\/40\/large_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/db\/17\/7b\/4d\/medium_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/8e\/b5\/9e\/f0\/small_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/62\/24\/06\/a0\/birdwing_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/0c\/17\/ef\/16\/tiny_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/a7\/f5\/c4\/34\/tinycard_preview_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/e0\/4e\/99\/8a\/large_display_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/c7\/51\/02\/cb\/medium_display_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/05\/9f\/97\/54\/small_display_4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        }
+      ],
+      "added": "2023-08-29T20:51:54+00:00"
+    },
+    "description": "Mouthstick holder with adjustable angle. Simply slide open the lid to put in contents to weight it down. Popcorn seeds or rice works well. The lid\/top can be used by itself if you want to tape or velcro into position on the table. ",
+    "instructions": "",
+    "description_html": "<div><p>Mouthstick holder with adjustable angle. Simply slide open the lid to put in contents to weight it down. Popcorn seeds or rice works well. The lid\/top can be used by itself if you want to tape or velcro into position on the table. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Mouthstick holder with adjustable angle. Simply slide open the lid to put in contents to weight it down. Popcorn seeds or rice works well. The lid\/top can be used by itself if you want to tape or velcro into position on the table. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Stratasys<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;F370&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Mouthstick holder with adjustable angle. Simply slide open the lid to put in contents to weight it down. Popcorn seeds or rice works well. The lid\/top can be used by itself if you want to tape or velcro into position on the table. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Stratasys<\/p><\/div>\n",
+            "printer": "<div><p>F370<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6193619\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6193619\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6193619\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6193619\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6193619\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6193619\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "limited mobility",
+        "tag": "limited_mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility\/things",
+        "absolute_url": "\/tag:limited_mobility"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "spinal cord injury",
+        "tag": "spinal_cord_injury",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury\/things",
+        "absolute_url": "\/tag:spinal_cord_injury"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6193619\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 21,
+    "view_count": 105,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "mouth_stick_box_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/c7\/cf\/ba\/f6\/485706f2-5af4-434a-8b55-64da24c5cbff.stl"
+        },
+        {
+          "name": "box_top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/f9\/ab\/48\/f0\/ed42966d-7bed-43c6-99da-80d206b8187d.stl"
+        },
+        {
+          "name": "Mouthstick_Tube.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/8f\/95\/26\/75\/f2fda7e9-09d4-4104-a126-50715da5444b.stl"
+        },
+        {
+          "name": "knob.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/c5\/ae\/e0\/86\/d94675a2-0d3d-410b-9f94-e16b0e018ebc.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/ec\/87\/20\/76\/4e3e429e-3ae0-4f96-ae2d-22d872ec425b.JPG"
+        },
+        {
+          "name": "c646ee17-0991-4122-b377-a8f928c342ea.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/ba\/6f\/bd\/93\/c646ee17-0991-4122-b377-a8f928c342ea.JPG"
+        },
+        {
+          "name": "f2fda7e9-09d4-4104-a126-50715da5444b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/55\/1f\/51\/4f\/f2fda7e9-09d4-4104-a126-50715da5444b.png"
+        },
+        {
+          "name": "d94675a2-0d3d-410b-9f94-e16b0e018ebc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/7d\/76\/b5\/68\/d94675a2-0d3d-410b-9f94-e16b0e018ebc.png"
+        },
+        {
+          "name": "485706f2-5af4-434a-8b55-64da24c5cbff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/60\/5d\/6b\/76\/485706f2-5af4-434a-8b55-64da24c5cbff.png"
+        },
+        {
+          "name": "ed42966d-7bed-43c6-99da-80d206b8187d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/b4\/9a\/c2\/ba\/ed42966d-7bed-43c6-99da-80d206b8187d.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "created_at": "2025-04-16T03:34:10.874098+00:00",
+  "elapsed": 0.176558,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9310a01ce91163d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:34:10 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:04:10 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2696906?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2696906?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2696906,
+    "name": "Handred80",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2696906",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2696906",
+    "creator": {
+      "id": 671008,
+      "name": "poparaguay",
+      "first_name": "Po",
+      "last_name": "Paraguay",
+      "url": "https:\/\/api.thingiverse.com\/users\/poparaguay",
+      "public_url": "https:\/\/www.thingiverse.com\/poparaguay",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e1\/da\/37\/0a\/c6\/images_thumb_medium.jpg",
+      "count_of_followers": 92,
+      "count_of_following": 0,
+      "count_of_designs": 16,
+      "collection_count": 3,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Paraguay",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/c3\/63\/70\/32\/787369b600de197e1e25d5603887293b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-12-11T14:50:37+00:00",
+    "modified": "2017-12-11T14:50:37+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 85,
+    "is_liked": false,
+    "collect_count": 147,
+    "is_collected": false,
+    "comment_count": 8,
+    "is_watched": false,
+    "default_image": {
+      "id": 7213801,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/af\/3e\/6f\/ae\/3monos.39.jpg",
+      "name": "3monos.39.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/3b\/6a\/de\/77\/7d774af684b0126e5540965ebb3e2e3c_display_small.jpg"
+        }
+      ],
+      "added": "2017-12-07T16:38:59+00:00"
+    },
+    "description": "Handred80 fue parte de un proyecto de la Universidad Nacional de Asunci\u00f3n desarrollado por Mariela Ben\u00edtez. Consiste en una pr\u00f3tesis para adultos con desarticulaci\u00f3n de mu\u00f1eca que aprovecha la rotaci\u00f3n de antebrazo (supinaci\u00f3n y pronaci\u00f3n), con el objetivo de facilitar el uso de la pr\u00f3tesis de mano.\r\n\r\nEl principio de funcionamiento es el mismo que las pr\u00f3tesis para amputaci\u00f3n transradial, las cuales se accionan con la flexi\u00f3n del codo. La Flexy Hand de Steve Wood fue modificada para este dispositivo.\r\n\r\n#####*Esta pr\u00f3tesis var\u00eda considerablemente en la zona de mu\u00f1eca (base de la palma y socket) de una persona a otra, se debe modificar a medida.* comun\u00edcate con PO Paraguay a quiero@po.com.py\r\nVideos: \r\nhttps:\/\/www.youtube.com\/watch?v=7bSSij4WSrw\r\nhttps:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk\r\nhttps:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE\r\n\r\nDesarrollado por: Mariela Ben\u00edtez.  Contacto: mbenitez@po.com.py",
+    "instructions": "",
+    "description_html": "<div><p>Handred80 fue parte de un proyecto de la Universidad Nacional de Asunci&oacute;n desarrollado por Mariela Ben&iacute;tez. Consiste en una pr&oacute;tesis para adultos con desarticulaci&oacute;n de mu&ntilde;eca que aprovecha la rotaci&oacute;n de antebrazo (supinaci&oacute;n y pronaci&oacute;n), con el objetivo de facilitar el uso de la pr&oacute;tesis de mano.<\/p><p>El principio de funcionamiento es el mismo que las pr&oacute;tesis para amputaci&oacute;n transradial, las cuales se accionan con la flexi&oacute;n del codo. La Flexy Hand de Steve Wood fue modificada para este dispositivo.<\/p><h5><em>Esta pr&oacute;tesis var&iacute;a considerablemente en la zona de mu&ntilde;eca (base de la palma y socket) de una persona a otra, se debe modificar a medida.<\/em> comun&iacute;cate con PO Paraguay a quiero@po.com.py<\/h5><p>Videos:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw\">https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk\">https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE\">https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE<\/a><\/p><p>Desarrollado por: Mariela Ben&iacute;tez.  Contacto: mbenitez@po.com.py<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Handred80 fue parte de un proyecto de la Universidad Nacional de Asunci&oacute;n desarrollado por Mariela Ben&iacute;tez. Consiste en una pr&oacute;tesis para adultos con desarticulaci&oacute;n de mu&ntilde;eca que aprovecha la rotaci&oacute;n de antebrazo (supinaci&oacute;n y pronaci&oacute;n), con el objetivo de facilitar el uso de la pr&oacute;tesis de mano.<\/p><p>El principio de funcionamiento es el mismo que las pr&oacute;tesis para amputaci&oacute;n transradial, las cuales se accionan con la flexi&oacute;n del codo. La Flexy Hand de Steve Wood fue modificada para este dispositivo.<\/p><h5><em>Esta pr&oacute;tesis var&iacute;a considerablemente en la zona de mu&ntilde;eca (base de la palma y socket) de una persona a otra, se debe modificar a medida.<\/em> comun&iacute;cate con PO Paraguay a quiero@po.com.py<\/h5><p>Videos:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw\">https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk\">https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE\">https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE<\/a><\/p><p>Desarrollado por: Mariela Ben&iacute;tez.  Contacto: mbenitez@po.com.py<\/p><\/div><h1 class=\"thing-component-header custom pasos-para-el-armado\">Pasos para el Armado<\/h1><div><h4>Etapas:<\/h4><h5><em>Mano<\/em><\/h5><ul><li>Ensamblar <em>R_hand<\/em> (la palma) con los <em>R_fingerplate<\/em> (dedos) y los <em>Flex_Finger<\/em>.<\/li><li>Colocar los hilos a los dedos <em>R_fingerplate<\/em> pasando por la palma <em>R_hand<\/em>.<\/li><\/ul><h5><em>Antebrazo<\/em><\/h5><ul><li>Termoformar el <em>R_Socket<\/em> utilizando la base de palma <em>R_hand<\/em> como gu&iacute;a, ambas piezas poseen encastres<\/li><li>Pegar el <em>Candado<\/em> a los encastres del <em>R_Socket<\/em><\/li><li>Pasar los hilos por el <em>R_Socket<\/em><\/li><li>Termoformar <em>R_forearm<\/em> y <em>R_tr&iacute;ceps<\/em> seg&uacute;n dimensi&oacute;n del usuario<\/li><li>Unir <em>R_forearm<\/em> termoformada y <em>R_triceps<\/em> usando los <em>Flex_ring_elbow<\/em> y los <em>Pins<\/em>.<\/li><li>Conectar el <em>R_Socket<\/em> y <em>R_Forearm<\/em> con un tubo de 4mm de di&aacute;metro externo<\/li><\/ul><h5><em>Mecanismo de funcionamiento<\/em><\/h5><ul><li>Pasar los hilos por el Tubo y las piezas de <em>R_Forearm-triceps<\/em> hasta los <em>Tensioners<\/em>.<\/li><li>Ajustar los hilos con los <em>Tensioners<\/em>. Utilizar el orificio para el pulgar y el tensioner para los otros dedos.<\/li><\/ul><\/div><h1 class=\"thing-component-header custom configuraciones-de-impresin\">Configuraciones de impresi&oacute;n<\/h1><div><h5>M&aacute;quinas utilizadas:<\/h5><p>FlashForge Creator Dual o FlashForge Dreamer. <\/p><h5>Material utilizado<\/h5><p>Estas permiten imprimir PLA y filamento flexible.<\/p><h5>Caractiristicas<\/h5><p>Se imprime con 0.2 mm de altura de capa y con 80% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 60 mm\/s (dependiendo de la impresora).<br>Se aplica a: <\/p><ul><li>R_Forearm, <\/li><li>R_socket, <\/li><li>R_Triceps, <\/li><li>Candado, <\/li><li>Tensioners, <\/li><li>Pins<\/li><\/ul><p>Se imprime con 0.2 mm de altura de capa y con 20% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 60 mm\/s (dependiendo de la impresora).<br>Se aplica a:  <\/p><ul><li>R_hand, <\/li><li>R_fingerplate<\/li><\/ul><p>Se imprime con 0.2 mm de altura de capa y con 20% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 15 mm\/s. (Esta velocidad depende del tipo de flexible y el tipo de impresora usada)<br>Se aplica a:<br>Se aplica a: <\/p><ul><li>Flex_Finger, <\/li><li>Flex_ring_elbow<\/li><\/ul><\/div><h1 class=\"thing-component-header custom summary-english-version\">Summary (English version)<\/h1><div><p>Handred80 was part of a project of the National University of Asunci&oacute;n (Paraguay) developed by the Industrial Designer Mariela Ben&iacute;tez. It is a prosthetic hand for adults with wrist disarticulation that takes advantage of the forearm&rsquo;s rotation (supination and pronation).<\/p><p>The operating principle is the same as prostheses for transradial amputation, which are activated by elbow flexion. Steve Wood's Flexy Hand was modified for this device.<\/p><h5><em>This prosthesis varies considerably in the wrist area from one person to another and it must be modified to measure (base of the palm and socket).<\/em> Contact PO Paraguay at quiero@po.com.py<\/h5><p>Developed by: Mariela Ben&iacute;tez. Contact: mbenitez@po.com.py<\/p><\/div>                <p class=\"detail-title\"><strong>Assembly Guide<\/strong><\/p>                <div><p>Hand<\/p><ul><li>Assemble R_hand (the palm) with the R_fingerplate (fingers) and the Flex_Finger.<\/li><li>Place the threads to the fingers R_fingerplate passing through the palm R_hand.<\/li><\/ul><p>Forearm<\/p><ul><li>Thermoform the R_Socket using the palm base R_hand as a guide. Both pieces have inserts<\/li><li>Stick the padlock to the R_Socket inserts<\/li><li>Pass the threads through the R_Socket<\/li><li>Termoform R_forearm and R_tr&iacute;ceps according to user dimension<\/li><li>Join thermoformed R_forearm and R_triceps using the Flex_ring_elbow and Pins.<\/li><li>Connect the R_Socket and R_Forearm with a 4mm outer diameter tube<\/li><\/ul><p>Operating mechanism<\/p><ul><li>Pass the threads through the Tube and the pieces of R_Forearm-triceps to the Tensioners.<\/li><li>Adjust the threads with the Tensioners. Use the hole for the thumb and the tensioner for the other fingers.<\/li><\/ul><\/div>                <p class=\"detail-title\"><strong>Print settings<\/strong><\/p>                <div><p>Printers used:<br>FlashForge Creator Dual or FlashForge Dreamer.<\/p><p>Used material:<br>Printed with PLA and flexible filament.<\/p><p>Characteristics:<\/p><ol><li><p>Printed with 0.2 mm layer height and with 80% filling (grid type), with angles of 90 and 0. With a printing speed of 60 mm \/ s (depending on the printer).<br>It applies to:<br>R_Forearm,<br>R_socket,<br>R_Triceps,<br>Padlock,<br>Tensioners,<br>Pins<\/p><\/li><li><p>Printed with 0.2 mm layer height and with 20% fill (grid type), with angles of 90 and 0. With a print speed of 60 mm \/ s (depending on the printer).<br>It applies to:<br>R_hand,<br>R_fingerplate<\/p><\/li><li>Printed with 0.2 mm layer height and 20% fill (grid type), with angles of 90 and 0. With a print speed of 15 mm \/ s. (This speed depends on the type of flexible and the type of printer used)<br>It applies to:<br>Flex_Finger,<br>Flex_ring_elbow<\/li><\/ol><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Handred80 fue parte de un proyecto de la Universidad Nacional de Asunci&oacute;n desarrollado por Mariela Ben&iacute;tez. Consiste en una pr&oacute;tesis para adultos con desarticulaci&oacute;n de mu&ntilde;eca que aprovecha la rotaci&oacute;n de antebrazo (supinaci&oacute;n y pronaci&oacute;n), con el objetivo de facilitar el uso de la pr&oacute;tesis de mano.<\/p><p>El principio de funcionamiento es el mismo que las pr&oacute;tesis para amputaci&oacute;n transradial, las cuales se accionan con la flexi&oacute;n del codo. La Flexy Hand de Steve Wood fue modificada para este dispositivo.<\/p><h5><em>Esta pr&oacute;tesis var&iacute;a considerablemente en la zona de mu&ntilde;eca (base de la palma y socket) de una persona a otra, se debe modificar a medida.<\/em> comun&iacute;cate con PO Paraguay a quiero@po.com.py<\/h5><p>Videos:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw\">https:\/\/www.youtube.com\/watch?v=7bSSij4WSrw<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk\">https:\/\/www.youtube.com\/watch?v=FAjDCL5ImOk<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE\">https:\/\/www.youtube.com\/watch?v=HLlgR2qdhYE<\/a><\/p><p>Desarrollado por: Mariela Ben&iacute;tez.  Contacto: mbenitez@po.com.py<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Pasos para el Armado",
+        "data": [
+          {
+            "content": "<div><h4>Etapas:<\/h4><h5><em>Mano<\/em><\/h5><ul><li>Ensamblar <em>R_hand<\/em> (la palma) con los <em>R_fingerplate<\/em> (dedos) y los <em>Flex_Finger<\/em>.<\/li><li>Colocar los hilos a los dedos <em>R_fingerplate<\/em> pasando por la palma <em>R_hand<\/em>.<\/li><\/ul><h5><em>Antebrazo<\/em><\/h5><ul><li>Termoformar el <em>R_Socket<\/em> utilizando la base de palma <em>R_hand<\/em> como gu&iacute;a, ambas piezas poseen encastres<\/li><li>Pegar el <em>Candado<\/em> a los encastres del <em>R_Socket<\/em><\/li><li>Pasar los hilos por el <em>R_Socket<\/em><\/li><li>Termoformar <em>R_forearm<\/em> y <em>R_tr&iacute;ceps<\/em> seg&uacute;n dimensi&oacute;n del usuario<\/li><li>Unir <em>R_forearm<\/em> termoformada y <em>R_triceps<\/em> usando los <em>Flex_ring_elbow<\/em> y los <em>Pins<\/em>.<\/li><li>Conectar el <em>R_Socket<\/em> y <em>R_Forearm<\/em> con un tubo de 4mm de di&aacute;metro externo<\/li><\/ul><h5><em>Mecanismo de funcionamiento<\/em><\/h5><ul><li>Pasar los hilos por el Tubo y las piezas de <em>R_Forearm-triceps<\/em> hasta los <em>Tensioners<\/em>.<\/li><li>Ajustar los hilos con los <em>Tensioners<\/em>. Utilizar el orificio para el pulgar y el tensioner para los otros dedos.<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Configuraciones de impresi\u00f3n",
+        "data": [
+          {
+            "content": "<div><h5>M&aacute;quinas utilizadas:<\/h5><p>FlashForge Creator Dual o FlashForge Dreamer. <\/p><h5>Material utilizado<\/h5><p>Estas permiten imprimir PLA y filamento flexible.<\/p><h5>Caractiristicas<\/h5><p>Se imprime con 0.2 mm de altura de capa y con 80% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 60 mm\/s (dependiendo de la impresora).<br>Se aplica a: <\/p><ul><li>R_Forearm, <\/li><li>R_socket, <\/li><li>R_Triceps, <\/li><li>Candado, <\/li><li>Tensioners, <\/li><li>Pins<\/li><\/ul><p>Se imprime con 0.2 mm de altura de capa y con 20% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 60 mm\/s (dependiendo de la impresora).<br>Se aplica a:  <\/p><ul><li>R_hand, <\/li><li>R_fingerplate<\/li><\/ul><p>Se imprime con 0.2 mm de altura de capa y con 20% de relleno (tipo rejilla), con &aacute;ngulos de 90 y 0. Con una velocidad de impresi&oacute;n de 15 mm\/s. (Esta velocidad depende del tipo de flexible y el tipo de impresora usada)<br>Se aplica a:<br>Se aplica a: <\/p><ul><li>Flex_Finger, <\/li><li>Flex_ring_elbow<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Summary (English version)",
+        "data": [
+          {
+            "content": "<div><p>Handred80 was part of a project of the National University of Asunci&oacute;n (Paraguay) developed by the Industrial Designer Mariela Ben&iacute;tez. It is a prosthetic hand for adults with wrist disarticulation that takes advantage of the forearm&rsquo;s rotation (supination and pronation).<\/p><p>The operating principle is the same as prostheses for transradial amputation, which are activated by elbow flexion. Steve Wood's Flexy Hand was modified for this device.<\/p><h5><em>This prosthesis varies considerably in the wrist area from one person to another and it must be modified to measure (base of the palm and socket).<\/em> Contact PO Paraguay at quiero@po.com.py<\/h5><p>Developed by: Mariela Ben&iacute;tez. Contact: mbenitez@po.com.py<\/p><\/div>\n"
+          },
+          {
+            "title": "Assembly Guide",
+            "content": "<div><p>Hand<\/p><ul><li>Assemble R_hand (the palm) with the R_fingerplate (fingers) and the Flex_Finger.<\/li><li>Place the threads to the fingers R_fingerplate passing through the palm R_hand.<\/li><\/ul><p>Forearm<\/p><ul><li>Thermoform the R_Socket using the palm base R_hand as a guide. Both pieces have inserts<\/li><li>Stick the padlock to the R_Socket inserts<\/li><li>Pass the threads through the R_Socket<\/li><li>Termoform R_forearm and R_tr&iacute;ceps according to user dimension<\/li><li>Join thermoformed R_forearm and R_triceps using the Flex_ring_elbow and Pins.<\/li><li>Connect the R_Socket and R_Forearm with a 4mm outer diameter tube<\/li><\/ul><p>Operating mechanism<\/p><ul><li>Pass the threads through the Tube and the pieces of R_Forearm-triceps to the Tensioners.<\/li><li>Adjust the threads with the Tensioners. Use the hole for the thumb and the tensioner for the other fingers.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "title": "Print settings",
+            "content": "<div><p>Printers used:<br>FlashForge Creator Dual or FlashForge Dreamer.<\/p><p>Used material:<br>Printed with PLA and flexible filament.<\/p><p>Characteristics:<\/p><ol><li><p>Printed with 0.2 mm layer height and with 80% filling (grid type), with angles of 90 and 0. With a printing speed of 60 mm \/ s (depending on the printer).<br>It applies to:<br>R_Forearm,<br>R_socket,<br>R_Triceps,<br>Padlock,<br>Tensioners,<br>Pins<\/p><\/li><li><p>Printed with 0.2 mm layer height and with 20% fill (grid type), with angles of 90 and 0. With a print speed of 60 mm \/ s (depending on the printer).<br>It applies to:<br>R_hand,<br>R_fingerplate<\/p><\/li><li>Printed with 0.2 mm layer height and 20% fill (grid type), with angles of 90 and 0. With a print speed of 15 mm \/ s. (This speed depends on the type of flexible and the type of printer used)<br>It applies to:<br>Flex_Finger,<br>Flex_ring_elbow<\/li><\/ol><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2696906\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2696906\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2696906\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2696906\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2696906\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2696906\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2696906\/categories",
+    "file_count": 11,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1665,
+    "view_count": 3450,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2112768,
+        "name": "ArmPO V2",
+        "url": "https:\/\/api.thingiverse.com\/things\/2112768",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2112768",
+        "created_at": "2017-03-14T14:33:17+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d8\/87\/8e\/d0\/ce\/b9d393719f95505b459724069bb501d1_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/d8\/87\/8e\/d0\/ce\/b9d393719f95505b459724069bb501d1_preview_card.JPG",
+        "creator": {
+          "id": 671008,
+          "name": "poparaguay",
+          "first_name": "Po",
+          "last_name": "Paraguay",
+          "url": "https:\/\/api.thingiverse.com\/users\/poparaguay",
+          "public_url": "https:\/\/www.thingiverse.com\/poparaguay",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e1\/da\/37\/0a\/c6\/images_thumb_medium.jpg",
+          "count_of_followers": 92,
+          "count_of_following": 0,
+          "count_of_designs": 16,
+          "collection_count": 3,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Paraguay",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/c3\/63\/70\/32\/787369b600de197e1e25d5603887293b_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 1,
+        "like_count": 298,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 485,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 242639,
+        "name": "Flexy-Hand",
+        "url": "https:\/\/api.thingiverse.com\/things\/242639",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:242639",
+        "created_at": "2014-03-04T17:12:57+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 123,
+        "make_count": 50,
+        "like_count": 5111,
+        "tags": [
+          {
+            "name": "Amputees",
+            "tag": "amputees",
+            "url": "https:\/\/api.thingiverse.com\/tags\/amputees",
+            "count": 4,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/amputees\/things",
+            "absolute_url": "\/tag:Amputees"
+          },
+          {
+            "name": "anatomy",
+            "tag": "anatomy",
+            "url": "https:\/\/api.thingiverse.com\/tags\/anatomy",
+            "count": 510,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/anatomy\/things",
+            "absolute_url": "\/tag:anatomy"
+          },
+          {
+            "name": "Body Parts",
+            "tag": "body_parts",
+            "url": "https:\/\/api.thingiverse.com\/tags\/body_parts",
+            "count": 56,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/body_parts\/things",
+            "absolute_url": "\/tag:Body_Parts"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "filaflex",
+            "tag": "filaflex",
+            "url": "https:\/\/api.thingiverse.com\/tags\/filaflex",
+            "count": 227,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/filaflex\/things",
+            "absolute_url": "\/tag:filaflex"
+          },
+          {
+            "name": "flexible",
+            "tag": "flexible",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flexible",
+            "count": 3483,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flexible\/things",
+            "absolute_url": "\/tag:flexible"
+          },
+          {
+            "name": "live hinge",
+            "tag": "live_hinge",
+            "url": "https:\/\/api.thingiverse.com\/tags\/live_hinge",
+            "count": 15,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/live_hinge\/things",
+            "absolute_url": "\/tag:live_hinge"
+          },
+          {
+            "name": "robotics",
+            "tag": "robotics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+            "count": 3572,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+            "absolute_url": "\/tag:robotics"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 9319,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "R_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/e8\/2b\/db\/e9\/R_Cover.stl"
+        },
+        {
+          "name": "R_Triceps.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/8d\/6d\/21\/68\/R_Triceps.stl"
+        },
+        {
+          "name": "R_Forearm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/bc\/d3\/05\/e2\/R_Forearm.stl"
+        },
+        {
+          "name": "R_socket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/43\/34\/64\/96\/R_socket.stl"
+        },
+        {
+          "name": "R_hand.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/61\/a1\/ff\/60\/R_hand.stl"
+        },
+        {
+          "name": "R_fingerplate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/de\/7e\/ac\/5f\/R_fingerplate.stl"
+        },
+        {
+          "name": "Flex_ring_elbow.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/f9\/66\/e6\/61\/Flex_ring_elbow.stl"
+        },
+        {
+          "name": "Flex_finger.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/b4\/f2\/fe\/ab\/Flex_finger.stl"
+        },
+        {
+          "name": "Tensioners.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/b9\/96\/9b\/d9\/Tensioners.stl"
+        },
+        {
+          "name": "Lock.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/2b\/13\/ec\/d6\/Lock.stl"
+        },
+        {
+          "name": "Pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/a9\/1a\/f0\/20\/Pin.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "3monos.39.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/af\/3e\/6f\/ae\/3monos.39.jpg"
+        },
+        {
+          "name": "subsistemas.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/23\/5f\/0f\/0e\/subsistemas.jpg"
+        },
+        {
+          "name": "objeto.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/f6\/db\/9c\/ec\/objeto.jpg"
+        },
+        {
+          "name": "806de0cdde553554439fef27d1d0ce03.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/6c\/d8\/a6\/07\/806de0cdde553554439fef27d1d0ce03.png"
+        },
+        {
+          "name": "0a07cd5da29538c809c731764f0a1dcf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/23\/60\/93\/ce\/0a07cd5da29538c809c731764f0a1dcf.png"
+        },
+        {
+          "name": "0ec72d3ce43ba44803ad29e06112ba52.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/4b\/a2\/97\/f6\/0ec72d3ce43ba44803ad29e06112ba52.png"
+        },
+        {
+          "name": "b3d9587eb0dea638e86b677be2303c0d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/33\/8a\/8f\/1e\/b3d9587eb0dea638e86b677be2303c0d.png"
+        },
+        {
+          "name": "7368520a33b41cdc84fe6aba81317a15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/31\/01\/27\/1e\/28\/7368520a33b41cdc84fe6aba81317a15.png"
+        },
+        {
+          "name": "3af4d92e1f2388c3d15ba561133e1d91.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/67\/de\/85\/aa\/3af4d92e1f2388c3d15ba561133e1d91.png"
+        },
+        {
+          "name": "c536f0669e2ec814c1d5ec1f4325417a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/19\/16\/28\/91\/c536f0669e2ec814c1d5ec1f4325417a.png"
+        },
+        {
+          "name": "3897c58820af056ac802b165ee56f634.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f8\/ae\/f7\/11\/d9\/3897c58820af056ac802b165ee56f634.png"
+        },
+        {
+          "name": "8e2c6ea7ac64725d808cd23ad6bb73bc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/d3\/52\/a4\/86\/8e2c6ea7ac64725d808cd23ad6bb73bc.png"
+        },
+        {
+          "name": "fe6b78aadd97d298b960fbe80dd08a45.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/21\/10\/09\/2c\/fe6b78aadd97d298b960fbe80dd08a45.png"
+        },
+        {
+          "name": "210b68277b823785b6e5b7983d3f23c2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/97\/0f\/32\/df\/fb\/210b68277b823785b6e5b7983d3f23c2.png"
+        }
+      ]
+    }
+  }
+}

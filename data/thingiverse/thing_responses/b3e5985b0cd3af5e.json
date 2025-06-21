@@ -1,0 +1,641 @@
+{
+  "cookies": {
+    "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+    "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+  },
+  "created_at": "2025-04-13T04:23:17.366105+00:00",
+  "elapsed": 0.248891,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f82fec2f7fd70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:23:17 GMT",
+    "Server": "cloudflare",
+    "Set-Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; path=\/; expires=Sun, 13-Apr-25 04:53:17 GMT; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None, _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000; path=\/; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:53:17 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1908866?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1908866?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1908866,
+    "name": "Gripper Thumb Terminal Device",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1908866",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1908866",
+    "creator": {
+      "id": 46448,
+      "name": "MacGyvrBot",
+      "first_name": "Skip",
+      "last_name": "Meetze",
+      "url": "https:\/\/api.thingiverse.com\/users\/MacGyvrBot",
+      "public_url": "https:\/\/www.thingiverse.com\/MacGyvrBot",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fe\/a1\/85\/5b\/f1\/Avitar_thumb_medium.jpg",
+      "count_of_followers": 61,
+      "count_of_following": 55,
+      "count_of_designs": 26,
+      "collection_count": 2,
+      "make_count": 2,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Rochester, NY",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/98\/25\/cd\/41\/57\/8fe0f6f81df6d0ea282b9f3de7b8e14b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-11-22T02:10:51+00:00",
+    "modified": "2016-11-22T02:10:51+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 79,
+    "is_liked": false,
+    "collect_count": 151,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 4824743,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/68\/5f\/65\/1e\/Gripping_tasks.JPG",
+      "name": "Gripping_tasks.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/f9\/ca\/b3\/9f\/b987f68ea3d10ec0229665e77d55cf55_display_small.JPG"
+        }
+      ],
+      "added": "2016-11-22T01:42:44+00:00"
+    },
+    "description": "The Gripper Thumb TD is an experimental terminal device for upper limb amputees that looks like a passive cosmetic prosthesis, but it performs two-handed tasks without a Bowden cable..  Since the 3D printed device is still experimental, it should not be used without the clinical supervision of a Certified Prosthetist or Occupational Therapist.  Special care should be taken in selecting the printing materials to assure that there are no layer adhesion issues or other durability concerns.\r\n\r\nYoutube videos: \r\ne-NABLE at the Rochester Mini Maker Faire https:\/\/youtu.be\/YRXA0slO2vM \r\nAssembling the Gripper Thumb TD  https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&feature=youtu.be   \r\nAdding a frictional surface to the Gripper Thumb TD https:\/\/youtu.be\/i-D0ZphGXME \r\n\r\nPerhaps the best way to evaluate this TD (and to get us through beta testing and design iteration) is to find a recipient who already has a prosthesis.  That means they will likely already have a prosthetist or occupational therapist.  If we have a winner here, the users and the clinicians will see the value based on comparison to other devices they have used.  The modularity means that they can just screw off their TD and screw on the Gripper Thumb TD.  They can easily switch back and forth for different activities.\r\n\r\nDeveloped at the MAGIC ACT \/ e-NABLE Lab at Rochester Institute of Technology, the Gripper Thumb TD has evolved over the past year to be effective for many two-handed tasks in much the same way as the voluntary opening split hook that has been used successfully for more than 150 years.  \r\n\r\nThe advantage over most other body-powered terminal devices is that the Gripper Thumb TD allows the user to grasp and release objects using the unaffected hand rather than a Bowden cable.  Pressing an object against the frictional surface of the thumb tip can force the thumb to be pulled away from the fingers for an object to be gripped.  Tasks with small objects (such as taking the nut off of a machine screw) or with large objects (such as opening and closing a jar, tube or bottle) can be undertaken this way.  \r\n\r\nAfter placing an object in the grasp of the Gripper Thumb TD, the unaffected hand can then be used to manipulate other objects such as putting toothpaste onto a toothbrush or cutting food with a knife while holding the item steady with a fork held in the Gripper Thumb TD. \r\n\r\nAnother advantage over the traditional split hook is that the Gripper Thumb TD is considered by some people to be more attractive.  \r\n\r\nThe gripping is provided by the force from a latex band, so it should not be used by people with allergies to such materials.  \r\n\r\nThe Gripper Thumb TD can be washed with ordinary hand-washing and drying procedures, and it can even be sanitized in a dishwasher when fabricated of materials that can withstand that process.  \r\n\r\nThe device is attached to the prosthesis with the bolt thread that is standard for th region (1\/2 - 20 in the US, M12 fine-thread in most other places), and it can be easily exchanged with other terminal devices although the Bowden cable will not be used, and it can be removed or temporarily held out of the way with a rubber band.  \r\n\r\nThe thumb pivots on a 6-32 (or M3) machine screw and a pair of similar screws hold the hex bolt in place on the device.  A flat washer is held in place on the bolt with the same type rubber ring that is used to provide the grasping force.  Between the flat washer and the prosthesis, the ring also provides frictional force that allows the Gripper Thumb TD to be rotated for pronation or supination by the unaffected hand, but holds the TD steady in the chosen orientation.  \r\n\r\nThe elastic ring is easily connected to the palm and to the thumb by a pair of zip-ties without tools (although a vise and pliers might be useful for one-handed assembly), and it can be easily replaced by clipping the zip-ties.  It should not be used by people who are allergic to latex.  \r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>The Gripper Thumb TD is an experimental terminal device for upper limb amputees that looks like a passive cosmetic prosthesis, but it performs two-handed tasks without a Bowden cable..  Since the 3D printed device is still experimental, it should not be used without the clinical supervision of a Certified Prosthetist or Occupational Therapist.  Special care should be taken in selecting the printing materials to assure that there are no layer adhesion issues or other durability concerns.<\/p><p>Youtube videos:<br>e-NABLE at the Rochester Mini Maker Faire <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/YRXA0slO2vM\">https:\/\/youtu.be\/YRXA0slO2vM<\/a><br>Assembling the Gripper Thumb TD  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be<\/a><br>Adding a frictional surface to the Gripper Thumb TD <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/i-D0ZphGXME\">https:\/\/youtu.be\/i-D0ZphGXME<\/a> <\/p><p>Perhaps the best way to evaluate this TD (and to get us through beta testing and design iteration) is to find a recipient who already has a prosthesis.  That means they will likely already have a prosthetist or occupational therapist.  If we have a winner here, the users and the clinicians will see the value based on comparison to other devices they have used.  The modularity means that they can just screw off their TD and screw on the Gripper Thumb TD.  They can easily switch back and forth for different activities.<\/p><p>Developed at the MAGIC ACT \/ e-NABLE Lab at Rochester Institute of Technology, the Gripper Thumb TD has evolved over the past year to be effective for many two-handed tasks in much the same way as the voluntary opening split hook that has been used successfully for more than 150 years.  <\/p><p>The advantage over most other body-powered terminal devices is that the Gripper Thumb TD allows the user to grasp and release objects using the unaffected hand rather than a Bowden cable.  Pressing an object against the frictional surface of the thumb tip can force the thumb to be pulled away from the fingers for an object to be gripped.  Tasks with small objects (such as taking the nut off of a machine screw) or with large objects (such as opening and closing a jar, tube or bottle) can be undertaken this way.  <\/p><p>After placing an object in the grasp of the Gripper Thumb TD, the unaffected hand can then be used to manipulate other objects such as putting toothpaste onto a toothbrush or cutting food with a knife while holding the item steady with a fork held in the Gripper Thumb TD. <\/p><p>Another advantage over the traditional split hook is that the Gripper Thumb TD is considered by some people to be more attractive.  <\/p><p>The gripping is provided by the force from a latex band, so it should not be used by people with allergies to such materials.  <\/p><p>The Gripper Thumb TD can be washed with ordinary hand-washing and drying procedures, and it can even be sanitized in a dishwasher when fabricated of materials that can withstand that process.  <\/p><p>The device is attached to the prosthesis with the bolt thread that is standard for th region (1\/2 - 20 in the US, M12 fine-thread in most other places), and it can be easily exchanged with other terminal devices although the Bowden cable will not be used, and it can be removed or temporarily held out of the way with a rubber band.  <\/p><p>The thumb pivots on a 6-32 (or M3) machine screw and a pair of similar screws hold the hex bolt in place on the device.  A flat washer is held in place on the bolt with the same type rubber ring that is used to provide the grasping force.  Between the flat washer and the prosthesis, the ring also provides frictional force that allows the Gripper Thumb TD to be rotated for pronation or supination by the unaffected hand, but holds the TD steady in the chosen orientation.  <\/p><p>The elastic ring is easily connected to the palm and to the thumb by a pair of zip-ties without tools (although a vise and pliers might be useful for one-handed assembly), and it can be easily replaced by clipping the zip-ties.  It should not be used by people who are allergic to latex.  <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The Gripper Thumb TD is an experimental terminal device for upper limb amputees that looks like a passive cosmetic prosthesis, but it performs two-handed tasks without a Bowden cable..  Since the 3D printed device is still experimental, it should not be used without the clinical supervision of a Certified Prosthetist or Occupational Therapist.  Special care should be taken in selecting the printing materials to assure that there are no layer adhesion issues or other durability concerns.<\/p><p>Youtube videos:<br>e-NABLE at the Rochester Mini Maker Faire <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/YRXA0slO2vM\">https:\/\/youtu.be\/YRXA0slO2vM<\/a><br>Assembling the Gripper Thumb TD  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be<\/a><br>Adding a frictional surface to the Gripper Thumb TD <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/i-D0ZphGXME\">https:\/\/youtu.be\/i-D0ZphGXME<\/a> <\/p><p>Perhaps the best way to evaluate this TD (and to get us through beta testing and design iteration) is to find a recipient who already has a prosthesis.  That means they will likely already have a prosthetist or occupational therapist.  If we have a winner here, the users and the clinicians will see the value based on comparison to other devices they have used.  The modularity means that they can just screw off their TD and screw on the Gripper Thumb TD.  They can easily switch back and forth for different activities.<\/p><p>Developed at the MAGIC ACT \/ e-NABLE Lab at Rochester Institute of Technology, the Gripper Thumb TD has evolved over the past year to be effective for many two-handed tasks in much the same way as the voluntary opening split hook that has been used successfully for more than 150 years.  <\/p><p>The advantage over most other body-powered terminal devices is that the Gripper Thumb TD allows the user to grasp and release objects using the unaffected hand rather than a Bowden cable.  Pressing an object against the frictional surface of the thumb tip can force the thumb to be pulled away from the fingers for an object to be gripped.  Tasks with small objects (such as taking the nut off of a machine screw) or with large objects (such as opening and closing a jar, tube or bottle) can be undertaken this way.  <\/p><p>After placing an object in the grasp of the Gripper Thumb TD, the unaffected hand can then be used to manipulate other objects such as putting toothpaste onto a toothbrush or cutting food with a knife while holding the item steady with a fork held in the Gripper Thumb TD. <\/p><p>Another advantage over the traditional split hook is that the Gripper Thumb TD is considered by some people to be more attractive.  <\/p><p>The gripping is provided by the force from a latex band, so it should not be used by people with allergies to such materials.  <\/p><p>The Gripper Thumb TD can be washed with ordinary hand-washing and drying procedures, and it can even be sanitized in a dishwasher when fabricated of materials that can withstand that process.  <\/p><p>The device is attached to the prosthesis with the bolt thread that is standard for th region (1\/2 - 20 in the US, M12 fine-thread in most other places), and it can be easily exchanged with other terminal devices although the Bowden cable will not be used, and it can be removed or temporarily held out of the way with a rubber band.  <\/p><p>The thumb pivots on a 6-32 (or M3) machine screw and a pair of similar screws hold the hex bolt in place on the device.  A flat washer is held in place on the bolt with the same type rubber ring that is used to provide the grasping force.  Between the flat washer and the prosthesis, the ring also provides frictional force that allows the Gripper Thumb TD to be rotated for pronation or supination by the unaffected hand, but holds the TD steady in the chosen orientation.  <\/p><p>The elastic ring is easily connected to the palm and to the thumb by a pair of zip-ties without tools (although a vise and pliers might be useful for one-handed assembly), and it can be easily replaced by clipping the zip-ties.  It should not be used by people who are allergic to latex.  <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p><a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\">Ultimaker 2<\/a><\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.05mm layers for nylon, 0.1 or 0.2mm layers for other materials<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>40%<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Always use a brim.  Use at least 1.6mm shells and at least 1.6mm top and bottom layers.  <\/p><p>Printing has been successful with SLS in nylon and with FDM in nylon, ABS, PETG, Cheetah and Armadillo filaments.  Print the palm on its side with support when using FDM. The thumb also needs support during printing. <\/p><p>Successful durability of a print can be demonstrated by repeatedly tossing the device in the air to land on a hard floor.  If it doesn&rsquo;t break, then you probably have good layer adhesion but ABS is vulnerable to finger breaking even with use of acetone vapor bathing to assure good layer adhesion.  Also, there are thick cross-sections in the palm, so look for cracks due to warping forces during printing. <\/p><p>The necessary friction on the thumb and fingertips is provided by silicone calking material (my favorite is as &ldquo;Amazing Goop&rdquo;) or a wrap such as Loctite GO2 Repair Wrap <a rel=\"ugc nofollow\" href=\"http:\/\/www.loctiteproducts.com\/p\/go2_wrap\/overview\/Go2-Repair-Wrap.htm\">http:\/\/www.loctiteproducts.com\/p\/go2_wrap\/overview\/Go2-Repair-Wrap.htm<\/a>.  <\/p><p>Currently, testing has been done only with the small size left and right Gripper Thumb TD as the stress case.  The small size should be functional for users of all sizes.  Medium and Large size devices will be added to the STL files after they have been tested.  <\/p><p>Elastic rings designed for veterinary use are made of latex and should not be used by people who are allergic to latex. <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/Castrator-Rings-300-Pack-Green\/dp\/B00S8JVLOO\/ref=pd_cp_469_3?_encoding=UTF8&amp;psc=1&amp;refRID=06J4ZTT2NQ3SQASSW385\">https:\/\/www.amazon.com\/Castrator-Rings-300-Pack-Green\/dp\/B00S8JVLOO\/ref=pd_cp_469_3?_encoding=UTF8&amp;psc=1&amp;refRID=06J4ZTT2NQ3SQASSW385<\/a> <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The Gripper Thumb TD is an experimental terminal device for upper limb amputees that looks like a passive cosmetic prosthesis, but it performs two-handed tasks without a Bowden cable..  Since the 3D printed device is still experimental, it should not be used without the clinical supervision of a Certified Prosthetist or Occupational Therapist.  Special care should be taken in selecting the printing materials to assure that there are no layer adhesion issues or other durability concerns.<\/p><p>Youtube videos:<br>e-NABLE at the Rochester Mini Maker Faire <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/YRXA0slO2vM\">https:\/\/youtu.be\/YRXA0slO2vM<\/a><br>Assembling the Gripper Thumb TD  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=BRuFUtK4K90&amp;feature=youtu.be<\/a><br>Adding a frictional surface to the Gripper Thumb TD <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/i-D0ZphGXME\">https:\/\/youtu.be\/i-D0ZphGXME<\/a> <\/p><p>Perhaps the best way to evaluate this TD (and to get us through beta testing and design iteration) is to find a recipient who already has a prosthesis.  That means they will likely already have a prosthetist or occupational therapist.  If we have a winner here, the users and the clinicians will see the value based on comparison to other devices they have used.  The modularity means that they can just screw off their TD and screw on the Gripper Thumb TD.  They can easily switch back and forth for different activities.<\/p><p>Developed at the MAGIC ACT \/ e-NABLE Lab at Rochester Institute of Technology, the Gripper Thumb TD has evolved over the past year to be effective for many two-handed tasks in much the same way as the voluntary opening split hook that has been used successfully for more than 150 years.  <\/p><p>The advantage over most other body-powered terminal devices is that the Gripper Thumb TD allows the user to grasp and release objects using the unaffected hand rather than a Bowden cable.  Pressing an object against the frictional surface of the thumb tip can force the thumb to be pulled away from the fingers for an object to be gripped.  Tasks with small objects (such as taking the nut off of a machine screw) or with large objects (such as opening and closing a jar, tube or bottle) can be undertaken this way.  <\/p><p>After placing an object in the grasp of the Gripper Thumb TD, the unaffected hand can then be used to manipulate other objects such as putting toothpaste onto a toothbrush or cutting food with a knife while holding the item steady with a fork held in the Gripper Thumb TD. <\/p><p>Another advantage over the traditional split hook is that the Gripper Thumb TD is considered by some people to be more attractive.  <\/p><p>The gripping is provided by the force from a latex band, so it should not be used by people with allergies to such materials.  <\/p><p>The Gripper Thumb TD can be washed with ordinary hand-washing and drying procedures, and it can even be sanitized in a dishwasher when fabricated of materials that can withstand that process.  <\/p><p>The device is attached to the prosthesis with the bolt thread that is standard for th region (1\/2 - 20 in the US, M12 fine-thread in most other places), and it can be easily exchanged with other terminal devices although the Bowden cable will not be used, and it can be removed or temporarily held out of the way with a rubber band.  <\/p><p>The thumb pivots on a 6-32 (or M3) machine screw and a pair of similar screws hold the hex bolt in place on the device.  A flat washer is held in place on the bolt with the same type rubber ring that is used to provide the grasping force.  Between the flat washer and the prosthesis, the ring also provides frictional force that allows the Gripper Thumb TD to be rotated for pronation or supination by the unaffected hand, but holds the TD steady in the chosen orientation.  <\/p><p>The elastic ring is easily connected to the palm and to the thumb by a pair of zip-ties without tools (although a vise and pliers might be useful for one-handed assembly), and it can be easily replaced by clipping the zip-ties.  It should not be used by people who are allergic to latex.  <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 2<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.05mm layers for nylon, 0.1 or 0.2mm layers for other materials<\/p><\/div>\n",
+            "infill": "<div><p>40%<\/p><\/div>\n",
+            "notes": "<div><p>Always use a brim.  Use at least 1.6mm shells and at least 1.6mm top and bottom layers.  <\/p><p>Printing has been successful with SLS in nylon and with FDM in nylon, ABS, PETG, Cheetah and Armadillo filaments.  Print the palm on its side with support when using FDM. The thumb also needs support during printing. <\/p><p>Successful durability of a print can be demonstrated by repeatedly tossing the device in the air to land on a hard floor.  If it doesn&rsquo;t break, then you probably have good layer adhesion but ABS is vulnerable to finger breaking even with use of acetone vapor bathing to assure good layer adhesion.  Also, there are thick cross-sections in the palm, so look for cracks due to warping forces during printing. <\/p><p>The necessary friction on the thumb and fingertips is provided by silicone calking material (my favorite is as &ldquo;Amazing Goop&rdquo;) or a wrap such as Loctite GO2 Repair Wrap <a rel=\"ugc nofollow\" href=\"http:\/\/www.loctiteproducts.com\/p\/go2_wrap\/overview\/Go2-Repair-Wrap.htm\">http:\/\/www.loctiteproducts.com\/p\/go2_wrap\/overview\/Go2-Repair-Wrap.htm<\/a>.  <\/p><p>Currently, testing has been done only with the small size left and right Gripper Thumb TD as the stress case.  The small size should be functional for users of all sizes.  Medium and Large size devices will be added to the STL files after they have been tested.  <\/p><p>Elastic rings designed for veterinary use are made of latex and should not be used by people who are allergic to latex. <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/Castrator-Rings-300-Pack-Green\/dp\/B00S8JVLOO\/ref=pd_cp_469_3?_encoding=UTF8&amp;psc=1&amp;refRID=06J4ZTT2NQ3SQASSW385\">https:\/\/www.amazon.com\/Castrator-Rings-300-Pack-Green\/dp\/B00S8JVLOO\/ref=pd_cp_469_3?_encoding=UTF8&amp;psc=1&amp;refRID=06J4ZTT2NQ3SQASSW385<\/a> <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1908866\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1908866\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1908866\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1908866\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1908866\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1908866\/tags",
+    "tags": [
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "e-nable",
+        "tag": "e-nable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+        "count": 233,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+        "absolute_url": "\/tag:e-nable"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "Terminal Device",
+        "tag": "terminal_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terminal_device",
+        "count": 8,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terminal_device\/things",
+        "absolute_url": "\/tag:Terminal_Device"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1908866\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1503,
+    "view_count": 6543,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 8,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 792576,
+        "name": "heart hand love hand",
+        "url": "https:\/\/api.thingiverse.com\/things\/792576",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:792576",
+        "created_at": "2015-04-25T08:38:54+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/84\/45\/f8\/b4\/54\/00010galb_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/84\/45\/f8\/b4\/54\/00010galb_preview_card.jpg",
+        "creator": {
+          "id": 356537,
+          "name": "taherizad",
+          "first_name": "mohammad reza",
+          "last_name": "taherizad",
+          "url": "https:\/\/api.thingiverse.com\/users\/taherizad",
+          "public_url": "https:\/\/www.thingiverse.com\/taherizad",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+          "count_of_followers": 24,
+          "count_of_following": 18,
+          "count_of_designs": 5,
+          "collection_count": 1,
+          "make_count": 3,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 10,
+        "make_count": 16,
+        "like_count": 2743,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 5269,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 693429,
+        "name": "Flexy-Finger Prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/things\/693429",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:693429",
+        "created_at": "2015-10-15T09:46:15+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5d\/ee\/e7\/77\/c2\/IMG_20150223_094352-43_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/5d\/ee\/e7\/77\/c2\/IMG_20150223_094352-43_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 18,
+        "make_count": 1,
+        "like_count": 555,
+        "tags": [
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "cosplay",
+            "tag": "cosplay",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cosplay",
+            "count": 8761,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cosplay\/things",
+            "absolute_url": "\/tag:cosplay"
+          },
+          {
+            "name": "customizer",
+            "tag": "customizer",
+            "url": "https:\/\/api.thingiverse.com\/tags\/customizer",
+            "count": 7152,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/customizer\/things",
+            "absolute_url": "\/tag:customizer"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 533,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "finger",
+            "tag": "finger",
+            "url": "https:\/\/api.thingiverse.com\/tags\/finger",
+            "count": 792,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/finger\/things",
+            "absolute_url": "\/tag:finger"
+          },
+          {
+            "name": "prosthesis",
+            "tag": "prosthesis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+            "count": 231,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+            "absolute_url": "\/tag:prosthesis"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 1030,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "325_left_thumb_gripper_thumb_td.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/ef\/e4\/fc\/f6\/325_left_thumb_gripper_thumb_td.stl"
+        },
+        {
+          "name": "325_left_palm_gripper_thumb_td.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/e9\/66\/a0\/ae\/325_left_palm_gripper_thumb_td.stl"
+        },
+        {
+          "name": "325_right_thumb_gripper_thumb_td.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/3d\/da\/28\/a6\/325_right_thumb_gripper_thumb_td.stl"
+        },
+        {
+          "name": "325_right_palm_gripper_thumb_td.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/d3\/85\/3e\/6d\/325_right_palm_gripper_thumb_td.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Gripping_tasks.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/68\/5f\/65\/1e\/Gripping_tasks.JPG"
+        },
+        {
+          "name": "Grasping_range_of_the_gripper.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/44\/05\/34\/93\/Grasping_range_of_the_gripper.png"
+        },
+        {
+          "name": "325_Left_Palm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/71\/80\/15\/6a\/325_Left_Palm.png"
+        },
+        {
+          "name": "325_Right_Thumb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/0d\/4f\/19\/0d\/325_Right_Thumb.png"
+        },
+        {
+          "name": "325_Left_Thumb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/db\/b2\/22\/ff\/325_Left_Thumb.png"
+        },
+        {
+          "name": "325_Right_Palm_.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/99\/e9\/91\/5b\/325_Right_Palm_.png"
+        },
+        {
+          "name": "2666a97802c6b49ef60c16e13b5c70b8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/d6\/58\/83\/1a\/2666a97802c6b49ef60c16e13b5c70b8.png"
+        },
+        {
+          "name": "c3c601f893308b6c78a5d212cb8ae5be.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/f5\/5f\/b9\/dd\/c3c601f893308b6c78a5d212cb8ae5be.png"
+        },
+        {
+          "name": "24a562fe307c58d958fbf092e01e9f84.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a8\/d3\/b7\/be\/61\/24a562fe307c58d958fbf092e01e9f84.png"
+        },
+        {
+          "name": "1d4bab70242491e1c39a6b332e5b462d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bf\/9a\/bc\/86\/53\/1d4bab70242491e1c39a6b332e5b462d.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "created_at": "2025-04-16T03:34:06.417428+00:00",
+  "elapsed": 0.155367,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9310a0012d7263d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:34:06 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:04:06 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2768601?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2768601?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2768601,
+    "name": "Mouse moved by the mouth",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2768601",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2768601",
+    "creator": {
+      "id": 486472,
+      "name": "Relieves3D",
+      "first_name": "Javier",
+      "last_name": "Alcantara",
+      "url": "https:\/\/api.thingiverse.com\/users\/Relieves3D",
+      "public_url": "https:\/\/www.thingiverse.com\/Relieves3D",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3a\/37\/a0\/a6\/2b\/logo_final_thumb_medium.jpg",
+      "count_of_followers": 22,
+      "count_of_following": 1,
+      "count_of_designs": 18,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Alicante-Espa\u00f1a",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/8e\/4c\/c3\/ac\/a2\/logo_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-01-25T09:07:42+00:00",
+    "modified": "2018-01-25T09:07:42+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 66,
+    "is_liked": false,
+    "collect_count": 131,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7504172,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/1a\/ab\/e3\/36\/presentacion.jpg",
+      "name": "presentacion.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/ff\/95\/9a\/bf\/79b4b975a5f31d192ba0d6067a8e9f03_display_small.jpg"
+        }
+      ],
+      "added": "2018-01-24T18:51:31+00:00"
+    },
+    "description": "Este proyecto est\u00e1 basado en el trabajo de T. Wirtl publicado en https:\/\/www.thingiverse.com\/thing:1090461 el 24 de octubre de 2015.\r\nNuestro proyecto consiste en sustituir el sensor que lleva (de un cigarrillo electr\u00f3nico) que ya no se encuentran en el mercado y adaptarle un m\u00f3dulo KY-037 que es b\u00e1sicamente un micr\u00f3fono con la posibilidad de ajustar la sensibilidad. Dej\u00e1ndonos hacer el clic del bot\u00f3n izquierdo con un soplido o una inspiraci\u00f3n.\r\n\r\nFuncionalidad\r\nEl usuario mueve el cursor usando una boquilla que b\u00e1sicamente funciona como un joystick. El bot\u00f3n derecho del mouse se maneja empujando la boquilla hacia la caja. El bot\u00f3n izquierdo del mouse es emulado por un sensor que reconoce si el usuario succiona aire a trav\u00e9s de \u00e9l.\r\n\r\nHardware software\r\nUtilic\u00e9 hardware y software de c\u00f3digo abierto si es posible. El sistema est\u00e1 controlado por un Arduino Pro Micro. El Firmware fue escrito como un boceto de Arduino. \r\n\r\n\r\nThis project is based on the work of T. Wirtl published at https:\/\/www.thingiverse.com\/thing:1090461 on October 24, 2015.\r\nOur project consists of replacing the sensor that carries an electronic cigarette that is no longer in the market and costs a KY-037 module that is basically a microphone with the possibility of adjusting the sensitivity. Letting us click on the left button with a breath or an inspiration.\r\n\r\nFunctionality\r\nThe user moves the cursor using a mouthpiece that works like a joystick. The right mouse button is operated by pushing the nozzle towards the box. The left mouse button is emulated by a sensor that recognizes if the user sucks air through it.\r\n\r\nHardware software\r\nUse open source hardware and software if possible. The system is controlled by an Arduino Pro Micro. The Firmware was written as an Arduino sketch.",
+    "instructions": "",
+    "description_html": "<div><p>Este proyecto est&aacute; basado en el trabajo de T. Wirtl publicado en <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> el 24 de octubre de 2015.<br>Nuestro proyecto consiste en sustituir el sensor que lleva (de un cigarrillo electr&oacute;nico) que ya no se encuentran en el mercado y adaptarle un m&oacute;dulo KY-037 que es b&aacute;sicamente un micr&oacute;fono con la posibilidad de ajustar la sensibilidad. Dej&aacute;ndonos hacer el clic del bot&oacute;n izquierdo con un soplido o una inspiraci&oacute;n.<\/p><p>Funcionalidad<br>El usuario mueve el cursor usando una boquilla que b&aacute;sicamente funciona como un joystick. El bot&oacute;n derecho del mouse se maneja empujando la boquilla hacia la caja. El bot&oacute;n izquierdo del mouse es emulado por un sensor que reconoce si el usuario succiona aire a trav&eacute;s de &eacute;l.<\/p><p>Hardware software<br>Utilic&eacute; hardware y software de c&oacute;digo abierto si es posible. El sistema est&aacute; controlado por un Arduino Pro Micro. El Firmware fue escrito como un boceto de Arduino. <\/p><p>This project is based on the work of T. Wirtl published at <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> on October 24, 2015.<br>Our project consists of replacing the sensor that carries an electronic cigarette that is no longer in the market and costs a KY-037 module that is basically a microphone with the possibility of adjusting the sensitivity. Letting us click on the left button with a breath or an inspiration.<\/p><p>Functionality<br>The user moves the cursor using a mouthpiece that works like a joystick. The right mouse button is operated by pushing the nozzle towards the box. The left mouse button is emulated by a sensor that recognizes if the user sucks air through it.<\/p><p>Hardware software<br>Use open source hardware and software if possible. The system is controlled by an Arduino Pro Micro. The Firmware was written as an Arduino sketch.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Este proyecto est&aacute; basado en el trabajo de T. Wirtl publicado en <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> el 24 de octubre de 2015.<br>Nuestro proyecto consiste en sustituir el sensor que lleva (de un cigarrillo electr&oacute;nico) que ya no se encuentran en el mercado y adaptarle un m&oacute;dulo KY-037 que es b&aacute;sicamente un micr&oacute;fono con la posibilidad de ajustar la sensibilidad. Dej&aacute;ndonos hacer el clic del bot&oacute;n izquierdo con un soplido o una inspiraci&oacute;n.<\/p><p>Funcionalidad<br>El usuario mueve el cursor usando una boquilla que b&aacute;sicamente funciona como un joystick. El bot&oacute;n derecho del mouse se maneja empujando la boquilla hacia la caja. El bot&oacute;n izquierdo del mouse es emulado por un sensor que reconoce si el usuario succiona aire a trav&eacute;s de &eacute;l.<\/p><p>Hardware software<br>Utilic&eacute; hardware y software de c&oacute;digo abierto si es posible. El sistema est&aacute; controlado por un Arduino Pro Micro. El Firmware fue escrito como un boceto de Arduino. <\/p><p>This project is based on the work of T. Wirtl published at <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> on October 24, 2015.<br>Our project consists of replacing the sensor that carries an electronic cigarette that is no longer in the market and costs a KY-037 module that is basically a microphone with the possibility of adjusting the sensitivity. Letting us click on the left button with a breath or an inspiration.<\/p><p>Functionality<br>The user moves the cursor using a mouthpiece that works like a joystick. The right mouse button is operated by pushing the nozzle towards the box. The left mouse button is emulated by a sensor that recognizes if the user sucks air through it.<\/p><p>Hardware software<br>Use open source hardware and software if possible. The system is controlled by an Arduino Pro Micro. The Firmware was written as an Arduino sketch.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>JTF<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>100<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>Para este proyecto usaremos:<br>Piezas impresas en 3D.<br>1<em>Joystick  Modulo  KY-023<br>1<\/em>Arduino Micro.<br>1<em>Micr&oacute;fono Modulo KY-037<br>1<\/em>Juego de cables.<br>4<em> tornillos peque&ntilde;os rosca chapa.<br>4<\/em> tornillo M3<em> 8mm.<br>1<\/em> tuerca M6.<\/p><\/div><pre><code>            &lt;p class=\"detail-video\"&gt;&lt;iframe src=\"\/\/www.youtube.com\/embed\/ZbeLLEyuVmQ\" frameborder=\"0\" allowfullscreen&gt;&lt;\/iframe&gt;&lt;\/p&gt;            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/9a\/82\/2e\/91\/f6\/1_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/d6\/d1\/d8\/00\/a7\/2_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/be\/e6\/31\/76\/93\/3_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b2\/05\/9e\/e1\/ff\/4_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/4c\/61\/27\/9e\/c2\/5_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/98\/41\/59\/54\/c1\/6_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/9d\/b8\/80\/bd\/c9\/7_pagina.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;rat&amp;oacute;n para discapacidad&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Este proyecto est&aacute; basado en el trabajo de T. Wirtl publicado en <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> el 24 de octubre de 2015.<br>Nuestro proyecto consiste en sustituir el sensor que lleva (de un cigarrillo electr&oacute;nico) que ya no se encuentran en el mercado y adaptarle un m&oacute;dulo KY-037 que es b&aacute;sicamente un micr&oacute;fono con la posibilidad de ajustar la sensibilidad. Dej&aacute;ndonos hacer el clic del bot&oacute;n izquierdo con un soplido o una inspiraci&oacute;n.<\/p><p>Funcionalidad<br>El usuario mueve el cursor usando una boquilla que b&aacute;sicamente funciona como un joystick. El bot&oacute;n derecho del mouse se maneja empujando la boquilla hacia la caja. El bot&oacute;n izquierdo del mouse es emulado por un sensor que reconoce si el usuario succiona aire a trav&eacute;s de &eacute;l.<\/p><p>Hardware software<br>Utilic&eacute; hardware y software de c&oacute;digo abierto si es posible. El sistema est&aacute; controlado por un Arduino Pro Micro. El Firmware fue escrito como un boceto de Arduino. <\/p><p>This project is based on the work of T. Wirtl published at <a rel=\"ugc nofollow\" href=\"\/thing:1090461\">https:\/\/www.thingiverse.com\/thing:1090461<\/a> on October 24, 2015.<br>Our project consists of replacing the sensor that carries an electronic cigarette that is no longer in the market and costs a KY-037 module that is basically a microphone with the possibility of adjusting the sensitivity. Letting us click on the left button with a breath or an inspiration.<\/p><p>Functionality<br>The user moves the cursor using a mouthpiece that works like a joystick. The right mouse button is operated by pushing the nozzle towards the box. The left mouse button is emulated by a sensor that recognizes if the user sucks air through it.<\/p><p>Hardware software<br>Use open source hardware and software if possible. The system is controlled by an Arduino Pro Micro. The Firmware was written as an Arduino sketch.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>JTF<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.1<\/p><\/div>\n",
+            "infill": "<div><p>100<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>Para este proyecto usaremos:<br>Piezas impresas en 3D.<br>1<em>Joystick  Modulo  KY-023<br>1<\/em>Arduino Micro.<br>1<em>Micr&oacute;fono Modulo KY-037<br>1<\/em>Juego de cables.<br>4<em> tornillos peque&ntilde;os rosca chapa.<br>4<\/em> tornillo M3<em> 8mm.<br>1<\/em> tuerca M6.<\/p><\/div>\n"
+          },
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/ZbeLLEyuVmQ\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9a\/82\/2e\/91\/f6\/1_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61928"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/d6\/d1\/d8\/00\/a7\/2_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61929"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/be\/e6\/31\/76\/93\/3_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61930"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b2\/05\/9e\/e1\/ff\/4_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61931"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/4c\/61\/27\/9e\/c2\/5_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61932"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/98\/41\/59\/54\/c1\/6_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61933"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9d\/b8\/80\/bd\/c9\/7_pagina.jpg",
+            "caption": "rat\u00f3n para discapacidad",
+            "image_id": "61934"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2768601\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2768601\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2768601\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2768601\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2768601\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2768601\/tags",
+    "tags": [
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10224,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "capacitacin",
+        "tag": "capacitacin",
+        "url": "https:\/\/api.thingiverse.com\/tags\/capacitacin",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/capacitacin\/things",
+        "absolute_url": "\/tag:capacitacin"
+      },
+      {
+        "name": "dao cerebral",
+        "tag": "dao_cerebral",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dao_cerebral",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dao_cerebral\/things",
+        "absolute_url": "\/tag:dao_cerebral"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1362,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "mouse",
+        "tag": "mouse",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mouse",
+        "count": 1717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mouse\/things",
+        "absolute_url": "\/tag:mouse"
+      },
+      {
+        "name": "neurology",
+        "tag": "neurology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/neurology",
+        "count": 18,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/neurology\/things",
+        "absolute_url": "\/tag:neurology"
+      },
+      {
+        "name": "ordenador",
+        "tag": "ordenador",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ordenador",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ordenador\/things",
+        "absolute_url": "\/tag:ordenador"
+      },
+      {
+        "name": "raton",
+        "tag": "raton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/raton",
+        "count": 12,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/raton\/things",
+        "absolute_url": "\/tag:raton"
+      },
+      {
+        "name": "tetraplega",
+        "tag": "tetraplega",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tetraplega",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tetraplega\/things",
+        "absolute_url": "\/tag:tetraplega"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2768601\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 899,
+    "view_count": 2946,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Mouse_manejado_con_la_boca_tutorial.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/1c\/20\/80\/d3\/Mouse_manejado_con_la_boca_tutorial.pdf"
+        },
+        {
+          "name": "boquilla.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/09\/23\/11\/73\/boquilla.STL"
+        },
+        {
+          "name": "tapa_raton.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/87\/53\/07\/cf\/tapa_raton.STL"
+        },
+        {
+          "name": "cuerpo_raton.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/51\/f0\/1e\/86\/cuerpo_raton.STL"
+        },
+        {
+          "name": "t_rex_mouse_final.ino.rar",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/e9\/c3\/9e\/cd\/t_rex_mouse_final.ino.rar"
+        }
+      ],
+      "images": [
+        {
+          "name": "presentacion.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/1a\/ab\/e3\/36\/presentacion.jpg"
+        },
+        {
+          "name": "d5a9f922311c9f67bc18969333ef237d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/00\/b6\/44\/ad\/38\/d5a9f922311c9f67bc18969333ef237d.png"
+        },
+        {
+          "name": "91a898df972505684f1bd64184bf8344.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/12\/42\/95\/d5\/91a898df972505684f1bd64184bf8344.png"
+        },
+        {
+          "name": "28e02c104cf74e5f9c6d808182b96eda.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d1\/1e\/11\/de\/35\/28e02c104cf74e5f9c6d808182b96eda.png"
+        }
+      ]
+    }
+  }
+}

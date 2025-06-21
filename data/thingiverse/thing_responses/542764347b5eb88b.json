@@ -1,0 +1,507 @@
+{
+  "created_at": "2025-04-10T03:34:58.050355+00:00",
+  "elapsed": 0.153858,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df3103dc312a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:58 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:58 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3783855?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3783855?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3783855,
+    "name": "Large Lever Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3783855",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3783855",
+    "creator": {
+      "id": 950100,
+      "name": "skip1776",
+      "first_name": "Scott",
+      "last_name": "Dougherty",
+      "url": "https:\/\/api.thingiverse.com\/users\/skip1776",
+      "public_url": "https:\/\/www.thingiverse.com\/skip1776",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/bc\/81\/c1\/9e\/129ec689ba3d5aab8e0a7d3544eb46f7_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 11,
+      "count_of_designs": 18,
+      "collection_count": 11,
+      "make_count": 7,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pittsburgh, PA, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-08-02T14:40:41+00:00",
+    "modified": "2019-08-02T14:40:41+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 4,
+    "is_liked": false,
+    "collect_count": 10,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 11289218,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/50\/5c\/d5\/1c\/Large_Lever_Switch.png",
+      "name": "Large_Lever_Switch.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/46\/02\/d4\/04\/5c58fd3d8fbf5d6730bf3c8b19986bb1_display_small.jpg"
+        }
+      ],
+      "added": "2019-08-02T14:04:20+00:00"
+    },
+    "description": "This lever switch is based upon the discontinued Mounting Switch previously produced by Don Johnston Developmental Equipment, Inc. It utilizes a microswitch connected to a 3.5 mono plug. The basic configuration includes a base housing (for the switch, cable run, and mounting hardware) and an activation arm. \r\n\r\nMounting can be done using a thumbscrew with a \u00bc\u201d vertical or horizontal rod or using the T-nut base.\r\n- If mounting to a rod, a thumbscrew is needed to tighten the switch to the rod and an M3 screw is needed to hold the bottom of the compression spring inside the housing. \r\n- If mounting to a \u00bc\u201d-20 mount, the thumbscrew and M3 are omitted. A T-nut is inserted into the base, which snaps onto the bottom of the housing.",
+    "instructions": "",
+    "description_html": "<div><p>This lever switch is based upon the discontinued Mounting Switch previously produced by Don Johnston Developmental Equipment, Inc. It utilizes a microswitch connected to a 3.5 mono plug. The basic configuration includes a base housing (for the switch, cable run, and mounting hardware) and an activation arm. <\/p><p>Mounting can be done using a thumbscrew with a &frac14;&rdquo; vertical or horizontal rod or using the T-nut base.<\/p><ul><li>If mounting to a rod, a thumbscrew is needed to tighten the switch to the rod and an M3 screw is needed to hold the bottom of the compression spring inside the housing. <\/li><li>If mounting to a &frac14;&rdquo;-20 mount, the thumbscrew and M3 are omitted. A T-nut is inserted into the base, which snaps onto the bottom of the housing.<\/li><\/ul><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This lever switch is based upon the discontinued Mounting Switch previously produced by Don Johnston Developmental Equipment, Inc. It utilizes a microswitch connected to a 3.5 mono plug. The basic configuration includes a base housing (for the switch, cable run, and mounting hardware) and an activation arm. <\/p><p>Mounting can be done using a thumbscrew with a &frac14;&rdquo; vertical or horizontal rod or using the T-nut base.<\/p><ul><li>If mounting to a rod, a thumbscrew is needed to tighten the switch to the rod and an M3 screw is needed to hold the bottom of the compression spring inside the housing. <\/li><li>If mounting to a &frac14;&rdquo;-20 mount, the thumbscrew and M3 are omitted. A T-nut is inserted into the base, which snaps onto the bottom of the housing.<\/li><\/ul><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Ender 3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.16mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%, Grid&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Amazon Basics PLA<br>Gold &amp; Blue<h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Components<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Electronics and associated hardware&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;One snap Action Switch SPDT 3A 125V, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/pb4dn9\"&gt;https:\/\/www.digikey.com\/short\/pb4dn9&lt;\/a&gt; &lt;\/li&gt;&lt;li&gt;3.5mm mono cable assembly, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/pb40q5\"&gt;https:\/\/www.digikey.com\/short\/pb40q5&lt;\/a&gt; &lt;\/li&gt;&lt;li&gt;Two M2 x 0.4 x 10mm pan head Phillips screws, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#92000a017\"&gt;https:\/\/www.mcmaster.com\/#92000a017&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;Two zinc-plated steel hex nuts, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#90591a265\"&gt;https:\/\/www.mcmaster.com\/#90591a265&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;Hardware for the arm&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;One compression spring (0.75 long, 0.18&amp;rdquo; OD, 0.148&amp;rdquo; ID, 0.016&amp;rdquo; wire diameter), &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/9434k23\"&gt;https:\/\/www.mcmaster.com\/9434k23&lt;\/a&gt; - NOTE: It may be necessary to trim the spring slightly to ensure that the switch is activated when any position on the arm is depressed. The spring is intended to keep the arm offset from the microswitch and provide only slight spring-back action for the lever switch.&lt;\/li&gt;&lt;li&gt;One low-profile binding barrel and screw, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#94887a162\"&gt;https:\/\/www.mcmaster.com\/#94887a162&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;For mounting to a &amp;frac14;&amp;rdquo;-20 mount&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;One &amp;frac14;&amp;rdquo;-20 T-nut (&amp;frac34;&amp;rdquo; diameter), &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#90975a025\"&gt;https:\/\/www.mcmaster.com\/#90975a025&lt;\/a&gt;  &lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;For mounting to a metal rod&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;One plastic-head thumbscrew, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#91185a891\"&gt;https:\/\/www.mcmaster.com\/#91185a891&lt;\/a&gt; &lt;\/li&gt;&lt;li&gt;One M3 x 0.5 x 18mm flat head Phillips screw (to retain spring), &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#92010a788\"&gt;https:\/\/www.mcmaster.com\/#92010a788&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;One 3-ft x &amp;frac14;&amp;rdquo; aluminum metal round, &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.lowes.com\/pd\/Hillman-3-ft-x-0-25-in-Aluminum-Metal-Round\/3053649\"&gt;https:\/\/www.lowes.com\/pd\/Hillman-3-ft-x-0-25-in-Aluminum-Metal-Round\/3053649&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This lever switch is based upon the discontinued Mounting Switch previously produced by Don Johnston Developmental Equipment, Inc. It utilizes a microswitch connected to a 3.5 mono plug. The basic configuration includes a base housing (for the switch, cable run, and mounting hardware) and an activation arm. <\/p><p>Mounting can be done using a thumbscrew with a &frac14;&rdquo; vertical or horizontal rod or using the T-nut base.<\/p><ul><li>If mounting to a rod, a thumbscrew is needed to tighten the switch to the rod and an M3 screw is needed to hold the bottom of the compression spring inside the housing. <\/li><li>If mounting to a &frac14;&rdquo;-20 mount, the thumbscrew and M3 are omitted. A T-nut is inserted into the base, which snaps onto the bottom of the housing.<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>\n",
+            "printer": "<div><p>Ender 3<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.16mm<\/p><\/div>\n",
+            "infill": "<div><p>20%, Grid<\/p><\/div>\n",
+            "filament_brand": "<div><p>Amazon Basics<\/p><\/div>\n",
+            "filament_color": "<div><p>Gold &amp; Blue<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Components",
+            "content": "<div><p>Electronics and associated hardware<\/p><ul><li>One snap Action Switch SPDT 3A 125V, <a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/pb4dn9\">https:\/\/www.digikey.com\/short\/pb4dn9<\/a> <\/li><li>3.5mm mono cable assembly, <a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/pb40q5\">https:\/\/www.digikey.com\/short\/pb40q5<\/a> <\/li><li>Two M2 x 0.4 x 10mm pan head Phillips screws, <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#92000a017\">https:\/\/www.mcmaster.com\/#92000a017<\/a><\/li><li>Two zinc-plated steel hex nuts, <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#90591a265\">https:\/\/www.mcmaster.com\/#90591a265<\/a><\/li><\/ul><p>Hardware for the arm<\/p><ul><li>One compression spring (0.75 long, 0.18&rdquo; OD, 0.148&rdquo; ID, 0.016&rdquo; wire diameter), <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/9434k23\">https:\/\/www.mcmaster.com\/9434k23<\/a> - NOTE: It may be necessary to trim the spring slightly to ensure that the switch is activated when any position on the arm is depressed. The spring is intended to keep the arm offset from the microswitch and provide only slight spring-back action for the lever switch.<\/li><li>One low-profile binding barrel and screw, <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#94887a162\">https:\/\/www.mcmaster.com\/#94887a162<\/a><\/li><\/ul><p>For mounting to a &frac14;&rdquo;-20 mount<\/p><ul><li>One &frac14;&rdquo;-20 T-nut (&frac34;&rdquo; diameter), <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#90975a025\">https:\/\/www.mcmaster.com\/#90975a025<\/a>  <\/li><\/ul><p>For mounting to a metal rod<\/p><ul><li>One plastic-head thumbscrew, <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#91185a891\">https:\/\/www.mcmaster.com\/#91185a891<\/a> <\/li><li>One M3 x 0.5 x 18mm flat head Phillips screw (to retain spring), <a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#92010a788\">https:\/\/www.mcmaster.com\/#92010a788<\/a><\/li><li>One 3-ft x &frac14;&rdquo; aluminum metal round, <a rel=\"ugc nofollow\" href=\"https:\/\/www.lowes.com\/pd\/Hillman-3-ft-x-0-25-in-Aluminum-Metal-Round\/3053649\">https:\/\/www.lowes.com\/pd\/Hillman-3-ft-x-0-25-in-Aluminum-Metal-Round\/3053649<\/a><\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3783855\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3783855\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3783855\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3783855\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3783855\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3783855\/tags",
+    "tags": [
+      {
+        "name": "adaptive device",
+        "tag": "adaptive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device\/things",
+        "absolute_url": "\/tag:adaptive_device"
+      },
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "camera-mount",
+        "tag": "camera-mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/camera-mount",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/camera-mount\/things",
+        "absolute_url": "\/tag:camera-mount"
+      },
+      {
+        "name": "mount",
+        "tag": "mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mount",
+        "count": 26842,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mount\/things",
+        "absolute_url": "\/tag:mount"
+      },
+      {
+        "name": "switch",
+        "tag": "switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch",
+        "count": 4910,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch\/things",
+        "absolute_url": "\/tag:switch"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3783855\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 504,
+    "view_count": 236,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Arm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/22\/27\/3e\/4c\/Arm.stl"
+        },
+        {
+          "name": "Full_Rod_Configuration.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/9a\/a9\/41\/61\/Full_Rod_Configuration.stl"
+        },
+        {
+          "name": "Housing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/56\/a1\/92\/42\/Housing.stl"
+        },
+        {
+          "name": "Full_T-Nut_Configuration.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/2f\/23\/86\/ca\/Full_T-Nut_Configuration.stl"
+        },
+        {
+          "name": "Large_Lever_Switch.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/57\/51\/06\/eb\/Large_Lever_Switch.f3d"
+        },
+        {
+          "name": "T-Nut_Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/4a\/46\/5a\/8a\/T-Nut_Base.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Large_Lever_Switch.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/50\/5c\/d5\/1c\/Large_Lever_Switch.png"
+        },
+        {
+          "name": "Large_Lever_Switch_with_T-nut_Base.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/26\/97\/f1\/cc\/Large_Lever_Switch_with_T-nut_Base.png"
+        },
+        {
+          "name": "Large_Lever_Switch_Spring_with_T-nut.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/d9\/2f\/d8\/d2\/Large_Lever_Switch_Spring_with_T-nut.png"
+        },
+        {
+          "name": "Large_Lever_Switch_with_Vertical_Rod.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/6b\/ca\/48\/f6\/Large_Lever_Switch_with_Vertical_Rod.png"
+        },
+        {
+          "name": "Large_Lever_Switch_with_Horizontal_Rod.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/3c\/4d\/e8\/9a\/Large_Lever_Switch_with_Horizontal_Rod.png"
+        },
+        {
+          "name": "Large_Lever_Switch_Spring_with_Metal_Rod.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/ba\/f8\/38\/52\/Large_Lever_Switch_Spring_with_Metal_Rod.png"
+        },
+        {
+          "name": "f87023a7860f68f893284423b2527a02.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/97\/d0\/40\/21\/e3\/f87023a7860f68f893284423b2527a02.png"
+        },
+        {
+          "name": "2a6ecd240f1909f4a4c4475c8e9dbf2f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/be\/b8\/e7\/76\/2a6ecd240f1909f4a4c4475c8e9dbf2f.png"
+        },
+        {
+          "name": "7872dea1a24f9ff931274447aa58e476.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bf\/28\/bd\/85\/7872dea1a24f9ff931274447aa58e476.png"
+        },
+        {
+          "name": "a19baad8ab660a8cb975293168f5b5ab.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/94\/41\/e7\/61\/0b\/a19baad8ab660a8cb975293168f5b5ab.png"
+        },
+        {
+          "name": "a76c85d2361287c4a5536112f11515fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/2b\/9e\/44\/54\/a76c85d2361287c4a5536112f11515fc.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "created_at": "2025-04-16T03:34:12.764191+00:00",
+  "elapsed": 0.141884,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9310a028ed1263d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:34:12 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:04:12 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2145618?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2145618?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2145618,
+    "name": "Muscular Dystrophy Flat Spoon",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2145618",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2145618",
+    "creator": {
+      "id": 215464,
+      "name": "RobotMama",
+      "first_name": "Digital",
+      "last_name": "Pearl",
+      "url": "https:\/\/api.thingiverse.com\/users\/RobotMama",
+      "public_url": "https:\/\/www.thingiverse.com\/RobotMama",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/a7\/91\/4c\/01\/b1\/fe9edb84-289b-414b-b730-0ba9ece0dcb1.png",
+      "count_of_followers": 24159,
+      "count_of_following": 146,
+      "count_of_designs": 36,
+      "collection_count": 37,
+      "make_count": 98,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Germany",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/5b\/10\/b7\/a2\/cc\/7b1b4f9a-4e6a-4d79-969f-d8c27cf89f2b.jpeg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-03-01T17:59:04+00:00",
+    "modified": "2017-03-01T17:59:04+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 64,
+    "is_liked": false,
+    "collect_count": 123,
+    "is_collected": false,
+    "comment_count": 22,
+    "is_watched": false,
+    "default_image": {
+      "id": 5569176,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/e2\/9c\/e1\/b6\/IMG_4574_1Logo.png",
+      "name": "IMG_4574_1Logo.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/69\/9d\/ba\/24\/f89e48e83c6d3a38eb4823266d0d271e_display_small.jpg"
+        }
+      ],
+      "added": "2017-03-07T19:13:58+00:00"
+    },
+    "description": "I made this spoon for Elsha, with measurements she gave me. She suffers from muscular dystrophy since her birth and reached out for help via our forums (http:\/\/www.thingiverse.com\/groups\/things-with-actual-uses\/topic:11607#comment-1236363). The disease degenerates a patients muscles over time, Elsha has this disease since her birth.\r\n\r\nShe is doing a lot of artwork with only her head(https:\/\/www.facebook.com\/u2elshanator). When I first got her spoon measurements I thought someone was making fun of me, but Elsha reached out for me via Facebook where I saw pictures of her and then everything made sense to me.\r\n\r\nThis is the printed prototypes, luckily I recently got a Form2 to print this delicate design.\r\nHere is a video of the spoon https:\/\/youtu.be\/Ae80t6pXSvo\r\nThe foto shows a metric scale, the print process and the post-curing.\r\nThis video shows the print process https:\/\/youtu.be\/bqJ4-MfYMfU.\r\n\r\n**Check out the below sections for important info on food safety!**",
+    "instructions": "",
+    "description_html": "<div><p>I made this spoon for Elsha, with measurements she gave me. She suffers from muscular dystrophy since her birth and reached out for help via our forums (<a rel=\"ugc nofollow\" href=\"\/groups\/things-with-actual-uses\/topic:11607\">http:\/\/www.thingiverse.com\/groups\/things-with-actual-uses\/topic:11607#comment-1236363<\/a>). The disease degenerates a patients muscles over time, Elsha has this disease since her birth.<\/p><p>She is doing a lot of artwork with only her head(<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/u2elshanator\">https:\/\/www.facebook.com\/u2elshanator<\/a>). When I first got her spoon measurements I thought someone was making fun of me, but Elsha reached out for me via Facebook where I saw pictures of her and then everything made sense to me.<\/p><p>This is the printed prototypes, luckily I recently got a Form2 to print this delicate design.<br>Here is a video of the spoon <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/Ae80t6pXSvo\">https:\/\/youtu.be\/Ae80t6pXSvo<\/a><br>The foto shows a metric scale, the print process and the post-curing.<br>This video shows the print process <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/bqJ4-MfYMfU\">https:\/\/youtu.be\/bqJ4-MfYMfU<\/a>.<\/p><p><strong>Check out the below sections for important info on food safety!<\/strong><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I made this spoon for Elsha, with measurements she gave me. She suffers from muscular dystrophy since her birth and reached out for help via our forums (<a rel=\"ugc nofollow\" href=\"\/groups\/things-with-actual-uses\/topic:11607\">http:\/\/www.thingiverse.com\/groups\/things-with-actual-uses\/topic:11607#comment-1236363<\/a>). The disease degenerates a patients muscles over time, Elsha has this disease since her birth.<\/p><p>She is doing a lot of artwork with only her head(<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/u2elshanator\">https:\/\/www.facebook.com\/u2elshanator<\/a>). When I first got her spoon measurements I thought someone was making fun of me, but Elsha reached out for me via Facebook where I saw pictures of her and then everything made sense to me.<\/p><p>This is the printed prototypes, luckily I recently got a Form2 to print this delicate design.<br>Here is a video of the spoon <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/Ae80t6pXSvo\">https:\/\/youtu.be\/Ae80t6pXSvo<\/a><br>The foto shows a metric scale, the print process and the post-curing.<br>This video shows the print process <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/bqJ4-MfYMfU\">https:\/\/youtu.be\/bqJ4-MfYMfU<\/a>.<\/p><p><strong>Check out the below sections for important info on food safety!<\/strong><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Form2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Highest Quality&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>-<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Orienting the spoon slightly sideways at about 40 degrees and then letting Preform create supports.&lt;\/p&gt;&lt;p&gt;Have to still test if there is a better orientation.&lt;\/p&gt;&lt;p&gt;The clear Resin I used in printing the spoon is &lt;strong&gt;not food safe&lt;\/strong&gt;! See info in summary to make sure not to misuse 3DPrinting for objects that get into contact with food or your mouth.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>As always I used Cinema 4D as the tool of choice. I used hypernurbs with a low poly version of the spoon, to keep it easily adjustable to Elsha's needs.<\/p><\/div><h1 class=\"thing-component-header custom food-safety-and-molding\">Food Safety and Molding<\/h1><div><p><strong>Important info on food safety and 3DPrinting: Use 3D Printed objects on your own risk and get yourself informed well, not all materials are safe and not all production processes are safe<\/strong><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I made this spoon for Elsha, with measurements she gave me. She suffers from muscular dystrophy since her birth and reached out for help via our forums (<a rel=\"ugc nofollow\" href=\"\/groups\/things-with-actual-uses\/topic:11607\">http:\/\/www.thingiverse.com\/groups\/things-with-actual-uses\/topic:11607#comment-1236363<\/a>). The disease degenerates a patients muscles over time, Elsha has this disease since her birth.<\/p><p>She is doing a lot of artwork with only her head(<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/u2elshanator\">https:\/\/www.facebook.com\/u2elshanator<\/a>). When I first got her spoon measurements I thought someone was making fun of me, but Elsha reached out for me via Facebook where I saw pictures of her and then everything made sense to me.<\/p><p>This is the printed prototypes, luckily I recently got a Form2 to print this delicate design.<br>Here is a video of the spoon <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/Ae80t6pXSvo\">https:\/\/youtu.be\/Ae80t6pXSvo<\/a><br>The foto shows a metric scale, the print process and the post-curing.<br>This video shows the print process <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/bqJ4-MfYMfU\">https:\/\/youtu.be\/bqJ4-MfYMfU<\/a>.<\/p><p><strong>Check out the below sections for important info on food safety!<\/strong><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Form2<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>Highest Quality<\/p><\/div>\n",
+            "infill": "<div><p>-<\/p><\/div>\n",
+            "notes": "<div><p>Orienting the spoon slightly sideways at about 40 degrees and then letting Preform create supports.<\/p><p>Have to still test if there is a better orientation.<\/p><p>The clear Resin I used in printing the spoon is <strong>not food safe<\/strong>! See info in summary to make sure not to misuse 3DPrinting for objects that get into contact with food or your mouth.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>As always I used Cinema 4D as the tool of choice. I used hypernurbs with a low poly version of the spoon, to keep it easily adjustable to Elsha's needs.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Food Safety and Molding",
+        "data": [
+          {
+            "content": "<div><p><strong>Important info on food safety and 3DPrinting: Use 3D Printed objects on your own risk and get yourself informed well, not all materials are safe and not all production processes are safe<\/strong><\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2145618\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2145618\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2145618\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2145618\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2145618\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2145618\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "delicate",
+        "tag": "delicate",
+        "url": "https:\/\/api.thingiverse.com\/tags\/delicate",
+        "count": 14,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/delicate\/things",
+        "absolute_url": "\/tag:delicate"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "flat",
+        "tag": "flat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flat",
+        "count": 573,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flat\/things",
+        "absolute_url": "\/tag:flat"
+      },
+      {
+        "name": "form2",
+        "tag": "form2",
+        "url": "https:\/\/api.thingiverse.com\/tags\/form2",
+        "count": 46,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/form2\/things",
+        "absolute_url": "\/tag:form2"
+      },
+      {
+        "name": "Formlabs",
+        "tag": "formlabs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/formlabs",
+        "count": 135,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/formlabs\/things",
+        "absolute_url": "\/tag:Formlabs"
+      },
+      {
+        "name": "form 2",
+        "tag": "form_2",
+        "url": "https:\/\/api.thingiverse.com\/tags\/form_2",
+        "count": 12,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/form_2\/things",
+        "absolute_url": "\/tag:form_2"
+      },
+      {
+        "name": "muscular",
+        "tag": "muscular",
+        "url": "https:\/\/api.thingiverse.com\/tags\/muscular",
+        "count": 33,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/muscular\/things",
+        "absolute_url": "\/tag:muscular"
+      },
+      {
+        "name": "muscular dystrophy",
+        "tag": "muscular_dystrophy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/muscular_dystrophy",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/muscular_dystrophy\/things",
+        "absolute_url": "\/tag:muscular_dystrophy"
+      },
+      {
+        "name": "RobotMama",
+        "tag": "robotmama",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotmama",
+        "count": 29,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotmama\/things",
+        "absolute_url": "\/tag:RobotMama"
+      },
+      {
+        "name": "special needs",
+        "tag": "special_needs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/special_needs",
+        "count": 42,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/special_needs\/things",
+        "absolute_url": "\/tag:special_needs"
+      },
+      {
+        "name": "spoon",
+        "tag": "spoon",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spoon",
+        "count": 710,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spoon\/things",
+        "absolute_url": "\/tag:spoon"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2145618\/categories",
+    "file_count": 9,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 963,
+    "view_count": 3103,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 2,
+    "root_comment_count": 8,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "MuscularDystrophySpoon5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/e4\/dd\/04\/5d\/MuscularDystrophySpoon5.stl"
+        },
+        {
+          "name": "MDS.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/b8\/0e\/4b\/d7\/MDS.stl"
+        },
+        {
+          "name": "MDS1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/f4\/90\/de\/e8\/MDS1.stl"
+        },
+        {
+          "name": "MDS2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/67\/54\/ce\/6d\/MDS2.stl"
+        },
+        {
+          "name": "MDS3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/2a\/0e\/b2\/77\/MDS3.stl"
+        },
+        {
+          "name": "MDS4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/08\/56\/75\/24\/MDS4.stl"
+        },
+        {
+          "name": "MDS5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/47\/b5\/5e\/4c\/MDS5.stl"
+        },
+        {
+          "name": "MDS6.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/1b\/f1\/ba\/f2\/MDS6.stl"
+        },
+        {
+          "name": "MDS7.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/40\/01\/82\/9e\/MDS7.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_4574_1Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/e2\/9c\/e1\/b6\/IMG_4574_1Logo.png"
+        },
+        {
+          "name": "IMG_4563Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/96\/50\/1e\/eb\/IMG_4563Logo.png"
+        },
+        {
+          "name": "IMG_3497Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/15\/b8\/eb\/01\/IMG_3497Logo.png"
+        },
+        {
+          "name": "IMG_3721Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/82\/26\/46\/a3\/IMG_3721Logo.png"
+        },
+        {
+          "name": "IMG_3757Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/2a\/26\/69\/9a\/IMG_3757Logo.png"
+        },
+        {
+          "name": "IMG_3834Logo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/5a\/fd\/dd\/0e\/IMG_3834Logo.png"
+        },
+        {
+          "name": "MDS3_7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/c4\/65\/8b\/46\/MDS3_7.png"
+        },
+        {
+          "name": "SkinnierThicker.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/ae\/e2\/8f\/91\/SkinnierThicker.png"
+        },
+        {
+          "name": "5b0895e775a52ddbb225007fa9067013.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/a0\/3b\/b9\/7d\/5b0895e775a52ddbb225007fa9067013.png"
+        },
+        {
+          "name": "d55ed11b7c8219930763be605b3f23a8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/b8\/2d\/f7\/78\/d55ed11b7c8219930763be605b3f23a8.png"
+        },
+        {
+          "name": "71c2e97cb23046c45ab302499f873660.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/77\/eb\/e7\/35\/71c2e97cb23046c45ab302499f873660.png"
+        },
+        {
+          "name": "938c2917dd299e07041c1fdf942267fe.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/89\/be\/aa\/69\/45\/938c2917dd299e07041c1fdf942267fe.png"
+        },
+        {
+          "name": "fa1e33f0e2f49f01889dfca16a7dbb9b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/15\/df\/88\/b9\/fa1e33f0e2f49f01889dfca16a7dbb9b.png"
+        },
+        {
+          "name": "6cb0292bc3b53f39a7f7b0a4e67ef240.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/53\/e4\/3b\/90\/6cb0292bc3b53f39a7f7b0a4e67ef240.png"
+        },
+        {
+          "name": "aca9c8c4bc8f6fc4d3da8f370bb0aefa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/80\/40\/1d\/28\/aca9c8c4bc8f6fc4d3da8f370bb0aefa.png"
+        },
+        {
+          "name": "b42e1c009ad7e5dd0b923aba43f78674.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/46\/fb\/c1\/a6\/b42e1c009ad7e5dd0b923aba43f78674.png"
+        },
+        {
+          "name": "67410afbe257e8bf3e5543d9f5670dd0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/46\/bd\/41\/e8\/67410afbe257e8bf3e5543d9f5670dd0.png"
+        }
+      ]
+    }
+  }
+}

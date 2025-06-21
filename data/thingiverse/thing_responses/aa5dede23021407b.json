@@ -1,0 +1,755 @@
+{
+  "created_at": "2025-04-11T03:34:51.545311+00:00",
+  "elapsed": 0.250355,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76e3aae5c2350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:51 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:51 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2874072?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2874072?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2874072,
+    "name": "E-Nable - Thumb prosthesis",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2874072",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2874072",
+    "creator": {
+      "id": 1261349,
+      "name": "SandraDermisek",
+      "first_name": "Sandra",
+      "last_name": "Dermisek",
+      "url": "https:\/\/api.thingiverse.com\/users\/SandraDermisek",
+      "public_url": "https:\/\/www.thingiverse.com\/SandraDermisek",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_designer_thumb_medium.jpg",
+      "count_of_followers": 14,
+      "count_of_following": 2,
+      "count_of_designs": 7,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Nederland",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-04-22T20:48:52+00:00",
+    "modified": "2018-04-22T20:48:52+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 333,
+    "is_liked": false,
+    "collect_count": 614,
+    "is_collected": false,
+    "comment_count": 20,
+    "is_watched": false,
+    "default_image": {
+      "id": 8037683,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/13\/fa\/d2\/c5\/Thumb_1.JPG",
+      "name": "Thumb_1.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/4c\/8d\/e0\/53\/3831fb73cfecb496bd2e0c862a4082f0_display_small.JPG"
+        }
+      ],
+      "added": "2018-04-22T20:42:56+00:00"
+    },
+    "description": "For a 16 year old boy, who had an accident and lost part of his thumb, I designed this thumb.\r\nI have used the thumb of Gyrobot's flexy-hand and designed a new thumb phalanx.\r\nThe linkage and bracelet design I remixed from the Knick's prosthetic finger.\r\nThe thumb can't bend much, but for this boy it really works well enough to grab things like a coffee mug or the controller of his game computer. \r\n\r\nPlease be aware that I have just made one thumb and it hasn't been tested much, but since there a not yet much thumb versions on thingiverse it uploaded it anyway.\r\nYou never know if my remix of the flexy-thumb can help someone else.",
+    "instructions": "",
+    "description_html": "<div><p>For a 16 year old boy, who had an accident and lost part of his thumb, I designed this thumb.<br>I have used the thumb of Gyrobot's flexy-hand and designed a new thumb phalanx.<br>The linkage and bracelet design I remixed from the Knick's prosthetic finger.<br>The thumb can't bend much, but for this boy it really works well enough to grab things like a coffee mug or the controller of his game computer. <\/p><p>Please be aware that I have just made one thumb and it hasn't been tested much, but since there a not yet much thumb versions on thingiverse it uploaded it anyway.<br>You never know if my remix of the flexy-thumb can help someone else.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>For a 16 year old boy, who had an accident and lost part of his thumb, I designed this thumb.<br>I have used the thumb of Gyrobot's flexy-hand and designed a new thumb phalanx.<br>The linkage and bracelet design I remixed from the Knick's prosthetic finger.<br>The thumb can't bend much, but for this boy it really works well enough to grab things like a coffee mug or the controller of his game computer. <\/p><p>Please be aware that I have just made one thumb and it hasn't been tested much, but since there a not yet much thumb versions on thingiverse it uploaded it anyway.<br>You never know if my remix of the flexy-thumb can help someone else.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>BCN3D<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;BCN3D SIGMA&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0,10 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;100%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>The thumb tip I printed in PLA with brim and support touching buildplate only otherwise the holes for the fishing lines will not be open. The thumb tip I printed with 1,2 mm walls and 35% infill.<\/p><p>The hinge I printed in Ninjaflex (the flexibel, not the semi-flexible)<\/p><p>The linkage I printed in PLA with brim, with 100% infill.<\/p><p>The Phalanx is a dual extrusion part, the white component is Ninjaflex and the grey is PLA. It is printed with brim and support touching buildplate only otherwise the holes for the fishing lines will not be open. The thumb tip I printed with 1,2 mm walls and 100% infill. And I used an ooze tower.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>I designed this in Creo Parametric. I added also a step file for the solid modelers among us.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>For a 16 year old boy, who had an accident and lost part of his thumb, I designed this thumb.<br>I have used the thumb of Gyrobot's flexy-hand and designed a new thumb phalanx.<br>The linkage and bracelet design I remixed from the Knick's prosthetic finger.<br>The thumb can't bend much, but for this boy it really works well enough to grab things like a coffee mug or the controller of his game computer. <\/p><p>Please be aware that I have just made one thumb and it hasn't been tested much, but since there a not yet much thumb versions on thingiverse it uploaded it anyway.<br>You never know if my remix of the flexy-thumb can help someone else.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>BCN3D<\/p><\/div>\n",
+            "printer": "<div><p>BCN3D SIGMA<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0,10 mm<\/p><\/div>\n",
+            "infill": "<div><p>100%<\/p><\/div>\n",
+            "notes": "<div><p>The thumb tip I printed in PLA with brim and support touching buildplate only otherwise the holes for the fishing lines will not be open. The thumb tip I printed with 1,2 mm walls and 35% infill.<\/p><p>The hinge I printed in Ninjaflex (the flexibel, not the semi-flexible)<\/p><p>The linkage I printed in PLA with brim, with 100% infill.<\/p><p>The Phalanx is a dual extrusion part, the white component is Ninjaflex and the grey is PLA. It is printed with brim and support touching buildplate only otherwise the holes for the fishing lines will not be open. The thumb tip I printed with 1,2 mm walls and 100% infill. And I used an ooze tower.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>I designed this in Creo Parametric. I added also a step file for the solid modelers among us.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2874072\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2874072\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2874072\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2874072\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2874072\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2874072\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2874072\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3310,
+    "view_count": 13007,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 9,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 242639,
+        "name": "Flexy-Hand",
+        "url": "https:\/\/api.thingiverse.com\/things\/242639",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:242639",
+        "created_at": "2014-03-04T17:12:57+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/2f\/34\/ae\/1d\/53\/IMG_20140315_093448_1_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 123,
+        "make_count": 50,
+        "like_count": 5105,
+        "tags": [
+          {
+            "name": "Amputees",
+            "tag": "amputees",
+            "url": "https:\/\/api.thingiverse.com\/tags\/amputees",
+            "count": 4,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/amputees\/things",
+            "absolute_url": "\/tag:Amputees"
+          },
+          {
+            "name": "anatomy",
+            "tag": "anatomy",
+            "url": "https:\/\/api.thingiverse.com\/tags\/anatomy",
+            "count": 510,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/anatomy\/things",
+            "absolute_url": "\/tag:anatomy"
+          },
+          {
+            "name": "Body Parts",
+            "tag": "body_parts",
+            "url": "https:\/\/api.thingiverse.com\/tags\/body_parts",
+            "count": 56,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/body_parts\/things",
+            "absolute_url": "\/tag:Body_Parts"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "filaflex",
+            "tag": "filaflex",
+            "url": "https:\/\/api.thingiverse.com\/tags\/filaflex",
+            "count": 227,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/filaflex\/things",
+            "absolute_url": "\/tag:filaflex"
+          },
+          {
+            "name": "flexible",
+            "tag": "flexible",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flexible",
+            "count": 3477,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flexible\/things",
+            "absolute_url": "\/tag:flexible"
+          },
+          {
+            "name": "live hinge",
+            "tag": "live_hinge",
+            "url": "https:\/\/api.thingiverse.com\/tags\/live_hinge",
+            "count": 15,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/live_hinge\/things",
+            "absolute_url": "\/tag:live_hinge"
+          },
+          {
+            "name": "robotics",
+            "tag": "robotics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+            "count": 3570,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+            "absolute_url": "\/tag:robotics"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 9318,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 387072,
+        "name": "Flexy-Fingers",
+        "url": "https:\/\/api.thingiverse.com\/things\/387072",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:387072",
+        "created_at": "2014-07-07T13:25:41+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/aa\/d8\/93\/ec\/c0\/IMG_20150112_140024_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/aa\/d8\/93\/ec\/c0\/IMG_20150112_140024_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 9,
+        "make_count": 2,
+        "like_count": 212,
+        "tags": [
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 433,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1340624,
+        "name": "Knick's Prosthetic Finger v3.5.5",
+        "url": "https:\/\/api.thingiverse.com\/things\/1340624",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1340624",
+        "created_at": "2016-02-14T19:34:09+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/f1\/4e\/ad\/b6\/c08ec2e32402f18b299f448c613e2046_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/5a\/f1\/4e\/ad\/b6\/c08ec2e32402f18b299f448c613e2046_preview_card.jpg",
+        "creator": {
+          "id": 268663,
+          "name": "knick",
+          "first_name": "Nicholas",
+          "last_name": "Brookins",
+          "url": "https:\/\/api.thingiverse.com\/users\/knick",
+          "public_url": "https:\/\/www.thingiverse.com\/knick",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3d\/71\/f0\/eb\/30\/0572bdb19e4729464ea76012e201464c_thumb_medium.jpg",
+          "count_of_followers": 184,
+          "count_of_following": 21,
+          "count_of_designs": 8,
+          "collection_count": 4,
+          "make_count": 8,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Encinitas, CA",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/93\/39\/ec\/c8\/4c\/c11977e9173b708e8c1978e9ec902f71_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 232,
+        "make_count": 21,
+        "like_count": 2155,
+        "tags": [
+          {
+            "name": "customizer",
+            "tag": "customizer",
+            "url": "https:\/\/api.thingiverse.com\/tags\/customizer",
+            "count": 7152,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/customizer\/things",
+            "absolute_url": "\/tag:customizer"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "enable",
+            "tag": "enable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/enable",
+            "count": 166,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/enable\/things",
+            "absolute_url": "\/tag:enable"
+          },
+          {
+            "name": "finger",
+            "tag": "finger",
+            "url": "https:\/\/api.thingiverse.com\/tags\/finger",
+            "count": 792,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/finger\/things",
+            "absolute_url": "\/tag:finger"
+          },
+          {
+            "name": "openscad",
+            "tag": "openscad",
+            "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+            "count": 15330,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+            "absolute_url": "\/tag:openscad"
+          },
+          {
+            "name": "prosthesis",
+            "tag": "prosthesis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+            "count": 231,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+            "absolute_url": "\/tag:prosthesis"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "prosthetic finger",
+            "tag": "prosthetic_finger",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_finger",
+            "count": 8,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_finger\/things",
+            "absolute_url": "\/tag:prosthetic_finger"
+          },
+          {
+            "name": "prosthetics",
+            "tag": "prosthetics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+            "count": 99,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+            "absolute_url": "\/tag:prosthetics"
+          },
+          {
+            "name": "Prosthetic hand",
+            "tag": "prosthetic_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+            "count": 228,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+            "absolute_url": "\/tag:Prosthetic_hand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 4170,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "flexi_hinge_8_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/9b\/bd\/7b\/60\/flexi_hinge_8_v2.stl"
+        },
+        {
+          "name": "flexi_thumb_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/f3\/82\/43\/fa\/flexi_thumb_v2.stl"
+        },
+        {
+          "name": "thumb_prothese_v2_asm.stp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/10\/32\/07\/e2\/thumb_prothese_v2_asm.stp"
+        },
+        {
+          "name": "thumb_linkage_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/d4\/c8\/35\/b5\/thumb_linkage_v2.stl"
+        },
+        {
+          "name": "thumb_phalanx_tpu_v2_.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/6f\/b8\/4d\/4c\/thumb_phalanx_tpu_v2_.stl"
+        },
+        {
+          "name": "thumb_phalanx_pla_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/61\/79\/44\/af\/thumb_phalanx_pla_v2.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Thumb_1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/13\/fa\/d2\/c5\/Thumb_1.JPG"
+        },
+        {
+          "name": "Thumb_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/49\/51\/9f\/84\/Thumb_2.jpg"
+        },
+        {
+          "name": "Thumb_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/69\/17\/94\/ed\/Thumb_3.jpg"
+        },
+        {
+          "name": "Thumb_4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/08\/97\/1f\/c2\/Thumb_4.jpg"
+        },
+        {
+          "name": "Thumb_7.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/08\/ae\/45\/d4\/Thumb_7.jpg"
+        },
+        {
+          "name": "Thumb_5.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/97\/08\/06\/2f\/Thumb_5.jpg"
+        },
+        {
+          "name": "Thumb_6.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/af\/38\/90\/95\/Thumb_6.jpg"
+        },
+        {
+          "name": "54ded9b1bef4dffa997f324771f008ee.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e0\/b7\/90\/fc\/50\/54ded9b1bef4dffa997f324771f008ee.png"
+        },
+        {
+          "name": "5984bfd787b6ed34e9f9d07957b7ba69.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/41\/4b\/8e\/dd\/5984bfd787b6ed34e9f9d07957b7ba69.png"
+        },
+        {
+          "name": "51340d938d2599c457b8b2ca0dacd941.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/d9\/9d\/7f\/b2\/51340d938d2599c457b8b2ca0dacd941.png"
+        },
+        {
+          "name": "22830366244676ff3c5c635549c43304.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/84\/e9\/24\/83\/b8\/22830366244676ff3c5c635549c43304.png"
+        },
+        {
+          "name": "613c3b29e1af66e0564f195f7e7fa3b6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ce\/80\/a0\/c6\/cb\/613c3b29e1af66e0564f195f7e7fa3b6.png"
+        }
+      ]
+    }
+  }
+}
