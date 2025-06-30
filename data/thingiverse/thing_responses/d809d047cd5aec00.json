@@ -1,0 +1,538 @@
+{
+  "created_at": "2025-04-09T19:18:16.490683+00:00",
+  "elapsed": 0.187185,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc596fefbff95f-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:18:16 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 19:48:16 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw",
+      "_cfuvid": "Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw; _cfuvid=Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1090096?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1090096?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1090096,
+    "name": "Sense Glove",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1090096",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1090096",
+    "creator": {
+      "id": 53132,
+      "name": "Nick_Iacobbo",
+      "first_name": "Nickiacobbo.com",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Nick_Iacobbo",
+      "public_url": "https:\/\/www.thingiverse.com\/Nick_Iacobbo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/de\/b3\/c7\/82\/a3\/MHnCcaH39_IvIdzdcrpbv5bVX3FKmsZ2GdDl6GHek60w673-h882-no_thumb_medium.jpg",
+      "count_of_followers": 119,
+      "count_of_following": 3,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 5,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Providence R.I.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/0c\/29\/b9\/3b\/92\/backround_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-24T02:03:09+00:00",
+    "modified": "2015-10-24T02:03:09+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 921,
+    "is_liked": false,
+    "collect_count": 1824,
+    "is_collected": false,
+    "comment_count": 49,
+    "is_watched": false,
+    "default_image": {
+      "id": 2910703,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/7a\/a3\/09\/4a\/Nick_Iacobbo_Sense_Glove.jpg",
+      "name": "Nick_Iacobbo_Sense_Glove.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/a7\/6c\/3b\/78\/Nick_Iacobbo_Sense_Glove_display_small.jpg"
+        }
+      ],
+      "added": "2015-11-21T19:48:17+00:00"
+    },
+    "description": "https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU\r\nhttps:\/\/www.youtube.com\/watch?v=di3E9-ii3n8\r\n\r\nSense Glove is an exoskeleton glove designed to force the hand closed or open based on the users input. The glove is a rough prototype and mechanical layout for future better designed exo gloves.  My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible. This is a rough working base design that functions.    \r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU\">https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8\">https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8<\/a><\/p><p>Sense Glove is an exoskeleton glove designed to force the hand closed or open based on the users input. The glove is a rough prototype and mechanical layout for future better designed exo gloves.  My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible. This is a rough working base design that functions.    <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU\">https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8\">https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8<\/a><\/p><p>Sense Glove is an exoskeleton glove designed to force the hand closed or open based on the users input. The glove is a rough prototype and mechanical layout for future better designed exo gloves.  My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible. This is a rough working base design that functions.    <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>best<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;solid or close to it&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>You will have to scale the models down, right now I scaled it down by .7  and it fit pretty good I have thick fingers so you will need to print one of the \"pointer mid\" model a couple times to get a real good fit.  I also cut away the strap on the pointer base knuckle my fingers were again to big for the strap.  You will have to rotate all the models but there is a flat point on each .stl file and that was the way I had printed it myself successfully.  <\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Why and how I made this.<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;I originally wanted to make the sense glove for virtual reality where you could grab an object in 3d space and actually feel it.  For instance picking up a gun and squeezing the trigger and feeling the actual handle of the gun and the sensation of pulling a trigger.  To achieve something like this I started researching exo skeleton gloves.  I came across the German robotics company Festo and discovered this &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.festo.com\/group\/en\/cms\/10233.htm\"&gt;https:\/\/www.festo.com\/group\/en\/cms\/10233.htm&lt;\/a&gt;  So from the pics and videos I was able to figure out the overall mechanics and create my own version of the exo glove. The capabilities of the exo glove and all the things it could potentially do, especially for the E-nable community is something I would like to see blossom beyond me.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU\">https:\/\/www.youtube.com\/watch?v=Ud5CIE_q-XU<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8\">https:\/\/www.youtube.com\/watch?v=di3E9-ii3n8<\/a><\/p><p>Sense Glove is an exoskeleton glove designed to force the hand closed or open based on the users input. The glove is a rough prototype and mechanical layout for future better designed exo gloves.  My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible. This is a rough working base design that functions.    <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>best<\/p><\/div>\n",
+            "infill": "<div><p>solid or close to it<\/p><\/div>\n",
+            "notes": "<div><p>You will have to scale the models down, right now I scaled it down by .7  and it fit pretty good I have thick fingers so you will need to print one of the \"pointer mid\" model a couple times to get a real good fit.  I also cut away the strap on the pointer base knuckle my fingers were again to big for the strap.  You will have to rotate all the models but there is a flat point on each .stl file and that was the way I had printed it myself successfully.  <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Why and how I made this.",
+            "content": "<div><p>I originally wanted to make the sense glove for virtual reality where you could grab an object in 3d space and actually feel it.  For instance picking up a gun and squeezing the trigger and feeling the actual handle of the gun and the sensation of pulling a trigger.  To achieve something like this I started researching exo skeleton gloves.  I came across the German robotics company Festo and discovered this <a rel=\"ugc nofollow\" href=\"https:\/\/www.festo.com\/group\/en\/cms\/10233.htm\">https:\/\/www.festo.com\/group\/en\/cms\/10233.htm<\/a>  So from the pics and videos I was able to figure out the overall mechanics and create my own version of the exo glove. The capabilities of the exo glove and all the things it could potentially do, especially for the E-nable community is something I would like to see blossom beyond me.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1090096\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1090096\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1090096\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1090096\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1090096\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1090096\/tags",
+    "tags": [
+      {
+        "name": "3dprint",
+        "tag": "3dprint",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprint",
+        "count": 957,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprint\/things",
+        "absolute_url": "\/tag:3dprint"
+      },
+      {
+        "name": "3Dprinted",
+        "tag": "3dprinted",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprinted",
+        "count": 367,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprinted\/things",
+        "absolute_url": "\/tag:3Dprinted"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "badass",
+        "tag": "badass",
+        "url": "https:\/\/api.thingiverse.com\/tags\/badass",
+        "count": 65,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/badass\/things",
+        "absolute_url": "\/tag:badass"
+      },
+      {
+        "name": "biomech",
+        "tag": "biomech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/biomech",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/biomech\/things",
+        "absolute_url": "\/tag:biomech"
+      },
+      {
+        "name": "biomechanical",
+        "tag": "biomechanical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/biomechanical",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/biomechanical\/things",
+        "absolute_url": "\/tag:biomechanical"
+      },
+      {
+        "name": "biomedical",
+        "tag": "biomedical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/biomedical",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/biomedical\/things",
+        "absolute_url": "\/tag:biomedical"
+      },
+      {
+        "name": "e-nable",
+        "tag": "e-nable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+        "count": 233,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+        "absolute_url": "\/tag:e-nable"
+      },
+      {
+        "name": "exoglove",
+        "tag": "exoglove",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoglove",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoglove\/things",
+        "absolute_url": "\/tag:exoglove"
+      },
+      {
+        "name": "Exoskeleton",
+        "tag": "exoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton\/things",
+        "absolute_url": "\/tag:Exoskeleton"
+      },
+      {
+        "name": "maya",
+        "tag": "maya",
+        "url": "https:\/\/api.thingiverse.com\/tags\/maya",
+        "count": 139,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/maya\/things",
+        "absolute_url": "\/tag:maya"
+      },
+      {
+        "name": "nickiacobbo",
+        "tag": "nickiacobbo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/nickiacobbo",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/nickiacobbo\/things",
+        "absolute_url": "\/tag:nickiacobbo"
+      },
+      {
+        "name": "nickiacobbocom",
+        "tag": "nickiacobbocom",
+        "url": "https:\/\/api.thingiverse.com\/tags\/nickiacobbocom",
+        "count": 0,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/nickiacobbocom\/things",
+        "absolute_url": "\/tag:nickiacobbocom"
+      },
+      {
+        "name": "Oculus Rift",
+        "tag": "oculus_rift",
+        "url": "https:\/\/api.thingiverse.com\/tags\/oculus_rift",
+        "count": 511,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/oculus_rift\/things",
+        "absolute_url": "\/tag:Oculus_Rift"
+      },
+      {
+        "name": "senseglove",
+        "tag": "senseglove",
+        "url": "https:\/\/api.thingiverse.com\/tags\/senseglove",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/senseglove\/things",
+        "absolute_url": "\/tag:senseglove"
+      },
+      {
+        "name": "zbrush",
+        "tag": "zbrush",
+        "url": "https:\/\/api.thingiverse.com\/tags\/zbrush",
+        "count": 562,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/zbrush\/things",
+        "absolute_url": "\/tag:zbrush"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1090096\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 8344,
+    "view_count": 48747,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 22,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Index_Pistonconnectrod_NPI.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/36\/1b\/7d\/ee\/Index_Pistonconnectrod_NPI.stl"
+        },
+        {
+          "name": "Pinky_kunckle_plate_back_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/6b\/d2\/f6\/36\/Pinky_kunckle_plate_back_npi.stl"
+        },
+        {
+          "name": "Pointer_mid_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/25\/69\/91\/f3\/Pointer_mid_npi.stl"
+        },
+        {
+          "name": "Pinky_piston_group_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/06\/15\/dd\/c2\/Pinky_piston_group_npi.stl"
+        },
+        {
+          "name": "Pointer_piston_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/87\/8d\/1d\/2f\/Pointer_piston_npi.stl"
+        },
+        {
+          "name": "Knuckle_top_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/e7\/58\/47\/a6\/Knuckle_top_npi.stl"
+        },
+        {
+          "name": "Pointer_tip_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/6b\/94\/83\/e0\/Pointer_tip_npi.stl"
+        },
+        {
+          "name": "Full_finger_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/c4\/a7\/78\/b1\/Full_finger_npi.stl"
+        },
+        {
+          "name": "Index_Base_Plate_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/7f\/1d\/14\/19\/Index_Base_Plate_npi.stl"
+        },
+        {
+          "name": "Pinky_knuckle_plus_hiolders_psiton_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/bb\/88\/e4\/1c\/Pinky_knuckle_plus_hiolders_psiton_npi.stl"
+        },
+        {
+          "name": "Index_base_plate_back_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/16\/49\/df\/01\/Index_base_plate_back_npi.stl"
+        },
+        {
+          "name": "Pointer_base_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/ee\/d9\/26\/88\/Pointer_base_npi.stl"
+        },
+        {
+          "name": "Pinky_base_plate_npi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/c3\/8a\/34\/ba\/Pinky_base_plate_npi.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Nick_Iacobbo_Sense_Glove.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/7a\/a3\/09\/4a\/Nick_Iacobbo_Sense_Glove.jpg"
+        },
+        {
+          "name": "nickiacobbo_senseglove_24.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/24\/74\/d5\/c4\/nickiacobbo_senseglove_24.jpg"
+        },
+        {
+          "name": "nickiacobbo_senseglove_23.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/b8\/c5\/63\/da\/nickiacobbo_senseglove_23.jpg"
+        },
+        {
+          "name": "nickiacobbosenseglovehand.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/14\/ad\/67\/ab\/nickiacobbosenseglovehand.png"
+        },
+        {
+          "name": "sense_glove_2_NickIacobbo.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/ba\/4a\/68\/88\/sense_glove_2_NickIacobbo.JPG"
+        },
+        {
+          "name": "sense_glove_3_NickIacobbo.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/77\/9d\/82\/1a\/sense_glove_3_NickIacobbo.JPG"
+        },
+        {
+          "name": "sense_glove_5_NickIacobbo.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/af\/8b\/dc\/b1\/sense_glove_5_NickIacobbo.JPG"
+        },
+        {
+          "name": "sense_glove_1_NickIacobbo.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/af\/c9\/0b\/89\/sense_glove_1_NickIacobbo.JPG"
+        },
+        {
+          "name": "sense_glove_4_NickIacobbo.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/a5\/05\/8e\/3d\/sense_glove_4_NickIacobbo.JPG"
+        },
+        {
+          "name": "Index_Pistonconnectrod_NPI.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/fc\/eb\/96\/17\/Index_Pistonconnectrod_NPI.png"
+        },
+        {
+          "name": "Pointer_mid_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7c\/72\/0b\/3d\/d2\/Pointer_mid_npi.png"
+        },
+        {
+          "name": "Full_finger_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/57\/5e\/30\/97\/7c\/Full_finger_npi.png"
+        },
+        {
+          "name": "Pinky_knuckle_plus_hiolders_psiton_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/16\/15\/fb\/c1\/Pinky_knuckle_plus_hiolders_psiton_npi.png"
+        },
+        {
+          "name": "Index_Base_Plate_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/20\/33\/f6\/5a\/ff\/Index_Base_Plate_npi.png"
+        },
+        {
+          "name": "Pointer_tip_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/d9\/c6\/fb\/65\/Pointer_tip_npi.png"
+        },
+        {
+          "name": "Index_base_plate_back_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/07\/45\/76\/ba\/6e\/Index_base_plate_back_npi.png"
+        },
+        {
+          "name": "Pinky_base_plate_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/6c\/ea\/a5\/84\/Pinky_base_plate_npi.png"
+        },
+        {
+          "name": "Pointer_base_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/66\/55\/5e\/24\/07\/Pointer_base_npi.png"
+        },
+        {
+          "name": "Knuckle_top_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/3d\/cd\/1d\/0d\/Knuckle_top_npi.png"
+        },
+        {
+          "name": "Pointer_piston_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7c\/c4\/35\/93\/b2\/Pointer_piston_npi.png"
+        },
+        {
+          "name": "Pinky_kunckle_plate_back_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bd\/16\/50\/0e\/f9\/Pinky_kunckle_plate_back_npi.png"
+        },
+        {
+          "name": "Pinky_piston_group_npi.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/11\/dd\/c4\/cb\/Pinky_piston_group_npi.png"
+        }
+      ]
+    }
+  }
+}

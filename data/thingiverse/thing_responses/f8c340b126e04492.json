@@ -1,0 +1,433 @@
+{
+  "created_at": "2025-04-14T03:39:36.530634+00:00",
+  "elapsed": 0.210528,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d500b22eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:36 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:36 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4678779?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4678779?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4678779,
+    "name": "Joystick for wheelchair",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/cd\/8a\/54\/42\/ac\/large_display_20201126_144702.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4678779",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4678779",
+    "creator": {
+      "id": 3644089,
+      "name": "HumanlabSP",
+      "first_name": "Humanlab",
+      "last_name": "Saint-Pierre",
+      "url": "https:\/\/api.thingiverse.com\/users\/HumanlabSP",
+      "public_url": "https:\/\/www.thingiverse.com\/HumanlabSP",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/33\/7c\/ee\/9d\/f1\/28efc667-a276-42ad-a9d7-3bae9e9b315f.png",
+      "count_of_followers": 128,
+      "count_of_following": 6,
+      "count_of_designs": 54,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "3 Rue Ginies Mares, 34250 Palavas-les-Flots",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/87\/d4\/9f\/c2\/de\/98306574_588974908388965_4319615353102532608_o.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-12-08T08:55:42+00:00",
+    "modified": "2020-12-08T08:55:42+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 47,
+    "is_liked": false,
+    "collect_count": 84,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 14405086,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/ac\/c9\/39\/7b\/20201126_144702.jpg",
+      "name": "20201126_144702.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/bd\/01\/77\/47\/large_thumb_20201126_144702.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/40\/18\/4e\/08\/medium_thumb_20201126_144702.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/ab\/18\/22\/28\/small_thumb_20201126_144702.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/a3\/ce\/e1\/af\/tiny_thumb_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/9b\/5b\/a3\/90\/featured_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/9d\/b2\/5c\/3d\/card_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/cb\/1a\/d3\/9f\/large_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/5b\/29\/5d\/aa\/medium_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/f5\/06\/4a\/3b\/small_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/8f\/ad\/b7\/82\/birdwing_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/d1\/5c\/74\/b2\/tiny_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/99\/9f\/6d\/fe\/tinycard_preview_20201126_144702.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/8a\/54\/42\/ac\/large_display_20201126_144702.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/9e\/ff\/10\/c5\/medium_display_20201126_144702.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/cd\/08\/57\/1d\/small_display_20201126_144702.jpg"
+        }
+      ],
+      "added": "2020-12-08T08:55:39+00:00"
+    },
+    "description": "A joystick designed by and for a user of an electric wheelchair with tetraplegia.\r\n\r\nJoystick con\u00e7u par et pour un utilisateur de fauteuil roulant \u00e9lectrique ayant une t\u00e9trapl\u00e9gie.\r\n\r\nThis joystick was designed by Vincent Pageot for his R-net wheelchair control system with the technical help of Thomas Coste and Christine Azevedo (INRIA).",
+    "instructions": "",
+    "description_html": "<div><p>A joystick designed by and for a user of an electric wheelchair with tetraplegia.<\/p><p>Joystick con&ccedil;u par et pour un utilisateur de fauteuil roulant &eacute;lectrique ayant une t&eacute;trapl&eacute;gie.<\/p><p>This joystick was designed by Vincent Pageot for his R-net wheelchair control system with the technical help of Thomas Coste and Christine Azevedo (INRIA).<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A joystick designed by and for a user of an electric wheelchair with tetraplegia.<\/p><p>Joystick con&ccedil;u par et pour un utilisateur de fauteuil roulant &eacute;lectrique ayant une t&eacute;trapl&eacute;gie.<\/p><p>This joystick was designed by Vincent Pageot for his R-net wheelchair control system with the technical help of Thomas Coste and Christine Azevedo (INRIA).<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Verbatim PETG<br>Black<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A joystick designed by and for a user of an electric wheelchair with tetraplegia.<\/p><p>Joystick con&ccedil;u par et pour un utilisateur de fauteuil roulant &eacute;lectrique ayant une t&eacute;trapl&eacute;gie.<\/p><p>This joystick was designed by Vincent Pageot for his R-net wheelchair control system with the technical help of Thomas Coste and Christine Azevedo (INRIA).<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>30<\/p><\/div>\n",
+            "filament_brand": "<div><p>Verbatim<\/p><\/div>\n",
+            "filament_color": "<div><p>Black<\/p><\/div>\n",
+            "filament_material": "<div><p>PETG<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4678779\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4678779\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4678779\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4678779\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4678779\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4678779\/tags",
+    "tags": [
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "disabilites",
+        "tag": "disabilites",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabilites",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabilites\/things",
+        "absolute_url": "\/tag:disabilites"
+      },
+      {
+        "name": "quadriplegic",
+        "tag": "quadriplegic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/quadriplegic",
+        "count": 17,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/quadriplegic\/things",
+        "absolute_url": "\/tag:quadriplegic"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      },
+      {
+        "name": "wheelchair joystick",
+        "tag": "wheelchair_joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick\/things",
+        "absolute_url": "\/tag:wheelchair_joystick"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4678779\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 717,
+    "view_count": 1856,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 2,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Joystick_Vincent_v1.2.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/16\/7f\/1d\/31\/Joystick_Vincent_v1.2.0.stl"
+        },
+        {
+          "name": "Joystick_Vincent_v1.2.0.FCStd",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/e6\/5f\/18\/18\/Joystick_Vincent_v1.2.0.FCStd"
+        }
+      ],
+      "images": [
+        {
+          "name": "20201126_144702.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/ac\/c9\/39\/7b\/20201126_144702.jpg"
+        },
+        {
+          "name": "20201126_144655.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/bd\/16\/c4\/92\/20201126_144655.jpg"
+        },
+        {
+          "name": "20201126_144651.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/97\/57\/52\/f2\/20201126_144651.jpg"
+        },
+        {
+          "name": "20201126_145151.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/c1\/3d\/e6\/ac\/20201126_145151.jpg"
+        }
+      ]
+    }
+  }
+}

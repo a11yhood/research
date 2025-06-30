@@ -1,0 +1,596 @@
+{
+  "created_at": "2025-04-10T03:34:56.464536+00:00",
+  "elapsed": 0.154017,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df30f9fb572a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:56 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:56 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4873369?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4873369?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4873369,
+    "name": "Joystick \/ Push Buttons \/ Pulsador; Version 02",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/3f\/69\/1c\/4a\/cd\/large_display_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4873369",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4873369",
+    "creator": {
+      "id": 4356443,
+      "name": "EURODDIP-e",
+      "first_name": "EURODDIP-E",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/EURODDIP-e",
+      "public_url": "https:\/\/www.thingiverse.com\/EURODDIP-e",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/a2\/4f\/04\/20\/06\/LogoEURODDIP-e.png",
+      "count_of_followers": 3,
+      "count_of_following": 0,
+      "count_of_designs": 2,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Burgos",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/8e\/bd\/a0\/f7\/af\/LogoEURODDIP-e.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-05-30T10:01:07+00:00",
+    "modified": "2021-05-30T10:01:07+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 2,
+    "is_liked": false,
+    "collect_count": 4,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 15550468,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/74\/61\/a9\/b8\/JoystickCompletoABS_CompleteJoystickABS_V2p.jpg",
+      "name": "JoystickCompletoABS_CompleteJoystickABS_V2p.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/6b\/6c\/08\/e4\/large_thumb_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/58\/fe\/b7\/medium_thumb_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/46\/80\/13\/fb\/small_thumb_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/48\/2c\/fe\/a8\/tiny_thumb_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/0a\/9d\/ed\/9c\/featured_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/62\/25\/fa\/b3\/card_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/29\/e6\/0a\/72\/large_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/51\/07\/94\/c5\/medium_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/66\/59\/06\/9b\/small_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/77\/5d\/fa\/e1\/birdwing_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/29\/6c\/8a\/cc\/tiny_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/a8\/1a\/20\/ca\/tinycard_preview_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/69\/1c\/4a\/cd\/large_display_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/ef\/e3\/61\/32\/medium_display_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/99\/41\/ff\/dd\/small_display_JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        }
+      ],
+      "added": "2021-06-03T18:07:09+00:00"
+    },
+    "description": "Design by \/ Dise\u00f1ado por: Omar Gonz\u00e1lez Fern\u00e1ndez and Diego Arenal Rodr\u00edguez (Universidad de Burgos)\r\n\r\n[English] A Joystick \/ Push Buttons device that mimics a computer's arrow keys and a mouse click. It is designed to help people with limited mobility to use a computer or tablet. It is based on Version 01 (https:\/\/www.thingiverse.com\/thing:4833383), but with some improvements.\r\nThe upper part can be changed to personalize according to the needs. Several upper parts are given in the thing-files. Choose the best part for your needs to print, or design a new personalized upper part.\r\nFurthermore, you can choose between a Cover with Short Rails for a shorter displacement towards the microswitches, or a Cover with Long Rails for a longer displacement towards the microswitches.\r\n\r\nShortly, an instruction manual and video to assemble the device will become available.\r\n\r\n[Espa\u00f1ol] Un Joystick \/ Pulsador que imita las teclas de flechas de un ordenador y un clic del rat\u00f3n. Est\u00e1 dise\u00f1ado para ayudar a personas con movilidad reducida a utilizar un ordenador o tablet. Est\u00e1 basado en la Versi\u00f3n 01 (https:\/\/www.thingiverse.com\/thing:4833383), pero con algunas mejoras.\r\nLa parte superior se puede personalizar seg\u00fan las necesidades. Elige la parte que m\u00e1s conviene para sus necesidades para imprimir. Alternativamente, dise\u00f1a una nueva parte superior personalizado.\r\nAdicionalmente, se puede elegir imprimir la Cubierta con un Recorrido Corto para un recorrido m\u00e1s corto hac\u00eda los micro-interruptores de tecla, o una Cubierta con un Recorrido m\u00e1s largo.\r\n\r\nEn breve, estar\u00e1 disponible un manual y un video de instrucciones para el montaje del dispositivo.",
+    "instructions": "",
+    "description_html": "<div><p>Design by \/ Dise&ntilde;ado por: Omar Gonz&aacute;lez Fern&aacute;ndez and Diego Arenal Rodr&iacute;guez (Universidad de Burgos)<\/p><p>[English] A Joystick \/ Push Buttons device that mimics a computer's arrow keys and a mouse click. It is designed to help people with limited mobility to use a computer or tablet. It is based on Version 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), but with some improvements.<br>The upper part can be changed to personalize according to the needs. Several upper parts are given in the thing-files. Choose the best part for your needs to print, or design a new personalized upper part.<br>Furthermore, you can choose between a Cover with Short Rails for a shorter displacement towards the microswitches, or a Cover with Long Rails for a longer displacement towards the microswitches.<\/p><p>Shortly, an instruction manual and video to assemble the device will become available.<\/p><p>[Espa&ntilde;ol] Un Joystick \/ Pulsador que imita las teclas de flechas de un ordenador y un clic del rat&oacute;n. Est&aacute; dise&ntilde;ado para ayudar a personas con movilidad reducida a utilizar un ordenador o tablet. Est&aacute; basado en la Versi&oacute;n 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), pero con algunas mejoras.<br>La parte superior se puede personalizar seg&uacute;n las necesidades. Elige la parte que m&aacute;s conviene para sus necesidades para imprimir. Alternativamente, dise&ntilde;a una nueva parte superior personalizado.<br>Adicionalmente, se puede elegir imprimir la Cubierta con un Recorrido Corto para un recorrido m&aacute;s corto hac&iacute;a los micro-interruptores de tecla, o una Cubierta con un Recorrido m&aacute;s largo.<\/p><p>En breve, estar&aacute; disponible un manual y un video de instrucciones para el montaje del dispositivo.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Design by \/ Dise&ntilde;ado por: Omar Gonz&aacute;lez Fern&aacute;ndez and Diego Arenal Rodr&iacute;guez (Universidad de Burgos)<\/p><p>[English] A Joystick \/ Push Buttons device that mimics a computer's arrow keys and a mouse click. It is designed to help people with limited mobility to use a computer or tablet. It is based on Version 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), but with some improvements.<br>The upper part can be changed to personalize according to the needs. Several upper parts are given in the thing-files. Choose the best part for your needs to print, or design a new personalized upper part.<br>Furthermore, you can choose between a Cover with Short Rails for a shorter displacement towards the microswitches, or a Cover with Long Rails for a longer displacement towards the microswitches.<\/p><p>Shortly, an instruction manual and video to assemble the device will become available.<\/p><p>[Espa&ntilde;ol] Un Joystick \/ Pulsador que imita las teclas de flechas de un ordenador y un clic del rat&oacute;n. Est&aacute; dise&ntilde;ado para ayudar a personas con movilidad reducida a utilizar un ordenador o tablet. Est&aacute; basado en la Versi&oacute;n 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), pero con algunas mejoras.<br>La parte superior se puede personalizar seg&uacute;n las necesidades. Elige la parte que m&aacute;s conviene para sus necesidades para imprimir. Alternativamente, dise&ntilde;a una nueva parte superior personalizado.<br>Adicionalmente, se puede elegir imprimir la Cubierta con un Recorrido Corto para un recorrido m&aacute;s corto hac&iacute;a los micro-interruptores de tecla, o una Cubierta con un Recorrido m&aacute;s largo.<\/p><p>En breve, estar&aacute; disponible un manual y un video de instrucciones para el montaje del dispositivo.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>BCN3D<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>BCN3D SIGMA<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20<\/p><\/div>                                                        <strong>Filament:<\/strong> SmartMaterials3D ABS                    Blue                                        <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>[English]<br>Print parameters:<br>Layer height: 0.2 mm<br>Printing speed: 40 mm\/s<br>Bed temperature: 100&ordm;C<br>Nozzle temperature: 245&ordm;C<br>Infill %: 20%<\/p><p>[Espa&ntilde;ol]<br>Par&aacute;metros de Impresi&oacute;n:<br>Espesor de capa: 0,2 mm<br>Velocidad de impresi&oacute;n: 40 mm\/s<br>Temperatura cama: 100&ordm;C<br>Temperatura extrusor: 245&ordm;C<br>Relleno: 20%<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Bill of Materials for assembly \/ Lista de Materiales para montaje<\/strong><\/p>                <div><p>[English]<br>Bill of Materials:<br>8 units     -   Microswitch<br>5 units     -   3.5mm mini jack sockets (stereo)<br>5 meters    -   Multicore cable, 2 cores, max. ext. diameter 4mm<br>4 units     -   Screws, M3 x 14mm, connection Base Plate - Cover<br>4 units     -   Screws, M3 x 12mm, connection Cover - Sliding Rails<br>1 unit      -   Screw, M3 x 25mm or M3 x 30mm, connection Base Joystick - Superior Joystick<br>4 units     -   Non-slip stickers<br>1 unit      -   Glue<\/p><p>Necessary tools:<br>1 unit      -   Soldering iron + tin<br>1 unit      -   Scissors<br>1 unit      -   Pliers<br>1 unit      -   Screwdriver<\/p><p>[Espa&ntilde;ol]<br>Lista de materiales<br>8 unidades  -   Micro interruptor de tecla<br>5 unidades  -   Jack Macho Stereo 3.5mm<br>5 metros    -   Cable Multiconductor, 2 n&uacute;cleos, M&aacute;x 4mm Di&aacute;metro Exterior<br>4 unidades  -   Tornillos tirafondos M3 x 16mm, uni&oacute;n Placa Base - Cubierta<br>4 unidades  -   Tornillos tirafondos M3 x 12mm, uni&oacute;n Cubierta - Carriles<br>1 unidad    -   Tornillo tirafondo M3 x 25mm o M3 x 30mm, uni&oacute;n Base Joystick - Joystick Superior<br>4 unidades  -   Gomas adhesivas antideslizantes<br>1 unidad    -   Pegamento<\/p><p>Herramientas necesarias:<br>1 unidad    -   Soldador de esta&ntilde;o + esta&ntilde;o<br>1 unidad    -   Tijeras<br>1 unidad    -   Alicates<br>1 unidad    -   Destornillador<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Design by \/ Dise&ntilde;ado por: Omar Gonz&aacute;lez Fern&aacute;ndez and Diego Arenal Rodr&iacute;guez (Universidad de Burgos)<\/p><p>[English] A Joystick \/ Push Buttons device that mimics a computer's arrow keys and a mouse click. It is designed to help people with limited mobility to use a computer or tablet. It is based on Version 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), but with some improvements.<br>The upper part can be changed to personalize according to the needs. Several upper parts are given in the thing-files. Choose the best part for your needs to print, or design a new personalized upper part.<br>Furthermore, you can choose between a Cover with Short Rails for a shorter displacement towards the microswitches, or a Cover with Long Rails for a longer displacement towards the microswitches.<\/p><p>Shortly, an instruction manual and video to assemble the device will become available.<\/p><p>[Espa&ntilde;ol] Un Joystick \/ Pulsador que imita las teclas de flechas de un ordenador y un clic del rat&oacute;n. Est&aacute; dise&ntilde;ado para ayudar a personas con movilidad reducida a utilizar un ordenador o tablet. Est&aacute; basado en la Versi&oacute;n 01 (<a rel=\"ugc nofollow\" href=\"\/thing:4833383\">https:\/\/www.thingiverse.com\/thing:4833383<\/a>), pero con algunas mejoras.<br>La parte superior se puede personalizar seg&uacute;n las necesidades. Elige la parte que m&aacute;s conviene para sus necesidades para imprimir. Alternativamente, dise&ntilde;a una nueva parte superior personalizado.<br>Adicionalmente, se puede elegir imprimir la Cubierta con un Recorrido Corto para un recorrido m&aacute;s corto hac&iacute;a los micro-interruptores de tecla, o una Cubierta con un Recorrido m&aacute;s largo.<\/p><p>En breve, estar&aacute; disponible un manual y un video de instrucciones para el montaje del dispositivo.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>BCN3D<\/p><\/div>\n",
+            "printer": "<div><p>BCN3D SIGMA<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2mm<\/p><\/div>\n",
+            "infill": "<div><p>20<\/p><\/div>\n",
+            "filament_brand": "<div><p>SmartMaterials3D<\/p><\/div>\n",
+            "filament_color": "<div><p>Blue<\/p><\/div>\n",
+            "filament_material": "<div><p>ABS<\/p><\/div>\n",
+            "notes": "<div><p>[English]<br>Print parameters:<br>Layer height: 0.2 mm<br>Printing speed: 40 mm\/s<br>Bed temperature: 100&ordm;C<br>Nozzle temperature: 245&ordm;C<br>Infill %: 20%<\/p><p>[Espa&ntilde;ol]<br>Par&aacute;metros de Impresi&oacute;n:<br>Espesor de capa: 0,2 mm<br>Velocidad de impresi&oacute;n: 40 mm\/s<br>Temperatura cama: 100&ordm;C<br>Temperatura extrusor: 245&ordm;C<br>Relleno: 20%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Bill of Materials for assembly \/ Lista de Materiales para montaje",
+            "content": "<div><p>[English]<br>Bill of Materials:<br>8 units     -   Microswitch<br>5 units     -   3.5mm mini jack sockets (stereo)<br>5 meters    -   Multicore cable, 2 cores, max. ext. diameter 4mm<br>4 units     -   Screws, M3 x 14mm, connection Base Plate - Cover<br>4 units     -   Screws, M3 x 12mm, connection Cover - Sliding Rails<br>1 unit      -   Screw, M3 x 25mm or M3 x 30mm, connection Base Joystick - Superior Joystick<br>4 units     -   Non-slip stickers<br>1 unit      -   Glue<\/p><p>Necessary tools:<br>1 unit      -   Soldering iron + tin<br>1 unit      -   Scissors<br>1 unit      -   Pliers<br>1 unit      -   Screwdriver<\/p><p>[Espa&ntilde;ol]<br>Lista de materiales<br>8 unidades  -   Micro interruptor de tecla<br>5 unidades  -   Jack Macho Stereo 3.5mm<br>5 metros    -   Cable Multiconductor, 2 n&uacute;cleos, M&aacute;x 4mm Di&aacute;metro Exterior<br>4 unidades  -   Tornillos tirafondos M3 x 16mm, uni&oacute;n Placa Base - Cubierta<br>4 unidades  -   Tornillos tirafondos M3 x 12mm, uni&oacute;n Cubierta - Carriles<br>1 unidad    -   Tornillo tirafondo M3 x 25mm o M3 x 30mm, uni&oacute;n Base Joystick - Joystick Superior<br>4 unidades  -   Gomas adhesivas antideslizantes<br>1 unidad    -   Pegamento<\/p><p>Herramientas necesarias:<br>1 unidad    -   Soldador de esta&ntilde;o + esta&ntilde;o<br>1 unidad    -   Tijeras<br>1 unidad    -   Alicates<br>1 unidad    -   Destornillador<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4873369\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4873369\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4873369\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4873369\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4873369\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4873369\/tags",
+    "tags": [
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1359,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "producto apoyo",
+        "tag": "producto_apoyo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo\/things",
+        "absolute_url": "\/tag:producto_apoyo"
+      },
+      {
+        "name": "pulsador",
+        "tag": "pulsador",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pulsador",
+        "count": 32,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pulsador\/things",
+        "absolute_url": "\/tag:pulsador"
+      },
+      {
+        "name": "pushbutton",
+        "tag": "pushbutton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pushbutton",
+        "count": 393,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pushbutton\/things",
+        "absolute_url": "\/tag:pushbutton"
+      },
+      {
+        "name": "TecnologaAsistencial",
+        "tag": "tecnologaasistencial",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tecnologaasistencial",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tecnologaasistencial\/things",
+        "absolute_url": "\/tag:TecnologaAsistencial"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4873369\/categories",
+    "file_count": 12,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 304,
+    "view_count": 227,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "PlacaCentral_CentralPlate_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/9b\/bb\/1d\/e2\/PlacaCentral_CentralPlate_V2.STL"
+        },
+        {
+          "name": "EjeJoystick11_JoystickAxis11_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/bd\/c8\/45\/e3\/EjeJoystick11_JoystickAxis11_V2.STL"
+        },
+        {
+          "name": "JoystickGenerico_GenericJoystick_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/36\/49\/2c\/b0\/JoystickGenerico_GenericJoystick_V2.stl"
+        },
+        {
+          "name": "JoystickBase_BaseJoystick_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/cd\/17\/78\/ed\/JoystickBase_BaseJoystick_V2.stl"
+        },
+        {
+          "name": "PlacaBase_BasePlate_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/9c\/81\/b1\/c8\/PlacaBase_BasePlate_V2.STL"
+        },
+        {
+          "name": "Carriles_SlidingRails_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/44\/3e\/f3\/ec\/Carriles_SlidingRails_V2.STL"
+        },
+        {
+          "name": "BolaJoystick_JoystickBall_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/73\/36\/78\/1a\/BolaJoystick_JoystickBall_V2.STL"
+        },
+        {
+          "name": "SuplementoHuella03movil_SupplementFingerprint03mobile_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/7e\/0e\/b2\/12\/SuplementoHuella03movil_SupplementFingerprint03mobile_V2.stl"
+        },
+        {
+          "name": "CubiertaCarrilesCortos_CoverShortRails_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/eb\/58\/e5\/f1\/CubiertaCarrilesCortos_CoverShortRails_V2.STL"
+        },
+        {
+          "name": "SuplementoHuella01_SupplementFingerprint01_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/67\/53\/e6\/23\/SuplementoHuella01_SupplementFingerprint01_V2.stl"
+        },
+        {
+          "name": "SuplementoHuella02dedal_SupplementFingerprint02thimble_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/bd\/ef\/8a\/5e\/SuplementoHuella02dedal_SupplementFingerprint02thimble_V2.stl"
+        },
+        {
+          "name": "CubiertaCarrilesLargos_CoverLongRails_V2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/c8\/bc\/3f\/b8\/CubiertaCarrilesLargos_CoverLongRails_V2.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "JoystickCompletoABS_CompleteJoystickABS_V2p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/74\/61\/a9\/b8\/JoystickCompletoABS_CompleteJoystickABS_V2p.jpg"
+        },
+        {
+          "name": "JoystickCompletoABS01p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/db\/1f\/1b\/24\/JoystickCompletoABS01p.jpg"
+        },
+        {
+          "name": "CuerpoSuperiorABS01p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/6b\/19\/3c\/b5\/CuerpoSuperiorABS01p.jpg"
+        },
+        {
+          "name": "TapaInferiorABS01p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/1d\/f5\/c3\/be\/TapaInferiorABS01p.jpg"
+        },
+        {
+          "name": "CarrilesABS02p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/83\/8e\/fc\/29\/CarrilesABS02p.jpg"
+        },
+        {
+          "name": "JoystickInferiorABS01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/8c\/9b\/fd\/8d\/JoystickInferiorABS01.jpg"
+        },
+        {
+          "name": "JoystickGenericoSuperiorABS02p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/31\/ed\/92\/23\/JoystickGenericoSuperiorABS02p.jpg"
+        },
+        {
+          "name": "PlacaABS01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/c1\/a1\/37\/6f\/PlacaABS01.jpg"
+        },
+        {
+          "name": "JoystickCompletoResina_CompleteJoystickResin_v2p.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/e6\/04\/96\/72\/JoystickCompletoResina_CompleteJoystickResin_v2p.jpg"
+        },
+        {
+          "name": "SuplementoHuella01_SupplementFingerprint01_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/07\/22\/0b\/a6\/SuplementoHuella01_SupplementFingerprint01_V2.png"
+        },
+        {
+          "name": "CubiertaCarrilesLargos_CoverLongRails_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/18\/06\/bc\/77\/CubiertaCarrilesLargos_CoverLongRails_V2.png"
+        },
+        {
+          "name": "CubiertaCarrilesCortos_CoverShortRails_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/b7\/f8\/0c\/46\/CubiertaCarrilesCortos_CoverShortRails_V2.png"
+        },
+        {
+          "name": "SuplementoHuella02dedal_SupplementFingerprint02thimble_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/58\/86\/98\/37\/SuplementoHuella02dedal_SupplementFingerprint02thimble_V2.png"
+        },
+        {
+          "name": "SuplementoHuella03movil_SupplementFingerprint03mobile_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/fa\/1f\/05\/78\/SuplementoHuella03movil_SupplementFingerprint03mobile_V2.png"
+        },
+        {
+          "name": "JoystickGenerico_GenericJoystick_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/f3\/f2\/85\/9a\/JoystickGenerico_GenericJoystick_V2.png"
+        },
+        {
+          "name": "EjeJoystick11_JoystickAxis11_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/3d\/61\/01\/34\/EjeJoystick11_JoystickAxis11_V2.png"
+        },
+        {
+          "name": "BolaJoystick_JoystickBall_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/65\/55\/3e\/4e\/BolaJoystick_JoystickBall_V2.png"
+        },
+        {
+          "name": "PlacaCentral_CentralPlate_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/3a\/96\/49\/d6\/PlacaCentral_CentralPlate_V2.png"
+        },
+        {
+          "name": "Carriles_SlidingRails_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/c9\/2b\/ab\/65\/Carriles_SlidingRails_V2.png"
+        },
+        {
+          "name": "JoystickBase_BaseJoystick_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/f6\/ae\/6a\/7c\/JoystickBase_BaseJoystick_V2.png"
+        },
+        {
+          "name": "PlacaBase_BasePlate_V2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/c6\/89\/02\/12\/PlacaBase_BasePlate_V2.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "created_at": "2025-04-14T03:39:35.676315+00:00",
+  "elapsed": 0.216233,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d4aa88deb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:35 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:35 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/36921?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/36921?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 36921,
+    "name": "Braille Writer ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/73\/e7\/c4\/57\/f9\/braille_4_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/36921",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:36921",
+    "creator": {
+      "id": 33086,
+      "name": "nischi",
+      "first_name": "Alexander",
+      "last_name": "Nischelwitzer",
+      "url": "https:\/\/api.thingiverse.com\/users\/nischi",
+      "public_url": "https:\/\/www.thingiverse.com\/nischi",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0c\/c1\/df\/65\/e6\/face2_1024_thumb_medium.jpg",
+      "count_of_followers": 177,
+      "count_of_following": 25,
+      "count_of_designs": 280,
+      "collection_count": 38,
+      "make_count": 10,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Graz, Austria",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c2\/61\/96\/c9\/79\/nis_account_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2012-12-06T20:04:50+00:00",
+    "modified": "2012-12-06T20:04:50+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 39,
+    "is_liked": false,
+    "collect_count": 90,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 205607,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/ef\/cd\/6a\/dc\/screenshot.jpg",
+      "name": "screenshot.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot_display_small.jpg"
+        }
+      ],
+      "added": "2012-12-06T20:50:05+00:00"
+    },
+    "description": "Braille Writer for openSCAD\r\ncorrected the \"length to len\" error",
+    "instructions": "Braille Writer \r\n\r\nEnter your text and generate your Braille Sign\r\nI have only corrected the old version because there was a \"length\" error.",
+    "description_html": "<div><p>Braille Writer for openSCAD<br>corrected the \"length to len\" error<\/p><\/div>\n",
+    "instructions_html": "<div><p>Braille Writer <\/p><p>Enter your text and generate your Braille Sign<br>I have only corrected the old version because there was a \"length\" error.<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Braille Writer for openSCAD<br>corrected the \"length to len\" error<\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>Braille Writer <\/p><p>Enter your text and generate your Braille Sign<br>I have only corrected the old version because there was a \"length\" error.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Braille Writer for openSCAD<br>corrected the \"length to len\" error<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>Braille Writer <\/p><p>Enter your text and generate your Braille Sign<br>I have only corrected the old version because there was a \"length\" error.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/36921\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/36921\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/36921\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/36921\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/36921\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/36921\/tags",
+    "tags": [
+      {
+        "name": "3D",
+        "tag": "3d",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d",
+        "count": 7992,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d\/things",
+        "absolute_url": "\/tag:3D"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 512,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "openscand",
+        "tag": "openscand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openscand",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openscand\/things",
+        "absolute_url": "\/tag:openscand"
+      },
+      {
+        "name": "scad",
+        "tag": "scad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/scad",
+        "count": 847,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/scad\/things",
+        "absolute_url": "\/tag:scad"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/36921\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1703,
+    "view_count": 5727,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 5,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 8000,
+        "name": "Braille Writer",
+        "url": "https:\/\/api.thingiverse.com\/things\/8000",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:8000",
+        "created_at": "2011-04-24T13:16:17+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ed\/28\/51\/c7\/8b\/thingiverseV2_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/ed\/28\/51\/c7\/8b\/thingiverseV2_preview_card.jpg",
+        "creator": {
+          "id": 10152,
+          "name": "polymaker",
+          "first_name": "Brad",
+          "last_name": "Pitcher",
+          "url": "https:\/\/api.thingiverse.com\/users\/polymaker",
+          "public_url": "https:\/\/www.thingiverse.com\/polymaker",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9f\/16\/8e\/0d\/45\/brad_thumb_medium.jpg",
+          "count_of_followers": 95,
+          "count_of_following": 9,
+          "count_of_designs": 55,
+          "collection_count": 12,
+          "make_count": 29,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Nomadic, USA & Mexico",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/df\/d2\/4d\/fc\/d0\/pint-of-beer_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 1,
+        "make_count": 0,
+        "like_count": 75,
+        "tags": [
+          {
+            "name": "accessibility",
+            "tag": "accessibility",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+            "count": 568,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+            "absolute_url": "\/tag:accessibility"
+          },
+          {
+            "name": "blind",
+            "tag": "blind",
+            "url": "https:\/\/api.thingiverse.com\/tags\/blind",
+            "count": 497,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/blind\/things",
+            "absolute_url": "\/tag:blind"
+          },
+          {
+            "name": "braille",
+            "tag": "braille",
+            "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+            "count": 512,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+            "absolute_url": "\/tag:braille"
+          },
+          {
+            "name": "customizer",
+            "tag": "customizer",
+            "url": "https:\/\/api.thingiverse.com\/tags\/customizer",
+            "count": 7152,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/customizer\/things",
+            "absolute_url": "\/tag:customizer"
+          },
+          {
+            "name": "openscad",
+            "tag": "openscad",
+            "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+            "count": 15337,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+            "absolute_url": "\/tag:openscad"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 161,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "braille_nischi_len_v2.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/4c\/e0\/17\/e5\/braille_nischi_len_v2.scad"
+        },
+        {
+          "name": "braille_nischi_len_v4.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/de\/73\/04\/bd\/braille_nischi_len_v4.scad"
+        },
+        {
+          "name": "braille_nischi_len_v4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/e1\/6e\/7f\/42\/braille_nischi_len_v4.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "screenshot.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/c6\/e4\/a1\/f5\/screenshot.jpg"
+        },
+        {
+          "name": "braille_nischi_len_v4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/0d\/6a\/46\/db\/braille_nischi_len_v4.jpg"
+        },
+        {
+          "name": "braille_4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/e7\/c4\/57\/f9\/braille_4.jpg"
+        }
+      ]
+    }
+  }
+}

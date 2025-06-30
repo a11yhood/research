@@ -1,0 +1,602 @@
+{
+  "created_at": "2025-04-10T03:35:05.356868+00:00",
+  "elapsed": 0.183095,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df31315e9b2a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:35:05 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:05:05 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6805191?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6805191?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6805191,
+    "name": "Permobil Unitrack Bag hook Thicker",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/6c\/f9\/47\/97\/ee\/large_display_bag_2.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/6805191",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6805191",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-10-21T20:24:24+00:00",
+    "modified": "2025-04-03T18:46:27+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 4,
+    "is_liked": false,
+    "collect_count": 3,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21786975,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/4d\/3d\/9c\/79\/bag_2.JPG",
+      "name": "bag_2.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/78\/77\/65\/f5\/large_thumb_bag_2.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/81\/fd\/82\/72\/medium_thumb_bag_2.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/2a\/8c\/93\/55\/small_thumb_bag_2.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/d6\/b0\/ec\/7c\/tiny_thumb_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/5b\/73\/c6\/65\/featured_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/ec\/d8\/65\/0c\/card_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/7c\/51\/82\/63\/large_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/19\/94\/9c\/95\/medium_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/32\/61\/58\/6e\/small_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/e9\/c1\/b1\/15\/birdwing_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/57\/b5\/e0\/3f\/tiny_preview_bag_2.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/ef\/34\/49\/08\/tinycard_preview_bag_2.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/f9\/47\/97\/ee\/large_display_bag_2.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/b6\/d5\/98\/e3\/medium_display_bag_2.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/d3\/d4\/89\/81\/small_display_bag_2.JPG"
+        }
+      ],
+      "added": "2024-10-21T20:24:21+00:00"
+    },
+    "description": "UPDATE 4\/3\/25 - New file uploaded \"Stronger Upgraded Permobil Bolt Version.\" This is a non-remixed version that is a designed to be stronger and print a slightly cleaner - use same hardware and print settings below. \n\u00a0\nRemixed original to increase strength, also added a version that can be locked into place with nuts and bolts. \n\nPrint settings:\nPETG for increased strength\n100% infill\nPrint as oriented - Requires support\n\nRequired parts for lock in place version: \n\u2022\t10-24 x 3\/4\" Truss head Machine bolts - full thread 18-8\n\u2022\t10-24 square nuts (18-8)\n",
+    "instructions": "",
+    "description_html": "<div><p>UPDATE 4\/3\/25 - New file uploaded \"Stronger Upgraded Permobil Bolt Version.\" This is a non-remixed version that is a designed to be stronger and print a slightly cleaner - use same hardware and print settings below.<br>&nbsp;<br>Remixed original to increase strength, also added a version that can be locked into place with nuts and bolts. <\/p><p>Print settings:<br>PETG for increased strength<br>100% infill<br>Print as oriented - Requires support<\/p><p>Required parts for lock in place version:<br>&bull;   10-24 x 3\/4\" Truss head Machine bolts - full thread 18-8<br>&bull;   10-24 square nuts (18-8)<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>UPDATE 4\/3\/25 - New file uploaded \"Stronger Upgraded Permobil Bolt Version.\" This is a non-remixed version that is a designed to be stronger and print a slightly cleaner - use same hardware and print settings below.<br>&nbsp;<br>Remixed original to increase strength, also added a version that can be locked into place with nuts and bolts. <\/p><p>Print settings:<br>PETG for increased strength<br>100% infill<br>Print as oriented - Requires support<\/p><p>Required parts for lock in place version:<br>&bull;   10-24 x 3\/4\" Truss head Machine bolts - full thread 18-8<br>&bull;   10-24 square nuts (18-8)<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>UPDATE 4\/3\/25 - New file uploaded \"Stronger Upgraded Permobil Bolt Version.\" This is a non-remixed version that is a designed to be stronger and print a slightly cleaner - use same hardware and print settings below.<br>&nbsp;<br>Remixed original to increase strength, also added a version that can be locked into place with nuts and bolts. <\/p><p>Print settings:<br>PETG for increased strength<br>100% infill<br>Print as oriented - Requires support<\/p><p>Required parts for lock in place version:<br>&bull;   10-24 x 3\/4\" Truss head Machine bolts - full thread 18-8<br>&bull;   10-24 square nuts (18-8)<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6805191\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6805191\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6805191\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6805191\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6805191\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6805191\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "adaptive",
+        "tag": "adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive\/things",
+        "absolute_url": "\/tag:adaptive"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6805191\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 15,
+    "view_count": 137,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 4885348,
+        "name": "Permobil Unitrack bag hook",
+        "url": "https:\/\/api.thingiverse.com\/things\/4885348",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:4885348",
+        "created_at": "2021-06-13T23:37:02+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/9f\/fb\/c1\/3b\/cd\/medium_thumb_permobil-unitrack-baghook.v1.png",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/assets\/21\/b5\/96\/59\/a5\/card_preview_permobil-unitrack-baghook.v1.png",
+        "creator": {
+          "id": 4616803,
+          "name": "mduckham",
+          "first_name": "Matt",
+          "last_name": "Duckham",
+          "url": "https:\/\/api.thingiverse.com\/users\/mduckham",
+          "public_url": "https:\/\/www.thingiverse.com\/mduckham",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/09\/19\/e0\/cc\/39\/Matt-300x225.jpg",
+          "count_of_followers": 0,
+          "count_of_following": 0,
+          "count_of_designs": 3,
+          "collection_count": 4,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Melbourne, Australia",
+          "cover": "https:\/\/cdn.thingiverse.com\/assets\/99\/40\/55\/c6\/46\/SAB-building-80-texture-1920x480.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 0,
+        "like_count": 26,
+        "tags": [
+          {
+            "name": "accessibility",
+            "tag": "accessibility",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+            "count": 568,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+            "absolute_url": "\/tag:accessibility"
+          },
+          {
+            "name": "accessibility-aid",
+            "tag": "accessibility-aid",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid",
+            "count": 45,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid\/things",
+            "absolute_url": "\/tag:accessibility-aid"
+          },
+          {
+            "name": "bag",
+            "tag": "bag",
+            "url": "https:\/\/api.thingiverse.com\/tags\/bag",
+            "count": 1108,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/bag\/things",
+            "absolute_url": "\/tag:bag"
+          },
+          {
+            "name": "bag clip",
+            "tag": "bag_clip",
+            "url": "https:\/\/api.thingiverse.com\/tags\/bag_clip",
+            "count": 512,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/bag_clip\/things",
+            "absolute_url": "\/tag:bag_clip"
+          },
+          {
+            "name": "bag holder",
+            "tag": "bag_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/bag_holder",
+            "count": 346,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/bag_holder\/things",
+            "absolute_url": "\/tag:bag_holder"
+          },
+          {
+            "name": "briefcase",
+            "tag": "briefcase",
+            "url": "https:\/\/api.thingiverse.com\/tags\/briefcase",
+            "count": 40,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/briefcase\/things",
+            "absolute_url": "\/tag:briefcase"
+          },
+          {
+            "name": "electric wheelchair",
+            "tag": "electric_wheelchair",
+            "url": "https:\/\/api.thingiverse.com\/tags\/electric_wheelchair",
+            "count": 17,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/electric_wheelchair\/things",
+            "absolute_url": "\/tag:electric_wheelchair"
+          },
+          {
+            "name": "hook",
+            "tag": "hook",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hook",
+            "count": 7350,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hook\/things",
+            "absolute_url": "\/tag:hook"
+          },
+          {
+            "name": "permobil",
+            "tag": "permobil",
+            "url": "https:\/\/api.thingiverse.com\/tags\/permobil",
+            "count": 31,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/permobil\/things",
+            "absolute_url": "\/tag:permobil"
+          },
+          {
+            "name": "power wheelchair",
+            "tag": "power_wheelchair",
+            "url": "https:\/\/api.thingiverse.com\/tags\/power_wheelchair",
+            "count": 20,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/power_wheelchair\/things",
+            "absolute_url": "\/tag:power_wheelchair"
+          },
+          {
+            "name": "wheelchair",
+            "tag": "wheelchair",
+            "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+            "count": 400,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+            "absolute_url": "\/tag:wheelchair"
+          },
+          {
+            "name": "WheelchairAttachment",
+            "tag": "wheelchairattachment",
+            "url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment",
+            "count": 49,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment\/things",
+            "absolute_url": "\/tag:WheelchairAttachment"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 37,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "permobil_armrest_bag_hook_slide.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/9c\/60\/39\/80\/permobil_armrest_bag_hook_slide.stl"
+        },
+        {
+          "name": "permobil_armrest_bag_hook_bolt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/13\/d9\/9b\/b5\/permobil_armrest_bag_hook_bolt.stl"
+        },
+        {
+          "name": "Stronger_Upgraded_Permobil_Bolt_Version.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/ce\/8c\/87\/4b\/Stronger_Upgraded_Permobil_Bolt_Version.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "bag_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/4d\/3d\/9c\/79\/bag_2.JPG"
+        },
+        {
+          "name": "wheelchair_bag_hook.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/9e\/39\/a8\/db\/wheelchair_bag_hook.JPG"
+        },
+        {
+          "name": "Stronger_Upgraded_Permobil_Bolt_Version_.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/0a\/27\/89\/25\/Stronger_Upgraded_Permobil_Bolt_Version_.jpg"
+        },
+        {
+          "name": "Capturebag_3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/a9\/81\/af\/8d\/Capturebag_3.JPG"
+        },
+        {
+          "name": "permobil_armrest_bag_hook_bolt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/c5\/6b\/55\/ce\/permobil_armrest_bag_hook_bolt.png"
+        },
+        {
+          "name": "permobil_armrest_bag_hook_slide.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/7f\/f5\/d1\/e3\/permobil_armrest_bag_hook_slide.png"
+        },
+        {
+          "name": "Stronger_Upgraded_Permobil_Bolt_Version.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/d4\/2a\/0a\/57\/Stronger_Upgraded_Permobil_Bolt_Version.png"
+        }
+      ]
+    }
+  }
+}

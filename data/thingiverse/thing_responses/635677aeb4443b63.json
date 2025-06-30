@@ -1,0 +1,618 @@
+{
+  "created_at": "2025-04-09T19:45:20.941270+00:00",
+  "elapsed": 0.262006,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92dc81184a1a1563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:20 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:20 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3635621?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3635621?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3635621,
+    "name": "Light Touch Assistive Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3635621",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3635621",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 580,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-05-27T19:27:21+00:00",
+    "modified": "2019-05-27T19:27:21+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 86,
+    "is_liked": false,
+    "collect_count": 203,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 10809959,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/61\/f4\/b6\/e8\/LightTouch_Usage2.jpg",
+      "name": "LightTouch_Usage2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/bc\/c2\/64\/a3\/2ff1e31120bf104b576dca9a3ae7c3d2_display_small.jpg"
+        }
+      ],
+      "added": "2019-05-22T23:33:47+00:00"
+    },
+    "description": "This is a simple DIY assistive switch with a low activation force of about 0.3 \u2013 0.4 N (30-40 gf). It is well suited for use with a finger, and can be used with standard AT equipment as well as the Xbox Adaptive Controller.\r\n\r\nThe design is based primarily on the [XBox adaptive controller low cost\/force buttons](https:\/\/www.thingiverse.com\/thing:3211154) design by [davross](https:\/\/www.thingiverse.com\/Davross) and also incorporates changes made in the [remix](https:\/\/www.thingiverse.com\/thing:3539445) by [scruss](https:\/\/www.thingiverse.com\/scruss). It includes several other changes to improve printability and function.\r\n\r\nMore details can be found at the MMC Open-Source Assistive Technology Library project page: https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/",
+    "instructions": "",
+    "description_html": "<div><p>This is a simple DIY assistive switch with a low activation force of about 0.3 &ndash; 0.4 N (30-40 gf). It is well suited for use with a finger, and can be used with standard AT equipment as well as the Xbox Adaptive Controller.<\/p><p>The design is based primarily on the <a rel=\"ugc nofollow\" href=\"\/thing:3211154\">XBox adaptive controller low cost\/force buttons<\/a> design by <a rel=\"ugc nofollow\" href=\"\/Davross\">davross<\/a> and also incorporates changes made in the <a rel=\"ugc nofollow\" href=\"\/thing:3539445\">remix<\/a> by <a rel=\"ugc nofollow\" href=\"\/scruss\">scruss<\/a>. It includes several other changes to improve printability and function.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology Library project page: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/\">https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a simple DIY assistive switch with a low activation force of about 0.3 &ndash; 0.4 N (30-40 gf). It is well suited for use with a finger, and can be used with standard AT equipment as well as the Xbox Adaptive Controller.<\/p><p>The design is based primarily on the <a rel=\"ugc nofollow\" href=\"\/thing:3211154\">XBox adaptive controller low cost\/force buttons<\/a> design by <a rel=\"ugc nofollow\" href=\"\/Davross\">davross<\/a> and also incorporates changes made in the <a rel=\"ugc nofollow\" href=\"\/thing:3539445\">remix<\/a> by <a rel=\"ugc nofollow\" href=\"\/scruss\">scruss<\/a>. It includes several other changes to improve printability and function.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology Library project page: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/\">https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.20 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>The base prints flat without support. The base can be printed on its side to improve the strength of the hinge hole, but it will require support in this case. This shouldn't be necessary unless rough use is expected.<\/p><p>The cap prints on one side and requires a small amount of support. Depending on the material, it may be helpful to print the cap with a brim or raft. A flat version of the cap is available as well. Only one or the other is required.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>To assemble the switch, you will need:<br>1 - 3D Printed Switch Base<br>1 - 3D Printed Switch Cap (Normal or Flat)<br>1 - 3.5 mm mono cable (e.g.&nbsp;<a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.ca\/short\/pt54w9\">https:\/\/www.digikey.ca\/short\/pt54w9<\/a>, ~$4.50 OR try local dollar store)<br>1 - 12 mm tactile switch (e.g. Omron B3F-5050, <a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/jvzq2d\">https:\/\/www.digikey.com\/short\/jvzq2d<\/a>, ~$0.50)<br>1 - Hinge (18 mm section of ballpoint pen ink chamber OR 3 mm diameter x 18 mm length carbon rod OR 3 mm diameter x 18 mm spring pin )<br>1\/3-1\/2 - sticks of hot glue<\/p><p>Optional<br>1 - <a rel=\"ugc nofollow\" href=\"\/thing:3635506\">3D Printed 12 mm switch soldering jig<\/a><\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>This switch was recreated in Fusion 360 using the previous designs for reference.<\/p><p>The changes include:<\/p><ul><li>Added textured surface to activation area for tactile locating<\/li><li>Sized hole for pen ink chamber since these are easier to source <\/li><li>Modified hole shape in base to print more reliably<\/li><li>Added visual indication of where to glue button<\/li><li>Removed walls near button to allow excess glue to flow into cable area.<\/li><li>Reduced width of cable area to require less hot glue<\/li><li>Added grooves on the side of the base to enable more mounting options<\/li><\/ul><p>The Fusion 360 file is included to facilitate further changes.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a simple DIY assistive switch with a low activation force of about 0.3 &ndash; 0.4 N (30-40 gf). It is well suited for use with a finger, and can be used with standard AT equipment as well as the Xbox Adaptive Controller.<\/p><p>The design is based primarily on the <a rel=\"ugc nofollow\" href=\"\/thing:3211154\">XBox adaptive controller low cost\/force buttons<\/a> design by <a rel=\"ugc nofollow\" href=\"\/Davross\">davross<\/a> and also incorporates changes made in the <a rel=\"ugc nofollow\" href=\"\/thing:3539445\">remix<\/a> by <a rel=\"ugc nofollow\" href=\"\/scruss\">scruss<\/a>. It includes several other changes to improve printability and function.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology Library project page: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/\">https:\/\/www.makersmakingchange.com\/project\/light-touch-switch\/<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.20 mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "notes": "<div><p>The base prints flat without support. The base can be printed on its side to improve the strength of the hinge hole, but it will require support in this case. This shouldn't be necessary unless rough use is expected.<\/p><p>The cap prints on one side and requires a small amount of support. Depending on the material, it may be helpful to print the cap with a brim or raft. A flat version of the cap is available as well. Only one or the other is required.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>To assemble the switch, you will need:<br>1 - 3D Printed Switch Base<br>1 - 3D Printed Switch Cap (Normal or Flat)<br>1 - 3.5 mm mono cable (e.g.&nbsp;<a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.ca\/short\/pt54w9\">https:\/\/www.digikey.ca\/short\/pt54w9<\/a>, ~$4.50 OR try local dollar store)<br>1 - 12 mm tactile switch (e.g. Omron B3F-5050, <a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/jvzq2d\">https:\/\/www.digikey.com\/short\/jvzq2d<\/a>, ~$0.50)<br>1 - Hinge (18 mm section of ballpoint pen ink chamber OR 3 mm diameter x 18 mm length carbon rod OR 3 mm diameter x 18 mm spring pin )<br>1\/3-1\/2 - sticks of hot glue<\/p><p>Optional<br>1 - <a rel=\"ugc nofollow\" href=\"\/thing:3635506\">3D Printed 12 mm switch soldering jig<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>This switch was recreated in Fusion 360 using the previous designs for reference.<\/p><p>The changes include:<\/p><ul><li>Added textured surface to activation area for tactile locating<\/li><li>Sized hole for pen ink chamber since these are easier to source <\/li><li>Modified hole shape in base to print more reliably<\/li><li>Added visual indication of where to glue button<\/li><li>Removed walls near button to allow excess glue to flow into cable area.<\/li><li>Reduced width of cable area to require less hot glue<\/li><li>Added grooves on the side of the base to enable more mounting options<\/li><\/ul><p>The Fusion 360 file is included to facilitate further changes.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3635621\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3635621\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3635621\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3635621\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3635621\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3635621\/tags",
+    "tags": [
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      },
+      {
+        "name": "xbox adaptive",
+        "tag": "xbox_adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive\/things",
+        "absolute_url": "\/tag:xbox_adaptive"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3635621\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1210,
+    "view_count": 2544,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 2,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 3211154,
+        "name": "XBox adaptive controller low cost\/force buttons",
+        "url": "https:\/\/api.thingiverse.com\/things\/3211154",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:3211154",
+        "created_at": "2018-11-14T11:15:43+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/56\/20\/2d\/6a\/a0\/866c94b20dd67aad5aff719fcc758414_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/56\/20\/2d\/6a\/a0\/866c94b20dd67aad5aff719fcc758414_preview_card.jpg",
+        "creator": {
+          "id": 241152,
+          "name": "Davross",
+          "first_name": "Kevin",
+          "last_name": "Cross",
+          "url": "https:\/\/api.thingiverse.com\/users\/Davross",
+          "public_url": "https:\/\/www.thingiverse.com\/Davross",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d7\/a1\/d6\/9a\/78\/davspray_thumb_medium.jpg",
+          "count_of_followers": 33,
+          "count_of_following": 2,
+          "count_of_designs": 37,
+          "collection_count": 28,
+          "make_count": 11,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Southampton, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/66\/b4\/f8\/15\/da\/davross_dot_org_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 15,
+        "make_count": 3,
+        "like_count": 44,
+        "tags": [
+          {
+            "name": "adaptive technology",
+            "tag": "adaptive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+            "count": 70,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+            "absolute_url": "\/tag:adaptive_technology"
+          },
+          {
+            "name": "button",
+            "tag": "button",
+            "url": "https:\/\/api.thingiverse.com\/tags\/button",
+            "count": 2884,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+            "absolute_url": "\/tag:button"
+          },
+          {
+            "name": "Xbox One",
+            "tag": "xbox_one",
+            "url": "https:\/\/api.thingiverse.com\/tags\/xbox_one",
+            "count": 1015,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/xbox_one\/things",
+            "absolute_url": "\/tag:Xbox_One"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 88,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 3539445,
+        "name": "Light touch adaptive button",
+        "url": "https:\/\/api.thingiverse.com\/things\/3539445",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:3539445",
+        "created_at": "2019-04-04T03:58:08+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/bf\/6a\/e7\/7a\/f4\/0f5a2bfd3f9230d7f17174c688fd8202_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/bf\/6a\/e7\/7a\/f4\/0f5a2bfd3f9230d7f17174c688fd8202_preview_card.jpg",
+        "creator": {
+          "id": 750745,
+          "name": "scruss",
+          "first_name": "Stewart",
+          "last_name": "Russell",
+          "url": "https:\/\/api.thingiverse.com\/users\/scruss",
+          "public_url": "https:\/\/www.thingiverse.com\/scruss",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/98\/db\/c1\/a2\/56\/f5ea6910d247d15401c1d5a04071e61c_thumb_medium.jpg",
+          "count_of_followers": 43,
+          "count_of_following": 25,
+          "count_of_designs": 90,
+          "collection_count": 1,
+          "make_count": 27,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Toronto",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 0,
+        "like_count": 1,
+        "tags": [
+          {
+            "name": "adaptive technology",
+            "tag": "adaptive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+            "count": 70,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+            "absolute_url": "\/tag:adaptive_technology"
+          },
+          {
+            "name": "button",
+            "tag": "button",
+            "url": "https:\/\/api.thingiverse.com\/tags\/button",
+            "count": 2884,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+            "absolute_url": "\/tag:button"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 8,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "LTS_Base_v1.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/e1\/9b\/3f\/26\/LTS_Base_v1.0.stl"
+        },
+        {
+          "name": "LTS_Cap_v1.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/9b\/6b\/4d\/6e\/LTS_Cap_v1.0.stl"
+        },
+        {
+          "name": "LTS_Cap_Flat_v1.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/db\/9c\/ce\/49\/LTS_Cap_Flat_v1.0.stl"
+        },
+        {
+          "name": "LTS_v1.0.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/a3\/90\/15\/ce\/LTS_v1.0.f3d"
+        },
+        {
+          "name": "Light_Touch_Switch_Instructions_v1.1.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/b3\/0b\/95\/f9\/Light_Touch_Switch_Instructions_v1.1.pdf"
+        },
+        {
+          "name": "LTS_Pin_v0.1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/c7\/0d\/d1\/eb\/LTS_Pin_v0.1.stl"
+        },
+        {
+          "name": "LTS_Pin_v0.1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/7d\/36\/cd\/3b\/LTS_Pin_v0.1.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "LightTouch_Usage2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/61\/f4\/b6\/e8\/LightTouch_Usage2.jpg"
+        },
+        {
+          "name": "10a28a9c38ea607bec4a43327be90ab6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/32\/ff\/e6\/60\/10a28a9c38ea607bec4a43327be90ab6.png"
+        },
+        {
+          "name": "402fb9301caf3ae1d4d70dc348ad3266.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/c0\/24\/41\/4d\/402fb9301caf3ae1d4d70dc348ad3266.png"
+        },
+        {
+          "name": "d731b13568924df34b3d22318bc6d303.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/d7\/f5\/44\/36\/d731b13568924df34b3d22318bc6d303.png"
+        },
+        {
+          "name": "LTS_Pin_v0.1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/71\/11\/7b\/4e\/LTS_Pin_v0.1.png"
+        }
+      ]
+    }
+  }
+}

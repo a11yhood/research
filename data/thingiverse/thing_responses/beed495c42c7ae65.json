@@ -1,0 +1,448 @@
+{
+  "created_at": "2025-04-15T03:38:51.975558+00:00",
+  "elapsed": 0.125296,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9308699a1dddc95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:38:51 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:08:51 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3172905?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3172905?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3172905,
+    "name": "Little HandRaiser Housing",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/63\/9b\/79\/1d\/4fad9cd9408bb012d25f60b42728c285_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3172905",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3172905",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 118,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-10-24T04:00:33+00:00",
+    "modified": "2018-10-24T04:00:33+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 99,
+    "is_liked": false,
+    "collect_count": 108,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 9150760,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/77\/24\/d0\/78\/Snap_Hanger_20mm.stl",
+      "name": "8c41c85dbf644bfdc1a7b6ba4e36d35f.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f_display_small.jpg"
+        }
+      ],
+      "added": "2018-10-25T04:02:23+00:00"
+    },
+    "description": "This housing holds a Trinket M0 from Adafruit so that it will hang on a laptop screen.  The idea is to use a USB cord to power and control the RGB LED on the Trinket to notify a teacher, care-giver, etc. when a user needs attention.\r\n\r\nThis was inspired by Michelle Brose, who is a quadriplegic heading to college who wants to be able to raise her hand without being overly distracting.  \r\n\r\nA full guide for the project will be published on Adafruit in the near future - link to come\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg\r\n\r\nMore on the goal here and how this uses CircuitPython starts at 13:00 or so\r\nhttps:\/\/youtu.be\/cDQPbFEfeYk?t=797",
+    "instructions": "",
+    "description_html": "<div><p>This housing holds a Trinket M0 from Adafruit so that it will hang on a laptop screen.  The idea is to use a USB cord to power and control the RGB LED on the Trinket to notify a teacher, care-giver, etc. when a user needs attention.<\/p><p>This was inspired by Michelle Brose, who is a quadriplegic heading to college who wants to be able to raise her hand without being overly distracting.  <\/p><p>A full guide for the project will be published on Adafruit in the near future - link to come<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg\">https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg<\/a><\/p><p>More on the goal here and how this uses CircuitPython starts at 13:00 or so<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/cDQPbFEfeYk?t=797\">https:\/\/youtu.be\/cDQPbFEfeYk?t=797<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This housing holds a Trinket M0 from Adafruit so that it will hang on a laptop screen.  The idea is to use a USB cord to power and control the RGB LED on the Trinket to notify a teacher, care-giver, etc. when a user needs attention.<\/p><p>This was inspired by Michelle Brose, who is a quadriplegic heading to college who wants to be able to raise her hand without being overly distracting.  <\/p><p>A full guide for the project will be published on Adafruit in the near future - link to come<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg\">https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg<\/a><\/p><p>More on the goal here and how this uses CircuitPython starts at 13:00 or so<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/cDQPbFEfeYk?t=797\">https:\/\/youtu.be\/cDQPbFEfeYk?t=797<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This housing holds a Trinket M0 from Adafruit so that it will hang on a laptop screen.  The idea is to use a USB cord to power and control the RGB LED on the Trinket to notify a teacher, care-giver, etc. when a user needs attention.<\/p><p>This was inspired by Michelle Brose, who is a quadriplegic heading to college who wants to be able to raise her hand without being overly distracting.  <\/p><p>A full guide for the project will be published on Adafruit in the near future - link to come<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg\">https:\/\/www.youtube.com\/watch?v=m9EwB-A2Jqg<\/a><\/p><p>More on the goal here and how this uses CircuitPython starts at 13:00 or so<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/cDQPbFEfeYk?t=797\">https:\/\/youtu.be\/cDQPbFEfeYk?t=797<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3172905\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3172905\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3172905\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3172905\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3172905\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3172905\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3172905\/categories",
+    "file_count": 9,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1313,
+    "view_count": 603,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Snap_Back.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/99\/34\/1c\/0a\/Snap_Back.stl"
+        },
+        {
+          "name": "Snap_Hanger.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/76\/55\/f3\/fb\/Snap_Hanger.stl"
+        },
+        {
+          "name": "Faceplate-ATMakers.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/df\/b2\/ac\/c9\/Faceplate-ATMakers.stl"
+        },
+        {
+          "name": "Faceplate-Blank.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/67\/38\/e1\/ea\/Faceplate-Blank.stl"
+        },
+        {
+          "name": "Faceplate-Hand.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/e2\/26\/b9\/c6\/Faceplate-Hand.stl"
+        },
+        {
+          "name": "Faceplate-Adafruit.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/d1\/10\/a9\/70\/Faceplate-Adafruit.stl"
+        },
+        {
+          "name": "Little_Handraiser.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/39\/e0\/85\/95\/Little_Handraiser.f3d"
+        },
+        {
+          "name": "Snap_Hanger_15mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/67\/d7\/46\/00\/Snap_Hanger_15mm.stl"
+        },
+        {
+          "name": "Snap_Hanger_20mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/77\/24\/d0\/78\/Snap_Hanger_20mm.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "8c41c85dbf644bfdc1a7b6ba4e36d35f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/ae\/e4\/28\/0b\/8c41c85dbf644bfdc1a7b6ba4e36d35f.png"
+        },
+        {
+          "name": "6b92b56f15a6d0d4922603e7f3b4fbb9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/97\/45\/2b\/e0\/6b92b56f15a6d0d4922603e7f3b4fbb9.png"
+        },
+        {
+          "name": "Snap_LaptopLight_v15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/bc\/6b\/5a\/24\/Snap_LaptopLight_v15.png"
+        },
+        {
+          "name": "RenderTranslucent.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/2f\/c9\/41\/84\/RenderTranslucent.png"
+        },
+        {
+          "name": "2caf03a7b04b1f8a6aca665baece9581.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/58\/26\/65\/47\/2caf03a7b04b1f8a6aca665baece9581.png"
+        },
+        {
+          "name": "730dc5b3d3437518e681887cc33cb905.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/43\/ef\/e3\/de\/c8\/730dc5b3d3437518e681887cc33cb905.png"
+        },
+        {
+          "name": "b978088324edab10c3a8d10a448b2f44.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/ff\/b6\/4d\/34\/b978088324edab10c3a8d10a448b2f44.png"
+        },
+        {
+          "name": "0d3f4259393ab996d046581932dc7b9f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/2d\/e4\/60\/ff\/0d3f4259393ab996d046581932dc7b9f.png"
+        },
+        {
+          "name": "af78182cdb7a564a426f69d4e79b17fb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/62\/8d\/ea\/0a\/af78182cdb7a564a426f69d4e79b17fb.png"
+        },
+        {
+          "name": "4fda3bc1f2048fb0c97723deee603dc8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/e7\/6e\/58\/69\/4fda3bc1f2048fb0c97723deee603dc8.png"
+        }
+      ]
+    }
+  }
+}
