@@ -1,0 +1,519 @@
+{
+  "created_at": "2025-07-10T03:52:18.318477+00:00",
+  "elapsed": 0.167635,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b897e37cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:18 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:18 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6854121?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6854121?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6854121,
+    "name": "Joystick mouse with buttonguard",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/9d\/ee\/bd\/83\/9c\/large_display_Final_1.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6854121",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6854121",
+    "creator": {
+      "id": 2768399,
+      "name": "FUNDACION_ONCE",
+      "first_name": "Fundaci\u00f3n ONCE",
+      "last_name": "para la Cooperaci\u00f3n e Inclusi\u00f3n ",
+      "url": "https:\/\/api.thingiverse.com\/users\/FUNDACION_ONCE",
+      "public_url": "https:\/\/www.thingiverse.com\/FUNDACION_ONCE",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/32\/68\/da\/8d\/fcc00f86ddb809eb0119881bc8de308d_thumb_medium.jpg",
+      "count_of_followers": 51,
+      "count_of_following": 15,
+      "count_of_designs": 39,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "MADRID",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/11\/91\/e1\/4b\/07\/9fb7428697eddd524ba07d4edfe34cd0_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-12-02T09:48:13+00:00",
+    "modified": "2024-12-04T09:06:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 1,
+    "is_liked": false,
+    "collect_count": 0,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21970689,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/63\/57\/9f\/6e\/Final_1.jpg",
+      "name": "Final_1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/ca\/bb\/93\/89\/large_thumb_Final_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/db\/9b\/c8\/ad\/medium_thumb_Final_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/13\/5a\/1d\/9d\/small_thumb_Final_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/8f\/49\/ca\/f9\/tiny_thumb_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/31\/39\/07\/a5\/featured_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/46\/20\/1f\/42\/card_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/e5\/6a\/56\/1d\/large_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/68\/37\/02\/2d\/medium_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/f8\/d3\/94\/ea\/small_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/9e\/6b\/34\/b6\/birdwing_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/7b\/4f\/00\/c3\/tiny_preview_Final_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/11\/e2\/ab\/ad\/tinycard_preview_Final_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/ee\/bd\/83\/9c\/large_display_Final_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/9e\/7c\/4e\/8f\/medium_display_Final_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/d4\/3c\/87\/12\/small_display_Final_1.jpg"
+        }
+      ],
+      "added": "2024-12-02T09:48:11+00:00"
+    },
+    "description": "Espa\u00f1ol:\nEste dise\u00f1o est\u00e1 pensado para poder fabricar de forma muy econ\u00f3mica un joystick que conectado al ordenador, funcione como un rat\u00f3n. Ideado para aquellas personas que por sus problemas mot\u00f3ricos no puedan utilizar un rat\u00f3n est\u00e1ndar, pero s\u00ed sean capaces de manejar un joystick como por ejemplo los de las sillas de ruedas electr\u00f3nicas.\nIgualmente puede ser funcional para personas con discapacidad intelectual o con alteraciones en la orientaci\u00f3n espacial, ya que podr\u00edamos darle la orientaci\u00f3n necesaria para facilitar la tarea y permite trabajar solamente con las 4 direcciones principales (tambi\u00e9n se podr\u00edan a\u00f1adir las 4 diagonales).\nA este joystick tambi\u00e9n se le puede a\u00f1adir una carcasa para que los botones de funci\u00f3n queden por debajo de ella y sea m\u00e1s dif\u00edcil pulsarlos de forma accidental.\nPara el montaje de este joystick, adem\u00e1s de las piezas impresas se necesitan algunos componentes adicionales que se especifican en las instrucciones adjuntas.\nEntre los archivos de descarga se puede encontrar tanto el archivo .scad para su personalizaci\u00f3n como unos archivos .stl a modo de muestra de lo que se puede generar.\n\nEnglish:\nThis design is intended to be able to manufacture a joystick very cheaply that, when connected to a computer, works like a mouse. Designed for people who, due to their motor problems, cannot use a standard mouse, but are able to use a joystick such as those found in electronic wheelchairs.\nIt can also be functional for people with intellectual disabilities or with alterations in spatial orientation, since we could give it the necessary orientation to facilitate the task and it allows working only with the 4 main directions (the 4 diagonal directions could also be added).\nA buttonguard can also be added to this joystick so that the function buttons are below it and it make more difficult to press them accidentally.\nTo assemble this joystick, in addition to the printed parts, some additional components are needed that are specified in the attached instructions.\nAmong the download files you can find both the .scad file for customization and some .stl files as a sample of what can be generated.",
+    "instructions": "",
+    "description_html": "<div><p>Espa\u00f1ol:<br>Este dise\u00f1o est\u00e1 pensado para poder fabricar de forma muy econ\u00f3mica un joystick que conectado al ordenador, funcione como un rat\u00f3n. Ideado para aquellas personas que por sus problemas mot\u00f3ricos no puedan utilizar un rat\u00f3n est\u00e1ndar, pero s\u00ed sean capaces de manejar un joystick como por ejemplo los de las sillas de ruedas electr\u00f3nicas.<br>Igualmente puede ser funcional para personas con discapacidad intelectual o con alteraciones en la orientaci\u00f3n espacial, ya que podr\u00edamos darle la orientaci\u00f3n necesaria para facilitar la tarea y permite trabajar solamente con las 4 direcciones principales (tambi\u00e9n se podr\u00edan a\u00f1adir las 4 diagonales).<br>A este joystick tambi\u00e9n se le puede a\u00f1adir una carcasa para que los botones de funci\u00f3n queden por debajo de ella y sea m\u00e1s dif\u00edcil pulsarlos de forma accidental.<br>Para el montaje de este joystick, adem\u00e1s de las piezas impresas se necesitan algunos componentes adicionales que se especifican en las instrucciones adjuntas.<br>Entre los archivos de descarga se puede encontrar tanto el archivo .scad para su personalizaci\u00f3n como unos archivos .stl a modo de muestra de lo que se puede generar.<\/p><p>English:<br>This design is intended to be able to manufacture a joystick very cheaply that, when connected to a computer, works like a mouse. Designed for people who, due to their motor problems, cannot use a standard mouse, but are able to use a joystick such as those found in electronic wheelchairs.<br>It can also be functional for people with intellectual disabilities or with alterations in spatial orientation, since we could give it the necessary orientation to facilitate the task and it allows working only with the 4 main directions (the 4 diagonal directions could also be added).<br>A buttonguard can also be added to this joystick so that the function buttons are below it and it make more difficult to press them accidentally.<br>To assemble this joystick, in addition to the printed parts, some additional components are needed that are specified in the attached instructions.<br>Among the download files you can find both the .scad file for customization and some .stl files as a sample of what can be generated.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Espa\u00f1ol:<br>Este dise\u00f1o est\u00e1 pensado para poder fabricar de forma muy econ\u00f3mica un joystick que conectado al ordenador, funcione como un rat\u00f3n. Ideado para aquellas personas que por sus problemas mot\u00f3ricos no puedan utilizar un rat\u00f3n est\u00e1ndar, pero s\u00ed sean capaces de manejar un joystick como por ejemplo los de las sillas de ruedas electr\u00f3nicas.<br>Igualmente puede ser funcional para personas con discapacidad intelectual o con alteraciones en la orientaci\u00f3n espacial, ya que podr\u00edamos darle la orientaci\u00f3n necesaria para facilitar la tarea y permite trabajar solamente con las 4 direcciones principales (tambi\u00e9n se podr\u00edan a\u00f1adir las 4 diagonales).<br>A este joystick tambi\u00e9n se le puede a\u00f1adir una carcasa para que los botones de funci\u00f3n queden por debajo de ella y sea m\u00e1s dif\u00edcil pulsarlos de forma accidental.<br>Para el montaje de este joystick, adem\u00e1s de las piezas impresas se necesitan algunos componentes adicionales que se especifican en las instrucciones adjuntas.<br>Entre los archivos de descarga se puede encontrar tanto el archivo .scad para su personalizaci\u00f3n como unos archivos .stl a modo de muestra de lo que se puede generar.<\/p><p>English:<br>This design is intended to be able to manufacture a joystick very cheaply that, when connected to a computer, works like a mouse. Designed for people who, due to their motor problems, cannot use a standard mouse, but are able to use a joystick such as those found in electronic wheelchairs.<br>It can also be functional for people with intellectual disabilities or with alterations in spatial orientation, since we could give it the necessary orientation to facilitate the task and it allows working only with the 4 main directions (the 4 diagonal directions could also be added).<br>A buttonguard can also be added to this joystick so that the function buttons are below it and it make more difficult to press them accidentally.<br>To assemble this joystick, in addition to the printed parts, some additional components are needed that are specified in the attached instructions.<br>Among the download files you can find both the .scad file for customization and some .stl files as a sample of what can be generated.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;i3 MK4&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Prusament PLA                Blue<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Spanish:<br>Para completarlo es necesario su montaje posterior y el soldado de cables.<\/p><p>English:<br>To complete it, it is necessary to assemble it and soldering the cables.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Espa\u00f1ol:<br>Este dise\u00f1o est\u00e1 pensado para poder fabricar de forma muy econ\u00f3mica un joystick que conectado al ordenador, funcione como un rat\u00f3n. Ideado para aquellas personas que por sus problemas mot\u00f3ricos no puedan utilizar un rat\u00f3n est\u00e1ndar, pero s\u00ed sean capaces de manejar un joystick como por ejemplo los de las sillas de ruedas electr\u00f3nicas.<br>Igualmente puede ser funcional para personas con discapacidad intelectual o con alteraciones en la orientaci\u00f3n espacial, ya que podr\u00edamos darle la orientaci\u00f3n necesaria para facilitar la tarea y permite trabajar solamente con las 4 direcciones principales (tambi\u00e9n se podr\u00edan a\u00f1adir las 4 diagonales).<br>A este joystick tambi\u00e9n se le puede a\u00f1adir una carcasa para que los botones de funci\u00f3n queden por debajo de ella y sea m\u00e1s dif\u00edcil pulsarlos de forma accidental.<br>Para el montaje de este joystick, adem\u00e1s de las piezas impresas se necesitan algunos componentes adicionales que se especifican en las instrucciones adjuntas.<br>Entre los archivos de descarga se puede encontrar tanto el archivo .scad para su personalizaci\u00f3n como unos archivos .stl a modo de muestra de lo que se puede generar.<\/p><p>English:<br>This design is intended to be able to manufacture a joystick very cheaply that, when connected to a computer, works like a mouse. Designed for people who, due to their motor problems, cannot use a standard mouse, but are able to use a joystick such as those found in electronic wheelchairs.<br>It can also be functional for people with intellectual disabilities or with alterations in spatial orientation, since we could give it the necessary orientation to facilitate the task and it allows working only with the 4 main directions (the 4 diagonal directions could also be added).<br>A buttonguard can also be added to this joystick so that the function buttons are below it and it make more difficult to press them accidentally.<br>To assemble this joystick, in addition to the printed parts, some additional components are needed that are specified in the attached instructions.<br>Among the download files you can find both the .scad file for customization and some .stl files as a sample of what can be generated.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>i3 MK4<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>",
+            "filament_brand": "<div><p>Prusament<\/p><\/div>",
+            "filament_color": "<div><p>Blue<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "",
+            "content": "<div><p>Spanish:<br>Para completarlo es necesario su montaje posterior y el soldado de cables.<\/p><p>English:<br>To complete it, it is necessary to assemble it and soldering the cables.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6854121\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6854121\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6854121\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6854121\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6854121\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6854121\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 611,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 445,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6854121\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": 1926,
+    "download_count": 23,
+    "view_count": 113,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Carcasa_superior.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/61\/14\/e5\/bc\/Carcasa_superior.stl"
+        },
+        {
+          "name": "Casquillo_inferior.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/6a\/0d\/b6\/d1\/Casquillo_inferior.stl"
+        },
+        {
+          "name": "Joystick_carcasa.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/4b\/42\/f1\/db\/Joystick_carcasa.scad"
+        },
+        {
+          "name": "JoystickMouse.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/67\/1b\/31\/d3\/JoystickMouse.ino"
+        },
+        {
+          "name": "Palanca_joystick.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/86\/70\/02\/00\/Palanca_joystick.stl"
+        },
+        {
+          "name": "Pomo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/d1\/1b\/09\/23\/Pomo.stl"
+        },
+        {
+          "name": "Presilla.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/01\/45\/90\/6f\/Presilla.stl"
+        },
+        {
+          "name": "Separador.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/40\/5a\/ee\/e3\/Separador.stl"
+        },
+        {
+          "name": "Tapa_joystick.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/ff\/2b\/2a\/20\/Tapa_joystick.stl"
+        },
+        {
+          "name": "threads.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/06\/f0\/e1\/47\/threads.scad"
+        },
+        {
+          "name": "Tope_arduino.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/79\/25\/f0\/05\/Tope_arduino.stl"
+        },
+        {
+          "name": "Tope_muelle.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/21\/ad\/49\/54\/Tope_muelle.stl"
+        },
+        {
+          "name": "Carcasa.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/48\/cf\/57\/41\/Carcasa.stl"
+        },
+        {
+          "name": "Carcasa_inferior.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/e3\/9b\/ae\/44\/Carcasa_inferior.stl"
+        },
+        {
+          "name": "Creative_Commons_Atribuci\u00f3n_CC_BY-NC-SA_4.0_inteligible.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/01\/c2\/74\/41\/Creative_Commons_Atribuci%C3%B3n_CC_BY-NC-SA_4.0_inteligible.pdf"
+        },
+        {
+          "name": "Creative_Commons_Atribuci\u00f3n_CC_BY-NC-SA_4.0.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/3f\/b9\/e1\/bb\/Creative_Commons_Atribuci%C3%B3n_CC_BY-NC-SA_4.0.pdf"
+        },
+        {
+          "name": "EsqElectricosJoystickArcadevRevisado.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/59\/e2\/c7\/e8\/EsqElectricosJoystickArcadevRevisado.pdf"
+        },
+        {
+          "name": "Instrucciones_para_joystick_con_carcasa_acc.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/83\/b4\/ca\/ad\/Instrucciones_para_joystick_con_carcasa_acc.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "Final_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/63\/57\/9f\/6e\/Final_1.jpg"
+        },
+        {
+          "name": "Final_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/06\/69\/3f\/81\/Final_2.jpg"
+        },
+        {
+          "name": "Final_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/be\/ff\/6b\/89\/Final_3.jpg"
+        },
+        {
+          "name": "Final_5.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/5c\/58\/61\/33\/Final_5.jpg"
+        },
+        {
+          "name": "Tope_arduino.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/3b\/0a\/7f\/33\/Tope_arduino.png"
+        },
+        {
+          "name": "Separador.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/83\/dc\/2f\/9a\/Separador.png"
+        },
+        {
+          "name": "Casquillo_inferior.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/18\/1c\/88\/84\/Casquillo_inferior.png"
+        },
+        {
+          "name": "Carcasa_inferior.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/cf\/2d\/7a\/25\/Carcasa_inferior.png"
+        },
+        {
+          "name": "Carcasa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/5d\/e5\/fd\/8b\/Carcasa.png"
+        },
+        {
+          "name": "Tapa_joystick.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/74\/64\/35\/3f\/Tapa_joystick.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "created_at": "2025-04-15T03:39:19.232932+00:00",
+  "elapsed": 0.12768,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93086a446a84c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:19 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:19 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1104933?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1104933?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1104933,
+    "name": "Noah's Ark Tactile Picture Book",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1104933",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1104933",
+    "creator": {
+      "id": 625610,
+      "name": "clhsu",
+      "first_name": "",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/clhsu",
+      "public_url": "https:\/\/www.thingiverse.com\/clhsu",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/30\/f8\/5f\/4d\/da\/IMG_20190527_095707511_HDR.jpg",
+      "count_of_followers": 33,
+      "count_of_following": 3,
+      "count_of_designs": 22,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-9_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-11-01T22:03:33+00:00",
+    "modified": "2015-11-01T22:03:33+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 84,
+    "is_liked": false,
+    "collect_count": 138,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 2998139,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/59\/ee\/73\/6c\/IMG_2700_2.JPG",
+      "name": "IMG_2700_2.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/15\/57\/c3\/0c\/IMG_2700_2_display_small.JPG"
+        }
+      ],
+      "added": "2015-12-09T21:22:42+00:00"
+    },
+    "description": "Noah's Ark as transcribed into 8 tactile pictures, including a key.\r\n\r\n**Available Models**\r\n* Frame-Only\r\n* Binder Holes on Top\r\n* Binder Holes on Left\r\n\r\n**Available Versions**\r\n- [Key](http:\/\/craftml.io\/VygkJ)\r\n- [Page 1](http:\/\/craftml.io\/NyxyG): \"Building the Ark\" \r\n- [Page 2](https:\/\/craftml.io\/qtYRn) : \"Gathering Food\" \r\n- [Page 3](http:\/\/craftml.io\/Eyxqa): \"Animals Came in Pairs\"  \r\n- [Page 4](http:\/\/craftml.io\/EyY2J): \"It Began to Rain and Flood\" \r\n- [Page 5](https:\/\/craftml.io\/Vyd4Z): \"Ark on a Mountain\" \r\n- [Page 6](http:\/\/craftml.io\/NJeu3): \"Dove with an Olive Leaf\"\r\n- [Page 7](http:\/\/craftml.io\/EkpTW): \"Rainbow Over Ark\"\r\n\r\nVisually impaired children who are in the process of constructing an understanding of their world often learn through guided tactile stimulation and instruction using various means, including tactile pictures.\r\n\r\nThe lack of _easily reproducible and customizable_ tactile pictures in the visually impaired community imposes an educational challenge wherein teachers of the visually impaired (TVIs) must use labor-intensive, time-consuming means to construct meaningful tactile experiences for their students. \r\n\r\nThese designs hope to take advantage of 3D printing technology to create easily printable and customizable tactile pictures. Feel free to modify & customize!",
+    "instructions": "",
+    "description_html": "<div><p>Noah's Ark as transcribed into 8 tactile pictures, including a key.<\/p><p><strong>Available Models<\/strong><\/p><ul><li>Frame-Only<\/li><li>Binder Holes on Top<\/li><li>Binder Holes on Left<\/li><\/ul><p><strong>Available Versions<\/strong><\/p><ul><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/VygkJ\">Key<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NyxyG\">Page 1<\/a>: \"Building the Ark\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/qtYRn\">Page 2<\/a> : \"Gathering Food\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/Eyxqa\">Page 3<\/a>: \"Animals Came in Pairs\"  <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EyY2J\">Page 4<\/a>: \"It Began to Rain and Flood\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/Vyd4Z\">Page 5<\/a>: \"Ark on a Mountain\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NJeu3\">Page 6<\/a>: \"Dove with an Olive Leaf\"<\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EkpTW\">Page 7<\/a>: \"Rainbow Over Ark\"<\/li><\/ul><p>Visually impaired children who are in the process of constructing an understanding of their world often learn through guided tactile stimulation and instruction using various means, including tactile pictures.<\/p><p>The lack of <em>easily reproducible and customizable<\/em> tactile pictures in the visually impaired community imposes an educational challenge wherein teachers of the visually impaired (TVIs) must use labor-intensive, time-consuming means to construct meaningful tactile experiences for their students. <\/p><p>These designs hope to take advantage of 3D printing technology to create easily printable and customizable tactile pictures. Feel free to modify &amp; customize!<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Noah's Ark as transcribed into 8 tactile pictures, including a key.<\/p><p><strong>Available Models<\/strong><\/p><ul><li>Frame-Only<\/li><li>Binder Holes on Top<\/li><li>Binder Holes on Left<\/li><\/ul><p><strong>Available Versions<\/strong><\/p><ul><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/VygkJ\">Key<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NyxyG\">Page 1<\/a>: \"Building the Ark\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/qtYRn\">Page 2<\/a> : \"Gathering Food\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/Eyxqa\">Page 3<\/a>: \"Animals Came in Pairs\"  <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EyY2J\">Page 4<\/a>: \"It Began to Rain and Flood\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/Vyd4Z\">Page 5<\/a>: \"Ark on a Mountain\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NJeu3\">Page 6<\/a>: \"Dove with an Olive Leaf\"<\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EkpTW\">Page 7<\/a>: \"Rainbow Over Ark\"<\/li><\/ul><p>Visually impaired children who are in the process of constructing an understanding of their world often learn through guided tactile stimulation and instruction using various means, including tactile pictures.<\/p><p>The lack of <em>easily reproducible and customizable<\/em> tactile pictures in the visually impaired community imposes an educational challenge wherein teachers of the visually impaired (TVIs) must use labor-intensive, time-consuming means to construct meaningful tactile experiences for their students. <\/p><p>These designs hope to take advantage of 3D printing technology to create easily printable and customizable tactile pictures. Feel free to modify &amp; customize!<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Overview<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;All models were designed on &lt;a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/\"&gt;CraftML&lt;\/a&gt;, an XML-style markup language for 3D modeling that includes support for Braille text.&lt;\/p&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"http:\/\/www.tactilepicturebooks.org\/\"&gt;Tactile Picture Book Project&lt;\/a&gt;&lt;br&gt;Further information regarding the effort to transcribe picture books into an accessible tactile format.&lt;\/p&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"http:\/\/3da11y.info\/2015\/10\/01\/designing-noahs-ark-in-3d\/\"&gt;Designing Noah's Ark in 3D&lt;\/a&gt;&lt;br&gt;Post detailing my in-depth design process on &lt;a rel=\"ugc nofollow\" href=\"http:\/\/3da11y.info\/\"&gt;3DA11y&lt;\/a&gt;, a blog dedicated to sharing information about opportunities in 3D accessibility.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom updates\">Updates<\/h1><p class=\"detail-title\"><strong>Changes as of 11\/27\/2015<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Updated pages now feature&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;rounded frames&lt;\/li&gt;&lt;li&gt;longer captions&lt;\/li&gt;&lt;li&gt;more space between items on page&lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;Specific changes made to the pages include&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;Page 4: wave texture now facing reader (instead of side view)&lt;\/li&gt;&lt;li&gt;Page 6: filled in hole on dove&lt;\/li&gt;&lt;li&gt;Page 7: rainbow no longer stretched out&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Noah's Ark as transcribed into 8 tactile pictures, including a key.<\/p><p><strong>Available Models<\/strong><\/p><ul><li>Frame-Only<\/li><li>Binder Holes on Top<\/li><li>Binder Holes on Left<\/li><\/ul><p><strong>Available Versions<\/strong><\/p><ul><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/VygkJ\">Key<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NyxyG\">Page 1<\/a>: \"Building the Ark\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/qtYRn\">Page 2<\/a> : \"Gathering Food\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/Eyxqa\">Page 3<\/a>: \"Animals Came in Pairs\"  <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EyY2J\">Page 4<\/a>: \"It Began to Rain and Flood\" <\/li><li><a rel=\"ugc nofollow\" href=\"https:\/\/craftml.io\/Vyd4Z\">Page 5<\/a>: \"Ark on a Mountain\" <\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/NJeu3\">Page 6<\/a>: \"Dove with an Olive Leaf\"<\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/EkpTW\">Page 7<\/a>: \"Rainbow Over Ark\"<\/li><\/ul><p>Visually impaired children who are in the process of constructing an understanding of their world often learn through guided tactile stimulation and instruction using various means, including tactile pictures.<\/p><p>The lack of <em>easily reproducible and customizable<\/em> tactile pictures in the visually impaired community imposes an educational challenge wherein teachers of the visually impaired (TVIs) must use labor-intensive, time-consuming means to construct meaningful tactile experiences for their students. <\/p><p>These designs hope to take advantage of 3D printing technology to create easily printable and customizable tactile pictures. Feel free to modify &amp; customize!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Overview",
+            "content": "<div><p>All models were designed on <a rel=\"ugc nofollow\" href=\"http:\/\/craftml.io\/\">CraftML<\/a>, an XML-style markup language for 3D modeling that includes support for Braille text.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.tactilepicturebooks.org\/\">Tactile Picture Book Project<\/a><br>Further information regarding the effort to transcribe picture books into an accessible tactile format.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/3da11y.info\/2015\/10\/01\/designing-noahs-ark-in-3d\/\">Designing Noah's Ark in 3D<\/a><br>Post detailing my in-depth design process on <a rel=\"ugc nofollow\" href=\"http:\/\/3da11y.info\/\">3DA11y<\/a>, a blog dedicated to sharing information about opportunities in 3D accessibility.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Updates",
+        "data": [
+          {
+            "title": "Changes as of 11\/27\/2015",
+            "content": "<div><p>Updated pages now feature<\/p><ul><li>rounded frames<\/li><li>longer captions<\/li><li>more space between items on page<\/li><\/ul><p>Specific changes made to the pages include<\/p><ul><li>Page 4: wave texture now facing reader (instead of side view)<\/li><li>Page 6: filled in hole on dove<\/li><li>Page 7: rainbow no longer stretched out<\/li><\/ul><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1104933\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1104933\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1104933\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1104933\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1104933\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1104933\/tags",
+    "tags": [
+      {
+        "name": "ark",
+        "tag": "ark",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ark",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ark\/things",
+        "absolute_url": "\/tag:ark"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "book",
+        "tag": "book",
+        "url": "https:\/\/api.thingiverse.com\/tags\/book",
+        "count": 1870,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/book\/things",
+        "absolute_url": "\/tag:book"
+      },
+      {
+        "name": "craftml",
+        "tag": "craftml",
+        "url": "https:\/\/api.thingiverse.com\/tags\/craftml",
+        "count": 44,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/craftml\/things",
+        "absolute_url": "\/tag:craftml"
+      },
+      {
+        "name": "noahs",
+        "tag": "noahs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/noahs",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/noahs\/things",
+        "absolute_url": "\/tag:noahs"
+      },
+      {
+        "name": "picture",
+        "tag": "picture",
+        "url": "https:\/\/api.thingiverse.com\/tags\/picture",
+        "count": 747,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/picture\/things",
+        "absolute_url": "\/tag:picture"
+      },
+      {
+        "name": "story",
+        "tag": "story",
+        "url": "https:\/\/api.thingiverse.com\/tags\/story",
+        "count": 52,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/story\/things",
+        "absolute_url": "\/tag:story"
+      },
+      {
+        "name": "tactile",
+        "tag": "tactile",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tactile",
+        "count": 268,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tactile\/things",
+        "absolute_url": "\/tag:tactile"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1104933\/categories",
+    "file_count": 10,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1646,
+    "view_count": 2400,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 0,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "NA_key.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/d5\/4d\/df\/60\/NA_key.stl"
+        },
+        {
+          "name": "NA_1_building.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/7f\/8e\/8b\/18\/NA_1_building.stl"
+        },
+        {
+          "name": "NA_2_gathering.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/a4\/97\/f8\/2e\/NA_2_gathering.stl"
+        },
+        {
+          "name": "NA_3_animals.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/30\/9a\/a4\/ce\/NA_3_animals.stl"
+        },
+        {
+          "name": "NA_4_flood.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/c5\/dd\/08\/c9\/NA_4_flood.stl"
+        },
+        {
+          "name": "NA_5_mountain.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/5f\/67\/cc\/73\/NA_5_mountain.stl"
+        },
+        {
+          "name": "NA_6_dove.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/b5\/7d\/46\/6f\/NA_6_dove.stl"
+        },
+        {
+          "name": "NA_7_rainbow.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/42\/6c\/d8\/c0\/NA_7_rainbow.stl"
+        },
+        {
+          "name": "NoahsArk_frameonly.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/f5\/c7\/8c\/bf\/NoahsArk_frameonly.zip"
+        },
+        {
+          "name": "NoahsArk_topholes.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/e9\/de\/6c\/ed\/NoahsArk_topholes.zip"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2700_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/59\/ee\/73\/6c\/IMG_2700_2.JPG"
+        },
+        {
+          "name": "completed_book.JPEG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/f9\/bc\/e4\/99\/completed_book.JPEG"
+        },
+        {
+          "name": "completed_book_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/00\/93\/8d\/d5\/completed_book_2.JPG"
+        },
+        {
+          "name": "key2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/e9\/50\/39\/b7\/key2.JPG"
+        },
+        {
+          "name": "NA_key.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bf\/8c\/fd\/97\/2a\/NA_key.png"
+        },
+        {
+          "name": "1_build.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/21\/87\/fe\/c3\/1_build.JPG"
+        },
+        {
+          "name": "NA_1_building.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/17\/76\/2a\/6c\/45\/NA_1_building.png"
+        },
+        {
+          "name": "IMG_2703.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/17\/af\/05\/01\/IMG_2703.JPG"
+        },
+        {
+          "name": "NA_2_gathering.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ae\/07\/ae\/05\/99\/NA_2_gathering.png"
+        },
+        {
+          "name": "3_animals.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/96\/45\/65\/88\/3_animals.JPG"
+        },
+        {
+          "name": "NA_3_animals.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/54\/b1\/62\/04\/NA_3_animals.png"
+        },
+        {
+          "name": "4_flood.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/0b\/9f\/b4\/5a\/4_flood.JPG"
+        },
+        {
+          "name": "NA_4_flood.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/10\/16\/b7\/5f\/NA_4_flood.png"
+        },
+        {
+          "name": "5_mountain.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/5e\/be\/83\/21\/5_mountain.JPG"
+        },
+        {
+          "name": "NA_5_mountain.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/59\/a8\/ce\/00\/NA_5_mountain.png"
+        },
+        {
+          "name": "6_dove.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/fa\/ca\/df\/40\/6_dove.JPG"
+        },
+        {
+          "name": "NA_6_dove.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/17\/64\/26\/b4\/NA_6_dove.png"
+        },
+        {
+          "name": "7_rainbow.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/36\/47\/e2\/7a\/7_rainbow.JPG"
+        },
+        {
+          "name": "NA_7_rainbow.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/33\/61\/b1\/NA_7_rainbow.png"
+        }
+      ]
+    }
+  }
+}

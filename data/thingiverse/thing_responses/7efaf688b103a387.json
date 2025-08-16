@@ -1,0 +1,414 @@
+{
+  "created_at": "2025-07-10T03:52:27.875187+00:00",
+  "elapsed": 0.170145,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1bc52fedcfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:27 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:27 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6359725?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6359725?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6359725,
+    "name": "Soroban Cranmer Abacus",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/b0\/17\/80\/02\/e9\/large_display_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6359725",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6359725",
+    "creator": {
+      "id": 7213989,
+      "name": "magnoleite",
+      "first_name": "Magno",
+      "last_name": "de Alcantara leite",
+      "url": "https:\/\/api.thingiverse.com\/users\/magnoleite",
+      "public_url": "https:\/\/www.thingiverse.com\/magnoleite",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 0,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-12-07T17:49:32+00:00",
+    "modified": "2023-12-07T17:49:32+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 3,
+    "is_liked": false,
+    "collect_count": 6,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 20283072,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/a3\/4a\/fe\/83\/41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png",
+      "name": "41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/58\/39\/f5\/b9\/large_thumb_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/a6\/aa\/f9\/9c\/medium_thumb_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/d3\/24\/62\/bc\/small_thumb_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/fe\/62\/14\/be\/tiny_thumb_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/42\/a4\/32\/e0\/featured_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/86\/4d\/00\/55\/card_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/fd\/11\/21\/9a\/large_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/5c\/5e\/5b\/1d\/medium_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/e6\/e0\/fb\/00\/small_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/a1\/1b\/9c\/ec\/birdwing_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/e2\/c3\/ed\/bc\/tiny_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/a9\/07\/0f\/fd\/tinycard_preview_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/17\/80\/02\/e9\/large_display_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/48\/e4\/0f\/fc\/medium_display_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/2a\/c2\/cd\/0f\/small_display_41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        }
+      ],
+      "added": "2023-12-07T22:48:06+00:00"
+    },
+    "description": "O projeto Soroban, tamb\u00e9m conhecido como Abaco Cranmer nos Estados Unidos, \u00e9 uma inovadora tecnologia assistiva de baixo custo destinada a alunos com defici\u00eancia visual. Aprovado por professores e testado por estudantes, esse dispositivo utiliza materiais acess\u00edveis, tais como hastes de Chenille (tamb\u00e9m conhecidas como limpadores de cachimbo), \u00edm\u00e3s de neod\u00edmio de 1x5 mm, mi\u00e7angas esf\u00e9ricas de 8 a 10 mm, super cola e EVA para acabamento.\r\n\r\nO tutorial de montagem, dispon\u00edvel em v\u00eddeo atrav\u00e9s do link https:\/\/youtu.be\/5jOr-97mlnQ, fornece instru\u00e7\u00f5es passo a passo para a cria\u00e7\u00e3o do Soroban. Al\u00e9m disso, destaca-se que o processo de impress\u00e3o 3D utiliza PLA preto, n\u00e3o requerendo suportes, e recomenda-se uma aba de 4 a 5 mm.\r\n\r\nEsse projeto oferece uma solu\u00e7\u00e3o acess\u00edvel e pr\u00e1tica, contribuindo para a inclus\u00e3o educacional de alunos com defici\u00eancia visual, ao proporcionar uma ferramenta adaptada que facilita o aprendizado matem\u00e1tico.\r\n\r\nThe Soroban project, also known as Abaco Cranmer in the United States, is an innovative low-cost assistive technology designed for visually impaired students. Approved by teachers and tested by students, this device utilizes accessible materials such as Chenille stems (also known as pipe cleaners), neodymium magnets measuring 1x5 mm, spherical beads ranging from 8 to 10 mm, super glue, and EVA for finishing.\r\n\r\nThe assembly tutorial, available in video format at https:\/\/youtu.be\/5jOr-97mlnQ, provides step-by-step instructions for creating the Soroban. Additionally, it emphasizes that the 3D printing process uses black PLA, does not require supports, and recommends a 4 to 5 mm brim.\r\n\r\nThis project offers an affordable and practical solution, contributing to the educational inclusion of visually impaired students by providing an adapted tool that facilitates mathematical learning.",
+    "instructions": "",
+    "description_html": "<div><p>O projeto Soroban, tamb\u00e9m conhecido como Abaco Cranmer nos Estados Unidos, \u00e9 uma inovadora tecnologia assistiva de baixo custo destinada a alunos com defici\u00eancia visual. Aprovado por professores e testado por estudantes, esse dispositivo utiliza materiais acess\u00edveis, tais como hastes de Chenille (tamb\u00e9m conhecidas como limpadores de cachimbo), \u00edm\u00e3s de neod\u00edmio de 1x5 mm, mi\u00e7angas esf\u00e9ricas de 8 a 10 mm, super cola e EVA para acabamento.<\/p><p>O tutorial de montagem, dispon\u00edvel em v\u00eddeo atrav\u00e9s do link <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, fornece instru\u00e7\u00f5es passo a passo para a cria\u00e7\u00e3o do Soroban. Al\u00e9m disso, destaca-se que o processo de impress\u00e3o 3D utiliza PLA preto, n\u00e3o requerendo suportes, e recomenda-se uma aba de 4 a 5 mm.<\/p><p>Esse projeto oferece uma solu\u00e7\u00e3o acess\u00edvel e pr\u00e1tica, contribuindo para a inclus\u00e3o educacional de alunos com defici\u00eancia visual, ao proporcionar uma ferramenta adaptada que facilita o aprendizado matem\u00e1tico.<\/p><p>The Soroban project, also known as Abaco Cranmer in the United States, is an innovative low-cost assistive technology designed for visually impaired students. Approved by teachers and tested by students, this device utilizes accessible materials such as Chenille stems (also known as pipe cleaners), neodymium magnets measuring 1x5 mm, spherical beads ranging from 8 to 10 mm, super glue, and EVA for finishing.<\/p><p>The assembly tutorial, available in video format at <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, provides step-by-step instructions for creating the Soroban. Additionally, it emphasizes that the 3D printing process uses black PLA, does not require supports, and recommends a 4 to 5 mm brim.<\/p><p>This project offers an affordable and practical solution, contributing to the educational inclusion of visually impaired students by providing an adapted tool that facilitates mathematical learning.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>O projeto Soroban, tamb\u00e9m conhecido como Abaco Cranmer nos Estados Unidos, \u00e9 uma inovadora tecnologia assistiva de baixo custo destinada a alunos com defici\u00eancia visual. Aprovado por professores e testado por estudantes, esse dispositivo utiliza materiais acess\u00edveis, tais como hastes de Chenille (tamb\u00e9m conhecidas como limpadores de cachimbo), \u00edm\u00e3s de neod\u00edmio de 1x5 mm, mi\u00e7angas esf\u00e9ricas de 8 a 10 mm, super cola e EVA para acabamento.<\/p><p>O tutorial de montagem, dispon\u00edvel em v\u00eddeo atrav\u00e9s do link <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, fornece instru\u00e7\u00f5es passo a passo para a cria\u00e7\u00e3o do Soroban. Al\u00e9m disso, destaca-se que o processo de impress\u00e3o 3D utiliza PLA preto, n\u00e3o requerendo suportes, e recomenda-se uma aba de 4 a 5 mm.<\/p><p>Esse projeto oferece uma solu\u00e7\u00e3o acess\u00edvel e pr\u00e1tica, contribuindo para a inclus\u00e3o educacional de alunos com defici\u00eancia visual, ao proporcionar uma ferramenta adaptada que facilita o aprendizado matem\u00e1tico.<\/p><p>The Soroban project, also known as Abaco Cranmer in the United States, is an innovative low-cost assistive technology designed for visually impaired students. Approved by teachers and tested by students, this device utilizes accessible materials such as Chenille stems (also known as pipe cleaners), neodymium magnets measuring 1x5 mm, spherical beads ranging from 8 to 10 mm, super glue, and EVA for finishing.<\/p><p>The assembly tutorial, available in video format at <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, provides step-by-step instructions for creating the Soroban. Additionally, it emphasizes that the 3D printing process uses black PLA, does not require supports, and recommends a 4 to 5 mm brim.<\/p><p>This project offers an affordable and practical solution, contributing to the educational inclusion of visually impaired students by providing an adapted tool that facilitates mathematical learning.<\/p><\/div><h1 class=\"thing-component-header custom secao-personalizada\">Se\u00e7\u00e3o personalizada<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/01\/a3\/56\/f6\/77\/8002b630-de88-46fe-8009-de7edba0dbbb.png\" alt=\"image\"><\/p><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>O projeto Soroban, tamb\u00e9m conhecido como Abaco Cranmer nos Estados Unidos, \u00e9 uma inovadora tecnologia assistiva de baixo custo destinada a alunos com defici\u00eancia visual. Aprovado por professores e testado por estudantes, esse dispositivo utiliza materiais acess\u00edveis, tais como hastes de Chenille (tamb\u00e9m conhecidas como limpadores de cachimbo), \u00edm\u00e3s de neod\u00edmio de 1x5 mm, mi\u00e7angas esf\u00e9ricas de 8 a 10 mm, super cola e EVA para acabamento.<\/p><p>O tutorial de montagem, dispon\u00edvel em v\u00eddeo atrav\u00e9s do link <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, fornece instru\u00e7\u00f5es passo a passo para a cria\u00e7\u00e3o do Soroban. Al\u00e9m disso, destaca-se que o processo de impress\u00e3o 3D utiliza PLA preto, n\u00e3o requerendo suportes, e recomenda-se uma aba de 4 a 5 mm.<\/p><p>Esse projeto oferece uma solu\u00e7\u00e3o acess\u00edvel e pr\u00e1tica, contribuindo para a inclus\u00e3o educacional de alunos com defici\u00eancia visual, ao proporcionar uma ferramenta adaptada que facilita o aprendizado matem\u00e1tico.<\/p><p>The Soroban project, also known as Abaco Cranmer in the United States, is an innovative low-cost assistive technology designed for visually impaired students. Approved by teachers and tested by students, this device utilizes accessible materials such as Chenille stems (also known as pipe cleaners), neodymium magnets measuring 1x5 mm, spherical beads ranging from 8 to 10 mm, super glue, and EVA for finishing.<\/p><p>The assembly tutorial, available in video format at <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/5jOr-97mlnQ\">https:\/\/youtu.be\/5jOr-97mlnQ<\/a>, provides step-by-step instructions for creating the Soroban. Additionally, it emphasizes that the 3D printing process uses black PLA, does not require supports, and recommends a 4 to 5 mm brim.<\/p><p>This project offers an affordable and practical solution, contributing to the educational inclusion of visually impaired students by providing an adapted tool that facilitates mathematical learning.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Se\u00e7\u00e3o personalizada",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/01\/a3\/56\/f6\/77\/8002b630-de88-46fe-8009-de7edba0dbbb.png",
+            "image_id": "907879"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6359725\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6359725\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6359725\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6359725\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6359725\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6359725\/tags",
+    "tags": [
+      {
+        "name": "abacus",
+        "tag": "abacus",
+        "url": "https:\/\/api.thingiverse.com\/tags\/abacus",
+        "count": 46,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/abacus\/things",
+        "absolute_url": "\/tag:abacus"
+      },
+      {
+        "name": "Accessible Abacus",
+        "tag": "accessible_abacus",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessible_abacus",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessible_abacus\/things",
+        "absolute_url": "\/tag:Accessible_Abacus"
+      },
+      {
+        "name": "Cranmer",
+        "tag": "cranmer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cranmer",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cranmer\/things",
+        "absolute_url": "\/tag:Cranmer"
+      },
+      {
+        "name": "Cranmer Abacus",
+        "tag": "cranmer_abacus",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cranmer_abacus",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cranmer_abacus\/things",
+        "absolute_url": "\/tag:Cranmer_Abacus"
+      },
+      {
+        "name": "soroban",
+        "tag": "soroban",
+        "url": "https:\/\/api.thingiverse.com\/tags\/soroban",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/soroban\/things",
+        "absolute_url": "\/tag:soroban"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6359725\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 18,
+    "view_count": 622,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 1,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Soroban_CranmerAbacus_Paranhos_Leite.3mf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/5a\/26\/cd\/bc\/0da6082d-ebca-43d3-b79a-0f5803b26dfc.3mf"
+        }
+      ],
+      "images": [
+        {
+          "name": "41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/a3\/4a\/fe\/83\/41bed5a1-d9d7-4d90-a35b-a9df8d7c75f0.png"
+        }
+      ]
+    }
+  }
+}

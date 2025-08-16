@@ -1,0 +1,656 @@
+{
+  "created_at": "2025-04-13T04:27:48.701220+00:00",
+  "elapsed": 0.151562,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f8368c7c48d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:48 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:48 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/950355?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/950355?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 950355,
+    "name": "The Wolverine",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/950355",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:950355",
+    "creator": {
+      "id": 535936,
+      "name": "jpeisner",
+      "first_name": "Jeffrey",
+      "last_name": "Peisner",
+      "url": "https:\/\/api.thingiverse.com\/users\/jpeisner",
+      "public_url": "https:\/\/www.thingiverse.com\/jpeisner",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 5,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-07-31T18:51:34+00:00",
+    "modified": "2015-07-31T18:51:34+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 110,
+    "is_liked": false,
+    "collect_count": 235,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 2445314,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/64\/4c\/7d\/cf\/Wolverine_TitlePic.JPG",
+      "name": "Wolverine_TitlePic.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/6a\/32\/91\/07\/Wolverine_TitlePic_display_small.JPG"
+        }
+      ],
+      "added": "2015-07-31T18:51:32+00:00"
+    },
+    "description": "The Wolverine is an exoskeleton device that is designed to help people regain their gross grasp by facilitating the natural motion of tenodesis. Watch the Wolverine in action here: https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&feature=youtu.be  \n",
+    "instructions": "Please see \"The Wolverine Assembly Manual.pdf\" in the source files.  \n\nIf you need any custom made parts or have any questions, please message me on Thingiverse or email me at jpeisner@gmail.com",
+    "description_html": "<div><p>The Wolverine is an exoskeleton device that is designed to help people regain their gross grasp by facilitating the natural motion of tenodesis. Watch the Wolverine in action here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be<\/a>  <\/p><\/div>\n",
+    "instructions_html": "<div><p>Please see \"The Wolverine Assembly Manual.pdf\" in the source files.  <\/p><p>If you need any custom made parts or have any questions, please message me on Thingiverse or email me at jpeisner@gmail.com<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The Wolverine is an exoskeleton device that is designed to help people regain their gross grasp by facilitating the natural motion of tenodesis. Watch the Wolverine in action here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be<\/a>  <\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>Please see \"The Wolverine Assembly Manual.pdf\" in the source files.  <\/p><p>If you need any custom made parts or have any questions, please message me on Thingiverse or email me at jpeisner@gmail.com<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The Wolverine is an exoskeleton device that is designed to help people regain their gross grasp by facilitating the natural motion of tenodesis. Watch the Wolverine in action here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=4SQ8G84lG-o&amp;feature=youtu.be<\/a>  <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>Please see \"The Wolverine Assembly Manual.pdf\" in the source files.  <\/p><p>If you need any custom made parts or have any questions, please message me on Thingiverse or email me at jpeisner@gmail.com<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/950355\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/950355\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/950355\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/950355\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/950355\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/950355\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "Exoskeleton",
+        "tag": "exoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton\/things",
+        "absolute_url": "\/tag:Exoskeleton"
+      },
+      {
+        "name": "Exoskeleton Hand",
+        "tag": "exoskeleton_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton_hand",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton_hand\/things",
+        "absolute_url": "\/tag:Exoskeleton_Hand"
+      },
+      {
+        "name": "medical devices",
+        "tag": "medical_devices",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical_devices",
+        "count": 458,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical_devices\/things",
+        "absolute_url": "\/tag:medical_devices"
+      },
+      {
+        "name": "mobility",
+        "tag": "mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobility",
+        "count": 60,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobility\/things",
+        "absolute_url": "\/tag:mobility"
+      },
+      {
+        "name": "rehab",
+        "tag": "rehab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehab",
+        "count": 25,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehab\/things",
+        "absolute_url": "\/tag:rehab"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/950355\/categories",
+    "file_count": 39,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 4951,
+    "view_count": 8877,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Bolt.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/54\/69\/5f\/43\/Bolt.STL"
+        },
+        {
+          "name": "Collar_Large.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/d6\/b2\/ee\/a7\/Collar_Large.STL"
+        },
+        {
+          "name": "Collar.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/d0\/47\/2b\/58\/Collar.STL"
+        },
+        {
+          "name": "Forearm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/03\/f5\/9b\/c8\/Forearm.STL"
+        },
+        {
+          "name": "Pin_Large.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/f9\/00\/32\/5e\/Pin_Large.STL"
+        },
+        {
+          "name": "Lever.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/7e\/34\/eb\/ce\/Lever.STL"
+        },
+        {
+          "name": "Pin.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/5b\/54\/e4\/db\/Pin.STL"
+        },
+        {
+          "name": "Flange-3.60.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/83\/5a\/d5\/f3\/Flange-3.60.STL"
+        },
+        {
+          "name": "Flange-3.80.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/8b\/d3\/18\/3c\/Flange-3.80.STL"
+        },
+        {
+          "name": "Flange-3.90.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/95\/a7\/b8\/ca\/Flange-3.90.STL"
+        },
+        {
+          "name": "Flange-4.00.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/c5\/74\/f4\/79\/Flange-4.00.STL"
+        },
+        {
+          "name": "Flange-3.70.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/2a\/f2\/6d\/b7\/Flange-3.70.STL"
+        },
+        {
+          "name": "Flange-4.10.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/a3\/11\/04\/01\/Flange-4.10.STL"
+        },
+        {
+          "name": "Flange-4.30.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/1d\/8b\/5d\/03\/Flange-4.30.STL"
+        },
+        {
+          "name": "Flange-4.50.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/d0\/b5\/66\/1c\/Flange-4.50.STL"
+        },
+        {
+          "name": "Flange-4.20.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/f8\/b0\/7d\/ac\/Flange-4.20.STL"
+        },
+        {
+          "name": "Flange-4.40.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/2d\/fd\/d5\/10\/Flange-4.40.STL"
+        },
+        {
+          "name": "Index-7.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/b3\/d7\/07\/f0\/Index-7.5.STL"
+        },
+        {
+          "name": "Index-9.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/46\/98\/e1\/38\/Index-9.5.STL"
+        },
+        {
+          "name": "Index-8.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/a1\/d7\/a5\/5f\/Index-8.STL"
+        },
+        {
+          "name": "Middle-7.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/24\/55\/f0\/24\/Middle-7.5.STL"
+        },
+        {
+          "name": "Pinky-7.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/a4\/a8\/16\/fb\/Pinky-7.5.STL"
+        },
+        {
+          "name": "Middle-9.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/0a\/0c\/f2\/01\/Middle-9.STL"
+        },
+        {
+          "name": "Index-8.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/1a\/4a\/1a\/f6\/Index-8.5.STL"
+        },
+        {
+          "name": "Middle-9.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/66\/dd\/e7\/d7\/Middle-9.5.STL"
+        },
+        {
+          "name": "Pinky-8.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/ef\/fe\/db\/d3\/Pinky-8.STL"
+        },
+        {
+          "name": "Middle-8.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/27\/7f\/4c\/ec\/Middle-8.STL"
+        },
+        {
+          "name": "Pinky-9.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/9a\/37\/da\/31\/Pinky-9.5.STL"
+        },
+        {
+          "name": "Pinky-9.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/7a\/73\/12\/78\/Pinky-9.STL"
+        },
+        {
+          "name": "Ring-7.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/91\/dd\/5c\/17\/Ring-7.5.STL"
+        },
+        {
+          "name": "Ring-8.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/ae\/eb\/e1\/dc\/Ring-8.STL"
+        },
+        {
+          "name": "Ring-9.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/09\/ab\/79\/53\/Ring-9.5.STL"
+        },
+        {
+          "name": "Ring-9.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/bb\/90\/aa\/03\/Ring-9.STL"
+        },
+        {
+          "name": "Ring-8.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/83\/a7\/64\/b5\/Ring-8.5.STL"
+        },
+        {
+          "name": "Pinky-8.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/f0\/78\/2e\/3c\/Pinky-8.5.STL"
+        },
+        {
+          "name": "Middle-8.5.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/7d\/45\/58\/44\/Middle-8.5.STL"
+        },
+        {
+          "name": "Index-9.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/99\/9d\/4c\/68\/Index-9.STL"
+        },
+        {
+          "name": "The_Wolverine_Assembly_Manual.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/bb\/20\/36\/72\/The_Wolverine_Assembly_Manual.pdf"
+        },
+        {
+          "name": "Hand.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/30\/fa\/45\/6f\/Hand.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Wolverine_TitlePic.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/64\/4c\/7d\/cf\/Wolverine_TitlePic.JPG"
+        },
+        {
+          "name": "IMG_4400.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/c2\/2b\/81\/cf\/IMG_4400.JPG"
+        },
+        {
+          "name": "IMG_4405.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/37\/db\/ca\/8f\/IMG_4405.JPG"
+        },
+        {
+          "name": "Bolt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e7\/e8\/a0\/81\/ac\/Bolt.png"
+        },
+        {
+          "name": "Collar_Large.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/a1\/86\/c5\/c3\/Collar_Large.png"
+        },
+        {
+          "name": "Pin_Large.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/26\/79\/1e\/6f\/8a\/Pin_Large.png"
+        },
+        {
+          "name": "Collar.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/40\/04\/29\/2b\/Collar.png"
+        },
+        {
+          "name": "Flange-3.60.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/8e\/9f\/ed\/c9\/Flange-3.60.png"
+        },
+        {
+          "name": "Pin.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/50\/cf\/d1\/0c\/Pin.png"
+        },
+        {
+          "name": "Flange-3.80.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/b8\/49\/c6\/99\/Flange-3.80.png"
+        },
+        {
+          "name": "Flange-3.90.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/1a\/3a\/7a\/93\/Flange-3.90.png"
+        },
+        {
+          "name": "Flange-4.00.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8e\/b3\/53\/fd\/87\/Flange-4.00.png"
+        },
+        {
+          "name": "Lever.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/ad\/03\/b4\/c3\/Lever.png"
+        },
+        {
+          "name": "Forearm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/68\/42\/45\/a2\/Forearm.png"
+        },
+        {
+          "name": "Flange-4.10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/30\/27\/3e\/df\/Flange-4.10.png"
+        },
+        {
+          "name": "Flange-3.70.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/3c\/74\/8d\/a1\/Flange-3.70.png"
+        },
+        {
+          "name": "Flange-4.30.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/16\/6b\/91\/cc\/Flange-4.30.png"
+        },
+        {
+          "name": "Flange-4.50.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b5\/d2\/bc\/a4\/f0\/Flange-4.50.png"
+        },
+        {
+          "name": "Flange-4.20.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/35\/be\/fc\/10\/82\/Flange-4.20.png"
+        },
+        {
+          "name": "Flange-4.40.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/49\/42\/af\/7e\/19\/Flange-4.40.png"
+        },
+        {
+          "name": "Index-9.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/25\/fe\/a9\/0c\/Index-9.5.png"
+        },
+        {
+          "name": "Index-7.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/95\/52\/d2\/d0\/Index-7.5.png"
+        },
+        {
+          "name": "Index-8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/26\/1a\/2f\/6b\/62\/Index-8.png"
+        },
+        {
+          "name": "Middle-9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fb\/43\/27\/69\/89\/Middle-9.png"
+        },
+        {
+          "name": "Middle-7.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/ba\/01\/12\/35\/Middle-7.5.png"
+        },
+        {
+          "name": "Pinky-7.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/7b\/4e\/14\/a0\/Pinky-7.5.png"
+        },
+        {
+          "name": "Index-8.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/54\/6e\/22\/6b\/Index-8.5.png"
+        },
+        {
+          "name": "Middle-9.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fb\/16\/0f\/16\/4a\/Middle-9.5.png"
+        },
+        {
+          "name": "Pinky-8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/83\/ce\/f2\/22\/Pinky-8.png"
+        },
+        {
+          "name": "Middle-8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a9\/6c\/85\/82\/6e\/Middle-8.png"
+        },
+        {
+          "name": "Pinky-9.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/93\/b0\/a0\/d8\/Pinky-9.5.png"
+        },
+        {
+          "name": "Pinky-9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/be\/6d\/37\/80\/Pinky-9.png"
+        },
+        {
+          "name": "Ring-8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/27\/5f\/e9\/0e\/Ring-8.png"
+        },
+        {
+          "name": "Ring-7.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/75\/d4\/72\/71\/7f\/Ring-7.5.png"
+        },
+        {
+          "name": "Ring-9.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/22\/cd\/33\/24\/Ring-9.5.png"
+        },
+        {
+          "name": "Ring-9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fc\/37\/3b\/98\/14\/Ring-9.png"
+        },
+        {
+          "name": "Ring-8.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9d\/e7\/9a\/0c\/Ring-8.5.png"
+        },
+        {
+          "name": "Middle-8.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ba\/fb\/b9\/77\/7d\/Middle-8.5.png"
+        },
+        {
+          "name": "Index-9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/af\/40\/96\/bb\/Index-9.png"
+        },
+        {
+          "name": "Pinky-8.5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/27\/78\/60\/a2\/56\/Pinky-8.5.png"
+        },
+        {
+          "name": "Hand.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/9f\/bc\/a5\/19\/Hand.png"
+        },
+        {
+          "name": "IMG_4396.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/1f\/cc\/0f\/68\/IMG_4396.JPG"
+        },
+        {
+          "name": "IMG_4401.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/f4\/6c\/67\/30\/IMG_4401.JPG"
+        }
+      ]
+    }
+  }
+}

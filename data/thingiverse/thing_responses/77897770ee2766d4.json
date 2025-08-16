@@ -1,0 +1,794 @@
+{
+  "created_at": "2025-04-15T03:39:16.561560+00:00",
+  "elapsed": 0.128118,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93086a33bb6ac95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:16 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:16 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2841296?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2841296?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2841296,
+    "name": "Kwawu Arm 2.0 - Prosthetic -Thermoform Version",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2841296",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2841296",
+    "creator": {
+      "id": 944907,
+      "name": "JacquinBuchanan",
+      "first_name": "Jacquin",
+      "last_name": "Buchanan",
+      "url": "https:\/\/api.thingiverse.com\/users\/JacquinBuchanan",
+      "public_url": "https:\/\/www.thingiverse.com\/JacquinBuchanan",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/43\/7c\/88\/b8\/b0\/49c9f16e06f3446be5f80ab3ed6f0ca3_thumb_medium.jpg",
+      "count_of_followers": 94,
+      "count_of_following": 11,
+      "count_of_designs": 10,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Colorado USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/7f\/a3\/72\/ca\/92\/8610546b98f917b0f9ed78010b74780f_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-03-27T04:38:02+00:00",
+    "modified": "2018-03-27T04:38:02+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 113,
+    "is_liked": false,
+    "collect_count": 244,
+    "is_collected": false,
+    "comment_count": 53,
+    "is_watched": false,
+    "default_image": {
+      "id": 10591832,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/5b\/e0\/00\/89\/thermoform_final.png",
+      "name": "thermoform_final.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/ef\/41\/e2\/37\/85cd94f32dedb8f6047a3417c6bb91b9_display_small.jpg"
+        }
+      ],
+      "added": "2019-04-24T20:35:40+00:00"
+    },
+    "description": "<b>!!!! DO NOT PRINT THESE STL FILES DIRECTLY. !!!!!<\/b>\r\nDownload all the files and use the OpenSCAD to modify and scale the STL files. \r\n\r\nThe included PDF file <i>\"Using OpenSCAD to Render Kwawu Arm 2.1 Thermoform Version\"<\/i> will show you how to download the Open SCAD program and use the code in these files to size this model. The included PDF file <i>\"Assembly of Kwawu Arm 2.1 - Thermoform Version\"<\/i> will show you how to assemble the Prosthetic arm\r\n\r\nThe source Fusion 360 files can be found on Fusion360.\r\nhttps:\/\/a360.co\/2W9yFRL\r\n\r\nI have redesigned the Kwawu arm to be more natural looking and more functional. The terminal device has a much higher grip strength and functionality. Very good at picking up small things with index finger and thumb and big things with whole hand.\r\nhttps:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ\r\n\r\nThis version is similar to the original thermoform Kwawu arm. It is suitable for a recipient with a long residual forearm. \r\nThere are two other versions on thingiverse. A Socket Version for people with short forearm residuals https:\/\/www.thingiverse.com\/thing:2841281, and a terminal only version https:\/\/www.thingiverse.com\/thing:2774477 for people with a standard forearm socket already.\r\n\r\nI would like to thank the e-NABLE community. It is a wonderful group to be a part of.\r\n\r\nTo get involved with the e-NABLE community please visit https:\/\/hub.e-nable.org",
+    "instructions": "",
+    "description_html": "<div><p><b>!!!! DO NOT PRINT THESE STL FILES DIRECTLY. !!!!!<\/b><br>Download all the files and use the OpenSCAD to modify and scale the STL files. <\/p><p>The included PDF file <i>\"Using OpenSCAD to Render Kwawu Arm 2.1 Thermoform Version\"<\/i> will show you how to download the Open SCAD program and use the code in these files to size this model. The included PDF file <i>\"Assembly of Kwawu Arm 2.1 - Thermoform Version\"<\/i> will show you how to assemble the Prosthetic arm<\/p><p>The source Fusion 360 files can be found on Fusion360.<br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2W9yFRL\">https:\/\/a360.co\/2W9yFRL<\/a><\/p><p>I have redesigned the Kwawu arm to be more natural looking and more functional. The terminal device has a much higher grip strength and functionality. Very good at picking up small things with index finger and thumb and big things with whole hand.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ\">https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ<\/a><\/p><p>This version is similar to the original thermoform Kwawu arm. It is suitable for a recipient with a long residual forearm.<br>There are two other versions on thingiverse. A Socket Version for people with short forearm residuals <a rel=\"ugc nofollow\" href=\"\/thing:2841281\">https:\/\/www.thingiverse.com\/thing:2841281<\/a>, and a terminal only version <a rel=\"ugc nofollow\" href=\"\/thing:2774477\">https:\/\/www.thingiverse.com\/thing:2774477<\/a> for people with a standard forearm socket already.<\/p><p>I would like to thank the e-NABLE community. It is a wonderful group to be a part of.<\/p><p>To get involved with the e-NABLE community please visit <a rel=\"ugc nofollow\" href=\"https:\/\/hub.e-nable.org\">https:\/\/hub.e-nable.org<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><b>!!!! DO NOT PRINT THESE STL FILES DIRECTLY. !!!!!<\/b><br>Download all the files and use the OpenSCAD to modify and scale the STL files. <\/p><p>The included PDF file <i>\"Using OpenSCAD to Render Kwawu Arm 2.1 Thermoform Version\"<\/i> will show you how to download the Open SCAD program and use the code in these files to size this model. The included PDF file <i>\"Assembly of Kwawu Arm 2.1 - Thermoform Version\"<\/i> will show you how to assemble the Prosthetic arm<\/p><p>The source Fusion 360 files can be found on Fusion360.<br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2W9yFRL\">https:\/\/a360.co\/2W9yFRL<\/a><\/p><p>I have redesigned the Kwawu arm to be more natural looking and more functional. The terminal device has a much higher grip strength and functionality. Very good at picking up small things with index finger and thumb and big things with whole hand.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ\">https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ<\/a><\/p><p>This version is similar to the original thermoform Kwawu arm. It is suitable for a recipient with a long residual forearm.<br>There are two other versions on thingiverse. A Socket Version for people with short forearm residuals <a rel=\"ugc nofollow\" href=\"\/thing:2841281\">https:\/\/www.thingiverse.com\/thing:2841281<\/a>, and a terminal only version <a rel=\"ugc nofollow\" href=\"\/thing:2774477\">https:\/\/www.thingiverse.com\/thing:2774477<\/a> for people with a standard forearm socket already.<\/p><p>I would like to thank the e-NABLE community. It is a wonderful group to be a part of.<\/p><p>To get involved with the e-NABLE community please visit <a rel=\"ugc nofollow\" href=\"https:\/\/hub.e-nable.org\">https:\/\/hub.e-nable.org<\/a><\/p><\/div><h1 class=\"thing-component-header custom updates\">Updates<\/h1><p class=\"detail-title\"><strong>Update - April 5, 2019<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Fixed a few errors in the new wrist arm attachment. &lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Update - March 19, 2019&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;This update reworks the arm to hand attachment. Now it uses a 3D printed 25mm bolt so the hand can be rotated to various angles by the user. This now means the hand is exactly the same as the Socket version.&lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Update - December 8, 2018&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;This update adds several new features and fixes.&lt;br&gt;&amp;bull; Made the latch mechanism slightly larger and rotate the hinge on the latch pin to make the hinge larger. The hinge is now the same size as finger hinges. So has better performance and easier to assemble.&lt;br&gt;&amp;bull; Made velcro slots on cuff thinner so the cuff can thermoform rounder.&lt;br&gt;&amp;bull; Add pencil holder option for the hand (Idea borrowed from dean rock's arm).&lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Update - August 22, 2018&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;This update fixes an issue with threads being backwards on some Right handed renderings. If you are making a right hand, please download the updated SCAD file.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><b>!!!! DO NOT PRINT THESE STL FILES DIRECTLY. !!!!!<\/b><br>Download all the files and use the OpenSCAD to modify and scale the STL files. <\/p><p>The included PDF file <i>\"Using OpenSCAD to Render Kwawu Arm 2.1 Thermoform Version\"<\/i> will show you how to download the Open SCAD program and use the code in these files to size this model. The included PDF file <i>\"Assembly of Kwawu Arm 2.1 - Thermoform Version\"<\/i> will show you how to assemble the Prosthetic arm<\/p><p>The source Fusion 360 files can be found on Fusion360.<br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2W9yFRL\">https:\/\/a360.co\/2W9yFRL<\/a><\/p><p>I have redesigned the Kwawu arm to be more natural looking and more functional. The terminal device has a much higher grip strength and functionality. Very good at picking up small things with index finger and thumb and big things with whole hand.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ\">https:\/\/www.youtube.com\/watch?v=o5p5qpXizaQ<\/a><\/p><p>This version is similar to the original thermoform Kwawu arm. It is suitable for a recipient with a long residual forearm.<br>There are two other versions on thingiverse. A Socket Version for people with short forearm residuals <a rel=\"ugc nofollow\" href=\"\/thing:2841281\">https:\/\/www.thingiverse.com\/thing:2841281<\/a>, and a terminal only version <a rel=\"ugc nofollow\" href=\"\/thing:2774477\">https:\/\/www.thingiverse.com\/thing:2774477<\/a> for people with a standard forearm socket already.<\/p><p>I would like to thank the e-NABLE community. It is a wonderful group to be a part of.<\/p><p>To get involved with the e-NABLE community please visit <a rel=\"ugc nofollow\" href=\"https:\/\/hub.e-nable.org\">https:\/\/hub.e-nable.org<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Updates",
+        "data": [
+          {
+            "title": "Update - April 5, 2019",
+            "content": "<div><p>Fixed a few errors in the new wrist arm attachment. <\/p><\/div>\n"
+          },
+          {
+            "title": "Update - March 19, 2019",
+            "content": "<div><p>This update reworks the arm to hand attachment. Now it uses a 3D printed 25mm bolt so the hand can be rotated to various angles by the user. This now means the hand is exactly the same as the Socket version.<\/p><\/div>\n"
+          },
+          {
+            "title": "Update - December 8, 2018",
+            "content": "<div><p>This update adds several new features and fixes.<br>&bull; Made the latch mechanism slightly larger and rotate the hinge on the latch pin to make the hinge larger. The hinge is now the same size as finger hinges. So has better performance and easier to assemble.<br>&bull; Made velcro slots on cuff thinner so the cuff can thermoform rounder.<br>&bull; Add pencil holder option for the hand (Idea borrowed from dean rock's arm).<\/p><\/div>\n"
+          },
+          {
+            "title": "Update - August 22, 2018",
+            "content": "<div><p>This update fixes an issue with threads being backwards on some Right handed renderings. If you are making a right hand, please download the updated SCAD file.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2841296\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2841296\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2841296\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2841296\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2841296\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2841296\/tags",
+    "tags": [
+      {
+        "name": "e-nable prosthetic enable",
+        "tag": "e-nable_prosthetic_enable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable_prosthetic_enable",
+        "count": 14,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable_prosthetic_enable\/things",
+        "absolute_url": "\/tag:e-nable_prosthetic_enable"
+      },
+      {
+        "name": "enable",
+        "tag": "enable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enable",
+        "count": 166,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enable\/things",
+        "absolute_url": "\/tag:enable"
+      },
+      {
+        "name": "enablingthefuture",
+        "tag": "enablingthefuture",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enablingthefuture",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enablingthefuture\/things",
+        "absolute_url": "\/tag:enablingthefuture"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "prosthetics",
+        "tag": "prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+        "count": 99,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+        "absolute_url": "\/tag:prosthetics"
+      },
+      {
+        "name": "prosthetic arm",
+        "tag": "prosthetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+        "count": 49,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+        "absolute_url": "\/tag:prosthetic_arm"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2841296\/categories",
+    "file_count": 44,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 7394,
+    "view_count": 10432,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 4,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 14,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Using_OpenSCAD_to_Render_Kwawu_Arm_2.1_-_Thermoform_Version.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/53\/fe\/e9\/68\/Using_OpenSCAD_to_Render_Kwawu_Arm_2.1_-_Thermoform_Version.pdf"
+        },
+        {
+          "name": "Assembly_of_Kwawu_Arm_2.1_-_Thermoform_Version.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/f2\/98\/38\/ca\/Assembly_of_Kwawu_Arm_2.1_-_Thermoform_Version.pdf"
+        },
+        {
+          "name": "Kwawu_2.1_Prosthetic_Arm-_Thermoform_Version.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/62\/72\/5e\/a8\/Kwawu_2.1_Prosthetic_Arm-_Thermoform_Version.scad"
+        },
+        {
+          "name": "o_Cover2of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/cf\/d3\/fd\/95\/o_Cover2of4.stl"
+        },
+        {
+          "name": "o_Cover4of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/33\/73\/f3\/3b\/o_Cover4of4.stl"
+        },
+        {
+          "name": "o_Cover2of2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/59\/df\/0f\/69\/o_Cover2of2.stl"
+        },
+        {
+          "name": "o_Cover3of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/23\/a2\/68\/a9\/o_Cover3of4.stl"
+        },
+        {
+          "name": "o_IndexFingerPhalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/2c\/a1\/f5\/18\/o_IndexFingerPhalanx.stl"
+        },
+        {
+          "name": "o_MiddleFingerEnd.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/c4\/6e\/06\/e3\/o_MiddleFingerEnd.stl"
+        },
+        {
+          "name": "o_MiddleFingerPhalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/1c\/3c\/db\/14\/o_MiddleFingerPhalanx.stl"
+        },
+        {
+          "name": "o_Tensioner.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/41\/73\/40\/35\/o_Tensioner.stl"
+        },
+        {
+          "name": "o_RingFingerEnd.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/a8\/71\/ee\/5b\/o_RingFingerEnd.stl"
+        },
+        {
+          "name": "o_Cover1of2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/9e\/aa\/e9\/3a\/o_Cover1of2.stl"
+        },
+        {
+          "name": "o_PinkyFingerPhalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/4c\/67\/25\/5e\/o_PinkyFingerPhalanx.stl"
+        },
+        {
+          "name": "o_Cover1of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/02\/20\/fe\/34\/o_Cover1of4.stl"
+        },
+        {
+          "name": "o_RingFingerPhalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/8a\/47\/5d\/f2\/o_RingFingerPhalanx.stl"
+        },
+        {
+          "name": "o_WhippleTreeSecondary.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/78\/83\/ad\/5d\/o_WhippleTreeSecondary.stl"
+        },
+        {
+          "name": "o_WhippleTreePrimary.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/fb\/57\/c8\/1f\/o_WhippleTreePrimary.stl"
+        },
+        {
+          "name": "o_ThumbPhalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/06\/e5\/cc\/b4\/o_ThumbPhalanx.stl"
+        },
+        {
+          "name": "o_ThumbEnd.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/b1\/20\/34\/0f\/o_ThumbEnd.stl"
+        },
+        {
+          "name": "o_IndexFingerEnd.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/42\/f3\/63\/f9\/o_IndexFingerEnd.stl"
+        },
+        {
+          "name": "o_Cover1of1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/69\/4d\/95\/97\/o_Cover1of1.stl"
+        },
+        {
+          "name": "o_PinkyFingerEnd.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/ea\/76\/f3\/a4\/o_PinkyFingerEnd.stl"
+        },
+        {
+          "name": "o_LatchHingeHole.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/d1\/44\/89\/c5\/o_LatchHingeHole.stl"
+        },
+        {
+          "name": "o_PencilHolderTool.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/e9\/c4\/56\/e4\/o_PencilHolderTool.stl"
+        },
+        {
+          "name": "o_LatchPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/82\/02\/c8\/43\/o_LatchPin.stl"
+        },
+        {
+          "name": "o_LatchSlider.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/e6\/77\/bb\/e5\/o_LatchSlider.stl"
+        },
+        {
+          "name": "o_Latch.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/73\/f5\/6f\/88\/o_Latch.stl"
+        },
+        {
+          "name": "o_LatchTeeth.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/bc\/37\/f2\/fb\/o_LatchTeeth.stl"
+        },
+        {
+          "name": "o_Cuff.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/08\/1d\/77\/f1\/o_Cuff.stl"
+        },
+        {
+          "name": "o_PalmTop.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/37\/48\/6a\/e0\/o_PalmTop.stl"
+        },
+        {
+          "name": "o_Palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/8a\/87\/8c\/b4\/o_Palm.stl"
+        },
+        {
+          "name": "o_Thermoform1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/70\/2d\/94\/9e\/o_Thermoform1.stl"
+        },
+        {
+          "name": "o_WristArmAttach.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/ba\/85\/ab\/ee\/o_WristArmAttach.stl"
+        },
+        {
+          "name": "o_Thermoform3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/d9\/30\/c3\/49\/o_Thermoform3.stl"
+        },
+        {
+          "name": "o_Thermoform2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/7e\/9a\/ad\/a7\/o_Thermoform2.stl"
+        },
+        {
+          "name": "o_Palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/b1\/e4\/ae\/c7\/o_Palm.stl"
+        },
+        {
+          "name": "o_Arm2of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/43\/3c\/26\/70\/o_Arm2of4.stl"
+        },
+        {
+          "name": "o_Arm3of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/b9\/2b\/3d\/7d\/o_Arm3of4.stl"
+        },
+        {
+          "name": "o_Arm4of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/37\/eb\/11\/f0\/o_Arm4of4.stl"
+        },
+        {
+          "name": "o_Arm1of4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/1e\/4a\/6f\/62\/o_Arm1of4.stl"
+        },
+        {
+          "name": "o_Arm2of2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/24\/80\/68\/fc\/o_Arm2of2.stl"
+        },
+        {
+          "name": "o_Arm1of2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/72\/85\/65\/bf\/o_Arm1of2.stl"
+        },
+        {
+          "name": "o_Arm1of1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/ca\/05\/d1\/68\/o_Arm1of1.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "thermoform_final.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/5b\/e0\/00\/89\/thermoform_final.png"
+        },
+        {
+          "name": "c3b8f0eb8a464a3c7b59cb01b1233cff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e0\/20\/68\/bb\/01\/c3b8f0eb8a464a3c7b59cb01b1233cff.png"
+        },
+        {
+          "name": "f77ef33f8aca4b37c874e8b294a64d2b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/01\/4c\/e6\/30\/f77ef33f8aca4b37c874e8b294a64d2b.png"
+        },
+        {
+          "name": "491f7383831d8c34038d7fc40ed30f61.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2c\/7d\/fa\/c8\/d6\/491f7383831d8c34038d7fc40ed30f61.png"
+        },
+        {
+          "name": "dd860ee4f00bce74155671dc21d7b768.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/e0\/cf\/5f\/06\/dd860ee4f00bce74155671dc21d7b768.png"
+        },
+        {
+          "name": "22bf164b4237df9b4618a1b410f5ae57.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/ab\/24\/6e\/8d\/22bf164b4237df9b4618a1b410f5ae57.png"
+        },
+        {
+          "name": "e89d9fb7a80ef84cee586e97f7271fda.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/bd\/0a\/09\/78\/e89d9fb7a80ef84cee586e97f7271fda.png"
+        },
+        {
+          "name": "ee38c21f4f3c6abd166be67627dd9832.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/f6\/56\/de\/b7\/ee38c21f4f3c6abd166be67627dd9832.png"
+        },
+        {
+          "name": "130f1b9e23ef5ad6712c5dc4c87f1bf9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/b7\/7d\/4c\/d2\/130f1b9e23ef5ad6712c5dc4c87f1bf9.png"
+        },
+        {
+          "name": "ddaf51ab08bf346f99ca7018f9864c6b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/ed\/0e\/61\/f5\/ddaf51ab08bf346f99ca7018f9864c6b.png"
+        },
+        {
+          "name": "d2fc9fe0835092199b1873fe81208878.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/f6\/f1\/68\/3a\/d2fc9fe0835092199b1873fe81208878.png"
+        },
+        {
+          "name": "ecf963afc06f637541b4654d025dd6a7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/30\/11\/8d\/60\/3d\/ecf963afc06f637541b4654d025dd6a7.png"
+        },
+        {
+          "name": "83d5aad4cd8dc43621a5ace294ce6ac7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/5e\/ed\/24\/25\/83d5aad4cd8dc43621a5ace294ce6ac7.png"
+        },
+        {
+          "name": "f9ecefc4413e02034382f0529f36f499.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/89\/90\/80\/12\/f9ecefc4413e02034382f0529f36f499.png"
+        },
+        {
+          "name": "05f6f3280dec26091d746bc3f891814c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/b0\/30\/1a\/2e\/05f6f3280dec26091d746bc3f891814c.png"
+        },
+        {
+          "name": "f1bff143f6222be97b594ab61671f7c8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/12\/a0\/47\/bb\/5e\/f1bff143f6222be97b594ab61671f7c8.png"
+        },
+        {
+          "name": "66769988be23c565aacc12d36bd35016.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/cf\/33\/eb\/e5\/66769988be23c565aacc12d36bd35016.png"
+        },
+        {
+          "name": "d08bcceb8a9f36f9b32b1d7633ba4ca6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4c\/50\/2c\/7a\/ec\/d08bcceb8a9f36f9b32b1d7633ba4ca6.png"
+        },
+        {
+          "name": "589f8c7f693dd35c13292d6a1d8e0a15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/94\/75\/35\/5d\/78\/589f8c7f693dd35c13292d6a1d8e0a15.png"
+        },
+        {
+          "name": "03c3eabbc3f43adfa0be8dcc0cc323be.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/d1\/e8\/61\/16\/03c3eabbc3f43adfa0be8dcc0cc323be.png"
+        },
+        {
+          "name": "c0ec3d27835a2405fc4217854ef9e4bd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fc\/6b\/c4\/93\/2a\/c0ec3d27835a2405fc4217854ef9e4bd.png"
+        },
+        {
+          "name": "b94ca29bda5ce38cdde85aa3fdeb62a4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/25\/96\/35\/84\/71\/b94ca29bda5ce38cdde85aa3fdeb62a4.png"
+        },
+        {
+          "name": "0d89080fbf85399b8eae013c18998943.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/c0\/15\/c5\/c5\/0d89080fbf85399b8eae013c18998943.png"
+        },
+        {
+          "name": "147a9e8045b73baa30bc9e08d8c16750.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/e9\/25\/d7\/ba\/147a9e8045b73baa30bc9e08d8c16750.png"
+        },
+        {
+          "name": "2c397f38fd52d0ba283d25cd95878da9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/c8\/2f\/03\/1d\/2c397f38fd52d0ba283d25cd95878da9.png"
+        },
+        {
+          "name": "6bfc85696ab6921110ae3a79c88fffbe.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/72\/dc\/e6\/42\/6bfc85696ab6921110ae3a79c88fffbe.png"
+        },
+        {
+          "name": "af9f85c2936775c922a7298d71fb7cfd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a8\/f9\/30\/26\/d2\/af9f85c2936775c922a7298d71fb7cfd.png"
+        },
+        {
+          "name": "164ed8002d67704516ffaf8d89fc07c6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ad\/06\/8f\/7e\/18\/164ed8002d67704516ffaf8d89fc07c6.png"
+        },
+        {
+          "name": "190457868881e44b7afdd9e211666950.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/38\/de\/a3\/87\/190457868881e44b7afdd9e211666950.png"
+        },
+        {
+          "name": "b1de0733c27ed997f725741f234b6f29.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/15\/83\/8c\/03\/88\/b1de0733c27ed997f725741f234b6f29.png"
+        },
+        {
+          "name": "0d89080fbf85399b8eae013c18998943.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/bd\/b6\/e1\/56\/0d89080fbf85399b8eae013c18998943.png"
+        },
+        {
+          "name": "9401ed3bef5d5dff2a45fd66d2faa737.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/d4\/8a\/be\/66\/9401ed3bef5d5dff2a45fd66d2faa737.png"
+        },
+        {
+          "name": "d9ffef8a40ee6d3673bc89343359b898.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/30\/4c\/73\/31\/d9ffef8a40ee6d3673bc89343359b898.png"
+        },
+        {
+          "name": "0a89ce1e4b56c28eaa7cf6fd9727271a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/55\/58\/e6\/bf\/0a89ce1e4b56c28eaa7cf6fd9727271a.png"
+        },
+        {
+          "name": "23a6c9415ee2bf8e01f0e08e8ce4200c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bf\/68\/35\/98\/36\/23a6c9415ee2bf8e01f0e08e8ce4200c.png"
+        },
+        {
+          "name": "a2048bb13bc80c69165c583625dd84b2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8e\/08\/f6\/3c\/21\/a2048bb13bc80c69165c583625dd84b2.png"
+        },
+        {
+          "name": "9513b13ece065ed39903e998c9ad43ed.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/09\/1f\/61\/06\/d9\/9513b13ece065ed39903e998c9ad43ed.png"
+        },
+        {
+          "name": "1917c3749d74ee6d6b2d7d8bb4711e2e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/4c\/fd\/4b\/19\/1917c3749d74ee6d6b2d7d8bb4711e2e.png"
+        },
+        {
+          "name": "c2476e90532cadad326b0ff7f5ebba50.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/16\/fc\/7e\/83\/c2476e90532cadad326b0ff7f5ebba50.png"
+        },
+        {
+          "name": "677b48f88195bb86c7e1968a07d082c8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/26\/ca\/46\/53\/677b48f88195bb86c7e1968a07d082c8.png"
+        },
+        {
+          "name": "6c0a6c351497c9c7d64e60b74e0c86be.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/8e\/46\/50\/fe\/6c0a6c351497c9c7d64e60b74e0c86be.png"
+        },
+        {
+          "name": "075af6bd96104c720a6a020998f08e3e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/a5\/61\/21\/1a\/075af6bd96104c720a6a020998f08e3e.png"
+        }
+      ]
+    }
+  }
+}

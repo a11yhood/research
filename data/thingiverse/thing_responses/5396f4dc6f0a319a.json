@@ -1,0 +1,404 @@
+{
+  "created_at": "2025-07-10T03:52:03.779464+00:00",
+  "elapsed": 0.158389,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b2eae60cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:03 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:03 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6652475?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6652475?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6652475,
+    "name": "Plug Puller - Velcro Strap Version [Use With Caution]",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/10\/65\/ff\/63\/d9\/large_display_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6652475",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6652475",
+    "creator": {
+      "id": 6191842,
+      "name": "Brennen_WATAP",
+      "first_name": "Brennen",
+      "last_name": "Johnston",
+      "url": "https:\/\/api.thingiverse.com\/users\/Brennen_WATAP",
+      "public_url": "https:\/\/www.thingiverse.com\/Brennen_WATAP",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/93\/ca\/a1\/92\/65\/d0a77991-a251-4ea4-917b-951342f1e8bb.jpg",
+      "count_of_followers": 4,
+      "count_of_following": 2,
+      "count_of_designs": 9,
+      "collection_count": 1,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-06-07T06:24:07+00:00",
+    "modified": "2024-06-07T06:24:07+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 10,
+    "is_liked": false,
+    "collect_count": 7,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21235384,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/a5\/67\/80\/37\/be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg",
+      "name": "be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/e4\/8c\/d9\/47\/large_thumb_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/35\/db\/36\/11\/medium_thumb_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/ef\/6a\/a9\/52\/small_thumb_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/25\/22\/7f\/fc\/tiny_thumb_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/03\/83\/44\/56\/featured_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/e0\/78\/80\/9a\/card_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/4a\/c8\/89\/76\/large_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/1d\/0f\/0f\/a7\/medium_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/67\/e7\/05\/4e\/small_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/c8\/8b\/44\/74\/birdwing_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/fd\/37\/d0\/25\/tiny_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/b5\/61\/d0\/2e\/tinycard_preview_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/65\/ff\/63\/d9\/large_display_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/50\/79\/4c\/d4\/medium_display_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/a5\/30\/e0\/ce\/small_display_be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        }
+      ],
+      "added": "2024-06-07T06:24:05+00:00"
+    },
+    "description": "[Disclaimer]\r\n\r\n     It's my opinion this Plug Puller - Velcro Strap version is inferior to my previous model that uses zip ties. This was created and uploaded due to repeated suggestion from community members who wanted an alternative to the zip tie version. Despite my explanation, there was still a large amount of requests for a Velcro strap edit. So, I have uploaded this model in hopes they can discover why this is not a good solution.\r\n\r\nWhen designing assistive technology the two most important things are safety and reliability. Please use extreme caution if using this model because I don't believe it's either safe or reliable. \r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>[Disclaimer]<\/p><pre><code> It's my opinion this Plug Puller - Velcro Strap version is inferior to my previous model that uses zip ties. This was created and uploaded due to repeated suggestion from community members who wanted an alternative to the zip tie version. Despite my explanation, there was still a large amount of requests for a Velcro strap edit. So, I have uploaded this model in hopes they can discover why this is not a good solution.<\/code><\/pre><p>When designing assistive technology the two most important things are safety and reliability. Please use extreme caution if using this model because I don't believe it's either safe or reliable. <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>[Disclaimer]<\/p><pre><code> It's my opinion this Plug Puller - Velcro Strap version is inferior to my previous model that uses zip ties. This was created and uploaded due to repeated suggestion from community members who wanted an alternative to the zip tie version. Despite my explanation, there was still a large amount of requests for a Velcro strap edit. So, I have uploaded this model in hopes they can discover why this is not a good solution.<\/code><\/pre><p>When designing assistive technology the two most important things are safety and reliability. Please use extreme caution if using this model because I don't believe it's either safe or reliable. <\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>[Disclaimer]<\/p><pre><code> It's my opinion this Plug Puller - Velcro Strap version is inferior to my previous model that uses zip ties. This was created and uploaded due to repeated suggestion from community members who wanted an alternative to the zip tie version. Despite my explanation, there was still a large amount of requests for a Velcro strap edit. So, I have uploaded this model in hopes they can discover why this is not a good solution.<\/code><\/pre><p>When designing assistive technology the two most important things are safety and reliability. Please use extreme caution if using this model because I don't believe it's either safe or reliable. <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6652475\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6652475\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6652475\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6652475\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6652475\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6652475\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 611,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 51,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "plugpuller",
+        "tag": "plugpuller",
+        "url": "https:\/\/api.thingiverse.com\/tags\/plugpuller",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/plugpuller\/things",
+        "absolute_url": "\/tag:plugpuller"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6652475\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 35,
+    "view_count": 381,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Plug_Puller_3.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/c8\/30\/1d\/d1\/f79a4bd7-aa33-4020-b3dd-f3fbea93cddd.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/a5\/67\/80\/37\/be621a5f-ff4e-42fb-bdbb-9e946fa60d68.jpg"
+        }
+      ]
+    }
+  }
+}

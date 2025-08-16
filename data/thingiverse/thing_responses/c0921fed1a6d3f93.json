@@ -1,0 +1,1233 @@
+{
+  "created_at": "2025-04-13T04:27:49.680781+00:00",
+  "elapsed": 0.229241,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836920a01d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1936150?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1936150?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1936150,
+    "name": "Affordable Prosthetic for people without Fingers",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1936150",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1936150",
+    "creator": {
+      "id": 1194801,
+      "name": "unknown28",
+      "first_name": "Shwetank",
+      "last_name": "Verma",
+      "url": "https:\/\/api.thingiverse.com\/users\/unknown28",
+      "public_url": "https:\/\/www.thingiverse.com\/unknown28",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8d\/df\/ab\/74\/88\/fc260816e76cce6a210ff09138778106_thumb_medium.jpg",
+      "count_of_followers": 5,
+      "count_of_following": 0,
+      "count_of_designs": 2,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Allahabad",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2f\/85\/ce\/99\/70\/233685f1f88f138dc5ecc887165e3f17_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-12-03T09:28:35+00:00",
+    "modified": "2016-12-03T09:28:35+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 146,
+    "is_liked": false,
+    "collect_count": 274,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 5191217,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/71\/6b\/29\/36\/16118620_1220673348011005_423642659_n.jpg",
+      "name": "16118620_1220673348011005_423642659_n.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/11\/2c\/1a\/ab\/140389a628037c8311b6556f47c55056_display_small.jpg"
+        }
+      ],
+      "added": "2017-01-15T15:29:20+00:00"
+    },
+    "description": "This multipurpose hand prosthetic is designed for people without fingers so that they could perform some basic activities. While there are plenty of such projects online, they are mostly either too simple or are too expensive and too complex for cheap mass production. As an Indian, I have designed this especially for people living in poor countries where this prosthetic can be distributed very cost effectively by health agencies.\r\n\r\nThe arm clamp is detachable so that you can make your custom clamp according to your comfort and needs.\r\nNote: The model I printed came out quite bad because of my broken printer. I have made quite a lot of design changes. However, I haven't had the time to test those changes. So it would be amazing if anyone could print this and give me some feedback in the comments.\r\nWith this, people without fingers should be able to:\r\nUse Pens and Pencils\r\nUse Cutlery\r\nUse Toothbrush\r\nAdded features:\r\nHold cups\r\nHold bags\r\nUse touchscreens\r\nUse 4mm Hex tool bits and interchangeable screwdriver sets\r\nI got the inspiration after stumbling different assistive devices on Thinigiverse .\r\nI am also uploading a version without the cup holder.",
+    "instructions": "",
+    "description_html": "<div><p>This multipurpose hand prosthetic is designed for people without fingers so that they could perform some basic activities. While there are plenty of such projects online, they are mostly either too simple or are too expensive and too complex for cheap mass production. As an Indian, I have designed this especially for people living in poor countries where this prosthetic can be distributed very cost effectively by health agencies.<\/p><p>The arm clamp is detachable so that you can make your custom clamp according to your comfort and needs.<br>Note: The model I printed came out quite bad because of my broken printer. I have made quite a lot of design changes. However, I haven't had the time to test those changes. So it would be amazing if anyone could print this and give me some feedback in the comments.<br>With this, people without fingers should be able to:<br>Use Pens and Pencils<br>Use Cutlery<br>Use Toothbrush<br>Added features:<br>Hold cups<br>Hold bags<br>Use touchscreens<br>Use 4mm Hex tool bits and interchangeable screwdriver sets<br>I got the inspiration after stumbling different assistive devices on Thinigiverse .<br>I am also uploading a version without the cup holder.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This multipurpose hand prosthetic is designed for people without fingers so that they could perform some basic activities. While there are plenty of such projects online, they are mostly either too simple or are too expensive and too complex for cheap mass production. As an Indian, I have designed this especially for people living in poor countries where this prosthetic can be distributed very cost effectively by health agencies.<\/p><p>The arm clamp is detachable so that you can make your custom clamp according to your comfort and needs.<br>Note: The model I printed came out quite bad because of my broken printer. I have made quite a lot of design changes. However, I haven't had the time to test those changes. So it would be amazing if anyone could print this and give me some feedback in the comments.<br>With this, people without fingers should be able to:<br>Use Pens and Pencils<br>Use Cutlery<br>Use Toothbrush<br>Added features:<br>Hold cups<br>Hold bags<br>Use touchscreens<br>Use 4mm Hex tool bits and interchangeable screwdriver sets<br>I got the inspiration after stumbling different assistive devices on Thinigiverse .<br>I am also uploading a version without the cup holder.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Self Made<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;At least 20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>This arm is a mixture of many simpler designs available on thingiverse. I have tried to add as many as functionalities to this one arm as possible.<br>I used CATIA V5 to model this arm.<\/p><\/div><h1 class=\"thing-component-header custom additional-steps\">Additional steps<\/h1><p class=\"detail-title\"><strong>Making the stylus<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;In order for the stylus to work, it should be conductive and be connected electrically to your body. There are many ways to do that which can be found in this wikihow article:&lt;br&gt;&lt;a rel=\"ugc nofollow\" href=\"http:\/\/www.wikihow.com\/Make-a-Stylus\"&gt;http:\/\/www.wikihow.com\/Make-a-Stylus&lt;\/a&gt;&lt;br&gt;I will describe here the simplest way and my favourite way to do it:&lt;br&gt;1) Take a small piece of aluminium foil.&lt;br&gt;2) Attach it with a piece of wire.&lt;br&gt;3) Wrap this around the stylus tip and stick it with tape.&lt;br&gt;4) Extend the wire to the clamps.&lt;br&gt;5) Add a small piece of metal to the other end of the wire.&lt;br&gt;6) Whenever you want to use, attach this metal piece to your body and the stylus will start working&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This multipurpose hand prosthetic is designed for people without fingers so that they could perform some basic activities. While there are plenty of such projects online, they are mostly either too simple or are too expensive and too complex for cheap mass production. As an Indian, I have designed this especially for people living in poor countries where this prosthetic can be distributed very cost effectively by health agencies.<\/p><p>The arm clamp is detachable so that you can make your custom clamp according to your comfort and needs.<br>Note: The model I printed came out quite bad because of my broken printer. I have made quite a lot of design changes. However, I haven't had the time to test those changes. So it would be amazing if anyone could print this and give me some feedback in the comments.<br>With this, people without fingers should be able to:<br>Use Pens and Pencils<br>Use Cutlery<br>Use Toothbrush<br>Added features:<br>Hold cups<br>Hold bags<br>Use touchscreens<br>Use 4mm Hex tool bits and interchangeable screwdriver sets<br>I got the inspiration after stumbling different assistive devices on Thinigiverse .<br>I am also uploading a version without the cup holder.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Self Made<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "infill": "<div><p>At least 20%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>This arm is a mixture of many simpler designs available on thingiverse. I have tried to add as many as functionalities to this one arm as possible.<br>I used CATIA V5 to model this arm.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Additional steps",
+        "data": [
+          {
+            "title": "Making the stylus",
+            "content": "<div><p>In order for the stylus to work, it should be conductive and be connected electrically to your body. There are many ways to do that which can be found in this wikihow article:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.wikihow.com\/Make-a-Stylus\">http:\/\/www.wikihow.com\/Make-a-Stylus<\/a><br>I will describe here the simplest way and my favourite way to do it:<br>1) Take a small piece of aluminium foil.<br>2) Attach it with a piece of wire.<br>3) Wrap this around the stylus tip and stick it with tape.<br>4) Extend the wire to the clamps.<br>5) Add a small piece of metal to the other end of the wire.<br>6) Whenever you want to use, attach this metal piece to your body and the stylus will start working<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1936150\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1936150\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1936150\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1936150\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1936150\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1936150\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "cup holder",
+        "tag": "cup_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cup_holder",
+        "count": 2302,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cup_holder\/things",
+        "absolute_url": "\/tag:cup_holder"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2140,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "pen",
+        "tag": "pen",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pen",
+        "count": 3738,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pen\/things",
+        "absolute_url": "\/tag:pen"
+      },
+      {
+        "name": "pencil holder",
+        "tag": "pencil_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder",
+        "count": 3923,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder\/things",
+        "absolute_url": "\/tag:pencil_holder"
+      },
+      {
+        "name": "pen holder",
+        "tag": "pen_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pen_holder",
+        "count": 4400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pen_holder\/things",
+        "absolute_url": "\/tag:pen_holder"
+      },
+      {
+        "name": "RemixChallenge",
+        "tag": "remixchallenge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/remixchallenge",
+        "count": 355,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/remixchallenge\/things",
+        "absolute_url": "\/tag:RemixChallenge"
+      },
+      {
+        "name": "typing",
+        "tag": "typing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/typing",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/typing\/things",
+        "absolute_url": "\/tag:typing"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1936150\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1076,
+    "view_count": 5534,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1871831,
+        "name": "Open Assistive Technology - Bag Holder",
+        "url": "https:\/\/api.thingiverse.com\/things\/1871831",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1871831",
+        "created_at": "2016-11-05T01:50:01+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2a\/55\/85\/86\/01\/1a19a70783ce94d22c9a9f3157ebc453_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/2a\/55\/85\/86\/01\/1a19a70783ce94d22c9a9f3157ebc453_preview_card.jpg",
+        "creator": {
+          "id": 957394,
+          "name": "ivan_gee",
+          "first_name": "Ivan",
+          "last_name": "Gee",
+          "url": "https:\/\/api.thingiverse.com\/users\/ivan_gee",
+          "public_url": "https:\/\/www.thingiverse.com\/ivan_gee",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_designer_thumb_medium.jpg",
+          "count_of_followers": 17,
+          "count_of_following": 4,
+          "count_of_designs": 4,
+          "collection_count": 4,
+          "make_count": 2,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Vancouver BC CANADA",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 2,
+        "make_count": 0,
+        "like_count": 201,
+        "tags": [
+          {
+            "name": "3dprintable",
+            "tag": "3dprintable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/3dprintable",
+            "count": 3404,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprintable\/things",
+            "absolute_url": "\/tag:3dprintable"
+          },
+          {
+            "name": "3dprinting",
+            "tag": "3dprinting",
+            "url": "https:\/\/api.thingiverse.com\/tags\/3dprinting",
+            "count": 2298,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprinting\/things",
+            "absolute_url": "\/tag:3dprinting"
+          },
+          {
+            "name": "accessibility",
+            "tag": "accessibility",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+            "count": 568,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+            "absolute_url": "\/tag:accessibility"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "holder",
+            "tag": "holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+            "count": 43024,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+            "absolute_url": "\/tag:holder"
+          },
+          {
+            "name": "open source",
+            "tag": "open_source",
+            "url": "https:\/\/api.thingiverse.com\/tags\/open_source",
+            "count": 501,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/open_source\/things",
+            "absolute_url": "\/tag:open_source"
+          },
+          {
+            "name": "technology",
+            "tag": "technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+            "count": 386,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+            "absolute_url": "\/tag:technology"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 422,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1315004,
+        "name": "touchscreen typing cuff stylus rev 2",
+        "url": "https:\/\/api.thingiverse.com\/things\/1315004",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1315004",
+        "created_at": "2016-02-03T20:28:22+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4c\/52\/d7\/c0\/39\/b3696f08a1e6f1d98be80953d7439d05_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/4c\/52\/d7\/c0\/39\/b3696f08a1e6f1d98be80953d7439d05_preview_card.JPG",
+        "creator": {
+          "id": 604166,
+          "name": "accesswoodworx",
+          "first_name": "Michael",
+          "last_name": "Papp",
+          "url": "https:\/\/api.thingiverse.com\/users\/accesswoodworx",
+          "public_url": "https:\/\/www.thingiverse.com\/accesswoodworx",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/13\/db\/ac\/a4\/df\/Access_Woodworx_square.jpg",
+          "count_of_followers": 35,
+          "count_of_following": 8,
+          "count_of_designs": 36,
+          "collection_count": 11,
+          "make_count": 11,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Birmingham, AL",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 2,
+        "like_count": 89,
+        "tags": [
+          {
+            "name": "accessibility",
+            "tag": "accessibility",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+            "count": 568,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+            "absolute_url": "\/tag:accessibility"
+          },
+          {
+            "name": "adapted device",
+            "tag": "adapted_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/adapted_device",
+            "count": 10,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/adapted_device\/things",
+            "absolute_url": "\/tag:adapted_device"
+          },
+          {
+            "name": "android",
+            "tag": "android",
+            "url": "https:\/\/api.thingiverse.com\/tags\/android",
+            "count": 1556,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/android\/things",
+            "absolute_url": "\/tag:android"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 533,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "disabled",
+            "tag": "disabled",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+            "count": 274,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+            "absolute_url": "\/tag:disabled"
+          },
+          {
+            "name": "iOS",
+            "tag": "ios",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ios",
+            "count": 102,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ios\/things",
+            "absolute_url": "\/tag:iOS"
+          },
+          {
+            "name": "iPad",
+            "tag": "ipad",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ipad",
+            "count": 1792,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad\/things",
+            "absolute_url": "\/tag:iPad"
+          },
+          {
+            "name": "iphone",
+            "tag": "iphone",
+            "url": "https:\/\/api.thingiverse.com\/tags\/iphone",
+            "count": 7804,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone\/things",
+            "absolute_url": "\/tag:iphone"
+          },
+          {
+            "name": "rehab",
+            "tag": "rehab",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rehab",
+            "count": 25,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rehab\/things",
+            "absolute_url": "\/tag:rehab"
+          },
+          {
+            "name": "rehabilitation",
+            "tag": "rehabilitation",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+            "count": 123,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+            "absolute_url": "\/tag:rehabilitation"
+          },
+          {
+            "name": "splint",
+            "tag": "splint",
+            "url": "https:\/\/api.thingiverse.com\/tags\/splint",
+            "count": 113,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/splint\/things",
+            "absolute_url": "\/tag:splint"
+          },
+          {
+            "name": "tablet",
+            "tag": "tablet",
+            "url": "https:\/\/api.thingiverse.com\/tags\/tablet",
+            "count": 2436,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/tablet\/things",
+            "absolute_url": "\/tag:tablet"
+          },
+          {
+            "name": "typing",
+            "tag": "typing",
+            "url": "https:\/\/api.thingiverse.com\/tags\/typing",
+            "count": 23,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/typing\/things",
+            "absolute_url": "\/tag:typing"
+          },
+          {
+            "name": "typing aid",
+            "tag": "typing_aid",
+            "url": "https:\/\/api.thingiverse.com\/tags\/typing_aid",
+            "count": 10,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/typing_aid\/things",
+            "absolute_url": "\/tag:typing_aid"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 218,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1079951,
+        "name": "Adaptive Silverware Handles #AssistiveTech",
+        "url": "https:\/\/api.thingiverse.com\/things\/1079951",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1079951",
+        "created_at": "2015-10-19T06:03:14+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/41\/75\/ee\/d3\/03\/IMG_6993_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/41\/75\/ee\/d3\/03\/IMG_6993_preview_card.JPG",
+        "creator": {
+          "id": 428178,
+          "name": "Eagleknot",
+          "first_name": "3D-PT",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/Eagleknot",
+          "public_url": "https:\/\/www.thingiverse.com\/Eagleknot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f2\/18\/93\/b4\/c3\/ACS_fair_thumb_medium.jpg",
+          "count_of_followers": 252,
+          "count_of_following": 1504,
+          "count_of_designs": 35,
+          "collection_count": 4,
+          "make_count": 0,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/ee\/ac\/cd\/14\/41\/0f0d409569a8736bdb66c742bba7ecad_preview_large.JPG",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 1,
+        "like_count": 59,
+        "tags": [
+          {
+            "name": "adaptor",
+            "tag": "adaptor",
+            "url": "https:\/\/api.thingiverse.com\/tags\/adaptor",
+            "count": 1163,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptor\/things",
+            "absolute_url": "\/tag:adaptor"
+          },
+          {
+            "name": "arthritis",
+            "tag": "arthritis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/arthritis",
+            "count": 103,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/arthritis\/things",
+            "absolute_url": "\/tag:arthritis"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "AutoCAD",
+            "tag": "autocad",
+            "url": "https:\/\/api.thingiverse.com\/tags\/autocad",
+            "count": 112,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/autocad\/things",
+            "absolute_url": "\/tag:AutoCAD"
+          },
+          {
+            "name": "contest",
+            "tag": "contest",
+            "url": "https:\/\/api.thingiverse.com\/tags\/contest",
+            "count": 147,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/contest\/things",
+            "absolute_url": "\/tag:contest"
+          },
+          {
+            "name": "education",
+            "tag": "education",
+            "url": "https:\/\/api.thingiverse.com\/tags\/education",
+            "count": 2150,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/education\/things",
+            "absolute_url": "\/tag:education"
+          },
+          {
+            "name": "ergonomic",
+            "tag": "ergonomic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ergonomic",
+            "count": 539,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ergonomic\/things",
+            "absolute_url": "\/tag:ergonomic"
+          },
+          {
+            "name": "ergonomic grip",
+            "tag": "ergonomic_grip",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ergonomic_grip",
+            "count": 92,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ergonomic_grip\/things",
+            "absolute_url": "\/tag:ergonomic_grip"
+          },
+          {
+            "name": "flatware",
+            "tag": "flatware",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flatware",
+            "count": 19,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flatware\/things",
+            "absolute_url": "\/tag:flatware"
+          },
+          {
+            "name": "grip",
+            "tag": "grip",
+            "url": "https:\/\/api.thingiverse.com\/tags\/grip",
+            "count": 2121,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/grip\/things",
+            "absolute_url": "\/tag:grip"
+          },
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "handicap",
+            "tag": "handicap",
+            "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+            "count": 258,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+            "absolute_url": "\/tag:handicap"
+          },
+          {
+            "name": "handle",
+            "tag": "handle",
+            "url": "https:\/\/api.thingiverse.com\/tags\/handle",
+            "count": 6333,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/handle\/things",
+            "absolute_url": "\/tag:handle"
+          },
+          {
+            "name": "Hand tool",
+            "tag": "hand_tool",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand_tool",
+            "count": 190,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tool\/things",
+            "absolute_url": "\/tag:Hand_tool"
+          },
+          {
+            "name": "hand tools",
+            "tag": "hand_tools",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+            "count": 2140,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+            "absolute_url": "\/tag:hand_tools"
+          },
+          {
+            "name": "Kitchen Utensils",
+            "tag": "kitchen_utensils",
+            "url": "https:\/\/api.thingiverse.com\/tags\/kitchen_utensils",
+            "count": 662,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/kitchen_utensils\/things",
+            "absolute_url": "\/tag:Kitchen_Utensils"
+          },
+          {
+            "name": "pencil",
+            "tag": "pencil",
+            "url": "https:\/\/api.thingiverse.com\/tags\/pencil",
+            "count": 2472,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/pencil\/things",
+            "absolute_url": "\/tag:pencil"
+          },
+          {
+            "name": "pencil holder",
+            "tag": "pencil_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder",
+            "count": 3923,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/pencil_holder\/things",
+            "absolute_url": "\/tag:pencil_holder"
+          },
+          {
+            "name": "pen holder",
+            "tag": "pen_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/pen_holder",
+            "count": 4400,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/pen_holder\/things",
+            "absolute_url": "\/tag:pen_holder"
+          },
+          {
+            "name": "silverware",
+            "tag": "silverware",
+            "url": "https:\/\/api.thingiverse.com\/tags\/silverware",
+            "count": 103,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/silverware\/things",
+            "absolute_url": "\/tag:silverware"
+          },
+          {
+            "name": "solidworks",
+            "tag": "solidworks",
+            "url": "https:\/\/api.thingiverse.com\/tags\/solidworks",
+            "count": 1630,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/solidworks\/things",
+            "absolute_url": "\/tag:solidworks"
+          },
+          {
+            "name": "utensil holder",
+            "tag": "utensil_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/utensil_holder",
+            "count": 101,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/utensil_holder\/things",
+            "absolute_url": "\/tag:utensil_holder"
+          },
+          {
+            "name": "Writing",
+            "tag": "writing",
+            "url": "https:\/\/api.thingiverse.com\/tags\/writing",
+            "count": 197,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/writing\/things",
+            "absolute_url": "\/tag:Writing"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 149,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1079614,
+        "name": "Pen holder for hANDi",
+        "url": "https:\/\/api.thingiverse.com\/things\/1079614",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1079614",
+        "created_at": "2015-10-18T22:11:00+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d1\/66\/b9\/ec\/a1\/IMG_20151018_232827_zpshujdi3wb_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/d1\/66\/b9\/ec\/a1\/IMG_20151018_232827_zpshujdi3wb_preview_card.JPG",
+        "creator": {
+          "id": 419925,
+          "name": "Teljemo",
+          "first_name": "Emanuel",
+          "last_name": "Teljemo",
+          "url": "https:\/\/api.thingiverse.com\/users\/Teljemo",
+          "public_url": "https:\/\/www.thingiverse.com\/Teljemo",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/aa\/8b\/ff\/99\/d5\/076ab678fb6b7d3f8e33c297a2da5140_thumb_medium.jpg",
+          "count_of_followers": 84,
+          "count_of_following": 12,
+          "count_of_designs": 45,
+          "collection_count": 21,
+          "make_count": 36,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Sweden",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/5e\/a5\/35\/32\/b500b8a8c851f8f3969e7b4f791cc305_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 2,
+        "make_count": 0,
+        "like_count": 30,
+        "tags": [
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "hANDi",
+            "tag": "handi",
+            "url": "https:\/\/api.thingiverse.com\/tags\/handi",
+            "count": 5,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/handi\/things",
+            "absolute_url": "\/tag:hANDi"
+          },
+          {
+            "name": "pen holder",
+            "tag": "pen_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/pen_holder",
+            "count": 4400,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/pen_holder\/things",
+            "absolute_url": "\/tag:pen_holder"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 44,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1098424,
+        "name": "Support customizable utensils",
+        "url": "https:\/\/api.thingiverse.com\/things\/1098424",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1098424",
+        "created_at": "2015-10-28T23:13:12+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c8\/5e\/a9\/ab\/80\/02_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/c8\/5e\/a9\/ab\/80\/02_preview_card.JPG",
+        "creator": {
+          "id": 582986,
+          "name": "Bachm",
+          "first_name": "VAGNER",
+          "last_name": "BACHM",
+          "url": "https:\/\/api.thingiverse.com\/users\/Bachm",
+          "public_url": "https:\/\/www.thingiverse.com\/Bachm",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/0e\/85\/e7\/d8\/45\/logo_tech_tree_3d.PNG",
+          "count_of_followers": 12,
+          "count_of_following": 37,
+          "count_of_designs": 8,
+          "collection_count": 52,
+          "make_count": 2,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "BRAZIL",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-9_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 0,
+        "like_count": 105,
+        "tags": [
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 255,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Clamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/34\/1d\/c8\/89\/Clamp.stl"
+        },
+        {
+          "name": "Arm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/12\/42\/48\/a7\/Arm.stl"
+        },
+        {
+          "name": "Arm_without_cup_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/3d\/18\/a3\/ab\/Arm_without_cup_holder.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "16118620_1220673348011005_423642659_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/71\/6b\/29\/36\/16118620_1220673348011005_423642659_n.jpg"
+        },
+        {
+          "name": "16121868_1220674234677583_1859632390_o.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/d9\/b7\/36\/56\/16121868_1220674234677583_1859632390_o.jpg"
+        },
+        {
+          "name": "16118167_1220674574677549_1782896608_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/8b\/2c\/72\/0b\/16118167_1220674574677549_1782896608_n.jpg"
+        },
+        {
+          "name": "16010236_1220673004677706_510052817_o.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/58\/bb\/dd\/7e\/16010236_1220673004677706_510052817_o.jpg"
+        },
+        {
+          "name": "render_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/9f\/88\/0b\/a6\/render_2.jpg"
+        },
+        {
+          "name": "Capture4.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/28\/79\/07\/08\/Capture4.JPG"
+        },
+        {
+          "name": "Whole_render.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/db\/e8\/46\/8c\/Whole_render.jpg"
+        },
+        {
+          "name": "17ff1fcb04883f3226db8908b79d39e1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fb\/97\/5c\/24\/50\/17ff1fcb04883f3226db8908b79d39e1.png"
+        },
+        {
+          "name": "b70f765cdd1a89b97f04a5d22f4bb8b1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/06\/4f\/46\/81\/b70f765cdd1a89b97f04a5d22f4bb8b1.png"
+        },
+        {
+          "name": "a76c85d2361287c4a5536112f11515fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d5\/5d\/10\/ff\/a7\/a76c85d2361287c4a5536112f11515fc.png"
+        }
+      ]
+    }
+  }
+}
