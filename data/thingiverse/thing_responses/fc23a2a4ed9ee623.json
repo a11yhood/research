@@ -1,0 +1,491 @@
+{
+  "created_at": "2025-07-10T03:52:13.966305+00:00",
+  "elapsed": 0.164248,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b6e4b71cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:13 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:13 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3710622?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3710622?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3710622,
+    "name": "Tactile Classroom Model",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3710622",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3710622",
+    "creator": {
+      "id": 2652477,
+      "name": "ntaufscar",
+      "first_name": "NTA",
+      "last_name": "UFSCar Campus Sorocaba",
+      "url": "https:\/\/api.thingiverse.com\/users\/ntaufscar",
+      "public_url": "https:\/\/www.thingiverse.com\/ntaufscar",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/78\/64\/6b\/10\/0677fe0ca2f244ce0c2264d6557c3057_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sorocaba, S\u00e3o Paulo, Brazil",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/1e\/a8\/f6\/84\/d62608f0b1b91c7c29beb0b93c3a3ba8_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-24T12:57:12+00:00",
+    "modified": "2019-06-24T12:57:12+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 1,
+    "is_liked": false,
+    "collect_count": 10,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 11033764,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/20\/9c\/1f\/57\/Classroom.jpg",
+      "name": "Classroom.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/74\/e4\/c7\/2d\/438be2e65f053032ae31c8149856e397_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-24T12:46:04+00:00"
+    },
+    "description": "This is a tactile model of a generic classroom to help teachers to teach basic notions of Geography from the perception and recognition of what is around the visually impaired student, inside the classroom. The wind rose is used to carry the student out the classroom and to introduce him\/her to the comprehension of the macroambient which surrounds his\/her classroom. In order to operate this resource is necessary a perforated wood sheet for tools (20.5 x 17.5 mm and 4.0 mm hole) and a MDF sheet (41.5 x 37.0 mm).\r\n\r\nAll brailles are in PORTUGUESE.\r\n\r\nThis assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.\r\n\r\nThe research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.",
+    "instructions": "",
+    "description_html": "<div><p>This is a tactile model of a generic classroom to help teachers to teach basic notions of Geography from the perception and recognition of what is around the visually impaired student, inside the classroom. The wind rose is used to carry the student out the classroom and to introduce him\/her to the comprehension of the macroambient which surrounds his\/her classroom. In order to operate this resource is necessary a perforated wood sheet for tools (20.5 x 17.5 mm and 4.0 mm hole) and a MDF sheet (41.5 x 37.0 mm).<\/p><p>All brailles are in PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a tactile model of a generic classroom to help teachers to teach basic notions of Geography from the perception and recognition of what is around the visually impaired student, inside the classroom. The wind rose is used to carry the student out the classroom and to introduce him\/her to the comprehension of the macroambient which surrounds his\/her classroom. In order to operate this resource is necessary a perforated wood sheet for tools (20.5 x 17.5 mm and 4.0 mm hole) and a MDF sheet (41.5 x 37.0 mm).<\/p><p>All brailles are in PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Raise 3D N2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Normal&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;85 to 100%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; 3D Fila ABS<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a tactile model of a generic classroom to help teachers to teach basic notions of Geography from the perception and recognition of what is around the visually impaired student, inside the classroom. The wind rose is used to carry the student out the classroom and to introduce him\/her to the comprehension of the macroambient which surrounds his\/her classroom. In order to operate this resource is necessary a perforated wood sheet for tools (20.5 x 17.5 mm and 4.0 mm hole) and a MDF sheet (41.5 x 37.0 mm).<\/p><p>All brailles are in PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Raise 3D N2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>Normal<\/p><\/div>",
+            "infill": "<div><p>85 to 100%<\/p><\/div>",
+            "filament_brand": "<div><p>3D Fila<\/p><\/div>",
+            "filament_material": "<div><p>ABS<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3710622\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3710622\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3710622\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3710622\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3710622\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3710622\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3710622\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 852,
+    "view_count": 284,
+    "education": {
+      "grades": {
+        "18": "3rd Grade",
+        "19": "4th Grade",
+        "20": "5th Grade",
+        "21": "6th Grade",
+        "22": "7th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Geography",
+          "slug": "geography",
+          "id": 15
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ClassroomChair.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/06\/ce\/28\/11\/ClassroomChair.stl"
+        },
+        {
+          "name": "WindRoseCollateralPoints.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/87\/9e\/3a\/58\/WindRoseCollateralPoints.stl"
+        },
+        {
+          "name": "DisabledPersonClassroomChair.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/cd\/55\/9e\/a2\/DisabledPersonClassroomChair.stl"
+        },
+        {
+          "name": "WindowsWall.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/80\/60\/81\/6e\/WindowsWall.stl"
+        },
+        {
+          "name": "BackgroundWall.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/9f\/20\/00\/c3\/BackgroundWall.stl"
+        },
+        {
+          "name": "MagneticSouth.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/83\/60\/20\/4b\/MagneticSouth.stl"
+        },
+        {
+          "name": "LowerBlockerWindRose.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/29\/12\/17\/c3\/LowerBlockerWindRose.stl"
+        },
+        {
+          "name": "LowerPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/ca\/e1\/7b\/67\/LowerPin.stl"
+        },
+        {
+          "name": "Wind_Rose.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/a6\/0f\/37\/01\/Wind_Rose.stl"
+        },
+        {
+          "name": "DoorWall.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/64\/76\/9f\/d3\/DoorWall.stl"
+        },
+        {
+          "name": "BlackboardWall.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/6e\/f5\/8f\/ce\/BlackboardWall.stl"
+        },
+        {
+          "name": "WindRoseCardinalPoints.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/ba\/a2\/58\/2c\/WindRoseCardinalPoints.stl"
+        },
+        {
+          "name": "TeacherDesk.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/02\/15\/7d\/18\/TeacherDesk.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Classroom.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/20\/9c\/1f\/57\/Classroom.jpg"
+        },
+        {
+          "name": "b7a45183b87cace07bf7345d8cf26fe1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/38\/af\/60\/63\/b7a45183b87cace07bf7345d8cf26fe1.png"
+        },
+        {
+          "name": "6877a62020e8b06c6161cf8d252d0b8a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b5\/22\/e4\/08\/98\/6877a62020e8b06c6161cf8d252d0b8a.png"
+        },
+        {
+          "name": "e1cc42519a0268f65335ff308c4e90f4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/57\/47\/ce\/01\/bc\/e1cc42519a0268f65335ff308c4e90f4.png"
+        },
+        {
+          "name": "5941469647f9777af2123587adcd5ded.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/4f\/c2\/ad\/32\/5941469647f9777af2123587adcd5ded.png"
+        },
+        {
+          "name": "3cf9672d02167e5552759a99407d361c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/32\/d0\/b4\/78\/27\/3cf9672d02167e5552759a99407d361c.png"
+        },
+        {
+          "name": "80a97228bd7f71bea25708432ff83106.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/06\/d0\/60\/83\/d2\/80a97228bd7f71bea25708432ff83106.png"
+        },
+        {
+          "name": "706ed484e1dea791cb000f88fa2bf290.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/b7\/ec\/fc\/2d\/706ed484e1dea791cb000f88fa2bf290.png"
+        },
+        {
+          "name": "dff6f35500736eb764deb1238310bcca.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/80\/ff\/00\/3a\/dff6f35500736eb764deb1238310bcca.png"
+        },
+        {
+          "name": "80e5b22ca9e4419f432c48879b771115.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/2f\/a7\/e3\/89\/80e5b22ca9e4419f432c48879b771115.png"
+        },
+        {
+          "name": "b8b80d1521945854c59d39ce9913f3aa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/96\/f4\/84\/26\/b8b80d1521945854c59d39ce9913f3aa.png"
+        },
+        {
+          "name": "b9082d1790366c5bf6f02f18fe059eb6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0c\/07\/ec\/08\/8d\/b9082d1790366c5bf6f02f18fe059eb6.png"
+        },
+        {
+          "name": "cbdb118df0ecd222964240aa77417faf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/67\/2a\/86\/70\/cbdb118df0ecd222964240aa77417faf.png"
+        },
+        {
+          "name": "86dfb247beaca34ebcb9b98a94a85f1e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/d4\/7f\/28\/2f\/86dfb247beaca34ebcb9b98a94a85f1e.png"
+        }
+      ]
+    }
+  }
+}

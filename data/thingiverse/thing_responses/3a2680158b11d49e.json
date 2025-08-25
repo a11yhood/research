@@ -1,0 +1,640 @@
+{
+  "created_at": "2025-04-12T03:32:39.088733+00:00",
+  "elapsed": 0.193531,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa85f296aeb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:39 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:39 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2586738?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2586738?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2586738,
+    "name": "OpenBraille",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2586738",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2586738",
+    "creator": {
+      "id": 82607,
+      "name": "carloscampos",
+      "first_name": "",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/carloscampos",
+      "public_url": "https:\/\/www.thingiverse.com\/carloscampos",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 10,
+      "count_of_following": 0,
+      "count_of_designs": 11,
+      "collection_count": 1,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-12-28T22:51:36+00:00",
+    "modified": "2017-12-28T22:51:36+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 95,
+    "is_liked": false,
+    "collect_count": 154,
+    "is_collected": false,
+    "comment_count": 7,
+    "is_watched": false,
+    "default_image": {
+      "id": 6874267,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/d4\/f1\/d0\/a3\/IMG_3955.jpg",
+      "name": "IMG_3955.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/b5\/5d\/2e\/2b\/960ade13fc2a23951daed09e5f2d1ba4_display_small.jpg"
+        }
+      ],
+      "added": "2017-10-15T06:18:16+00:00"
+    },
+    "description": "I was quite surprised to find out how expensive assistive technology is. A mechanical braille embosser cost over a 1000$USD and an electronic goes from 3000$ up to 5000$. I tough about making one for a friend but I couldn't find a DIY version, so I decided to make one myself. This isn\u2019t, by any means, a finish product. By making the machine an open source project, I am hoping others will improve the design. In a near future, with the help of others makers, OpenBraille will reduce the cost of these printers and it will allow anyone with a visual imparity to read and write. So, if you know someone, if you are a maker, if you are curious or if you want to help out, please feel free to follow this tutorial and help me built a community around OpenBraille.\r\nThe encoder is pretty much the heart of the embosser. Most of the commercial machines emboss the dots by impacting the sheet. Because it\u2019s harder to build a precise machine out of 3D printed parts, I designed a different system. Instead of impacting and applying all the energy in a single hit, OpenBraille uses a physical encoder and a roller. This way, the embossing is gradually done and the parts can be easily printed.\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&feature=youtu.be\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o\r\n\r\nFollow the instructions at :\r\nhttps:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser\r\n\r\nFacebook page:\r\nhttps:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>I was quite surprised to find out how expensive assistive technology is. A mechanical braille embosser cost over a 1000$USD and an electronic goes from 3000$ up to 5000$. I tough about making one for a friend but I couldn't find a DIY version, so I decided to make one myself. This isn&rsquo;t, by any means, a finish product. By making the machine an open source project, I am hoping others will improve the design. In a near future, with the help of others makers, OpenBraille will reduce the cost of these printers and it will allow anyone with a visual imparity to read and write. So, if you know someone, if you are a maker, if you are curious or if you want to help out, please feel free to follow this tutorial and help me built a community around OpenBraille.<br>The encoder is pretty much the heart of the embosser. Most of the commercial machines emboss the dots by impacting the sheet. Because it&rsquo;s harder to build a precise machine out of 3D printed parts, I designed a different system. Instead of impacting and applying all the energy in a single hit, OpenBraille uses a physical encoder and a roller. This way, the embossing is gradually done and the parts can be easily printed.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be<\/a><\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o\">https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o<\/a><\/p><p>Follow the instructions at :<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser\">https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser<\/a><\/p><p>Facebook page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/\">https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I was quite surprised to find out how expensive assistive technology is. A mechanical braille embosser cost over a 1000$USD and an electronic goes from 3000$ up to 5000$. I tough about making one for a friend but I couldn't find a DIY version, so I decided to make one myself. This isn&rsquo;t, by any means, a finish product. By making the machine an open source project, I am hoping others will improve the design. In a near future, with the help of others makers, OpenBraille will reduce the cost of these printers and it will allow anyone with a visual imparity to read and write. So, if you know someone, if you are a maker, if you are curious or if you want to help out, please feel free to follow this tutorial and help me built a community around OpenBraille.<br>The encoder is pretty much the heart of the embosser. Most of the commercial machines emboss the dots by impacting the sheet. Because it&rsquo;s harder to build a precise machine out of 3D printed parts, I designed a different system. Instead of impacting and applying all the energy in a single hit, OpenBraille uses a physical encoder and a roller. This way, the embossing is gradually done and the parts can be easily printed.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be<\/a><\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o\">https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o<\/a><\/p><p>Follow the instructions at :<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser\">https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser<\/a><\/p><p>Facebook page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/\">https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I was quite surprised to find out how expensive assistive technology is. A mechanical braille embosser cost over a 1000$USD and an electronic goes from 3000$ up to 5000$. I tough about making one for a friend but I couldn't find a DIY version, so I decided to make one myself. This isn&rsquo;t, by any means, a finish product. By making the machine an open source project, I am hoping others will improve the design. In a near future, with the help of others makers, OpenBraille will reduce the cost of these printers and it will allow anyone with a visual imparity to read and write. So, if you know someone, if you are a maker, if you are curious or if you want to help out, please feel free to follow this tutorial and help me built a community around OpenBraille.<br>The encoder is pretty much the heart of the embosser. Most of the commercial machines emboss the dots by impacting the sheet. Because it&rsquo;s harder to build a precise machine out of 3D printed parts, I designed a different system. Instead of impacting and applying all the energy in a single hit, OpenBraille uses a physical encoder and a roller. This way, the embossing is gradually done and the parts can be easily printed.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=ocXuGkUpLOI&amp;feature=youtu.be<\/a><\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o\">https:\/\/www.youtube.com\/watch?v=qmcVlPqy9-o<\/a><\/p><p>Follow the instructions at :<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser\">https:\/\/www.instructables.com\/id\/OpenBraille-a-DIY-Braille-Embosser<\/a><\/p><p>Facebook page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/\">https:\/\/www.facebook.com\/OpenBraille-Braille-printer-in-OpenSource-109726986377498\/<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2586738\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2586738\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2586738\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2586738\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2586738\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2586738\/tags",
+    "tags": [
+      {
+        "name": "blind",
+        "tag": "blind",
+        "url": "https:\/\/api.thingiverse.com\/tags\/blind",
+        "count": 497,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/blind\/things",
+        "absolute_url": "\/tag:blind"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 512,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "braille enbosser",
+        "tag": "braille_enbosser",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille_enbosser",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille_enbosser\/things",
+        "absolute_url": "\/tag:braille_enbosser"
+      },
+      {
+        "name": "braille printer",
+        "tag": "braille_printer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille_printer",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille_printer\/things",
+        "absolute_url": "\/tag:braille_printer"
+      },
+      {
+        "name": "OpenBraille",
+        "tag": "openbraille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openbraille",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openbraille\/things",
+        "absolute_url": "\/tag:OpenBraille"
+      },
+      {
+        "name": "visually impaired",
+        "tag": "visually_impaired",
+        "url": "https:\/\/api.thingiverse.com\/tags\/visually_impaired",
+        "count": 157,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/visually_impaired\/things",
+        "absolute_url": "\/tag:visually_impaired"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2586738\/categories",
+    "file_count": 41,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3745,
+    "view_count": 5051,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Servo_wheel_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/64\/97\/23\/5f\/Servo_wheel_V2.stl"
+        },
+        {
+          "name": "Wheel_base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/74\/9e\/8c\/9d\/Wheel_base.stl"
+        },
+        {
+          "name": "pin_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/58\/d4\/f8\/58\/pin_holder.stl"
+        },
+        {
+          "name": "Roller.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/1a\/9a\/11\/1f\/Roller.stl"
+        },
+        {
+          "name": "Spacer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/69\/44\/f4\/f8\/Spacer.stl"
+        },
+        {
+          "name": "Roller_shaft.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/51\/68\/d4\/fe\/Roller_shaft.stl"
+        },
+        {
+          "name": "Roller_shaft_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/3a\/a2\/ca\/56\/Roller_shaft_cover.stl"
+        },
+        {
+          "name": "Roller_support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/a1\/49\/23\/2e\/Roller_support.stl"
+        },
+        {
+          "name": "Bearing_support_regular.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/a3\/2a\/b6\/6c\/Bearing_support_regular.stl"
+        },
+        {
+          "name": "Bearing_support_invers.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/ba\/9d\/9b\/a6\/Bearing_support_invers.stl"
+        },
+        {
+          "name": "NEMA_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/e1\/97\/82\/e0\/NEMA_Support.stl"
+        },
+        {
+          "name": "Z_support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/e7\/e1\/6a\/36\/Z_support.stl"
+        },
+        {
+          "name": "Endstops.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/4c\/f4\/1d\/2c\/Endstops.stl"
+        },
+        {
+          "name": "Calibration_Spacer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/a1\/04\/ea\/7c\/Calibration_Spacer.stl"
+        },
+        {
+          "name": "Round_9mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/d5\/81\/0f\/7d\/Round_9mm.stl"
+        },
+        {
+          "name": "Round_3mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/94\/42\/54\/67\/Round_3mm.stl"
+        },
+        {
+          "name": "Round.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/1a\/67\/91\/f3\/Round.CATPart"
+        },
+        {
+          "name": "Spacer.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/74\/9f\/5c\/02\/Spacer.CATPart"
+        },
+        {
+          "name": "Roller_shaft.CATProduct",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/ec\/58\/61\/56\/Roller_shaft.CATProduct"
+        },
+        {
+          "name": "Calibration_Spacer.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/95\/b6\/b6\/64\/Calibration_Spacer.CATPart"
+        },
+        {
+          "name": "Endstops.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/6c\/ee\/0e\/ac\/Endstops.CATPart"
+        },
+        {
+          "name": "NEMA_Support.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/35\/89\/c1\/df\/NEMA_Support.CATPart"
+        },
+        {
+          "name": "Rod.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/a2\/a5\/e6\/cc\/Rod.CATPart"
+        },
+        {
+          "name": "pin_holder.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/9c\/7e\/b0\/86\/pin_holder.CATPart"
+        },
+        {
+          "name": "Shaft_support.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/6e\/7e\/2c\/4e\/Shaft_support.CATPart"
+        },
+        {
+          "name": "Collar_Nut.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/ca\/2c\/0e\/be\/Collar_Nut.CATPart"
+        },
+        {
+          "name": "Embosser.CATProduct",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/c7\/af\/cd\/ce\/Embosser.CATProduct"
+        },
+        {
+          "name": "NEMA17.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/ff\/89\/fe\/07\/NEMA17.CATPart"
+        },
+        {
+          "name": "Roller.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/f4\/24\/a6\/ed\/Roller.CATPart"
+        },
+        {
+          "name": "Rod_Support.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/cb\/71\/33\/64\/Rod_Support.CATPart"
+        },
+        {
+          "name": "Roller_back.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/2e\/39\/ba\/f3\/Roller_back.CATPart"
+        },
+        {
+          "name": "Bearing_support_invers.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/7b\/42\/32\/f9\/Bearing_support_invers.CATPart"
+        },
+        {
+          "name": "Roller_shaft.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/b2\/4c\/2f\/74\/Roller_shaft.CATPart"
+        },
+        {
+          "name": "Roller_support.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/39\/03\/f7\/d1\/Roller_support.CATPart"
+        },
+        {
+          "name": "Plate.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/a4\/2d\/36\/d1\/Plate.CATPart"
+        },
+        {
+          "name": "Servo_wheel.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/47\/4a\/48\/60\/Servo_wheel.CATPart"
+        },
+        {
+          "name": "Wheel_base.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/b0\/56\/26\/53\/Wheel_base.CATPart"
+        },
+        {
+          "name": "Roller_shaft_cover.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/3c\/a6\/5c\/05\/Roller_shaft_cover.CATPart"
+        },
+        {
+          "name": "bearing.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/53\/1a\/6d\/ee\/bearing.CATPart"
+        },
+        {
+          "name": "Slide_Block.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/76\/dc\/69\/41\/Slide_Block.CATPart"
+        },
+        {
+          "name": "Bearing_support.CATPart",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/0c\/f2\/dd\/13\/Bearing_support.CATPart"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_3955.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/d4\/f1\/d0\/a3\/IMG_3955.jpg"
+        },
+        {
+          "name": "IMG_3844.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/82\/92\/ed\/8c\/IMG_3844.jpg"
+        },
+        {
+          "name": "74638794f8a1de6f7d193294f45af2c1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5a\/a8\/49\/7d\/b4\/74638794f8a1de6f7d193294f45af2c1.png"
+        },
+        {
+          "name": "a40d49014e5344ee1429af0a9ef997dc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/57\/4a\/52\/78\/f4\/a40d49014e5344ee1429af0a9ef997dc.png"
+        },
+        {
+          "name": "bff192522db241a061d1824fda27980e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/0b\/e5\/f5\/32\/bff192522db241a061d1824fda27980e.png"
+        },
+        {
+          "name": "33c76f7bd6f7b599374689994c530bd4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/a9\/80\/3c\/fd\/33c76f7bd6f7b599374689994c530bd4.png"
+        },
+        {
+          "name": "c2a7ac9a967d52f8698bdf5b3aa46523.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7d\/57\/95\/7a\/a1\/c2a7ac9a967d52f8698bdf5b3aa46523.png"
+        },
+        {
+          "name": "3485f8bedf0eaf53297e25e12052ad15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cb\/1b\/4b\/8d\/3c\/3485f8bedf0eaf53297e25e12052ad15.png"
+        },
+        {
+          "name": "fef038c43ac6bc69c500aa6513ec9f55.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/f6\/31\/48\/c0\/fef038c43ac6bc69c500aa6513ec9f55.png"
+        },
+        {
+          "name": "03c638e13569924f062fea259ea943a3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/57\/92\/44\/c1\/03c638e13569924f062fea259ea943a3.png"
+        },
+        {
+          "name": "6143e64ebbb4c854cd041ce6651de302.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dd\/91\/26\/7d\/fd\/6143e64ebbb4c854cd041ce6651de302.png"
+        },
+        {
+          "name": "70b682318553db510d5c8ed6eceec083.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e7\/94\/db\/3d\/97\/70b682318553db510d5c8ed6eceec083.png"
+        },
+        {
+          "name": "99a3e631770f432ef4eb72ab2a2ebf21.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/60\/a3\/c2\/40\/e1\/99a3e631770f432ef4eb72ab2a2ebf21.png"
+        },
+        {
+          "name": "643e0940840dbd2c9b268bda68781ac1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8e\/e0\/ae\/43\/de\/643e0940840dbd2c9b268bda68781ac1.png"
+        },
+        {
+          "name": "4262f2b2e8e8ac476df16844a217d8c5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8c\/85\/56\/92\/4262f2b2e8e8ac476df16844a217d8c5.png"
+        },
+        {
+          "name": "f7d753fce8223ae29fb896e59118c212.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/59\/76\/bb\/34\/f7d753fce8223ae29fb896e59118c212.png"
+        },
+        {
+          "name": "dc7c9d06ef8c030ae7b24d624764371b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/73\/76\/8d\/9c\/dc7c9d06ef8c030ae7b24d624764371b.png"
+        },
+        {
+          "name": "239dbcf2fbe6372528803e8fc2fc1693.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/10\/2b\/d3\/82\/239dbcf2fbe6372528803e8fc2fc1693.png"
+        }
+      ]
+    }
+  }
+}

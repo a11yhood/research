@@ -1,0 +1,499 @@
+{
+  "created_at": "2025-07-10T03:52:25.343938+00:00",
+  "elapsed": 0.181582,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1bb54d37cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:25 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:25 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4128904?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4128904?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4128904,
+    "name": "Camera Mounts for Logitech Adaptive Gaming Kit",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/81\/18\/40\/42\/45\/large_display_WIN_20200126_22_57_37_Pro.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4128904",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4128904",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-01-27T04:18:33+00:00",
+    "modified": "2020-01-27T04:18:33+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 18,
+    "is_liked": false,
+    "collect_count": 38,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 12500299,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/94\/e7\/bf\/12\/WIN_20200126_22_57_37_Pro.jpg",
+      "name": "WIN_20200126_22_57_37_Pro.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/74\/df\/08\/cc\/large_thumb_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/ea\/8b\/37\/48\/medium_thumb_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/21\/cc\/61\/3b\/small_thumb_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/62\/da\/13\/54\/tiny_thumb_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/10\/7e\/49\/29\/featured_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/00\/d0\/19\/5d\/card_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/5b\/89\/41\/4a\/large_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/9c\/11\/5c\/30\/medium_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/a8\/93\/ed\/00\/small_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/ee\/bc\/aa\/9f\/birdwing_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/b5\/e2\/2d\/73\/tiny_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/63\/f0\/42\/1f\/tinycard_preview_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/18\/40\/42\/45\/large_display_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/98\/0a\/c2\/74\/medium_display_WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/3a\/06\/3f\/b6\/small_display_WIN_20200126_22_57_37_Pro.jpg"
+        }
+      ],
+      "added": "2020-01-27T04:01:37+00:00"
+    },
+    "description": "The Adaptive Gaming Kit ( https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html )from Logitech G is an amazing value for those who use Assistive Technology.  However, the one thing on our wish list is 1\/4\"-20 mounts on the bottom so we can use normal camera mounts.  \r\n\r\nSo, in keeping with our other mounts (see http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/ ), we've released a full set of 3D printable mounts to connect these great switches to inexpensive mounting options.\r\n\r\nThere are 6 designs.\r\n* One for the Large Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert\r\n* One for the Trigger that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert\r\n* One for the Medium Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert\r\n* One for the Medium Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)\r\n* One for the Micro Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert\r\n* One for the Micro Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)\r\n\r\nIf you have a Heat-Press Stand (see https:\/\/www.thingiverse.com\/thing:3616312 ) I recommend the heat-press inserts for the Medium and Micro Switches.  The T-Nuts BARELY fit in them and the plastic gets pretty thin around them.\r\n\r\nFeedback is welcome & these may get an update (I think some of the text is upside down), but these are working.",
+    "instructions": "",
+    "description_html": "<div><p>The Adaptive Gaming Kit ( <a rel=\"nofollow\" href=\"https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html\">https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html<\/a> )from Logitech G is an amazing value for those who use Assistive Technology.  However, the one thing on our wish list is 1\/4\"-20 mounts on the bottom so we can use normal camera mounts.  <\/p><p>So, in keeping with our other mounts (see <a rel=\"nofollow\" href=\"http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/\">http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/<\/a> ), we've released a full set of 3D printable mounts to connect these great switches to inexpensive mounting options.<\/p><p>There are 6 designs.<\/p><ul><li>One for the Large Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Trigger that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><li>One for the Micro Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Micro Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><\/ul><p>If you have a Heat-Press Stand (see <a rel=\"nofollow\" href=\"\/thing:3616312\">https:\/\/www.thingiverse.com\/thing:3616312<\/a> ) I recommend the heat-press inserts for the Medium and Micro Switches.  The T-Nuts BARELY fit in them and the plastic gets pretty thin around them.<\/p><p>Feedback is welcome &amp; these may get an update (I think some of the text is upside down), but these are working.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The Adaptive Gaming Kit ( <a rel=\"nofollow\" href=\"https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html\">https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html<\/a> )from Logitech G is an amazing value for those who use Assistive Technology.  However, the one thing on our wish list is 1\/4\"-20 mounts on the bottom so we can use normal camera mounts.  <\/p><p>So, in keeping with our other mounts (see <a rel=\"nofollow\" href=\"http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/\">http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/<\/a> ), we've released a full set of 3D printable mounts to connect these great switches to inexpensive mounting options.<\/p><p>There are 6 designs.<\/p><ul><li>One for the Large Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Trigger that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><li>One for the Micro Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Micro Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><\/ul><p>If you have a Heat-Press Stand (see <a rel=\"nofollow\" href=\"\/thing:3616312\">https:\/\/www.thingiverse.com\/thing:3616312<\/a> ) I recommend the heat-press inserts for the Medium and Micro Switches.  The T-Nuts BARELY fit in them and the plastic gets pretty thin around them.<\/p><p>Feedback is welcome &amp; these may get an update (I think some of the text is upside down), but these are working.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Turn on supports to make room for the T-Nuts on designs that require them.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Add Inserts<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Learn more here: &lt;a rel=\"nofollow\" href=\"http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/\"&gt;http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The Adaptive Gaming Kit ( <a rel=\"nofollow\" href=\"https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html\">https:\/\/www.logitechg.com\/en-us\/products\/gamepads\/adaptive-gaming-kit-accessories.html<\/a> )from Logitech G is an amazing value for those who use Assistive Technology.  However, the one thing on our wish list is 1\/4\"-20 mounts on the bottom so we can use normal camera mounts.  <\/p><p>So, in keeping with our other mounts (see <a rel=\"nofollow\" href=\"http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/\">http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/<\/a> ), we've released a full set of 3D printable mounts to connect these great switches to inexpensive mounting options.<\/p><p>There are 6 designs.<\/p><ul><li>One for the Large Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Trigger that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Medium Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><li>One for the Micro Switch that takes a 1\/4\"-20 Barbed T-Nut OR a Heat-Press Insert<\/li><li>One for the Micro Switch that ONLY takes a Heat-Press Insert (but is smaller\/stronger)<\/li><\/ul><p>If you have a Heat-Press Stand (see <a rel=\"nofollow\" href=\"\/thing:3616312\">https:\/\/www.thingiverse.com\/thing:3616312<\/a> ) I recommend the heat-press inserts for the Medium and Micro Switches.  The T-Nuts BARELY fit in them and the plastic gets pretty thin around them.<\/p><p>Feedback is welcome &amp; these may get an update (I think some of the text is upside down), but these are working.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>Creator Pro<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "notes": "<div><p>Turn on supports to make room for the T-Nuts on designs that require them.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Add Inserts",
+            "content": "<div><p>Learn more here: <a rel=\"nofollow\" href=\"http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/\">http:\/\/atmakers.org\/2017\/02\/at-switch-adapters\/<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4128904\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4128904\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4128904\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4128904\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4128904\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4128904\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "atmakers",
+        "tag": "atmakers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/atmakers",
+        "count": 8,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/atmakers\/things",
+        "absolute_url": "\/tag:atmakers"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4128904\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1011,
+    "view_count": 738,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Logitech_Micro_T-Nut_v2.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/74\/98\/66\/91\/Logitech_Micro_T-Nut_v2.f3d"
+        },
+        {
+          "name": "LogitechLarge_v6.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/23\/23\/e5\/e1\/LogitechLarge_v6.f3d"
+        },
+        {
+          "name": "Logitech_Micro_v2.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/61\/18\/76\/12\/Logitech_Micro_v2.f3d"
+        },
+        {
+          "name": "All4Orientation.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/0a\/d3\/8c\/27\/All4Orientation.stl"
+        },
+        {
+          "name": "LogitechMedium_v3.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/b2\/d0\/ae\/cc\/LogitechMedium_v3.f3d"
+        },
+        {
+          "name": "MicroTNut.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/ff\/3b\/ec\/0b\/MicroTNut.stl"
+        },
+        {
+          "name": "LogitechTrigger_v3.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/9b\/43\/e7\/b7\/LogitechTrigger_v3.f3d"
+        },
+        {
+          "name": "Large.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/8f\/34\/52\/78\/Large.stl"
+        },
+        {
+          "name": "MediumInsert.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/d9\/d6\/62\/e4\/MediumInsert.stl"
+        },
+        {
+          "name": "MicroInsert.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/8b\/d5\/91\/8b\/MicroInsert.stl"
+        },
+        {
+          "name": "MediumTNut.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/27\/1b\/c7\/8f\/MediumTNut.stl"
+        },
+        {
+          "name": "LogitechMediumT_v2.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/d3\/5d\/b8\/06\/LogitechMediumT_v2.f3d"
+        },
+        {
+          "name": "Trigger.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/89\/59\/2e\/2d\/Trigger.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "WIN_20200126_22_57_37_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/94\/e7\/bf\/12\/WIN_20200126_22_57_37_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_08_49_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/2b\/49\/57\/ce\/WIN_20200126_22_08_49_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_08_09_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/4d\/2f\/17\/af\/WIN_20200126_22_08_09_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_07_51_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/45\/10\/ea\/94\/WIN_20200126_22_07_51_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_02_43_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/f3\/7d\/ac\/29\/WIN_20200126_22_02_43_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_03_17_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/c3\/57\/ef\/17\/WIN_20200126_22_03_17_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_03_13_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/bf\/43\/36\/3c\/WIN_20200126_22_03_13_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_05_17_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/3a\/e1\/8f\/2a\/WIN_20200126_22_05_17_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_04_34_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/b4\/f9\/13\/11\/WIN_20200126_22_04_34_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_05_01_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/81\/67\/9f\/d5\/WIN_20200126_22_05_01_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_05_49_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/ab\/d7\/41\/16\/WIN_20200126_22_05_49_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_07_31_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/db\/3a\/05\/06\/WIN_20200126_22_07_31_Pro.jpg"
+        },
+        {
+          "name": "WIN_20200126_22_07_08_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/4a\/ac\/78\/4a\/WIN_20200126_22_07_08_Pro.jpg"
+        }
+      ]
+    }
+  }
+}

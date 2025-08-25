@@ -1,0 +1,485 @@
+{
+  "created_at": "2025-04-12T03:32:13.414238+00:00",
+  "elapsed": 0.207326,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa7be9e4eeb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:13 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:13 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2802057?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2802057?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2802057,
+    "name": "Reading Bar (Curved)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/90\/ec\/cd\/7f\/6a\/large_display_Reading_Bar_Curved_Large_Window.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/2802057",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2802057",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 580,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-02-28T19:03:19+00:00",
+    "modified": "2018-02-28T19:03:19+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 187,
+    "is_liked": false,
+    "collect_count": 439,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 16049801,
+      "url": "https:\/\/cdn.thingiverse.com\/",
+      "name": "Reading_Bar_Curved_Large_Window.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/7e\/2a\/90\/db\/large_thumb_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/88\/21\/6f\/65\/medium_thumb_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/05\/52\/6d\/a1\/small_thumb_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/21\/c2\/b0\/bc\/tiny_thumb_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/d9\/46\/84\/a4\/featured_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/f7\/b9\/ef\/c4\/card_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/c0\/a1\/58\/93\/large_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/3d\/69\/5a\/ab\/medium_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/3d\/2e\/b1\/ba\/small_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/5c\/f7\/4c\/56\/birdwing_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/49\/91\/ad\/8f\/tiny_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/4e\/74\/c6\/bc\/tinycard_preview_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/d9\/db\/49\/7a\/large_display_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/d3\/3e\/f2\/15\/medium_display_Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/94\/89\/75\/d0\/small_display_Reading_Bar_Curved_Large_Window.png"
+        }
+      ],
+      "added": "2021-09-22T20:12:02+00:00"
+    },
+    "description": "The reading bar isolates text on a page so readers can focus on reading one or two lines at a time. This tool is curved to contour an opened book. There are two versions of this tool: one with a small reading window and one with a large reading window.\r\n\r\nFlat version: https:\/\/www.thingiverse.com\/thing:2802065\r\n\r\n<hr>\r\n<table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>\r\n    <\/tr><\/table><br>\r\n<font color=\"#404041\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/font><Br>\r\n<font color=\"#404041\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/font><br><br>\r\n\r\n<font color=\"#404041\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/font>\r\n\r\n<div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>The reading bar isolates text on a page so readers can focus on reading one or two lines at a time. This tool is curved to contour an opened book. There are two versions of this tool: one with a small reading window and one with a large reading window.<\/p><p>Flat version: <a rel=\"ugc nofollow\" href=\"\/thing:2802065\">https:\/\/www.thingiverse.com\/thing:2802065<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The reading bar isolates text on a page so readers can focus on reading one or two lines at a time. This tool is curved to contour an opened book. There are two versions of this tool: one with a small reading window and one with a large reading window.<\/p><p>Flat version: <a rel=\"ugc nofollow\" href=\"\/thing:2802065\">https:\/\/www.thingiverse.com\/thing:2802065<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span>Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span>We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.3mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>v.1.0.0 &mdash; thin reading window<br>v.1.0.1 &mdash; thick reading window<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The reading bar isolates text on a page so readers can focus on reading one or two lines at a time. This tool is curved to contour an opened book. There are two versions of this tool: one with a small reading window and one with a large reading window.<\/p><p>Flat version: <a rel=\"ugc nofollow\" href=\"\/thing:2802065\">https:\/\/www.thingiverse.com\/thing:2802065<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "notes": "<div><p>v.1.0.0 &mdash; thin reading window<br>v.1.0.1 &mdash; thick reading window<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2802057\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2802057\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2802057\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2802057\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2802057\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2802057\/tags",
+    "tags": [
+      {
+        "name": "3dprintable",
+        "tag": "3dprintable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprintable",
+        "count": 3404,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprintable\/things",
+        "absolute_url": "\/tag:3dprintable"
+      },
+      {
+        "name": "3Dprinted",
+        "tag": "3dprinted",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprinted",
+        "count": 368,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprinted\/things",
+        "absolute_url": "\/tag:3Dprinted"
+      },
+      {
+        "name": "access",
+        "tag": "access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/access",
+        "count": 105,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/access\/things",
+        "absolute_url": "\/tag:access"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "Dyslexia",
+        "tag": "dyslexia",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dyslexia",
+        "count": 9,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dyslexia\/things",
+        "absolute_url": "\/tag:Dyslexia"
+      },
+      {
+        "name": "learning",
+        "tag": "learning",
+        "url": "https:\/\/api.thingiverse.com\/tags\/learning",
+        "count": 880,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/learning\/things",
+        "absolute_url": "\/tag:learning"
+      },
+      {
+        "name": "learning disability",
+        "tag": "learning_disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/learning_disability",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/learning_disability\/things",
+        "absolute_url": "\/tag:learning_disability"
+      },
+      {
+        "name": "Learning Tool",
+        "tag": "learning_tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/learning_tool",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/learning_tool\/things",
+        "absolute_url": "\/tag:Learning_Tool"
+      },
+      {
+        "name": "reading",
+        "tag": "reading",
+        "url": "https:\/\/api.thingiverse.com\/tags\/reading",
+        "count": 451,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/reading\/things",
+        "absolute_url": "\/tag:reading"
+      },
+      {
+        "name": "School",
+        "tag": "school",
+        "url": "https:\/\/api.thingiverse.com\/tags\/school",
+        "count": 1244,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/school\/things",
+        "absolute_url": "\/tag:School"
+      },
+      {
+        "name": "tool",
+        "tag": "tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tool",
+        "count": 12285,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tool\/things",
+        "absolute_url": "\/tag:tool"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2802057\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1385,
+    "view_count": 3528,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Reading_Bar_Curved_Small_Window.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/0d\/74\/68\/89\/Reading_Bar_Curved_Small_Window.STL"
+        },
+        {
+          "name": "Reading_Bar_Curved_Large_Window.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/db\/99\/fd\/da\/Reading_Bar_Curved_Large_Window.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Reading_Bar_Curved_Large_Window.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/56\/02\/a5\/b4\/Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "name": "Reading_Bar_Curved_Large_Window.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/d8\/a3\/11\/30\/Reading_Bar_Curved_Large_Window.png"
+        },
+        {
+          "name": "IMG_4334_copy.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/3a\/eb\/d0\/d6\/IMG_4334_copy.jpg"
+        },
+        {
+          "name": "Reading_Bar_Curved_Small_Window.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/8f\/41\/ab\/b1\/Reading_Bar_Curved_Small_Window.png"
+        }
+      ]
+    }
+  }
+}

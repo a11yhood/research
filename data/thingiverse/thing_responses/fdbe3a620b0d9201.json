@@ -1,0 +1,379 @@
+{
+  "created_at": "2025-07-17T03:57:00.281440+00:00",
+  "elapsed": 0.139011,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9606d00bea35f28b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Jul 2025 03:57:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Jul 2025 04:27:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "X73kleTkJ25aBkLUTKaYt3VX7S2WzN59pKxPbD4Q3SM-1752724531-1.0.1.1-ZdBDl0d8Xmo7u43ek2F9YpY5qv4JzvHO_yA20eLbC9QbfPewVgwhqF5bydxKArWk66.LGVzdv8O2ggfs4NKvpf49qBxsVreF1FOTqwSARe8",
+      "_cfuvid": "MF6ULCAZu1wwaenW5F_.fNTYCwfh5U55u1RYxv9FbRE-1752724531098-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=X73kleTkJ25aBkLUTKaYt3VX7S2WzN59pKxPbD4Q3SM-1752724531-1.0.1.1-ZdBDl0d8Xmo7u43ek2F9YpY5qv4JzvHO_yA20eLbC9QbfPewVgwhqF5bydxKArWk66.LGVzdv8O2ggfs4NKvpf49qBxsVreF1FOTqwSARe8; _cfuvid=MF6ULCAZu1wwaenW5F_.fNTYCwfh5U55u1RYxv9FbRE-1752724531098-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3260197?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3260197?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3260197,
+    "name": "Key guard for MacBook",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3260197",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3260197",
+    "creator": {
+      "id": 1584712,
+      "name": "SONOKO",
+      "first_name": "SONOKO",
+      "last_name": "HAYASHI",
+      "url": "https:\/\/api.thingiverse.com\/users\/SONOKO",
+      "public_url": "https:\/\/www.thingiverse.com\/SONOKO",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/55\/a6\/ef\/89\/b0\/aa9d79ece4c5b5db0a7c27f843182920_thumb_medium.jpg",
+      "count_of_followers": 379,
+      "count_of_following": 54,
+      "count_of_designs": 103,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tokyo,Japan",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/69\/ac\/19\/c1\/4f\/853dd38f5825b71248a785afbda58be6_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-12-04T23:17:40+00:00",
+    "modified": "2018-12-04T23:17:40+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 23,
+    "is_liked": false,
+    "collect_count": 39,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 9450105,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/41\/97\/7b\/3b\/47207788_2036220899791667_6054740982014935040_n.jpg",
+      "name": "47207788_2036220899791667_6054740982014935040_n.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/2a\/f5\/93\/99\/f814e6f8e9d33ab5e8bac7d4069c6cea_display_small.jpg"
+        }
+      ],
+      "added": "2018-12-04T23:17:39+00:00"
+    },
+    "description": "I'm Occupational therapist.\r\nI modeled this for the people who have difficulties on using keyboard.\r\nThis guard can avoid their miss touching.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>I'm Occupational therapist.<br>I modeled this for the people who have difficulties on using keyboard.<br>This guard can avoid their miss touching.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I'm Occupational therapist.<br>I modeled this for the people who have difficulties on using keyboard.<br>This guard can avoid their miss touching.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Anycubic<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Large Size Chiron&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; ANYCUBIC TPU                Orange<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I'm Occupational therapist.<br>I modeled this for the people who have difficulties on using keyboard.<br>This guard can avoid their miss touching.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Anycubic<\/p><\/div>",
+            "printer": "<div><p>Large Size Chiron<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "infill": "<div><p>30%<\/p><\/div>",
+            "filament_brand": "<div><p>ANYCUBIC<\/p><\/div>",
+            "filament_color": "<div><p>Orange<\/p><\/div>",
+            "filament_material": "<div><p>TPU<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3260197\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3260197\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3260197\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3260197\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3260197\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3260197\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3260197\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 265,
+    "view_count": 710,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Keyguard1_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/37\/85\/5b\/8c\/Keyguard1_v2.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "47207788_2036220899791667_6054740982014935040_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/41\/97\/7b\/3b\/47207788_2036220899791667_6054740982014935040_n.jpg"
+        },
+        {
+          "name": "20702046993d1c9cfac7e12171926259.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e7\/82\/82\/89\/42\/20702046993d1c9cfac7e12171926259.png"
+        }
+      ]
+    }
+  }
+}
