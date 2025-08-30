@@ -1,0 +1,512 @@
+{
+  "created_at": "2025-04-15T03:39:01.979678+00:00",
+  "elapsed": 0.122477,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869d88d06c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:01 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:01 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3361905?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3361905?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3361905,
+    "name": "USB Button controled mouse \/ Souris \u00e0 touches USB",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3361905",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3361905",
+    "creator": {
+      "id": 419272,
+      "name": "Pole_ergo",
+      "first_name": "Guy.E",
+      "last_name": "ergotherapeute",
+      "url": "https:\/\/api.thingiverse.com\/users\/Pole_ergo",
+      "public_url": "https:\/\/www.thingiverse.com\/Pole_ergo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/74\/1b\/45\/7b\/logo_THINGIVERSE_thumb_medium.jpg",
+      "count_of_followers": 546,
+      "count_of_following": 13,
+      "count_of_designs": 57,
+      "collection_count": 22,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lyon, France.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/32\/bd\/91\/a0\/5d\/mains_puzzle_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-02-23T12:16:49+00:00",
+    "modified": "2019-02-23T12:16:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 68,
+    "is_liked": false,
+    "collect_count": 150,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10101410,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/ff\/b7\/3f\/2a\/IMG_2277.JPG",
+      "name": "IMG_2277.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/83\/b8\/4c\/d113b2a8aea924a30babcb8d74d639f5_display_small.JPG"
+        }
+      ],
+      "added": "2019-02-22T18:16:00+00:00"
+    },
+    "description": "FRENCH\r\nMerci de lire l'avertissement en cliquant sur le profil.\r\n\r\nCette version exploite la prise USB avec un micro-contr\u00f4leur permettant un branchement direct sur l'ordinateur. Elle int\u00e8gre \u00e9galement 4 prises mini jack femelle mono permettant de connecter d'autres boutons. Dans ce projet, c'est une souris \u00e0 touches qu'il est ainsi possible d'assembler : le bouton central contr\u00f4le le clic de la souris, les 4 boutons connect\u00e9s aux jack contr\u00f4lent les d\u00e9placements du pointeur de la souris : haut\/bas\/gauche et droite.\r\nLe pilotage et l'usage de la souris sont ainsi simplifi\u00e9s pour les personnes ayant la capacit\u00e9 d'appuyer sur des boutons. Exemples d'usage : https:\/\/youtu.be\/7ZRqlgeXSl8\r\n\r\nLe fichier fourni (USB_BUTTON_MOUSE_PROGRAM.ino.hex) r\u00e9alise la fonction d\u00e9crite plus haut, mais il est assez simple de modifier le programme pour g\u00e9n\u00e9rer n'importe quel code de clavier ou de souris ou encore de combinaison de d\u00e9placements.\r\n\r\nMat\u00e9riel n\u00e9cessaire :\r\nBouton poussoir : 12x12x10 mm : https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649\r\nTeensy 2.0 : https:\/\/www.pjrc.com\/store\/teensy.html (\u00e9galement disponible sur ebay)\r\nMini jack femelle mono : https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\r\n\r\nFabrication du contacteur : \r\n\r\n    Plier les pattes du bouton poussoir,\r\n    Ins\u00e9rer le bouton dans la base,\r\n    placer le microcontr\u00f4leur \u00e0 l'envers,\r\n    souder les pattes sur la cartes : D5 et GND.\r\n    Ins\u00e9rer les mini jack\r\n    D\u00e9nuder les fils\r\n    Souder les fils sur le microcontroleur : D1,D3, D4, D7\r\n    positionner les fils en les passant par les passes-fils int\u00e9gr\u00e9s au boitier.\r\n    Capuchon et bouton : imprimer et installer sur la base.\r\n\r\nProgrammation :\r\nLe micro-contr\u00f4leur choisi est le mod\u00e8le Teensy 2.0 de PRJC https:\/\/www.pjrc.com\/store\/teensy.html sur lequel le bouton poussoir est directement soud\u00e9. L'ensemble est alors install\u00e9 dans le boitier imprim\u00e9, la programmation se fait en suivant les instructions propos\u00e9es sur le site de PRJC : https:\/\/www.pjrc.com\/teensy\/first_use.html\r\nUne fois que le microcontr\u00f4leur est install\u00e9 dans le boitier, il est n\u00e9cessaire de le programmer avec le programme fourni dans les fichiers \u00e0 t\u00e9l\u00e9charger.\r\n\r\nAvant toutes choses, connectez le Teensy \u00e0 un port USB libre de votre ordinateur lui m\u00eame connect\u00e9 \u00e0 Internet de fa\u00e7on \u00e0 ce que celui-ci installe automatiquement les drivers USB.\r\n\r\nSi vous ne souhaitez pas installer l'ensemble des logiciels permettant la programmation, vous pouvez t\u00e9l\u00e9charger un \"loader\" (https:\/\/github.com\/jglim\/AlternateTeensyLoader) dont le r\u00f4le consiste \u00e0 placer le programme USB_BUTTON_MOUSE_PROGRAM.ino.hex directement dans le microcontr\u00f4leur.\r\n\r\nCe programme est d\u00e9velopp\u00e9 \u00e0 l'aide de l'IDE Arduino que l'on trouve ici : https:\/\/www.arduino.cc\/en\/Main\/Software\r\nPour modifier le type de code envoy\u00e9 \u00e0 l'ordinateur, regardez dans les commentaires que l'on trouve dans le programme lui-m\u00eame.\r\n\r\nSi vous d\u00e9butez avec les microcontr\u00f4leurs et l'environnement Arduino, il peut se r\u00e9v\u00e9ler int\u00e9ressant de vous faire aider par quelqu'un ayant d\u00e9j\u00e0 utilis\u00e9 ces programmes. Cependant, les tutoriaux propos\u00e9s \u00e0 la fois par PRJC et Arduino sont particuli\u00e8rement bien faits et devraient vous aider \u00e0 mener \u00e0 bien ce projet. \r\n\r\nENGLISH\r\nPlease read the warning by clicking on the profile.\r\n\r\nThis version uses the USB socket with a microcontroller for direct connection to the computer. It also includes 4 mono female mini jack sockets for connecting other buttons. In this project, it is a key mouse that can be assembled in this way: the central button controls the mouse click, the 4 buttons connected to the jacks control the movements of the mouse pointer: up\/down\/left and right.\r\nThis simplifies mouse control and use for people with the ability to press buttons. Examples of use: https:\/\/youtu.be\/7ZRqlgeXSl8\r\n\r\nThe supplied file (USB_BUTTON_MOUSE_PROGRAM.ino.hex) performs the function described above, but it is quite simple to modify the program to generate any keyboard or mouse code or combination of movements.\r\n\r\nMaterials required :\r\nPush button: 12x12x10 mm: https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649\r\nTeensy 2.0 : https:\/\/www.pjrc.com\/store\/teensy.html (also available on ebay)\r\nMono female mini jack: https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\r\n\r\nManufacture of the contactor: \r\n\r\n    Bend the legs of the push button,\r\n    Insert the button into the database,\r\n    place the microcontroller upside down,\r\n    solder the legs to the card: D5 and GND.\r\n    Insert the mini jack\r\n    Strip the wires\r\n    Solder the wires to the microcontroller : D1,D3, D4, D7\r\n    position the wires by passing them through the cable glands integrated in the case.\r\n    Cap and button: print and install on the base.\r\n\r\nProgramming :\r\nThe microcontroller chosen is the Teensy 2.0 model from PRJC https:\/\/www.pjrc.com\/store\/teensy.html on which the push button is directly welded. The whole system is then installed in the printed box, the programming is done following the instructions proposed on the PRJC website: https:\/\/www.pjrc.com\/teensy\/first_use.html\r\nOnce the microcontroller is installed in the box, it is necessary to program it with the program provided in the files to download.\r\n\r\nFirst of all, connect the Teensy to a free USB port on your computer connected to the Internet so that it automatically installs the USB drivers.\r\n\r\nIf you do not wish to install all the software allowing programming, you can download a \"loader\" (https:\/\/github.com\/jglim\/AlternateTeensyLoader) whose role is to place the USB_BUTTON_MOUSE_PROGRAM.ino.hex program directly in the microcontroller.\r\n\r\nThis program is developed using the Arduino IDE which can be found here: https:\/\/www.arduino.cc\/en\/Main\/Software\r\nTo change the type of code sent to the computer, look in the comments in the program itself.\r\n\r\nIf you are new to microcontrollers and the Arduino environment, it may be interesting to get help from someone who has already used these programs. However, the tutorials offered by both PRJC and Arduino are particularly well done and should help you to complete this project. ",
+    "instructions": "",
+    "description_html": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version exploite la prise USB avec un micro-contr&ocirc;leur permettant un branchement direct sur l'ordinateur. Elle int&egrave;gre &eacute;galement 4 prises mini jack femelle mono permettant de connecter d'autres boutons. Dans ce projet, c'est une souris &agrave; touches qu'il est ainsi possible d'assembler : le bouton central contr&ocirc;le le clic de la souris, les 4 boutons connect&eacute;s aux jack contr&ocirc;lent les d&eacute;placements du pointeur de la souris : haut\/bas\/gauche et droite.<br>Le pilotage et l'usage de la souris sont ainsi simplifi&eacute;s pour les personnes ayant la capacit&eacute; d'appuyer sur des boutons. Exemples d'usage : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>Le fichier fourni (USB_BUTTON_MOUSE_PROGRAM.ino.hex) r&eacute;alise la fonction d&eacute;crite plus haut, mais il est assez simple de modifier le programme pour g&eacute;n&eacute;rer n'importe quel code de clavier ou de souris ou encore de combinaison de d&eacute;placements.<\/p><p>Mat&eacute;riel n&eacute;cessaire :<br>Bouton poussoir : 12x12x10 mm : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (&eacute;galement disponible sur ebay)<br>Mini jack femelle mono : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Fabrication du contacteur : <\/p><pre><code>Plier les pattes du bouton poussoir,Ins&eacute;rer le bouton dans la base,placer le microcontr&ocirc;leur &agrave; l'envers,souder les pattes sur la cartes : D5 et GND.Ins&eacute;rer les mini jackD&eacute;nuder les filsSouder les fils sur le microcontroleur : D1,D3, D4, D7positionner les fils en les passant par les passes-fils int&eacute;gr&eacute;s au boitier.Capuchon et bouton : imprimer et installer sur la base.<\/code><\/pre><p>Programmation :<br>Le micro-contr&ocirc;leur choisi est le mod&egrave;le Teensy 2.0 de PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> sur lequel le bouton poussoir est directement soud&eacute;. L'ensemble est alors install&eacute; dans le boitier imprim&eacute;, la programmation se fait en suivant les instructions propos&eacute;es sur le site de PRJC : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Une fois que le microcontr&ocirc;leur est install&eacute; dans le boitier, il est n&eacute;cessaire de le programmer avec le programme fourni dans les fichiers &agrave; t&eacute;l&eacute;charger.<\/p><p>Avant toutes choses, connectez le Teensy &agrave; un port USB libre de votre ordinateur lui m&ecirc;me connect&eacute; &agrave; Internet de fa&ccedil;on &agrave; ce que celui-ci installe automatiquement les drivers USB.<\/p><p>Si vous ne souhaitez pas installer l'ensemble des logiciels permettant la programmation, vous pouvez t&eacute;l&eacute;charger un \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) dont le r&ocirc;le consiste &agrave; placer le programme USB_BUTTON_MOUSE_PROGRAM.ino.hex directement dans le microcontr&ocirc;leur.<\/p><p>Ce programme est d&eacute;velopp&eacute; &agrave; l'aide de l'IDE Arduino que l'on trouve ici : <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>Pour modifier le type de code envoy&eacute; &agrave; l'ordinateur, regardez dans les commentaires que l'on trouve dans le programme lui-m&ecirc;me.<\/p><p>Si vous d&eacute;butez avec les microcontr&ocirc;leurs et l'environnement Arduino, il peut se r&eacute;v&eacute;ler int&eacute;ressant de vous faire aider par quelqu'un ayant d&eacute;j&agrave; utilis&eacute; ces programmes. Cependant, les tutoriaux propos&eacute;s &agrave; la fois par PRJC et Arduino sont particuli&egrave;rement bien faits et devraient vous aider &agrave; mener &agrave; bien ce projet. <\/p><p>ENGLISH<br>Please read the warning by clicking on the profile.<\/p><p>This version uses the USB socket with a microcontroller for direct connection to the computer. It also includes 4 mono female mini jack sockets for connecting other buttons. In this project, it is a key mouse that can be assembled in this way: the central button controls the mouse click, the 4 buttons connected to the jacks control the movements of the mouse pointer: up\/down\/left and right.<br>This simplifies mouse control and use for people with the ability to press buttons. Examples of use: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>The supplied file (USB_BUTTON_MOUSE_PROGRAM.ino.hex) performs the function described above, but it is quite simple to modify the program to generate any keyboard or mouse code or combination of movements.<\/p><p>Materials required :<br>Push button: 12x12x10 mm: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (also available on ebay)<br>Mono female mini jack: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Manufacture of the contactor: <\/p><pre><code>Bend the legs of the push button,Insert the button into the database,place the microcontroller upside down,solder the legs to the card: D5 and GND.Insert the mini jackStrip the wiresSolder the wires to the microcontroller : D1,D3, D4, D7position the wires by passing them through the cable glands integrated in the case.Cap and button: print and install on the base.<\/code><\/pre><p>Programming :<br>The microcontroller chosen is the Teensy 2.0 model from PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> on which the push button is directly welded. The whole system is then installed in the printed box, the programming is done following the instructions proposed on the PRJC website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Once the microcontroller is installed in the box, it is necessary to program it with the program provided in the files to download.<\/p><p>First of all, connect the Teensy to a free USB port on your computer connected to the Internet so that it automatically installs the USB drivers.<\/p><p>If you do not wish to install all the software allowing programming, you can download a \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) whose role is to place the USB_BUTTON_MOUSE_PROGRAM.ino.hex program directly in the microcontroller.<\/p><p>This program is developed using the Arduino IDE which can be found here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>To change the type of code sent to the computer, look in the comments in the program itself.<\/p><p>If you are new to microcontrollers and the Arduino environment, it may be interesting to get help from someone who has already used these programs. However, the tutorials offered by both PRJC and Arduino are particularly well done and should help you to complete this project. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version exploite la prise USB avec un micro-contr&ocirc;leur permettant un branchement direct sur l'ordinateur. Elle int&egrave;gre &eacute;galement 4 prises mini jack femelle mono permettant de connecter d'autres boutons. Dans ce projet, c'est une souris &agrave; touches qu'il est ainsi possible d'assembler : le bouton central contr&ocirc;le le clic de la souris, les 4 boutons connect&eacute;s aux jack contr&ocirc;lent les d&eacute;placements du pointeur de la souris : haut\/bas\/gauche et droite.<br>Le pilotage et l'usage de la souris sont ainsi simplifi&eacute;s pour les personnes ayant la capacit&eacute; d'appuyer sur des boutons. Exemples d'usage : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>Le fichier fourni (USB_BUTTON_MOUSE_PROGRAM.ino.hex) r&eacute;alise la fonction d&eacute;crite plus haut, mais il est assez simple de modifier le programme pour g&eacute;n&eacute;rer n'importe quel code de clavier ou de souris ou encore de combinaison de d&eacute;placements.<\/p><p>Mat&eacute;riel n&eacute;cessaire :<br>Bouton poussoir : 12x12x10 mm : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (&eacute;galement disponible sur ebay)<br>Mini jack femelle mono : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Fabrication du contacteur : <\/p><pre><code>Plier les pattes du bouton poussoir,Ins&eacute;rer le bouton dans la base,placer le microcontr&ocirc;leur &agrave; l'envers,souder les pattes sur la cartes : D5 et GND.Ins&eacute;rer les mini jackD&eacute;nuder les filsSouder les fils sur le microcontroleur : D1,D3, D4, D7positionner les fils en les passant par les passes-fils int&eacute;gr&eacute;s au boitier.Capuchon et bouton : imprimer et installer sur la base.<\/code><\/pre><p>Programmation :<br>Le micro-contr&ocirc;leur choisi est le mod&egrave;le Teensy 2.0 de PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> sur lequel le bouton poussoir est directement soud&eacute;. L'ensemble est alors install&eacute; dans le boitier imprim&eacute;, la programmation se fait en suivant les instructions propos&eacute;es sur le site de PRJC : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Une fois que le microcontr&ocirc;leur est install&eacute; dans le boitier, il est n&eacute;cessaire de le programmer avec le programme fourni dans les fichiers &agrave; t&eacute;l&eacute;charger.<\/p><p>Avant toutes choses, connectez le Teensy &agrave; un port USB libre de votre ordinateur lui m&ecirc;me connect&eacute; &agrave; Internet de fa&ccedil;on &agrave; ce que celui-ci installe automatiquement les drivers USB.<\/p><p>Si vous ne souhaitez pas installer l'ensemble des logiciels permettant la programmation, vous pouvez t&eacute;l&eacute;charger un \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) dont le r&ocirc;le consiste &agrave; placer le programme USB_BUTTON_MOUSE_PROGRAM.ino.hex directement dans le microcontr&ocirc;leur.<\/p><p>Ce programme est d&eacute;velopp&eacute; &agrave; l'aide de l'IDE Arduino que l'on trouve ici : <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>Pour modifier le type de code envoy&eacute; &agrave; l'ordinateur, regardez dans les commentaires que l'on trouve dans le programme lui-m&ecirc;me.<\/p><p>Si vous d&eacute;butez avec les microcontr&ocirc;leurs et l'environnement Arduino, il peut se r&eacute;v&eacute;ler int&eacute;ressant de vous faire aider par quelqu'un ayant d&eacute;j&agrave; utilis&eacute; ces programmes. Cependant, les tutoriaux propos&eacute;s &agrave; la fois par PRJC et Arduino sont particuli&egrave;rement bien faits et devraient vous aider &agrave; mener &agrave; bien ce projet. <\/p><p>ENGLISH<br>Please read the warning by clicking on the profile.<\/p><p>This version uses the USB socket with a microcontroller for direct connection to the computer. It also includes 4 mono female mini jack sockets for connecting other buttons. In this project, it is a key mouse that can be assembled in this way: the central button controls the mouse click, the 4 buttons connected to the jacks control the movements of the mouse pointer: up\/down\/left and right.<br>This simplifies mouse control and use for people with the ability to press buttons. Examples of use: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>The supplied file (USB_BUTTON_MOUSE_PROGRAM.ino.hex) performs the function described above, but it is quite simple to modify the program to generate any keyboard or mouse code or combination of movements.<\/p><p>Materials required :<br>Push button: 12x12x10 mm: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (also available on ebay)<br>Mono female mini jack: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Manufacture of the contactor: <\/p><pre><code>Bend the legs of the push button,Insert the button into the database,place the microcontroller upside down,solder the legs to the card: D5 and GND.Insert the mini jackStrip the wiresSolder the wires to the microcontroller : D1,D3, D4, D7position the wires by passing them through the cable glands integrated in the case.Cap and button: print and install on the base.<\/code><\/pre><p>Programming :<br>The microcontroller chosen is the Teensy 2.0 model from PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> on which the push button is directly welded. The whole system is then installed in the printed box, the programming is done following the instructions proposed on the PRJC website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Once the microcontroller is installed in the box, it is necessary to program it with the program provided in the files to download.<\/p><p>First of all, connect the Teensy to a free USB port on your computer connected to the Internet so that it automatically installs the USB drivers.<\/p><p>If you do not wish to install all the software allowing programming, you can download a \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) whose role is to place the USB_BUTTON_MOUSE_PROGRAM.ino.hex program directly in the microcontroller.<\/p><p>This program is developed using the Arduino IDE which can be found here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>To change the type of code sent to the computer, look in the comments in the program itself.<\/p><p>If you are new to microcontrollers and the Arduino environment, it may be interesting to get help from someone who has already used these programs. However, the tutorials offered by both PRJC and Arduino are particularly well done and should help you to complete this project. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version exploite la prise USB avec un micro-contr&ocirc;leur permettant un branchement direct sur l'ordinateur. Elle int&egrave;gre &eacute;galement 4 prises mini jack femelle mono permettant de connecter d'autres boutons. Dans ce projet, c'est une souris &agrave; touches qu'il est ainsi possible d'assembler : le bouton central contr&ocirc;le le clic de la souris, les 4 boutons connect&eacute;s aux jack contr&ocirc;lent les d&eacute;placements du pointeur de la souris : haut\/bas\/gauche et droite.<br>Le pilotage et l'usage de la souris sont ainsi simplifi&eacute;s pour les personnes ayant la capacit&eacute; d'appuyer sur des boutons. Exemples d'usage : <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>Le fichier fourni (USB_BUTTON_MOUSE_PROGRAM.ino.hex) r&eacute;alise la fonction d&eacute;crite plus haut, mais il est assez simple de modifier le programme pour g&eacute;n&eacute;rer n'importe quel code de clavier ou de souris ou encore de combinaison de d&eacute;placements.<\/p><p>Mat&eacute;riel n&eacute;cessaire :<br>Bouton poussoir : 12x12x10 mm : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (&eacute;galement disponible sur ebay)<br>Mini jack femelle mono : <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Fabrication du contacteur : <\/p><pre><code>Plier les pattes du bouton poussoir,Ins&eacute;rer le bouton dans la base,placer le microcontr&ocirc;leur &agrave; l'envers,souder les pattes sur la cartes : D5 et GND.Ins&eacute;rer les mini jackD&eacute;nuder les filsSouder les fils sur le microcontroleur : D1,D3, D4, D7positionner les fils en les passant par les passes-fils int&eacute;gr&eacute;s au boitier.Capuchon et bouton : imprimer et installer sur la base.<\/code><\/pre><p>Programmation :<br>Le micro-contr&ocirc;leur choisi est le mod&egrave;le Teensy 2.0 de PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> sur lequel le bouton poussoir est directement soud&eacute;. L'ensemble est alors install&eacute; dans le boitier imprim&eacute;, la programmation se fait en suivant les instructions propos&eacute;es sur le site de PRJC : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Une fois que le microcontr&ocirc;leur est install&eacute; dans le boitier, il est n&eacute;cessaire de le programmer avec le programme fourni dans les fichiers &agrave; t&eacute;l&eacute;charger.<\/p><p>Avant toutes choses, connectez le Teensy &agrave; un port USB libre de votre ordinateur lui m&ecirc;me connect&eacute; &agrave; Internet de fa&ccedil;on &agrave; ce que celui-ci installe automatiquement les drivers USB.<\/p><p>Si vous ne souhaitez pas installer l'ensemble des logiciels permettant la programmation, vous pouvez t&eacute;l&eacute;charger un \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) dont le r&ocirc;le consiste &agrave; placer le programme USB_BUTTON_MOUSE_PROGRAM.ino.hex directement dans le microcontr&ocirc;leur.<\/p><p>Ce programme est d&eacute;velopp&eacute; &agrave; l'aide de l'IDE Arduino que l'on trouve ici : <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>Pour modifier le type de code envoy&eacute; &agrave; l'ordinateur, regardez dans les commentaires que l'on trouve dans le programme lui-m&ecirc;me.<\/p><p>Si vous d&eacute;butez avec les microcontr&ocirc;leurs et l'environnement Arduino, il peut se r&eacute;v&eacute;ler int&eacute;ressant de vous faire aider par quelqu'un ayant d&eacute;j&agrave; utilis&eacute; ces programmes. Cependant, les tutoriaux propos&eacute;s &agrave; la fois par PRJC et Arduino sont particuli&egrave;rement bien faits et devraient vous aider &agrave; mener &agrave; bien ce projet. <\/p><p>ENGLISH<br>Please read the warning by clicking on the profile.<\/p><p>This version uses the USB socket with a microcontroller for direct connection to the computer. It also includes 4 mono female mini jack sockets for connecting other buttons. In this project, it is a key mouse that can be assembled in this way: the central button controls the mouse click, the 4 buttons connected to the jacks control the movements of the mouse pointer: up\/down\/left and right.<br>This simplifies mouse control and use for people with the ability to press buttons. Examples of use: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/7ZRqlgeXSl8\">https:\/\/youtu.be\/7ZRqlgeXSl8<\/a><\/p><p>The supplied file (USB_BUTTON_MOUSE_PROGRAM.ino.hex) performs the function described above, but it is quite simple to modify the program to generate any keyboard or mouse code or combination of movements.<\/p><p>Materials required :<br>Push button: 12x12x10 mm: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><br>Teensy 2.0 : <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> (also available on ebay)<br>Mono female mini jack: <a rel=\"ugc nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0\">https:\/\/www.ebay.fr\/itm\/3-5mm-MONO-Jack-Plug-to-3-5mm-Socket-Extension-Cable-Audio-Lead-50cm-1m-2m-3m\/192555074940?hash=item2cd52d457c:m:m-KBeyZyfQTS7h8aeRUKaCQ:rk:1:pf:0<\/a><\/p><p>Manufacture of the contactor: <\/p><pre><code>Bend the legs of the push button,Insert the button into the database,place the microcontroller upside down,solder the legs to the card: D5 and GND.Insert the mini jackStrip the wiresSolder the wires to the microcontroller : D1,D3, D4, D7position the wires by passing them through the cable glands integrated in the case.Cap and button: print and install on the base.<\/code><\/pre><p>Programming :<br>The microcontroller chosen is the Teensy 2.0 model from PRJC <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/store\/teensy.html\">https:\/\/www.pjrc.com\/store\/teensy.html<\/a> on which the push button is directly welded. The whole system is then installed in the printed box, the programming is done following the instructions proposed on the PRJC website: <a rel=\"ugc nofollow\" href=\"https:\/\/www.pjrc.com\/teensy\/first_use.html\">https:\/\/www.pjrc.com\/teensy\/first_use.html<\/a><br>Once the microcontroller is installed in the box, it is necessary to program it with the program provided in the files to download.<\/p><p>First of all, connect the Teensy to a free USB port on your computer connected to the Internet so that it automatically installs the USB drivers.<\/p><p>If you do not wish to install all the software allowing programming, you can download a \"loader\" (<a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/jglim\/AlternateTeensyLoader\">https:\/\/github.com\/jglim\/AlternateTeensyLoader<\/a>) whose role is to place the USB_BUTTON_MOUSE_PROGRAM.ino.hex program directly in the microcontroller.<\/p><p>This program is developed using the Arduino IDE which can be found here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.arduino.cc\/en\/Main\/Software\">https:\/\/www.arduino.cc\/en\/Main\/Software<\/a><br>To change the type of code sent to the computer, look in the comments in the program itself.<\/p><p>If you are new to microcontrollers and the Arduino environment, it may be interesting to get help from someone who has already used these programs. However, the tutorials offered by both PRJC and Arduino are particularly well done and should help you to complete this project. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3361905\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3361905\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3361905\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3361905\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3361905\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3361905\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "button",
+        "tag": "button",
+        "url": "https:\/\/api.thingiverse.com\/tags\/button",
+        "count": 2887,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+        "absolute_url": "\/tag:button"
+      },
+      {
+        "name": "contacteur",
+        "tag": "contacteur",
+        "url": "https:\/\/api.thingiverse.com\/tags\/contacteur",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/contacteur\/things",
+        "absolute_url": "\/tag:contacteur"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "mouse",
+        "tag": "mouse",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mouse",
+        "count": 1717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mouse\/things",
+        "absolute_url": "\/tag:mouse"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "pushbutton",
+        "tag": "pushbutton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pushbutton",
+        "count": 395,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pushbutton\/things",
+        "absolute_url": "\/tag:pushbutton"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      },
+      {
+        "name": "Teensy20",
+        "tag": "teensy20",
+        "url": "https:\/\/api.thingiverse.com\/tags\/teensy20",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/teensy20\/things",
+        "absolute_url": "\/tag:Teensy20"
+      },
+      {
+        "name": "usb mouse",
+        "tag": "usb_mouse",
+        "url": "https:\/\/api.thingiverse.com\/tags\/usb_mouse",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/usb_mouse\/things",
+        "absolute_url": "\/tag:usb_mouse"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3361905\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 560,
+    "view_count": 2645,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "USB_SWITCH_BUTTON.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/21\/f8\/01\/fe\/USB_SWITCH_BUTTON.stl"
+        },
+        {
+          "name": "USB_SWITCH_CAP.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/d1\/da\/a2\/3d\/USB_SWITCH_CAP.stl"
+        },
+        {
+          "name": "USB_BUTTON_MOUSE_PROGRAM.ino.hex",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/a5\/44\/a5\/55\/USB_BUTTON_MOUSE_PROGRAM.ino.hex"
+        },
+        {
+          "name": "USB_BUTTON_MOUSE_PROGRAM.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/f8\/bd\/a6\/ad\/USB_BUTTON_MOUSE_PROGRAM.ino"
+        },
+        {
+          "name": "BASE_USB_BUTTON_CONTROLLED_MOUSE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/c5\/5d\/b0\/d2\/BASE_USB_BUTTON_CONTROLLED_MOUSE.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2277.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/ff\/b7\/3f\/2a\/IMG_2277.JPG"
+        },
+        {
+          "name": "IMG_2283.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/c2\/ae\/f9\/da\/IMG_2283.JPG"
+        },
+        {
+          "name": "IMG_2276.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/42\/0f\/4d\/a0\/IMG_2276.JPG"
+        },
+        {
+          "name": "IMG_2273.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/29\/16\/ef\/1a\/IMG_2273.JPG"
+        },
+        {
+          "name": "IMG_2270.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/1b\/62\/41\/c7\/IMG_2270.JPG"
+        },
+        {
+          "name": "IMG_2271.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/d6\/3e\/ac\/e2\/IMG_2271.JPG"
+        },
+        {
+          "name": "IMG_2285.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/62\/96\/03\/90\/IMG_2285.JPG"
+        },
+        {
+          "name": "7c60eec98aafafa8b3b1562f41882149.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a1\/a3\/85\/fd\/a2\/7c60eec98aafafa8b3b1562f41882149.png"
+        },
+        {
+          "name": "470537f4afe01e2aa0941551e89e473e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bd\/24\/6c\/1c\/c6\/470537f4afe01e2aa0941551e89e473e.png"
+        },
+        {
+          "name": "3831b38618dc5b71455660fd92393845.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/b9\/cb\/b4\/7d\/3831b38618dc5b71455660fd92393845.png"
+        }
+      ]
+    }
+  }
+}

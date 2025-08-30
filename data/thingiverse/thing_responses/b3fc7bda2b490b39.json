@@ -1,0 +1,925 @@
+{
+  "cookies": {
+    "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+    "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+  },
+  "created_at": "2025-04-14T03:35:08.057517+00:00",
+  "elapsed": 0.280902,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "930026c23901eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:35:08 GMT",
+    "Server": "cloudflare",
+    "Set-Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; path=\/; expires=Mon, 14-Apr-25 04:05:08 GMT; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None, _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000; path=\/; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:05:08 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2899025?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2899025?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2899025,
+    "name": "Smart Hands",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d6\/45\/e3\/f7\/b2\/12077e59938a14534db907e8430a7cd5_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2899025",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2899025",
+    "creator": {
+      "id": 1399790,
+      "name": "adi04jan",
+      "first_name": "Aditya",
+      "last_name": "Biswas",
+      "url": "https:\/\/api.thingiverse.com\/users\/adi04jan",
+      "public_url": "https:\/\/www.thingiverse.com\/adi04jan",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/23\/11\/fb\/d9\/2b\/6fdecb285b7d163613b24c2222e6878e_thumb_medium.jpg",
+      "count_of_followers": 9,
+      "count_of_following": 4,
+      "count_of_designs": 8,
+      "collection_count": 1,
+      "make_count": 4,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "India",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/42\/33\/1d\/50\/e6\/468d76c8326ef94816cbd93d3d0ad651_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-05-07T22:02:53+00:00",
+    "modified": "2018-05-07T22:02:53+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 79,
+    "is_liked": false,
+    "collect_count": 146,
+    "is_collected": false,
+    "comment_count": 11,
+    "is_watched": false,
+    "default_image": {
+      "id": 16029519,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/a5\/c1\/cf\/d7\/plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.stl",
+      "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/57\/77\/f3\/fa\/large_thumb_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/f1\/70\/c5\/e6\/medium_thumb_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/c9\/ed\/11\/92\/small_thumb_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/1e\/94\/24\/cc\/tiny_thumb_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/d7\/75\/37\/3a\/featured_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/c6\/51\/87\/4f\/card_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/18\/c7\/d7\/75\/large_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/f3\/2a\/ea\/9f\/medium_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/ee\/1a\/a6\/65\/small_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/8d\/72\/69\/b7\/birdwing_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/52\/69\/29\/c9\/tiny_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/78\/b7\/57\/ea\/tinycard_preview_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/e5\/e7\/5f\/ee\/large_display_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/b8\/6a\/0b\/15\/medium_display_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/f6\/eb\/92\/d1\/small_display_plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        }
+      ],
+      "added": "2021-09-18T14:33:55+00:00"
+    },
+    "description": "Update:- Uploaded files but forgot to short the name of the files but you may get some hints in the last name of the files.\r\nNote: it's still a work in progress and I have not yet made any assembly guide for more detail you can refer to the fusion file for assembly.\r\n\r\n\r\nAbove given are some of the picture of my final year project which is a multi-purpose Smart hands i.e it can acts as a telepresence Arm with a wear on controller or can be used as a Prosthetic Arm also can be used as a model.\r\nI am just uploading the picture coz I am not sure if the design is good and if someone needs the design but it was one of my 1st advanced level CAD designs which were done on Autodesk Fusion 360. I have spent more then 400 hours in designing this arm for one of my friend as a prosthetic arm and spend more then 1 week in printing and joining things together this design was inspired by 2 fabulous products which was Exiii Handiii(http:\/\/exiii.jp\/) and Dexmo (http:\/\/www.dextarobotics.com\/) though it does not look so good but still i think it has a very great modular look.\r\nI am also not sure about how should i publish files if open source or should charge for the files.\r\nIf you like the pictures and would like to talk just drop a comment.\r\nhope you have a great day :)",
+    "instructions": "",
+    "description_html": "<div><p>Update:- Uploaded files but forgot to short the name of the files but you may get some hints in the last name of the files.<br>Note: it's still a work in progress and I have not yet made any assembly guide for more detail you can refer to the fusion file for assembly.<\/p><p>Above given are some of the picture of my final year project which is a multi-purpose Smart hands i.e it can acts as a telepresence Arm with a wear on controller or can be used as a Prosthetic Arm also can be used as a model.<br>I am just uploading the picture coz I am not sure if the design is good and if someone needs the design but it was one of my 1st advanced level CAD designs which were done on Autodesk Fusion 360. I have spent more then 400 hours in designing this arm for one of my friend as a prosthetic arm and spend more then 1 week in printing and joining things together this design was inspired by 2 fabulous products which was Exiii Handiii(<a rel=\"ugc nofollow\" href=\"http:\/\/exiii.jp\/\">http:\/\/exiii.jp\/<\/a>) and Dexmo (<a rel=\"ugc nofollow\" href=\"http:\/\/www.dextarobotics.com\/\">http:\/\/www.dextarobotics.com\/<\/a>) though it does not look so good but still i think it has a very great modular look.<br>I am also not sure about how should i publish files if open source or should charge for the files.<br>If you like the pictures and would like to talk just drop a comment.<br>hope you have a great day :)<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Update:- Uploaded files but forgot to short the name of the files but you may get some hints in the last name of the files.<br>Note: it's still a work in progress and I have not yet made any assembly guide for more detail you can refer to the fusion file for assembly.<\/p><p>Above given are some of the picture of my final year project which is a multi-purpose Smart hands i.e it can acts as a telepresence Arm with a wear on controller or can be used as a Prosthetic Arm also can be used as a model.<br>I am just uploading the picture coz I am not sure if the design is good and if someone needs the design but it was one of my 1st advanced level CAD designs which were done on Autodesk Fusion 360. I have spent more then 400 hours in designing this arm for one of my friend as a prosthetic arm and spend more then 1 week in printing and joining things together this design was inspired by 2 fabulous products which was Exiii Handiii(<a rel=\"ugc nofollow\" href=\"http:\/\/exiii.jp\/\">http:\/\/exiii.jp\/<\/a>) and Dexmo (<a rel=\"ugc nofollow\" href=\"http:\/\/www.dextarobotics.com\/\">http:\/\/www.dextarobotics.com\/<\/a>) though it does not look so good but still i think it has a very great modular look.<br>I am also not sure about how should i publish files if open source or should charge for the files.<br>If you like the pictures and would like to talk just drop a comment.<br>hope you have a great day :)<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Custom Delta Printer<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>30%<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Update:- Uploaded files but forgot to short the name of the files but you may get some hints in the last name of the files.<br>Note: it's still a work in progress and I have not yet made any assembly guide for more detail you can refer to the fusion file for assembly.<\/p><p>Above given are some of the picture of my final year project which is a multi-purpose Smart hands i.e it can acts as a telepresence Arm with a wear on controller or can be used as a Prosthetic Arm also can be used as a model.<br>I am just uploading the picture coz I am not sure if the design is good and if someone needs the design but it was one of my 1st advanced level CAD designs which were done on Autodesk Fusion 360. I have spent more then 400 hours in designing this arm for one of my friend as a prosthetic arm and spend more then 1 week in printing and joining things together this design was inspired by 2 fabulous products which was Exiii Handiii(<a rel=\"ugc nofollow\" href=\"http:\/\/exiii.jp\/\">http:\/\/exiii.jp\/<\/a>) and Dexmo (<a rel=\"ugc nofollow\" href=\"http:\/\/www.dextarobotics.com\/\">http:\/\/www.dextarobotics.com\/<\/a>) though it does not look so good but still i think it has a very great modular look.<br>I am also not sure about how should i publish files if open source or should charge for the files.<br>If you like the pictures and would like to talk just drop a comment.<br>hope you have a great day :)<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Custom Delta Printer<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2mm<\/p><\/div>\n",
+            "infill": "<div><p>30%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2899025\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2899025\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2899025\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2899025\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2899025\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2899025\/tags",
+    "tags": [
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10223,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "arms",
+        "tag": "arms",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arms",
+        "count": 256,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arms\/things",
+        "absolute_url": "\/tag:arms"
+      },
+      {
+        "name": "gesture control",
+        "tag": "gesture_control",
+        "url": "https:\/\/api.thingiverse.com\/tags\/gesture_control",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/gesture_control\/things",
+        "absolute_url": "\/tag:gesture_control"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1942,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "robotics",
+        "tag": "robotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+        "count": 3572,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+        "absolute_url": "\/tag:robotics"
+      },
+      {
+        "name": "servo",
+        "tag": "servo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/servo",
+        "count": 2692,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/servo\/things",
+        "absolute_url": "\/tag:servo"
+      },
+      {
+        "name": "telepresence robot",
+        "tag": "telepresence_robot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/telepresence_robot",
+        "count": 13,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/telepresence_robot\/things",
+        "absolute_url": "\/tag:telepresence_robot"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2899025\/categories",
+    "file_count": 57,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1383,
+    "view_count": 5163,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Smart_hands.f3z",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/35\/01\/3c\/53\/Smart_hands.f3z"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_center_connector_2_1_Body1_center_connector_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/a2\/8b\/32\/e6\/plam_major_v41_plam_major_v41_finger_test_v30_1_center_connector_2_1_Body1_center_connector_2.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_mount_4_1_Body1_servo_mount_4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/fc\/07\/c7\/d3\/plam_major_v41_plam_major_v41_servo_mount_4_1_Body1_servo_mount_4.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_tip_1_Body1_tip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/6a\/1b\/ff\/bd\/plam_major_v41_plam_major_v41_finger_test_v30_1_tip_1_Body1_tip.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body1_bottom_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/80\/c2\/1d\/a4\/plam_major_v41_plam_major_v41_bottom_cover_1_Body1_bottom_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body3_bottom_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/0e\/47\/f5\/b8\/plam_major_v41_plam_major_v41_bottom_cover_1_Body3_bottom_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_bottom_center_1_Body1_bottom_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/c4\/ef\/ca\/d6\/plam_major_v41_plam_major_v41_finger_test_v30_4_bottom_center_1_Body1_bottom_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_tip_1_Body1_tip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/56\/f9\/6b\/69\/plam_major_v41_plam_major_v41_finger_test_v30_3_tip_1_Body1_tip.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Component14_1_Body1_Component14.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/ca\/08\/f2\/cd\/plam_major_v41_plam_major_v41_Component14_1_Body1_Component14.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Spur_Gear_15_teeth_1_Body1_Spur_Gear_15_teeth.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/6b\/af\/12\/ae\/plam_major_v41_plam_major_v41_Spur_Gear_15_teeth_1_Body1_Spur_Gear_15_teeth.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_tip_1_Body1_tip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/8b\/19\/11\/75\/plam_major_v41_plam_major_v41_finger_test_v30_4_tip_1_Body1_tip.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_bottom_center_1_Body1_bottom_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/e7\/6f\/0f\/0c\/plam_major_v41_plam_major_v41_finger_test_v30_1_bottom_center_1_Body1_bottom_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body2_bottom_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/3d\/ee\/cc\/21\/plam_major_v41_plam_major_v41_bottom_cover_1_Body2_bottom_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_center_connector_1_Body1_rear_center_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/3e\/1b\/05\/d8\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_center_connector_1_Body1_rear_center_connector.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_top_center_1_Body1_top_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/65\/1f\/af\/9d\/plam_major_v41_plam_major_v41_finger_test_v30_3_top_center_1_Body1_top_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_bottom_center_1_Body1_bottom_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/6a\/01\/ec\/20\/plam_major_v41_plam_major_v41_finger_test_v30_2_bottom_center_1_Body1_bottom_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_bottom_center_1_Body1_bottom_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/f3\/9e\/5b\/26\/plam_major_v41_plam_major_v41_finger_test_v30_3_bottom_center_1_Body1_bottom_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body4_top_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/db\/89\/65\/f6\/plam_major_v41_plam_major_v41_top_cover_1_Body4_top_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_servo_mount_1_Body1_servo_mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/a5\/ef\/de\/d8\/plam_major_v41_plam_major_v41_finger_test_v10_1_servo_mount_1_Body1_servo_mount.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_1_Body1_servo_pully.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/f4\/d1\/19\/c1\/plam_major_v41_plam_major_v41_servo_pully_1_Body1_servo_pully.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_bottom_1_Body1_rear_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/6a\/3b\/1f\/88\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_bottom_1_Body1_rear_bottom.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_center_connector_1_Body1_rear_center_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/8c\/4e\/09\/e5\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_center_connector_1_Body1_rear_center_connector.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_bottom_1_Body1_rear_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/05\/62\/15\/95\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_bottom_1_Body1_rear_bottom.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/a5\/c1\/cf\/d7\/plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body6_bottom_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/85\/f2\/07\/1a\/plam_major_v41_plam_major_v41_bottom_cover_1_Body6_bottom_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_servo_pully_1_Body1_servo_pully.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/fa\/d2\/1d\/ba\/plam_major_v41_plam_major_v41_finger_test_v10_1_servo_pully_1_Body1_servo_pully.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_bottom_center_1_Body1_bottom_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/99\/81\/35\/52\/plam_major_v41_plam_major_v41_finger_test_v10_1_bottom_center_1_Body1_bottom_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_top_1_1_Body1_rear_top_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/37\/5a\/14\/1a\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_top_1_1_Body1_rear_top_1.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_rear_center_connector_1_Body1_rear_center_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/ef\/69\/5f\/c0\/plam_major_v41_plam_major_v41_finger_test_v10_1_rear_center_connector_1_Body1_rear_center_connector.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_top_center_1_Body1_top_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/e6\/89\/e7\/e5\/plam_major_v41_plam_major_v41_finger_test_v10_1_top_center_1_Body1_top_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_tip_1_Body1_tip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/60\/51\/c4\/84\/plam_major_v41_plam_major_v41_finger_test_v30_2_tip_1_Body1_tip.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_center_connector_2_1_Body1_center_connector_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/1d\/7d\/3a\/0c\/plam_major_v41_plam_major_v41_finger_test_v30_3_center_connector_2_1_Body1_center_connector_2.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_bottom_1_Body1_rear_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/f6\/85\/c1\/6a\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_bottom_1_Body1_rear_bottom.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_top_1_1_Body1_rear_top_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/c4\/23\/0b\/f8\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_top_1_1_Body1_rear_top_1.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_tip_1_Body1_tip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/d0\/01\/ca\/ef\/plam_major_v41_plam_major_v41_finger_test_v10_1_tip_1_Body1_tip.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_center_connector_2_1_Body1_center_connector_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/bb\/90\/6b\/e1\/plam_major_v41_plam_major_v41_finger_test_v30_2_center_connector_2_1_Body1_center_connector_2.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_bottom_1_Body1_rear_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/51\/55\/c9\/7e\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_bottom_1_Body1_rear_bottom.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_top_center_1_Body1_top_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/11\/e8\/57\/07\/plam_major_v41_plam_major_v41_finger_test_v30_1_top_center_1_Body1_top_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_center_connector_2_1_Body1_center_connector_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/66\/95\/19\/91\/plam_major_v41_plam_major_v41_finger_test_v30_4_center_connector_2_1_Body1_center_connector_2.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_center_connector_1_Body1_rear_center_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/09\/e3\/02\/7e\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_center_connector_1_Body1_rear_center_connector.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_center_connector_1_Body1_rear_center_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/ed\/fa\/c4\/05\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_center_connector_1_Body1_rear_center_connector.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_top_center_1_Body1_top_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/84\/b8\/e5\/d2\/plam_major_v41_plam_major_v41_finger_test_v30_2_top_center_1_Body1_top_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_3_Body1_servo_pully.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/cf\/3e\/14\/a6\/plam_major_v41_plam_major_v41_servo_pully_3_Body1_servo_pully.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_2_Body1_servo_pully.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/c8\/39\/a2\/63\/plam_major_v41_plam_major_v41_servo_pully_2_Body1_servo_pully.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_top_center_1_Body1_top_center.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/47\/80\/c2\/f8\/plam_major_v41_plam_major_v41_finger_test_v30_4_top_center_1_Body1_top_center.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_top_1_1_Body1_rear_top_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/cb\/18\/fe\/bd\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_top_1_1_Body1_rear_top_1.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_4_Body1_servo_pully.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/7b\/7f\/51\/9f\/plam_major_v41_plam_major_v41_servo_pully_4_Body1_servo_pully.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body2_top_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/d1\/2e\/8b\/81\/plam_major_v41_plam_major_v41_top_cover_1_Body2_top_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component5_1_Body1_Component5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/6e\/39\/71\/aa\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component5_1_Body1_Component5.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_top_1_1_Body1_rear_top_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/4d\/9f\/bb\/4e\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_top_1_1_Body1_rear_top_1.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component1_1_Body1_Component1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/65\/58\/16\/4a\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component1_1_Body1_Component1.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Spur_Gear_20_teeth_1_Body1_Spur_Gear_20_teeth.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/4c\/85\/cf\/ca\/plam_major_v41_plam_major_v41_Spur_Gear_20_teeth_1_Body1_Spur_Gear_20_teeth.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body1_top_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/66\/a6\/f6\/c8\/plam_major_v41_plam_major_v41_top_cover_1_Body1_top_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body3_top_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/2f\/61\/73\/a1\/plam_major_v41_plam_major_v41_top_cover_1_Body3_top_cover.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component3_1_Body1_Component3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/4e\/f6\/11\/63\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component3_1_Body1_Component3.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component2_1_Body1_Component2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/01\/1d\/40\/e7\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component2_1_Body1_Component2.stl"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component4_1_Body1_Component4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/3c\/63\/2f\/eb\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component4_1_Body1_Component4.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/fc\/80\/2f\/44\/plam_major_v41_plam_major_v41_bottom_cover_1_Body4_bottom_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_tip_1_Body1_tip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/3a\/2d\/90\/8c\/plam_major_v41_plam_major_v41_finger_test_v30_1_tip_1_Body1_tip.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_center_connector_2_1_Body1_center_connector_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/a7\/2b\/d0\/aa\/plam_major_v41_plam_major_v41_finger_test_v30_3_center_connector_2_1_Body1_center_connector_2.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_tip_1_Body1_tip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/05\/69\/a1\/ab\/plam_major_v41_plam_major_v41_finger_test_v10_1_tip_1_Body1_tip.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_servo_mount_1_Body1_servo_mount.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/35\/0b\/21\/11\/plam_major_v41_plam_major_v41_finger_test_v10_1_servo_mount_1_Body1_servo_mount.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_tip_1_Body1_tip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/d9\/37\/be\/58\/plam_major_v41_plam_major_v41_finger_test_v30_3_tip_1_Body1_tip.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_center_connector_2_1_Body1_center_connector_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/f8\/b8\/15\/18\/plam_major_v41_plam_major_v41_finger_test_v30_2_center_connector_2_1_Body1_center_connector_2.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_3_Body1_servo_pully.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/1b\/32\/b2\/bf\/plam_major_v41_plam_major_v41_servo_pully_3_Body1_servo_pully.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_center_connector_1_Body1_rear_center_connector.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/0c\/36\/ac\/b2\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_center_connector_1_Body1_rear_center_connector.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_1_Body1_servo_pully.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/12\/b8\/aa\/5c\/plam_major_v41_plam_major_v41_servo_pully_1_Body1_servo_pully.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_4_Body1_servo_pully.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/d6\/91\/93\/a1\/plam_major_v41_plam_major_v41_servo_pully_4_Body1_servo_pully.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component2_1_Body1_Component2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/78\/24\/05\/89\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component2_1_Body1_Component2.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body3_top_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/4e\/a5\/f5\/10\/plam_major_v41_plam_major_v41_top_cover_1_Body3_top_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_top_1_1_Body1_rear_top_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/34\/63\/75\/b0\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_top_1_1_Body1_rear_top_1.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_center_connector_2_1_Body1_center_connector_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/a8\/df\/d6\/97\/plam_major_v41_plam_major_v41_finger_test_v30_1_center_connector_2_1_Body1_center_connector_2.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_top_1_1_Body1_rear_top_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/9f\/5d\/6b\/ba\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_top_1_1_Body1_rear_top_1.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_bottom_center_1_Body1_bottom_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/06\/51\/e8\/49\/plam_major_v41_plam_major_v41_finger_test_v10_1_bottom_center_1_Body1_bottom_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_tip_1_Body1_tip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/e5\/26\/fd\/ca\/plam_major_v41_plam_major_v41_finger_test_v30_4_tip_1_Body1_tip.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body2_bottom_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/47\/8f\/2a\/53\/plam_major_v41_plam_major_v41_bottom_cover_1_Body2_bottom_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_pully_2_Body1_servo_pully.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/e3\/f1\/44\/9d\/plam_major_v41_plam_major_v41_servo_pully_2_Body1_servo_pully.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component3_1_Body1_Component3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/65\/9d\/f6\/12\/47\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component3_1_Body1_Component3.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component4_1_Body1_Component4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/ac\/a9\/fd\/ce\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component4_1_Body1_Component4.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_top_center_1_Body1_top_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/07\/3d\/3b\/8d\/plam_major_v41_plam_major_v41_finger_test_v30_4_top_center_1_Body1_top_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_bottom_center_1_Body1_bottom_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/0d\/2a\/09\/0c\/plam_major_v41_plam_major_v41_finger_test_v30_4_bottom_center_1_Body1_bottom_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_top_center_1_Body1_top_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/1c\/fc\/fd\/f0\/plam_major_v41_plam_major_v41_finger_test_v30_3_top_center_1_Body1_top_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_servo_pully_1_Body1_servo_pully.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/9d\/39\/03\/e1\/plam_major_v41_plam_major_v41_finger_test_v10_1_servo_pully_1_Body1_servo_pully.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_top_1_1_Body1_rear_top_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/37\/80\/23\/eb\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_top_1_1_Body1_rear_top_1.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body3_bottom_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/04\/74\/b4\/ae\/plam_major_v41_plam_major_v41_bottom_cover_1_Body3_bottom_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_rear_bottom_1_Body1_rear_bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/55\/0b\/b3\/73\/plam_major_v41_plam_major_v41_finger_test_v30_1_rear_bottom_1_Body1_rear_bottom.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body1_bottom_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/80\/df\/83\/75\/plam_major_v41_plam_major_v41_bottom_cover_1_Body1_bottom_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body4_top_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/dc\/a0\/45\/e0\/plam_major_v41_plam_major_v41_top_cover_1_Body4_top_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_bottom_center_1_Body1_bottom_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/f3\/4b\/a1\/e4\/plam_major_v41_plam_major_v41_finger_test_v30_1_bottom_center_1_Body1_bottom_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component1_1_Body1_Component1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/fb\/aa\/d0\/a7\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component1_1_Body1_Component1.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_rear_center_connector_1_Body1_rear_center_connector.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/c7\/f6\/52\/b8\/plam_major_v41_plam_major_v41_finger_test_v10_1_rear_center_connector_1_Body1_rear_center_connector.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_palm_cover_v8_1_Component5_1_Body1_Component5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/8b\/32\/d1\/fd\/plam_major_v41_plam_major_v41_palm_cover_v8_1_Component5_1_Body1_Component5.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v10_1_top_center_1_Body1_top_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/6b\/10\/a4\/9a\/plam_major_v41_plam_major_v41_finger_test_v10_1_top_center_1_Body1_top_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Component14_1_Body1_Component14.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/62\/21\/57\/0a\/plam_major_v41_plam_major_v41_Component14_1_Body1_Component14.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_bottom_1_Body1_rear_bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/89\/54\/61\/4a\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_bottom_1_Body1_rear_bottom.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_bottom_1_Body1_rear_bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/f2\/28\/ce\/c0\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_bottom_1_Body1_rear_bottom.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_rear_center_connector_1_Body1_rear_center_connector.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/6d\/8c\/52\/82\/plam_major_v41_plam_major_v41_finger_test_v30_2_rear_center_connector_1_Body1_rear_center_connector.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_1_top_center_1_Body1_top_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/77\/fa\/ba\/78\/plam_major_v41_plam_major_v41_finger_test_v30_1_top_center_1_Body1_top_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Spur_Gear_20_teeth_1_Body1_Spur_Gear_20_teeth.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/00\/4a\/6f\/73\/plam_major_v41_plam_major_v41_Spur_Gear_20_teeth_1_Body1_Spur_Gear_20_teeth.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_center_connector_2_1_Body1_center_connector_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/35\/55\/c7\/d5\/plam_major_v41_plam_major_v41_finger_test_v30_4_center_connector_2_1_Body1_center_connector_2.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body2_top_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/6c\/9a\/e8\/14\/plam_major_v41_plam_major_v41_top_cover_1_Body2_top_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_Spur_Gear_15_teeth_1_Body1_Spur_Gear_15_teeth.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/b5\/98\/ad\/e7\/plam_major_v41_plam_major_v41_Spur_Gear_15_teeth_1_Body1_Spur_Gear_15_teeth.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_top_center_1_Body1_top_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/27\/ac\/4a\/1f\/plam_major_v41_plam_major_v41_finger_test_v30_2_top_center_1_Body1_top_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_4_rear_center_connector_1_Body1_rear_center_connector.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/73\/6c\/71\/4e\/plam_major_v41_plam_major_v41_finger_test_v30_4_rear_center_connector_1_Body1_rear_center_connector.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_servo_mount_4_1_Body1_servo_mount_4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/ea\/ce\/3b\/4c\/plam_major_v41_plam_major_v41_servo_mount_4_1_Body1_servo_mount_4.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_center_connector_1_Body1_rear_center_connector.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/eb\/49\/f6\/7e\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_center_connector_1_Body1_rear_center_connector.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_bottom_1_Body1_rear_bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/b1\/b7\/e5\/fc\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_bottom_1_Body1_rear_bottom.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_tip_1_Body1_tip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/60\/e2\/8f\/6a\/plam_major_v41_plam_major_v41_finger_test_v30_2_tip_1_Body1_tip.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_bottom_cover_1_Body6_bottom_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/c8\/25\/be\/03\/plam_major_v41_plam_major_v41_bottom_cover_1_Body6_bottom_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_2_bottom_center_1_Body1_bottom_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/57\/ad\/81\/5f\/plam_major_v41_plam_major_v41_finger_test_v30_2_bottom_center_1_Body1_bottom_center.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_rear_top_1_1_Body1_rear_top_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/f2\/98\/72\/34\/plam_major_v41_plam_major_v41_finger_test_v30_3_rear_top_1_1_Body1_rear_top_1.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_top_cover_1_Body1_top_cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/69\/15\/9e\/93\/plam_major_v41_plam_major_v41_top_cover_1_Body1_top_cover.png"
+        },
+        {
+          "name": "plam_major_v41_plam_major_v41_finger_test_v30_3_bottom_center_1_Body1_bottom_center.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/56\/1f\/5d\/e6\/plam_major_v41_plam_major_v41_finger_test_v30_3_bottom_center_1_Body1_bottom_center.png"
+        },
+        {
+          "name": "plam_major_2018-Apr-25_06-49-28PM-000_CustomizedView31392717962_png_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/a7\/f9\/b4\/12\/plam_major_2018-Apr-25_06-49-28PM-000_CustomizedView31392717962_png_2.png"
+        },
+        {
+          "name": "plam_major_2018-Apr-25_06-50-00PM-000_CustomizedView12310211070_png_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/14\/88\/a8\/c5\/plam_major_2018-Apr-25_06-50-00PM-000_CustomizedView12310211070_png_2.png"
+        },
+        {
+          "name": "IMG_20180504_121537.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/cb\/19\/4f\/11\/IMG_20180504_121537.jpg"
+        },
+        {
+          "name": "IMG_20180504_121625.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/46\/16\/21\/2b\/IMG_20180504_121625.jpg"
+        },
+        {
+          "name": "IMG_20180504_121706.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/c3\/56\/26\/e6\/IMG_20180504_121706.jpg"
+        },
+        {
+          "name": "plam_major_2018-Mar-07_12-37-18PM-000_CustomizedView7664234400_png.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/e6\/ab\/23\/c4\/plam_major_2018-Mar-07_12-37-18PM-000_CustomizedView7664234400_png.png"
+        },
+        {
+          "name": "IMG_20180504_121409.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/2f\/12\/85\/ad\/IMG_20180504_121409.jpg"
+        },
+        {
+          "name": "IMG_20180504_121516.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/d8\/ec\/8c\/b9\/IMG_20180504_121516.jpg"
+        },
+        {
+          "name": "plam_major_2018-Mar-07_12-37-48PM-000_CustomizedView6734533189_png.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/c7\/43\/4c\/d8\/plam_major_2018-Mar-07_12-37-48PM-000_CustomizedView6734533189_png.png"
+        }
+      ]
+    }
+  }
+}

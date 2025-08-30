@@ -1,0 +1,508 @@
+{
+  "created_at": "2025-07-15T03:58:48.539556+00:00",
+  "elapsed": 0.115791,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657f0ab78f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:48 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:48 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6532742?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6532742?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6532742,
+    "name": "Better Braille Alphabet Board (No \"Braille Alphabet\" Heading)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d4\/c4\/1e\/7d\/3d\/large_display_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6532742",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6532742",
+    "creator": {
+      "id": 6191842,
+      "name": "Brennen_WATAP",
+      "first_name": "Brennen",
+      "last_name": "Johnston",
+      "url": "https:\/\/api.thingiverse.com\/users\/Brennen_WATAP",
+      "public_url": "https:\/\/www.thingiverse.com\/Brennen_WATAP",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/93\/ca\/a1\/92\/65\/d0a77991-a251-4ea4-917b-951342f1e8bb.jpg",
+      "count_of_followers": 4,
+      "count_of_following": 2,
+      "count_of_designs": 9,
+      "collection_count": 1,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-03-14T20:55:30+00:00",
+    "modified": "2024-03-14T20:55:30+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 5,
+    "is_liked": false,
+    "collect_count": 5,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21136270,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/f9\/a4\/fd\/c5\/d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png",
+      "name": "d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/b8\/45\/ab\/84\/large_thumb_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/72\/c6\/9d\/77\/medium_thumb_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/13\/22\/0c\/bf\/small_thumb_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/c7\/e2\/db\/dd\/tiny_thumb_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/c8\/97\/3a\/06\/featured_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/45\/25\/23\/6b\/card_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/00\/28\/c1\/0e\/large_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/d0\/b5\/6a\/3c\/medium_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/1b\/6e\/e4\/4f\/small_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/de\/34\/2d\/cd\/birdwing_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/13\/dd\/f5\/b5\/tiny_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/62\/f2\/e0\/58\/tinycard_preview_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/c4\/1e\/7d\/3d\/large_display_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/2c\/a3\/91\/5b\/medium_display_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/6a\/7d\/32\/7d\/small_display_d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        }
+      ],
+      "added": "2024-05-13T23:30:19+00:00"
+    },
+    "description": "This is a raised letter Braille alphabet board developed by WATAP (Washington Assistive Technology Access Program) to be used as an educational tool. The Braille dots are printed vertically to achieve higher resolution and improve useability.\r\n\r\nFor Bambu Lab Printers here is my profile: https:\/\/makerworld.com\/en\/models\/254703#profileId-271057\r\n\r\nFollow this video for assembly instructions:",
+    "instructions": "",
+    "description_html": "<div><p>This is a raised letter Braille alphabet board developed by WATAP (Washington Assistive Technology Access Program) to be used as an educational tool. The Braille dots are printed vertically to achieve higher resolution and improve useability.<\/p><p>For Bambu Lab Printers here is my profile: <a rel=\"nofollow\" href=\"https:\/\/makerworld.com\/en\/models\/254703#profileId-271057\">https:\/\/makerworld.com\/en\/models\/254703#profileId-271057<\/a><\/p><p>Follow this video for assembly instructions:<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a raised letter Braille alphabet board developed by WATAP (Washington Assistive Technology Access Program) to be used as an educational tool. The Braille dots are printed vertically to achieve higher resolution and improve useability.<\/p><p>For Bambu Lab Printers here is my profile: <a rel=\"nofollow\" href=\"https:\/\/makerworld.com\/en\/models\/254703#profileId-271057\">https:\/\/makerworld.com\/en\/models\/254703#profileId-271057<\/a><\/p><p>Follow this video for assembly instructions:<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Bambulabs<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Bambu X1C&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;25%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Bambulabs Tough PLA                White, Black                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Braille Rows need brim and supports.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/9NiuDHcgOx0\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;Video assembly instructions&lt;\/p&gt;            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b6\/3d\/17\/87\/28\/c1244888-7947-4faa-958a-f53e7315508c.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/e2\/99\/11\/63\/a9\/f866a568-830c-46b2-b6e0-203e8e4d4cf4.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/2c\/c8\/b7\/bd\/94\/a8aec8db-ca77-4891-b0e5-e32c7b8a7ee7.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/aa\/50\/b3\/84\/68\/4fc2b019-19e0-4883-8e58-cf2ac240987c.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/96\/af\/29\/bd\/7c\/7a2db525-3aad-4cc7-920a-73962d0ce868.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/f3\/39\/fc\/ce\/e5\/4b2babff-18d0-47e8-83df-5545bf89ce11.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/5e\/fd\/73\/2c\/76\/e6af58d0-afdb-46e6-87a8-2a711ce1a76e.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/10\/b2\/c2\/0d\/e2\/dbd9c792-5eac-4e39-83f3-8fd8484b5b4d.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/a8\/5a\/76\/b7\/de\/47a284ff-cf80-4598-b33b-55f6ce8d482e.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/ce\/d3\/26\/99\/fc\/fbbfcf13-d6a0-48f5-8309-dcaddc9a9fbe.jpg\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a raised letter Braille alphabet board developed by WATAP (Washington Assistive Technology Access Program) to be used as an educational tool. The Braille dots are printed vertically to achieve higher resolution and improve useability.<\/p><p>For Bambu Lab Printers here is my profile: <a rel=\"nofollow\" href=\"https:\/\/makerworld.com\/en\/models\/254703#profileId-271057\">https:\/\/makerworld.com\/en\/models\/254703#profileId-271057<\/a><\/p><p>Follow this video for assembly instructions:<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Bambulabs<\/p><\/div>",
+            "printer": "<div><p>Bambu X1C<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>",
+            "infill": "<div><p>25%<\/p><\/div>",
+            "filament_brand": "<div><p>Bambulabs<\/p><\/div>",
+            "filament_color": "<div><p>White, Black<\/p><\/div>",
+            "filament_material": "<div><p>Tough PLA<\/p><\/div>",
+            "notes": "<div><p>Braille Rows need brim and supports.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/9NiuDHcgOx0\" frameborder=\"0\" allowfullscreen><\/iframe>",
+            "caption": "Video assembly instructions"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b6\/3d\/17\/87\/28\/c1244888-7947-4faa-958a-f53e7315508c.jpg",
+            "image_id": "920724"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/e2\/99\/11\/63\/a9\/f866a568-830c-46b2-b6e0-203e8e4d4cf4.jpg",
+            "image_id": "920725"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/2c\/c8\/b7\/bd\/94\/a8aec8db-ca77-4891-b0e5-e32c7b8a7ee7.jpg",
+            "image_id": "920726"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/aa\/50\/b3\/84\/68\/4fc2b019-19e0-4883-8e58-cf2ac240987c.jpg",
+            "image_id": "920727"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/96\/af\/29\/bd\/7c\/7a2db525-3aad-4cc7-920a-73962d0ce868.jpg",
+            "image_id": "920728"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/f3\/39\/fc\/ce\/e5\/4b2babff-18d0-47e8-83df-5545bf89ce11.jpg",
+            "image_id": "920729"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/5e\/fd\/73\/2c\/76\/e6af58d0-afdb-46e6-87a8-2a711ce1a76e.jpg",
+            "image_id": "920730"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/10\/b2\/c2\/0d\/e2\/dbd9c792-5eac-4e39-83f3-8fd8484b5b4d.jpg",
+            "image_id": "920731"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a8\/5a\/76\/b7\/de\/47a284ff-cf80-4598-b33b-55f6ce8d482e.jpg",
+            "image_id": "920732"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/ce\/d3\/26\/99\/fc\/fbbfcf13-d6a0-48f5-8309-dcaddc9a9fbe.jpg",
+            "image_id": "920733"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6532742\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6532742\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6532742\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6532742\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6532742\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6532742\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 527,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "braille alphabet",
+        "tag": "braille_alphabet",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille_alphabet",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille_alphabet\/things",
+        "absolute_url": "\/tag:braille_alphabet"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6532742\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 19,
+    "view_count": 1014,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "BA_Right_Platev2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/8c\/19\/a5\/ea\/7d38c37b-3492-420b-b7a2-388cedfdca72.stl"
+        },
+        {
+          "name": "BA_Left_Platev2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/83\/8f\/3d\/b4\/594101bb-7f9f-4986-b4ce-f839d1c05f02.stl"
+        },
+        {
+          "name": "BA_Rowsv2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/7b\/53\/10\/d7\/5f3e5cc1-73a7-4f12-8cce-561a3d5b8ea5.stl"
+        },
+        {
+          "name": "BA_Large_Rowsv2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/0b\/11\/c8\/55\/7ee2dc26-1754-440f-8b8e-fe7f9603d623.stl"
+        },
+        {
+          "name": "BA_Extra_Large_Rowsv2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/db\/d9\/54\/b5\/c35959db-0de9-4cc9-a45d-14d720a275e8.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/f9\/a4\/fd\/c5\/d1cb886f-ebf4-4ae7-ac27-a2d23a344e29.png"
+        },
+        {
+          "name": "c94698f0-d19d-4261-9418-f9c837ae1e66.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/27\/ae\/12\/3d\/c94698f0-d19d-4261-9418-f9c837ae1e66.jpg"
+        },
+        {
+          "name": "cf03e6b9-6b70-451b-bc9b-c572ffbfa0ac.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/49\/77\/5b\/22\/cf03e6b9-6b70-451b-bc9b-c572ffbfa0ac.jpg"
+        },
+        {
+          "name": "15e0cc4d-3910-4b80-9852-446497e58740.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/56\/16\/10\/c8\/15e0cc4d-3910-4b80-9852-446497e58740.jpg"
+        },
+        {
+          "name": "7bbb67b1-faa5-44d7-853b-2775c10c3f0f.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/12\/d8\/ae\/a7\/7bbb67b1-faa5-44d7-853b-2775c10c3f0f.jpg"
+        },
+        {
+          "name": "310f05e5-f42c-40e0-b13a-10c305af59b2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/66\/a9\/a0\/f5\/310f05e5-f42c-40e0-b13a-10c305af59b2.jpg"
+        },
+        {
+          "name": "27df46d7-9f6e-4115-914d-1dc052babc21.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/e6\/48\/2a\/80\/27df46d7-9f6e-4115-914d-1dc052babc21.jpg"
+        },
+        {
+          "name": "594101bb-7f9f-4986-b4ce-f839d1c05f02.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/10\/01\/cc\/6a\/594101bb-7f9f-4986-b4ce-f839d1c05f02.png"
+        },
+        {
+          "name": "7d38c37b-3492-420b-b7a2-388cedfdca72.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/79\/c1\/fc\/fe\/7d38c37b-3492-420b-b7a2-388cedfdca72.png"
+        },
+        {
+          "name": "7ee2dc26-1754-440f-8b8e-fe7f9603d623.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/d5\/ab\/9c\/af\/7ee2dc26-1754-440f-8b8e-fe7f9603d623.png"
+        },
+        {
+          "name": "c35959db-0de9-4cc9-a45d-14d720a275e8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/0a\/c7\/0d\/9f\/c35959db-0de9-4cc9-a45d-14d720a275e8.png"
+        },
+        {
+          "name": "5f3e5cc1-73a7-4f12-8cce-561a3d5b8ea5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/00\/e5\/a1\/95\/5f3e5cc1-73a7-4f12-8cce-561a3d5b8ea5.png"
+        }
+      ]
+    }
+  }
+}

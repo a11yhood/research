@@ -1,0 +1,463 @@
+{
+  "created_at": "2025-04-16T03:33:57.185019+00:00",
+  "elapsed": 0.147154,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109fc78c2e63d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:57 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:57 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/49936?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/49936?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 49936,
+    "name": "Bowers Assistive Fork",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/49936",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:49936",
+    "creator": {
+      "id": 16758,
+      "name": "ThePlanetMike",
+      "first_name": "Michael",
+      "last_name": "Bowers",
+      "url": "https:\/\/api.thingiverse.com\/users\/ThePlanetMike",
+      "public_url": "https:\/\/www.thingiverse.com\/ThePlanetMike",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c0\/e4\/9d\/a4\/e2\/DSC_8773BW_thumb_medium.jpg",
+      "count_of_followers": 168,
+      "count_of_following": 11,
+      "count_of_designs": 49,
+      "collection_count": 2,
+      "make_count": 28,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Seattle, WA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/f5\/6e\/ab\/f0\/02\/2014-01-14_16.23.19_HDR_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2013-02-13T06:32:05+00:00",
+    "modified": "2013-02-13T06:32:05+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 42,
+    "is_liked": false,
+    "collect_count": 98,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 522523,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/42\/7d\/50\/ab\/2013-10-08_13.44.10.jpg",
+      "name": "2013-10-08_13.44.10.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10_display_small.jpg"
+        }
+      ],
+      "added": "2013-10-08T21:34:56+00:00"
+    },
+    "description": "This fork holder is designed for people with limited mobility to create a customizable eating utensil. Using this fork holder and handle and some easily obtainable parts such as 1\/2\" PVC pipe and a rubber band, this assistive device can be used to manipulate a fork while keeping your hands below table level. Unlike other overly complex assistive devices, it requires no screws or power. The handle is designed to support traditional and nontraditional gripping strategies.  \r\n\r\nI have used and relied on this design daily to eat independently since 2012. It's taken many redesigns to get it just right: to print without support, to be light-weight, and to print on small printers, but I am very satisfied with it. It looks more attractive than other designs I've used made by occupational therapists, and can be fully taken apart to be cleaned. Every fork I've tried has fit well, from plastic to heavy dinnerware. This design alone has made a 3-D printer a must-have device in my house!",
+    "instructions": "6\/29\/13 Updated design, fully tested, stronger, more streamlined!  \r\n\r\n1. Print Fork Handle and Fork Holder.\r\n2. Get a length (I prefer 14\", but you can cut it to meet your needs) of 1\/2\" PVC pipe such as this one on Amazon.com: http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&camp=213733&creative=393177&creativeASIN=B003OSFI7U&linkCode=shr&tag=theplamik-20&qid=1360730930&sr=8-5&keywords=pvc+pipe  \r\n3. Insert handles, holders, and corresponding \"wedges\" that print with them.\r\n4. Use a rubber band to secure the fork as pictured.\r\n\r\nTry it with some forkable foods. It won't work for everything, but things like pieces of fruit, noodles, chunks of meat or tofu, cooked vegetables, and even cut up sandwiches work great.\r\n\r\nAdjust it to meet your needs. It's not going to be perfect at first. Play with the length of the pipe. Seat height can make a big difference - I like to sit a little higher such as on a stool. Edit the files and print one that works for you!  \r\n\r\nGo somewhere alone and eat in peace and quiet by yourself! Better yet, go on a dinner date, just the two of you. The new-found independence is exciting, and the extended reach will allow you to easily offer to share a bite.  \r\n\r\nWant me to help you design a 3D printable device to meet your needs? Contact me!",
+    "description_html": "<div><p>This fork holder is designed for people with limited mobility to create a customizable eating utensil. Using this fork holder and handle and some easily obtainable parts such as 1\/2\" PVC pipe and a rubber band, this assistive device can be used to manipulate a fork while keeping your hands below table level. Unlike other overly complex assistive devices, it requires no screws or power. The handle is designed to support traditional and nontraditional gripping strategies.  <\/p><p>I have used and relied on this design daily to eat independently since 2012. It's taken many redesigns to get it just right: to print without support, to be light-weight, and to print on small printers, but I am very satisfied with it. It looks more attractive than other designs I've used made by occupational therapists, and can be fully taken apart to be cleaned. Every fork I've tried has fit well, from plastic to heavy dinnerware. This design alone has made a 3-D printer a must-have device in my house!<\/p><\/div>\n",
+    "instructions_html": "<div><p>6\/29\/13 Updated design, fully tested, stronger, more streamlined!  <\/p><ol><li>Print Fork Handle and Fork Holder.<\/li><li>Get a length (I prefer 14\", but you can cut it to meet your needs) of 1\/2\" PVC pipe such as this one on Amazon.com: <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe\">http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe<\/a>  <\/li><li>Insert handles, holders, and corresponding \"wedges\" that print with them.<\/li><li>Use a rubber band to secure the fork as pictured.<\/li><\/ol><p>Try it with some forkable foods. It won't work for everything, but things like pieces of fruit, noodles, chunks of meat or tofu, cooked vegetables, and even cut up sandwiches work great.<\/p><p>Adjust it to meet your needs. It's not going to be perfect at first. Play with the length of the pipe. Seat height can make a big difference - I like to sit a little higher such as on a stool. Edit the files and print one that works for you!  <\/p><p>Go somewhere alone and eat in peace and quiet by yourself! Better yet, go on a dinner date, just the two of you. The new-found independence is exciting, and the extended reach will allow you to easily offer to share a bite.  <\/p><p>Want me to help you design a 3D printable device to meet your needs? Contact me!<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This fork holder is designed for people with limited mobility to create a customizable eating utensil. Using this fork holder and handle and some easily obtainable parts such as 1\/2\" PVC pipe and a rubber band, this assistive device can be used to manipulate a fork while keeping your hands below table level. Unlike other overly complex assistive devices, it requires no screws or power. The handle is designed to support traditional and nontraditional gripping strategies.  <\/p><p>I have used and relied on this design daily to eat independently since 2012. It's taken many redesigns to get it just right: to print without support, to be light-weight, and to print on small printers, but I am very satisfied with it. It looks more attractive than other designs I've used made by occupational therapists, and can be fully taken apart to be cleaned. Every fork I've tried has fit well, from plastic to heavy dinnerware. This design alone has made a 3-D printer a must-have device in my house!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>Nearly solid so that it is strong<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Tips<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;If the fit is sloppy in the PVC pipe, wrap the parts in a bit of tape, such as electrical tape or some glossy cellophane tapes, to take up the slack. You don't want them to twist freely. If the fit is too tight, sand the \"wedge\" parts a little.&lt;\/p&gt;&lt;p&gt;Optional: sand grooves and edges on the fork holder a little. This will keep rubber bands from snapping over time.  &lt;\/p&gt;&lt;p&gt;For a less industrial look, sand the PVC pipe to get rid of any writing. Print the fork holder and handle in your favorite color or change it with the season. Try fitting it into a piece of bamboo instead of PVC pipe to make it extra classy.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>6\/29\/13 Updated design, fully tested, stronger, more streamlined!  <\/p><ol><li>Print Fork Handle and Fork Holder.<\/li><li>Get a length (I prefer 14\", but you can cut it to meet your needs) of 1\/2\" PVC pipe such as this one on Amazon.com: <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe\">http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe<\/a>  <\/li><li>Insert handles, holders, and corresponding \"wedges\" that print with them.<\/li><li>Use a rubber band to secure the fork as pictured.<\/li><\/ol><p>Try it with some forkable foods. It won't work for everything, but things like pieces of fruit, noodles, chunks of meat or tofu, cooked vegetables, and even cut up sandwiches work great.<\/p><p>Adjust it to meet your needs. It's not going to be perfect at first. Play with the length of the pipe. Seat height can make a big difference - I like to sit a little higher such as on a stool. Edit the files and print one that works for you!  <\/p><p>Go somewhere alone and eat in peace and quiet by yourself! Better yet, go on a dinner date, just the two of you. The new-found independence is exciting, and the extended reach will allow you to easily offer to share a bite.  <\/p><p>Want me to help you design a 3D printable device to meet your needs? Contact me!<\/p><\/div><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-title\"><strong>Warnings<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Depending on how you print your parts and what materials you use, your parts may not be food safe and are almost certainly not dishwasher safe. You won't be eating directly off these parts, so that may or may not be important to you. Be careful!  &lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This fork holder is designed for people with limited mobility to create a customizable eating utensil. Using this fork holder and handle and some easily obtainable parts such as 1\/2\" PVC pipe and a rubber band, this assistive device can be used to manipulate a fork while keeping your hands below table level. Unlike other overly complex assistive devices, it requires no screws or power. The handle is designed to support traditional and nontraditional gripping strategies.  <\/p><p>I have used and relied on this design daily to eat independently since 2012. It's taken many redesigns to get it just right: to print without support, to be light-weight, and to print on small printers, but I am very satisfied with it. It looks more attractive than other designs I've used made by occupational therapists, and can be fully taken apart to be cleaned. Every fork I've tried has fit well, from plastic to heavy dinnerware. This design alone has made a 3-D printer a must-have device in my house!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Yes",
+            "supports": "No",
+            "infill": "<div><p>Nearly solid so that it is strong<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Tips",
+            "content": "<div><p>If the fit is sloppy in the PVC pipe, wrap the parts in a bit of tape, such as electrical tape or some glossy cellophane tapes, to take up the slack. You don't want them to twist freely. If the fit is too tight, sand the \"wedge\" parts a little.<\/p><p>Optional: sand grooves and edges on the fork holder a little. This will keep rubber bands from snapping over time.  <\/p><p>For a less industrial look, sand the PVC pipe to get rid of any writing. Print the fork holder and handle in your favorite color or change it with the season. Try fitting it into a piece of bamboo instead of PVC pipe to make it extra classy.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>6\/29\/13 Updated design, fully tested, stronger, more streamlined!  <\/p><ol><li>Print Fork Handle and Fork Holder.<\/li><li>Get a length (I prefer 14\", but you can cut it to meet your needs) of 1\/2\" PVC pipe such as this one on Amazon.com: <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe\">http:\/\/www.amazon.com\/gp\/product\/B003OSFI7U?ie=UTF8&amp;camp=213733&amp;creative=393177&amp;creativeASIN=B003OSFI7U&amp;linkCode=shr&amp;tag=theplamik-20&amp;qid=1360730930&amp;sr=8-5&amp;keywords=pvc+pipe<\/a>  <\/li><li>Insert handles, holders, and corresponding \"wedges\" that print with them.<\/li><li>Use a rubber band to secure the fork as pictured.<\/li><\/ol><p>Try it with some forkable foods. It won't work for everything, but things like pieces of fruit, noodles, chunks of meat or tofu, cooked vegetables, and even cut up sandwiches work great.<\/p><p>Adjust it to meet your needs. It's not going to be perfect at first. Play with the length of the pipe. Seat height can make a big difference - I like to sit a little higher such as on a stool. Edit the files and print one that works for you!  <\/p><p>Go somewhere alone and eat in peace and quiet by yourself! Better yet, go on a dinner date, just the two of you. The new-found independence is exciting, and the extended reach will allow you to easily offer to share a bite.  <\/p><p>Want me to help you design a 3D printable device to meet your needs? Contact me!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "title": "Warnings",
+            "content": "<div><p>Depending on how you print your parts and what materials you use, your parts may not be food safe and are almost certainly not dishwasher safe. You won't be eating directly off these parts, so that may or may not be important to you. Be careful!  <\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/49936\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/49936\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/49936\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/49936\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/49936\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/49936\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "eating",
+        "tag": "eating",
+        "url": "https:\/\/api.thingiverse.com\/tags\/eating",
+        "count": 78,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/eating\/things",
+        "absolute_url": "\/tag:eating"
+      },
+      {
+        "name": "fork",
+        "tag": "fork",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fork",
+        "count": 503,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fork\/things",
+        "absolute_url": "\/tag:fork"
+      },
+      {
+        "name": "handle",
+        "tag": "handle",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handle",
+        "count": 6334,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handle\/things",
+        "absolute_url": "\/tag:handle"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 43040,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "independence",
+        "tag": "independence",
+        "url": "https:\/\/api.thingiverse.com\/tags\/independence",
+        "count": 43,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/independence\/things",
+        "absolute_url": "\/tag:independence"
+      },
+      {
+        "name": "mobility",
+        "tag": "mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobility",
+        "count": 60,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobility\/things",
+        "absolute_url": "\/tag:mobility"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "OT",
+        "tag": "ot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ot",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ot\/things",
+        "absolute_url": "\/tag:OT"
+      },
+      {
+        "name": "pipe",
+        "tag": "pipe",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pipe",
+        "count": 2119,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pipe\/things",
+        "absolute_url": "\/tag:pipe"
+      },
+      {
+        "name": "utensil",
+        "tag": "utensil",
+        "url": "https:\/\/api.thingiverse.com\/tags\/utensil",
+        "count": 198,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/utensil\/things",
+        "absolute_url": "\/tag:utensil"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/49936\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1699,
+    "view_count": 6610,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 3,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Fork_Handle6r.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/18\/46\/cb\/93\/Fork_Handle6r.stl"
+        },
+        {
+          "name": "Fork_Holder10.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/7b\/cb\/da\/40\/Fork_Holder10.stl"
+        },
+        {
+          "name": "Fork_Holder10.skp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/48\/d7\/3c\/96\/Fork_Holder10.skp"
+        },
+        {
+          "name": "Fork_Handle6.skp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/de\/73\/dc\/8d\/Fork_Handle6.skp"
+        }
+      ],
+      "images": [
+        {
+          "name": "2013-10-08_13.44.10.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/42\/44\/c9\/e7\/2013-10-08_13.44.10.jpg"
+        },
+        {
+          "name": "2013-10-08_13.44.34.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/12\/5a\/ca\/c3\/d2\/2013-10-08_13.44.34.jpg"
+        },
+        {
+          "name": "2013-10-08_13.51.56.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2b\/3e\/c1\/8a\/27\/2013-10-08_13.51.56.jpg"
+        },
+        {
+          "name": "2013-06-29_18.56.51.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/56\/87\/81\/2c\/2013-06-29_18.56.51.jpg"
+        },
+        {
+          "name": "2013-10-08_13.41.29.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/36\/9a\/89\/93\/d9\/2013-10-08_13.41.29.jpg"
+        },
+        {
+          "name": "Fork_Holder10.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/7d\/78\/c4\/c6\/Fork_Holder10.jpg"
+        },
+        {
+          "name": "Fork_Handle6r.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/6a\/1a\/3e\/c5\/Fork_Handle6r.jpg"
+        },
+        {
+          "name": "2013-02-12_20.08.52.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/64\/d7\/fe\/04\/ba\/2013-02-12_20.08.52.jpg"
+        },
+        {
+          "name": "2013-10-08_13.41.11.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f3\/f4\/17\/a2\/f7\/2013-10-08_13.41.11.jpg"
+        },
+        {
+          "name": "2013-02-12_18.54.20.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e3\/6b\/bf\/04\/8b\/2013-02-12_18.54.20.jpg"
+        }
+      ]
+    }
+  }
+}

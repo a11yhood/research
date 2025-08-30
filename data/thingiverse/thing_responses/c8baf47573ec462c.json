@@ -1,0 +1,711 @@
+{
+  "created_at": "2025-04-18T03:29:54.783558+00:00",
+  "elapsed": 0.166524,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9321149c5b02fac6-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 18 Apr 2025 03:29:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 18 Apr 2025 03:59:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc",
+      "_cfuvid": "GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc; _cfuvid=GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3691683?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3691683?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3691683,
+    "name": "Robotic Prosthesis",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/01\/21\/dc\/3e\/09\/15b4d5d158f370d53931c81311cc012b_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3691683",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3691683",
+    "creator": {
+      "id": 533332,
+      "name": "bfessler",
+      "first_name": "Bradley",
+      "last_name": "Fessler",
+      "url": "https:\/\/api.thingiverse.com\/users\/bfessler",
+      "public_url": "https:\/\/www.thingiverse.com\/bfessler",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/18\/6f\/08\/4c\/cd\/4954f946a8f487ebe1cc350eb445f66b_thumb_medium.jpg",
+      "count_of_followers": 2,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pine Grove, Pennsylvania",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-5_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-14T20:51:38+00:00",
+    "modified": "2019-06-14T20:51:38+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 21,
+    "is_liked": false,
+    "collect_count": 35,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10968002,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/8d\/5a\/13\/c5\/Lid_Back.STL",
+      "name": "32383ec0a2d8c4c27f95953cb76e0c39.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-14T20:51:35+00:00"
+    },
+    "description": "This project was designed by Pine Grove Area High School Engineering Student Nicholas Brown. He designed this robotic prosthesis based on the Flexy-Hand project by Gyrobot. This prosthetic allows for individual finger movement even if the user do not have a wrist. It uses EMG signals from the users muscles to send signals to an Arduino Mega and output to 5 servo motors. The project includes a how-to, list of materials, pictures, and all of the design files so that any Solidworks user can modify the design. If you build this project or decide to modify it please let us know by posting in the comments, so that we may track the success of the project.",
+    "instructions": "",
+    "description_html": "<div><p>This project was designed by Pine Grove Area High School Engineering Student Nicholas Brown. He designed this robotic prosthesis based on the Flexy-Hand project by Gyrobot. This prosthetic allows for individual finger movement even if the user do not have a wrist. It uses EMG signals from the users muscles to send signals to an Arduino Mega and output to 5 servo motors. The project includes a how-to, list of materials, pictures, and all of the design files so that any Solidworks user can modify the design. If you build this project or decide to modify it please let us know by posting in the comments, so that we may track the success of the project.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This project was designed by Pine Grove Area High School Engineering Student Nicholas Brown. He designed this robotic prosthesis based on the Flexy-Hand project by Gyrobot. This prosthetic allows for individual finger movement even if the user do not have a wrist. It uses EMG signals from the users muscles to send signals to an Arduino Mega and output to 5 servo motors. The project includes a how-to, list of materials, pictures, and all of the design files so that any Solidworks user can modify the design. If you build this project or decide to modify it please let us know by posting in the comments, so that we may track the success of the project.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator (5th Generation)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Depending on your print settings some minor trimming or sanding maybe necessary.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This project was designed by Pine Grove Area High School Engineering Student Nicholas Brown. He designed this robotic prosthesis based on the Flexy-Hand project by Gyrobot. This prosthetic allows for individual finger movement even if the user do not have a wrist. It uses EMG signals from the users muscles to send signals to an Arduino Mega and output to 5 servo motors. The project includes a how-to, list of materials, pictures, and all of the design files so that any Solidworks user can modify the design. If you build this project or decide to modify it please let us know by posting in the comments, so that we may track the success of the project.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>\n",
+            "printer": "<div><p>MakerBot Replicator (5th Generation)<\/p><\/div>\n",
+            "rafts": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Depending on your print settings some minor trimming or sanding maybe necessary.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/01\/5a\/25\/bf\/02\/Hand_Worn.png\"><\/p>\n                    <p class=\"detail-title\"><strong>Robotic Prosthesis<\/strong><\/p>\n                <div><p>This project started during Nicholas Brown's freshman year of high school. He decided to put his 3D modeling and engineering skills to good use by creating a prosthesis for two middle school students. Over his high school career he created three working prototypes, each succession improving upon the last. <\/p><\/div>\n                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/0d\/08\/a0\/75\/b7\/IMG_9458.JPG\"><\/p>\n                <p class=\"detail-caption\"><strong>Nicholas Brown (Student Engineer)<\/strong><\/p>\n                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/53\/e6\/53\/ff\/4a\/Hand_Assembled.png\"><\/p>\n                <p class=\"detail-caption\"><strong>Assembled Prosthesis<\/strong><\/p>\n                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/15\/8b\/da\/b9\/5f\/Hand_Inside.png\"><\/p>\n                <p class=\"detail-caption\"><strong>Partially Assembled<\/strong><\/p>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<div><p>Students can build or modify Nicholas's design in order to aid people in their community. Students can improve upon the design either through programming the Arduino\/electronics or through the physical design of the prosthesis parts.<\/p><\/div>\n<h1 class=\"thing-component-header materials materials-needed\">Materials Needed<\/h1>\n<p class=\"detail-title\"><strong>Materials\/Tools Used<\/strong><\/p>\n                <div><p>PARTS<br>\n(1) Arduino Mega<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Elegoo-EL-CB-003-ATmega2560-ATMEGA16U2-Arduino\/dp\/B01H4ZLZLQ\/ref=sr_1_1_sspa?keywords=arduino+mega&amp;qid=1559323101&amp;s=electronics&amp;sr=1-1-spons&amp;psc=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/Elegoo-EL-CB-003-ATmega2560-ATMEGA16U2-Arduino\/dp\/B01H4ZLZLQ\/ref=sr_1_1_sspa?keywords=arduino+mega&amp;qid=1559323101&amp;s=electronics&amp;sr=1-1-spons&amp;psc=1<\/a><br>\n(1) 7.4V RC Battery<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Gens-ace-HardCase-Associated-Approved\/dp\/B00WOAWHUK\/ref=sr_1_3?keywords=gens+ace+3s+lipo+7.4v&amp;qid=1559323350&amp;s=electronics&amp;sr=8-3&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/Gens-ace-HardCase-Associated-Approved\/dp\/B00WOAWHUK\/ref=sr_1_3?keywords=gens+ace+3s+lipo+7.4v&amp;qid=1559323350&amp;s=electronics&amp;sr=8-3<\/a><br>\n(1) Elegoo LCD Touch Screen<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Elegoo-EL-SM-004-Inches-Technical-Arduino\/dp\/B01EUVJYME\/ref=sr_1_3_sspa?keywords=elegoo+lcd+touch+screen+2.8&amp;qid=1559323509&amp;s=gateway&amp;sr=8-3-spons&amp;psc=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/Elegoo-EL-SM-004-Inches-Technical-Arduino\/dp\/B01EUVJYME\/ref=sr_1_3_sspa?keywords=elegoo+lcd+touch+screen+2.8&amp;qid=1559323509&amp;s=gateway&amp;sr=8-3-spons&amp;psc=1<\/a><br>\n(5) 180 degree Servos<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/ZYHOBBY-Servo-CS-238MG-Metal-29x13x30mm\/dp\/B0769G469T\/ref=sr_1_fkmr0_1?keywords=corona+cs-238mg&amp;qid=1559323617&amp;s=gateway&amp;sr=8-1-fkmr0&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/ZYHOBBY-Servo-CS-238MG-Metal-29x13x30mm\/dp\/B0769G469T\/ref=sr_1_fkmr0_1?keywords=corona+cs-238mg&amp;qid=1559323617&amp;s=gateway&amp;sr=8-1-fkmr0<\/a><br>\n(5) Myoware EMG Sensors<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/MyoWare-Muscle-Sensor\/dp\/B018TIWR32\/ref=sr_1_1?keywords=myoware+emg&amp;qid=1559323673&amp;s=gateway&amp;sr=8-1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/MyoWare-Muscle-Sensor\/dp\/B018TIWR32\/ref=sr_1_1?keywords=myoware+emg&amp;qid=1559323673&amp;s=gateway&amp;sr=8-1<\/a><br>\n(1) 9V Battery<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/AmazonBasics-Everyday-Alkaline-Batteries-4-Pack\/dp\/B0774D64LT\/ref=sr_1_3?crid=IF57BA1YH3DX&amp;keywords=9v%2Bbattery&amp;qid=1559323722&amp;s=gateway&amp;sprefix=9v%2Caps%2C131&amp;sr=8-3&amp;th=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/AmazonBasics-Everyday-Alkaline-Batteries-4-Pack\/dp\/B0774D64LT\/ref=sr_1_3?crid=IF57BA1YH3DX&amp;keywords=9v%2Bbattery&amp;qid=1559323722&amp;s=gateway&amp;sprefix=9v%2Caps%2C131&amp;sr=8-3&amp;th=1<\/a><br>\n(1) 9V Connector to 2.1mm X 5.5mm DC Plug<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/5pack-Battery-2-1mm-Arduino-Corpco\/dp\/B01AXIEDX8\/ref=sr_1_14?crid=28T0KMWXCPC71&amp;keywords=9+volt+battery+connectors&amp;qid=1559322332&amp;s=electronics&amp;sprefix=9+volt+battery%2Celectronics%2C141&amp;sr=1-14&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/5pack-Battery-2-1mm-Arduino-Corpco\/dp\/B01AXIEDX8\/ref=sr_1_14?crid=28T0KMWXCPC71&amp;keywords=9+volt+battery+connectors&amp;qid=1559322332&amp;s=electronics&amp;sprefix=9+volt+battery%2Celectronics%2C141&amp;sr=1-14<\/a><br>\n(1) Voltage Regulator<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/eBoot-LM2596-Converter-3-0-40V-1-5-35V\/dp\/B01GJ0SC2C\/ref=pd_sbs_23_1\/144-0226031-9624176?_encoding=UTF8&amp;pd_rd_i=B01GJ0SC2C&amp;pd_rd_r=a4585c52-83c9-11e9-b06b-1967775fe31c&amp;pd_rd_w=oamqy&amp;pd_rd_wg=p4oLH&amp;pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&amp;pf_rd_r=5Q0FXS05RR0EMV569TPN&amp;psc=1&amp;refRID=5Q0FXS05RR0EMV569TPN&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/eBoot-LM2596-Converter-3-0-40V-1-5-35V\/dp\/B01GJ0SC2C\/ref=pd_sbs_23_1\/144-0226031-9624176?_encoding=UTF8&amp;pd_rd_i=B01GJ0SC2C&amp;pd_rd_r=a4585c52-83c9-11e9-b06b-1967775fe31c&amp;pd_rd_w=oamqy&amp;pd_rd_wg=p4oLH&amp;pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&amp;pf_rd_r=5Q0FXS05RR0EMV569TPN&amp;psc=1&amp;refRID=5Q0FXS05RR0EMV569TPN<\/a><br>\n(1) PWM driver<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/SODIAL-Channel-interface-PCA9685-arduino-Raspberry\/dp\/B07CYVT2X8\/ref=sr_1_24?keywords=pwm+driver&amp;qid=1559323840&amp;s=automotive&amp;sr=1-24&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/SODIAL-Channel-interface-PCA9685-arduino-Raspberry\/dp\/B07CYVT2X8\/ref=sr_1_24?keywords=pwm+driver&amp;qid=1559323840&amp;s=automotive&amp;sr=1-24<\/a><br>\n(1) Roll of fishing line<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Stren-SHIQS10-15-Impact-Monofilament-Fishing\/dp\/B00NWD4NMI\/ref=sr_1_1_sspa?keywords=fishing+line&amp;qid=1559323908&amp;s=automotive&amp;sr=1-1-spons&amp;psc=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/Stren-SHIQS10-15-Impact-Monofilament-Fishing\/dp\/B00NWD4NMI\/ref=sr_1_1_sspa?keywords=fishing+line&amp;qid=1559323908&amp;s=automotive&amp;sr=1-1-spons&amp;psc=1<\/a><br>\n(2) Rolls of wire (Red, Black, Yellow)<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/StrivedayTM-Flexible-Silicone-electronic-electrics\/dp\/B01KQ2JNLI\/ref=sr_1_4?keywords=wire+thin&amp;qid=1559324061&amp;s=hi&amp;sr=1-4&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/StrivedayTM-Flexible-Silicone-electronic-electrics\/dp\/B01KQ2JNLI\/ref=sr_1_4?keywords=wire+thin&amp;qid=1559324061&amp;s=hi&amp;sr=1-4<\/a><br>\n(1) Roll of thick wire<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/EvZ-Extension-Strips-Single-Colour\/dp\/B00WKHXHYW\/ref=pd_sbs_328_1\/144-0226031-9624176?_encoding=UTF8&amp;pd_rd_i=B009VCZ4V8&amp;pd_rd_r=2a803b55-83ca-11e9-8ec8-f37f2ab7fd5a&amp;pd_rd_w=9YgZF&amp;pd_rd_wg=cJIIR&amp;pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&amp;pf_rd_r=594RGE84QP1SPEXJ17FE&amp;refRID=594RGE84QP1SPEXJ17FE&amp;th=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/EvZ-Extension-Strips-Single-Colour\/dp\/B00WKHXHYW\/ref=pd_sbs_328_1\/144-0226031-9624176?_encoding=UTF8&amp;pd_rd_i=B009VCZ4V8&amp;pd_rd_r=2a803b55-83ca-11e9-8ec8-f37f2ab7fd5a&amp;pd_rd_w=9YgZF&amp;pd_rd_wg=cJIIR&amp;pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&amp;pf_rd_r=594RGE84QP1SPEXJ17FE&amp;refRID=594RGE84QP1SPEXJ17FE&amp;th=1<\/a><\/p>\n<p>(1) Velcro strap<br>\n(2 )Sweat-wicking sleeves (One a size larger than the other)<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B000BQO57M\/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&amp;psc=1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/gp\/product\/B000BQO57M\/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&amp;psc=1<\/a><br>\n(15) male snap pins #16<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/BCQLI-Fasteners-Kit-16-LIGHES-Environmental\/dp\/B01DFCGZ58\/ref=sr_1_1?keywords=%2316+snaps&amp;qid=1559650074&amp;s=arts-crafts&amp;sr=1-1&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/BCQLI-Fasteners-Kit-16-LIGHES-Environmental\/dp\/B01DFCGZ58\/ref=sr_1_1?keywords=%2316+snaps&amp;qid=1559650074&amp;s=arts-crafts&amp;sr=1-1<\/a><br>\n(1) section of Silver Nylon cloth<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/ArgenMesh-Conductive-Shielding-Silver-Fabric\/dp\/B008DXBFYQ?tag=tv-auto-20\">https:\/\/www.amazon.com\/ArgenMesh-Conductive-Shielding-Silver-Fabric\/dp\/B008DXBFYQ<\/a><br>\n(2) Disc Magnets<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Whectin-Neodymium-Adhesive-Permanent-Building\/dp\/B07CWV8R9P?tag=tv-auto-20\">https:\/\/www.amazon.com\/Whectin-Neodymium-Adhesive-Permanent-Building\/dp\/B07CWV8R9P<\/a> <\/p>\n<p>TOOLS<br>\nExacto knife<br>\nNeedlenose pliers<br>\nPC-Super Epoxy (Glue)<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/PC-Products-16619-PC-SuperEpoxy-Translucent\/dp\/B0039V0L2Y\/ref=sxbs_sxwds-stvp?keywords=pc+epoxy&amp;pd_rd_i=B0039V0L2Y&amp;pd_rd_r=a0850b6f-68cb-4aac-84f5-6318eb916133&amp;pd_rd_w=q05AU&amp;pd_rd_wg=7NDH5&amp;pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&amp;pf_rd_r=4AV1HGSQEJEPX8RCVVFG&amp;qid=1559650409&amp;s=arts-crafts&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/PC-Products-16619-PC-SuperEpoxy-Translucent\/dp\/B0039V0L2Y\/ref=sxbs_sxwds-stvp?keywords=pc+epoxy&amp;pd_rd_i=B0039V0L2Y&amp;pd_rd_r=a0850b6f-68cb-4aac-84f5-6318eb916133&amp;pd_rd_w=q05AU&amp;pd_rd_wg=7NDH5&amp;pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&amp;pf_rd_r=4AV1HGSQEJEPX8RCVVFG&amp;qid=1559650409&amp;s=arts-crafts<\/a><br>\nSnap Pliers<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/Dritz-24P-Snap-Pliers-Heavy\/dp\/B005BB5GYS\/ref=sxbs_sxwds-stvp?keywords=%2316+snap&amp;pd_rd_i=B005BB5GYS&amp;pd_rd_r=6ab9e488-f60a-4901-ad19-fadf64dad485&amp;pd_rd_w=65e7u&amp;pd_rd_wg=rn02Z&amp;pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&amp;pf_rd_r=Q5BCKBB9SPSXH3AQR0B9&amp;qid=1559650006&amp;s=arts-crafts&amp;tag=tv-auto-20\">https:\/\/www.amazon.com\/Dritz-24P-Snap-Pliers-Heavy\/dp\/B005BB5GYS\/ref=sxbs_sxwds-stvp?keywords=%2316+snap&amp;pd_rd_i=B005BB5GYS&amp;pd_rd_r=6ab9e488-f60a-4901-ad19-fadf64dad485&amp;pd_rd_w=65e7u&amp;pd_rd_wg=rn02Z&amp;pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&amp;pf_rd_r=Q5BCKBB9SPSXH3AQR0B9&amp;qid=1559650006&amp;s=arts-crafts<\/a> <\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/01\/5a\/25\/bf\/02\/Hand_Worn.png",
+            "image_id": "170454"
+          },
+          {
+            "title": "Robotic Prosthesis",
+            "content": "This project started during Nicholas Brown's freshman year of high school. He decided to put his 3D modeling and engineering skills to good use by creating a prosthesis for two middle school students. Over his high school career he created three working prototypes, each succession improving upon the last. "
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/0d\/08\/a0\/75\/b7\/IMG_9458.JPG",
+            "caption": "Nicholas Brown (Student Engineer)",
+            "image_id": "170455"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/53\/e6\/53\/ff\/4a\/Hand_Assembled.png",
+            "caption": "Assembled Prosthesis",
+            "image_id": "170456"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/15\/8b\/da\/b9\/5f\/Hand_Inside.png",
+            "caption": "Partially Assembled",
+            "image_id": "170457"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "content": "Students can build or modify Nicholas's design in order to aid people in their community. Students can improve upon the design either through programming the Arduino\/electronics or through the physical design of the prosthesis parts."
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "title": "Materials\/Tools Used",
+            "content": "PARTS\r\n(1)\tArduino Mega\r\nhttps:\/\/www.amazon.com\/Elegoo-EL-CB-003-ATmega2560-ATMEGA16U2-Arduino\/dp\/B01H4ZLZLQ\/ref=sr_1_1_sspa?keywords=arduino+mega&qid=1559323101&s=electronics&sr=1-1-spons&psc=1\r\n(1)\t7.4V RC Battery\r\nhttps:\/\/www.amazon.com\/Gens-ace-HardCase-Associated-Approved\/dp\/B00WOAWHUK\/ref=sr_1_3?keywords=gens+ace+3s+lipo+7.4v&qid=1559323350&s=electronics&sr=8-3\r\n(1)\tElegoo LCD Touch Screen\r\nhttps:\/\/www.amazon.com\/Elegoo-EL-SM-004-Inches-Technical-Arduino\/dp\/B01EUVJYME\/ref=sr_1_3_sspa?keywords=elegoo+lcd+touch+screen+2.8&qid=1559323509&s=gateway&sr=8-3-spons&psc=1\r\n(5) 180 degree Servos\r\nhttps:\/\/www.amazon.com\/ZYHOBBY-Servo-CS-238MG-Metal-29x13x30mm\/dp\/B0769G469T\/ref=sr_1_fkmr0_1?keywords=corona+cs-238mg&qid=1559323617&s=gateway&sr=8-1-fkmr0\r\n(5) Myoware EMG Sensors\r\nhttps:\/\/www.amazon.com\/MyoWare-Muscle-Sensor\/dp\/B018TIWR32\/ref=sr_1_1?keywords=myoware+emg&qid=1559323673&s=gateway&sr=8-1\r\n(1)\t9V Battery\r\nhttps:\/\/www.amazon.com\/AmazonBasics-Everyday-Alkaline-Batteries-4-Pack\/dp\/B0774D64LT\/ref=sr_1_3?crid=IF57BA1YH3DX&keywords=9v%2Bbattery&qid=1559323722&s=gateway&sprefix=9v%2Caps%2C131&sr=8-3&th=1\r\n(1) 9V Connector to 2.1mm X 5.5mm DC Plug\r\nhttps:\/\/www.amazon.com\/5pack-Battery-2-1mm-Arduino-Corpco\/dp\/B01AXIEDX8\/ref=sr_1_14?crid=28T0KMWXCPC71&keywords=9+volt+battery+connectors&qid=1559322332&s=electronics&sprefix=9+volt+battery%2Celectronics%2C141&sr=1-14\r\n(1)\tVoltage Regulator\r\nhttps:\/\/www.amazon.com\/eBoot-LM2596-Converter-3-0-40V-1-5-35V\/dp\/B01GJ0SC2C\/ref=pd_sbs_23_1\/144-0226031-9624176?_encoding=UTF8&pd_rd_i=B01GJ0SC2C&pd_rd_r=a4585c52-83c9-11e9-b06b-1967775fe31c&pd_rd_w=oamqy&pd_rd_wg=p4oLH&pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&pf_rd_r=5Q0FXS05RR0EMV569TPN&psc=1&refRID=5Q0FXS05RR0EMV569TPN\r\n(1)\tPWM driver\r\nhttps:\/\/www.amazon.com\/SODIAL-Channel-interface-PCA9685-arduino-Raspberry\/dp\/B07CYVT2X8\/ref=sr_1_24?keywords=pwm+driver&qid=1559323840&s=automotive&sr=1-24\r\n(1)\tRoll of fishing line\r\nhttps:\/\/www.amazon.com\/Stren-SHIQS10-15-Impact-Monofilament-Fishing\/dp\/B00NWD4NMI\/ref=sr_1_1_sspa?keywords=fishing+line&qid=1559323908&s=automotive&sr=1-1-spons&psc=1\r\n(2)\tRolls of wire (Red, Black, Yellow)\r\nhttps:\/\/www.amazon.com\/StrivedayTM-Flexible-Silicone-electronic-electrics\/dp\/B01KQ2JNLI\/ref=sr_1_4?keywords=wire+thin&qid=1559324061&s=hi&sr=1-4\r\n(1) Roll of thick wire\r\nhttps:\/\/www.amazon.com\/EvZ-Extension-Strips-Single-Colour\/dp\/B00WKHXHYW\/ref=pd_sbs_328_1\/144-0226031-9624176?_encoding=UTF8&pd_rd_i=B009VCZ4V8&pd_rd_r=2a803b55-83ca-11e9-8ec8-f37f2ab7fd5a&pd_rd_w=9YgZF&pd_rd_wg=cJIIR&pf_rd_p=588939de-d3f8-42f1-a3d8-d556eae5797d&pf_rd_r=594RGE84QP1SPEXJ17FE&refRID=594RGE84QP1SPEXJ17FE&th=1\r\n\r\n(1) Velcro strap\r\n(2 )Sweat-wicking sleeves (One a size larger than the other)\r\nhttps:\/\/www.amazon.com\/gp\/product\/B000BQO57M\/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1\r\n(15) male snap pins #16\r\nhttps:\/\/www.amazon.com\/BCQLI-Fasteners-Kit-16-LIGHES-Environmental\/dp\/B01DFCGZ58\/ref=sr_1_1?keywords=%2316+snaps&qid=1559650074&s=arts-crafts&sr=1-1 \r\n(1) section of Silver Nylon cloth\r\nhttps:\/\/www.amazon.com\/ArgenMesh-Conductive-Shielding-Silver-Fabric\/dp\/B008DXBFYQ \r\n(2) Disc Magnets\r\nhttps:\/\/www.amazon.com\/Whectin-Neodymium-Adhesive-Permanent-Building\/dp\/B07CWV8R9P \r\n\r\nTOOLS\r\nExacto knife\r\nNeedlenose pliers\r\nPC-Super Epoxy (Glue)\r\nhttps:\/\/www.amazon.com\/PC-Products-16619-PC-SuperEpoxy-Translucent\/dp\/B0039V0L2Y\/ref=sxbs_sxwds-stvp?keywords=pc+epoxy&pd_rd_i=B0039V0L2Y&pd_rd_r=a0850b6f-68cb-4aac-84f5-6318eb916133&pd_rd_w=q05AU&pd_rd_wg=7NDH5&pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&pf_rd_r=4AV1HGSQEJEPX8RCVVFG&qid=1559650409&s=arts-crafts \r\nSnap Pliers\r\nhttps:\/\/www.amazon.com\/Dritz-24P-Snap-Pliers-Heavy\/dp\/B005BB5GYS\/ref=sxbs_sxwds-stvp?keywords=%2316+snap&pd_rd_i=B005BB5GYS&pd_rd_r=6ab9e488-f60a-4901-ad19-fadf64dad485&pd_rd_w=65e7u&pd_rd_wg=rn02Z&pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&pf_rd_r=Q5BCKBB9SPSXH3AQR0B9&qid=1559650006&s=arts-crafts \r\n"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3691683\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3691683\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3691683\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3691683\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3691683\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3691683\/tags",
+    "tags": [
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10224,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "flexihand",
+        "tag": "flexihand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexihand",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexihand\/things",
+        "absolute_url": "\/tag:flexihand"
+      },
+      {
+        "name": "fusion360challenge",
+        "tag": "fusion360challenge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fusion360challenge",
+        "count": 192,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fusion360challenge\/things",
+        "absolute_url": "\/tag:fusion360challenge"
+      },
+      {
+        "name": "Ninjaflex",
+        "tag": "ninjaflex",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex",
+        "count": 882,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex\/things",
+        "absolute_url": "\/tag:Ninjaflex"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "Robotic Prosthesis",
+        "tag": "robotic_prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic_prosthesis",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic_prosthesis\/things",
+        "absolute_url": "\/tag:Robotic_Prosthesis"
+      },
+      {
+        "name": "WearableFusion",
+        "tag": "wearablefusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wearablefusion",
+        "count": 44,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wearablefusion\/things",
+        "absolute_url": "\/tag:WearableFusion"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3691683\/categories",
+    "file_count": 37,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1917,
+    "view_count": 1199,
+    "education": {
+      "grades": {
+        "24": "9th Grade",
+        "28": "Higher Education"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        },
+        {
+          "name": "Engineering",
+          "slug": "engineering",
+          "id": 13
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Lid_Front.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/21\/e4\/0d\/57\/Lid_Front.STL"
+        },
+        {
+          "name": "Lid_Back.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/8d\/5a\/13\/c5\/Lid_Back.STL"
+        },
+        {
+          "name": "Hand_Connector.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/4b\/0b\/d7\/61\/Hand_Connector.STL"
+        },
+        {
+          "name": "Battery_Plate.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/9b\/9c\/2e\/d6\/Battery_Plate.STL"
+        },
+        {
+          "name": "Servo_Cam.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/a7\/46\/33\/6f\/Servo_Cam.STL"
+        },
+        {
+          "name": "Battery_Back.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/d2\/0d\/f2\/e6\/Battery_Back.STL"
+        },
+        {
+          "name": "Hand_Gauntlet_IV.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/b3\/76\/8c\/3c\/Hand_Gauntlet_IV.STL"
+        },
+        {
+          "name": "Battery_Front.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/58\/07\/a9\/45\/Battery_Front.STL"
+        },
+        {
+          "name": "Access_Plate.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/99\/fa\/d5\/7f\/Access_Plate.STL"
+        },
+        {
+          "name": "Battery_Mid.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/d4\/96\/ab\/18\/Battery_Mid.STL"
+        },
+        {
+          "name": "Lid_Hand.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/31\/f3\/68\/62\/Lid_Hand.STL"
+        },
+        {
+          "name": "Arduino_Mega.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/79\/4d\/1b\/5b\/Arduino_Mega.SLDPRT"
+        },
+        {
+          "name": "Hand_Connector.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/ed\/26\/de\/bb\/Hand_Connector.SLDPRT"
+        },
+        {
+          "name": "Lid_Back.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/a5\/06\/20\/13\/Lid_Back.sldprt"
+        },
+        {
+          "name": "Finger_Servo.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/64\/da\/22\/ac\/Finger_Servo.SLDPRT"
+        },
+        {
+          "name": "Battery_Plate.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/6f\/bf\/9a\/67\/Battery_Plate.SLDPRT"
+        },
+        {
+          "name": "Lid_Front.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/37\/d1\/ea\/e7\/Lid_Front.sldprt"
+        },
+        {
+          "name": "LCD_Screen.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/ba\/55\/8a\/db\/LCD_Screen.SLDPRT"
+        },
+        {
+          "name": "Lid.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/bc\/34\/a6\/9e\/Lid.SLDPRT"
+        },
+        {
+          "name": "Access_Plate.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/15\/a4\/2e\/05\/Access_Plate.SLDPRT"
+        },
+        {
+          "name": "Battery_Mid.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/4d\/ff\/fb\/2c\/Battery_Mid.sldprt"
+        },
+        {
+          "name": "Magnet.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/5b\/7d\/6b\/f7\/Magnet.SLDPRT"
+        },
+        {
+          "name": "Battery_Compartment.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/30\/74\/51\/7b\/Battery_Compartment.SLDPRT"
+        },
+        {
+          "name": "RC_Battery.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/b3\/e1\/d7\/23\/RC_Battery.SLDPRT"
+        },
+        {
+          "name": "Battery_Front.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/a9\/11\/13\/40\/Battery_Front.sldprt"
+        },
+        {
+          "name": "Battery_Back.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/be\/89\/51\/a9\/Battery_Back.sldprt"
+        },
+        {
+          "name": "Servo_Cam.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/60\/9e\/01\/ef\/Servo_Cam.SLDPRT"
+        },
+        {
+          "name": "Lid_Hand.sldprt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/6e\/dc\/d8\/7b\/Lid_Hand.sldprt"
+        },
+        {
+          "name": "Hand_Gauntlet_IV.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/d1\/c2\/a3\/a7\/Hand_Gauntlet_IV.SLDPRT"
+        },
+        {
+          "name": "Gauntlet_IV.SLDASM",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/76\/1f\/b3\/c1\/Gauntlet_IV.SLDASM"
+        },
+        {
+          "name": "LCD_and_Servo_control.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/9c\/87\/58\/97\/LCD_and_Servo_control.ino"
+        },
+        {
+          "name": "Adafruit-PWM-Servo-Driver-Library-master.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/67\/41\/87\/21\/Adafruit-PWM-Servo-Driver-Library-master.zip"
+        },
+        {
+          "name": "TouchScreen.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/4a\/12\/94\/42\/TouchScreen.zip"
+        },
+        {
+          "name": "Elegoo_TFTLCD.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/22\/4a\/62\/44\/Elegoo_TFTLCD.zip"
+        },
+        {
+          "name": "Elegoo_GFX.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/59\/28\/f1\/b5\/Elegoo_GFX.zip"
+        },
+        {
+          "name": "Instructions_With_Pictures.docx",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/ab\/21\/d2\/8e\/Instructions_With_Pictures.docx"
+        },
+        {
+          "name": "Flexy-Hand.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/3e\/47\/69\/af\/Flexy-Hand.zip"
+        }
+      ],
+      "images": [
+        {
+          "name": "32383ec0a2d8c4c27f95953cb76e0c39.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/9d\/9f\/df\/27\/32383ec0a2d8c4c27f95953cb76e0c39.png"
+        },
+        {
+          "name": "be83e9e83c7c5da57aeb4308c929ef6f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/64\/4a\/db\/42\/07\/be83e9e83c7c5da57aeb4308c929ef6f.png"
+        },
+        {
+          "name": "f82825b55d27df0a9cd6075b069e9cc5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d4\/cf\/16\/4c\/9e\/f82825b55d27df0a9cd6075b069e9cc5.png"
+        },
+        {
+          "name": "ecc7657e78cef30a2b7295c9df8e7d39.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2c\/b6\/c7\/fd\/7c\/ecc7657e78cef30a2b7295c9df8e7d39.png"
+        },
+        {
+          "name": "cce7f95b52cc03eafabc72fda2a5028f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/9e\/c1\/2e\/b0\/cce7f95b52cc03eafabc72fda2a5028f.png"
+        },
+        {
+          "name": "d180aa9ea6b2fedb5049d7849028cf0f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/15\/96\/9e\/86\/58\/d180aa9ea6b2fedb5049d7849028cf0f.png"
+        },
+        {
+          "name": "5130d7418b0529009bb9fc58fb86cb72.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/89\/ce\/39\/61\/5130d7418b0529009bb9fc58fb86cb72.png"
+        },
+        {
+          "name": "2369766a271970d025d57876645026e5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/52\/13\/e1\/1f\/2369766a271970d025d57876645026e5.png"
+        },
+        {
+          "name": "5105d2a779fd98d446c2480eb4a3f4e9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/a3\/5b\/cb\/f6\/5105d2a779fd98d446c2480eb4a3f4e9.png"
+        },
+        {
+          "name": "ddccaffb6eab71075191307797fcd935.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/93\/87\/49\/d5\/ddccaffb6eab71075191307797fcd935.png"
+        },
+        {
+          "name": "fbaa4ce92703eea3a1753504efc927b0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/35\/09\/18\/f1\/cb\/fbaa4ce92703eea3a1753504efc927b0.png"
+        },
+        {
+          "name": "Hand_Worn.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/81\/03\/3d\/9b\/Hand_Worn.png"
+        },
+        {
+          "name": "IMG_9459.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/fc\/a1\/c2\/48\/IMG_9459.JPG"
+        },
+        {
+          "name": "IMG_9458.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/01\/b5\/ea\/32\/IMG_9458.JPG"
+        },
+        {
+          "name": "IMG_9457.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/85\/33\/f9\/92\/IMG_9457.JPG"
+        },
+        {
+          "name": "Hand_Assembled.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/97\/91\/26\/fe\/Hand_Assembled.png"
+        },
+        {
+          "name": "Hand_Inside.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/cc\/82\/92\/f2\/Hand_Inside.png"
+        }
+      ]
+    }
+  }
+}

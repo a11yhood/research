@@ -1,0 +1,422 @@
+{
+  "created_at": "2025-04-14T03:39:43.334723+00:00",
+  "elapsed": 0.184998,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d7ab8e5eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:43 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:43 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3698050?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3698050?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3698050,
+    "name": "Cochlear Implant Model",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3698050",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3698050",
+    "creator": {
+      "id": 2000247,
+      "name": "MattB12",
+      "first_name": "Matt",
+      "last_name": "Barendrecht",
+      "url": "https:\/\/api.thingiverse.com\/users\/MattB12",
+      "public_url": "https:\/\/www.thingiverse.com\/MattB12",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e0\/01\/94\/07\/be\/aa23d234dd002b575bd75b3d2b1d0ca6_thumb_medium.jpg",
+      "count_of_followers": 31,
+      "count_of_following": 24,
+      "count_of_designs": 24,
+      "collection_count": 16,
+      "make_count": 40,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canberra",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/07\/b8\/ab\/40\/3c\/29a5fb58feead136543b4064e0f32077_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-18T00:22:57+00:00",
+    "modified": "2019-06-18T00:22:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 49,
+    "is_liked": false,
+    "collect_count": 91,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 10990756,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/ce\/fb\/92\/75\/62574071_882794728738136_5201350814458707968_n.jpg",
+      "name": "62574071_882794728738136_5201350814458707968_n.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6f\/87\/2b\/86\/d9d5959c375d60a796b4d650a7272faf_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-18T00:22:55+00:00"
+    },
+    "description": "A friend's young son has just had a cochlear implant put in, at their request, I designed and printed this model to be attached to a favourite teddy-bear to help B increase his confidence with this amazing technology that allows him to enjoy what most of us take for granted.",
+    "instructions": "",
+    "description_html": "<div><p>A friend's young son has just had a cochlear implant put in, at their request, I designed and printed this model to be attached to a favourite teddy-bear to help B increase his confidence with this amazing technology that allows him to enjoy what most of us take for granted.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A friend's young son has just had a cochlear implant put in, at their request, I designed and printed this model to be attached to a favourite teddy-bear to help B increase his confidence with this amazing technology that allows him to enjoy what most of us take for granted.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.05mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> eSun Silk PLA<br>White<pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Sliced at the highest resolution preset in PrusaSlicer to try and get more detail on the coil\/transmitter.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A friend's young son has just had a cochlear implant put in, at their request, I designed and printed this model to be attached to a favourite teddy-bear to help B increase his confidence with this amazing technology that allows him to enjoy what most of us take for granted.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.05mm<\/p><\/div>\n",
+            "infill": "<div><p>15%<\/p><\/div>\n",
+            "filament_brand": "<div><p>eSun<\/p><\/div>\n",
+            "filament_color": "<div><p>White<\/p><\/div>\n",
+            "filament_material": "<div><p>Silk PLA<\/p><\/div>\n",
+            "notes": "<div><p>Sliced at the highest resolution preset in PrusaSlicer to try and get more detail on the coil\/transmitter.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3698050\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3698050\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3698050\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3698050\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3698050\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3698050\/tags",
+    "tags": [
+      {
+        "name": "cochlea",
+        "tag": "cochlea",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cochlea",
+        "count": 9,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cochlea\/things",
+        "absolute_url": "\/tag:cochlea"
+      },
+      {
+        "name": "cochlear",
+        "tag": "cochlear",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cochlear",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cochlear\/things",
+        "absolute_url": "\/tag:cochlear"
+      },
+      {
+        "name": "Cochlear Implant",
+        "tag": "cochlear_implant",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cochlear_implant",
+        "count": 21,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cochlear_implant\/things",
+        "absolute_url": "\/tag:Cochlear_Implant"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3698050\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 847,
+    "view_count": 2800,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 5,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Cochlear_Implant_v5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/94\/b1\/bf\/45\/Cochlear_Implant_v5.stl"
+        },
+        {
+          "name": "Cochlear_Implant_v5_0.05mm_PLA_MK3S_1h31m.gcode",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/6e\/8e\/09\/99\/Cochlear_Implant_v5_0.05mm_PLA_MK3S_1h31m.gcode"
+        }
+      ],
+      "images": [
+        {
+          "name": "62574071_882794728738136_5201350814458707968_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/ce\/fb\/92\/75\/62574071_882794728738136_5201350814458707968_n.jpg"
+        },
+        {
+          "name": "64809212_610541289457973_2045848400900915200_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/cb\/d6\/58\/e2\/64809212_610541289457973_2045848400900915200_n.jpg"
+        },
+        {
+          "name": "64593876_353469158685447_7657188280810602496_n.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/bb\/9d\/26\/c3\/64593876_353469158685447_7657188280810602496_n.jpg"
+        },
+        {
+          "name": "Cochlear_Implant_Render.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/4c\/5f\/77\/dc\/Cochlear_Implant_Render.PNG"
+        },
+        {
+          "name": "490e2122018a985080d13dbe2553c94b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a2\/cb\/26\/00\/7d\/490e2122018a985080d13dbe2553c94b.png"
+        }
+      ]
+    }
+  }
+}

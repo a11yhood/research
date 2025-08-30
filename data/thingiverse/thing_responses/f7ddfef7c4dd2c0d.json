@@ -1,0 +1,428 @@
+{
+  "created_at": "2025-07-15T03:58:39.755870+00:00",
+  "elapsed": 0.125077,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657b9aa02f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:39 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:39 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4415475?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4415475?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4415475,
+    "name": "Vaso c\u00f3nico (conical cup)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d9\/1b\/e7\/4c\/e0\/large_display_Vaso_conico.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/4415475",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4415475",
+    "creator": {
+      "id": 2768399,
+      "name": "FUNDACION_ONCE",
+      "first_name": "Fundaci\u00f3n ONCE",
+      "last_name": "para la Cooperaci\u00f3n e Inclusi\u00f3n ",
+      "url": "https:\/\/api.thingiverse.com\/users\/FUNDACION_ONCE",
+      "public_url": "https:\/\/www.thingiverse.com\/FUNDACION_ONCE",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/32\/68\/da\/8d\/fcc00f86ddb809eb0119881bc8de308d_thumb_medium.jpg",
+      "count_of_followers": 51,
+      "count_of_following": 15,
+      "count_of_designs": 39,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "MADRID",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/11\/91\/e1\/4b\/07\/9fb7428697eddd524ba07d4edfe34cd0_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-06-01T09:44:55+00:00",
+    "modified": "2020-06-01T09:44:55+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 46,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 13485376,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/ca\/13\/55\/1a\/Vaso_conico.stl",
+      "name": "Vaso_conico.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/50\/1b\/08\/1a\/large_thumb_Vaso_conico.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/65\/f5\/98\/12\/medium_thumb_Vaso_conico.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/cf\/99\/72\/fc\/small_thumb_Vaso_conico.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/63\/7b\/3c\/4d\/tiny_thumb_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/e1\/47\/d6\/c9\/featured_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/d4\/2f\/75\/89\/card_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/d6\/24\/f3\/9a\/large_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/dc\/b3\/c3\/2d\/medium_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/40\/44\/b4\/d4\/small_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/f3\/7b\/47\/83\/birdwing_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/d3\/26\/0d\/8b\/tiny_preview_Vaso_conico.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/6a\/da\/fc\/b3\/tinycard_preview_Vaso_conico.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/1b\/e7\/4c\/e0\/large_display_Vaso_conico.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/73\/64\/ba\/c7\/medium_display_Vaso_conico.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/42\/c8\/90\/19\/small_display_Vaso_conico.png"
+        }
+      ],
+      "added": "2020-06-01T09:46:09+00:00"
+    },
+    "description": "Espa\u00f1ol:\r\nEl objetivo de este vaso es permitir a las personas que tienen limitada la extensi\u00f3n de cuello beber realizando una extensi\u00f3n de cuello menor a la habitual. \r\nEste vaso en su parte externa tiene el aspecto de cualquier vaso, pero sin embargo su parte interna tiene forma c\u00f3nica, permitiendo que con una menor inclinaci\u00f3n el l\u00edquido llegue antes al borde del mismo.\r\nTambi\u00e9n se ha agregado la posibilidad de incorporarle una o dos asas para facilitar el agarre.\r\nEl vaso se debe imprimir con un filamento del tipo PETG, ya que este tipo de filamento est\u00e1 aprobado para su uso en la industria alimentaria (no debemos olvidar que nuestros labios estar\u00e1n en contacto con el pl\u00e1stico y se ingerir\u00e1 el l\u00edquido que ha estado en contacto con el vaso).\r\n\r\nEnglish:\r\nThe goal of this glass is to allow people with limited neck extension to drink by doing less than usual neck extension.\r\nThis glass in its external part has the appearance of any glass, but nevertheless its internal part has a conical shape, allowing the liquid to reach the edge of it with a lesser inclination.\r\nThe possibility of incorporating one or two handles has also been added to facilitate grip.\r\nThe glass must be printed with a PETG type filament, since this type of filament is approved for use in the food industry (we must not forget that our lips will be in contact with the plastic and the liquid that has been also in contact will be ingested).",
+    "instructions": "",
+    "description_html": "<div><p>Espa\u00f1ol:<br>El objetivo de este vaso es permitir a las personas que tienen limitada la extensi\u00f3n de cuello beber realizando una extensi\u00f3n de cuello menor a la habitual.<br>Este vaso en su parte externa tiene el aspecto de cualquier vaso, pero sin embargo su parte interna tiene forma c\u00f3nica, permitiendo que con una menor inclinaci\u00f3n el l\u00edquido llegue antes al borde del mismo.<br>Tambi\u00e9n se ha agregado la posibilidad de incorporarle una o dos asas para facilitar el agarre.<br>El vaso se debe imprimir con un filamento del tipo PETG, ya que este tipo de filamento est\u00e1 aprobado para su uso en la industria alimentaria (no debemos olvidar que nuestros labios estar\u00e1n en contacto con el pl\u00e1stico y se ingerir\u00e1 el l\u00edquido que ha estado en contacto con el vaso).<\/p><p>English:<br>The goal of this glass is to allow people with limited neck extension to drink by doing less than usual neck extension.<br>This glass in its external part has the appearance of any glass, but nevertheless its internal part has a conical shape, allowing the liquid to reach the edge of it with a lesser inclination.<br>The possibility of incorporating one or two handles has also been added to facilitate grip.<br>The glass must be printed with a PETG type filament, since this type of filament is approved for use in the food industry (we must not forget that our lips will be in contact with the plastic and the liquid that has been also in contact will be ingested).<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Espa\u00f1ol:<br>El objetivo de este vaso es permitir a las personas que tienen limitada la extensi\u00f3n de cuello beber realizando una extensi\u00f3n de cuello menor a la habitual.<br>Este vaso en su parte externa tiene el aspecto de cualquier vaso, pero sin embargo su parte interna tiene forma c\u00f3nica, permitiendo que con una menor inclinaci\u00f3n el l\u00edquido llegue antes al borde del mismo.<br>Tambi\u00e9n se ha agregado la posibilidad de incorporarle una o dos asas para facilitar el agarre.<br>El vaso se debe imprimir con un filamento del tipo PETG, ya que este tipo de filamento est\u00e1 aprobado para su uso en la industria alimentaria (no debemos olvidar que nuestros labios estar\u00e1n en contacto con el pl\u00e1stico y se ingerir\u00e1 el l\u00edquido que ha estado en contacto con el vaso).<\/p><p>English:<br>The goal of this glass is to allow people with limited neck extension to drink by doing less than usual neck extension.<br>This glass in its external part has the appearance of any glass, but nevertheless its internal part has a conical shape, allowing the liquid to reach the edge of it with a lesser inclination.<br>The possibility of incorporating one or two handles has also been added to facilitate grip.<br>The glass must be printed with a PETG type filament, since this type of filament is approved for use in the food industry (we must not forget that our lips will be in contact with the plastic and the liquid that has been also in contact will be ingested).<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1 - 0.2 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;10 - 20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Prusament PETG<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Espa\u00f1ol:<br>El objetivo de este vaso es permitir a las personas que tienen limitada la extensi\u00f3n de cuello beber realizando una extensi\u00f3n de cuello menor a la habitual.<br>Este vaso en su parte externa tiene el aspecto de cualquier vaso, pero sin embargo su parte interna tiene forma c\u00f3nica, permitiendo que con una menor inclinaci\u00f3n el l\u00edquido llegue antes al borde del mismo.<br>Tambi\u00e9n se ha agregado la posibilidad de incorporarle una o dos asas para facilitar el agarre.<br>El vaso se debe imprimir con un filamento del tipo PETG, ya que este tipo de filamento est\u00e1 aprobado para su uso en la industria alimentaria (no debemos olvidar que nuestros labios estar\u00e1n en contacto con el pl\u00e1stico y se ingerir\u00e1 el l\u00edquido que ha estado en contacto con el vaso).<\/p><p>English:<br>The goal of this glass is to allow people with limited neck extension to drink by doing less than usual neck extension.<br>This glass in its external part has the appearance of any glass, but nevertheless its internal part has a conical shape, allowing the liquid to reach the edge of it with a lesser inclination.<br>The possibility of incorporating one or two handles has also been added to facilitate grip.<br>The glass must be printed with a PETG type filament, since this type of filament is approved for use in the food industry (we must not forget that our lips will be in contact with the plastic and the liquid that has been also in contact will be ingested).<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "resolution": "<div><p>0.1 - 0.2 mm<\/p><\/div>",
+            "infill": "<div><p>10 - 20%<\/p><\/div>",
+            "filament_brand": "<div><p>Prusament<\/p><\/div>",
+            "filament_material": "<div><p>PETG<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4415475\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4415475\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4415475\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4415475\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4415475\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4415475\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 445,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4415475\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 937,
+    "view_count": 1098,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Vaso_conico.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/1e\/c4\/0a\/dd\/Vaso_conico.scad"
+        },
+        {
+          "name": "Vaso_conico.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/ca\/13\/55\/1a\/Vaso_conico.stl"
+        },
+        {
+          "name": "Instrucciones_para_vaso_c\u00f3nico_ac.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/54\/6f\/d8\/82\/Instrucciones_para_vaso_c%C3%B3nico_ac.pdf"
+        },
+        {
+          "name": "Creative_Commons_Atribuci\u00f3n_CC_BY-NC-SA_4.0.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/b9\/10\/de\/29\/Creative_Commons_Atribuci%C3%B3n_CC_BY-NC-SA_4.0.pdf"
+        },
+        {
+          "name": "Creative_Commons_Atribuci\u00f3n_CC_BY-NC-SA_4.0_inteligible.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/f8\/df\/58\/ad\/Creative_Commons_Atribuci%C3%B3n_CC_BY-NC-SA_4.0_inteligible.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "Vaso_conico.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/b2\/8e\/d8\/e6\/Vaso_conico.png"
+        },
+        {
+          "name": "Vaso_conico.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/32\/a5\/96\/57\/Vaso_conico.jpeg"
+        }
+      ]
+    }
+  }
+}

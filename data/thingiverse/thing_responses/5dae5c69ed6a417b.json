@@ -1,0 +1,481 @@
+{
+  "created_at": "2025-04-14T03:39:44.993538+00:00",
+  "elapsed": 0.181726,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d852c83eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:44 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:44 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1096831?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1096831?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1096831,
+    "name": "Pulsador FRJA2\/Button FRJA2",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1096831",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1096831",
+    "creator": {
+      "id": 625226,
+      "name": "ceapat",
+      "first_name": "Ceapat",
+      "last_name": "Imserso",
+      "url": "https:\/\/api.thingiverse.com\/users\/ceapat",
+      "public_url": "https:\/\/www.thingiverse.com\/ceapat",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/9a\/5a\/b1\/5e\/imgp0140-web_thumb_medium.jpg",
+      "count_of_followers": 256,
+      "count_of_following": 42,
+      "count_of_designs": 62,
+      "collection_count": 13,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Espa\u00f1a (Madrid)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/26\/d1\/4f\/d3\/IMG_1957_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-28T08:25:37+00:00",
+    "modified": "2015-10-28T08:25:37+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 21,
+    "is_liked": false,
+    "collect_count": 50,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 2796941,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/4f\/35\/1f\/51\/IMG_1996.JPG",
+      "name": "IMG_1996.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/62\/58\/af\/ac\/IMG_1996_display_small.JPG"
+        }
+      ],
+      "added": "2015-10-28T08:13:35+00:00"
+    },
+    "description": "Switch designed for people with limited movement to operate communication equipment, toys and other electronic equipment.\r\n\r\n[Spanish] Pulsador de f\u00e1cil accionamiento para facilitar el acceso a otros productos adaptados para personas con movilidad reducida. Las medidas son 50\/40\/17mm\r\nSe puede utilizar con juguetes adaptados, mandos de TV, ratones y otros productos electr\u00f3nicos adaptados.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Switch designed for people with limited movement to operate communication equipment, toys and other electronic equipment.<\/p><p>[Spanish] Pulsador de f&aacute;cil accionamiento para facilitar el acceso a otros productos adaptados para personas con movilidad reducida. Las medidas son 50\/40\/17mm<br>Se puede utilizar con juguetes adaptados, mandos de TV, ratones y otros productos electr&oacute;nicos adaptados.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Switch designed for people with limited movement to operate communication equipment, toys and other electronic equipment.<\/p><p>[Spanish] Pulsador de f&aacute;cil accionamiento para facilitar el acceso a otros productos adaptados para personas con movilidad reducida. Las medidas son 50\/40\/17mm<br>Se puede utilizar con juguetes adaptados, mandos de TV, ratones y otros productos electr&oacute;nicos adaptados.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Una vez impreso se colocar&aacute; un microinterruptor de palanca con salida jack mono de 3,5mm. El microinterruptor se monta con un tornillo de m&eacute;trica 2x16 y su tuerca.<br>Se colocar&aacute;n las tapas con tornillos rosca chapa.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Switch designed for people with limited movement to operate communication equipment, toys and other electronic equipment.<\/p><p>[Spanish] Pulsador de f&aacute;cil accionamiento para facilitar el acceso a otros productos adaptados para personas con movilidad reducida. Las medidas son 50\/40\/17mm<br>Se puede utilizar con juguetes adaptados, mandos de TV, ratones y otros productos electr&oacute;nicos adaptados.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Una vez impreso se colocar&aacute; un microinterruptor de palanca con salida jack mono de 3,5mm. El microinterruptor se monta con un tornillo de m&eacute;trica 2x16 y su tuerca.<br>Se colocar&aacute;n las tapas con tornillos rosca chapa.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1096831\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1096831\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1096831\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1096831\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1096831\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1096831\/tags",
+    "tags": [
+      {
+        "name": "Accesibilidad",
+        "tag": "accesibilidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad",
+        "count": 87,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad\/things",
+        "absolute_url": "\/tag:Accesibilidad"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "ceapat",
+        "tag": "ceapat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ceapat",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ceapat\/things",
+        "absolute_url": "\/tag:ceapat"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "Imserso",
+        "tag": "imserso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/imserso",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/imserso\/things",
+        "absolute_url": "\/tag:Imserso"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "producto apoyo",
+        "tag": "producto_apoyo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo\/things",
+        "absolute_url": "\/tag:producto_apoyo"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1096831\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 591,
+    "view_count": 1088,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "caja.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/e1\/2f\/31\/50\/caja.stl"
+        },
+        {
+          "name": "tapa.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/40\/8a\/6c\/45\/tapa.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_1996.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/4f\/35\/1f\/51\/IMG_1996.JPG"
+        },
+        {
+          "name": "IMG_1997.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/87\/04\/9b\/f5\/IMG_1997.JPG"
+        },
+        {
+          "name": "tapa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/01\/50\/3b\/d2\/5e\/tapa.png"
+        },
+        {
+          "name": "caja.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/bf\/a3\/32\/48\/caja.png"
+        }
+      ]
+    }
+  }
+}
