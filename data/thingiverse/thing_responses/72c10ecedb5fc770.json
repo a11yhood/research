@@ -1,0 +1,463 @@
+{
+  "created_at": "2025-04-12T03:32:20.573628+00:00",
+  "elapsed": 0.196514,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa7eb6cf8eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:20 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:20 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2792191?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2792191?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2792191,
+    "name": "DIYAT Switch V1 (bayonet latch - SEE NEW VERSIONS)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2792191",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2792191",
+    "creator": {
+      "id": 1713130,
+      "name": "drewrb",
+      "first_name": "Drew",
+      "last_name": "Browning",
+      "url": "https:\/\/api.thingiverse.com\/users\/drewrb",
+      "public_url": "https:\/\/www.thingiverse.com\/drewrb",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_artist_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Chicago",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-02-26T03:43:57+00:00",
+    "modified": "2018-02-26T03:43:57+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 33,
+    "is_liked": false,
+    "collect_count": 81,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7625951,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/9d\/65\/f6\/b4\/DIYAT_switch16c_64x16_photo-asmbld.jpg",
+      "name": "DIYAT_switch16c_64x16_photo-asmbld.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/5c\/38\/44\/42\/bbd1c16346f49c13c9dee3ff4cab5471_display_small.jpg"
+        }
+      ],
+      "added": "2018-02-13T11:53:22+00:00"
+    },
+    "description": "I have a 2 new improved versions of this DIYAT Switch with threaded latches and frictionless radial flexures:\r\nDIYAT Switch V4 - compact, signal level switch https:\/\/www.thingiverse.com\/thing:3062522\r\nDIYAT Switch V5 - larger, power level switch https:\/\/www.thingiverse.com\/thing:3146646\r\n\r\nA simple passive DIY Assistive Technology switch enclosure. This enclosure makes a small momentary tactile button switch more accessible by providing a larger activation surface. Designed with OpenSCAD, future versions will allow the size and mounting options of this parametric design to be selcted. The bayonet type latch is derived from \"Customizable Bayonet Container\" by walter. \r\n\r\nNote: the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For these situations I recommend using a driver\/relay circuit or an assistive technology switch rated for at least 1A.\r\n\r\nThe DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size. This enclosure design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. ",
+    "instructions": "",
+    "description_html": "<div><p>I have a 2 new improved versions of this DIYAT Switch with threaded latches and frictionless radial flexures:<br>DIYAT Switch V4 - compact, signal level switch <a rel=\"ugc nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a><br>DIYAT Switch V5 - larger, power level switch <a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a><\/p><p>A simple passive DIY Assistive Technology switch enclosure. This enclosure makes a small momentary tactile button switch more accessible by providing a larger activation surface. Designed with OpenSCAD, future versions will allow the size and mounting options of this parametric design to be selcted. The bayonet type latch is derived from \"Customizable Bayonet Container\" by walter. <\/p><p>Note: the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For these situations I recommend using a driver\/relay circuit or an assistive technology switch rated for at least 1A.<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size. This enclosure design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I have a 2 new improved versions of this DIYAT Switch with threaded latches and frictionless radial flexures:<br>DIYAT Switch V4 - compact, signal level switch <a rel=\"ugc nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a><br>DIYAT Switch V5 - larger, power level switch <a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a><\/p><p>A simple passive DIY Assistive Technology switch enclosure. This enclosure makes a small momentary tactile button switch more accessible by providing a larger activation surface. Designed with OpenSCAD, future versions will allow the size and mounting options of this parametric design to be selcted. The bayonet type latch is derived from \"Customizable Bayonet Container\" by walter. <\/p><p>Note: the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For these situations I recommend using a driver\/relay circuit or an assistive technology switch rated for at least 1A.<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size. This enclosure design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Parts needed for the DIYAT Switch:<\/strong><\/p>                <div><p>A LilyPad Button Board switch (DIYAT is designed for this thin 0.8mm PCB - not all LilyPad Button Boards are this thickness)<\/p><ul><li>Recommended Vendor: Sparkfun <a rel=\"ugc nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/8776\">https:\/\/www.sparkfun.com\/products\/8776<\/a><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/c9\/0b\/c8\/9b\/3f\/08776-01sm.png\" alt=\"image\"><\/p>                    <div><p>A 3.5mm phone plug cable (mono or stereo) and cable tie for stain relief<\/p><ul><li>Recommended Vendor: Adafruit <a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/bb\/a6\/c4\/b5\/c8\/StereoPhonePlugCable_sm.png\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>There are 3 steps in this project.<\/strong><\/p>                <p class=\"detail-title\"><strong>STEP 1: 3D PRINT THE SWITCH ENCLOSURE. Here are my recommendations:<\/strong><\/p>                <div><ul><li>Material: PLA works well<\/li><li>Layer resolution: .1mm or less<\/li><li>Supports: not needed if printed as oriented in the 3D STL files<\/li><\/ul><\/div>                <p class=\"detail-title\"><strong>STEP 2: WIRE THE CABLE TO THE LILYPAD BUTTON BOARD<\/strong><\/p>                <div><ul><li>Note that this is a stereo cable. There are 3 wires and 3 corresponding connections or contacts points on the connector.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/33\/bb\/05\/17\/5c\/StereoPhonePlugCable_labeled.png\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>These contacts are known as the Tip, Ring and Sleeve (TRS).<\/strong><\/p>                    <div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/7d\/5e\/a8\/1e\/de\/step2picture0.png\" alt=\"image\"><\/p>                    <div><ul><li>Solder the cable to the button board as shown. The test clips are just to hold the button board while soldering. It doesn't matter which wire goes to which pad. Lightly tin the pads on the board first. Try not to get solder in the holes when soldering the wires. The board must fit over the posts of the enclosure base. Hold the tinned wires to the tinned pads and heat with the soldering iron.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/c9\/80\/4d\/5f\/e9\/step2picture1.PNG\" alt=\"image\"><\/p>                    <div><ul><li>The switch in the button board is a momentary, normally-open, dome PCB tactile switch.<br>&#9675; The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/div>                <p class=\"detail-title\"><strong>STEP 3: ASSEMBLE THE PARTS AND TEST<\/strong><\/p>                <div><ul><li>Place the wired switch in the enclosure base as shown.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/20\/ec\/12\/af\/d8\/wiring.PNG\" alt=\"image\"><\/p>                    <div><ul><li>Put a cable tie around cable just inside of the base wall to create a strain relief. Make sure tension on the cable does not put tension on the switch.<\/li><li>Testing the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. One lead to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/d0\/ca\/0c\/48\/17\/testing.PNG\" alt=\"image\"><\/p>                    <div><ul><li>When you press the switch you should hear a high pitched tone (if you meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working!<\/li><\/ul><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I have a 2 new improved versions of this DIYAT Switch with threaded latches and frictionless radial flexures:<br>DIYAT Switch V4 - compact, signal level switch <a rel=\"ugc nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a><br>DIYAT Switch V5 - larger, power level switch <a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a><\/p><p>A simple passive DIY Assistive Technology switch enclosure. This enclosure makes a small momentary tactile button switch more accessible by providing a larger activation surface. Designed with OpenSCAD, future versions will allow the size and mounting options of this parametric design to be selcted. The bayonet type latch is derived from \"Customizable Bayonet Container\" by walter. <\/p><p>Note: the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For these situations I recommend using a driver\/relay circuit or an assistive technology switch rated for at least 1A.<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size. This enclosure design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Parts needed for the DIYAT Switch:",
+            "content": "<div><p>A LilyPad Button Board switch (DIYAT is designed for this thin 0.8mm PCB - not all LilyPad Button Boards are this thickness)<\/p><ul><li>Recommended Vendor: Sparkfun <a rel=\"ugc nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/8776\">https:\/\/www.sparkfun.com\/products\/8776<\/a><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c9\/0b\/c8\/9b\/3f\/08776-01sm.png",
+            "image_id": "98809"
+          },
+          {
+            "content": "<div><p>A 3.5mm phone plug cable (mono or stereo) and cable tie for stain relief<\/p><ul><li>Recommended Vendor: Adafruit <a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/bb\/a6\/c4\/b5\/c8\/StereoPhonePlugCable_sm.png",
+            "image_id": "98810"
+          },
+          {
+            "title": "There are 3 steps in this project."
+          },
+          {
+            "title": "STEP 1: 3D PRINT THE SWITCH ENCLOSURE. Here are my recommendations:",
+            "content": "<div><ul><li>Material: PLA works well<\/li><li>Layer resolution: .1mm or less<\/li><li>Supports: not needed if printed as oriented in the 3D STL files<\/li><\/ul><\/div>\n"
+          },
+          {
+            "title": "STEP 2: WIRE THE CABLE TO THE LILYPAD BUTTON BOARD",
+            "content": "<div><ul><li>Note that this is a stereo cable. There are 3 wires and 3 corresponding connections or contacts points on the connector.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/33\/bb\/05\/17\/5c\/StereoPhonePlugCable_labeled.png",
+            "caption": "These contacts are known as the Tip, Ring and Sleeve (TRS).",
+            "image_id": "98811"
+          },
+          {
+            "content": "<div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/7d\/5e\/a8\/1e\/de\/step2picture0.png",
+            "image_id": "98812"
+          },
+          {
+            "content": "<div><ul><li>Solder the cable to the button board as shown. The test clips are just to hold the button board while soldering. It doesn't matter which wire goes to which pad. Lightly tin the pads on the board first. Try not to get solder in the holes when soldering the wires. The board must fit over the posts of the enclosure base. Hold the tinned wires to the tinned pads and heat with the soldering iron.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c9\/80\/4d\/5f\/e9\/step2picture1.PNG",
+            "image_id": "98813"
+          },
+          {
+            "content": "<div><ul><li>The switch in the button board is a momentary, normally-open, dome PCB tactile switch.<br>&#9675; The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "title": "STEP 3: ASSEMBLE THE PARTS AND TEST",
+            "content": "<div><ul><li>Place the wired switch in the enclosure base as shown.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/20\/ec\/12\/af\/d8\/wiring.PNG",
+            "image_id": "98814"
+          },
+          {
+            "content": "<div><ul><li>Put a cable tie around cable just inside of the base wall to create a strain relief. Make sure tension on the cable does not put tension on the switch.<\/li><li>Testing the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. One lead to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/d0\/ca\/0c\/48\/17\/testing.PNG",
+            "image_id": "98815"
+          },
+          {
+            "content": "<div><ul><li>When you press the switch you should hear a high pitched tone (if you meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working!<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2792191\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2792191\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2792191\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2792191\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2792191\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2792191\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2792191\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 587,
+    "view_count": 1190,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "DIYAT_switch18__64x16x.2base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/42\/8d\/81\/a6\/DIYAT_switch18__64x16x.2base.stl"
+        },
+        {
+          "name": "DIYAT_switch18__64x16x.2ret.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/52\/e7\/99\/3b\/DIYAT_switch18__64x16x.2ret.stl"
+        },
+        {
+          "name": "DIYAT_switch18__64x16x.2but.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/92\/3e\/fb\/ef\/DIYAT_switch18__64x16x.2but.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "DIYAT_switch16c_64x16_photo-asmbld.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/9d\/65\/f6\/b4\/DIYAT_switch16c_64x16_photo-asmbld.jpg"
+        },
+        {
+          "name": "DIYAT_switch16f_64x16x.2_all.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/aa\/9c\/e9\/a6\/DIYAT_switch16f_64x16x.2_all.png"
+        },
+        {
+          "name": "DIYAT_switch18_all1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/2a\/8e\/28\/af\/DIYAT_switch18_all1.png"
+        },
+        {
+          "name": "DIYAT_switch18_allx.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/26\/d4\/56\/d0\/DIYAT_switch18_allx.png"
+        },
+        {
+          "name": "e363338910a731641942d49d19b0d739.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d5\/64\/a3\/d8\/e9\/e363338910a731641942d49d19b0d739.png"
+        },
+        {
+          "name": "da0212c2f718a2fc5b1e0d3d76929045.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/c4\/8c\/52\/37\/da0212c2f718a2fc5b1e0d3d76929045.png"
+        },
+        {
+          "name": "f745a2176416085333b5dad4be02ffb6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f5\/85\/e6\/83\/88\/f745a2176416085333b5dad4be02ffb6.png"
+        }
+      ]
+    }
+  }
+}

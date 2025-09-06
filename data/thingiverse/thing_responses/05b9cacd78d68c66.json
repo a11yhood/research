@@ -1,0 +1,876 @@
+{
+  "created_at": "2025-04-11T03:34:31.196109+00:00",
+  "elapsed": 0.228974,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76dbb29c32350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:31 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:31 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1532027?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1532027?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1532027,
+    "name": "Bot_Legs_Project (Exoskeleton)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1532027",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1532027",
+    "creator": {
+      "id": 445161,
+      "name": "Maddoctor",
+      "first_name": "Marty",
+      "last_name": "Purcell",
+      "url": "https:\/\/api.thingiverse.com\/users\/Maddoctor",
+      "public_url": "https:\/\/www.thingiverse.com\/Maddoctor",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/66\/22\/07\/8e\/29\/42974047c061ee92e0a0eea80e606cb8_thumb_medium.jpg",
+      "count_of_followers": 20,
+      "count_of_following": 0,
+      "count_of_designs": 17,
+      "collection_count": 2,
+      "make_count": 2,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Ireland",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-04-30T20:38:48+00:00",
+    "modified": "2016-04-30T20:38:48+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 466,
+    "is_liked": false,
+    "collect_count": 805,
+    "is_collected": false,
+    "comment_count": 29,
+    "is_watched": false,
+    "default_image": {
+      "id": 4334792,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/7e\/41\/5a\/0f\/Runner%2B2.jpg",
+      "name": "Runner+2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/1e\/2c\/86\/36\/265e1b09ae44a525a86b538ff6cffe79_display_small.jpg"
+        }
+      ],
+      "added": "2016-08-31T10:22:57+00:00"
+    },
+    "description": "Assistive Technology.\r\n\r\nThe idea is to make a walking aid for persons who have some motor controls but not enough strength to actually walk.  The motors would amplify their intended movement allowing greater mobility.\r\n\r\n----------------------------------------------------------------------------------------------------\r\nThere's and SWF Video of the motors moving in \"thing files\" (download) section.\r\n----------------------------------------------------------------------------------------------------\r\n\r\nThis is an open source project - can you apply your talents to add value?  Please do....\r\nConstructive feedback, ideas, designs and insights are welcome.  \r\nJust add a comment or a hyperlink.\r\n\r\nNB:  --    In spite of my username, I'm not a doctor and have no medical training whatsoever!  I can't say this work is fit for any purpose other than research.\r\n\r\n\r\nThe STL files are Joints and linkages for 20X20 Bosch Rexroth aluminum extrusion.\r\nUsed with GLA750 Linear Actuators (run at 18V DC) and a Mystic 'seat type' kite surfing harness.\r\nI got my 50 mm actuators here:  https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator\r\n\r\nI used both plastic (M8 Male) and metal (M6 Male) rod end bearings available from RS Online:  \r\nhttp:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end \r\nand a good many bearings, bushings and bolts \"recycled\" from an old pair of roller skates.  \r\n\r\nLeg supports also house switches or other sensors to tell the (optional) Arduino or stand-alone controllers when to drive the motors and when to stop.\r\n\r\nThere are various control options:\r\n\r\n\r\n1.  Dual DC Motor drivers - with or without Joystick control \/ with or without Arduino.\r\n\r\n2.  An Arduino and a couple of solid state relay boards (dual H Bridge) to drive the motors at 18V. \r\n\r\nSept 2016 - I got some new controllers to try out.  Thus far, the \"Cytron 10A 5-25V Dual Channel DC Motor Drivers\",  purchased from: http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html  \r\nlook very promising indeed.  (Control option 1)\r\n\r\nThese controllers come with inbuilt \"test\" buttons - forward and backwards for each of the 2 motor channels.  \r\nThe test buttons can be wired directly to the switches on the legs, meaning there's no requirement for Arduino and coding, if simple control fits your needs.  \r\nHowever, they can still be interfaced to Arduino for more advanced control options if That's your requirement. \r\nThe Cytron boards also support joystick control - right out of the box!\r\n\r\nTwo control units will be required (one for each leg) but there is a pleasing simplicity to the (option 1) control layout. \r\nAn added benefit is that some protections are built in to the controller board  (against short circuits and so on) - so they're pretty robust.  So far - I'm very happy with them.\r\n\r\nDual H Bridges (Control option 2)\r\nhttp:\/\/mg.elecrow.com\/arduino-compatible\/shield.html\r\nhttp:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html\r\n\r\nChoose your own batteries - I'm using 18v Ni-Cd 'battery drill' batteries (Makita) for the testing - there's probably better choices for endurance, performance, size etc. out there.  For function testing - the drill batteries serve the purpose.\r\n\r\nThe 20X20 aluminium extrusion provides multiple attachment points for linkages, batteries cover panels\/enclosures etc. It is strong \/ lightweight and readily available.\r\n\r\n\r\nThigh Support files uploaded. - You may need to print them at 95% scale as the thigh support is right on printer limits for size (200X200X200).  If you have a square print bed - place them on the bed at 45 degree angle to maximise the print size.\r\n\r\nNote - All Leg supports are best printed at 100% Infill.\r\n\r\nI added a general purpose strap attachment point for the harness - for additional supports, back brace etc.  Can be attached where needed in your particular situation.  For back support -- Straps could be used from the hip motor mount, crossing at the chest and attaching to this clip at the mid point (top) of the back of the harness.\r\n\r\nThe Arduino code is pretty raw, it's just to get the motors moving.  (For control option 2) but it does need more work.\r\nYou'll need the excellent driver that was created by Christoph Bober in order to use the .ino file - you'll find it on his site here: \r\nhttp:\/\/www.christophbober.com\/?p=70\r\n(I just put the .h and the .cpp file in the same directory as the .ino but I believe there are more elegant ways to do it.)\r\nCurrently in the duino code - I have only 2 switches are controlling 2 motors.  There really needs to be 4 switch inputs. However, It provides a starting point from which to evolve your control solution.\r\n\r\nI started writing a build steps manual - I've uploaded a PDF of the build steps document at it's current state of completion.  Further updates expected.\r\n\r\nAn additional stiffener support is needed between the Hip_Harness_Attchmt and the Hip_Motor_Mount. A section of aluminium extrusion to act as a stiffener on the harness will ensure the hip motor movement transfers to the leg rather than causing the harness to crumple.\r\n\r\nYou can use this project as a starting point, if you choose to implement voice control from a smartphone or inertial referencing - I won't try to stop you :o)  -- Just remember to share.\r\nFor those who need it, this is a quality of life thing.\r\n\r\nI re-used some things I found on Thingiverse - modified them etc.  If you deserve credit for any work here please let me know. ",
+    "instructions": "",
+    "description_html": "<div><p>Assistive Technology.<\/p><p>The idea is to make a walking aid for persons who have some motor controls but not enough strength to actually walk.  The motors would amplify their intended movement allowing greater mobility.<\/p><hr><h2>There's and SWF Video of the motors moving in \"thing files\" (download) section.<\/h2><p>This is an open source project - can you apply your talents to add value?  Please do....<br>Constructive feedback, ideas, designs and insights are welcome.<br>Just add a comment or a hyperlink.<\/p><p>NB:  --    In spite of my username, I'm not a doctor and have no medical training whatsoever!  I can't say this work is fit for any purpose other than research.<\/p><p>The STL files are Joints and linkages for 20X20 Bosch Rexroth aluminum extrusion.<br>Used with GLA750 Linear Actuators (run at 18V DC) and a Mystic 'seat type' kite surfing harness.<br>I got my 50 mm actuators here:  <a rel=\"ugc nofollow\" href=\"https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator\">https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator<\/a><\/p><p>I used both plastic (M8 Male) and metal (M6 Male) rod end bearings available from RS Online:<br><a rel=\"ugc nofollow\" href=\"http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end\">http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end<\/a><br>and a good many bearings, bushings and bolts \"recycled\" from an old pair of roller skates.  <\/p><p>Leg supports also house switches or other sensors to tell the (optional) Arduino or stand-alone controllers when to drive the motors and when to stop.<\/p><p>There are various control options:<\/p><ol><li><p>Dual DC Motor drivers - with or without Joystick control \/ with or without Arduino.<\/p><\/li><li>An Arduino and a couple of solid state relay boards (dual H Bridge) to drive the motors at 18V. <\/li><\/ol><p>Sept 2016 - I got some new controllers to try out.  Thus far, the \"Cytron 10A 5-25V Dual Channel DC Motor Drivers\",  purchased from: <a rel=\"ugc nofollow\" href=\"http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html\">http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html<\/a><br>look very promising indeed.  (Control option 1)<\/p><p>These controllers come with inbuilt \"test\" buttons - forward and backwards for each of the 2 motor channels.<br>The test buttons can be wired directly to the switches on the legs, meaning there's no requirement for Arduino and coding, if simple control fits your needs.<br>However, they can still be interfaced to Arduino for more advanced control options if That's your requirement.<br>The Cytron boards also support joystick control - right out of the box!<\/p><p>Two control units will be required (one for each leg) but there is a pleasing simplicity to the (option 1) control layout.<br>An added benefit is that some protections are built in to the controller board  (against short circuits and so on) - so they're pretty robust.  So far - I'm very happy with them.<\/p><p>Dual H Bridges (Control option 2)<br><a rel=\"ugc nofollow\" href=\"http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html\">http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html\">http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html<\/a><\/p><p>Choose your own batteries - I'm using 18v Ni-Cd 'battery drill' batteries (Makita) for the testing - there's probably better choices for endurance, performance, size etc. out there.  For function testing - the drill batteries serve the purpose.<\/p><p>The 20X20 aluminium extrusion provides multiple attachment points for linkages, batteries cover panels\/enclosures etc. It is strong \/ lightweight and readily available.<\/p><p>Thigh Support files uploaded. - You may need to print them at 95% scale as the thigh support is right on printer limits for size (200X200X200).  If you have a square print bed - place them on the bed at 45 degree angle to maximise the print size.<\/p><p>Note - All Leg supports are best printed at 100% Infill.<\/p><p>I added a general purpose strap attachment point for the harness - for additional supports, back brace etc.  Can be attached where needed in your particular situation.  For back support -- Straps could be used from the hip motor mount, crossing at the chest and attaching to this clip at the mid point (top) of the back of the harness.<\/p><p>The Arduino code is pretty raw, it's just to get the motors moving.  (For control option 2) but it does need more work.<br>You'll need the excellent driver that was created by Christoph Bober in order to use the .ino file - you'll find it on his site here:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.christophbober.com\/?p=70\">http:\/\/www.christophbober.com\/?p=70<\/a><br>(I just put the .h and the .cpp file in the same directory as the .ino but I believe there are more elegant ways to do it.)<br>Currently in the duino code - I have only 2 switches are controlling 2 motors.  There really needs to be 4 switch inputs. However, It provides a starting point from which to evolve your control solution.<\/p><p>I started writing a build steps manual - I've uploaded a PDF of the build steps document at it's current state of completion.  Further updates expected.<\/p><p>An additional stiffener support is needed between the Hip_Harness_Attchmt and the Hip_Motor_Mount. A section of aluminium extrusion to act as a stiffener on the harness will ensure the hip motor movement transfers to the leg rather than causing the harness to crumple.<\/p><p>You can use this project as a starting point, if you choose to implement voice control from a smartphone or inertial referencing - I won't try to stop you :o)  -- Just remember to share.<br>For those who need it, this is a quality of life thing.<\/p><p>I re-used some things I found on Thingiverse - modified them etc.  If you deserve credit for any work here please let me know. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Assistive Technology.<\/p><p>The idea is to make a walking aid for persons who have some motor controls but not enough strength to actually walk.  The motors would amplify their intended movement allowing greater mobility.<\/p><hr><h2>There's and SWF Video of the motors moving in \"thing files\" (download) section.<\/h2><p>This is an open source project - can you apply your talents to add value?  Please do....<br>Constructive feedback, ideas, designs and insights are welcome.<br>Just add a comment or a hyperlink.<\/p><p>NB:  --    In spite of my username, I'm not a doctor and have no medical training whatsoever!  I can't say this work is fit for any purpose other than research.<\/p><p>The STL files are Joints and linkages for 20X20 Bosch Rexroth aluminum extrusion.<br>Used with GLA750 Linear Actuators (run at 18V DC) and a Mystic 'seat type' kite surfing harness.<br>I got my 50 mm actuators here:  <a rel=\"ugc nofollow\" href=\"https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator\">https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator<\/a><\/p><p>I used both plastic (M8 Male) and metal (M6 Male) rod end bearings available from RS Online:<br><a rel=\"ugc nofollow\" href=\"http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end\">http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end<\/a><br>and a good many bearings, bushings and bolts \"recycled\" from an old pair of roller skates.  <\/p><p>Leg supports also house switches or other sensors to tell the (optional) Arduino or stand-alone controllers when to drive the motors and when to stop.<\/p><p>There are various control options:<\/p><ol><li><p>Dual DC Motor drivers - with or without Joystick control \/ with or without Arduino.<\/p><\/li><li>An Arduino and a couple of solid state relay boards (dual H Bridge) to drive the motors at 18V. <\/li><\/ol><p>Sept 2016 - I got some new controllers to try out.  Thus far, the \"Cytron 10A 5-25V Dual Channel DC Motor Drivers\",  purchased from: <a rel=\"ugc nofollow\" href=\"http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html\">http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html<\/a><br>look very promising indeed.  (Control option 1)<\/p><p>These controllers come with inbuilt \"test\" buttons - forward and backwards for each of the 2 motor channels.<br>The test buttons can be wired directly to the switches on the legs, meaning there's no requirement for Arduino and coding, if simple control fits your needs.<br>However, they can still be interfaced to Arduino for more advanced control options if That's your requirement.<br>The Cytron boards also support joystick control - right out of the box!<\/p><p>Two control units will be required (one for each leg) but there is a pleasing simplicity to the (option 1) control layout.<br>An added benefit is that some protections are built in to the controller board  (against short circuits and so on) - so they're pretty robust.  So far - I'm very happy with them.<\/p><p>Dual H Bridges (Control option 2)<br><a rel=\"ugc nofollow\" href=\"http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html\">http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html\">http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html<\/a><\/p><p>Choose your own batteries - I'm using 18v Ni-Cd 'battery drill' batteries (Makita) for the testing - there's probably better choices for endurance, performance, size etc. out there.  For function testing - the drill batteries serve the purpose.<\/p><p>The 20X20 aluminium extrusion provides multiple attachment points for linkages, batteries cover panels\/enclosures etc. It is strong \/ lightweight and readily available.<\/p><p>Thigh Support files uploaded. - You may need to print them at 95% scale as the thigh support is right on printer limits for size (200X200X200).  If you have a square print bed - place them on the bed at 45 degree angle to maximise the print size.<\/p><p>Note - All Leg supports are best printed at 100% Infill.<\/p><p>I added a general purpose strap attachment point for the harness - for additional supports, back brace etc.  Can be attached where needed in your particular situation.  For back support -- Straps could be used from the hip motor mount, crossing at the chest and attaching to this clip at the mid point (top) of the back of the harness.<\/p><p>The Arduino code is pretty raw, it's just to get the motors moving.  (For control option 2) but it does need more work.<br>You'll need the excellent driver that was created by Christoph Bober in order to use the .ino file - you'll find it on his site here:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.christophbober.com\/?p=70\">http:\/\/www.christophbober.com\/?p=70<\/a><br>(I just put the .h and the .cpp file in the same directory as the .ino but I believe there are more elegant ways to do it.)<br>Currently in the duino code - I have only 2 switches are controlling 2 motors.  There really needs to be 4 switch inputs. However, It provides a starting point from which to evolve your control solution.<\/p><p>I started writing a build steps manual - I've uploaded a PDF of the build steps document at it's current state of completion.  Further updates expected.<\/p><p>An additional stiffener support is needed between the Hip_Harness_Attchmt and the Hip_Motor_Mount. A section of aluminium extrusion to act as a stiffener on the harness will ensure the hip motor movement transfers to the leg rather than causing the harness to crumple.<\/p><p>You can use this project as a starting point, if you choose to implement voice control from a smartphone or inertial referencing - I won't try to stop you :o)  -- Just remember to share.<br>For those who need it, this is a quality of life thing.<\/p><p>I re-used some things I found on Thingiverse - modified them etc.  If you deserve credit for any work here please let me know. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Velleman<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>K8200<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20 - 25%<\/p><\/div>                                                        <strong>Filament:<\/strong> Taulman  Bridge Nylon                    Natural                                        <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Printed everything in Bridge Nylon - mechanical properties of other materials were not satisfactory in my mind.  Some files have supports built in, they can be easily cut off with scissors or a sharp bladed cutting tool.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Cut away supports with scissors.<\/strong><\/p><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Lots of trial and error - on a shoe-string budget as a spare time project.<\/strong><\/p><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-title\"><strong>Another option would be to mount both motors on the thigh.<\/strong><\/p>                <div><p>Both using the same (modified) mount and facing in opposite directions.  That way; there would be less bulk on the hip and no need for additional support on the harness (to avoid crumple).  Implementing the ability to turn is the challenge in that arrangement but it would be a cleaner design.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Assistive Technology.<\/p><p>The idea is to make a walking aid for persons who have some motor controls but not enough strength to actually walk.  The motors would amplify their intended movement allowing greater mobility.<\/p><hr><h2>There's and SWF Video of the motors moving in \"thing files\" (download) section.<\/h2><p>This is an open source project - can you apply your talents to add value?  Please do....<br>Constructive feedback, ideas, designs and insights are welcome.<br>Just add a comment or a hyperlink.<\/p><p>NB:  --    In spite of my username, I'm not a doctor and have no medical training whatsoever!  I can't say this work is fit for any purpose other than research.<\/p><p>The STL files are Joints and linkages for 20X20 Bosch Rexroth aluminum extrusion.<br>Used with GLA750 Linear Actuators (run at 18V DC) and a Mystic 'seat type' kite surfing harness.<br>I got my 50 mm actuators here:  <a rel=\"ugc nofollow\" href=\"https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator\">https:\/\/gimsonrobotics.co.uk\/categories\/linear-actuators\/products\/gla750-12v-dc-small-linear-actuator<\/a><\/p><p>I used both plastic (M8 Male) and metal (M6 Male) rod end bearings available from RS Online:<br><a rel=\"ugc nofollow\" href=\"http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end\">http:\/\/ie.rs-online.com\/web\/c\/pneumatics-hydraulics-power-transmission\/power-transmission-rod-ends-spherical-bearings\/rod-ends\/?searchTerm=rod+end<\/a><br>and a good many bearings, bushings and bolts \"recycled\" from an old pair of roller skates.  <\/p><p>Leg supports also house switches or other sensors to tell the (optional) Arduino or stand-alone controllers when to drive the motors and when to stop.<\/p><p>There are various control options:<\/p><ol><li><p>Dual DC Motor drivers - with or without Joystick control \/ with or without Arduino.<\/p><\/li><li>An Arduino and a couple of solid state relay boards (dual H Bridge) to drive the motors at 18V. <\/li><\/ol><p>Sept 2016 - I got some new controllers to try out.  Thus far, the \"Cytron 10A 5-25V Dual Channel DC Motor Drivers\",  purchased from: <a rel=\"ugc nofollow\" href=\"http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html\">http:\/\/www.robotshop.com\/eu\/en\/10a-5-30v-dual-channel-dc-motor-driver.html<\/a><br>look very promising indeed.  (Control option 1)<\/p><p>These controllers come with inbuilt \"test\" buttons - forward and backwards for each of the 2 motor channels.<br>The test buttons can be wired directly to the switches on the legs, meaning there's no requirement for Arduino and coding, if simple control fits your needs.<br>However, they can still be interfaced to Arduino for more advanced control options if That's your requirement.<br>The Cytron boards also support joystick control - right out of the box!<\/p><p>Two control units will be required (one for each leg) but there is a pleasing simplicity to the (option 1) control layout.<br>An added benefit is that some protections are built in to the controller board  (against short circuits and so on) - so they're pretty robust.  So far - I'm very happy with them.<\/p><p>Dual H Bridges (Control option 2)<br><a rel=\"ugc nofollow\" href=\"http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html\">http:\/\/mg.elecrow.com\/arduino-compatible\/shield.html<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html\">http:\/\/www.homotix.eu\/product.php~idx~~~586~~locale~~~225~~Dual+Channel+H_Bridge+Motor+Shield+_8A+22V~.html<\/a><\/p><p>Choose your own batteries - I'm using 18v Ni-Cd 'battery drill' batteries (Makita) for the testing - there's probably better choices for endurance, performance, size etc. out there.  For function testing - the drill batteries serve the purpose.<\/p><p>The 20X20 aluminium extrusion provides multiple attachment points for linkages, batteries cover panels\/enclosures etc. It is strong \/ lightweight and readily available.<\/p><p>Thigh Support files uploaded. - You may need to print them at 95% scale as the thigh support is right on printer limits for size (200X200X200).  If you have a square print bed - place them on the bed at 45 degree angle to maximise the print size.<\/p><p>Note - All Leg supports are best printed at 100% Infill.<\/p><p>I added a general purpose strap attachment point for the harness - for additional supports, back brace etc.  Can be attached where needed in your particular situation.  For back support -- Straps could be used from the hip motor mount, crossing at the chest and attaching to this clip at the mid point (top) of the back of the harness.<\/p><p>The Arduino code is pretty raw, it's just to get the motors moving.  (For control option 2) but it does need more work.<br>You'll need the excellent driver that was created by Christoph Bober in order to use the .ino file - you'll find it on his site here:<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.christophbober.com\/?p=70\">http:\/\/www.christophbober.com\/?p=70<\/a><br>(I just put the .h and the .cpp file in the same directory as the .ino but I believe there are more elegant ways to do it.)<br>Currently in the duino code - I have only 2 switches are controlling 2 motors.  There really needs to be 4 switch inputs. However, It provides a starting point from which to evolve your control solution.<\/p><p>I started writing a build steps manual - I've uploaded a PDF of the build steps document at it's current state of completion.  Further updates expected.<\/p><p>An additional stiffener support is needed between the Hip_Harness_Attchmt and the Hip_Motor_Mount. A section of aluminium extrusion to act as a stiffener on the harness will ensure the hip motor movement transfers to the leg rather than causing the harness to crumple.<\/p><p>You can use this project as a starting point, if you choose to implement voice control from a smartphone or inertial referencing - I won't try to stop you :o)  -- Just remember to share.<br>For those who need it, this is a quality of life thing.<\/p><p>I re-used some things I found on Thingiverse - modified them etc.  If you deserve credit for any work here please let me know. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Velleman<\/p><\/div>\n",
+            "printer": "<div><p>K8200<\/p><\/div>\n",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>20 - 25%<\/p><\/div>\n",
+            "filament_brand": "<div><p>Taulman <\/p><\/div>\n",
+            "filament_color": "<div><p>Natural<\/p><\/div>\n",
+            "filament_material": "<div><p>Bridge Nylon<\/p><\/div>\n",
+            "notes": "<div><p>Printed everything in Bridge Nylon - mechanical properties of other materials were not satisfactory in my mind.  Some files have supports built in, they can be easily cut off with scissors or a sharp bladed cutting tool.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Cut away supports with scissors."
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Lots of trial and error - on a shoe-string budget as a spare time project."
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "title": "Another option would be to mount both motors on the thigh.",
+            "content": "<div><p>Both using the same (modified) mount and facing in opposite directions.  That way; there would be less bulk on the hip and no need for additional support on the harness (to avoid crumple).  Implementing the ability to turn is the challenge in that arrangement but it would be a cleaner design.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "GNU - GPL",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1532027\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1532027\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1532027\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1532027\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1532027\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1532027\/tags",
+    "tags": [
+      {
+        "name": "20x20",
+        "tag": "20x20",
+        "url": "https:\/\/api.thingiverse.com\/tags\/20x20",
+        "count": 524,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/20x20\/things",
+        "absolute_url": "\/tag:20x20"
+      },
+      {
+        "name": "actuator",
+        "tag": "actuator",
+        "url": "https:\/\/api.thingiverse.com\/tags\/actuator",
+        "count": 240,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/actuator\/things",
+        "absolute_url": "\/tag:actuator"
+      },
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10220,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "bearing",
+        "tag": "bearing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bearing",
+        "count": 3913,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bearing\/things",
+        "absolute_url": "\/tag:bearing"
+      },
+      {
+        "name": "bionic",
+        "tag": "bionic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bionic",
+        "count": 71,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bionic\/things",
+        "absolute_url": "\/tag:bionic"
+      },
+      {
+        "name": "bot",
+        "tag": "bot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bot",
+        "count": 297,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bot\/things",
+        "absolute_url": "\/tag:bot"
+      },
+      {
+        "name": "bot legs",
+        "tag": "bot_legs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bot_legs",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bot_legs\/things",
+        "absolute_url": "\/tag:bot_legs"
+      },
+      {
+        "name": "bot-legs",
+        "tag": "bot-legs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bot-legs",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bot-legs\/things",
+        "absolute_url": "\/tag:bot-legs"
+      },
+      {
+        "name": "dc motor",
+        "tag": "dc_motor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dc_motor",
+        "count": 326,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dc_motor\/things",
+        "absolute_url": "\/tag:dc_motor"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "EXO",
+        "tag": "exo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exo",
+        "count": 37,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exo\/things",
+        "absolute_url": "\/tag:EXO"
+      },
+      {
+        "name": "Exoskel",
+        "tag": "exoskel",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskel",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskel\/things",
+        "absolute_url": "\/tag:Exoskel"
+      },
+      {
+        "name": "Exoskeleton",
+        "tag": "exoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton\/things",
+        "absolute_url": "\/tag:Exoskeleton"
+      },
+      {
+        "name": "extrusion",
+        "tag": "extrusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/extrusion",
+        "count": 977,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/extrusion\/things",
+        "absolute_url": "\/tag:extrusion"
+      },
+      {
+        "name": "human",
+        "tag": "human",
+        "url": "https:\/\/api.thingiverse.com\/tags\/human",
+        "count": 837,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/human\/things",
+        "absolute_url": "\/tag:human"
+      },
+      {
+        "name": "iron",
+        "tag": "iron",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iron",
+        "count": 402,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iron\/things",
+        "absolute_url": "\/tag:iron"
+      },
+      {
+        "name": "Iron-man",
+        "tag": "iron-man",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iron-man",
+        "count": 31,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iron-man\/things",
+        "absolute_url": "\/tag:Iron-man"
+      },
+      {
+        "name": "ironman",
+        "tag": "ironman",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ironman",
+        "count": 734,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ironman\/things",
+        "absolute_url": "\/tag:ironman"
+      },
+      {
+        "name": "Iron Man",
+        "tag": "iron_man",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iron_man",
+        "count": 886,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iron_man\/things",
+        "absolute_url": "\/tag:Iron_Man"
+      },
+      {
+        "name": "legs",
+        "tag": "legs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/legs",
+        "count": 897,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/legs\/things",
+        "absolute_url": "\/tag:legs"
+      },
+      {
+        "name": "linear actuator",
+        "tag": "linear_actuator",
+        "url": "https:\/\/api.thingiverse.com\/tags\/linear_actuator",
+        "count": 134,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/linear_actuator\/things",
+        "absolute_url": "\/tag:linear_actuator"
+      },
+      {
+        "name": "man",
+        "tag": "man",
+        "url": "https:\/\/api.thingiverse.com\/tags\/man",
+        "count": 1170,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/man\/things",
+        "absolute_url": "\/tag:man"
+      },
+      {
+        "name": "motor",
+        "tag": "motor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/motor",
+        "count": 3855,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/motor\/things",
+        "absolute_url": "\/tag:motor"
+      },
+      {
+        "name": "Robocop",
+        "tag": "robocop",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robocop",
+        "count": 87,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robocop\/things",
+        "absolute_url": "\/tag:Robocop"
+      },
+      {
+        "name": "robot",
+        "tag": "robot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robot",
+        "count": 8513,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robot\/things",
+        "absolute_url": "\/tag:robot"
+      },
+      {
+        "name": "Robot Legs",
+        "tag": "robot_legs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robot_legs",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robot_legs\/things",
+        "absolute_url": "\/tag:Robot_Legs"
+      },
+      {
+        "name": "robotic",
+        "tag": "robotic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic",
+        "count": 268,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic\/things",
+        "absolute_url": "\/tag:robotic"
+      },
+      {
+        "name": "robotics",
+        "tag": "robotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+        "count": 3570,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+        "absolute_url": "\/tag:robotics"
+      },
+      {
+        "name": "skeleton",
+        "tag": "skeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/skeleton",
+        "count": 1288,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/skeleton\/things",
+        "absolute_url": "\/tag:skeleton"
+      },
+      {
+        "name": "support",
+        "tag": "support",
+        "url": "https:\/\/api.thingiverse.com\/tags\/support",
+        "count": 7907,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/support\/things",
+        "absolute_url": "\/tag:support"
+      },
+      {
+        "name": "Terminator",
+        "tag": "terminator",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terminator",
+        "count": 333,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terminator\/things",
+        "absolute_url": "\/tag:Terminator"
+      },
+      {
+        "name": "walk",
+        "tag": "walk",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walk",
+        "count": 30,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walk\/things",
+        "absolute_url": "\/tag:walk"
+      },
+      {
+        "name": "walking",
+        "tag": "walking",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walking",
+        "count": 198,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walking\/things",
+        "absolute_url": "\/tag:walking"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1532027\/categories",
+    "file_count": 17,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 5635,
+    "view_count": 22783,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 21,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Exoskeleton_Thigh_Support_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/97\/38\/27\/2e\/Exoskeleton_Thigh_Support_V2.stl"
+        },
+        {
+          "name": "Knee_Motor_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/d3\/f3\/ff\/da\/Knee_Motor_Mount.stl"
+        },
+        {
+          "name": "Clevis-Hip_Lug.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/34\/36\/86\/ba\/Clevis-Hip_Lug.stl"
+        },
+        {
+          "name": "Hip_Harness_Attchmt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/3b\/8e\/f4\/1d\/Hip_Harness_Attchmt.stl"
+        },
+        {
+          "name": "Knee_Joint_No_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/c8\/f8\/b8\/dd\/Knee_Joint_No_Support.stl"
+        },
+        {
+          "name": "Knee_Joint_with_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/33\/9b\/83\/4f\/Knee_Joint_with_Support.stl"
+        },
+        {
+          "name": "Hip_Motor_Mountmirrored.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/bb\/db\/d9\/fd\/Hip_Motor_Mountmirrored.stl"
+        },
+        {
+          "name": "Hip_Motor_Cap.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/72\/12\/12\/b2\/Hip_Motor_Cap.stl"
+        },
+        {
+          "name": "Hip_Motor_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/a8\/57\/fe\/44\/Hip_Motor_Mount.stl"
+        },
+        {
+          "name": "ExoSkel_ThighSupport_V2_WithPrintSupport_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/db\/b0\/6d\/9c\/ExoSkel_ThighSupport_V2_WithPrintSupport_2.stl"
+        },
+        {
+          "name": "Lower_Leg_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/24\/fe\/41\/c2\/Lower_Leg_Support.stl"
+        },
+        {
+          "name": "Exo_Video_Clip.swf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/6b\/97\/25\/dd\/Exo_Video_Clip.swf"
+        },
+        {
+          "name": "General_Strap_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/ff\/09\/8b\/6c\/General_Strap_Support.stl"
+        },
+        {
+          "name": "ELECROW_ACS70028DH_BotLegs.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/04\/e2\/52\/b4\/ELECROW_ACS70028DH_BotLegs.ino"
+        },
+        {
+          "name": "Lady_Hip_Attchmt_Adaptor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/11\/ae\/7a\/00\/Lady_Hip_Attchmt_Adaptor.stl"
+        },
+        {
+          "name": "Exoskeleton_Build_Steps.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/24\/a2\/d5\/9d\/Exoskeleton_Build_Steps.pdf"
+        },
+        {
+          "name": "BotLegs_Cad.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/1a\/0c\/c2\/30\/BotLegs_Cad.zip"
+        }
+      ],
+      "images": [
+        {
+          "name": "Runner+2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/7e\/41\/5a\/0f\/Runner+2.jpg"
+        },
+        {
+          "name": "Latest_ExoPic.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/0c\/66\/5c\/41\/Latest_ExoPic.jpg"
+        },
+        {
+          "name": "Overview2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/5b\/d4\/90\/a9\/Overview2.jpg"
+        },
+        {
+          "name": "a5693830824ccbc3bc9d2bd76dbd5485.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2b\/33\/68\/13\/2b\/a5693830824ccbc3bc9d2bd76dbd5485.png"
+        },
+        {
+          "name": "Lower_Leg_Support.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/f0\/1b\/1b\/33\/Lower_Leg_Support.jpg"
+        },
+        {
+          "name": "8e45d7681d57441e4101683b86cb3db4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/78\/b3\/3b\/8f\/8e45d7681d57441e4101683b86cb3db4.png"
+        },
+        {
+          "name": "InPlace.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/0a\/30\/7b\/ba\/InPlace.jpg"
+        },
+        {
+          "name": "Hip.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/a2\/c9\/24\/3e\/Hip.jpg"
+        },
+        {
+          "name": "ee0156578800090357885e6f837f3c6f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/a1\/96\/98\/bc\/ee0156578800090357885e6f837f3c6f.png"
+        },
+        {
+          "name": "0b6eead31c85de7e5fb377b8b2a9ccdf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/40\/b6\/52\/28\/0b6eead31c85de7e5fb377b8b2a9ccdf.png"
+        },
+        {
+          "name": "Partial_Assembly.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/b2\/6e\/c6\/48\/Partial_Assembly.jpg"
+        },
+        {
+          "name": "35e5f6f9cc3c359f979e1fb8f3f8b82c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/46\/83\/81\/b8\/16\/35e5f6f9cc3c359f979e1fb8f3f8b82c.png"
+        },
+        {
+          "name": "60e2383fa4469be5099867a89e1a151f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/13\/6a\/b7\/8d\/12\/60e2383fa4469be5099867a89e1a151f.png"
+        },
+        {
+          "name": "IMAG0393.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/e4\/01\/ad\/9f\/IMAG0393.jpg"
+        },
+        {
+          "name": "Hip_Clevis_Lug.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/8e\/47\/06\/9a\/Hip_Clevis_Lug.jpg"
+        },
+        {
+          "name": "78e3c95bc972d6ed2e2dc3f83452fcf4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4c\/be\/eb\/a4\/38\/78e3c95bc972d6ed2e2dc3f83452fcf4.png"
+        },
+        {
+          "name": "Knee_Joint_Target.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/3a\/13\/c0\/53\/Knee_Joint_Target.jpg"
+        },
+        {
+          "name": "36af29ba78801371f296a8aaf97f6325.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/a0\/48\/8c\/87\/36af29ba78801371f296a8aaf97f6325.png"
+        },
+        {
+          "name": "d407ab1a9ca3c28cb9138102e76bcc6e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/4c\/da\/b1\/83\/d407ab1a9ca3c28cb9138102e76bcc6e.png"
+        },
+        {
+          "name": "Hip_Detail.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/be\/d8\/41\/e5\/Hip_Detail.jpg"
+        },
+        {
+          "name": "Knee_Detail.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/31\/4d\/c8\/24\/Knee_Detail.jpg"
+        },
+        {
+          "name": "Inside_Harness.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/86\/53\/2f\/1f\/Inside_Harness.jpg"
+        },
+        {
+          "name": "Rod_End.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/a1\/cb\/a4\/53\/Rod_End.jpg"
+        },
+        {
+          "name": "Boot.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/dd\/65\/ab\/2a\/Boot.jpg"
+        },
+        {
+          "name": "IMAG0394.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/f9\/b8\/f4\/95\/IMAG0394.jpg"
+        },
+        {
+          "name": "Printing.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/6b\/d7\/12\/0b\/Printing.jpg"
+        },
+        {
+          "name": "First.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/2f\/87\/9a\/06\/First.jpg"
+        },
+        {
+          "name": "275eb2975c4315c32f5d7b8aeff831fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/36\/83\/6e\/53\/35\/275eb2975c4315c32f5d7b8aeff831fc.png"
+        },
+        {
+          "name": "7324e7d5fe725802c33dcbd32dc8bc86.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/31\/d3\/52\/2f\/f6\/7324e7d5fe725802c33dcbd32dc8bc86.png"
+        },
+        {
+          "name": "b3c1c4c4f4d7e45e780360bb328ecab2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/ab\/e5\/90\/64\/b3c1c4c4f4d7e45e780360bb328ecab2.png"
+        },
+        {
+          "name": "Image1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/37\/d9\/34\/f2\/Image1.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "created_at": "2025-04-10T03:35:08.613446+00:00",
+  "elapsed": 0.171479,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df3145b8942a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:35:08 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:05:08 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1081797?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1081797?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1081797,
+    "name": "Wheelchair for people in third world countries 'HU-GO'",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/68\/c6\/bd\/e5\/d0\/c270eb7dd0e8b6b2e46e7b8efb3a1362_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1081797",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1081797",
+    "creator": {
+      "id": 102090,
+      "name": "hugoarchicad",
+      "first_name": "hugo",
+      "last_name": "riveros",
+      "url": "https:\/\/api.thingiverse.com\/users\/hugoarchicad",
+      "public_url": "https:\/\/www.thingiverse.com\/hugoarchicad",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e2\/33\/52\/a7\/0e\/photo_thumb_medium.jpg",
+      "count_of_followers": 215,
+      "count_of_following": 6,
+      "count_of_designs": 81,
+      "collection_count": 0,
+      "make_count": 97,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Australia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/28\/e4\/2a\/bc\/c9\/straIGHToutofmy3Dprinter_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-20T06:40:04+00:00",
+    "modified": "2015-10-20T06:40:04+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": true,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 385,
+    "is_liked": false,
+    "collect_count": 571,
+    "is_collected": false,
+    "comment_count": 43,
+    "is_watched": false,
+    "default_image": {
+      "id": 2766114,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/eb\/97\/d7\/89\/sk03.jpg",
+      "name": "sk03.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/17\/c9\/66\/d6\/sk03_display_small.jpg"
+        }
+      ],
+      "added": "2015-10-20T23:57:13+00:00"
+    },
+    "description": "#AssistiveTech\r\n\r\nThis will be my entry to the AssistiveTech competition.\r\n\r\nIts a wheelchair for people that need one!\r\n\r\nI call it 'HU-GO'\r\n\r\nI am adding more parts daily.\r\n\r\nI have modelled most of it now, I used ArchiCAD 18 which is the software I use for my Architectural work.\r\nI have just started 3D printing the first bits.\r\nupdate 1: I have finished printing all the parts now (25th oct 2015 and the cutting of the MDF  started today ( my jigsaw ability leaves a lot to be desired)\r\nupdate 2: I am printing one small wheel and if I have time I will print the other (28th oct 2015).\r\nupdate 3: arm for chair has been modified (the new one uses less material and quicker to print) I will leave the other file in case someone wants that one instead.\r\nupdate 4: I have almost finished (31st oct 2015), I learned how to do sewing today. So I did the cushions and the armrests.\r\nupdate 5: what next now that it is finished ?(Sunday 1st Nov 2015 Australia)\r\nupdate 6: Its fits in the back of my little car (so if it fits in a MINI then it fits in most cars(photo added to gallery)\r\nupdate 7: We have a very short youtube video here of the 3D printed wheelchair in action (dont mind my friends at work who are a little shy):\r\nhttp:\/\/youtu.be\/9n2WbFhp-DU\r\nupdate 8: I am adding the sizes of nuts and washers I used for every connection(see photo added below). (the holes are bigger and could take a large bolt if you need to secure it more, but from my experience they are strong enough\r\nupdate 9: I have added more photos with a wide angle lens and much closer shots.\r\nupdate 10: Today I got a response from the Mens shed (a government organisation that helps men suffering depression and helps them with projects and company).\r\nupdate 11: I was contacted by a Sydney based Australian organisation today who have offered a lending hand.\r\nupdate 12: I have made a new video on youtube to explain this project from my own words, excuse the heavy spanish accent.\r\nhttp:\/\/www.youtube.com\/watch?v=ZDljuV9umbE\r\nupdate 13: main photo cover updated (fixed spelling mistake and changed colour a little)\r\nupdate 14:  I went to my first Brisbane meet up yesterday to talk to people about 3D printing and Don was a lovely man who is passionate about 3D printring also making his own printers, we will collaborate soon. I also met Alex Uhde from hackaspace Brisbane (Will have to check it out next week)\r\nhttp:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1\r\nupdate 15: I would to thank my filament supplier for his second to none approach to customer service. for his fast delivery when I have needed it most (mostly when I think I have enough but I do not) and for donating filament for this worthy cause many thanks. check out http:\/\/blueprinted.co\r\nHis filament boxes have a sticker that read 'WARNING ! CONTENTS MAY INSPIRE INNOVATION'\r\nUPDATE 16: Finally I extend my apologies to my Fiancee Jacara for all the noise I made while she was studying for her final tests and assignments while I was building the wheelchair. I love you! and thankyou for listening to my never ending 3D printing stories!\r\nupdate 17: there is an article about this wheelchair already here: http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/\r\nupdate 18 (14-12-2015): the wheelchair will appear on my local paper! They are coming to my office to do the photoshoot this Thursday (funny how I met them!, I answered a call for people to dress up in star wars for our local cinema,which will feature in the newspaper, when I got there (I am Darth Vader) I began to chat to the editor and I pitched what I was doing with the wheelchair, she gave me her business card and today we organise the day for them to come over)\r\nupdate 19: I guess the announcement will be any day now.....If I win I will sell one of my old 3D printers, with the money I will buy a brand new little 3D printer and have it sent to Chile where I will be making them first with the help of a lovely young friend I met there!!\r\n\r\n\r\nI have emailed Ikea foundation http:\/\/www.ikeafoundation.org\/ to see if they would like to help me. We wait and see\r\n\r\n\r\n\r\n\r\nDear Hugo\r\n\r\nThank you very much for your interest in responding to the Village News article on Spring Hill Men's Shed. \r\n\r\nI am certain that your expertise in 3D printing would of worthwhile appeal to shed members.\r\n\r\nAt this stage, however, we are not yet operating as a men's shed, but are still in the process of forming an incorporated organisation for the management of our shed. We do, at least have a venue for the shed, in the undercroft of the Bedford Park Community Hall in Love Street Spring Hill. \r\n\r\nI have noted your willingness to become involved, and will contact you again when we are about to have our next meeting.\r\nregards\r\nRob Collins\r\non behalf of the Men's Shed Spring Hill Management Committee.\r\n\r\nupdate 11: I have the sketches for the big wheel which i know know i can 3D print also.\r\ni am adding those sketches now!!\r\n\r\nUPDATE 12: THIS DESIGN HAS BEEN SHORTLISED FOR ANOTHER COMPETITION ORGANISED BY THESE GUYS (I THINK IS THE INTERNATIONAL COMITTEE OF  THE RED CROSS)(12-15 TEAMS ONLY, I AM A TEAM OF ONE!)\r\nhttp:\/\/www.enablemakeathon.org\/\r\n\r\n\r\n\r\n\r\nStart by share it wherever you can and start printing it worldwide!!!\r\nWhy not make it a school project.\r\nsome kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.\r\n\r\nI have contacted one school already near me to see if they would like to get a talk on 3D printing and its benefits from me free of charge (waiting for the school principal to call me back) then good things could start.....\r\n\r\n\r\n\r\nI hope I can make the deadline. (update....I made the deadline and we now have a fully made functional wheelchair anyone can put together)\r\n\r\nI decided to create this wheelchair because I have used one before due to my own illness,\r\nI was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.\r\n we even received training how to operate a wheelchair during the induction.\r\n\r\nI have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.\r\n\r\nSo, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.\r\n\r\nI visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap. \r\n\r\nI strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off. \r\n\r\nIt should be a tool that anyone should have access to use.\r\n\r\nSo, I am accepting this challenge with the 'hugo' version 1.0\r\n\r\nVersion 2.0 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.\r\n\r\nI only found this competition yesterday (19th of October 2015) so I am busily trying to get it all done in time.\r\n\r\nWish me luck! I am spending all of my spare time with this project.\r\n\r\nThis is a lovely thing a friend does for a mate but it should not have to be this hard!!\r\n\r\nhttp:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\r\n\r\nSo, I am attempting version 1.\r\nVersion 2 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.\r\nI only found this competition yesterday so I am busily trying to get it all done.\r\n\r\nThe material list will be like this: (will be adding more as I need it)\r\n\r\n-Plywood\/MDF 16mm thick\r\n-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)\r\nat the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.\r\n-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)\r\n-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)\r\n-nuts and bolts (will specify how many, what type, size, lenght,etc)\r\n-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)\r\n-2 old\/new long 'socks' for the arm rests\r\n- fabric for the seats (I was thinking flour bags) and or old tshits\r\n\r\ntools required\r\n\r\n-Jigsaw\r\n-drill (hand held or electric)\r\n-screwdriver\r\n-spanner (will specify size)\r\n-access to a 3D printer\r\n-access to needle and thread\r\n-pair of scissors\r\n\r\nand a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.\r\n\r\nfinally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)\r\n\r\nhttp:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\r\n\r\nnote: I have started to put PDF's now.\r\nonce I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.\r\n\r\nalso when the frame is done i will assemble it and begin to take photos of the real thing!!!!\r\n\r\nThis project has taken a great amount of time, effort and resources to design and build.\r\n(As you know any prototype is expensive at first, I am happy to wear the costs)\r\nMy purpose is to share it with the world  for free, however a small contribution would be a huge help to continue its development.\r\nplease go here and help me if you believe in this worthy cause.\r\nhttps:\/\/www.paypal.me\/justonedollar\r\n\r\nMy dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.\r\n\r\nAnyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.\r\nAlso if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.\r\nIt doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing",
+    "instructions": "",
+    "description_html": "<div><h1>AssistiveTech<\/h1><p>This will be my entry to the AssistiveTech competition.<\/p><p>Its a wheelchair for people that need one!<\/p><p>I call it 'HU-GO'<\/p><p>I am adding more parts daily.<\/p><p>I have modelled most of it now, I used ArchiCAD 18 which is the software I use for my Architectural work.<br>I have just started 3D printing the first bits.<br>update 1: I have finished printing all the parts now (25th oct 2015 and the cutting of the MDF  started today ( my jigsaw ability leaves a lot to be desired)<br>update 2: I am printing one small wheel and if I have time I will print the other (28th oct 2015).<br>update 3: arm for chair has been modified (the new one uses less material and quicker to print) I will leave the other file in case someone wants that one instead.<br>update 4: I have almost finished (31st oct 2015), I learned how to do sewing today. So I did the cushions and the armrests.<br>update 5: what next now that it is finished ?(Sunday 1st Nov 2015 Australia)<br>update 6: Its fits in the back of my little car (so if it fits in a MINI then it fits in most cars(photo added to gallery)<br>update 7: We have a very short youtube video here of the 3D printed wheelchair in action (dont mind my friends at work who are a little shy):<br><a rel=\"ugc nofollow\" href=\"http:\/\/youtu.be\/9n2WbFhp-DU\">http:\/\/youtu.be\/9n2WbFhp-DU<\/a><br>update 8: I am adding the sizes of nuts and washers I used for every connection(see photo added below). (the holes are bigger and could take a large bolt if you need to secure it more, but from my experience they are strong enough<br>update 9: I have added more photos with a wide angle lens and much closer shots.<br>update 10: Today I got a response from the Mens shed (a government organisation that helps men suffering depression and helps them with projects and company).<br>update 11: I was contacted by a Sydney based Australian organisation today who have offered a lending hand.<br>update 12: I have made a new video on youtube to explain this project from my own words, excuse the heavy spanish accent.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE\">http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE<\/a><br>update 13: main photo cover updated (fixed spelling mistake and changed colour a little)<br>update 14:  I went to my first Brisbane meet up yesterday to talk to people about 3D printing and Don was a lovely man who is passionate about 3D printring also making his own printers, we will collaborate soon. I also met Alex Uhde from hackaspace Brisbane (Will have to check it out next week)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1\">http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1<\/a><br>update 15: I would to thank my filament supplier for his second to none approach to customer service. for his fast delivery when I have needed it most (mostly when I think I have enough but I do not) and for donating filament for this worthy cause many thanks. check out <a rel=\"ugc nofollow\" href=\"http:\/\/blueprinted.co\">http:\/\/blueprinted.co<\/a><br>His filament boxes have a sticker that read 'WARNING ! CONTENTS MAY INSPIRE INNOVATION'<br>UPDATE 16: Finally I extend my apologies to my Fiancee Jacara for all the noise I made while she was studying for her final tests and assignments while I was building the wheelchair. I love you! and thankyou for listening to my never ending 3D printing stories!<br>update 17: there is an article about this wheelchair already here: <a rel=\"ugc nofollow\" href=\"http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/\">http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/<\/a><br>update 18 (14-12-2015): the wheelchair will appear on my local paper! They are coming to my office to do the photoshoot this Thursday (funny how I met them!, I answered a call for people to dress up in star wars for our local cinema,which will feature in the newspaper, when I got there (I am Darth Vader) I began to chat to the editor and I pitched what I was doing with the wheelchair, she gave me her business card and today we organise the day for them to come over)<br>update 19: I guess the announcement will be any day now.....If I win I will sell one of my old 3D printers, with the money I will buy a brand new little 3D printer and have it sent to Chile where I will be making them first with the help of a lovely young friend I met there!!<\/p><p>I have emailed Ikea foundation <a rel=\"ugc nofollow\" href=\"http:\/\/www.ikeafoundation.org\/\">http:\/\/www.ikeafoundation.org\/<\/a> to see if they would like to help me. We wait and see<\/p><p>Dear Hugo<\/p><p>Thank you very much for your interest in responding to the Village News article on Spring Hill Men's Shed. <\/p><p>I am certain that your expertise in 3D printing would of worthwhile appeal to shed members.<\/p><p>At this stage, however, we are not yet operating as a men's shed, but are still in the process of forming an incorporated organisation for the management of our shed. We do, at least have a venue for the shed, in the undercroft of the Bedford Park Community Hall in Love Street Spring Hill. <\/p><p>I have noted your willingness to become involved, and will contact you again when we are about to have our next meeting.<br>regards<br>Rob Collins<br>on behalf of the Men's Shed Spring Hill Management Committee.<\/p><p>update 11: I have the sketches for the big wheel which i know know i can 3D print also.<br>i am adding those sketches now!!<\/p><p>UPDATE 12: THIS DESIGN HAS BEEN SHORTLISED FOR ANOTHER COMPETITION ORGANISED BY THESE GUYS (I THINK IS THE INTERNATIONAL COMITTEE OF  THE RED CROSS)(12-15 TEAMS ONLY, I AM A TEAM OF ONE!)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.enablemakeathon.org\/\">http:\/\/www.enablemakeathon.org\/<\/a><\/p><p>Start by share it wherever you can and start printing it worldwide!!!<br>Why not make it a school project.<br>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I have contacted one school already near me to see if they would like to get a talk on 3D printing and its benefits from me free of charge (waiting for the school principal to call me back) then good things could start.....<\/p><p>I hope I can make the deadline. (update....I made the deadline and we now have a fully made functional wheelchair anyone can put together)<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap. <\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off. <\/p><p>It should be a tool that anyone should have access to use.<\/p><p>So, I am accepting this challenge with the 'hugo' version 1.0<\/p><p>Version 2.0 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<\/p><p>I only found this competition yesterday (19th of October 2015) so I am busily trying to get it all done in time.<\/p><p>Wish me luck! I am spending all of my spare time with this project.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>So, I am attempting version 1.<br>Version 2 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<br>I only found this competition yesterday so I am busily trying to get it all done.<\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><ul><li>fabric for the seats (I was thinking flour bags) and or old tshits<\/li><\/ul><p>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world  for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h1>AssistiveTech<\/h1><p>This will be my entry to the AssistiveTech competition.<\/p><p>Its a wheelchair for people that need one!<\/p><p>I call it 'HU-GO'<\/p><p>I am adding more parts daily.<\/p><p>I have modelled most of it now, I used ArchiCAD 18 which is the software I use for my Architectural work.<br>I have just started 3D printing the first bits.<br>update 1: I have finished printing all the parts now (25th oct 2015 and the cutting of the MDF  started today ( my jigsaw ability leaves a lot to be desired)<br>update 2: I am printing one small wheel and if I have time I will print the other (28th oct 2015).<br>update 3: arm for chair has been modified (the new one uses less material and quicker to print) I will leave the other file in case someone wants that one instead.<br>update 4: I have almost finished (31st oct 2015), I learned how to do sewing today. So I did the cushions and the armrests.<br>update 5: what next now that it is finished ?(Sunday 1st Nov 2015 Australia)<br>update 6: Its fits in the back of my little car (so if it fits in a MINI then it fits in most cars(photo added to gallery)<br>update 7: We have a very short youtube video here of the 3D printed wheelchair in action (dont mind my friends at work who are a little shy):<br><a rel=\"ugc nofollow\" href=\"http:\/\/youtu.be\/9n2WbFhp-DU\">http:\/\/youtu.be\/9n2WbFhp-DU<\/a><br>update 8: I am adding the sizes of nuts and washers I used for every connection(see photo added below). (the holes are bigger and could take a large bolt if you need to secure it more, but from my experience they are strong enough<br>update 9: I have added more photos with a wide angle lens and much closer shots.<br>update 10: Today I got a response from the Mens shed (a government organisation that helps men suffering depression and helps them with projects and company).<br>update 11: I was contacted by a Sydney based Australian organisation today who have offered a lending hand.<br>update 12: I have made a new video on youtube to explain this project from my own words, excuse the heavy spanish accent.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE\">http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE<\/a><br>update 13: main photo cover updated (fixed spelling mistake and changed colour a little)<br>update 14:  I went to my first Brisbane meet up yesterday to talk to people about 3D printing and Don was a lovely man who is passionate about 3D printring also making his own printers, we will collaborate soon. I also met Alex Uhde from hackaspace Brisbane (Will have to check it out next week)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1\">http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1<\/a><br>update 15: I would to thank my filament supplier for his second to none approach to customer service. for his fast delivery when I have needed it most (mostly when I think I have enough but I do not) and for donating filament for this worthy cause many thanks. check out <a rel=\"ugc nofollow\" href=\"http:\/\/blueprinted.co\">http:\/\/blueprinted.co<\/a><br>His filament boxes have a sticker that read 'WARNING ! CONTENTS MAY INSPIRE INNOVATION'<br>UPDATE 16: Finally I extend my apologies to my Fiancee Jacara for all the noise I made while she was studying for her final tests and assignments while I was building the wheelchair. I love you! and thankyou for listening to my never ending 3D printing stories!<br>update 17: there is an article about this wheelchair already here: <a rel=\"ugc nofollow\" href=\"http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/\">http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/<\/a><br>update 18 (14-12-2015): the wheelchair will appear on my local paper! They are coming to my office to do the photoshoot this Thursday (funny how I met them!, I answered a call for people to dress up in star wars for our local cinema,which will feature in the newspaper, when I got there (I am Darth Vader) I began to chat to the editor and I pitched what I was doing with the wheelchair, she gave me her business card and today we organise the day for them to come over)<br>update 19: I guess the announcement will be any day now.....If I win I will sell one of my old 3D printers, with the money I will buy a brand new little 3D printer and have it sent to Chile where I will be making them first with the help of a lovely young friend I met there!!<\/p><p>I have emailed Ikea foundation <a rel=\"ugc nofollow\" href=\"http:\/\/www.ikeafoundation.org\/\">http:\/\/www.ikeafoundation.org\/<\/a> to see if they would like to help me. We wait and see<\/p><p>Dear Hugo<\/p><p>Thank you very much for your interest in responding to the Village News article on Spring Hill Men's Shed. <\/p><p>I am certain that your expertise in 3D printing would of worthwhile appeal to shed members.<\/p><p>At this stage, however, we are not yet operating as a men's shed, but are still in the process of forming an incorporated organisation for the management of our shed. We do, at least have a venue for the shed, in the undercroft of the Bedford Park Community Hall in Love Street Spring Hill. <\/p><p>I have noted your willingness to become involved, and will contact you again when we are about to have our next meeting.<br>regards<br>Rob Collins<br>on behalf of the Men's Shed Spring Hill Management Committee.<\/p><p>update 11: I have the sketches for the big wheel which i know know i can 3D print also.<br>i am adding those sketches now!!<\/p><p>UPDATE 12: THIS DESIGN HAS BEEN SHORTLISED FOR ANOTHER COMPETITION ORGANISED BY THESE GUYS (I THINK IS THE INTERNATIONAL COMITTEE OF  THE RED CROSS)(12-15 TEAMS ONLY, I AM A TEAM OF ONE!)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.enablemakeathon.org\/\">http:\/\/www.enablemakeathon.org\/<\/a><\/p><p>Start by share it wherever you can and start printing it worldwide!!!<br>Why not make it a school project.<br>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I have contacted one school already near me to see if they would like to get a talk on 3D printing and its benefits from me free of charge (waiting for the school principal to call me back) then good things could start.....<\/p><p>I hope I can make the deadline. (update....I made the deadline and we now have a fully made functional wheelchair anyone can put together)<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap. <\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off. <\/p><p>It should be a tool that anyone should have access to use.<\/p><p>So, I am accepting this challenge with the 'hugo' version 1.0<\/p><p>Version 2.0 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<\/p><p>I only found this competition yesterday (19th of October 2015) so I am busily trying to get it all done in time.<\/p><p>Wish me luck! I am spending all of my spare time with this project.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>So, I am attempting version 1.<br>Version 2 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<br>I only found this competition yesterday so I am busily trying to get it all done.<\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><ul><li>fabric for the seats (I was thinking flour bags) and or old tshits<\/li><\/ul><p>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world  for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>I have printed all my parts so far at 0.2mm res<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>see notes below<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Print it at a good resolution so it has all the strength it needs<br>my 3D printer software does not allow me to change the infill so I cannot help you.<br>I wish it did!!!!<br>my 3D printer software does not allow me to change the infill, like honeycomb etc.<br>so most parts are chunkier that I think they ought to be.<br>I see now the cross brace could be resized to the normal broom thickness instead of the 40mm which I used)<br>All parts are laid flat so they are easy to print.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/07\/6d\/51\/e4\/02\/sk03.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is the frame made out of MDF or plywood and the cross bracing<\/strong><\/p>                    <p class=\"detail-title\"><strong>wheelchair- the 'HU-GO'<\/strong><\/p>                <div><p>I started by looking at my own wheelchair and how the loads where distributed.<br>I think that formed the design more than anything.<br>then i began to sketch what this might look like and how many bits i would need to make.<br>then I began to redesign the parts so it would use the minimal amount of filament and or parts.<br>I also began to think how i could use normal everyday things for a useful purpose for this project in particular.<br>Like the idea of re using socks for the arm rests and flour bags for the seat materials.<\/p><p>On my next version I will be designing hubs out of filament so I can use wooden wheels cut out of plywood.<br>I have the design ready but not the time for this competition. ( update! I have designed and now 3D printed and installed the front wheels)<br>I have added my wheel design to the list of parts to download (small wheels) with tread and sacrificial bushes and also washers.<br>I am now attaching the big wheel design below now!!!!! thats the final piece of the puzzle!!!<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/59\/28\/c5\/4f\/a3\/sk04.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>I used these to hold on to the two timber frames<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ef\/f5\/06\/17\/c6\/sk02.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is my cross frame support<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/f8\/3c\/d3\/d3\/4a\/sk01.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is the other cross brace support ( I had to make two types, one for the top and one for the bottom)<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c0\/ba\/01\/9a\/b1\/unnamed-4.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>its working<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/28\/d7\/1d\/6b\/77\/bracket_bottom_02.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>these are the cross bracing supports<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/0f\/52\/e9\/e6\/fd\/BRACKET_BOTTOM_1.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/a0\/3a\/ee\/63\/b3\/unnamed-8.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>my jigsaw skills are improving see how the curve to the frame matches (more or less) the support with the same radii<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/16\/de\/4a\/8b\/70\/seat_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is my mock up design for the seat fabric support, this was the hardest thing to solve.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/7a\/64\/81\/c3\/64\/unnamed-1_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>and this is the actual component that hold the (pencils) see image above<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/2e\/ec\/ad\/30\/b2\/unnamed_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is my check print to make sure it worked before sending the wheel to the printer because I had limited blue material. I made a sacrificial bush out of plastic to go inside the wheel and two washers out of pla also<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/23\/56\/94\/65\/05\/unnamed-1_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>and this is the wheel fitted and working well<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/eb\/c6\/11\/50\/6d\/unnamed_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>thats me sewing for the first time!! My mother in law was giving me tips over the phone <\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/a4\/3a\/c8\/cb\/b6\/unnamed-2_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is my sewing handiwork!! it turned out well. although I still do not know how to close the ends. I did the sewing then turned it inside out and folded the end inwards.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/33\/48\/29\/82\/cd\/unnamed-2_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this photo shows the frames being cut with a jigsaw , look at my supporting table 'its 3D printed!!!'<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b8\/9e\/39\/f8\/77\/photo_preview_featured.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is the table I 3D printed last year from thingiverse and the thing that got me thinking about a wheelchair joined\/constructed by broomsticks using the same principle.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/6c\/b1\/55\/7a\/f6\/unnamed.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>it fits in the back of my MINI so it fits in most cars!! unless you have a smart fortwo..or maybe it does fit there too?!<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/46\/01\/e0\/53\/10\/unnamed.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>these are the nut and washers I used for all the connections in this project<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ab\/2e\/e7\/a3\/6a\/01.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>close up shot<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/09\/ef\/d7\/96\/67\/02.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>see cross bracing under seat<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/61\/18\/1e\/22\/ed\/03.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>push bar\/top cross brace<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ef\/c5\/d4\/f0\/d9\/04.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>bottom brace and wheel assembly<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/da\/7b\/12\/ef\/72\/05.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>3D printed wheel with tread! and you can also see the washers but not the bush inside which is to be replaced every so often depending on use, thus making the wheel last longer. (sacrificial bush)<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/48\/5f\/94\/7d\/e8\/06.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>bottom brace<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/70\/28\/30\/55\/c9\/unnamed.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>big wheel design<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c4\/bc\/b2\/7f\/be\/unnamed-1.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is how the big wheel would work, basically a copper pipe is filled with sand so its easy to bend and prevents cracking of the pipe, this is the tire! then the tube is blued or screwed to the 3D printed segments that connect the wheel to the hub via broom sticks ( a bit like everything else in this wheelchair design)<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/31\/33\/4d\/f9\/64\/unnamed-3.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this is the hub drawing. it will have 'tentacles' where the broom sticks connect to.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/86\/ac\/19\/04\/ca\/unnamed.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>this would be the hub with the tentacles and the way it would all connect<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/96\/86\/3a\/a1\/43\/unnamed-4.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>as you can see i cannot draw circles very well BUT the idea is sound. hub with tentacles connecting to segments which are joined by the sand filled copper pipe.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ec\/75\/2a\/48\/39\/01.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/bd\/44\/57\/a7\/5b\/04.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/57\/dd\/16\/ff\/20\/03.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/36\/d4\/91\/4c\/82\/me_at_work.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>i wish it had been a cooler day when I cut the frame but I had to take advantage of the 'feel good day' I had that day. I have spondylo Arthritis and some days are good and others no so much. when I am good I try and do the things i cannot do most of the time, like go for a little walk, do a bit of shopping, light manual work.during my 'off'days i try to get as much sleep as i can to recover. if you can try to get a good size room to work in, I had to work on my balcony and had to pause I few times because Moet(our little pomeranian) uses the balcony as his toilet, he is shy and needs privacy and would make noise until I leave, then I am allowed back out to keep going!!<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ec\/06\/16\/7e\/1b\/moet_and_i.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>if I am in pain, little moet and i do what we do best, we sleep<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/28\/70\/6f\/23\/4d\/unnamed.jpg\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>the wheelchair appeared on my local newspaper<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/26\/bd\/98\/a5\/d0\/unnamed-2.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/26\/1c\/b7\/e0\/40\/unnamed-1.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b9\/8f\/fb\/95\/98\/unnamed-3.jpg\" alt=\"image\"><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h1>AssistiveTech<\/h1><p>This will be my entry to the AssistiveTech competition.<\/p><p>Its a wheelchair for people that need one!<\/p><p>I call it 'HU-GO'<\/p><p>I am adding more parts daily.<\/p><p>I have modelled most of it now, I used ArchiCAD 18 which is the software I use for my Architectural work.<br>I have just started 3D printing the first bits.<br>update 1: I have finished printing all the parts now (25th oct 2015 and the cutting of the MDF  started today ( my jigsaw ability leaves a lot to be desired)<br>update 2: I am printing one small wheel and if I have time I will print the other (28th oct 2015).<br>update 3: arm for chair has been modified (the new one uses less material and quicker to print) I will leave the other file in case someone wants that one instead.<br>update 4: I have almost finished (31st oct 2015), I learned how to do sewing today. So I did the cushions and the armrests.<br>update 5: what next now that it is finished ?(Sunday 1st Nov 2015 Australia)<br>update 6: Its fits in the back of my little car (so if it fits in a MINI then it fits in most cars(photo added to gallery)<br>update 7: We have a very short youtube video here of the 3D printed wheelchair in action (dont mind my friends at work who are a little shy):<br><a rel=\"ugc nofollow\" href=\"http:\/\/youtu.be\/9n2WbFhp-DU\">http:\/\/youtu.be\/9n2WbFhp-DU<\/a><br>update 8: I am adding the sizes of nuts and washers I used for every connection(see photo added below). (the holes are bigger and could take a large bolt if you need to secure it more, but from my experience they are strong enough<br>update 9: I have added more photos with a wide angle lens and much closer shots.<br>update 10: Today I got a response from the Mens shed (a government organisation that helps men suffering depression and helps them with projects and company).<br>update 11: I was contacted by a Sydney based Australian organisation today who have offered a lending hand.<br>update 12: I have made a new video on youtube to explain this project from my own words, excuse the heavy spanish accent.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE\">http:\/\/www.youtube.com\/watch?v=ZDljuV9umbE<\/a><br>update 13: main photo cover updated (fixed spelling mistake and changed colour a little)<br>update 14:  I went to my first Brisbane meet up yesterday to talk to people about 3D printing and Don was a lovely man who is passionate about 3D printring also making his own printers, we will collaborate soon. I also met Alex Uhde from hackaspace Brisbane (Will have to check it out next week)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1\">http:\/\/www.meetup.com\/Brisbane-3D-Printing-Meetup\/photos\/26574579\/444510495\/?a=pc1_cl1<\/a><br>update 15: I would to thank my filament supplier for his second to none approach to customer service. for his fast delivery when I have needed it most (mostly when I think I have enough but I do not) and for donating filament for this worthy cause many thanks. check out <a rel=\"ugc nofollow\" href=\"http:\/\/blueprinted.co\">http:\/\/blueprinted.co<\/a><br>His filament boxes have a sticker that read 'WARNING ! CONTENTS MAY INSPIRE INNOVATION'<br>UPDATE 16: Finally I extend my apologies to my Fiancee Jacara for all the noise I made while she was studying for her final tests and assignments while I was building the wheelchair. I love you! and thankyou for listening to my never ending 3D printing stories!<br>update 17: there is an article about this wheelchair already here: <a rel=\"ugc nofollow\" href=\"http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/\">http:\/\/3dprintingindustry.com\/2015\/11\/16\/hu-go-an-ambitious-3d-printable-wheelchair-on-thingiverse\/<\/a><br>update 18 (14-12-2015): the wheelchair will appear on my local paper! They are coming to my office to do the photoshoot this Thursday (funny how I met them!, I answered a call for people to dress up in star wars for our local cinema,which will feature in the newspaper, when I got there (I am Darth Vader) I began to chat to the editor and I pitched what I was doing with the wheelchair, she gave me her business card and today we organise the day for them to come over)<br>update 19: I guess the announcement will be any day now.....If I win I will sell one of my old 3D printers, with the money I will buy a brand new little 3D printer and have it sent to Chile where I will be making them first with the help of a lovely young friend I met there!!<\/p><p>I have emailed Ikea foundation <a rel=\"ugc nofollow\" href=\"http:\/\/www.ikeafoundation.org\/\">http:\/\/www.ikeafoundation.org\/<\/a> to see if they would like to help me. We wait and see<\/p><p>Dear Hugo<\/p><p>Thank you very much for your interest in responding to the Village News article on Spring Hill Men's Shed. <\/p><p>I am certain that your expertise in 3D printing would of worthwhile appeal to shed members.<\/p><p>At this stage, however, we are not yet operating as a men's shed, but are still in the process of forming an incorporated organisation for the management of our shed. We do, at least have a venue for the shed, in the undercroft of the Bedford Park Community Hall in Love Street Spring Hill. <\/p><p>I have noted your willingness to become involved, and will contact you again when we are about to have our next meeting.<br>regards<br>Rob Collins<br>on behalf of the Men's Shed Spring Hill Management Committee.<\/p><p>update 11: I have the sketches for the big wheel which i know know i can 3D print also.<br>i am adding those sketches now!!<\/p><p>UPDATE 12: THIS DESIGN HAS BEEN SHORTLISED FOR ANOTHER COMPETITION ORGANISED BY THESE GUYS (I THINK IS THE INTERNATIONAL COMITTEE OF  THE RED CROSS)(12-15 TEAMS ONLY, I AM A TEAM OF ONE!)<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.enablemakeathon.org\/\">http:\/\/www.enablemakeathon.org\/<\/a><\/p><p>Start by share it wherever you can and start printing it worldwide!!!<br>Why not make it a school project.<br>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I have contacted one school already near me to see if they would like to get a talk on 3D printing and its benefits from me free of charge (waiting for the school principal to call me back) then good things could start.....<\/p><p>I hope I can make the deadline. (update....I made the deadline and we now have a fully made functional wheelchair anyone can put together)<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap. <\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off. <\/p><p>It should be a tool that anyone should have access to use.<\/p><p>So, I am accepting this challenge with the 'hugo' version 1.0<\/p><p>Version 2.0 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<\/p><p>I only found this competition yesterday (19th of October 2015) so I am busily trying to get it all done in time.<\/p><p>Wish me luck! I am spending all of my spare time with this project.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>So, I am attempting version 1.<br>Version 2 will have 3D printed wheels\/ and or hubs also but due to the deadline I will leave it for later.<br>I only found this competition yesterday so I am busily trying to get it all done.<\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><ul><li>fabric for the seats (I was thinking flour bags) and or old tshits<\/li><\/ul><p>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world  for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Doesn't Matter",
+            "supports": "Doesn't Matter",
+            "resolution": "<div><p>I have printed all my parts so far at 0.2mm res<\/p><\/div>\n",
+            "infill": "<div><p>see notes below<\/p><\/div>\n",
+            "notes": "<div><p>Print it at a good resolution so it has all the strength it needs<br>my 3D printer software does not allow me to change the infill so I cannot help you.<br>I wish it did!!!!<br>my 3D printer software does not allow me to change the infill, like honeycomb etc.<br>so most parts are chunkier that I think they ought to be.<br>I see now the cross brace could be resized to the normal broom thickness instead of the 40mm which I used)<br>All parts are laid flat so they are easy to print.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/07\/6d\/51\/e4\/02\/sk03.jpg",
+            "caption": "this is the frame made out of MDF or plywood and the cross bracing",
+            "image_id": "1789"
+          },
+          {
+            "title": "wheelchair- the 'HU-GO'",
+            "content": "<div><p>I started by looking at my own wheelchair and how the loads where distributed.<br>I think that formed the design more than anything.<br>then i began to sketch what this might look like and how many bits i would need to make.<br>then I began to redesign the parts so it would use the minimal amount of filament and or parts.<br>I also began to think how i could use normal everyday things for a useful purpose for this project in particular.<br>Like the idea of re using socks for the arm rests and flour bags for the seat materials.<\/p><p>On my next version I will be designing hubs out of filament so I can use wooden wheels cut out of plywood.<br>I have the design ready but not the time for this competition. ( update! I have designed and now 3D printed and installed the front wheels)<br>I have added my wheel design to the list of parts to download (small wheels) with tread and sacrificial bushes and also washers.<br>I am now attaching the big wheel design below now!!!!! thats the final piece of the puzzle!!!<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/59\/28\/c5\/4f\/a3\/sk04.jpg",
+            "caption": "I used these to hold on to the two timber frames",
+            "image_id": "1788"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ef\/f5\/06\/17\/c6\/sk02.jpg",
+            "caption": "this is my cross frame support",
+            "image_id": "1790"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/f8\/3c\/d3\/d3\/4a\/sk01.jpg",
+            "caption": "this is the other cross brace support ( I had to make two types, one for the top and one for the bottom)",
+            "image_id": "1791"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c0\/ba\/01\/9a\/b1\/unnamed-4.jpg",
+            "caption": "its working",
+            "image_id": "2100"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/28\/d7\/1d\/6b\/77\/bracket_bottom_02.jpg",
+            "caption": "these are the cross bracing supports",
+            "image_id": "1821"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/0f\/52\/e9\/e6\/fd\/BRACKET_BOTTOM_1.jpg",
+            "image_id": "1822"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/a0\/3a\/ee\/63\/b3\/unnamed-8.jpg",
+            "caption": "my jigsaw skills are improving see how the curve to the frame matches (more or less) the support with the same radii",
+            "image_id": "2103"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/16\/de\/4a\/8b\/70\/seat_preview_featured.jpg",
+            "caption": "this is my mock up design for the seat fabric support, this was the hardest thing to solve.",
+            "image_id": "2460"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/7a\/64\/81\/c3\/64\/unnamed-1_preview_featured.jpg",
+            "caption": "and this is the actual component that hold the (pencils) see image above",
+            "image_id": "2461"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/2e\/ec\/ad\/30\/b2\/unnamed_preview_featured.jpg",
+            "caption": "this is my check print to make sure it worked before sending the wheel to the printer because I had limited blue material. I made a sacrificial bush out of plastic to go inside the wheel and two washers out of pla also",
+            "image_id": "2462"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/23\/56\/94\/65\/05\/unnamed-1_preview_featured.jpg",
+            "caption": "and this is the wheel fitted and working well",
+            "image_id": "2463"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/eb\/c6\/11\/50\/6d\/unnamed_preview_featured.jpg",
+            "caption": "thats me sewing for the first time!! My mother in law was giving me tips over the phone ",
+            "image_id": "2464"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/a4\/3a\/c8\/cb\/b6\/unnamed-2_preview_featured.jpg",
+            "caption": "this is my sewing handiwork!! it turned out well. although I still do not know how to close the ends. I did the sewing then turned it inside out and folded the end inwards.",
+            "image_id": "2465"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/33\/48\/29\/82\/cd\/unnamed-2_preview_featured.jpg",
+            "caption": "this photo shows the frames being cut with a jigsaw , look at my supporting table 'its 3D printed!!!'",
+            "image_id": "2501"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b8\/9e\/39\/f8\/77\/photo_preview_featured.jpg",
+            "caption": "this is the table I 3D printed last year from thingiverse and the thing that got me thinking about a wheelchair joined\/constructed by broomsticks using the same principle.",
+            "image_id": "2502"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/6c\/b1\/55\/7a\/f6\/unnamed.jpg",
+            "caption": "it fits in the back of my MINI so it fits in most cars!! unless you have a smart fortwo..or maybe it does fit there too?!",
+            "image_id": "2680"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/46\/01\/e0\/53\/10\/unnamed.jpg",
+            "caption": "these are the nut and washers I used for all the connections in this project",
+            "image_id": "2788"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ab\/2e\/e7\/a3\/6a\/01.jpg",
+            "caption": "close up shot",
+            "image_id": "2805"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/09\/ef\/d7\/96\/67\/02.jpg",
+            "caption": "see cross bracing under seat",
+            "image_id": "2806"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/61\/18\/1e\/22\/ed\/03.jpg",
+            "caption": "push bar\/top cross brace",
+            "image_id": "2807"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ef\/c5\/d4\/f0\/d9\/04.jpg",
+            "caption": "bottom brace and wheel assembly",
+            "image_id": "2808"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/da\/7b\/12\/ef\/72\/05.jpg",
+            "caption": "3D printed wheel with tread! and you can also see the washers but not the bush inside which is to be replaced every so often depending on use, thus making the wheel last longer. (sacrificial bush)",
+            "image_id": "2809"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/48\/5f\/94\/7d\/e8\/06.jpg",
+            "caption": "bottom brace",
+            "image_id": "2810"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/70\/28\/30\/55\/c9\/unnamed.jpg",
+            "caption": "big wheel design",
+            "image_id": "3001"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c4\/bc\/b2\/7f\/be\/unnamed-1.jpg",
+            "caption": "this is how the big wheel would work, basically a copper pipe is filled with sand so its easy to bend and prevents cracking of the pipe, this is the tire! then the tube is blued or screwed to the 3D printed segments that connect the wheel to the hub via broom sticks ( a bit like everything else in this wheelchair design)",
+            "image_id": "3002"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/31\/33\/4d\/f9\/64\/unnamed-3.jpg",
+            "caption": "this is the hub drawing. it will have 'tentacles' where the broom sticks connect to.",
+            "image_id": "3003"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/86\/ac\/19\/04\/ca\/unnamed.jpg",
+            "caption": "this would be the hub with the tentacles and the way it would all connect",
+            "image_id": "3004"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/96\/86\/3a\/a1\/43\/unnamed-4.jpg",
+            "caption": "as you can see i cannot draw circles very well BUT the idea is sound. hub with tentacles connecting to segments which are joined by the sand filled copper pipe.",
+            "image_id": "3005"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ec\/75\/2a\/48\/39\/01.jpg",
+            "image_id": "3040"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/bd\/44\/57\/a7\/5b\/04.jpg",
+            "image_id": "3041"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/57\/dd\/16\/ff\/20\/03.jpg",
+            "image_id": "3042"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/36\/d4\/91\/4c\/82\/me_at_work.jpg",
+            "caption": "i wish it had been a cooler day when I cut the frame but I had to take advantage of the 'feel good day' I had that day. I have spondylo Arthritis and some days are good and others no so much. when I am good I try and do the things i cannot do most of the time, like go for a little walk, do a bit of shopping, light manual work.during my 'off'days i try to get as much sleep as i can to recover. if you can try to get a good size room to work in, I had to work on my balcony and had to pause I few times because Moet(our little pomeranian) uses the balcony as his toilet, he is shy and needs privacy and would make noise until I leave, then I am allowed back out to keep going!!",
+            "image_id": "3840"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ec\/06\/16\/7e\/1b\/moet_and_i.jpg",
+            "caption": "if I am in pain, little moet and i do what we do best, we sleep",
+            "image_id": "3841"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/28\/70\/6f\/23\/4d\/unnamed.jpg",
+            "caption": "the wheelchair appeared on my local newspaper",
+            "image_id": "5233"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/26\/bd\/98\/a5\/d0\/unnamed-2.jpg",
+            "image_id": "5234"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/26\/1c\/b7\/e0\/40\/unnamed-1.jpg",
+            "image_id": "5235"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b9\/8f\/fb\/95\/98\/unnamed-3.jpg",
+            "image_id": "5236"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Public Domain Dedication",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1081797\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1081797\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1081797\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1081797\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1081797\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1081797\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "3dprinting",
+        "tag": "3dprinting",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprinting",
+        "count": 2298,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprinting\/things",
+        "absolute_url": "\/tag:3dprinting"
+      },
+      {
+        "name": "3d modeling",
+        "tag": "3d_modeling",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_modeling",
+        "count": 372,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_modeling\/things",
+        "absolute_url": "\/tag:3d_modeling"
+      },
+      {
+        "name": "3D printing",
+        "tag": "3d_printing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printing",
+        "count": 11216,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printing\/things",
+        "absolute_url": "\/tag:3D_printing"
+      },
+      {
+        "name": "accessories",
+        "tag": "accessories",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessories",
+        "count": 3216,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessories\/things",
+        "absolute_url": "\/tag:accessories"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "helping-hands",
+        "tag": "helping-hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping-hands",
+        "count": 229,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping-hands\/things",
+        "absolute_url": "\/tag:helping-hands"
+      },
+      {
+        "name": "mechanical",
+        "tag": "mechanical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mechanical",
+        "count": 2062,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mechanical\/things",
+        "absolute_url": "\/tag:mechanical"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "mobility",
+        "tag": "mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobility",
+        "count": 60,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobility\/things",
+        "absolute_url": "\/tag:mobility"
+      },
+      {
+        "name": "steam",
+        "tag": "steam",
+        "url": "https:\/\/api.thingiverse.com\/tags\/steam",
+        "count": 1975,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/steam\/things",
+        "absolute_url": "\/tag:steam"
+      },
+      {
+        "name": "toy",
+        "tag": "toy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/toy",
+        "count": 19572,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/toy\/things",
+        "absolute_url": "\/tag:toy"
+      },
+      {
+        "name": "transportation",
+        "tag": "transportation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/transportation",
+        "count": 89,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/transportation\/things",
+        "absolute_url": "\/tag:transportation"
+      },
+      {
+        "name": "TVY",
+        "tag": "tvy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tvy",
+        "count": 472,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tvy\/things",
+        "absolute_url": "\/tag:TVY"
+      },
+      {
+        "name": "wheels",
+        "tag": "wheels",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheels",
+        "count": 1245,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheels\/things",
+        "absolute_url": "\/tag:wheels"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1081797\/categories",
+    "file_count": 10,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 4479,
+    "view_count": 24257,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 15,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "cross_brace_top_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/6c\/88\/4e\/2f\/cross_brace_top_rebuilt.stl"
+        },
+        {
+          "name": "cross_brace_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/2c\/57\/2b\/c6\/cross_brace_bottom.stl"
+        },
+        {
+          "name": "legs_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/bb\/f6\/2f\/c4\/legs_rebuilt.stl"
+        },
+        {
+          "name": "arm_brackets_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/ab\/6a\/21\/3c\/arm_brackets_rebuilt.stl"
+        },
+        {
+          "name": "SEAT_LEFT_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/60\/8a\/63\/b7\/SEAT_LEFT_rebuilt.stl"
+        },
+        {
+          "name": "beam_supportx4_rebuilt_135grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/34\/3d\/0b\/43\/beam_supportx4_rebuilt_135grams.stl"
+        },
+        {
+          "name": "beam_endsx4_rebuilt_65grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/2d\/6e\/90\/02\/beam_endsx4_rebuilt_65grams.stl"
+        },
+        {
+          "name": "beam_mixedx2_100grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/f8\/37\/a9\/ac\/beam_mixedx2_100grams.stl"
+        },
+        {
+          "name": "one_arm_77grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/2f\/e1\/c0\/5a\/one_arm_77grams.stl"
+        },
+        {
+          "name": "little_wheel_210grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/81\/5d\/a7\/8f\/little_wheel_210grams.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "sk03.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/eb\/97\/d7\/89\/sk03.jpg"
+        },
+        {
+          "name": "cross_brace_top_rebuilt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/30\/4d\/76\/d2\/cross_brace_top_rebuilt.png"
+        },
+        {
+          "name": "cross_brace_bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/09\/9f\/02\/17\/a1\/cross_brace_bottom.png"
+        },
+        {
+          "name": "legs_rebuilt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/81\/18\/61\/11\/78\/legs_rebuilt.png"
+        },
+        {
+          "name": "arm_brackets_rebuilt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/5f\/de\/b3\/c0\/arm_brackets_rebuilt.png"
+        },
+        {
+          "name": "sock.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/c4\/4c\/b1\/59\/sock.jpg"
+        },
+        {
+          "name": "sk02.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/eb\/ce\/6d\/75\/sk02.jpg"
+        },
+        {
+          "name": "sk04.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/a8\/f0\/b9\/84\/sk04.jpg"
+        },
+        {
+          "name": "BRACKET_BOTTOM_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/26\/15\/88\/d3\/BRACKET_BOTTOM_1.jpg"
+        },
+        {
+          "name": "sk01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/2a\/a8\/7e\/05\/sk01.jpg"
+        },
+        {
+          "name": "sk03.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/10\/72\/8a\/7f\/sk03.jpg"
+        },
+        {
+          "name": "seat.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/85\/0d\/f0\/69\/seat.jpg"
+        },
+        {
+          "name": "seat_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/c3\/52\/9a\/68\/seat_3.jpg"
+        },
+        {
+          "name": "SEAT_LEFT_rebuilt.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/a8\/a4\/e7\/9b\/SEAT_LEFT_rebuilt.png"
+        },
+        {
+          "name": "beam_endsx4_rebuilt_65grams.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/4b\/6b\/cb\/64\/beam_endsx4_rebuilt_65grams.png"
+        },
+        {
+          "name": "beam_supportx4_rebuilt_135grams.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5b\/9b\/1a\/c4\/4f\/beam_supportx4_rebuilt_135grams.png"
+        },
+        {
+          "name": "beam_mixedx2_100grams.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/d4\/b1\/66\/2a\/beam_mixedx2_100grams.png"
+        },
+        {
+          "name": "seat_support_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/db\/2e\/66\/f4\/seat_support_2.jpg"
+        },
+        {
+          "name": "final_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/25\/37\/e5\/b7\/final_1.jpg"
+        },
+        {
+          "name": "unnamed-8.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/5a\/0c\/6f\/6e\/unnamed-8.jpg"
+        },
+        {
+          "name": "unnamed-3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/88\/1e\/7d\/02\/unnamed-3.jpg"
+        },
+        {
+          "name": "unnamed-5.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/5a\/92\/ac\/d4\/unnamed-5.jpg"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/71\/d8\/2e\/3b\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed-6.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/75\/58\/37\/fe\/unnamed-6.jpg"
+        },
+        {
+          "name": "little_wheel_210grams.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/40\/d7\/a4\/aa\/little_wheel_210grams.png"
+        },
+        {
+          "name": "wheel.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/6e\/a1\/c1\/b4\/wheel.jpg"
+        },
+        {
+          "name": "the_one.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/e4\/3e\/e8\/86\/the_one.jpg"
+        },
+        {
+          "name": "one_arm_77grams.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/45\/11\/ae\/4f\/one_arm_77grams.png"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/b3\/af\/a2\/02\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/42\/79\/f2\/d1\/unnamed-1.jpg"
+        },
+        {
+          "name": "unnamed.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/4d\/51\/44\/c3\/unnamed.jpg"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/e7\/51\/44\/9e\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/a6\/58\/bb\/9f\/unnamed.jpg"
+        },
+        {
+          "name": "unnamed-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/f2\/55\/dc\/8a\/unnamed-1.jpg"
+        },
+        {
+          "name": "unnamed.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/ec\/0d\/71\/1d\/unnamed.jpg"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/fe\/2c\/a9\/81\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/db\/41\/08\/ea\/unnamed-1.jpg"
+        },
+        {
+          "name": "unnamed-3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/7d\/9a\/10\/34\/unnamed-3.jpg"
+        },
+        {
+          "name": "unnamed-4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/69\/d4\/4a\/e0\/unnamed-4.jpg"
+        },
+        {
+          "name": "unnamed-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/7c\/2a\/d4\/27\/unnamed-1.jpg"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/28\/c9\/be\/bb\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed-3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/dd\/8c\/b8\/b4\/unnamed-3.jpg"
+        },
+        {
+          "name": "unnamed.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/df\/1d\/e9\/c4\/unnamed.jpg"
+        },
+        {
+          "name": "01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/a9\/3b\/c1\/da\/01.jpg"
+        },
+        {
+          "name": "02.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/dc\/14\/4d\/fb\/02.jpg"
+        },
+        {
+          "name": "03.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/3f\/72\/a9\/a6\/03.jpg"
+        },
+        {
+          "name": "04.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/88\/a7\/ae\/fd\/04.jpg"
+        },
+        {
+          "name": "05.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/27\/2d\/5e\/e1\/05.jpg"
+        },
+        {
+          "name": "06.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/f3\/c9\/8f\/a5\/06.jpg"
+        },
+        {
+          "name": "04.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/81\/16\/bf\/4e\/04.jpg"
+        },
+        {
+          "name": "02.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/1a\/b8\/78\/70\/02.jpg"
+        },
+        {
+          "name": "03.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/1d\/c8\/dc\/0e\/03.jpg"
+        },
+        {
+          "name": "01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/b9\/23\/6c\/19\/01.jpg"
+        },
+        {
+          "name": "better.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/f1\/87\/65\/72\/better.jpg"
+        },
+        {
+          "name": "shaped.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/38\/dd\/05\/fa\/shaped.jpg"
+        },
+        {
+          "name": "me_at_work.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/eb\/2b\/da\/90\/me_at_work.jpg"
+        },
+        {
+          "name": "cutting.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/4a\/ac\/b5\/33\/cutting.jpg"
+        },
+        {
+          "name": "unnamed-3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/07\/5a\/ee\/c0\/unnamed-3.jpg"
+        },
+        {
+          "name": "unnamed-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/f4\/07\/62\/97\/unnamed-2.jpg"
+        },
+        {
+          "name": "unnamed-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/aa\/fd\/7e\/bb\/unnamed-1.jpg"
+        },
+        {
+          "name": "better.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/5d\/33\/a9\/ef\/better.jpg"
+        },
+        {
+          "name": "unnamed.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/3f\/22\/35\/47\/unnamed.jpg"
+        }
+      ]
+    },
+    "winner_name": "Assistive Technology Challenge",
+    "winner_link": "AssistiveTechChallenge"
+  }
+}

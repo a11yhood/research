@@ -1,0 +1,444 @@
+{
+  "created_at": "2025-07-15T03:58:41.548297+00:00",
+  "elapsed": 0.10263,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657c50ff2f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3486198?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3486198?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3486198,
+    "name": "Assistive Walker, Kaye walker.",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3486198",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3486198",
+    "creator": {
+      "id": 163526,
+      "name": "hagridden",
+      "first_name": "Leo",
+      "last_name": "Rolph",
+      "url": "https:\/\/api.thingiverse.com\/users\/hagridden",
+      "public_url": "https:\/\/www.thingiverse.com\/hagridden",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/11\/fa\/83\/6c\/ba1ad6a23bf391c545e536dca470b627_thumb_medium.jpg",
+      "count_of_followers": 14,
+      "count_of_following": 2,
+      "count_of_designs": 11,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Perth",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-03-12T04:17:20+00:00",
+    "modified": "2019-03-12T04:17:20+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 24,
+    "is_liked": false,
+    "collect_count": 53,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 10246511,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/28\/33\/a3\/4a\/Walker_v1.stl",
+      "name": "62b294eb2d09a0b33c1d36aa5e8e72f4.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4_display_small.jpg"
+        }
+      ],
+      "added": "2019-03-12T04:18:36+00:00"
+    },
+    "description": "A model of my daughters assistive walker (Kaye walker).\r\nI have thickened slightly for printing.\r\n\r\nI haven't yet printed it, mainly because I shudder at the thought of the amount of support needed, and no easy way to solve this with orientation. Let me know if anyone thinks of an easy way to print.",
+    "instructions": "",
+    "description_html": "<div><p>A model of my daughters assistive walker (Kaye walker).<br>I have thickened slightly for printing.<\/p><p>I haven't yet printed it, mainly because I shudder at the thought of the amount of support needed, and no easy way to solve this with orientation. Let me know if anyone thinks of an easy way to print.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A model of my daughters assistive walker (Kaye walker).<br>I have thickened slightly for printing.<\/p><p>I haven't yet printed it, mainly because I shudder at the thought of the amount of support needed, and no easy way to solve this with orientation. Let me know if anyone thinks of an easy way to print.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A model of my daughters assistive walker (Kaye walker).<br>I have thickened slightly for printing.<\/p><p>I haven't yet printed it, mainly because I shudder at the thought of the amount of support needed, and no easy way to solve this with orientation. Let me know if anyone thinks of an easy way to print.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3486198\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3486198\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3486198\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3486198\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3486198\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3486198\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 189,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 541,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "doll furniture",
+        "tag": "doll_furniture",
+        "url": "https:\/\/api.thingiverse.com\/tags\/doll_furniture",
+        "count": 548,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/doll_furniture\/things",
+        "absolute_url": "\/tag:doll_furniture"
+      },
+      {
+        "name": "inclusion",
+        "tag": "inclusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inclusion",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inclusion\/things",
+        "absolute_url": "\/tag:inclusion"
+      },
+      {
+        "name": "kaye walker",
+        "tag": "kaye_walker",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kaye_walker",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kaye_walker\/things",
+        "absolute_url": "\/tag:kaye_walker"
+      },
+      {
+        "name": "kids",
+        "tag": "kids",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kids",
+        "count": 3155,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kids\/things",
+        "absolute_url": "\/tag:kids"
+      },
+      {
+        "name": "toy",
+        "tag": "toy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/toy",
+        "count": 20927,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/toy\/things",
+        "absolute_url": "\/tag:toy"
+      },
+      {
+        "name": "Walker",
+        "tag": "walker",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walker",
+        "count": 388,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walker\/things",
+        "absolute_url": "\/tag:Walker"
+      },
+      {
+        "name": "walking aid",
+        "tag": "walking_aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walking_aid",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walking_aid\/things",
+        "absolute_url": "\/tag:walking_aid"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3486198\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 450,
+    "view_count": 1170,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Walker_v1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/28\/33\/a3\/4a\/Walker_v1.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "62b294eb2d09a0b33c1d36aa5e8e72f4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/31\/69\/fa\/88\/62b294eb2d09a0b33c1d36aa5e8e72f4.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "created_at": "2025-04-15T03:38:49.533338+00:00",
+  "elapsed": 0.136733,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9308698acb82c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:38:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:08:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2152147?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2152147?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2152147,
+    "name": "\"The Force\" controlled RC Thunder Trax",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2152147",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2152147",
+    "creator": {
+      "id": 691086,
+      "name": "H5Labs",
+      "first_name": "DJ",
+      "last_name": "Hatfield",
+      "url": "https:\/\/api.thingiverse.com\/users\/H5Labs",
+      "public_url": "https:\/\/www.thingiverse.com\/H5Labs",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f5\/6a\/69\/30\/3a\/b763ada57bcd31498e2a28cd55f1f7a0_thumb_medium.jpg",
+      "count_of_followers": 41,
+      "count_of_following": 1,
+      "count_of_designs": 19,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Virginia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/77\/ae\/56\/66\/7e\/e48e3da02513cc2fbb2a42d5af62c7fb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-03-07T05:58:37+00:00",
+    "modified": "2017-03-07T05:58:37+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 100,
+    "is_liked": false,
+    "collect_count": 202,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5564916,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/fc\/9e\/a4\/81\/H5_Labs_-_The_Force_controlled_Thunder_Trax.jpg",
+      "name": "H5_Labs_-_The_Force_controlled_Thunder_Trax.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/34\/60\/7b\/4f\/0f74180e53682cdf67a3114d01a8a2ab_display_small.jpg"
+        }
+      ],
+      "added": "2017-03-07T05:50:05+00:00"
+    },
+    "description": "This project hacks an Air Hogs Thunder Trax RC vehicle by replacing the standard remote with an accelerometer enabled gauntlet.  To control the vehicle, you simply move your hand in the direction you want it to go.  Master Yoda would be proud.  \r\n\r\nThis project was inspired by someone with a disability affecting one arm leaving them only in control of their right arm.  This hack allows them to enjoy the fun of controlling an RC vehicle with just one arm.\r\n\r\nThe project was implemented with education in mind as well.  All circuits are open and easily visible so that one can see all the components required to make it work.\r\n\r\nAll printing instructions, construction details, and program listing are provided in the attached Build Instructions PDF file.  Additionally, we created a STEM educational handout to provide to students at science fairs, maker fairs, and STEM expos. \r\n\r\nEnjoy!\r\nDJ Hatfield\r\nH5 Labs\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This project hacks an Air Hogs Thunder Trax RC vehicle by replacing the standard remote with an accelerometer enabled gauntlet.  To control the vehicle, you simply move your hand in the direction you want it to go.  Master Yoda would be proud.  <\/p><p>This project was inspired by someone with a disability affecting one arm leaving them only in control of their right arm.  This hack allows them to enjoy the fun of controlling an RC vehicle with just one arm.<\/p><p>The project was implemented with education in mind as well.  All circuits are open and easily visible so that one can see all the components required to make it work.<\/p><p>All printing instructions, construction details, and program listing are provided in the attached Build Instructions PDF file.  Additionally, we created a STEM educational handout to provide to students at science fairs, maker fairs, and STEM expos. <\/p><p>Enjoy!<br>DJ Hatfield<br>H5 Labs<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This project hacks an Air Hogs Thunder Trax RC vehicle by replacing the standard remote with an accelerometer enabled gauntlet.  To control the vehicle, you simply move your hand in the direction you want it to go.  Master Yoda would be proud.  <\/p><p>This project was inspired by someone with a disability affecting one arm leaving them only in control of their right arm.  This hack allows them to enjoy the fun of controlling an RC vehicle with just one arm.<\/p><p>The project was implemented with education in mind as well.  All circuits are open and easily visible so that one can see all the components required to make it work.<\/p><p>All printing instructions, construction details, and program listing are provided in the attached Build Instructions PDF file.  Additionally, we created a STEM educational handout to provide to students at science fairs, maker fairs, and STEM expos. <\/p><p>Enjoy!<br>DJ Hatfield<br>H5 Labs<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerGear<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerGear M2&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm - 0.3mm depending on part<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;70% to 85% depending on part&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>See build instructions PDF for complete details.<\/p><\/div><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/8GkxlcKbhqg\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;Video showing the accelerometer gauntlet in action.&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This project hacks an Air Hogs Thunder Trax RC vehicle by replacing the standard remote with an accelerometer enabled gauntlet.  To control the vehicle, you simply move your hand in the direction you want it to go.  Master Yoda would be proud.  <\/p><p>This project was inspired by someone with a disability affecting one arm leaving them only in control of their right arm.  This hack allows them to enjoy the fun of controlling an RC vehicle with just one arm.<\/p><p>The project was implemented with education in mind as well.  All circuits are open and easily visible so that one can see all the components required to make it work.<\/p><p>All printing instructions, construction details, and program listing are provided in the attached Build Instructions PDF file.  Additionally, we created a STEM educational handout to provide to students at science fairs, maker fairs, and STEM expos. <\/p><p>Enjoy!<br>DJ Hatfield<br>H5 Labs<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerGear<\/p><\/div>\n",
+            "printer": "<div><p>MakerGear M2<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2mm - 0.3mm depending on part<\/p><\/div>\n",
+            "infill": "<div><p>70% to 85% depending on part<\/p><\/div>\n",
+            "notes": "<div><p>See build instructions PDF for complete details.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/8GkxlcKbhqg\" frameborder=\"0\" allowfullscreen><\/iframe>",
+            "caption": "Video showing the accelerometer gauntlet in action."
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2152147\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2152147\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2152147\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2152147\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2152147\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2152147\/tags",
+    "tags": [
+      {
+        "name": "accelerometer",
+        "tag": "accelerometer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accelerometer",
+        "count": 133,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accelerometer\/things",
+        "absolute_url": "\/tag:accelerometer"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10223,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "RC Car",
+        "tag": "rc_car",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rc_car",
+        "count": 6463,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rc_car\/things",
+        "absolute_url": "\/tag:RC_Car"
+      },
+      {
+        "name": "rc vehicle",
+        "tag": "rc_vehicle",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rc_vehicle",
+        "count": 46,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rc_vehicle\/things",
+        "absolute_url": "\/tag:rc_vehicle"
+      },
+      {
+        "name": "Remote control",
+        "tag": "remote_control",
+        "url": "https:\/\/api.thingiverse.com\/tags\/remote_control",
+        "count": 2498,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/remote_control\/things",
+        "absolute_url": "\/tag:Remote_control"
+      },
+      {
+        "name": "stem",
+        "tag": "stem",
+        "url": "https:\/\/api.thingiverse.com\/tags\/stem",
+        "count": 2021,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/stem\/things",
+        "absolute_url": "\/tag:stem"
+      },
+      {
+        "name": "the force",
+        "tag": "the_force",
+        "url": "https:\/\/api.thingiverse.com\/tags\/the_force",
+        "count": 31,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/the_force\/things",
+        "absolute_url": "\/tag:the_force"
+      },
+      {
+        "name": "Thunder Trax",
+        "tag": "thunder_trax",
+        "url": "https:\/\/api.thingiverse.com\/tags\/thunder_trax",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/thunder_trax\/things",
+        "absolute_url": "\/tag:Thunder_Trax"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2152147\/categories",
+    "file_count": 17,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2395,
+    "view_count": 2925,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Build_Instructions_V1.1_-_H5_Labs_-_The_Force_Controlled_Thunder_Trax.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/ee\/1a\/16\/88\/Build_Instructions_V1.1_-_H5_Labs_-_The_Force_Controlled_Thunder_Trax.pdf"
+        },
+        {
+          "name": "STEM_Handout_-_H5_Labs_-_The_Force_Controlled_Thunder_Trax.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/b9\/4c\/9f\/94\/STEM_Handout_-_H5_Labs_-_The_Force_Controlled_Thunder_Trax.pdf"
+        },
+        {
+          "name": "Part_1_-_Accelerometer_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/8b\/05\/1b\/e2\/Part_1_-_Accelerometer_Mount.stl"
+        },
+        {
+          "name": "Part_2_-_Accelerometer_Mount_to_gauntlet_wire_chain.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/49\/3b\/63\/c1\/Part_2_-_Accelerometer_Mount_to_gauntlet_wire_chain.stl"
+        },
+        {
+          "name": "Part_3_-_Gauntlet_wire_chain.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/3a\/d6\/35\/b5\/Part_3_-_Gauntlet_wire_chain.stl"
+        },
+        {
+          "name": "Part_4_-_Gauntlet_Attachment.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/f5\/a4\/d3\/7f\/Part_4_-_Gauntlet_Attachment.stl"
+        },
+        {
+          "name": "Part_5_-_Gauntlet.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/5e\/4e\/35\/f1\/Part_5_-_Gauntlet.stl"
+        },
+        {
+          "name": "Part_6_-_AABatt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/04\/b9\/45\/09\/Part_6_-_AABatt.stl"
+        },
+        {
+          "name": "Part_7_-_9VBatt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/e6\/ba\/b8\/12\/Part_7_-_9VBatt.stl"
+        },
+        {
+          "name": "Part_8_-_Attachment_Pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/01\/7f\/d7\/a7\/Part_8_-_Attachment_Pin.stl"
+        },
+        {
+          "name": "Part_9_-_RC_Control_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/48\/f7\/95\/ac\/Part_9_-_RC_Control_Mount.stl"
+        },
+        {
+          "name": "Part_10_-_Button_wire_chain.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/f0\/fe\/7e\/4a\/Part_10_-_Button_wire_chain.stl"
+        },
+        {
+          "name": "Part_11_-_Tube_Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/b2\/d3\/08\/f8\/Part_11_-_Tube_Base.stl"
+        },
+        {
+          "name": "Part_12_-_Tube.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/d2\/8d\/54\/c2\/Part_12_-_Tube.stl"
+        },
+        {
+          "name": "Part_13_-_Button.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/80\/2a\/92\/fb\/Part_13_-_Button.stl"
+        },
+        {
+          "name": "Part_14_-_Washer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/bc\/a3\/8b\/5c\/Part_14_-_Washer.stl"
+        },
+        {
+          "name": "Part_15_-_Blank_RC_Control_Mounting_Plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/eb\/0a\/42\/ca\/Part_15_-_Blank_RC_Control_Mounting_Plate.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "H5_Labs_-_The_Force_controlled_Thunder_Trax.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/fc\/9e\/a4\/81\/H5_Labs_-_The_Force_controlled_Thunder_Trax.jpg"
+        },
+        {
+          "name": "Thunder_Trax.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/24\/40\/5d\/6e\/Thunder_Trax.jpeg"
+        },
+        {
+          "name": "Parts.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/cd\/d5\/8f\/8c\/Parts.jpg"
+        },
+        {
+          "name": "Completed_Asssembly.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/a3\/a8\/1d\/ed\/Completed_Asssembly.jpg"
+        },
+        {
+          "name": "Circuit.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/74\/43\/af\/20\/Circuit.jpg"
+        },
+        {
+          "name": "11bd5687ab2a1702ef52803eea754c24.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/34\/d3\/8e\/42\/35\/11bd5687ab2a1702ef52803eea754c24.png"
+        },
+        {
+          "name": "017a2cdcc562eb82332544960884403a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/93\/7c\/37\/3f\/017a2cdcc562eb82332544960884403a.png"
+        },
+        {
+          "name": "99d9a00b7b5d19193cf9eacf3ddb2b6b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/2d\/f4\/12\/af\/99d9a00b7b5d19193cf9eacf3ddb2b6b.png"
+        },
+        {
+          "name": "837e87fa2ec17ea397ea5f283e20940e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/18\/e3\/f7\/35\/837e87fa2ec17ea397ea5f283e20940e.png"
+        },
+        {
+          "name": "369b5806ff492ef2e8427cb69aa6cb49.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/a7\/f1\/54\/cb\/369b5806ff492ef2e8427cb69aa6cb49.png"
+        },
+        {
+          "name": "952ad44e7f9b77ba0e008f96394a26b4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/10\/81\/97\/6d\/952ad44e7f9b77ba0e008f96394a26b4.png"
+        },
+        {
+          "name": "7906662d850298c6890be73ab8fe98a6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/7d\/3d\/5d\/82\/7906662d850298c6890be73ab8fe98a6.png"
+        },
+        {
+          "name": "2c38fb1113781ced696d9ff13f3c3b47.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/c5\/46\/f0\/c9\/2c38fb1113781ced696d9ff13f3c3b47.png"
+        },
+        {
+          "name": "b22b298e58e34d37bea1d966fda91f59.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/6f\/9e\/f7\/ee\/b22b298e58e34d37bea1d966fda91f59.png"
+        },
+        {
+          "name": "4ff3d6c1419d7fab7b1417fa858e58d5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/8d\/85\/15\/57\/4ff3d6c1419d7fab7b1417fa858e58d5.png"
+        },
+        {
+          "name": "a43ed8940fb37f0f73883cdad3f3e90d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/69\/c3\/94\/82\/49\/a43ed8940fb37f0f73883cdad3f3e90d.png"
+        },
+        {
+          "name": "75d1ebaf0d8139445f1984b95bf0b02c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/ba\/48\/62\/c8\/75d1ebaf0d8139445f1984b95bf0b02c.png"
+        },
+        {
+          "name": "c20347d149f4a2f691e7ecd368ecb467.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/ec\/a5\/7e\/5b\/c20347d149f4a2f691e7ecd368ecb467.png"
+        },
+        {
+          "name": "49caaa10737fead6a96d8c482b850d8b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d4\/5e\/19\/05\/33\/49caaa10737fead6a96d8c482b850d8b.png"
+        },
+        {
+          "name": "d03385653c09eea59826bf0be9214d7e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/fa\/be\/b7\/2d\/d03385653c09eea59826bf0be9214d7e.png"
+        }
+      ]
+    }
+  }
+}
