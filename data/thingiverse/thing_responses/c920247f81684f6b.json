@@ -1,0 +1,490 @@
+{
+  "created_at": "2025-04-14T03:39:54.522389+00:00",
+  "elapsed": 0.186312,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002dc0a977eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2107834?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2107834?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2107834,
+    "name": "Flatware Adapter",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2107834",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2107834",
+    "creator": {
+      "id": 765168,
+      "name": "GabrielaB",
+      "first_name": "Gabriela",
+      "last_name": "Bravo",
+      "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+      "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+      "count_of_followers": 125,
+      "count_of_following": 15,
+      "count_of_designs": 19,
+      "collection_count": 6,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "California",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-02-13T20:40:22+00:00",
+    "modified": "2017-02-13T20:40:22+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 112,
+    "is_liked": false,
+    "collect_count": 223,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5416074,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/7a\/c0\/9e\/61\/2017-02-10_14.15.58.jpg",
+      "name": "2017-02-10_14.15.58.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/0a\/fb\/62\/df\/0686a9cc5389c2fb2a0cf1f98a9b0f03_display_small.jpg"
+        }
+      ],
+      "added": "2017-02-13T20:38:38+00:00"
+    },
+    "description": "This is a flatware adapter that allows eating and cut food to people with hand movement problems (this was designed for a patient that has lost his thumb)\r\n\r\nMakes easier hold flatware by thickening the handle and surrounding the hand.\r\n\r\nThe internal channel can be changed in order to hold different things like a thicker flatware, a tooth brush, a pencil, etc.\r\n\r\nThis object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.",
+    "instructions": "",
+    "description_html": "<div><p>This is a flatware adapter that allows eating and cut food to people with hand movement problems (this was designed for a patient that has lost his thumb)<\/p><p>Makes easier hold flatware by thickening the handle and surrounding the hand.<\/p><p>The internal channel can be changed in order to hold different things like a thicker flatware, a tooth brush, a pencil, etc.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a flatware adapter that allows eating and cut food to people with hand movement problems (this was designed for a patient that has lost his thumb)<\/p><p>Makes easier hold flatware by thickening the handle and surrounding the hand.<\/p><p>The internal channel can be changed in order to hold different things like a thicker flatware, a tooth brush, a pencil, etc.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a5\/7a\/09\/12\/e3\/steps.png\" alt=\"image\"><\/p><pre><code>                &lt;p class=\"detail-title\"&gt;&lt;strong&gt;How to ensamble it&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;ol&gt;&lt;li&gt;You need a heat gun, cutlery and the printed adapter. 2. Heat the part of the adapter indicated in the figure, put it on the patient hand and shape it (be carreful because if it's too hot it can burn the patient). 3. Insert the cutlery in the cannel and heat the start of it, smash it with a pliers.&lt;\/li&gt;&lt;\/ol&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a flatware adapter that allows eating and cut food to people with hand movement problems (this was designed for a patient that has lost his thumb)<\/p><p>Makes easier hold flatware by thickening the handle and surrounding the hand.<\/p><p>The internal channel can be changed in order to hold different things like a thicker flatware, a tooth brush, a pencil, etc.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a5\/7a\/09\/12\/e3\/steps.png",
+            "image_id": "28488"
+          },
+          {
+            "title": "How to ensamble it",
+            "content": "<div><ol><li>You need a heat gun, cutlery and the printed adapter. 2. Heat the part of the adapter indicated in the figure, put it on the patient hand and shape it (be carreful because if it's too hot it can burn the patient). 3. Insert the cutlery in the cannel and heat the start of it, smash it with a pliers.<\/li><\/ol><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2107834\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2107834\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2107834\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2107834\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2107834\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2107834\/tags",
+    "tags": [
+      {
+        "name": "adapter",
+        "tag": "adapter",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adapter",
+        "count": 11258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adapter\/things",
+        "absolute_url": "\/tag:adapter"
+      },
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 61,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "eating",
+        "tag": "eating",
+        "url": "https:\/\/api.thingiverse.com\/tags\/eating",
+        "count": 78,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/eating\/things",
+        "absolute_url": "\/tag:eating"
+      },
+      {
+        "name": "flatware",
+        "tag": "flatware",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flatware",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flatware\/things",
+        "absolute_url": "\/tag:flatware"
+      },
+      {
+        "name": "fork",
+        "tag": "fork",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fork",
+        "count": 502,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fork\/things",
+        "absolute_url": "\/tag:fork"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "knife",
+        "tag": "knife",
+        "url": "https:\/\/api.thingiverse.com\/tags\/knife",
+        "count": 3468,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/knife\/things",
+        "absolute_url": "\/tag:knife"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "Orthotics",
+        "tag": "orthotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/orthotics",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/orthotics\/things",
+        "absolute_url": "\/tag:Orthotics"
+      },
+      {
+        "name": "spoon",
+        "tag": "spoon",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spoon",
+        "count": 710,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spoon\/things",
+        "absolute_url": "\/tag:spoon"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2107834\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1289,
+    "view_count": 3526,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 3,
+    "make_count": 0,
+    "app_count": 5,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Adapter.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/47\/b2\/68\/8a\/Adapter.STL"
+        },
+        {
+          "name": "adapter.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/e6\/95\/4c\/53\/adapter.scad"
+        }
+      ],
+      "images": [
+        {
+          "name": "2017-02-10_14.15.58.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/7a\/c0\/9e\/61\/2017-02-10_14.15.58.jpg"
+        },
+        {
+          "name": "42959444f5d0745b5e2c881be8af9521.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/ea\/05\/d4\/2b\/42959444f5d0745b5e2c881be8af9521.png"
+        },
+        {
+          "name": "7a8d3f22f30ea7db72413a14824dbce0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/a9\/30\/09\/ba\/7a8d3f22f30ea7db72413a14824dbce0.png"
+        }
+      ]
+    }
+  }
+}

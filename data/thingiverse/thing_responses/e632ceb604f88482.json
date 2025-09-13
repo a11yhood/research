@@ -1,0 +1,578 @@
+{
+  "created_at": "2025-04-15T03:38:57.438841+00:00",
+  "elapsed": 0.161213,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869bbfcaac95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:38:57 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:08:57 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/542775?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/542775?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 542775,
+    "name": "Hollies hand V3",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/cb\/b1\/9a\/f7\/f0\/20141127_134939_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/542775",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:542775",
+    "creator": {
+      "id": 10539,
+      "name": "Anthromod",
+      "first_name": "Chris",
+      "last_name": "Chappell",
+      "url": "https:\/\/api.thingiverse.com\/users\/Anthromod",
+      "public_url": "https:\/\/www.thingiverse.com\/Anthromod",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b9\/98\/47\/54\/ae\/2bf572fea50d37c5a4c8640e778ee3de_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 4,
+      "count_of_designs": 42,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Manchester",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/ea\/ab\/56\/39\/19\/b5e4d564a90adce8db62948838b7374a_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2014-11-13T14:39:50+00:00",
+    "modified": "2014-11-13T14:39:50+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 70,
+    "is_liked": false,
+    "collect_count": 126,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 1418720,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/0d\/b5\/33\/cf\/1.png",
+      "name": "1.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e3\/c3\/f4\/03\/1_display_small.jpg"
+        }
+      ],
+      "added": "2014-11-13T14:39:50+00:00"
+    },
+    "description": "Hopefully the first functional version of Hollies prosthetic hand. This is inspired by the Robohand and E-nable prosthetics. It combines 3D scans of her full hand and her partial hand to create a highly customised design. I hope to take the lessons I've learned from this design and apply them to designs for other users.   \nThe hand is designed to be printed using a SLS printer. I hope that later versions can incorporate colours and textures to make it look as lifelike as possible.  \nRight now it needs some assembly, but I hope to reduce the number of printed parts until it is printed in one piece.  \nI have ordered the hand from Shapeways and will have it around the 20th of November. I hope to let Hollie try it out within a week of then.   \nFurther information can be found at www.anthromod.com  \nMy twitter feed is @anthromod",
+    "instructions": "",
+    "description_html": "<div><p>Hopefully the first functional version of Hollies prosthetic hand. This is inspired by the Robohand and E-nable prosthetics. It combines 3D scans of her full hand and her partial hand to create a highly customised design. I hope to take the lessons I've learned from this design and apply them to designs for other users.<br>The hand is designed to be printed using a SLS printer. I hope that later versions can incorporate colours and textures to make it look as lifelike as possible.<br>Right now it needs some assembly, but I hope to reduce the number of printed parts until it is printed in one piece.<br>I have ordered the hand from Shapeways and will have it around the 20th of November. I hope to let Hollie try it out within a week of then.<br>Further information can be found at www.anthromod.com<br>My twitter feed is @anthromod<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Hopefully the first functional version of Hollies prosthetic hand. This is inspired by the Robohand and E-nable prosthetics. It combines 3D scans of her full hand and her partial hand to create a highly customised design. I hope to take the lessons I've learned from this design and apply them to designs for other users.<br>The hand is designed to be printed using a SLS printer. I hope that later versions can incorporate colours and textures to make it look as lifelike as possible.<br>Right now it needs some assembly, but I hope to reduce the number of printed parts until it is printed in one piece.<br>I have ordered the hand from Shapeways and will have it around the 20th of November. I hope to let Hollie try it out within a week of then.<br>Further information can be found at www.anthromod.com<br>My twitter feed is @anthromod<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Hopefully the first functional version of Hollies prosthetic hand. This is inspired by the Robohand and E-nable prosthetics. It combines 3D scans of her full hand and her partial hand to create a highly customised design. I hope to take the lessons I've learned from this design and apply them to designs for other users.<br>The hand is designed to be printed using a SLS printer. I hope that later versions can incorporate colours and textures to make it look as lifelike as possible.<br>Right now it needs some assembly, but I hope to reduce the number of printed parts until it is printed in one piece.<br>I have ordered the hand from Shapeways and will have it around the 20th of November. I hope to let Hollie try it out within a week of then.<br>Further information can be found at www.anthromod.com<br>My twitter feed is @anthromod<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/542775\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/542775\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/542775\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/542775\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/542775\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/542775\/tags",
+    "tags": [
+      {
+        "name": "anthromod",
+        "tag": "anthromod",
+        "url": "https:\/\/api.thingiverse.com\/tags\/anthromod",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/anthromod\/things",
+        "absolute_url": "\/tag:anthromod"
+      },
+      {
+        "name": "e-nable",
+        "tag": "e-nable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+        "count": 233,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+        "absolute_url": "\/tag:e-nable"
+      },
+      {
+        "name": "Flexy-Hand",
+        "tag": "flexy-hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand\/things",
+        "absolute_url": "\/tag:Flexy-Hand"
+      },
+      {
+        "name": "robohand",
+        "tag": "robohand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+        "absolute_url": "\/tag:robohand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/542775\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 915,
+    "view_count": 3576,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 380665,
+        "name": "Flexy-Hand 2",
+        "url": "https:\/\/api.thingiverse.com\/things\/380665",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:380665",
+        "created_at": "2014-07-03T21:41:08+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/2d\/ef\/25\/03\/IMG_20140822_161840_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/71\/2d\/ef\/25\/03\/IMG_20140822_161840_preview_card.jpg",
+        "creator": {
+          "id": 31099,
+          "name": "Gyrobot",
+          "first_name": "Steve",
+          "last_name": "Wood",
+          "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+          "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+          "count_of_followers": 3046,
+          "count_of_following": 35,
+          "count_of_designs": 91,
+          "collection_count": 7,
+          "make_count": 138,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Swindon, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 313,
+        "make_count": 50,
+        "like_count": 14919,
+        "tags": [
+          {
+            "name": "amputee",
+            "tag": "amputee",
+            "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+            "count": 61,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+            "absolute_url": "\/tag:amputee"
+          },
+          {
+            "name": "cyborg beast",
+            "tag": "cyborg_beast",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cyborg_beast",
+            "count": 31,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cyborg_beast\/things",
+            "absolute_url": "\/tag:cyborg_beast"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "Flexy-Hand",
+            "tag": "flexy-hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand",
+            "count": 23,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/flexy-hand\/things",
+            "absolute_url": "\/tag:Flexy-Hand"
+          },
+          {
+            "name": "Hand Amputee",
+            "tag": "hand_amputee",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee",
+            "count": 32,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee\/things",
+            "absolute_url": "\/tag:Hand_Amputee"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "Prosthetic hand",
+            "tag": "prosthetic_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+            "count": 228,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+            "absolute_url": "\/tag:Prosthetic_hand"
+          },
+          {
+            "name": "robohand",
+            "tag": "robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+            "count": 66,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+            "absolute_url": "\/tag:robohand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 28839,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 305160,
+        "name": "Robohand",
+        "url": "https:\/\/api.thingiverse.com\/things\/305160",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:305160",
+        "created_at": "2014-04-21T13:46:57+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6d\/13\/a3\/28\/51\/hand-right-85mm_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/6d\/13\/a3\/28\/51\/hand-right-85mm_preview_card.jpg",
+        "creator": {
+          "id": 35612,
+          "name": "robohand",
+          "first_name": "Robohand",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/robohand",
+          "public_url": "https:\/\/www.thingiverse.com\/robohand",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d8\/e8\/1f\/8d\/0c\/Robo_Facebook_Profile_Pic_thumb_medium.jpg",
+          "count_of_followers": 304,
+          "count_of_following": 1,
+          "count_of_designs": 7,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "South Africa",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/01\/ad\/bb\/4d\/50\/fb_cover04_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 3,
+        "make_count": 6,
+        "like_count": 111,
+        "tags": [
+          {
+            "name": "3D printing",
+            "tag": "3d_printing",
+            "url": "https:\/\/api.thingiverse.com\/tags\/3d_printing",
+            "count": 11250,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printing\/things",
+            "absolute_url": "\/tag:3D_printing"
+          },
+          {
+            "name": "amputee",
+            "tag": "amputee",
+            "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+            "count": 61,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+            "absolute_url": "\/tag:amputee"
+          },
+          {
+            "name": "cyborg",
+            "tag": "cyborg",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cyborg",
+            "count": 318,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cyborg\/things",
+            "absolute_url": "\/tag:cyborg"
+          },
+          {
+            "name": "Hand Amputee",
+            "tag": "hand_amputee",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee",
+            "count": 32,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee\/things",
+            "absolute_url": "\/tag:Hand_Amputee"
+          },
+          {
+            "name": "Limb Different",
+            "tag": "limb_different",
+            "url": "https:\/\/api.thingiverse.com\/tags\/limb_different",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/limb_different\/things",
+            "absolute_url": "\/tag:Limb_Different"
+          },
+          {
+            "name": "Mechanical Device",
+            "tag": "mechanical_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/mechanical_device",
+            "count": 14,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/mechanical_device\/things",
+            "absolute_url": "\/tag:Mechanical_Device"
+          },
+          {
+            "name": "mechanical hand",
+            "tag": "mechanical_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/mechanical_hand",
+            "count": 12,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/mechanical_hand\/things",
+            "absolute_url": "\/tag:mechanical_hand"
+          },
+          {
+            "name": "prosthesis",
+            "tag": "prosthesis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+            "count": 231,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+            "absolute_url": "\/tag:prosthesis"
+          },
+          {
+            "name": "richard van as",
+            "tag": "richard_van_as",
+            "url": "https:\/\/api.thingiverse.com\/tags\/richard_van_as",
+            "count": 6,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/richard_van_as\/things",
+            "absolute_url": "\/tag:richard_van_as"
+          },
+          {
+            "name": "robohand",
+            "tag": "robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+            "count": 66,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+            "absolute_url": "\/tag:robohand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 245,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "For_thingiverse.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/0e\/2b\/b4\/0b\/For_thingiverse.stl"
+        },
+        {
+          "name": "For_thingiverse.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/43\/0c\/61\/b3\/For_thingiverse.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/0d\/b5\/33\/cf\/1.png"
+        },
+        {
+          "name": "For_thingiverse.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/ac\/9c\/b1\/ee\/For_thingiverse.png"
+        },
+        {
+          "name": "For_thingiverse.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/10\/b7\/66\/e0\/For_thingiverse.png"
+        },
+        {
+          "name": "20141127_134841.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/83\/69\/16\/51\/20141127_134841.jpg"
+        },
+        {
+          "name": "20141127_134939.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/cf\/7c\/15\/d9\/20141127_134939.jpg"
+        },
+        {
+          "name": "20141127_134945.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/42\/32\/10\/e5\/20141127_134945.jpg"
+        },
+        {
+          "name": "20141127_134905.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/0b\/76\/05\/09\/20141127_134905.jpg"
+        },
+        {
+          "name": "20141127_134952.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/2f\/11\/74\/f5\/20141127_134952.jpg"
+        },
+        {
+          "name": "20141127_134859.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/4c\/85\/d7\/66\/20141127_134859.jpg"
+        },
+        {
+          "name": "20141127_134914.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/fd\/f8\/a3\/dd\/20141127_134914.jpg"
+        }
+      ]
+    }
+  }
+}

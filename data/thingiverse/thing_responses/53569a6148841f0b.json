@@ -1,0 +1,470 @@
+{
+  "created_at": "2025-04-17T03:32:37.277726+00:00",
+  "elapsed": 0.147281,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318db341cc381d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:37 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:37 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3039314?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3039314?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3039314,
+    "name": "Kindle Page Turner",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3039314",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3039314",
+    "creator": {
+      "id": 287177,
+      "name": "alexmikes",
+      "first_name": "Alex",
+      "last_name": "Mikes",
+      "url": "https:\/\/api.thingiverse.com\/users\/alexmikes",
+      "public_url": "https:\/\/www.thingiverse.com\/alexmikes",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 1,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 2,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-08-10T14:43:19+00:00",
+    "modified": "2018-08-10T14:43:19+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 40,
+    "is_collected": false,
+    "comment_count": 10,
+    "is_watched": false,
+    "default_image": {
+      "id": 8657679,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/f3\/07\/e9\/29\/DSC09668.jpg",
+      "name": "DSC09668.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/8b\/f3\/b6\/db\/cc2d4fb97885a203884e630277c4b1da_display_small.jpg"
+        }
+      ],
+      "added": "2018-08-07T23:46:05+00:00"
+    },
+    "description": "This is a remote-controlled servo that turns the pages on an e-reader by simulating a finger tap on the screen. The current enclosure is designed for a Kindle Paperwhite, but could be re-designed for any tablet or e-reader that advances the pages with a finger tap.\r\n\r\nThis is not really a tutorial, but I'm happy to answer any questions about it.\r\n\r\nThis is a work in progress. Here is the Arduino code I used to make mine: https:\/\/pastebin.com\/dcphLapv",
+    "instructions": "",
+    "description_html": "<div><p>This is a remote-controlled servo that turns the pages on an e-reader by simulating a finger tap on the screen. The current enclosure is designed for a Kindle Paperwhite, but could be re-designed for any tablet or e-reader that advances the pages with a finger tap.<\/p><p>This is not really a tutorial, but I'm happy to answer any questions about it.<\/p><p>This is a work in progress. Here is the Arduino code I used to make mine: <a rel=\"ugc nofollow\" href=\"https:\/\/pastebin.com\/dcphLapv\">https:\/\/pastebin.com\/dcphLapv<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a remote-controlled servo that turns the pages on an e-reader by simulating a finger tap on the screen. The current enclosure is designed for a Kindle Paperwhite, but could be re-designed for any tablet or e-reader that advances the pages with a finger tap.<\/p><p>This is not really a tutorial, but I'm happy to answer any questions about it.<\/p><p>This is a work in progress. Here is the Arduino code I used to make mine: <a rel=\"ugc nofollow\" href=\"https:\/\/pastebin.com\/dcphLapv\">https:\/\/pastebin.com\/dcphLapv<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Monoprice<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Maker Select Plus&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>I made this for the slide tolerance and press-fit that worked for my printer and these parts. It might not be the same for another printer but I am curious to know. Please let me know if you make one.<\/p><p>These photos are printed at 0.1mm layer height but you can do whatever. Supports are nice but not necessary if you have decent cooling. The press fit parts might fit a little better if printed with support for the small overhangs on the box back. <\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>I used SolidWorks to create the parts and assemblies. I took inspiration from this thing for the clip: <a rel=\"ugc nofollow\" href=\"\/thing:1976433\">https:\/\/www.thingiverse.com\/thing:1976433<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a remote-controlled servo that turns the pages on an e-reader by simulating a finger tap on the screen. The current enclosure is designed for a Kindle Paperwhite, but could be re-designed for any tablet or e-reader that advances the pages with a finger tap.<\/p><p>This is not really a tutorial, but I'm happy to answer any questions about it.<\/p><p>This is a work in progress. Here is the Arduino code I used to make mine: <a rel=\"ugc nofollow\" href=\"https:\/\/pastebin.com\/dcphLapv\">https:\/\/pastebin.com\/dcphLapv<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Monoprice<\/p><\/div>\n",
+            "printer": "<div><p>Maker Select Plus<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Doesn't Matter",
+            "notes": "<div><p>I made this for the slide tolerance and press-fit that worked for my printer and these parts. It might not be the same for another printer but I am curious to know. Please let me know if you make one.<\/p><p>These photos are printed at 0.1mm layer height but you can do whatever. Supports are nice but not necessary if you have decent cooling. The press fit parts might fit a little better if printed with support for the small overhangs on the box back. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>I used SolidWorks to create the parts and assemblies. I took inspiration from this thing for the clip: <a rel=\"ugc nofollow\" href=\"\/thing:1976433\">https:\/\/www.thingiverse.com\/thing:1976433<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3039314\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3039314\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3039314\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3039314\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3039314\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3039314\/tags",
+    "tags": [
+      {
+        "name": "kindle",
+        "tag": "kindle",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kindle",
+        "count": 257,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kindle\/things",
+        "absolute_url": "\/tag:kindle"
+      },
+      {
+        "name": "Kindle Paperwhite",
+        "tag": "kindle_paperwhite",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kindle_paperwhite",
+        "count": 94,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kindle_paperwhite\/things",
+        "absolute_url": "\/tag:Kindle_Paperwhite"
+      },
+      {
+        "name": "Remote control",
+        "tag": "remote_control",
+        "url": "https:\/\/api.thingiverse.com\/tags\/remote_control",
+        "count": 2499,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/remote_control\/things",
+        "absolute_url": "\/tag:Remote_control"
+      },
+      {
+        "name": "servo",
+        "tag": "servo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/servo",
+        "count": 2692,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/servo\/things",
+        "absolute_url": "\/tag:servo"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3039314\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 550,
+    "view_count": 2734,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Box.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/27\/38\/64\/5f\/Box.STL"
+        },
+        {
+          "name": "ServoArm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/bd\/dc\/3e\/07\/ServoArm.STL"
+        },
+        {
+          "name": "BoxBack.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/44\/8a\/98\/e5\/BoxBack.STL"
+        },
+        {
+          "name": "BoxSide.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/8a\/2b\/1e\/c7\/BoxSide.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "DSC09668.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/f3\/07\/e9\/29\/DSC09668.jpg"
+        },
+        {
+          "name": "SW1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/86\/69\/41\/58\/SW1.JPG"
+        },
+        {
+          "name": "SW2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/f6\/7d\/94\/9e\/SW2.JPG"
+        },
+        {
+          "name": "SW3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/23\/98\/2c\/ec\/SW3.JPG"
+        },
+        {
+          "name": "c43ce97637dde02a622c5898d486321c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/5d\/db\/9f\/1d\/c43ce97637dde02a622c5898d486321c.png"
+        },
+        {
+          "name": "460a7a919dec68312466af51a0947801.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/e2\/01\/98\/79\/460a7a919dec68312466af51a0947801.png"
+        },
+        {
+          "name": "e08e0d66b418259df93ae3a97ccf7937.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/8f\/bb\/64\/d1\/e08e0d66b418259df93ae3a97ccf7937.png"
+        },
+        {
+          "name": "e18cdf07c54d4a54a8ad06f302ff7284.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7a\/c2\/54\/48\/8d\/e18cdf07c54d4a54a8ad06f302ff7284.png"
+        },
+        {
+          "name": "DSC09683.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/4b\/92\/e4\/e1\/DSC09683.jpg"
+        },
+        {
+          "name": "DSC09621.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/d3\/df\/0c\/58\/DSC09621.jpg"
+        },
+        {
+          "name": "DSC09661.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/ea\/89\/f8\/d2\/DSC09661.jpg"
+        },
+        {
+          "name": "DSC09641.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/56\/29\/1e\/13\/DSC09641.jpg"
+        },
+        {
+          "name": "Clip1.gif",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/e4\/14\/cc\/8c\/Clip1.gif"
+        }
+      ]
+    }
+  }
+}

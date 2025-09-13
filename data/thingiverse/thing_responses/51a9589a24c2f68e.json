@@ -1,0 +1,506 @@
+{
+  "created_at": "2025-06-15T03:50:34.366124+00:00",
+  "elapsed": 0.098171,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "94ff1aa01ceb07c9-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 15 Jun 2025 03:50:34 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 15 Jun 2025 04:20:34 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "0FzDDsajAJYItlv70pEV8KY0K6UKgvdowYRM4u2Gw1U-1749959348-1.0.1.1-c9gk4INGCdF6PgBFbyQ6o2rJdmn6eaAcp543CLIT3wAYsZ_hAwtYX9nhwRDZ4AtCruhr_fqtlViB2AwVwYpKl.qhUjzAzHIrifr96vhmkJo",
+      "_cfuvid": "2Tzgsh_VNt7ePEGRFAIzjRE0QkZgj3pekXoLXVNOO8c-1749959348864-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=0FzDDsajAJYItlv70pEV8KY0K6UKgvdowYRM4u2Gw1U-1749959348-1.0.1.1-c9gk4INGCdF6PgBFbyQ6o2rJdmn6eaAcp543CLIT3wAYsZ_hAwtYX9nhwRDZ4AtCruhr_fqtlViB2AwVwYpKl.qhUjzAzHIrifr96vhmkJo; _cfuvid=2Tzgsh_VNt7ePEGRFAIzjRE0QkZgj3pekXoLXVNOO8c-1749959348864-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4618922?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4618922?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4618922,
+    "name": "Kinetic Hand",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/a3\/3d\/fd\/13\/78\/large_display_Kinetic_Hand_1.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4618922",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4618922",
+    "creator": {
+      "id": 755417,
+      "name": "MatBowtell",
+      "first_name": "Mat",
+      "last_name": "Bowtell",
+      "url": "https:\/\/api.thingiverse.com\/users\/MatBowtell",
+      "public_url": "https:\/\/www.thingiverse.com\/MatBowtell",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/bf\/6d\/4a\/a3\/2a\/b78aefa4-902e-4a0e-9aaf-7883926e795a.png",
+      "count_of_followers": 121,
+      "count_of_following": 1,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Melbourne, Australia",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/86\/e5\/53\/4c\/05\/0734c29e-3388-49a0-acc1-9d2a3e9fb5d8.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-10-09T05:49:25+00:00",
+    "modified": "2025-05-13T05:07:53+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 914,
+    "is_liked": false,
+    "collect_count": 1780,
+    "is_collected": false,
+    "comment_count": 45,
+    "is_watched": false,
+    "default_image": {
+      "id": 14159197,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/01\/ed\/3b\/7b\/Kinetic_Hand_1.jpg",
+      "name": "Kinetic_Hand_1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/63\/ab\/8b\/af\/large_thumb_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/08\/17\/15\/1c\/medium_thumb_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/a2\/3f\/0d\/06\/small_thumb_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/27\/95\/d8\/ad\/tiny_thumb_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/8e\/b2\/15\/1e\/featured_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/25\/df\/9a\/2f\/card_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/fe\/7a\/6e\/6a\/large_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/3c\/8b\/13\/49\/medium_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/ae\/d4\/8c\/b2\/small_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/0e\/d2\/61\/63\/birdwing_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/f4\/7f\/dd\/ca\/tiny_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/98\/37\/0d\/76\/tinycard_preview_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/3d\/fd\/13\/78\/large_display_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/a8\/c0\/34\/ba\/medium_display_Kinetic_Hand_1.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/ae\/cd\/e2\/16\/small_display_Kinetic_Hand_1.jpg"
+        }
+      ],
+      "added": "2020-10-09T05:26:18+00:00"
+    },
+    "description": "At Free 3D Hands, we have been designing, trialling and improving the Kinetic Hand for almost three years since November 2017. Over that period, we have made continuous incremental improvements to the design based on recipient feedback. The Kinetic Hand is a body powered device, and is designed to be used by people with congenital hand differences, with a functioning wrist to open and close the fingers. \n\nThe Kinetic Hand design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology. \nThis design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific hand differences and is not intended, and shall not be used, for commercial purposes.\nThe acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Hand must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Hand is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with medical professionals and occupational therapists must be sought and obtained before use.\n\n\nEdit (13\/May\/2025): STEP File Update for Kinetic Hand Assembly\nWe've added a folder containing each component of the Kinetic Hand assembly saved individually as .STEP files. To maintain their relative positions, all components remain at 60% scale, based on the scaling system used for fitting parts to individual recipients.\nWhile this smaller scale won't affect your ability to design, manipulate, or add features to the components, please be mindful of it when using slicing software.\nImportant Note on Scaling:\nWhen resizing components for a specific recipient, you may need to first return them to 100% scale by scaling the 60% models by 1.667, before applying the final recipient-specific scaling.\n\n\n\nDesign Merits:\n\nSilent Operation\nThe flexible hinges are designed to prevent any contact between rigid parts, allowing for silent operation of the hand.\n\nMoulded Silicone Finger Grips\nUsing a scalable 3D printed mould, grippy silicone finger grips allow the fingers to better grip a wide range of objects. This also eliminates the need to use consumer products such as Lee Tippi Micro-Gel finger grips which are hard to source, expensive and limited to only a few sizes. \n\nSplit Hinges\nThe hinges are designed to fit from one side, and stretch fit from the other. This prevents the hinge from sliding out laterally. Hinges do not require any glue, and provide an ideal amount of elasticity to open the fingers.\n\nDual Tendons \nThe need to tie tendons in the fingers has been eliminated, with tendons looping back through the fingers and hand being tied only once at the tensioner.\n\nFlexible Tensioners\nThe tensioners are made from an elastic material to allow individual fingers to come to a close while the other fingers continue to travel. There is no inter-connection between fingers, allowing for even grip distribution on a wide range of different object shapes.\n\nPart Numbering\nAll of the finger parts, hinges and grips are individually numbered to assist during assembly, ensuring correct part position and orientation.\n\nAllowance for Partial Thumb\nBy optimising wall thicknesses and tendon routing, we have created additional space inside the Palm cavity to allow for a partial thumb.\n\nFlexible Palm Cover\nThe flexible Palm Cover improves comfort for the user, since this is where all of the force is applied during use. It can also stretch to help when inserting the partial hand. \n\nAdjustable Tensioner Positions\nTensioner positions can be adjusted under the Gauntlet Cover to allow individual finger open and close positions to be incrementally adjusted to suit individual preference.\n \nProtective Gauntlet Cover\nTensioners and tendon knots are protected by the Gauntlet Cover to improve durability and prevent damage. \n\nImproved Scalability\nThe Kinetic Hand has been tested successfully between scales of 50% and 100% of the CAD model, which is designed at the scale of a large adult. We recommend 60% as the minimum scale to use for part strength and ease of assembly. \n\nPrinting Support Elimination\nAll parts have been designed and oriented to eliminate the need for printing supports which are difficult and time consuming to remove. \n\nSmooth Part Surfaces\nThe parts have been oriented to minimise the appearance of 3D print layers, whilst maintaining strength in design. \n\nIncreased Durability\nThe flexible hinges allow fingers to be bent and twisted to the same degree as a human finger without breaking.\n\nThree Directional Scalability\nSince the Kinetic Hand uses flexible hinges rather than snap pins, it can be scaled in X, Y and Z directions independantly without compromising part fitment or function. \n\nEased Fitting Tolerances\nRegardless of hand scale and size, the flexible hinges are designed to fit tightly with no need for fitting tolerances at different scales.  \n\nReduced Closing Angle\nThe Kinetic Hand only requires 18 degrees of wrist movement to allow the fingers to fully close, making it able to be used by people with very limited wrist movement.\n\nMultiple Palm Variants\nTo accommodate for various levels of hand difference, we have designed multiple palm variants to suit these conditions. ",
+    "instructions": "",
+    "description_html": "<div><p>At Free 3D Hands, we have been designing, trialling and improving the Kinetic Hand for almost three years since November 2017. Over that period, we have made continuous incremental improvements to the design based on recipient feedback. The Kinetic Hand is a body powered device, and is designed to be used by people with congenital hand differences, with a functioning wrist to open and close the fingers. <\/p><p>The Kinetic Hand design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific hand differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Hand must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Hand is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with medical professionals and occupational therapists must be sought and obtained before use.<\/p><p>Edit (13\/May\/2025): STEP File Update for Kinetic Hand Assembly<br>We've added a folder containing each component of the Kinetic Hand assembly saved individually as .STEP files. To maintain their relative positions, all components remain at 60% scale, based on the scaling system used for fitting parts to individual recipients.<br>While this smaller scale won't affect your ability to design, manipulate, or add features to the components, please be mindful of it when using slicing software.<br>Important Note on Scaling:<br>When resizing components for a specific recipient, you may need to first return them to 100% scale by scaling the 60% models by 1.667, before applying the final recipient-specific scaling.<\/p><p>Design Merits:<\/p><p>Silent Operation<br>The flexible hinges are designed to prevent any contact between rigid parts, allowing for silent operation of the hand.<\/p><p>Moulded Silicone Finger Grips<br>Using a scalable 3D printed mould, grippy silicone finger grips allow the fingers to better grip a wide range of objects. This also eliminates the need to use consumer products such as Lee Tippi Micro-Gel finger grips which are hard to source, expensive and limited to only a few sizes. <\/p><p>Split Hinges<br>The hinges are designed to fit from one side, and stretch fit from the other. This prevents the hinge from sliding out laterally. Hinges do not require any glue, and provide an ideal amount of elasticity to open the fingers.<\/p><p>Dual Tendons<br>The need to tie tendons in the fingers has been eliminated, with tendons looping back through the fingers and hand being tied only once at the tensioner.<\/p><p>Flexible Tensioners<br>The tensioners are made from an elastic material to allow individual fingers to come to a close while the other fingers continue to travel. There is no inter-connection between fingers, allowing for even grip distribution on a wide range of different object shapes.<\/p><p>Part Numbering<br>All of the finger parts, hinges and grips are individually numbered to assist during assembly, ensuring correct part position and orientation.<\/p><p>Allowance for Partial Thumb<br>By optimising wall thicknesses and tendon routing, we have created additional space inside the Palm cavity to allow for a partial thumb.<\/p><p>Flexible Palm Cover<br>The flexible Palm Cover improves comfort for the user, since this is where all of the force is applied during use. It can also stretch to help when inserting the partial hand. <\/p><p>Adjustable Tensioner Positions<br>Tensioner positions can be adjusted under the Gauntlet Cover to allow individual finger open and close positions to be incrementally adjusted to suit individual preference.<\/p><p>Protective Gauntlet Cover<br>Tensioners and tendon knots are protected by the Gauntlet Cover to improve durability and prevent damage. <\/p><p>Improved Scalability<br>The Kinetic Hand has been tested successfully between scales of 50% and 100% of the CAD model, which is designed at the scale of a large adult. We recommend 60% as the minimum scale to use for part strength and ease of assembly. <\/p><p>Printing Support Elimination<br>All parts have been designed and oriented to eliminate the need for printing supports which are difficult and time consuming to remove. <\/p><p>Smooth Part Surfaces<br>The parts have been oriented to minimise the appearance of 3D print layers, whilst maintaining strength in design. <\/p><p>Increased Durability<br>The flexible hinges allow fingers to be bent and twisted to the same degree as a human finger without breaking.<\/p><p>Three Directional Scalability<br>Since the Kinetic Hand uses flexible hinges rather than snap pins, it can be scaled in X, Y and Z directions independantly without compromising part fitment or function. <\/p><p>Eased Fitting Tolerances<br>Regardless of hand scale and size, the flexible hinges are designed to fit tightly with no need for fitting tolerances at different scales.  <\/p><p>Reduced Closing Angle<br>The Kinetic Hand only requires 18 degrees of wrist movement to allow the fingers to fully close, making it able to be used by people with very limited wrist movement.<\/p><p>Multiple Palm Variants<br>To accommodate for various levels of hand difference, we have designed multiple palm variants to suit these conditions. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>At Free 3D Hands, we have been designing, trialling and improving the Kinetic Hand for almost three years since November 2017. Over that period, we have made continuous incremental improvements to the design based on recipient feedback. The Kinetic Hand is a body powered device, and is designed to be used by people with congenital hand differences, with a functioning wrist to open and close the fingers. <\/p><p>The Kinetic Hand design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific hand differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Hand must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Hand is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with medical professionals and occupational therapists must be sought and obtained before use.<\/p><p>Edit (13\/May\/2025): STEP File Update for Kinetic Hand Assembly<br>We've added a folder containing each component of the Kinetic Hand assembly saved individually as .STEP files. To maintain their relative positions, all components remain at 60% scale, based on the scaling system used for fitting parts to individual recipients.<br>While this smaller scale won't affect your ability to design, manipulate, or add features to the components, please be mindful of it when using slicing software.<br>Important Note on Scaling:<br>When resizing components for a specific recipient, you may need to first return them to 100% scale by scaling the 60% models by 1.667, before applying the final recipient-specific scaling.<\/p><p>Design Merits:<\/p><p>Silent Operation<br>The flexible hinges are designed to prevent any contact between rigid parts, allowing for silent operation of the hand.<\/p><p>Moulded Silicone Finger Grips<br>Using a scalable 3D printed mould, grippy silicone finger grips allow the fingers to better grip a wide range of objects. This also eliminates the need to use consumer products such as Lee Tippi Micro-Gel finger grips which are hard to source, expensive and limited to only a few sizes. <\/p><p>Split Hinges<br>The hinges are designed to fit from one side, and stretch fit from the other. This prevents the hinge from sliding out laterally. Hinges do not require any glue, and provide an ideal amount of elasticity to open the fingers.<\/p><p>Dual Tendons<br>The need to tie tendons in the fingers has been eliminated, with tendons looping back through the fingers and hand being tied only once at the tensioner.<\/p><p>Flexible Tensioners<br>The tensioners are made from an elastic material to allow individual fingers to come to a close while the other fingers continue to travel. There is no inter-connection between fingers, allowing for even grip distribution on a wide range of different object shapes.<\/p><p>Part Numbering<br>All of the finger parts, hinges and grips are individually numbered to assist during assembly, ensuring correct part position and orientation.<\/p><p>Allowance for Partial Thumb<br>By optimising wall thicknesses and tendon routing, we have created additional space inside the Palm cavity to allow for a partial thumb.<\/p><p>Flexible Palm Cover<br>The flexible Palm Cover improves comfort for the user, since this is where all of the force is applied during use. It can also stretch to help when inserting the partial hand. <\/p><p>Adjustable Tensioner Positions<br>Tensioner positions can be adjusted under the Gauntlet Cover to allow individual finger open and close positions to be incrementally adjusted to suit individual preference.<\/p><p>Protective Gauntlet Cover<br>Tensioners and tendon knots are protected by the Gauntlet Cover to improve durability and prevent damage. <\/p><p>Improved Scalability<br>The Kinetic Hand has been tested successfully between scales of 50% and 100% of the CAD model, which is designed at the scale of a large adult. We recommend 60% as the minimum scale to use for part strength and ease of assembly. <\/p><p>Printing Support Elimination<br>All parts have been designed and oriented to eliminate the need for printing supports which are difficult and time consuming to remove. <\/p><p>Smooth Part Surfaces<br>The parts have been oriented to minimise the appearance of 3D print layers, whilst maintaining strength in design. <\/p><p>Increased Durability<br>The flexible hinges allow fingers to be bent and twisted to the same degree as a human finger without breaking.<\/p><p>Three Directional Scalability<br>Since the Kinetic Hand uses flexible hinges rather than snap pins, it can be scaled in X, Y and Z directions independantly without compromising part fitment or function. <\/p><p>Eased Fitting Tolerances<br>Regardless of hand scale and size, the flexible hinges are designed to fit tightly with no need for fitting tolerances at different scales.  <\/p><p>Reduced Closing Angle<br>The Kinetic Hand only requires 18 degrees of wrist movement to allow the fingers to fully close, making it able to be used by people with very limited wrist movement.<\/p><p>Multiple Palm Variants<br>To accommodate for various levels of hand difference, we have designed multiple palm variants to suit these conditions. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Creator Pro<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>40%<\/p><\/div>                                                        <strong>Filament:<\/strong> 3D Fillies, Ninjatek PLA+\/PLA, Ninjaflex                    Multiple                                        <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Detailed print settings and methods are included in the 99 page Assembly Manual in the download files. <\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/2a\/38\/9b\/31\/0e\/Assembly_manual_cover.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-caption\"><strong>This download includes a 99 page Assembly Manual<\/strong><\/p><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>The Kinetic Hand has been designed using a virtual clay modelling software called Geomagic Freeform Plus to create an organic shape, and then has been engineered and simulated in Solidworks with support of an add-in called Power Surfacing RE.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>At Free 3D Hands, we have been designing, trialling and improving the Kinetic Hand for almost three years since November 2017. Over that period, we have made continuous incremental improvements to the design based on recipient feedback. The Kinetic Hand is a body powered device, and is designed to be used by people with congenital hand differences, with a functioning wrist to open and close the fingers. <\/p><p>The Kinetic Hand design is being released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) open-source license to encourage further innovation in this field, and improve global access to assistive technology.<br>This design is released for trial and evaluation purposes only, and is intended to benefit certain individuals with specific hand differences and is not intended, and shall not be used, for commercial purposes.<br>The acceptance of this design by Free 3D Hands Ltd, and any such information provided by the design team is presented as is without representation or warranties of any kind, express or implied, and is intended to be a free gift to recipients for the sole purpose of evaluating various design iterations, ideas and modifications. The Kinetic Hand must be used for only light tasks such as picking and placing of small objects, and not for any tasks that could be considered dangerous.  Any individual associated with Free 3D Hands Ltd shall not be liable for any injuries or damages resulting from the use of any information or designs provided. The Kinetic Hand is experimental, is not classified as a medical device, and is for evaluation purposes only. In some cases, these devices will not be appropriate for each individual, and consultation with medical professionals and occupational therapists must be sought and obtained before use.<\/p><p>Edit (13\/May\/2025): STEP File Update for Kinetic Hand Assembly<br>We've added a folder containing each component of the Kinetic Hand assembly saved individually as .STEP files. To maintain their relative positions, all components remain at 60% scale, based on the scaling system used for fitting parts to individual recipients.<br>While this smaller scale won't affect your ability to design, manipulate, or add features to the components, please be mindful of it when using slicing software.<br>Important Note on Scaling:<br>When resizing components for a specific recipient, you may need to first return them to 100% scale by scaling the 60% models by 1.667, before applying the final recipient-specific scaling.<\/p><p>Design Merits:<\/p><p>Silent Operation<br>The flexible hinges are designed to prevent any contact between rigid parts, allowing for silent operation of the hand.<\/p><p>Moulded Silicone Finger Grips<br>Using a scalable 3D printed mould, grippy silicone finger grips allow the fingers to better grip a wide range of objects. This also eliminates the need to use consumer products such as Lee Tippi Micro-Gel finger grips which are hard to source, expensive and limited to only a few sizes. <\/p><p>Split Hinges<br>The hinges are designed to fit from one side, and stretch fit from the other. This prevents the hinge from sliding out laterally. Hinges do not require any glue, and provide an ideal amount of elasticity to open the fingers.<\/p><p>Dual Tendons<br>The need to tie tendons in the fingers has been eliminated, with tendons looping back through the fingers and hand being tied only once at the tensioner.<\/p><p>Flexible Tensioners<br>The tensioners are made from an elastic material to allow individual fingers to come to a close while the other fingers continue to travel. There is no inter-connection between fingers, allowing for even grip distribution on a wide range of different object shapes.<\/p><p>Part Numbering<br>All of the finger parts, hinges and grips are individually numbered to assist during assembly, ensuring correct part position and orientation.<\/p><p>Allowance for Partial Thumb<br>By optimising wall thicknesses and tendon routing, we have created additional space inside the Palm cavity to allow for a partial thumb.<\/p><p>Flexible Palm Cover<br>The flexible Palm Cover improves comfort for the user, since this is where all of the force is applied during use. It can also stretch to help when inserting the partial hand. <\/p><p>Adjustable Tensioner Positions<br>Tensioner positions can be adjusted under the Gauntlet Cover to allow individual finger open and close positions to be incrementally adjusted to suit individual preference.<\/p><p>Protective Gauntlet Cover<br>Tensioners and tendon knots are protected by the Gauntlet Cover to improve durability and prevent damage. <\/p><p>Improved Scalability<br>The Kinetic Hand has been tested successfully between scales of 50% and 100% of the CAD model, which is designed at the scale of a large adult. We recommend 60% as the minimum scale to use for part strength and ease of assembly. <\/p><p>Printing Support Elimination<br>All parts have been designed and oriented to eliminate the need for printing supports which are difficult and time consuming to remove. <\/p><p>Smooth Part Surfaces<br>The parts have been oriented to minimise the appearance of 3D print layers, whilst maintaining strength in design. <\/p><p>Increased Durability<br>The flexible hinges allow fingers to be bent and twisted to the same degree as a human finger without breaking.<\/p><p>Three Directional Scalability<br>Since the Kinetic Hand uses flexible hinges rather than snap pins, it can be scaled in X, Y and Z directions independantly without compromising part fitment or function. <\/p><p>Eased Fitting Tolerances<br>Regardless of hand scale and size, the flexible hinges are designed to fit tightly with no need for fitting tolerances at different scales.  <\/p><p>Reduced Closing Angle<br>The Kinetic Hand only requires 18 degrees of wrist movement to allow the fingers to fully close, making it able to be used by people with very limited wrist movement.<\/p><p>Multiple Palm Variants<br>To accommodate for various levels of hand difference, we have designed multiple palm variants to suit these conditions. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>\n",
+            "printer": "<div><p>Creator Pro<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>40%<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA+\/PLA, Ninjaflex<\/p><\/div>\n",
+            "filament_brand": "<div><p>3D Fillies, Ninjatek<\/p><\/div>\n",
+            "filament_color": "<div><p>Multiple<\/p><\/div>\n",
+            "notes": "<div><p>Detailed print settings and methods are included in the 99 page Assembly Manual in the download files. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/2a\/38\/9b\/31\/0e\/Assembly_manual_cover.jpg",
+            "image_id": 279922,
+            "caption": "This download includes a 99 page Assembly Manual"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>The Kinetic Hand has been designed using a virtual clay modelling software called Geomagic Freeform Plus to create an organic shape, and then has been engineered and simulated in Solidworks with support of an add-in called Power Surfacing RE.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-title\"><strong>Kinetic Hand Assembly Manual<\/strong><\/p>\n                <div><p>A 99 page Assembly Manual is included in the download files.<\/p>\n<p>The manual includes the following:<\/p>\n<p>About the Design                                <\/p>\n<p>Design Merits                               <\/p>\n<p>Printed Parts List (PLA\/PLA+)                               <\/p>\n<p>Printed Parts List (Ninjaflex\/TPU)                              <\/p>\n<p>Moulded Parts List (Silicone)                               <\/p>\n<p>Purchased Parts List                                <\/p>\n<p>Assembly Tool List                              <\/p>\n<p>Step 1: Trim PLA\/PLA+ parts                             <\/p>\n<p>Step 2: Trim Ninjaflex\/TPU parts                                <\/p>\n<p>Step 3: Insert Thumb Hinge                              <\/p>\n<p>Step 4: Insert Finger Hinges                                <\/p>\n<p>Step 5: Insert Palm Cover Screws                                <\/p>\n<p>Step 6: Attach Palm Cover to Palm                               <\/p>\n<p>Step 7: Feed Thumb Tendon                               <\/p>\n<p>Step 8: Attach Thumb to Palm                                <\/p>\n<p>Step 9: Feed Remaining Tendons                              <\/p>\n<p>Step 10: Insert Remaining Hinges                                <\/p>\n<p>Step 11: Attach Fingers to Palm                             <\/p>\n<p>Step 12: Attach Flexible Tensioners                             <\/p>\n<p>Step 13: Feed Tendons to Gauntlet                               <\/p>\n<p>Step 14: Attach Wrist Hinges to Palm                                <\/p>\n<p>Step 15: Attach Wrist Hinges to Gauntlet                                <\/p>\n<p>Step 16: Temporary Tensioner Knots                              <\/p>\n<p>Step 17: Ideal Finger Closing Condition                             <\/p>\n<p>Step 18: Tuning Finger Positions                                <\/p>\n<p>Step 19: Tie the Final Tensioner Knots                              <\/p>\n<p>Step 20: Finishing and Trimming Knots                               <\/p>\n<p>Step 21: Re-confirm and Adjust Tensioners                               <\/p>\n<p>Step 22: Fit Gauntlet Cover                             <\/p>\n<p>Step 23: Attach Gauntlet Cover                              <\/p>\n<p>Step 24: Test Fitting the Finger Grips                              <\/p>\n<p>Step 25: Attach Finger Grips                                <\/p>\n<p>Step 26: Install the Insert (If Required)                               <\/p>\n<p>Step 27: Install the Hook and Loop Straps                               <\/p>\n<p>The Kinetic Hand is Complete!                               <\/p>\n<p>Some of Our Recipients                              <\/p>\n<p>Acknowledgments                             <\/p>\n<p>Sponsors and Supporters                             <\/p>\n<p>Appendix 1 - Measurement and Scaling Guide                              <\/p>\n<p>Appendix 2 - 3D Printing Guide                              <\/p>\n<p>Appendix 3 - Silicone Grip Moulding Guide                               <\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "title": "Kinetic Hand Assembly Manual",
+            "content": "A 99 page Assembly Manual is included in the download files.\r\n\r\nThe manual includes the following:\r\n\r\nAbout the Design\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nDesign Merits\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nPrinted Parts List (PLA\/PLA+)\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nPrinted Parts List (Ninjaflex\/TPU)\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nMoulded Parts List (Silicone)\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nPurchased Parts List\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nAssembly Tool List\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 1: Trim PLA\/PLA+ parts\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 2: Trim Ninjaflex\/TPU parts\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 3: Insert Thumb Hinge\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 4: Insert Finger Hinges\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 5: Insert Palm Cover Screws\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 6: Attach Palm Cover to Palm\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 7: Feed Thumb Tendon\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 8: Attach Thumb to Palm\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 9: Feed Remaining Tendons\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 10: Insert Remaining Hinges\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 11: Attach Fingers to Palm\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 12: Attach Flexible Tensioners\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 13: Feed Tendons to Gauntlet\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 14: Attach Wrist Hinges to Palm \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 15: Attach Wrist Hinges to Gauntlet \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 16: Temporary Tensioner Knots\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 17: Ideal Finger Closing Condition\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 18: Tuning Finger Positions\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 19: Tie the Final Tensioner Knots\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 20: Finishing and Trimming Knots\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 21: Re-confirm and Adjust Tensioners \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 22: Fit Gauntlet Cover\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 23: Attach Gauntlet Cover\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 24: Test Fitting the Finger Grips\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 25: Attach Finger Grips\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 26: Install the Insert (If Required)\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nStep 27: Install the Hook and Loop Straps\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nThe Kinetic Hand is Complete!\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nSome of Our Recipients\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nAcknowledgments\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nSponsors and Supporters\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nAppendix 1 - Measurement and Scaling Guide\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nAppendix 2 - 3D Printing Guide\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\nAppendix 3 - Silicone Grip Moulding Guide\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4618922\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4618922\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4618922\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4618922\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4618922\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4618922\/tags",
+    "tags": [
+      {
+        "name": "3d hand",
+        "tag": "3d_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_hand",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_hand\/things",
+        "absolute_url": "\/tag:3d_hand"
+      },
+      {
+        "name": "3D Printed Hand",
+        "tag": "3d_printed_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_hand",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_hand\/things",
+        "absolute_url": "\/tag:3D_Printed_Hand"
+      },
+      {
+        "name": "Body Powered",
+        "tag": "body_powered",
+        "url": "https:\/\/api.thingiverse.com\/tags\/body_powered",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/body_powered\/things",
+        "absolute_url": "\/tag:Body_Powered"
+      },
+      {
+        "name": "Free 3D Hands",
+        "tag": "free_3d_hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/free_3d_hands",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/free_3d_hands\/things",
+        "absolute_url": "\/tag:Free_3D_Hands"
+      },
+      {
+        "name": "Kinetic Hand",
+        "tag": "kinetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kinetic_hand",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kinetic_hand\/things",
+        "absolute_url": "\/tag:Kinetic_Hand"
+      },
+      {
+        "name": "symbrachydactyly",
+        "tag": "symbrachydactyly",
+        "url": "https:\/\/api.thingiverse.com\/tags\/symbrachydactyly",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/symbrachydactyly\/things",
+        "absolute_url": "\/tag:symbrachydactyly"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4618922\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 14659,
+    "view_count": 21772,
+    "education": {
+      "grades": {
+        "24": "9th Grade",
+        "25": "10th Grade",
+        "26": "11th Grade",
+        "27": "12th Grade",
+        "28": "Higher Education"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        },
+        {
+          "name": "Engineering",
+          "slug": "engineering",
+          "id": 13
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        }
+      ]
+    },
+    "remix_count": 3,
+    "make_count": 10,
+    "app_count": 2,
+    "root_comment_count": 26,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Kinetic_Hand.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/76\/3b\/94\/2a\/Kinetic_Hand.zip"
+        },
+        {
+          "name": "Neoprene_liner_templates.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/89\/8a\/46\/c8\/Neoprene_liner_templates.zip"
+        },
+        {
+          "name": "Kinetic_Hand_IGES_Files.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/66\/fc\/47\/e1\/Kinetic_Hand_IGES_Files.zip"
+        },
+        {
+          "name": "Kinetic_Hand_base_model.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/91\/41\/44\/1f\/Kinetic_Hand_base_model.STL"
+        },
+        {
+          "name": "Kinetic_Hand_STEP_Files_RH60.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/1f\/a8\/b6\/09\/Kinetic_Hand_STEP_Files_RH60.zip"
+        }
+      ],
+      "images": [
+        {
+          "name": "Kinetic_Hand_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/01\/ed\/3b\/7b\/Kinetic_Hand_1.jpg"
+        },
+        {
+          "name": "Kinetic_Hand_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/ef\/87\/8c\/d5\/Kinetic_Hand_2.jpg"
+        },
+        {
+          "name": "Assembly_manual_cover.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/b8\/ae\/07\/70\/Assembly_manual_cover.jpg"
+        },
+        {
+          "name": "Recipients_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/60\/86\/62\/42\/Recipients_1.jpg"
+        },
+        {
+          "name": "Recipients_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/18\/6e\/b6\/6d\/Recipients_2.jpg"
+        },
+        {
+          "name": "Kinetic_Hand_base_model.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/69\/03\/f3\/af\/Kinetic_Hand_base_model.png"
+        },
+        {
+          "name": "Free_3D_Hands.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/8b\/35\/ab\/97\/Free_3D_Hands.jpg"
+        }
+      ]
+    }
+  }
+}

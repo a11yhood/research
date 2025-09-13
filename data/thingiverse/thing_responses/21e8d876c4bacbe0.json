@@ -1,0 +1,621 @@
+{
+  "created_at": "2025-04-10T03:34:54.550108+00:00",
+  "elapsed": 0.159094,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df30edf9412a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/930409?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/930409?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 930409,
+    "name": "The Spiderhand ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/930409",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:930409",
+    "creator": {
+      "id": 535213,
+      "name": "dlevy11",
+      "first_name": "Daniel",
+      "last_name": "Levy",
+      "url": "https:\/\/api.thingiverse.com\/users\/dlevy11",
+      "public_url": "https:\/\/www.thingiverse.com\/dlevy11",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_engineer_thumb_medium.jpg",
+      "count_of_followers": 9,
+      "count_of_following": 3,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Los Angeles CA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-07-21T19:07:57+00:00",
+    "modified": "2015-07-21T19:07:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 417,
+    "is_liked": false,
+    "collect_count": 813,
+    "is_collected": false,
+    "comment_count": 14,
+    "is_watched": false,
+    "default_image": {
+      "id": 2408302,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/58\/0e\/31\/4d\/IMG_0696.JPG",
+      "name": "IMG_0696.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/93\/6d\/4f\/f5\/IMG_0696_display_small.JPG"
+        }
+      ],
+      "added": "2015-07-21T19:07:54+00:00"
+    },
+    "description": "An exoskeleton designed to help stroke victims or patients with lack of finger movement regain mobility in their hands.",
+    "instructions": "**UPDATE** Added new L joint and an .stl file for the rod connector.  \r\n\r\n  \r\nIf you would like a customized design, have it made for you , or have any questions please contact me at dsl216@lehigh.edu  or message me through Thingiverse.  \r\n\r\nall prints made on ultimaker 2, except for collars, which were printed on makerbot for ninjaflex.  \r\n\r\nFor finger joints:   \r\nUsed a Grooved Clevis Pin with Retaining Ring (18-8 Stainless Steel, 3\/16\" Diameter, 1\/2\" Length, 3\/8\" Usable Length)  \r\n\r\nFor rod connector (added .stl file to print out):  \r\nUsed Threaded Connecting Rod (4\" Overall Length, 10-32 Threaded Male Ends)  \r\n\r\nFor Velcro:  \r\nUsed .75 inch width  \r\n\r\nFor foam:  \r\nUsed 1 sided sticky foam  \r\n",
+    "description_html": "<div><p>An exoskeleton designed to help stroke victims or patients with lack of finger movement regain mobility in their hands.<\/p><\/div>\n",
+    "instructions_html": "<div><p><strong>UPDATE<\/strong> Added new L joint and an .stl file for the rod connector.  <\/p><p>If you would like a customized design, have it made for you , or have any questions please contact me at dsl216@lehigh.edu  or message me through Thingiverse.  <\/p><p>all prints made on ultimaker 2, except for collars, which were printed on makerbot for ninjaflex.  <\/p><p>For finger joints:<br>Used a Grooved Clevis Pin with Retaining Ring (18-8 Stainless Steel, 3\/16\" Diameter, 1\/2\" Length, 3\/8\" Usable Length)  <\/p><p>For rod connector (added .stl file to print out):<br>Used Threaded Connecting Rod (4\" Overall Length, 10-32 Threaded Male Ends)  <\/p><p>For Velcro:<br>Used .75 inch width  <\/p><p>For foam:<br>Used 1 sided sticky foam  <\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>An exoskeleton designed to help stroke victims or patients with lack of finger movement regain mobility in their hands.<\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p><strong>UPDATE<\/strong> Added new L joint and an .stl file for the rod connector.  <\/p><p>If you would like a customized design, have it made for you , or have any questions please contact me at dsl216@lehigh.edu  or message me through Thingiverse.  <\/p><p>all prints made on ultimaker 2, except for collars, which were printed on makerbot for ninjaflex.  <\/p><p>For finger joints:<br>Used a Grooved Clevis Pin with Retaining Ring (18-8 Stainless Steel, 3\/16\" Diameter, 1\/2\" Length, 3\/8\" Usable Length)  <\/p><p>For rod connector (added .stl file to print out):<br>Used Threaded Connecting Rod (4\" Overall Length, 10-32 Threaded Male Ends)  <\/p><p>For Velcro:<br>Used .75 inch width  <\/p><p>For foam:<br>Used 1 sided sticky foam  <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>An exoskeleton designed to help stroke victims or patients with lack of finger movement regain mobility in their hands.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p><strong>UPDATE<\/strong> Added new L joint and an .stl file for the rod connector.  <\/p><p>If you would like a customized design, have it made for you , or have any questions please contact me at dsl216@lehigh.edu  or message me through Thingiverse.  <\/p><p>all prints made on ultimaker 2, except for collars, which were printed on makerbot for ninjaflex.  <\/p><p>For finger joints:<br>Used a Grooved Clevis Pin with Retaining Ring (18-8 Stainless Steel, 3\/16\" Diameter, 1\/2\" Length, 3\/8\" Usable Length)  <\/p><p>For rod connector (added .stl file to print out):<br>Used Threaded Connecting Rod (4\" Overall Length, 10-32 Threaded Male Ends)  <\/p><p>For Velcro:<br>Used .75 inch width  <\/p><p>For foam:<br>Used 1 sided sticky foam  <\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/930409\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/930409\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/930409\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/930409\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/930409\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/930409\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "biomedical",
+        "tag": "biomedical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/biomedical",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/biomedical\/things",
+        "absolute_url": "\/tag:biomedical"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "Exoskeleton",
+        "tag": "exoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton\/things",
+        "absolute_url": "\/tag:Exoskeleton"
+      },
+      {
+        "name": "finger",
+        "tag": "finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/finger",
+        "count": 792,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/finger\/things",
+        "absolute_url": "\/tag:finger"
+      },
+      {
+        "name": "Functioning Fingers",
+        "tag": "functioning_fingers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/functioning_fingers",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/functioning_fingers\/things",
+        "absolute_url": "\/tag:Functioning_Fingers"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "helping-hands",
+        "tag": "helping-hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping-hands",
+        "count": 229,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping-hands\/things",
+        "absolute_url": "\/tag:helping-hands"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "medical devices",
+        "tag": "medical_devices",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical_devices",
+        "count": 458,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical_devices\/things",
+        "absolute_url": "\/tag:medical_devices"
+      },
+      {
+        "name": "mobility",
+        "tag": "mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobility",
+        "count": 60,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobility\/things",
+        "absolute_url": "\/tag:mobility"
+      },
+      {
+        "name": "rehab",
+        "tag": "rehab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehab",
+        "count": 25,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehab\/things",
+        "absolute_url": "\/tag:rehab"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "solidworks",
+        "tag": "solidworks",
+        "url": "https:\/\/api.thingiverse.com\/tags\/solidworks",
+        "count": 1629,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/solidworks\/things",
+        "absolute_url": "\/tag:solidworks"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/930409\/categories",
+    "file_count": 15,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 5022,
+    "view_count": 34225,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 9,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Biggest_V1.4_top.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/d7\/f7\/4e\/76\/Biggest_V1.4_top.STL"
+        },
+        {
+          "name": "middleV4.7.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/c2\/bb\/5a\/48\/middleV4.7.STL"
+        },
+        {
+          "name": "Forearm_V4.1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/87\/77\/a6\/69\/Forearm_V4.1.STL"
+        },
+        {
+          "name": "I__joint_V1.3.1_CCW.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/f1\/3c\/d3\/c8\/I__joint_V1.3.1_CCW.STL"
+        },
+        {
+          "name": "index_collar_mediumV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/68\/3c\/4f\/d7\/index_collar_mediumV2.STL"
+        },
+        {
+          "name": "index_collar_bigV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/6c\/dd\/05\/31\/index_collar_bigV2.STL"
+        },
+        {
+          "name": "middle_collar_mediumV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/40\/40\/60\/47\/middle_collar_mediumV2.STL"
+        },
+        {
+          "name": "middle_collar_bigV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/70\/16\/9d\/06\/middle_collar_bigV2.STL"
+        },
+        {
+          "name": "pinky_collar_bigV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/78\/09\/7d\/67\/pinky_collar_bigV2.STL"
+        },
+        {
+          "name": "Pinky_collar_mediumV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/c4\/47\/ac\/a3\/Pinky_collar_mediumV2.STL"
+        },
+        {
+          "name": "ring_collar_bigV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/58\/6a\/89\/a9\/ring_collar_bigV2.STL"
+        },
+        {
+          "name": "ring_collar_mediumV2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/2d\/c2\/a4\/3f\/ring_collar_mediumV2.STL"
+        },
+        {
+          "name": "Biggest_V1.5_lower.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/47\/0e\/97\/b2\/Biggest_V1.5_lower.STL"
+        },
+        {
+          "name": "Metal_Rod.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/d5\/be\/82\/bd\/Metal_Rod.STL"
+        },
+        {
+          "name": "L_joint_combinte.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/a0\/a1\/e2\/bd\/L_joint_combinte.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_0696.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/58\/0e\/31\/4d\/IMG_0696.JPG"
+        },
+        {
+          "name": "Metal_Rod.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/35\/91\/3f\/21\/Metal_Rod.png"
+        },
+        {
+          "name": "L_joint_combinte.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6a\/2b\/4c\/a0\/23\/L_joint_combinte.png"
+        },
+        {
+          "name": "Biggest_V1.5_lower.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/b8\/6e\/8e\/c4\/Biggest_V1.5_lower.png"
+        },
+        {
+          "name": "IMG_0694.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/69\/1d\/27\/6c\/IMG_0694.JPG"
+        },
+        {
+          "name": "IMG_0686.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/bc\/5d\/6e\/37\/IMG_0686.JPG"
+        },
+        {
+          "name": "IMG_0688.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/4d\/41\/44\/9d\/IMG_0688.JPG"
+        },
+        {
+          "name": "I__joint_V1.3.1_CCW.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/e3\/25\/4c\/0c\/I__joint_V1.3.1_CCW.png"
+        },
+        {
+          "name": "ring_collar_mediumV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5e\/21\/57\/c6\/94\/ring_collar_mediumV2.png"
+        },
+        {
+          "name": "ring_collar_bigV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/da\/b4\/30\/4e\/ring_collar_bigV2.png"
+        },
+        {
+          "name": "Pinky_collar_mediumV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2c\/5c\/d1\/ce\/5b\/Pinky_collar_mediumV2.png"
+        },
+        {
+          "name": "pinky_collar_bigV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/43\/bd\/45\/6a\/05\/pinky_collar_bigV2.png"
+        },
+        {
+          "name": "middle_collar_mediumV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/3b\/c1\/c4\/5f\/middle_collar_mediumV2.png"
+        },
+        {
+          "name": "index_collar_bigV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/01\/1d\/47\/d6\/1f\/index_collar_bigV2.png"
+        },
+        {
+          "name": "middle_collar_bigV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/1e\/03\/d1\/1c\/middle_collar_bigV2.png"
+        },
+        {
+          "name": "index_collar_mediumV2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/08\/17\/d8\/6f\/index_collar_mediumV2.png"
+        },
+        {
+          "name": "Forearm_V4.1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/1a\/cc\/f7\/4b\/Forearm_V4.1.png"
+        },
+        {
+          "name": "middleV4.7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/be\/99\/60\/22\/bb\/middleV4.7.png"
+        },
+        {
+          "name": "Biggest_V1.4_top.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/55\/74\/f8\/c9\/Biggest_V1.4_top.png"
+        }
+      ]
+    }
+  }
+}

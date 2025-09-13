@@ -1,0 +1,456 @@
+{
+  "created_at": "2025-04-09T19:18:01.071670+00:00",
+  "elapsed": 0.178683,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc590f9e67f95f-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:18:01 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 19:48:01 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw",
+      "_cfuvid": "Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw; _cfuvid=Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6303151?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6303151?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6303151,
+    "name": "Palmer Grasp Adaptive Writing Utensil ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d4\/17\/02\/47\/46\/large_display_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/6303151",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6303151",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-11-07T21:02:28+00:00",
+    "modified": "2023-11-07T21:02:28+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 21,
+    "is_liked": false,
+    "collect_count": 23,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 20099989,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/cf\/4b\/5d\/03\/91fb08b4-3202-49b5-b53d-9e00f610d806.JPG",
+      "name": "91fb08b4-3202-49b5-b53d-9e00f610d806.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/99\/d9\/e5\/91\/large_thumb_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/3f\/fc\/5c\/a7\/medium_thumb_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/47\/ab\/16\/68\/small_thumb_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/98\/d1\/a1\/8d\/tiny_thumb_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/43\/c7\/a6\/98\/featured_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/a2\/78\/cb\/6f\/card_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/41\/3e\/22\/dc\/large_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/9b\/a9\/99\/e4\/medium_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/61\/8c\/e7\/b8\/small_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/90\/52\/61\/a6\/birdwing_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/c4\/84\/31\/d9\/tiny_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/35\/ba\/f3\/45\/tinycard_preview_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/17\/02\/47\/46\/large_display_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/6e\/50\/67\/d7\/medium_display_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/98\/f4\/25\/31\/small_display_91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        }
+      ],
+      "added": "2023-11-07T21:02:25+00:00"
+    },
+    "description": "Adaptive writing utensil for person using palmer grasp. Opening is approx. 17mm in diameter or approx 11\/16 inches. \r\n\r\n\r\nThis was remixed from design on Cults3D:\r\nhttps:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder \r\n\r\n\r\nModified with smoother edges. \r\n\r\nPrint as oriented\/vertically \r\nSupport needed\r\nInfill 100% \r\n",
+    "instructions": "",
+    "description_html": "<div><p>Adaptive writing utensil for person using palmer grasp. Opening is approx. 17mm in diameter or approx 11\/16 inches. <\/p><p>This was remixed from design on Cults3D:<br><a rel=\"ugc nofollow\" href=\"https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder\">https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder<\/a> <\/p><p>Modified with smoother edges. <\/p><p>Print as oriented\/vertically<br>Support needed<br>Infill 100% <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Adaptive writing utensil for person using palmer grasp. Opening is approx. 17mm in diameter or approx 11\/16 inches. <\/p><p>This was remixed from design on Cults3D:<br><a rel=\"ugc nofollow\" href=\"https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder\">https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder<\/a> <\/p><p>Modified with smoother edges. <\/p><p>Print as oriented\/vertically<br>Support needed<br>Infill 100% <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Adaptive writing utensil for person using palmer grasp. Opening is approx. 17mm in diameter or approx 11\/16 inches. <\/p><p>This was remixed from design on Cults3D:<br><a rel=\"ugc nofollow\" href=\"https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder\">https:\/\/cults3d.com\/en\/3d-model\/tool\/porte-feutre-pleine-main-pen-holder<\/a> <\/p><p>Modified with smoother edges. <\/p><p>Print as oriented\/vertically<br>Support needed<br>Infill 100% <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6303151\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6303151\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6303151\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6303151\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6303151\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6303151\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "adaptive",
+        "tag": "adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive\/things",
+        "absolute_url": "\/tag:adaptive"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "occupational",
+        "tag": "occupational",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational\/things",
+        "absolute_url": "\/tag:occupational"
+      },
+      {
+        "name": "technology",
+        "tag": "technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+        "count": 386,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+        "absolute_url": "\/tag:technology"
+      },
+      {
+        "name": "therapy",
+        "tag": "therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/therapy",
+        "count": 121,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/therapy\/things",
+        "absolute_url": "\/tag:therapy"
+      },
+      {
+        "name": "Writing",
+        "tag": "writing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/writing",
+        "count": 197,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/writing\/things",
+        "absolute_url": "\/tag:Writing"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6303151\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 75,
+    "view_count": 640,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "screw_top_for_palmer_grasp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/7e\/f8\/d2\/94\/3ce3a1b3-d08e-40d2-9fcd-7c9cf418485e.stl"
+        },
+        {
+          "name": "palmer_grasp_writing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/9c\/ed\/9c\/01\/9a1d5316-729b-45fb-819e-a7b9a75d127a.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "91fb08b4-3202-49b5-b53d-9e00f610d806.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/cf\/4b\/5d\/03\/91fb08b4-3202-49b5-b53d-9e00f610d806.JPG"
+        },
+        {
+          "name": "8ad7934a-b719-4809-825c-31b5e0865a10.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/5f\/f5\/52\/85\/8ad7934a-b719-4809-825c-31b5e0865a10.JPG"
+        },
+        {
+          "name": "efcbdf14-cc62-47e9-8c86-6e6b316c47c6.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/b4\/6b\/4e\/af\/efcbdf14-cc62-47e9-8c86-6e6b316c47c6.jpg"
+        },
+        {
+          "name": "cd845b1e-376a-4c76-b564-c28ee5353446.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/c7\/e5\/35\/fe\/cd845b1e-376a-4c76-b564-c28ee5353446.jpg"
+        },
+        {
+          "name": "18984fcc-d05a-4b2d-9969-8c688c827950.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/4b\/28\/65\/22\/18984fcc-d05a-4b2d-9969-8c688c827950.jpg"
+        },
+        {
+          "name": "9a1d5316-729b-45fb-819e-a7b9a75d127a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/d4\/5c\/77\/70\/9a1d5316-729b-45fb-819e-a7b9a75d127a.png"
+        },
+        {
+          "name": "3ce3a1b3-d08e-40d2-9fcd-7c9cf418485e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/fb\/89\/cf\/0d\/3ce3a1b3-d08e-40d2-9fcd-7c9cf418485e.png"
+        }
+      ]
+    }
+  }
+}
