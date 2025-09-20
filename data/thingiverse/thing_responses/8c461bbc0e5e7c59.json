@@ -1,0 +1,496 @@
+{
+  "created_at": "2025-04-09T19:17:49.538004+00:00",
+  "elapsed": 0.192935,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc58c76ef0f95f-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:17:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 19:47:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw",
+      "_cfuvid": "Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw; _cfuvid=Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6242033?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6242033?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6242033,
+    "name": "Adapted Fingernail Clipper ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/b8\/af\/f2\/1c\/a9\/large_display_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6242033",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6242033",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-09-29T20:08:20+00:00",
+    "modified": "2025-02-20T19:08:41+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 28,
+    "is_liked": false,
+    "collect_count": 29,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19907023,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/50\/48\/d4\/aa\/64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg",
+      "name": "64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/96\/dd\/e4\/bd\/large_thumb_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/50\/7e\/1d\/82\/medium_thumb_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/2a\/65\/9d\/41\/small_thumb_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/99\/16\/a1\/7d\/tiny_thumb_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/6f\/7b\/ab\/82\/featured_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/cb\/b5\/d8\/ec\/card_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/35\/ad\/a6\/8f\/large_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/08\/32\/16\/4b\/medium_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/a0\/1f\/83\/4c\/small_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/2f\/f6\/f7\/b9\/birdwing_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/85\/0f\/73\/c8\/tiny_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/8d\/b5\/f6\/84\/tinycard_preview_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/af\/f2\/1c\/a9\/large_display_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/6e\/4c\/8f\/50\/medium_display_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/7b\/2e\/b5\/79\/small_display_64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        }
+      ],
+      "added": "2023-09-29T19:51:50+00:00"
+    },
+    "description": "Update 2\/20\/25 - Added a new thumb pad marked \"Final\" which should yield smoother finish and print more reliably (see info below) \n\nThis is a remix of a great design (\"Easy To Print Nail Clipper Jig 530564\") by Bluehearthero on Printables.com \n\nAdapted fingernail clipper base securely holds the nail clipper so it can be placed on table. Other hand (fist) can be used to press the lever or can be held in hand. The increased size and shape make it ideal for someone with decreased dexterity and\/or Arthritis.\n\nRedesigned to securely hold generic nail clipper. Added divot and tunnel to accommodate a small zip tie to hold in place. Important to place zip tie between the shaft and cutting surfaces of the clipper. This will provide the necessary down\/rearward force to keep the clipper in place. An indent was also added for some extra clearance when clipping the nail.\n\nThe thumb pad was designed specifically for \"Diane D904 Stainless Steel Nail Clippers\" found on Amazon. The thumb pad has some friction to hold in place, but super glue is added to prevent any slipping. Please note that this nail clipper lever is angled at the end (Not Square Like Others)",
+    "instructions": "",
+    "description_html": "<div><p>Update 2\/20\/25 - Added a new thumb pad marked \"Final\" which should yield smoother finish and print more reliably (see info below) <\/p><p>This is a remix of a great design (\"Easy To Print Nail Clipper Jig 530564\") by Bluehearthero on Printables.com <\/p><p>Adapted fingernail clipper base securely holds the nail clipper so it can be placed on table. Other hand (fist) can be used to press the lever or can be held in hand. The increased size and shape make it ideal for someone with decreased dexterity and\/or Arthritis.<\/p><p>Redesigned to securely hold generic nail clipper. Added divot and tunnel to accommodate a small zip tie to hold in place. Important to place zip tie between the shaft and cutting surfaces of the clipper. This will provide the necessary down\/rearward force to keep the clipper in place. An indent was also added for some extra clearance when clipping the nail.<\/p><p>The thumb pad was designed specifically for \"Diane D904 Stainless Steel Nail Clippers\" found on Amazon. The thumb pad has some friction to hold in place, but super glue is added to prevent any slipping. Please note that this nail clipper lever is angled at the end (Not Square Like Others)<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Update 2\/20\/25 - Added a new thumb pad marked \"Final\" which should yield smoother finish and print more reliably (see info below) <\/p><p>This is a remix of a great design (\"Easy To Print Nail Clipper Jig 530564\") by Bluehearthero on Printables.com <\/p><p>Adapted fingernail clipper base securely holds the nail clipper so it can be placed on table. Other hand (fist) can be used to press the lever or can be held in hand. The increased size and shape make it ideal for someone with decreased dexterity and\/or Arthritis.<\/p><p>Redesigned to securely hold generic nail clipper. Added divot and tunnel to accommodate a small zip tie to hold in place. Important to place zip tie between the shaft and cutting surfaces of the clipper. This will provide the necessary down\/rearward force to keep the clipper in place. An indent was also added for some extra clearance when clipping the nail.<\/p><p>The thumb pad was designed specifically for \"Diane D904 Stainless Steel Nail Clippers\" found on Amazon. The thumb pad has some friction to hold in place, but super glue is added to prevent any slipping. Please note that this nail clipper lever is angled at the end (Not Square Like Others)<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>50% clipper holder, 90% thumb pad<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Print clipper holder as oriented in the STL. Prints well vertically without support. Thumb pad should be printed horizontally with the flat side down. UPDATED Thumb Pad 2\/20\/25 - Print as oriented, vertically, use outside brim, 90% infill, adaptive layer height (orca\/bambu studio slicer). &lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Update 2\/20\/25 - Added a new thumb pad marked \"Final\" which should yield smoother finish and print more reliably (see info below) <\/p><p>This is a remix of a great design (\"Easy To Print Nail Clipper Jig 530564\") by Bluehearthero on Printables.com <\/p><p>Adapted fingernail clipper base securely holds the nail clipper so it can be placed on table. Other hand (fist) can be used to press the lever or can be held in hand. The increased size and shape make it ideal for someone with decreased dexterity and\/or Arthritis.<\/p><p>Redesigned to securely hold generic nail clipper. Added divot and tunnel to accommodate a small zip tie to hold in place. Important to place zip tie between the shaft and cutting surfaces of the clipper. This will provide the necessary down\/rearward force to keep the clipper in place. An indent was also added for some extra clearance when clipping the nail.<\/p><p>The thumb pad was designed specifically for \"Diane D904 Stainless Steel Nail Clippers\" found on Amazon. The thumb pad has some friction to hold in place, but super glue is added to prevent any slipping. Please note that this nail clipper lever is angled at the end (Not Square Like Others)<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "infill": "<div><p>50% clipper holder, 90% thumb pad<\/p><\/div>\n",
+            "notes": "<div><p>Print clipper holder as oriented in the STL. Prints well vertically without support. Thumb pad should be printed horizontally with the flat side down. UPDATED Thumb Pad 2\/20\/25 - Print as oriented, vertically, use outside brim, 90% infill, adaptive layer height (orca\/bambu studio slicer). <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6242033\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6242033\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6242033\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6242033\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6242033\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6242033\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "adapted",
+        "tag": "adapted",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adapted",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adapted\/things",
+        "absolute_url": "\/tag:adapted"
+      },
+      {
+        "name": "arthritis",
+        "tag": "arthritis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arthritis",
+        "count": 103,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arthritis\/things",
+        "absolute_url": "\/tag:arthritis"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "dexterity",
+        "tag": "dexterity",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dexterity",
+        "count": 49,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dexterity\/things",
+        "absolute_url": "\/tag:dexterity"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "limited mobility",
+        "tag": "limited_mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility\/things",
+        "absolute_url": "\/tag:limited_mobility"
+      },
+      {
+        "name": "occupational",
+        "tag": "occupational",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational\/things",
+        "absolute_url": "\/tag:occupational"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "therapy",
+        "tag": "therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/therapy",
+        "count": 121,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/therapy\/things",
+        "absolute_url": "\/tag:therapy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6242033\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 143,
+    "view_count": 878,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "fingernail_clipper_zip_tie_indent_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/62\/91\/88\/d0\/957785c1-17a9-4dbd-ba51-b0d47b884aa5.stl"
+        },
+        {
+          "name": "fingernail_thumb_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/6e\/81\/24\/15\/114f23a2-16fd-45ab-9eee-73e7d28bba19.stl"
+        },
+        {
+          "name": "Vertical_print_fingernail_thumb_small_adapted_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/42\/ae\/a4\/af\/Vertical_print_fingernail_thumb_small_adapted_final.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/50\/48\/d4\/aa\/64f85bb0-6a30-49cb-992c-a9385c1f1544.jpg"
+        },
+        {
+          "name": "e796a85d-8e6b-40f6-8de9-0666f93dd036.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/58\/e8\/5f\/7b\/e796a85d-8e6b-40f6-8de9-0666f93dd036.png"
+        },
+        {
+          "name": "6f839356-3e06-4f60-bbfd-58e71cfd77df.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/10\/cc\/2b\/76\/6f839356-3e06-4f60-bbfd-58e71cfd77df.jpg"
+        },
+        {
+          "name": "ea472ae8-cef1-4003-a902-4f7784192fea.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/ae\/dc\/02\/1f\/ea472ae8-cef1-4003-a902-4f7784192fea.jpg"
+        },
+        {
+          "name": "a39c98e9-b51d-4ae5-8f95-b66eef8fe450.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/87\/4a\/79\/ac\/a39c98e9-b51d-4ae5-8f95-b66eef8fe450.jpg"
+        },
+        {
+          "name": "114f23a2-16fd-45ab-9eee-73e7d28bba19.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/68\/74\/f3\/7a\/114f23a2-16fd-45ab-9eee-73e7d28bba19.png"
+        },
+        {
+          "name": "957785c1-17a9-4dbd-ba51-b0d47b884aa5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/d1\/38\/de\/c2\/957785c1-17a9-4dbd-ba51-b0d47b884aa5.png"
+        },
+        {
+          "name": "c059a676-5765-4e2f-b6a9-eb6df626a4a9.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/55\/ad\/6c\/b3\/c059a676-5765-4e2f-b6a9-eb6df626a4a9.JPG"
+        },
+        {
+          "name": "1832bf73-604c-4c68-b0da-b13e06d24a08.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/c5\/ea\/c1\/12\/1832bf73-604c-4c68-b0da-b13e06d24a08.JPG"
+        },
+        {
+          "name": "Vertical_print_fingernail_thumb_small_adapted_final.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/ce\/18\/5f\/cc\/Vertical_print_fingernail_thumb_small_adapted_final.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "created_at": "2025-04-12T03:32:19.633621+00:00",
+  "elapsed": 0.18329,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa7e5a8b4eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:19 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:19 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1151612?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1151612?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1151612,
+    "name": "Pill Grabber",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1151612",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1151612",
+    "creator": {
+      "id": 362144,
+      "name": "jerrod",
+      "first_name": "Jerrod",
+      "last_name": "Windham",
+      "url": "https:\/\/api.thingiverse.com\/users\/jerrod",
+      "public_url": "https:\/\/www.thingiverse.com\/jerrod",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9b\/aa\/8a\/66\/35\/d5adb6ad5c3245a3b68afd113b8c326f_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 24,
+      "count_of_designs": 12,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Auburn",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/e5\/ea\/32\/e1\/8f\/5c64fdf7eeeea1fb613197c15745088c_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-11-23T21:03:10+00:00",
+    "modified": "2015-11-23T21:03:10+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 134,
+    "is_liked": false,
+    "collect_count": 282,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 2919637,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/b5\/b1\/c5\/f4\/Pill_Grabber2.jpg",
+      "name": "Pill_Grabber2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/27\/4a\/4b\/99\/Pill_Grabber2_display_small.jpg"
+        }
+      ],
+      "added": "2015-11-23T21:13:59+00:00"
+    },
+    "description": "This was designed by the Auburn University Assistive Technology Design Lab as a part of the AT design collaboration.  Our students worked with a disabled military veteran who used a wheelchair and had somewhat limited dexterity.  Daily, our client\/user took prescription medicine and would often drop one or more, resulting in quite a challenge.  While a number of telescoping \"grabbers\" existed on the market (claws, adhesive, magnetic), none were specialized to pick up tiny items with the geometry of prescription medicine.\r\n\r\nNote:  The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.\r\n\r\nWe used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.\r\n\r\nHere's the link:  http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&ie=UTF8&qid=1448312299&sr=1-5&keywords=tekton+telescoping+magnet\r\n\r\nContributing Students:  Philip Denton, Camille DeShazo, and David Goggans.\r\nSupervising Faculty:  Jerrod Windham\r\n\r\nDesign Lab Website:  http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63",
+    "instructions": "",
+    "description_html": "<div><p>This was designed by the Auburn University Assistive Technology Design Lab as a part of the AT design collaboration.  Our students worked with a disabled military veteran who used a wheelchair and had somewhat limited dexterity.  Daily, our client\/user took prescription medicine and would often drop one or more, resulting in quite a challenge.  While a number of telescoping \"grabbers\" existed on the market (claws, adhesive, magnetic), none were specialized to pick up tiny items with the geometry of prescription medicine.<\/p><p>Note:  The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.<\/p><p>We used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.<\/p><p>Here's the link:  <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet\">http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet<\/a><\/p><p>Contributing Students:  Philip Denton, Camille DeShazo, and David Goggans.<br>Supervising Faculty:  Jerrod Windham<\/p><p>Design Lab Website:  <a rel=\"ugc nofollow\" href=\"http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63\">http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This was designed by the Auburn University Assistive Technology Design Lab as a part of the AT design collaboration.  Our students worked with a disabled military veteran who used a wheelchair and had somewhat limited dexterity.  Daily, our client\/user took prescription medicine and would often drop one or more, resulting in quite a challenge.  While a number of telescoping \"grabbers\" existed on the market (claws, adhesive, magnetic), none were specialized to pick up tiny items with the geometry of prescription medicine.<\/p><p>Note:  The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.<\/p><p>We used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.<\/p><p>Here's the link:  <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet\">http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet<\/a><\/p><p>Contributing Students:  Philip Denton, Camille DeShazo, and David Goggans.<br>Supervising Faculty:  Jerrod Windham<\/p><p>Design Lab Website:  <a rel=\"ugc nofollow\" href=\"http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63\">http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator 2X&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Connect to Existing Telescoping Handle<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;We used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.&lt;\/p&gt;&lt;p&gt;Here's the link:  &lt;a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;amp;ie=UTF8&amp;amp;qid=1448312299&amp;amp;sr=1-5&amp;amp;keywords=tekton+telescoping+magnet\"&gt;http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;amp;ie=UTF8&amp;amp;qid=1448312299&amp;amp;sr=1-5&amp;amp;keywords=tekton+telescoping+magnet&lt;\/a&gt;&lt;\/p&gt;&lt;p&gt;It would be &lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This was designed by the Auburn University Assistive Technology Design Lab as a part of the AT design collaboration.  Our students worked with a disabled military veteran who used a wheelchair and had somewhat limited dexterity.  Daily, our client\/user took prescription medicine and would often drop one or more, resulting in quite a challenge.  While a number of telescoping \"grabbers\" existed on the market (claws, adhesive, magnetic), none were specialized to pick up tiny items with the geometry of prescription medicine.<\/p><p>Note:  The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.<\/p><p>We used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.<\/p><p>Here's the link:  <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet\">http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet<\/a><\/p><p>Contributing Students:  Philip Denton, Camille DeShazo, and David Goggans.<br>Supervising Faculty:  Jerrod Windham<\/p><p>Design Lab Website:  <a rel=\"ugc nofollow\" href=\"http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63\">http:\/\/cadc.auburn.edu\/explore-cadc\/portfolios\/view\/63<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>\n",
+            "printer": "<div><p>MakerBot Replicator 2X<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "notes": "<div><p>The grabber head was printed with NinjaFlex and the connector part was printed with ABS, though PLA should work.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Connect to Existing Telescoping Handle",
+            "content": "<div><p>We used an existing tool for the telescoping handle.  It was less than $15 from Amazon.  The model we used was a 'TEKTON 7605 8-lb. Telescoping Magnetic Pickup Tool'.<\/p><p>Here's the link:  <a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet\">http:\/\/www.amazon.com\/TEKTON-7605-Telescoping-Magnetic-Pickup\/dp\/B0043227UM\/ref=sr_1_5?s=hi&amp;ie=UTF8&amp;qid=1448312299&amp;sr=1-5&amp;keywords=tekton+telescoping+magnet<\/a><\/p><p>It would be <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1151612\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1151612\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1151612\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1151612\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1151612\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1151612\/tags",
+    "tags": [
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "elderly",
+        "tag": "elderly",
+        "url": "https:\/\/api.thingiverse.com\/tags\/elderly",
+        "count": 37,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/elderly\/things",
+        "absolute_url": "\/tag:elderly"
+      },
+      {
+        "name": "medicine",
+        "tag": "medicine",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medicine",
+        "count": 434,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medicine\/things",
+        "absolute_url": "\/tag:medicine"
+      },
+      {
+        "name": "velcro",
+        "tag": "velcro",
+        "url": "https:\/\/api.thingiverse.com\/tags\/velcro",
+        "count": 186,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/velcro\/things",
+        "absolute_url": "\/tag:velcro"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1151612\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 814,
+    "view_count": 4822,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Pill_Grabber_V3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/be\/ab\/2e\/7f\/Pill_Grabber_V3.STL"
+        },
+        {
+          "name": "Pill_Grabber_Connector_V3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/9a\/3c\/c4\/a8\/Pill_Grabber_Connector_V3.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Pill_Grabber2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/b5\/b1\/c5\/f4\/Pill_Grabber2.jpg"
+        },
+        {
+          "name": "Pill_Grabber_V3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/43\/5d\/d7\/65\/Pill_Grabber_V3.png"
+        },
+        {
+          "name": "Pill_Grabber_Connector_V3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/2c\/9e\/71\/bc\/Pill_Grabber_Connector_V3.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "created_at": "2025-04-14T03:39:41.379374+00:00",
+  "elapsed": 0.199603,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d6e6d4aeb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2107926?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2107926?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2107926,
+    "name": "Trackball mouse",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2107926",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2107926",
+    "creator": {
+      "id": 765168,
+      "name": "GabrielaB",
+      "first_name": "Gabriela",
+      "last_name": "Bravo",
+      "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+      "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+      "count_of_followers": 125,
+      "count_of_following": 15,
+      "count_of_designs": 19,
+      "collection_count": 6,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "California",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-02-13T21:10:51+00:00",
+    "modified": "2017-02-13T21:10:51+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 89,
+    "is_liked": false,
+    "collect_count": 172,
+    "is_collected": false,
+    "comment_count": 12,
+    "is_watched": false,
+    "default_image": {
+      "id": 5416255,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/e6\/e4\/80\/17\/2017-01-23_17.43.29.jpg",
+      "name": "2017-01-23_17.43.29.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/39\/9b\/2c\/a7\/970d029af77d73308d1f559a5b5ba60e_display_small.jpg"
+        }
+      ],
+      "added": "2017-02-13T21:08:07+00:00"
+    },
+    "description": "This project have instructions to transform a conventional optical mouse into a trackball mouse. A Trackball mouse allows people with reduced hand\/arm mobility control a computer.\r\n\r\nIt is very important for the function of the trackball mouse that the center of the mouse's laser should touch (or be very near) to the ball.\r\n\r\nYou will need to download this software (http:\/\/hp.vector.co.jp\/authors\/VA026826\/ ) in order to reverse the direction of the mouse. It is recommended slow down the mouse speed.\r\n\r\nThis object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.",
+    "instructions": "",
+    "description_html": "<div><p>This project have instructions to transform a conventional optical mouse into a trackball mouse. A Trackball mouse allows people with reduced hand\/arm mobility control a computer.<\/p><p>It is very important for the function of the trackball mouse that the center of the mouse's laser should touch (or be very near) to the ball.<\/p><p>You will need to download this software (<a rel=\"ugc nofollow\" href=\"http:\/\/hp.vector.co.jp\/authors\/VA026826\/\">http:\/\/hp.vector.co.jp\/authors\/VA026826\/<\/a> ) in order to reverse the direction of the mouse. It is recommended slow down the mouse speed.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This project have instructions to transform a conventional optical mouse into a trackball mouse. A Trackball mouse allows people with reduced hand\/arm mobility control a computer.<\/p><p>It is very important for the function of the trackball mouse that the center of the mouse's laser should touch (or be very near) to the ball.<\/p><p>You will need to download this software (<a rel=\"ugc nofollow\" href=\"http:\/\/hp.vector.co.jp\/authors\/VA026826\/\">http:\/\/hp.vector.co.jp\/authors\/VA026826\/<\/a> ) in order to reverse the direction of the mouse. It is recommended slow down the mouse speed.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.3mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>The resolution for all parts except the ball is 0.3mm. The ball should be very smooth, so it is recommended to print it with 0.1mm resolution and sand it after print.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/f2\/de\/57\/b1\/74\/trackball.png\" alt=\"image\"><\/p><pre><code>                &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Assemble&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;ol&gt;&lt;li&gt;Take off the circuit of an optic mouse. 2. Weld wires to each pin of the switch of the right and left button. 3. Weld a flat switch at the end of the wires (One for each button). 4. Put the circuit inside the \"Box Mouse\", you can fix it with silicone or melt some PLA like in the picture. 5. Fix the \"Box Mouse\" to the \"Box Big\". 6. Fix the \"Switch Base\" on the \"Box Big\" and fix the flat switch to them. 7. Put over the flat switch the printed Switch, and fix the \"Ball Base\" where is indicated in the picture. 8. Place the Ball over. 9 Fix the \"Box Top\". 10. Optionally you can stick something anti-slip at the bottom&lt;\/li&gt;&lt;\/ol&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This project have instructions to transform a conventional optical mouse into a trackball mouse. A Trackball mouse allows people with reduced hand\/arm mobility control a computer.<\/p><p>It is very important for the function of the trackball mouse that the center of the mouse's laser should touch (or be very near) to the ball.<\/p><p>You will need to download this software (<a rel=\"ugc nofollow\" href=\"http:\/\/hp.vector.co.jp\/authors\/VA026826\/\">http:\/\/hp.vector.co.jp\/authors\/VA026826\/<\/a> ) in order to reverse the direction of the mouse. It is recommended slow down the mouse speed.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>15<\/p><\/div>\n",
+            "notes": "<div><p>The resolution for all parts except the ball is 0.3mm. The ball should be very smooth, so it is recommended to print it with 0.1mm resolution and sand it after print.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/f2\/de\/57\/b1\/74\/trackball.png",
+            "image_id": "28491"
+          },
+          {
+            "title": "Assemble",
+            "content": "<div><ol><li>Take off the circuit of an optic mouse. 2. Weld wires to each pin of the switch of the right and left button. 3. Weld a flat switch at the end of the wires (One for each button). 4. Put the circuit inside the \"Box Mouse\", you can fix it with silicone or melt some PLA like in the picture. 5. Fix the \"Box Mouse\" to the \"Box Big\". 6. Fix the \"Switch Base\" on the \"Box Big\" and fix the flat switch to them. 7. Put over the flat switch the printed Switch, and fix the \"Ball Base\" where is indicated in the picture. 8. Place the Ball over. 9 Fix the \"Box Top\". 10. Optionally you can stick something anti-slip at the bottom<\/li><\/ol><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2107926\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2107926\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2107926\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2107926\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2107926\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2107926\/tags",
+    "tags": [
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 61,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assitive technology",
+        "tag": "assitive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology",
+        "count": 38,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology\/things",
+        "absolute_url": "\/tag:assitive_technology"
+      },
+      {
+        "name": "computer",
+        "tag": "computer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer",
+        "count": 4224,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer\/things",
+        "absolute_url": "\/tag:computer"
+      },
+      {
+        "name": "Computer Accessories",
+        "tag": "computer_accessories",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer_accessories",
+        "count": 1582,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer_accessories\/things",
+        "absolute_url": "\/tag:Computer_Accessories"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "mouse",
+        "tag": "mouse",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mouse",
+        "count": 1717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mouse\/things",
+        "absolute_url": "\/tag:mouse"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "trackball",
+        "tag": "trackball",
+        "url": "https:\/\/api.thingiverse.com\/tags\/trackball",
+        "count": 99,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/trackball\/things",
+        "absolute_url": "\/tag:trackball"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2107926\/categories",
+    "file_count": 8,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1214,
+    "view_count": 3425,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Switch_base.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/11\/46\/35\/6e\/Switch_base.STL"
+        },
+        {
+          "name": "ball_base.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/fb\/13\/06\/6e\/ball_base.STL"
+        },
+        {
+          "name": "Box_Mouse.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/70\/69\/43\/20\/Box_Mouse.STL"
+        },
+        {
+          "name": "Switch.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/a3\/5b\/0b\/4d\/Switch.STL"
+        },
+        {
+          "name": "box_big.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/5a\/fd\/8a\/da\/box_big.STL"
+        },
+        {
+          "name": "Box_Mouse_Bottom.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/3c\/8a\/41\/bb\/Box_Mouse_Bottom.STL"
+        },
+        {
+          "name": "Ball.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/d3\/22\/f1\/1c\/Ball.STL"
+        },
+        {
+          "name": "Box_Top.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/68\/52\/db\/c2\/Box_Top.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "2017-01-23_17.43.29.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/e6\/e4\/80\/17\/2017-01-23_17.43.29.jpg"
+        },
+        {
+          "name": "2017-01-24_10.26.05.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/e2\/98\/d6\/3b\/2017-01-24_10.26.05.jpg"
+        },
+        {
+          "name": "1f8c79680dc7fce9b9cc7e18cf134235.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/2c\/0e\/08\/a3\/1f8c79680dc7fce9b9cc7e18cf134235.png"
+        },
+        {
+          "name": "945146422414ce0fe7a7caf02b5c3aac.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/76\/0f\/9e\/4b\/945146422414ce0fe7a7caf02b5c3aac.png"
+        },
+        {
+          "name": "04f029b0d0dea2066274fa6e4bfc2af6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/f6\/35\/cd\/0c\/04f029b0d0dea2066274fa6e4bfc2af6.png"
+        },
+        {
+          "name": "ca28921fce2aa8e045faed02fc270fb4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e7\/dd\/a7\/09\/45\/ca28921fce2aa8e045faed02fc270fb4.png"
+        },
+        {
+          "name": "b2d55109ef86f1d2f35afcda166e77d0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c8\/91\/07\/a2\/f5\/b2d55109ef86f1d2f35afcda166e77d0.png"
+        },
+        {
+          "name": "b999dad56e76b3e02bd3c412d0a0f1e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/45\/c0\/25\/30\/b999dad56e76b3e02bd3c412d0a0f1e2.png"
+        },
+        {
+          "name": "b54e35d7d4fe44e6783a1c5e3d2670a7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/d6\/ee\/d6\/58\/b54e35d7d4fe44e6783a1c5e3d2670a7.png"
+        },
+        {
+          "name": "a4f57dbb8bda5c611e0d9395ec89bd0c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ba\/96\/f6\/2a\/bb\/a4f57dbb8bda5c611e0d9395ec89bd0c.png"
+        }
+      ]
+    }
+  }
+}
