@@ -1,0 +1,411 @@
+{
+  "created_at": "2025-04-17T03:32:40.092017+00:00",
+  "elapsed": 0.1347,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318db45ba4981d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:40 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:40 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699364?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3699364?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3699364,
+    "name": "Smartphone holder for magnifying",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699364",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3699364",
+    "creator": {
+      "id": 2652477,
+      "name": "ntaufscar",
+      "first_name": "NTA",
+      "last_name": "UFSCar Campus Sorocaba",
+      "url": "https:\/\/api.thingiverse.com\/users\/ntaufscar",
+      "public_url": "https:\/\/www.thingiverse.com\/ntaufscar",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/78\/64\/6b\/10\/0677fe0ca2f244ce0c2264d6557c3057_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sorocaba, S\u00e3o Paulo, Brazil",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/1e\/a8\/f6\/84\/d62608f0b1b91c7c29beb0b93c3a3ba8_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-18T18:06:27+00:00",
+    "modified": "2019-06-18T18:06:27+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 10,
+    "is_liked": false,
+    "collect_count": 29,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10995380,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/09\/1f\/28\/ce\/DSC05272.JPG",
+      "name": "DSC05272.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/26\/d5\/3c\/d9\/136655cda57a8200fce318cd800dadb3_display_small.JPG"
+        }
+      ],
+      "added": "2019-06-18T17:59:19+00:00"
+    },
+    "description": "This holder coupled to a smartphone with a magnifier app can accomplish the function of electronic magnifiers. In order to use the device it is necessary to employ a screw and a rubber string.\r\nThis assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.\r\n\r\nThe research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.",
+    "instructions": "",
+    "description_html": "<div><p>This holder coupled to a smartphone with a magnifier app can accomplish the function of electronic magnifiers. In order to use the device it is necessary to employ a screw and a rubber string.<br>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S&atilde;o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert&aacute;til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This holder coupled to a smartphone with a magnifier app can accomplish the function of electronic magnifiers. In order to use the device it is necessary to employ a screw and a rubber string.<br>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S&atilde;o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert&aacute;til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This holder coupled to a smartphone with a magnifier app can accomplish the function of electronic magnifiers. In order to use the device it is necessary to employ a screw and a rubber string.<br>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S&atilde;o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert&aacute;til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3699364\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3699364\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3699364\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3699364\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3699364\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3699364\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3699364\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 520,
+    "view_count": 560,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "case.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/da\/aa\/33\/cf\/case.stl"
+        },
+        {
+          "name": "base_axis.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/d1\/5c\/86\/f5\/base_axis.stl"
+        },
+        {
+          "name": "foot_base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/ee\/8a\/a7\/57\/foot_base.stl"
+        },
+        {
+          "name": "holder_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/ed\/d4\/a1\/4d\/holder_1.stl"
+        },
+        {
+          "name": "holder_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/05\/54\/dc\/fc\/holder_2.stl"
+        },
+        {
+          "name": "nut_cap.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/af\/d9\/27\/a9\/nut_cap.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "DSC05272.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/09\/1f\/28\/ce\/DSC05272.JPG"
+        },
+        {
+          "name": "b113be9bd57ac6d30e9a13bd3e7646c6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/01\/41\/7b\/b2\/35\/b113be9bd57ac6d30e9a13bd3e7646c6.png"
+        },
+        {
+          "name": "590fe42e21120de9a7f21f96b96ba4fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/48\/48\/53\/eb\/590fe42e21120de9a7f21f96b96ba4fc.png"
+        },
+        {
+          "name": "bd4bf8f93546eca93f5fdb68292b6051.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f5\/1e\/3d\/fe\/29\/bd4bf8f93546eca93f5fdb68292b6051.png"
+        },
+        {
+          "name": "d506f63c7f6f76bc53067bf293b25bcd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/32\/27\/ad\/37\/d506f63c7f6f76bc53067bf293b25bcd.png"
+        },
+        {
+          "name": "18dd2cabd915268584fc9d2443bb5192.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/de\/cf\/83\/0a\/e6\/18dd2cabd915268584fc9d2443bb5192.png"
+        },
+        {
+          "name": "f812ef11c903865b3f86e0fa41976424.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/9d\/56\/9f\/f3\/f812ef11c903865b3f86e0fa41976424.png"
+        },
+        {
+          "name": "IMG-20180406-WA0046.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/f0\/c6\/b3\/38\/IMG-20180406-WA0046.jpg"
+        }
+      ]
+    }
+  }
+}

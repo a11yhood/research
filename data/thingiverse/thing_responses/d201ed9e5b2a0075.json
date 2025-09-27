@@ -1,0 +1,432 @@
+{
+  "created_at": "2025-07-15T03:58:35.753186+00:00",
+  "elapsed": 0.139044,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657a09fc4f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:35 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:35 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2644335?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2644335?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2644335,
+    "name": "Power Chair Dog Walker (Permobil-compatible)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2644335",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2644335",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-11-14T02:41:49+00:00",
+    "modified": "2017-11-14T02:41:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 21,
+    "is_liked": false,
+    "collect_count": 36,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7059161,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/2d\/6c\/88\/a3\/WithWalker.jpg",
+      "name": "WithWalker.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/de\/1e\/01\/3f\/d2bc1d1bc8ea26fc22950c28db32cee6_display_small.jpg"
+        }
+      ],
+      "added": "2017-11-14T02:41:25+00:00"
+    },
+    "description": "This mounting pole attaches to a Permobil mounting rail.  It allows you to attach a dog walking pole to your power chair and take a dog for a walk.  It is necessary because the dog walker is expecting to attach to a bike seat post and there's no vertical post like that on a power chair.\r\n\r\nHere's a link to the dog walker pole https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&psc=1\r\n\r\nThis adapter is sized just a bit smaller than necessary so that it can also hold a standard 1\" PVC pipe as seen in the rendering.  ",
+    "instructions": "",
+    "description_html": "<div><p>This mounting pole attaches to a Permobil mounting rail.  It allows you to attach a dog walking pole to your power chair and take a dog for a walk.  It is necessary because the dog walker is expecting to attach to a bike seat post and there's no vertical post like that on a power chair.<\/p><p>Here's a link to the dog walker pole <a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1\">https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1<\/a><\/p><p>This adapter is sized just a bit smaller than necessary so that it can also hold a standard 1\" PVC pipe as seen in the rendering.  <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This mounting pole attaches to a Permobil mounting rail.  It allows you to attach a dog walking pole to your power chair and take a dog for a walk.  It is necessary because the dog walker is expecting to attach to a bike seat post and there's no vertical post like that on a power chair.<\/p><p>Here's a link to the dog walker pole <a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1\">https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1<\/a><\/p><p>This adapter is sized just a bit smaller than necessary so that it can also hold a standard 1\" PVC pipe as seen in the rendering.  <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;.200&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;This was printed using PETG for strength.  Other options would be ABS or carbon fiber.  PLA will likely be too brittle.&lt;\/p&gt;&lt;p&gt;Print with pole pointing up for best results (supports may be needed for the holes).&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>This is designed in Fusion 360.  The .f3d export file is included in the files list.  That also includes the track I modeled and the screws we imported from Master Carr<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This mounting pole attaches to a Permobil mounting rail.  It allows you to attach a dog walking pole to your power chair and take a dog for a walk.  It is necessary because the dog walker is expecting to attach to a bike seat post and there's no vertical post like that on a power chair.<\/p><p>Here's a link to the dog walker pole <a rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1\">https:\/\/www.amazon.com\/gp\/product\/B003OYIAW4\/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1<\/a><\/p><p>This adapter is sized just a bit smaller than necessary so that it can also hold a standard 1\" PVC pipe as seen in the rendering.  <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>Creator Pro<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "resolution": "<div><p>.200<\/p><\/div>",
+            "infill": "<div><p>30%<\/p><\/div>",
+            "notes": "<div><p>This was printed using PETG for strength.  Other options would be ABS or carbon fiber.  PLA will likely be too brittle.<\/p><p>Print with pole pointing up for best results (supports may be needed for the holes).<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>This is designed in Fusion 360.  The .f3d export file is included in the files list.  That also includes the track I modeled and the screws we imported from Master Carr<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2644335\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2644335\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2644335\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2644335\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2644335\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2644335\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2644335\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 371,
+    "view_count": 827,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Dog_Walker_Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/d5\/22\/53\/11\/Dog_Walker_Bracket.stl"
+        },
+        {
+          "name": "Wheelchair_Mount_v15.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/26\/04\/ff\/f0\/Wheelchair_Mount_v15.f3d"
+        },
+        {
+          "name": "Dog_Walker_Mount.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/dc\/0e\/b7\/e5\/Dog_Walker_Mount.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "WithWalker.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/2d\/6c\/88\/a3\/WithWalker.jpg"
+        },
+        {
+          "name": "SideView.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/37\/0b\/4a\/14\/SideView.jpg"
+        },
+        {
+          "name": "CloseUp.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/02\/23\/a2\/3b\/CloseUp.jpg"
+        },
+        {
+          "name": "PVC_Pipe.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/6b\/fe\/d1\/fb\/PVC_Pipe.png"
+        },
+        {
+          "name": "Wheelchair_Mount_v15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/f8\/c7\/05\/20\/Wheelchair_Mount_v15.png"
+        },
+        {
+          "name": "b90e9920a2fefbff649600b7f0f3842e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/4e\/8f\/b6\/6a\/b90e9920a2fefbff649600b7f0f3842e.png"
+        }
+      ]
+    }
+  }
+}

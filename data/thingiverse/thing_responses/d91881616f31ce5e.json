@@ -1,0 +1,537 @@
+{
+  "created_at": "2025-07-17T03:56:58.944567+00:00",
+  "elapsed": 0.127094,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9606d0039826f28b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Jul 2025 03:56:58 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Jul 2025 04:26:58 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "X73kleTkJ25aBkLUTKaYt3VX7S2WzN59pKxPbD4Q3SM-1752724531-1.0.1.1-ZdBDl0d8Xmo7u43ek2F9YpY5qv4JzvHO_yA20eLbC9QbfPewVgwhqF5bydxKArWk66.LGVzdv8O2ggfs4NKvpf49qBxsVreF1FOTqwSARe8",
+      "_cfuvid": "MF6ULCAZu1wwaenW5F_.fNTYCwfh5U55u1RYxv9FbRE-1752724531098-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=X73kleTkJ25aBkLUTKaYt3VX7S2WzN59pKxPbD4Q3SM-1752724531-1.0.1.1-ZdBDl0d8Xmo7u43ek2F9YpY5qv4JzvHO_yA20eLbC9QbfPewVgwhqF5bydxKArWk66.LGVzdv8O2ggfs4NKvpf49qBxsVreF1FOTqwSARe8; _cfuvid=MF6ULCAZu1wwaenW5F_.fNTYCwfh5U55u1RYxv9FbRE-1752724531098-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/7088161?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/7088161?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 7088161,
+    "name": "Universal Modular Tablet Stand",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/49\/35\/67\/72\/5c\/large_display_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/7088161",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:7088161",
+    "creator": {
+      "id": 8604157,
+      "name": "GlenroseRehabilitation",
+      "first_name": "Glenrose",
+      "last_name": "Rehabtech",
+      "url": "https:\/\/api.thingiverse.com\/users\/GlenroseRehabilitation",
+      "public_url": "https:\/\/www.thingiverse.com\/GlenroseRehabilitation",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/74\/4a\/c4\/c5\/6b\/download_2.jpg",
+      "count_of_followers": 3,
+      "count_of_following": 0,
+      "count_of_designs": 59,
+      "collection_count": 14,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/4a\/39\/a1\/df\/21\/download.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2025-07-10T21:12:57+00:00",
+    "modified": "2025-07-10T21:12:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 0,
+    "is_liked": false,
+    "collect_count": 1,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 22858662,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/64\/6c\/6b\/6c\/720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg",
+      "name": "720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/bc\/a7\/3e\/f7\/large_thumb_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/9c\/ac\/63\/03\/medium_thumb_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/db\/12\/01\/65\/small_thumb_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/09\/97\/ba\/89\/tiny_thumb_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/4d\/41\/be\/2a\/featured_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/e2\/12\/63\/fe\/card_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/4f\/8b\/b4\/16\/large_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/d4\/5a\/ef\/70\/medium_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/81\/53\/e1\/a9\/small_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/16\/52\/ff\/2b\/birdwing_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/b0\/d6\/71\/fa\/tiny_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/2a\/ed\/5c\/db\/tinycard_preview_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/35\/67\/72\/5c\/large_display_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/2e\/76\/a1\/08\/medium_display_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/04\/9a\/36\/68\/small_display_720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        }
+      ],
+      "added": "2025-07-10T21:12:55+00:00"
+    },
+    "description": "This tablet stand is capable of being customized to fit a myriad of different devices. This is thanks to its modular design allowing for parts to be locked in specific positions. This is ideal for iPads, Galaxy Tabs and any similar products available. As a customizable design, it is not just limited as a tablet stand but can be used in whatever way you see fit - perhaps some form of storage or a useful object for another electronic device.\n\nThis product will come unassembled and unpainted when you buy it. We encourage you to be creative, personalize it as you wish. Express your awesomeness and share a picture of the final result with us!\n\nUnless you have a particular request, the colour of your print will be chosen at random and will be printed in either ABS or PLA filament.\n\nOriginal website: https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351",
+    "instructions": "",
+    "description_html": "<div><p>This tablet stand is capable of being customized to fit a myriad of different devices. This is thanks to its modular design allowing for parts to be locked in specific positions. This is ideal for iPads, Galaxy Tabs and any similar products available. As a customizable design, it is not just limited as a tablet stand but can be used in whatever way you see fit - perhaps some form of storage or a useful object for another electronic device.<\/p><p>This product will come unassembled and unpainted when you buy it. We encourage you to be creative, personalize it as you wish. Express your awesomeness and share a picture of the final result with us!<\/p><p>Unless you have a particular request, the colour of your print will be chosen at random and will be printed in either ABS or PLA filament.<\/p><p>Original website: <a rel=\"nofollow\" href=\"https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351\">https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This tablet stand is capable of being customized to fit a myriad of different devices. This is thanks to its modular design allowing for parts to be locked in specific positions. This is ideal for iPads, Galaxy Tabs and any similar products available. As a customizable design, it is not just limited as a tablet stand but can be used in whatever way you see fit - perhaps some form of storage or a useful object for another electronic device.<\/p><p>This product will come unassembled and unpainted when you buy it. We encourage you to be creative, personalize it as you wish. Express your awesomeness and share a picture of the final result with us!<\/p><p>Unless you have a particular request, the colour of your print will be chosen at random and will be printed in either ABS or PLA filament.<\/p><p>Original website: <a rel=\"nofollow\" href=\"https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351\">https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p><br>                        <\/p><p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>Printed at 0.2MM Resolution with 15% Infill. This takes 12 Hours 20 Minutes.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This tablet stand is capable of being customized to fit a myriad of different devices. This is thanks to its modular design allowing for parts to be locked in specific positions. This is ideal for iPads, Galaxy Tabs and any similar products available. As a customizable design, it is not just limited as a tablet stand but can be used in whatever way you see fit - perhaps some form of storage or a useful object for another electronic device.<\/p><p>This product will come unassembled and unpainted when you buy it. We encourage you to be creative, personalize it as you wish. Express your awesomeness and share a picture of the final result with us!<\/p><p>Unless you have a particular request, the colour of your print will be chosen at random and will be printed in either ABS or PLA filament.<\/p><p>Original website: <a rel=\"nofollow\" href=\"https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351\">https:\/\/www.myminifactory.com\/object\/3d-print-universal-modular-tablet-stand-3351<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "notes": "<div><p>Printed at 0.2MM Resolution with 15% Infill. This takes 12 Hours 20 Minutes.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/7088161\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/7088161\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/7088161\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/7088161\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/7088161\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/7088161\/tags",
+    "tags": [
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 699,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 909,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "iPad",
+        "tag": "ipad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ipad",
+        "count": 1835,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad\/things",
+        "absolute_url": "\/tag:iPad"
+      },
+      {
+        "name": "ipad holder",
+        "tag": "ipad_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ipad_holder",
+        "count": 517,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad_holder\/things",
+        "absolute_url": "\/tag:ipad_holder"
+      },
+      {
+        "name": "iPad Stand",
+        "tag": "ipad_stand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ipad_stand",
+        "count": 897,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad_stand\/things",
+        "absolute_url": "\/tag:iPad_Stand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/7088161\/categories",
+    "file_count": 15,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": 1926,
+    "download_count": 3,
+    "view_count": 44,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Parts-A0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/00\/b3\/ac\/72\/Parts-A0001.stl"
+        },
+        {
+          "name": "Parts-A0002.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/0d\/50\/18\/6b\/Parts-A0002.stl"
+        },
+        {
+          "name": "Parts-B0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/2b\/7f\/bd\/7d\/Parts-B0001.stl"
+        },
+        {
+          "name": "Parts-B0002.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/dc\/f1\/8a\/c4\/Parts-B0002.stl"
+        },
+        {
+          "name": "Parts-C0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/47\/6e\/5b\/eb\/Parts-C0001.stl"
+        },
+        {
+          "name": "Parts-C0002.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/50\/89\/45\/17\/Parts-C0002.stl"
+        },
+        {
+          "name": "Parts-C0003.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/87\/f6\/e7\/8d\/Parts-C0003.stl"
+        },
+        {
+          "name": "Parts-D0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/79\/90\/78\/78\/Parts-D0001.stl"
+        },
+        {
+          "name": "Parts-D0002.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/25\/45\/56\/bf\/Parts-D0002.stl"
+        },
+        {
+          "name": "Parts-D0003.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/e7\/b1\/3c\/be\/Parts-D0003.stl"
+        },
+        {
+          "name": "Parts-D0004.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/ca\/13\/54\/45\/Parts-D0004.stl"
+        },
+        {
+          "name": "Parts-D0005.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/b8\/b9\/e1\/2b\/Parts-D0005.stl"
+        },
+        {
+          "name": "Parts-E0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/a1\/d6\/ba\/9a\/Parts-E0001.stl"
+        },
+        {
+          "name": "Parts-F0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/44\/25\/af\/0f\/Parts-F0001.stl"
+        },
+        {
+          "name": "Parts-J0001.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/15\/ba\/c0\/b0\/Parts-J0001.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/64\/6c\/6b\/6c\/720X720-e896aa550bc99bfc8332e18d49673163f6fef181.jpeg"
+        },
+        {
+          "name": "720X720-e6d7c0f97566a0f7d9f3761063a933524ce90738.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/52\/2f\/e4\/06\/720X720-e6d7c0f97566a0f7d9f3761063a933524ce90738.jpg"
+        },
+        {
+          "name": "720X720-b33d618c8026ce544efeb79700c45ece9f3bbfd9.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/4f\/7d\/b1\/1f\/720X720-b33d618c8026ce544efeb79700c45ece9f3bbfd9.jpg"
+        },
+        {
+          "name": "720X720-682bf70f104be5c7591cd1a449e62967d8260a00.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/3f\/19\/46\/45\/720X720-682bf70f104be5c7591cd1a449e62967d8260a00.jpg"
+        },
+        {
+          "name": "Parts-C0003.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/12\/09\/c2\/3a\/Parts-C0003.png"
+        },
+        {
+          "name": "Parts-D0003.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/e5\/70\/83\/ca\/Parts-D0003.png"
+        },
+        {
+          "name": "Parts-D0005.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/5a\/41\/d6\/45\/Parts-D0005.png"
+        },
+        {
+          "name": "Parts-E0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/9d\/cf\/42\/57\/Parts-E0001.png"
+        },
+        {
+          "name": "Parts-A0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/fe\/4f\/60\/bc\/Parts-A0001.png"
+        },
+        {
+          "name": "Parts-A0002.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/69\/d2\/3c\/1e\/Parts-A0002.png"
+        },
+        {
+          "name": "Parts-B0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/48\/6e\/d7\/76\/Parts-B0001.png"
+        },
+        {
+          "name": "Parts-J0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/12\/a2\/83\/71\/Parts-J0001.png"
+        },
+        {
+          "name": "Parts-F0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/0f\/af\/fc\/36\/Parts-F0001.png"
+        },
+        {
+          "name": "Parts-B0002.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/63\/dc\/4b\/1b\/Parts-B0002.png"
+        },
+        {
+          "name": "Parts-C0002.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/48\/a4\/7e\/5a\/Parts-C0002.png"
+        },
+        {
+          "name": "Parts-C0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/d9\/17\/d3\/68\/Parts-C0001.png"
+        },
+        {
+          "name": "Parts-D0004.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/fc\/c8\/32\/0f\/Parts-D0004.png"
+        },
+        {
+          "name": "Parts-D0001.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/e1\/b9\/2f\/3d\/Parts-D0001.png"
+        },
+        {
+          "name": "Parts-D0002.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/0a\/e1\/c0\/e9\/Parts-D0002.png"
+        }
+      ]
+    }
+  }
+}

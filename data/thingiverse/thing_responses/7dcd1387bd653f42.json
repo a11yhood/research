@@ -1,0 +1,480 @@
+{
+  "created_at": "2025-04-14T03:39:53.809022+00:00",
+  "elapsed": 0.181872,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "93002dbc3a08eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:53 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:53 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4940298?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4940298?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4940298,
+    "name": "Revopoint Pop 3D scanner handle \/ poign\u00e9e pour scanner Pop",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/07\/2e\/ac\/4b\/fd\/large_display_IMG_2496.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4940298",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4940298",
+    "creator": {
+      "id": 419272,
+      "name": "Pole_ergo",
+      "first_name": "Guy.E",
+      "last_name": "ergotherapeute",
+      "url": "https:\/\/api.thingiverse.com\/users\/Pole_ergo",
+      "public_url": "https:\/\/www.thingiverse.com\/Pole_ergo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/74\/1b\/45\/7b\/logo_THINGIVERSE_thumb_medium.jpg",
+      "count_of_followers": 546,
+      "count_of_following": 13,
+      "count_of_designs": 57,
+      "collection_count": 22,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lyon, France.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/32\/bd\/91\/a0\/5d\/mains_puzzle_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-08-24T13:33:38+00:00",
+    "modified": "2021-08-24T13:33:38+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 84,
+    "is_liked": false,
+    "collect_count": 167,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 15919038,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/f4\/7e\/a0\/78\/IMG_2496.JPG",
+      "name": "IMG_2496.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/f4\/e7\/72\/83\/large_thumb_IMG_2496.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/d3\/cf\/92\/e3\/medium_thumb_IMG_2496.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/f4\/52\/80\/3a\/small_thumb_IMG_2496.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/c0\/6e\/88\/01\/tiny_thumb_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/e2\/57\/99\/ca\/featured_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/2f\/34\/b1\/91\/card_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/1f\/05\/e8\/20\/large_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/a6\/9f\/c1\/ea\/medium_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/02\/9e\/cb\/58\/small_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/cd\/66\/2f\/f7\/birdwing_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/97\/18\/1f\/c0\/tiny_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/c0\/46\/3f\/36\/tinycard_preview_IMG_2496.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/2e\/ac\/4b\/fd\/large_display_IMG_2496.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/9e\/cb\/90\/a9\/medium_display_IMG_2496.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/b0\/a2\/2e\/f5\/small_display_IMG_2496.JPG"
+        }
+      ],
+      "added": "2021-08-24T13:19:13+00:00"
+    },
+    "description": "FRENCH\r\nMerci de lire l'avertissement en cliquant sur le profil.\r\n\r\nLe scanner 3D Pop de Revopoint est un appareil permettant de scanner tout type de formes dont des parties du corps humain. Il peut ainsi se r\u00e9v\u00e9ler particuli\u00e8rement int\u00e9ressant lorsque l'on souhaite r\u00e9aliser des appareillages ou des moules \u00e0 partir de formes humaines r\u00e9elles. \r\nAccessible financi\u00e8rement et exploitant une technologie de lumi\u00e8re structur\u00e9e infrarouge, jusqu\u2019\u00e0 pr\u00e9sent r\u00e9serv\u00e9e \u00e0 des mod\u00e8les beaucoup plus on\u00e9reux, cet appareil se r\u00e9v\u00e8le performant dans les domaines qui int\u00e9ressent les ergoth\u00e9rapeutes.\r\n\r\nAfin de faciliter son usage et sa manipulation par rapport \u00e0 sa version de base, une poign\u00e9e ergonomique s'est r\u00e9v\u00e9l\u00e9e n\u00e9cessaire : c'est le projet pr\u00e9sent\u00e9 ici.\r\n\r\nLa poign\u00e9e supporte, \u00e0 l'aide d'un \"clamp\" un smartphone permettant la visualisation du scan. Connect\u00e9 \u00e0 l'ordinateur par wifi, le smartphone est utilis\u00e9 comme \u00e9cran externe \u00e0 l'aide de l'application deskreen et affiche ainsi le logiciel du scanner permettant de b\u00e9n\u00e9ficier de la puissance de traitement de l'ordinateur et de l'affichage du smartphone sans le kit propos\u00e9 par le constructeur.\r\n\r\nEnfin une protection de scanner est disponible avec un contour imprim\u00e9 en mati\u00e8re flexible. Il s'agit du projet trouv\u00e9 sur Thingiverse et modifi\u00e9 pour s'adapter \u00e0 la poign\u00e9e : https:\/\/www.thingiverse.com\/thing:4859235. \r\nMerci \u00e0 vorinami pour son excellent design.\r\n\r\nDeskreen : https:\/\/deskreen.com\/lang-en\r\n\r\nSupport smartphone : recherche internet n\u00e9cessaire pour trouver le mod\u00e8le.\/Internet search needed to find appropriate model.\r\n\r\nScanner 3D : https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=REVOPOINT&qid=1629799656&sr=8-2\r\n\r\n\r\nENGLISH\r\nThanks to read warnings by clicking profil.\r\n\r\n\r\nThe 3D scanner Pop from Revopoint is a device that allows to scan all types of shapes including human body parts. It can thus be particularly interesting when one wishes to create devices or molds from real human forms. \r\nAffordable and using a structured infrared light technology, until now reserved for much more expensive models, this device is efficient in the fields that interest occupational therapists.\r\n\r\nIn order to facilitate its use and handling compared to its basic version, an ergonomic handle was necessary: this is the project presented here.\r\n\r\nThe handle supports, with the help of a \"clamp\", a smartphone allowing the visualization of the scan. Connected to the computer by wifi, the smartphone is used as an external screen with Deskreen application and displays the scanner software allowing to benefit from the processing power of the computer and the display of the smartphone without the kit proposed by the manufacturer.\r\n\r\nFinally, a scanner protection is available with a printed outline in flexible material. This is the project found on Thingiverse and modified to fit the handle: https:\/\/www.thingiverse.com\/thing:4859235. \r\nThanks to vorinami for his brilliant design.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Le scanner 3D Pop de Revopoint est un appareil permettant de scanner tout type de formes dont des parties du corps humain. Il peut ainsi se r&eacute;v&eacute;ler particuli&egrave;rement int&eacute;ressant lorsque l'on souhaite r&eacute;aliser des appareillages ou des moules &agrave; partir de formes humaines r&eacute;elles.<br>Accessible financi&egrave;rement et exploitant une technologie de lumi&egrave;re structur&eacute;e infrarouge, jusqu&rsquo;&agrave; pr&eacute;sent r&eacute;serv&eacute;e &agrave; des mod&egrave;les beaucoup plus on&eacute;reux, cet appareil se r&eacute;v&egrave;le performant dans les domaines qui int&eacute;ressent les ergoth&eacute;rapeutes.<\/p><p>Afin de faciliter son usage et sa manipulation par rapport &agrave; sa version de base, une poign&eacute;e ergonomique s'est r&eacute;v&eacute;l&eacute;e n&eacute;cessaire : c'est le projet pr&eacute;sent&eacute; ici.<\/p><p>La poign&eacute;e supporte, &agrave; l'aide d'un \"clamp\" un smartphone permettant la visualisation du scan. Connect&eacute; &agrave; l'ordinateur par wifi, le smartphone est utilis&eacute; comme &eacute;cran externe &agrave; l'aide de l'application deskreen et affiche ainsi le logiciel du scanner permettant de b&eacute;n&eacute;ficier de la puissance de traitement de l'ordinateur et de l'affichage du smartphone sans le kit propos&eacute; par le constructeur.<\/p><p>Enfin une protection de scanner est disponible avec un contour imprim&eacute; en mati&egrave;re flexible. Il s'agit du projet trouv&eacute; sur Thingiverse et modifi&eacute; pour s'adapter &agrave; la poign&eacute;e : <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Merci &agrave; vorinami pour son excellent design.<\/p><p>Deskreen : <a rel=\"ugc nofollow\" href=\"https:\/\/deskreen.com\/lang-en\">https:\/\/deskreen.com\/lang-en<\/a><\/p><p>Support smartphone : recherche internet n&eacute;cessaire pour trouver le mod&egrave;le.\/Internet search needed to find appropriate model.<\/p><p>Scanner 3D : <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2\">https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>The 3D scanner Pop from Revopoint is a device that allows to scan all types of shapes including human body parts. It can thus be particularly interesting when one wishes to create devices or molds from real human forms.<br>Affordable and using a structured infrared light technology, until now reserved for much more expensive models, this device is efficient in the fields that interest occupational therapists.<\/p><p>In order to facilitate its use and handling compared to its basic version, an ergonomic handle was necessary: this is the project presented here.<\/p><p>The handle supports, with the help of a \"clamp\", a smartphone allowing the visualization of the scan. Connected to the computer by wifi, the smartphone is used as an external screen with Deskreen application and displays the scanner software allowing to benefit from the processing power of the computer and the display of the smartphone without the kit proposed by the manufacturer.<\/p><p>Finally, a scanner protection is available with a printed outline in flexible material. This is the project found on Thingiverse and modified to fit the handle: <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Thanks to vorinami for his brilliant design.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Le scanner 3D Pop de Revopoint est un appareil permettant de scanner tout type de formes dont des parties du corps humain. Il peut ainsi se r&eacute;v&eacute;ler particuli&egrave;rement int&eacute;ressant lorsque l'on souhaite r&eacute;aliser des appareillages ou des moules &agrave; partir de formes humaines r&eacute;elles.<br>Accessible financi&egrave;rement et exploitant une technologie de lumi&egrave;re structur&eacute;e infrarouge, jusqu&rsquo;&agrave; pr&eacute;sent r&eacute;serv&eacute;e &agrave; des mod&egrave;les beaucoup plus on&eacute;reux, cet appareil se r&eacute;v&egrave;le performant dans les domaines qui int&eacute;ressent les ergoth&eacute;rapeutes.<\/p><p>Afin de faciliter son usage et sa manipulation par rapport &agrave; sa version de base, une poign&eacute;e ergonomique s'est r&eacute;v&eacute;l&eacute;e n&eacute;cessaire : c'est le projet pr&eacute;sent&eacute; ici.<\/p><p>La poign&eacute;e supporte, &agrave; l'aide d'un \"clamp\" un smartphone permettant la visualisation du scan. Connect&eacute; &agrave; l'ordinateur par wifi, le smartphone est utilis&eacute; comme &eacute;cran externe &agrave; l'aide de l'application deskreen et affiche ainsi le logiciel du scanner permettant de b&eacute;n&eacute;ficier de la puissance de traitement de l'ordinateur et de l'affichage du smartphone sans le kit propos&eacute; par le constructeur.<\/p><p>Enfin une protection de scanner est disponible avec un contour imprim&eacute; en mati&egrave;re flexible. Il s'agit du projet trouv&eacute; sur Thingiverse et modifi&eacute; pour s'adapter &agrave; la poign&eacute;e : <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Merci &agrave; vorinami pour son excellent design.<\/p><p>Deskreen : <a rel=\"ugc nofollow\" href=\"https:\/\/deskreen.com\/lang-en\">https:\/\/deskreen.com\/lang-en<\/a><\/p><p>Support smartphone : recherche internet n&eacute;cessaire pour trouver le mod&egrave;le.\/Internet search needed to find appropriate model.<\/p><p>Scanner 3D : <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2\">https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>The 3D scanner Pop from Revopoint is a device that allows to scan all types of shapes including human body parts. It can thus be particularly interesting when one wishes to create devices or molds from real human forms.<br>Affordable and using a structured infrared light technology, until now reserved for much more expensive models, this device is efficient in the fields that interest occupational therapists.<\/p><p>In order to facilitate its use and handling compared to its basic version, an ergonomic handle was necessary: this is the project presented here.<\/p><p>The handle supports, with the help of a \"clamp\", a smartphone allowing the visualization of the scan. Connected to the computer by wifi, the smartphone is used as an external screen with Deskreen application and displays the scanner software allowing to benefit from the processing power of the computer and the display of the smartphone without the kit proposed by the manufacturer.<\/p><p>Finally, a scanner protection is available with a printed outline in flexible material. This is the project found on Thingiverse and modified to fit the handle: <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Thanks to vorinami for his brilliant design.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Zortrax<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;M200&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.19<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;50&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> ZORTRAX ABS<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Le scanner 3D Pop de Revopoint est un appareil permettant de scanner tout type de formes dont des parties du corps humain. Il peut ainsi se r&eacute;v&eacute;ler particuli&egrave;rement int&eacute;ressant lorsque l'on souhaite r&eacute;aliser des appareillages ou des moules &agrave; partir de formes humaines r&eacute;elles.<br>Accessible financi&egrave;rement et exploitant une technologie de lumi&egrave;re structur&eacute;e infrarouge, jusqu&rsquo;&agrave; pr&eacute;sent r&eacute;serv&eacute;e &agrave; des mod&egrave;les beaucoup plus on&eacute;reux, cet appareil se r&eacute;v&egrave;le performant dans les domaines qui int&eacute;ressent les ergoth&eacute;rapeutes.<\/p><p>Afin de faciliter son usage et sa manipulation par rapport &agrave; sa version de base, une poign&eacute;e ergonomique s'est r&eacute;v&eacute;l&eacute;e n&eacute;cessaire : c'est le projet pr&eacute;sent&eacute; ici.<\/p><p>La poign&eacute;e supporte, &agrave; l'aide d'un \"clamp\" un smartphone permettant la visualisation du scan. Connect&eacute; &agrave; l'ordinateur par wifi, le smartphone est utilis&eacute; comme &eacute;cran externe &agrave; l'aide de l'application deskreen et affiche ainsi le logiciel du scanner permettant de b&eacute;n&eacute;ficier de la puissance de traitement de l'ordinateur et de l'affichage du smartphone sans le kit propos&eacute; par le constructeur.<\/p><p>Enfin une protection de scanner est disponible avec un contour imprim&eacute; en mati&egrave;re flexible. Il s'agit du projet trouv&eacute; sur Thingiverse et modifi&eacute; pour s'adapter &agrave; la poign&eacute;e : <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Merci &agrave; vorinami pour son excellent design.<\/p><p>Deskreen : <a rel=\"ugc nofollow\" href=\"https:\/\/deskreen.com\/lang-en\">https:\/\/deskreen.com\/lang-en<\/a><\/p><p>Support smartphone : recherche internet n&eacute;cessaire pour trouver le mod&egrave;le.\/Internet search needed to find appropriate model.<\/p><p>Scanner 3D : <a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2\">https:\/\/www.amazon.fr\/Revopoint-Accuracy-Handheld-Scanning-Printing\/dp\/B094W4BF3B\/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=REVOPOINT&amp;qid=1629799656&amp;sr=8-2<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>The 3D scanner Pop from Revopoint is a device that allows to scan all types of shapes including human body parts. It can thus be particularly interesting when one wishes to create devices or molds from real human forms.<br>Affordable and using a structured infrared light technology, until now reserved for much more expensive models, this device is efficient in the fields that interest occupational therapists.<\/p><p>In order to facilitate its use and handling compared to its basic version, an ergonomic handle was necessary: this is the project presented here.<\/p><p>The handle supports, with the help of a \"clamp\", a smartphone allowing the visualization of the scan. Connected to the computer by wifi, the smartphone is used as an external screen with Deskreen application and displays the scanner software allowing to benefit from the processing power of the computer and the display of the smartphone without the kit proposed by the manufacturer.<\/p><p>Finally, a scanner protection is available with a printed outline in flexible material. This is the project found on Thingiverse and modified to fit the handle: <a rel=\"ugc nofollow\" href=\"\/thing:4859235\">https:\/\/www.thingiverse.com\/thing:4859235<\/a>.<br>Thanks to vorinami for his brilliant design.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Zortrax<\/p><\/div>\n",
+            "printer": "<div><p>M200<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0.19<\/p><\/div>\n",
+            "infill": "<div><p>50<\/p><\/div>\n",
+            "filament_brand": "<div><p>ZORTRAX<\/p><\/div>\n",
+            "filament_material": "<div><p>ABS<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4940298\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4940298\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4940298\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4940298\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4940298\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4940298\/tags",
+    "tags": [
+      {
+        "name": "3dscan",
+        "tag": "3dscan",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dscan",
+        "count": 460,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dscan\/things",
+        "absolute_url": "\/tag:3dscan"
+      },
+      {
+        "name": "3dscanner",
+        "tag": "3dscanner",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dscanner",
+        "count": 267,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dscanner\/things",
+        "absolute_url": "\/tag:3dscanner"
+      },
+      {
+        "name": "3d scanning",
+        "tag": "3d_scanning",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_scanning",
+        "count": 382,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_scanning\/things",
+        "absolute_url": "\/tag:3d_scanning"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handle",
+        "tag": "handle",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handle",
+        "count": 6333,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handle\/things",
+        "absolute_url": "\/tag:handle"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "pop",
+        "tag": "pop",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pop",
+        "count": 455,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pop\/things",
+        "absolute_url": "\/tag:pop"
+      },
+      {
+        "name": "Revopoint POP",
+        "tag": "revopoint_pop",
+        "url": "https:\/\/api.thingiverse.com\/tags\/revopoint_pop",
+        "count": 43,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/revopoint_pop\/things",
+        "absolute_url": "\/tag:Revopoint_POP"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4940298\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 456,
+    "view_count": 1770,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 2,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "POP_HANDLE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/8a\/db\/f8\/2e\/POP_HANDLE.stl"
+        },
+        {
+          "name": "MODIFIED_BUMPER_POP.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/e9\/ee\/af\/ab\/MODIFIED_BUMPER_POP.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2496.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/f4\/7e\/a0\/78\/IMG_2496.JPG"
+        },
+        {
+          "name": "IMG_2498.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/36\/79\/dc\/8b\/IMG_2498.JPG"
+        },
+        {
+          "name": "IMG_2500.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/98\/03\/b5\/e7\/IMG_2500.JPG"
+        },
+        {
+          "name": "IMG_2501.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/c9\/e6\/d8\/a9\/IMG_2501.JPG"
+        },
+        {
+          "name": "IMG_2502.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/29\/f3\/30\/75\/IMG_2502.JPG"
+        },
+        {
+          "name": "IMG_2504.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/f8\/6a\/4a\/d4\/IMG_2504.JPG"
+        },
+        {
+          "name": "POP_HANDLE.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/54\/09\/11\/d7\/POP_HANDLE.png"
+        },
+        {
+          "name": "MODIFIED_BUMPER_POP.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/10\/76\/16\/46\/MODIFIED_BUMPER_POP.png"
+        }
+      ]
+    }
+  }
+}

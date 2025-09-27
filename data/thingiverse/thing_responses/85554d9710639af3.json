@@ -1,0 +1,484 @@
+{
+  "created_at": "2025-04-11T03:34:33.673270+00:00",
+  "elapsed": 0.187235,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76dcb5ac72350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:33 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:33 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5540330?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5540330?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5540330,
+    "name": "Pillikan - Easy to print pill puncher",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/aa\/7b\/af\/e6\/aa\/large_display_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5540330",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5540330",
+    "creator": {
+      "id": 697779,
+      "name": "bla_comunicazione",
+      "first_name": "bla",
+      "last_name": "comunicazione",
+      "url": "https:\/\/api.thingiverse.com\/users\/bla_comunicazione",
+      "public_url": "https:\/\/www.thingiverse.com\/bla_comunicazione",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/de\/0a\/64\/1b\/c7\/7958171e-d185-4125-a887-e9c4a2dbc45a.png",
+      "count_of_followers": 18,
+      "count_of_following": 7,
+      "count_of_designs": 24,
+      "collection_count": 7,
+      "make_count": 1,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Italy",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-11_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2022-09-30T14:34:20+00:00",
+    "modified": "2024-11-29T11:51:15+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 164,
+    "is_liked": false,
+    "collect_count": 264,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 17950448,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/68\/7d\/9f\/15\/4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg",
+      "name": "4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/62\/0d\/78\/b8\/large_thumb_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/0b\/97\/ca\/47\/medium_thumb_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/7d\/af\/bb\/e1\/small_thumb_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/c9\/19\/00\/d9\/tiny_thumb_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/2f\/93\/64\/f9\/featured_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/85\/3b\/18\/2a\/card_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/94\/34\/83\/1e\/large_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/5d\/7d\/c0\/4f\/medium_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/bd\/f8\/57\/1c\/small_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/1a\/ab\/fc\/aa\/birdwing_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/9d\/79\/97\/5c\/tiny_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/72\/da\/0d\/b4\/tinycard_preview_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/7b\/af\/e6\/aa\/large_display_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/2e\/a5\/de\/f0\/medium_display_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/e2\/c7\/9d\/d4\/small_display_4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        }
+      ],
+      "added": "2022-09-30T14:34:18+00:00"
+    },
+    "description": "Pillikan is a very easy-to-print pill puncher to help elderly or disabled people open pill blister packs.\n\nIt helps to apply the required force to easily open the blister pack on almost any size of pill.\nThe small container underneath will catch the pill before it flys around the room.\n\nIt can be used right or left-handed, but if you want you can flip the model.\n\nNo support is required. Just print it with the writing upside down.\n\nThis accessible 3D health and fitness model is available free of charge for personal use or as a gift to a loved one. If you would like to market the prints, please sign up for our premium membership.\n\nIf you like our work, please consider supporting us:\n<a href=\"https:\/\/www.buymeacoffee.com\/blacom\" target=\"_blank\"><img src=\"https:\/\/cdn.buymeacoffee.com\/buttons\/v2\/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 60px !important;width: 217px !important;\" ><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>Pillikan is a very easy-to-print pill puncher to help elderly or disabled people open pill blister packs.<\/p><p>It helps to apply the required force to easily open the blister pack on almost any size of pill.<br>The small container underneath will catch the pill before it flys around the room.<\/p><p>It can be used right or left-handed, but if you want you can flip the model.<\/p><p>No support is required. Just print it with the writing upside down.<\/p><p>This accessible 3D health and fitness model is available free of charge for personal use or as a gift to a loved one. If you would like to market the prints, please sign up for our premium membership.<\/p><p>If you like our work, please consider supporting us:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.buymeacoffee.com\/blacom\" target=\"_blank\"><img src=\"https:\/\/cdn.buymeacoffee.com\/buttons\/v2\/default-yellow.png\" alt=\"Buy Me A Coffee\"><\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Pillikan is a very easy-to-print pill puncher to help elderly or disabled people open pill blister packs.<\/p><p>It helps to apply the required force to easily open the blister pack on almost any size of pill.<br>The small container underneath will catch the pill before it flys around the room.<\/p><p>It can be used right or left-handed, but if you want you can flip the model.<\/p><p>No support is required. Just print it with the writing upside down.<\/p><p>This accessible 3D health and fitness model is available free of charge for personal use or as a gift to a loved one. If you would like to market the prints, please sign up for our premium membership.<\/p><p>If you like our work, please consider supporting us:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.buymeacoffee.com\/blacom\" target=\"_blank\"><img src=\"https:\/\/cdn.buymeacoffee.com\/buttons\/v2\/default-yellow.png\" alt=\"Buy Me A Coffee\"><\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Pillikan is a very easy-to-print pill puncher to help elderly or disabled people open pill blister packs.<\/p><p>It helps to apply the required force to easily open the blister pack on almost any size of pill.<br>The small container underneath will catch the pill before it flys around the room.<\/p><p>It can be used right or left-handed, but if you want you can flip the model.<\/p><p>No support is required. Just print it with the writing upside down.<\/p><p>This accessible 3D health and fitness model is available free of charge for personal use or as a gift to a loved one. If you would like to market the prints, please sign up for our premium membership.<\/p><p>If you like our work, please consider supporting us:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.buymeacoffee.com\/blacom\" target=\"_blank\"><img src=\"https:\/\/cdn.buymeacoffee.com\/buttons\/v2\/default-yellow.png\" alt=\"Buy Me A Coffee\"><\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5540330\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5540330\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5540330\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5540330\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5540330\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5540330\/tags",
+    "tags": [
+      {
+        "name": "AmazingDesign",
+        "tag": "amazingdesign",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amazingdesign",
+        "count": 441,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amazingdesign\/things",
+        "absolute_url": "\/tag:AmazingDesign"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "crusher",
+        "tag": "crusher",
+        "url": "https:\/\/api.thingiverse.com\/tags\/crusher",
+        "count": 79,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/crusher\/things",
+        "absolute_url": "\/tag:crusher"
+      },
+      {
+        "name": "design",
+        "tag": "design",
+        "url": "https:\/\/api.thingiverse.com\/tags\/design",
+        "count": 4505,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/design\/things",
+        "absolute_url": "\/tag:design"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "elderly",
+        "tag": "elderly",
+        "url": "https:\/\/api.thingiverse.com\/tags\/elderly",
+        "count": 37,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/elderly\/things",
+        "absolute_url": "\/tag:elderly"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2138,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "helping-hands",
+        "tag": "helping-hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping-hands",
+        "count": 229,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping-hands\/things",
+        "absolute_url": "\/tag:helping-hands"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "pills",
+        "tag": "pills",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pills",
+        "count": 227,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pills\/things",
+        "absolute_url": "\/tag:pills"
+      },
+      {
+        "name": "pill container",
+        "tag": "pill_container",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pill_container",
+        "count": 699,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pill_container\/things",
+        "absolute_url": "\/tag:pill_container"
+      },
+      {
+        "name": "Pill puncher",
+        "tag": "pill_puncher",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pill_puncher",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pill_puncher\/things",
+        "absolute_url": "\/tag:Pill_puncher"
+      },
+      {
+        "name": "puncher",
+        "tag": "puncher",
+        "url": "https:\/\/api.thingiverse.com\/tags\/puncher",
+        "count": 30,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/puncher\/things",
+        "absolute_url": "\/tag:puncher"
+      },
+      {
+        "name": "tool",
+        "tag": "tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tool",
+        "count": 12283,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tool\/things",
+        "absolute_url": "\/tag:tool"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5540330\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1854,
+    "view_count": 8823,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 4,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Pillkanv2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/86\/a6\/dd\/97\/9915d4e4-6b86-403c-a268-48918d6b69c1.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/68\/7d\/9f\/15\/4d56bdd5-663b-4fab-9b2d-57d9bac04555.jpg"
+        },
+        {
+          "name": "1ea2aa6b-7497-4113-9310-3cff7944c7f0.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/75\/ae\/ae\/73\/1ea2aa6b-7497-4113-9310-3cff7944c7f0.jpg"
+        },
+        {
+          "name": "9915d4e4-6b86-403c-a268-48918d6b69c1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/71\/34\/a1\/3b\/9915d4e4-6b86-403c-a268-48918d6b69c1.png"
+        }
+      ]
+    }
+  }
+}

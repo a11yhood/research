@@ -1,0 +1,461 @@
+{
+  "created_at": "2025-04-10T03:34:58.245649+00:00",
+  "elapsed": 0.134699,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df31053d942a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:58 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:58 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3588828?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3588828?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3588828,
+    "name": "Smoothie 125 Mounts",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3588828",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3588828",
+    "creator": {
+      "id": 950100,
+      "name": "skip1776",
+      "first_name": "Scott",
+      "last_name": "Dougherty",
+      "url": "https:\/\/api.thingiverse.com\/users\/skip1776",
+      "public_url": "https:\/\/www.thingiverse.com\/skip1776",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/bc\/81\/c1\/9e\/129ec689ba3d5aab8e0a7d3544eb46f7_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 11,
+      "count_of_designs": 18,
+      "collection_count": 11,
+      "make_count": 7,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pittsburgh, PA, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-04-26T03:41:13+00:00",
+    "modified": "2019-04-26T03:41:13+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 4,
+    "is_liked": false,
+    "collect_count": 8,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10601864,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/1f\/26\/f1\/42\/Smoothie_125_Mounts.png",
+      "name": "Smoothie_125_Mounts.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/4c\/3c\/f1\/ae\/5a5cf8e2a51dbf8fb7126af1d084bf56_display_small.jpg"
+        }
+      ],
+      "added": "2019-04-26T03:41:00+00:00"
+    },
+    "description": "There are two versions of this mount for use with the Smoothie 125 mount. The center utilizes a \u00bc\u201d-20 T-nut to mate with standard camera mounts.",
+    "instructions": "",
+    "description_html": "<div><p>There are two versions of this mount for use with the Smoothie 125 mount. The center utilizes a &frac14;&rdquo;-20 T-nut to mate with standard camera mounts.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>There are two versions of this mount for use with the Smoothie 125 mount. The center utilizes a &frac14;&rdquo;-20 T-nut to mate with standard camera mounts.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Ender 3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.15mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15%, Triangles&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Amazon Basics PLA<br>Blue<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>There are two versions of this mount for use with the Smoothie 125 mount. The center utilizes a &frac14;&rdquo;-20 T-nut to mate with standard camera mounts.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>\n",
+            "printer": "<div><p>Ender 3<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.15mm<\/p><\/div>\n",
+            "infill": "<div><p>15%, Triangles<\/p><\/div>\n",
+            "filament_brand": "<div><p>Amazon Basics<\/p><\/div>\n",
+            "filament_color": "<div><p>Blue<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3588828\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3588828\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3588828\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3588828\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3588828\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3588828\/tags",
+    "tags": [
+      {
+        "name": "adaptive device",
+        "tag": "adaptive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device\/things",
+        "absolute_url": "\/tag:adaptive_device"
+      },
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "camera mount",
+        "tag": "camera_mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/camera_mount",
+        "count": 8079,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/camera_mount\/things",
+        "absolute_url": "\/tag:camera_mount"
+      },
+      {
+        "name": "mount",
+        "tag": "mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mount",
+        "count": 26842,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mount\/things",
+        "absolute_url": "\/tag:mount"
+      },
+      {
+        "name": "switch",
+        "tag": "switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch",
+        "count": 4910,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch\/things",
+        "absolute_url": "\/tag:switch"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3588828\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 309,
+    "view_count": 101,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Smoothie_125_Mount_A.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/0a\/18\/bc\/06\/Smoothie_125_Mount_A.f3d"
+        },
+        {
+          "name": "Smoothie_125_Mount_A.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/b8\/97\/d0\/70\/Smoothie_125_Mount_A.stl"
+        },
+        {
+          "name": "Smoothie_125_Mount_B.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/3d\/ee\/88\/bc\/Smoothie_125_Mount_B.f3d"
+        },
+        {
+          "name": "Smoothie_125_Mount_B.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/16\/9b\/40\/35\/Smoothie_125_Mount_B.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Smoothie_125_Mounts.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/1f\/26\/f1\/42\/Smoothie_125_Mounts.png"
+        },
+        {
+          "name": "0c33c6f04d85a1d5090fb88065b78756.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/58\/3e\/8e\/44\/de\/0c33c6f04d85a1d5090fb88065b78756.png"
+        },
+        {
+          "name": "5f0026913409b61d04f46546fd3f2413.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/bb\/a6\/a8\/4a\/5f0026913409b61d04f46546fd3f2413.png"
+        }
+      ]
+    }
+  }
+}

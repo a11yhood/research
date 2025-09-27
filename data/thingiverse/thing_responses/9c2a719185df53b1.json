@@ -1,0 +1,507 @@
+{
+  "created_at": "2025-07-11T03:58:23.224847+00:00",
+  "elapsed": 0.192948,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95d561d1fac9ce50-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Jul 2025 03:58:23 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Jul 2025 04:28:23 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "veSh9ZDYu_XaEkj693yB29KX2xsty2jCkROOxqh.6jk-1752206189-1.0.1.1-7hx.lpQvCRwmoDY1eiWTjgIIw7mBtVOfFPMhZMNPuk5v3PoY8HYFhJ1Do52qgkElsmh28zHTey42102ylI0bkN_AM0l1HgJNb75iGv8q45I",
+      "_cfuvid": "tN9_qhRrGhYXAngJpeEofJjFI5AULnwMl4FIzPREDyw-1752206189775-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=veSh9ZDYu_XaEkj693yB29KX2xsty2jCkROOxqh.6jk-1752206189-1.0.1.1-7hx.lpQvCRwmoDY1eiWTjgIIw7mBtVOfFPMhZMNPuk5v3PoY8HYFhJ1Do52qgkElsmh28zHTey42102ylI0bkN_AM0l1HgJNb75iGv8q45I; _cfuvid=tN9_qhRrGhYXAngJpeEofJjFI5AULnwMl4FIzPREDyw-1752206189775-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2870410?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2870410?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2870410,
+    "name": "Volksswitch - the People's AT Switch (Version 1)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2870410",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2870410",
+    "creator": {
+      "id": 2059375,
+      "name": "Volksswitch",
+      "first_name": "Volksswitch",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+      "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+      "count_of_followers": 61,
+      "count_of_following": 2,
+      "count_of_designs": 33,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Denver, Colorado, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-04-20T02:55:01+00:00",
+    "modified": "2018-04-20T02:55:01+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 10,
+    "is_liked": false,
+    "collect_count": 28,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 8021655,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/e5\/65\/b8\/e4\/3f9f9d503e9eac0b1bd7513b1da344e8_preview_featured.JPG",
+      "name": "3f9f9d503e9eac0b1bd7513b1da344e8_preview_featured.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/26\/13\/0a\/64\/967f6d089972875414029a3265de28a6_display_small.JPG"
+        }
+      ],
+      "added": "2018-04-20T02:54:58+00:00"
+    },
+    "description": "As I was working on a master\u2019s degree in special education and a certificate in assistive technology, I had the opportunity to survey the domain of assistive technology \u2013 in particular electronic input devices.  The first thing I noticed was a mind-numbing variety of available pressure switches with huge amounts of overlap in functionality and features.  They\u2019re also hugely expensive.  It was difficult to understand why a particular manufacturer chose to incorporate a particular feature set into their switch, but once incorporated, there was little or no support for customization.\r\n\r\nWhile researching and writing my master's project, I happened to purchase a 3D Printer and immediately saw the opportunity that 3D printing created for low cost, one-off (personalized), manufacturing.  The technology is also simple enough to use that it could be put into the hands of people close to the individuals with disabilities \u2013 OTs, PTs, ATPs, and even families.\r\n\r\nThe switch design here is intended only as a proof of concept (POC) or as an existence proof.  Every design element and decision could be improved upon and I hope it will.  The purpose of this design is only to get the conversation started.The Volksswitch has goals in terms of cost, functionality and reliability but simultaneously aspires to high levels of customization and personalization \u2013 a capability which is only now feasible via the technology of 3D printing. If you believe, like I do, that\u2019s possible, please visit the Volksswitch website (http:\/\/www.volksswitch.org) and join us!\r\n\r\nPower to the People!\r\n",
+    "instructions": "",
+    "description_html": "<div><p>As I was working on a master\u2019s degree in special education and a certificate in assistive technology, I had the opportunity to survey the domain of assistive technology \u2013 in particular electronic input devices.  The first thing I noticed was a mind-numbing variety of available pressure switches with huge amounts of overlap in functionality and features.  They\u2019re also hugely expensive.  It was difficult to understand why a particular manufacturer chose to incorporate a particular feature set into their switch, but once incorporated, there was little or no support for customization.<\/p><p>While researching and writing my master's project, I happened to purchase a 3D Printer and immediately saw the opportunity that 3D printing created for low cost, one-off (personalized), manufacturing.  The technology is also simple enough to use that it could be put into the hands of people close to the individuals with disabilities \u2013 OTs, PTs, ATPs, and even families.<\/p><p>The switch design here is intended only as a proof of concept (POC) or as an existence proof.  Every design element and decision could be improved upon and I hope it will.  The purpose of this design is only to get the conversation started.The Volksswitch has goals in terms of cost, functionality and reliability but simultaneously aspires to high levels of customization and personalization \u2013 a capability which is only now feasible via the technology of 3D printing. If you believe, like I do, that\u2019s possible, please visit the Volksswitch website (<a rel=\"nofollow\" href=\"http:\/\/www.volksswitch.org\">http:\/\/www.volksswitch.org<\/a>) and join us!<\/p><p>Power to the People!<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>As I was working on a master\u2019s degree in special education and a certificate in assistive technology, I had the opportunity to survey the domain of assistive technology \u2013 in particular electronic input devices.  The first thing I noticed was a mind-numbing variety of available pressure switches with huge amounts of overlap in functionality and features.  They\u2019re also hugely expensive.  It was difficult to understand why a particular manufacturer chose to incorporate a particular feature set into their switch, but once incorporated, there was little or no support for customization.<\/p><p>While researching and writing my master's project, I happened to purchase a 3D Printer and immediately saw the opportunity that 3D printing created for low cost, one-off (personalized), manufacturing.  The technology is also simple enough to use that it could be put into the hands of people close to the individuals with disabilities \u2013 OTs, PTs, ATPs, and even families.<\/p><p>The switch design here is intended only as a proof of concept (POC) or as an existence proof.  Every design element and decision could be improved upon and I hope it will.  The purpose of this design is only to get the conversation started.The Volksswitch has goals in terms of cost, functionality and reliability but simultaneously aspires to high levels of customization and personalization \u2013 a capability which is only now feasible via the technology of 3D printing. If you believe, like I do, that\u2019s possible, please visit the Volksswitch website (<a rel=\"nofollow\" href=\"http:\/\/www.volksswitch.org\">http:\/\/www.volksswitch.org<\/a>) and join us!<\/p><p>Power to the People!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Monoprice Select Mini<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;I printed the parts that will receive a heat-set threaded insert (the activation surface and the switch core base) with a three-layer shell thickness (1.2 mm because I used a 0.4 mm nozzle).  None of these parts require supports.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>The proof of concept was modeled with Fusion 360.  Requirements are documented at the Volksswitch website: <a rel=\"nofollow\" href=\"http:\/\/www.volksswitch.org\">http:\/\/www.volksswitch.org<\/a>.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>As I was working on a master\u2019s degree in special education and a certificate in assistive technology, I had the opportunity to survey the domain of assistive technology \u2013 in particular electronic input devices.  The first thing I noticed was a mind-numbing variety of available pressure switches with huge amounts of overlap in functionality and features.  They\u2019re also hugely expensive.  It was difficult to understand why a particular manufacturer chose to incorporate a particular feature set into their switch, but once incorporated, there was little or no support for customization.<\/p><p>While researching and writing my master's project, I happened to purchase a 3D Printer and immediately saw the opportunity that 3D printing created for low cost, one-off (personalized), manufacturing.  The technology is also simple enough to use that it could be put into the hands of people close to the individuals with disabilities \u2013 OTs, PTs, ATPs, and even families.<\/p><p>The switch design here is intended only as a proof of concept (POC) or as an existence proof.  Every design element and decision could be improved upon and I hope it will.  The purpose of this design is only to get the conversation started.The Volksswitch has goals in terms of cost, functionality and reliability but simultaneously aspires to high levels of customization and personalization \u2013 a capability which is only now feasible via the technology of 3D printing. If you believe, like I do, that\u2019s possible, please visit the Volksswitch website (<a rel=\"nofollow\" href=\"http:\/\/www.volksswitch.org\">http:\/\/www.volksswitch.org<\/a>) and join us!<\/p><p>Power to the People!<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Monoprice Select Mini<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.1 mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "notes": "<div><p>I printed the parts that will receive a heat-set threaded insert (the activation surface and the switch core base) with a three-layer shell thickness (1.2 mm because I used a 0.4 mm nozzle).  None of these parts require supports.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>The proof of concept was modeled with Fusion 360.  Requirements are documented at the Volksswitch website: <a rel=\"nofollow\" href=\"http:\/\/www.volksswitch.org\">http:\/\/www.volksswitch.org<\/a>.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2870410\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2870410\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2870410\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2870410\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2870410\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2870410\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 887,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 676,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2870410\/categories",
+    "file_count": 17,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1711,
+    "view_count": 619,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 3,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/09\/e0\/d2\/f1\/Base.stl"
+        },
+        {
+          "name": "Base.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/5a\/5e\/c3\/21\/Base.f3d"
+        },
+        {
+          "name": "spring.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/24\/e3\/b7\/a9\/spring.stl"
+        },
+        {
+          "name": "spring.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/94\/ab\/d3\/b6\/spring.f3d"
+        },
+        {
+          "name": "round_activation_surface.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/e0\/a6\/e7\/e6\/round_activation_surface.stl"
+        },
+        {
+          "name": "round_activation_surface.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/24\/98\/bf\/3e\/round_activation_surface.f3d"
+        },
+        {
+          "name": "Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/b3\/b1\/6d\/0f\/Cover.stl"
+        },
+        {
+          "name": "Cover.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/dd\/2b\/f2\/14\/Cover.f3d"
+        },
+        {
+          "name": "switch_gang.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/16\/24\/51\/a9\/switch_gang.stl"
+        },
+        {
+          "name": "switch_gang.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/e2\/c3\/32\/be\/switch_gang.f3d"
+        },
+        {
+          "name": "collar.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/27\/a8\/69\/25\/collar.stl"
+        },
+        {
+          "name": "collar.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/cd\/ad\/fc\/ab\/collar.f3d"
+        },
+        {
+          "name": "square_activation_surface.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/f7\/7f\/e3\/8a\/square_activation_surface.stl"
+        },
+        {
+          "name": "square_activation_surface.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/e5\/6d\/23\/87\/square_activation_surface.f3d"
+        },
+        {
+          "name": "GoPro_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/a4\/66\/da\/11\/GoPro_Mount.stl"
+        },
+        {
+          "name": "GoPro_Mount.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/a2\/28\/b9\/dd\/GoPro_Mount.f3d"
+        },
+        {
+          "name": "SAMPLE_SPRINGS.ZIP",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/17\/d1\/8f\/ab\/SAMPLE_SPRINGS.ZIP"
+        }
+      ],
+      "images": [
+        {
+          "name": "3f9f9d503e9eac0b1bd7513b1da344e8_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/e5\/65\/b8\/e4\/3f9f9d503e9eac0b1bd7513b1da344e8_preview_featured.JPG"
+        },
+        {
+          "name": "ff6162f6e60101a8c603da9b748ca174.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/c7\/7f\/2b\/9f\/ff6162f6e60101a8c603da9b748ca174.png"
+        },
+        {
+          "name": "50188316a0c3b57a1c72f52cae542ac1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/19\/d5\/e1\/a0\/50188316a0c3b57a1c72f52cae542ac1.png"
+        },
+        {
+          "name": "320979af08b27aef6b695a60599e2505.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/2a\/05\/8f\/88\/320979af08b27aef6b695a60599e2505.png"
+        },
+        {
+          "name": "9a162aa8f57644d585c4ff78a8c67465.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f5\/c5\/5c\/b8\/cd\/9a162aa8f57644d585c4ff78a8c67465.png"
+        },
+        {
+          "name": "e3b03adb7461d6f9878c6d13ba8d1365.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/31\/8d\/d8\/b3\/5f\/e3b03adb7461d6f9878c6d13ba8d1365.png"
+        },
+        {
+          "name": "8432375427c95c43477fb89aa638ea5c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/29\/49\/7d\/7e\/63\/8432375427c95c43477fb89aa638ea5c.png"
+        },
+        {
+          "name": "d77afc69a6ee6f2428cdbf378e5c58fd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/12\/80\/15\/1e\/19\/d77afc69a6ee6f2428cdbf378e5c58fd.png"
+        },
+        {
+          "name": "b1e22cad43c1f7503c7b23d5b3ef9bae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/82\/91\/73\/0b\/b1e22cad43c1f7503c7b23d5b3ef9bae.png"
+        },
+        {
+          "name": "a03f905bb0753bd724241fd6ddf9350b_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/76\/1c\/03\/83\/a03f905bb0753bd724241fd6ddf9350b_preview_featured.JPG"
+        },
+        {
+          "name": "a2c0267bb3c1f7ca3a0a52a9fd0a6d5a_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/ba\/ea\/32\/39\/a2c0267bb3c1f7ca3a0a52a9fd0a6d5a_preview_featured.JPG"
+        }
+      ]
+    }
+  }
+}

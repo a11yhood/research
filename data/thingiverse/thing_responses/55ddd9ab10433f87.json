@@ -1,0 +1,487 @@
+{
+  "created_at": "2025-04-14T03:40:06.705831+00:00",
+  "elapsed": 0.18205,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "93002e0ccbeaeb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:40:06 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:10:06 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1063215?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1063215?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1063215,
+    "name": "Parkinson's Step Stick",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1063215",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1063215",
+    "creator": {
+      "id": 446137,
+      "name": "sopak",
+      "first_name": "Kamil",
+      "last_name": "Sopko",
+      "url": "https:\/\/api.thingiverse.com\/users\/sopak",
+      "public_url": "https:\/\/www.thingiverse.com\/sopak",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/85\/1d\/a4\/d0\/03\/DiamondHotend_preview_featured_thumb_medium.jpg",
+      "count_of_followers": 24,
+      "count_of_following": 6,
+      "count_of_designs": 22,
+      "collection_count": 4,
+      "make_count": 16,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Czech Republic",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/62\/cd\/89\/3d\/28\/1902013_1103914622968043_4678324874001252953_n_preview_featured_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-20T17:02:16+00:00",
+    "modified": "2015-10-20T17:02:16+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 104,
+    "is_liked": false,
+    "collect_count": 164,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 2764044,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/8e\/04\/67\/c1\/DSC_0850.JPG",
+      "name": "DSC_0850.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/cb\/79\/bc\/55\/DSC_0850_display_small.JPG"
+        }
+      ],
+      "added": "2015-10-20T16:48:04+00:00"
+    },
+    "description": "##Walking stick for Parkinson's disease.\r\n\r\n<iframe width=\"420\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/50kyaBw9DpU\" frameborder=\"0\" allowfullscreen><\/iframe>\r\n\r\nIt helps  create another step, by visualize something under leg, when person is stuck and  cannot walk anymore.\r\n\r\nFather of my girlfriend have this disease and we figure out, when we put leg in front of his leg, he is able to do another step.\r\n\r\nWork quite simple, it is attached to classic walking stick or a crutch. When it is pressed small bar move to horizontal position and when release, then rubber rope returns it to vertical. Main weight is not on this tool, but remains  on original  stick or crunch. \r\n\r\n#####Progress:\r\n* Version 0 \r\n>It was just  mercury cable attached to crunch, it does not move at all.\r\n\r\n* Version 1 \r\n> Not very successful, it breaks too easy.\r\n> Original should use metal string, but it was mistake, so I switch to rubber rope.\r\n> This old version is included in downloads as whole zip, if anyone is interested.\r\n\r\n* Version 2\r\n> current version\r\n> It is actually rewrite from scratch.\r\n> I try my best to  comment whole OpenSCAD file, therefore everyone can modify it as needed.\r\n> I recommend  using bearings, othervise you will have to sacrifice  smoothness and  rigidity.\r\n> Best combination we found is use  ABS  and  Flexible,  it is  described in  parts section.\r\n\r\n#####3D Parts:\r\n* Holder (ABS)\r\n> Grab around crunch.\r\n> Printed from two pieces, which  we glued together with ABS glue.\r\n\r\n* Heel Top (ABS)\r\n> It is moving in holder vertically and create lever for bar.\r\n\r\n* Heel Bottom (Flexible Rubber)\r\n> Does not break on sharp objects as ABS.\r\n> Needs to be replaceable.\r\n> Does not slip too much as ABS.\r\n\r\n* Bar askew lever part (ABS)\r\n> It is rotate  over center in holder.\r\n\r\n* Bar straight lever part (Flexible Rubber or ABS possible)\r\n> When  crunch is pressed, then this part  should move  from vertical  to horizontal position.\r\n> In horizontal position brain is stimulated and  another step is possible\r\n> Flexible is better, because it is harder to  break it  when step on and some sharp stone is under.\r\n\r\n\r\n#####Arrangements of 3D printed parts:\r\n* ABS - ParkinsonStepStick-v2-ABS.stl\r\n> Sliced in Slic3r.\r\n> split before export gcode\r\n> 0.5mm nozzle\r\n> 0.3 mm layer\r\n> infill 14% 3D honeycomb\r\n> Top\/Bottom 3layers Archimedean chords\r\n> 3 perimeters\r\n> brim 10mm,\r\n> no support\r\n\r\n* Flexible Rubber - ParkinsonStepStick-v2-Flexible.stl\r\n> Sliced in Slic3r.\r\n> split before export gcode\r\n> 0.5mm nozzle\r\n> 0.3 mm layer\r\n> infill 30% honeycomb\r\n> Top\/Bottom 3layers Archimedean chords\r\n> 3 perimeters\r\n> brim 10mm,\r\n> no support\r\n> print very slow,  my material needs  lot of ventilation otherwise stuck in feeder\r\n\r\n\r\n#####Other parts:\r\n* 2pcs cca 65mm x 4mm Allen key(imbus) screw (size depend on settings  in OpenSCAD)\r\n* 2pcs 4mm secured nut (or 4 nuts and screw rod as in  my  photos)\r\n* 10pcs 4mm washer (should  be  smaller diameterthen outside  bearing diammeter)\r\n* 6pcs ball bearing 624ZZ 4mmx13mmx 5mm (recommended for rigidity)\r\n* 1pc 20cm rubber rope 3-4mm (Depends  what you have and how strong it will be.)\r\n* 6pcs cca 25mm x 3mm Allen key(imbus) screw\r\n* 6pcs secured nut\r\n* 12pcs 3mm washer\r\n\r\n#####Software\r\n* OpenSCAD -  2015.10.03.nightly (git f1e8f2c)\r\n* Slic3r - 1.2.9",
+    "instructions": "",
+    "description_html": "<div><h2>Walking stick for Parkinson's disease.<\/h2><iframe width=\"420\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/50kyaBw9DpU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><p>It helps  create another step, by visualize something under leg, when person is stuck and  cannot walk anymore.<\/p><p>Father of my girlfriend have this disease and we figure out, when we put leg in front of his leg, he is able to do another step.<\/p><p>Work quite simple, it is attached to classic walking stick or a crutch. When it is pressed small bar move to horizontal position and when release, then rubber rope returns it to vertical. Main weight is not on this tool, but remains  on original  stick or crunch. <\/p><h5>Progress:<\/h5><ul><li><p>Version 0 <\/p><blockquote><p>It was just  mercury cable attached to crunch, it does not move at all.<\/p><\/blockquote><\/li><li><p>Version 1 <\/p><blockquote><p>Not very successful, it breaks too easy.<br>Original should use metal string, but it was mistake, so I switch to rubber rope.<br>This old version is included in downloads as whole zip, if anyone is interested.<\/p><\/blockquote><\/li><li>Version 2<blockquote><p>current version<br>It is actually rewrite from scratch.<br>I try my best to  comment whole OpenSCAD file, therefore everyone can modify it as needed.<br>I recommend  using bearings, othervise you will have to sacrifice  smoothness and  rigidity.<br>Best combination we found is use  ABS  and  Flexible,  it is  described in  parts section.<\/p><\/blockquote><\/li><\/ul><h5>3D Parts:<\/h5><ul><li><p>Holder (ABS)<\/p><blockquote><p>Grab around crunch.<br>Printed from two pieces, which  we glued together with ABS glue.<\/p><\/blockquote><\/li><li><p>Heel Top (ABS)<\/p><blockquote><p>It is moving in holder vertically and create lever for bar.<\/p><\/blockquote><\/li><li><p>Heel Bottom (Flexible Rubber)<\/p><blockquote><p>Does not break on sharp objects as ABS.<br>Needs to be replaceable.<br>Does not slip too much as ABS.<\/p><\/blockquote><\/li><li><p>Bar askew lever part (ABS)<\/p><blockquote><p>It is rotate  over center in holder.<\/p><\/blockquote><\/li><li>Bar straight lever part (Flexible Rubber or ABS possible)<blockquote><p>When  crunch is pressed, then this part  should move  from vertical  to horizontal position.<br>In horizontal position brain is stimulated and  another step is possible<br>Flexible is better, because it is harder to  break it  when step on and some sharp stone is under.<\/p><\/blockquote><\/li><\/ul><h5>Arrangements of 3D printed parts:<\/h5><ul><li><p>ABS - ParkinsonStepStick-v2-ABS.stl<\/p><blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 14% 3D honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<\/p><\/blockquote><\/li><li>Flexible Rubber - ParkinsonStepStick-v2-Flexible.stl<blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 30% honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<br>print very slow,  my material needs  lot of ventilation otherwise stuck in feeder<\/p><\/blockquote><\/li><\/ul><h5>Other parts:<\/h5><ul><li>2pcs cca 65mm x 4mm Allen key(imbus) screw (size depend on settings  in OpenSCAD)<\/li><li>2pcs 4mm secured nut (or 4 nuts and screw rod as in  my  photos)<\/li><li>10pcs 4mm washer (should  be  smaller diameterthen outside  bearing diammeter)<\/li><li>6pcs ball bearing 624ZZ 4mmx13mmx 5mm (recommended for rigidity)<\/li><li>1pc 20cm rubber rope 3-4mm (Depends  what you have and how strong it will be.)<\/li><li>6pcs cca 25mm x 3mm Allen key(imbus) screw<\/li><li>6pcs secured nut<\/li><li>12pcs 3mm washer<\/li><\/ul><h5>Software<\/h5><ul><li>OpenSCAD -  2015.10.03.nightly (git f1e8f2c)<\/li><li>Slic3r - 1.2.9<\/li><\/ul><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h2>Walking stick for Parkinson's disease.<\/h2><iframe width=\"420\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/50kyaBw9DpU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><p>It helps  create another step, by visualize something under leg, when person is stuck and  cannot walk anymore.<\/p><p>Father of my girlfriend have this disease and we figure out, when we put leg in front of his leg, he is able to do another step.<\/p><p>Work quite simple, it is attached to classic walking stick or a crutch. When it is pressed small bar move to horizontal position and when release, then rubber rope returns it to vertical. Main weight is not on this tool, but remains  on original  stick or crunch. <\/p><h5>Progress:<\/h5><ul><li><p>Version 0 <\/p><blockquote><p>It was just  mercury cable attached to crunch, it does not move at all.<\/p><\/blockquote><\/li><li><p>Version 1 <\/p><blockquote><p>Not very successful, it breaks too easy.<br>Original should use metal string, but it was mistake, so I switch to rubber rope.<br>This old version is included in downloads as whole zip, if anyone is interested.<\/p><\/blockquote><\/li><li>Version 2<blockquote><p>current version<br>It is actually rewrite from scratch.<br>I try my best to  comment whole OpenSCAD file, therefore everyone can modify it as needed.<br>I recommend  using bearings, othervise you will have to sacrifice  smoothness and  rigidity.<br>Best combination we found is use  ABS  and  Flexible,  it is  described in  parts section.<\/p><\/blockquote><\/li><\/ul><h5>3D Parts:<\/h5><ul><li><p>Holder (ABS)<\/p><blockquote><p>Grab around crunch.<br>Printed from two pieces, which  we glued together with ABS glue.<\/p><\/blockquote><\/li><li><p>Heel Top (ABS)<\/p><blockquote><p>It is moving in holder vertically and create lever for bar.<\/p><\/blockquote><\/li><li><p>Heel Bottom (Flexible Rubber)<\/p><blockquote><p>Does not break on sharp objects as ABS.<br>Needs to be replaceable.<br>Does not slip too much as ABS.<\/p><\/blockquote><\/li><li><p>Bar askew lever part (ABS)<\/p><blockquote><p>It is rotate  over center in holder.<\/p><\/blockquote><\/li><li>Bar straight lever part (Flexible Rubber or ABS possible)<blockquote><p>When  crunch is pressed, then this part  should move  from vertical  to horizontal position.<br>In horizontal position brain is stimulated and  another step is possible<br>Flexible is better, because it is harder to  break it  when step on and some sharp stone is under.<\/p><\/blockquote><\/li><\/ul><h5>Arrangements of 3D printed parts:<\/h5><ul><li><p>ABS - ParkinsonStepStick-v2-ABS.stl<\/p><blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 14% 3D honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<\/p><\/blockquote><\/li><li>Flexible Rubber - ParkinsonStepStick-v2-Flexible.stl<blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 30% honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<br>print very slow,  my material needs  lot of ventilation otherwise stuck in feeder<\/p><\/blockquote><\/li><\/ul><h5>Other parts:<\/h5><ul><li>2pcs cca 65mm x 4mm Allen key(imbus) screw (size depend on settings  in OpenSCAD)<\/li><li>2pcs 4mm secured nut (or 4 nuts and screw rod as in  my  photos)<\/li><li>10pcs 4mm washer (should  be  smaller diameterthen outside  bearing diammeter)<\/li><li>6pcs ball bearing 624ZZ 4mmx13mmx 5mm (recommended for rigidity)<\/li><li>1pc 20cm rubber rope 3-4mm (Depends  what you have and how strong it will be.)<\/li><li>6pcs cca 25mm x 3mm Allen key(imbus) screw<\/li><li>6pcs secured nut<\/li><li>12pcs 3mm washer<\/li><\/ul><h5>Software<\/h5><ul><li>OpenSCAD -  2015.10.03.nightly (git f1e8f2c)<\/li><li>Slic3r - 1.2.9<\/li><\/ul><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h2>Walking stick for Parkinson's disease.<\/h2><iframe width=\"420\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/50kyaBw9DpU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><p>It helps  create another step, by visualize something under leg, when person is stuck and  cannot walk anymore.<\/p><p>Father of my girlfriend have this disease and we figure out, when we put leg in front of his leg, he is able to do another step.<\/p><p>Work quite simple, it is attached to classic walking stick or a crutch. When it is pressed small bar move to horizontal position and when release, then rubber rope returns it to vertical. Main weight is not on this tool, but remains  on original  stick or crunch. <\/p><h5>Progress:<\/h5><ul><li><p>Version 0 <\/p><blockquote><p>It was just  mercury cable attached to crunch, it does not move at all.<\/p><\/blockquote><\/li><li><p>Version 1 <\/p><blockquote><p>Not very successful, it breaks too easy.<br>Original should use metal string, but it was mistake, so I switch to rubber rope.<br>This old version is included in downloads as whole zip, if anyone is interested.<\/p><\/blockquote><\/li><li>Version 2<blockquote><p>current version<br>It is actually rewrite from scratch.<br>I try my best to  comment whole OpenSCAD file, therefore everyone can modify it as needed.<br>I recommend  using bearings, othervise you will have to sacrifice  smoothness and  rigidity.<br>Best combination we found is use  ABS  and  Flexible,  it is  described in  parts section.<\/p><\/blockquote><\/li><\/ul><h5>3D Parts:<\/h5><ul><li><p>Holder (ABS)<\/p><blockquote><p>Grab around crunch.<br>Printed from two pieces, which  we glued together with ABS glue.<\/p><\/blockquote><\/li><li><p>Heel Top (ABS)<\/p><blockquote><p>It is moving in holder vertically and create lever for bar.<\/p><\/blockquote><\/li><li><p>Heel Bottom (Flexible Rubber)<\/p><blockquote><p>Does not break on sharp objects as ABS.<br>Needs to be replaceable.<br>Does not slip too much as ABS.<\/p><\/blockquote><\/li><li><p>Bar askew lever part (ABS)<\/p><blockquote><p>It is rotate  over center in holder.<\/p><\/blockquote><\/li><li>Bar straight lever part (Flexible Rubber or ABS possible)<blockquote><p>When  crunch is pressed, then this part  should move  from vertical  to horizontal position.<br>In horizontal position brain is stimulated and  another step is possible<br>Flexible is better, because it is harder to  break it  when step on and some sharp stone is under.<\/p><\/blockquote><\/li><\/ul><h5>Arrangements of 3D printed parts:<\/h5><ul><li><p>ABS - ParkinsonStepStick-v2-ABS.stl<\/p><blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 14% 3D honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<\/p><\/blockquote><\/li><li>Flexible Rubber - ParkinsonStepStick-v2-Flexible.stl<blockquote><p>Sliced in Slic3r.<br>split before export gcode<br>0.5mm nozzle<br>0.3 mm layer<br>infill 30% honeycomb<br>Top\/Bottom 3layers Archimedean chords<br>3 perimeters<br>brim 10mm,<br>no support<br>print very slow,  my material needs  lot of ventilation otherwise stuck in feeder<\/p><\/blockquote><\/li><\/ul><h5>Other parts:<\/h5><ul><li>2pcs cca 65mm x 4mm Allen key(imbus) screw (size depend on settings  in OpenSCAD)<\/li><li>2pcs 4mm secured nut (or 4 nuts and screw rod as in  my  photos)<\/li><li>10pcs 4mm washer (should  be  smaller diameterthen outside  bearing diammeter)<\/li><li>6pcs ball bearing 624ZZ 4mmx13mmx 5mm (recommended for rigidity)<\/li><li>1pc 20cm rubber rope 3-4mm (Depends  what you have and how strong it will be.)<\/li><li>6pcs cca 25mm x 3mm Allen key(imbus) screw<\/li><li>6pcs secured nut<\/li><li>12pcs 3mm washer<\/li><\/ul><h5>Software<\/h5><ul><li>OpenSCAD -  2015.10.03.nightly (git f1e8f2c)<\/li><li>Slic3r - 1.2.9<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1063215\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1063215\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1063215\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1063215\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1063215\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1063215\/tags",
+    "tags": [
+      {
+        "name": "another step",
+        "tag": "another_step",
+        "url": "https:\/\/api.thingiverse.com\/tags\/another_step",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/another_step\/things",
+        "absolute_url": "\/tag:another_step"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "openscad",
+        "tag": "openscad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+        "count": 15337,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+        "absolute_url": "\/tag:openscad"
+      },
+      {
+        "name": "parkinson",
+        "tag": "parkinson",
+        "url": "https:\/\/api.thingiverse.com\/tags\/parkinson",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/parkinson\/things",
+        "absolute_url": "\/tag:parkinson"
+      },
+      {
+        "name": "parkinsons",
+        "tag": "parkinsons",
+        "url": "https:\/\/api.thingiverse.com\/tags\/parkinsons",
+        "count": 16,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/parkinsons\/things",
+        "absolute_url": "\/tag:parkinsons"
+      },
+      {
+        "name": "stick",
+        "tag": "stick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/stick",
+        "count": 977,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/stick\/things",
+        "absolute_url": "\/tag:stick"
+      },
+      {
+        "name": "walking",
+        "tag": "walking",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walking",
+        "count": 198,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walking\/things",
+        "absolute_url": "\/tag:walking"
+      },
+      {
+        "name": "Walking Stick",
+        "tag": "walking_stick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/walking_stick",
+        "count": 104,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/walking_stick\/things",
+        "absolute_url": "\/tag:Walking_Stick"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1063215\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1235,
+    "view_count": 5434,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ParkinsonStepStick-v2.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/f8\/37\/f6\/de\/ParkinsonStepStick-v2.scad"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-ShowOne.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/9d\/bb\/ba\/9e\/ParkinsonStepStick-v2-ShowOne.stl"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-Show.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/a7\/ee\/ef\/38\/ParkinsonStepStick-v2-Show.stl"
+        },
+        {
+          "name": "cubeX.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/be\/26\/e6\/6f\/cubeX.scad"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-ABS.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/8b\/e4\/ef\/37\/ParkinsonStepStick-v2-ABS.stl"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-Flexible.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/86\/86\/0c\/d6\/ParkinsonStepStick-v2-Flexible.stl"
+        },
+        {
+          "name": "ParkinsonStepStick-v1.zip",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/97\/22\/78\/d1\/ParkinsonStepStick-v1.zip"
+        }
+      ],
+      "images": [
+        {
+          "name": "DSC_0850.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/8e\/04\/67\/c1\/DSC_0850.JPG"
+        },
+        {
+          "name": "DSC_0777.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/cd\/56\/5e\/c2\/DSC_0777.JPG"
+        },
+        {
+          "name": "DSC_0780.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/c7\/58\/f3\/67\/DSC_0780.JPG"
+        },
+        {
+          "name": "DSC_0804.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/21\/2a\/17\/bb\/DSC_0804.JPG"
+        },
+        {
+          "name": "DSC_0802.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/4d\/82\/e3\/a7\/DSC_0802.JPG"
+        },
+        {
+          "name": "DSC_0798.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/06\/19\/75\/58\/DSC_0798.JPG"
+        },
+        {
+          "name": "DSC_0794.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/2c\/92\/d7\/77\/DSC_0794.JPG"
+        },
+        {
+          "name": "DSC_0792.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/9d\/bb\/88\/45\/DSC_0792.JPG"
+        },
+        {
+          "name": "DSC_0808.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/52\/c2\/3b\/cd\/DSC_0808.JPG"
+        },
+        {
+          "name": "DSC_0782.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/06\/78\/01\/a3\/DSC_0782.JPG"
+        },
+        {
+          "name": "DSC_0783.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/85\/7f\/a0\/7b\/DSC_0783.JPG"
+        },
+        {
+          "name": "DSC_0785.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/23\/90\/cd\/22\/DSC_0785.JPG"
+        },
+        {
+          "name": "DSC_0787.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/63\/20\/de\/12\/DSC_0787.JPG"
+        },
+        {
+          "name": "DSC_0815.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/97\/df\/6d\/6a\/DSC_0815.JPG"
+        },
+        {
+          "name": "DSC_0818.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/a8\/6d\/cf\/ed\/DSC_0818.JPG"
+        },
+        {
+          "name": "DSC_0819.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/c5\/a4\/5f\/ee\/DSC_0819.JPG"
+        },
+        {
+          "name": "DSC_0814.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/92\/fb\/d7\/ce\/DSC_0814.JPG"
+        },
+        {
+          "name": "DSC_0832.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/c1\/8d\/a7\/60\/DSC_0832.JPG"
+        },
+        {
+          "name": "DSC_0824.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/0a\/6a\/dc\/28\/DSC_0824.JPG"
+        },
+        {
+          "name": "DSC_0826.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/b6\/8a\/47\/ab\/DSC_0826.JPG"
+        },
+        {
+          "name": "DSC_0829.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/de\/ed\/be\/26\/DSC_0829.JPG"
+        },
+        {
+          "name": "DSC_0839.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/22\/ff\/bd\/a4\/DSC_0839.JPG"
+        },
+        {
+          "name": "DSC_0833.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/b6\/2d\/38\/d3\/DSC_0833.JPG"
+        },
+        {
+          "name": "DSC_0846.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/e7\/07\/cc\/f6\/DSC_0846.JPG"
+        },
+        {
+          "name": "DSC_0841.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/70\/07\/12\/45\/DSC_0841.JPG"
+        },
+        {
+          "name": "DSC_0845.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/ec\/27\/60\/8b\/DSC_0845.JPG"
+        },
+        {
+          "name": "DSC_0838.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/ef\/a7\/51\/a7\/DSC_0838.JPG"
+        },
+        {
+          "name": "DSC_0851.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/dc\/31\/48\/66\/DSC_0851.JPG"
+        },
+        {
+          "name": "DSC_0852.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/33\/0f\/69\/13\/DSC_0852.JPG"
+        },
+        {
+          "name": "DSC_0853.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/21\/aa\/b0\/41\/DSC_0853.JPG"
+        },
+        {
+          "name": "show.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/13\/63\/e5\/1e\/show.png"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-ShowOne.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/2b\/4c\/09\/d5\/ParkinsonStepStick-v2-ShowOne.png"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-ABS.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2c\/39\/5d\/0d\/25\/ParkinsonStepStick-v2-ABS.png"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-Flexible.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/66\/ea\/80\/72\/a5\/ParkinsonStepStick-v2-Flexible.png"
+        },
+        {
+          "name": "ParkinsonStepStick-v2-Show.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/36\/44\/25\/fa\/ParkinsonStepStick-v2-Show.png"
+        }
+      ]
+    }
+  }
+}

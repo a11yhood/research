@@ -1,0 +1,535 @@
+{
+  "created_at": "2025-04-14T03:39:48.572643+00:00",
+  "elapsed": 0.214252,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d9b4890eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:48 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:48 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2867010?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2867010?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2867010,
+    "name": "Raised Keyboard Letters - Elementary School",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2867010",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2867010",
+    "creator": {
+      "id": 1893338,
+      "name": "CreativeFilament",
+      "first_name": "Jessica",
+      "last_name": "Pfau",
+      "url": "https:\/\/api.thingiverse.com\/users\/CreativeFilament",
+      "public_url": "https:\/\/www.thingiverse.com\/CreativeFilament",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/31\/12\/69\/1d\/c1\/30f7696c-5eac-41a8-8d0f-035b3ab92655.jpg",
+      "count_of_followers": 77,
+      "count_of_following": 55,
+      "count_of_designs": 17,
+      "collection_count": 2,
+      "make_count": 13,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Chandler, AZ",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-04-18T03:17:44+00:00",
+    "modified": "2018-04-18T03:17:44+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": true,
+    "is_printable": false,
+    "like_count": 207,
+    "is_liked": false,
+    "collect_count": 398,
+    "is_collected": false,
+    "comment_count": 13,
+    "is_watched": false,
+    "default_image": {
+      "id": 8301447,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/7c\/44\/0d\/c0\/Keyboard_Covers_2.jpg",
+      "name": "Keyboard_Covers_2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/68\/ae\/1e\/3d\/3a5cb2cd9b9f02d9443cdc197de80c5e_display_small.jpg"
+        }
+      ],
+      "added": "2018-06-04T21:03:12+00:00"
+    },
+    "description": "An overlay of important keyboard features geared toward students who are visually impaired based on feedback by vision therapists. This tactile keyboard enlarges letters to more than 200% of their original size on a standard keyboard, and can be color coded. A great way to introduce keyboarding to younger students as well!",
+    "instructions": "",
+    "description_html": "<div><p>An overlay of important keyboard features geared toward students who are visually impaired based on feedback by vision therapists. This tactile keyboard enlarges letters to more than 200% of their original size on a standard keyboard, and can be color coded. A great way to introduce keyboarding to younger students as well!<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>An overlay of important keyboard features geared toward students who are visually impaired based on feedback by vision therapists. This tactile keyboard enlarges letters to more than 200% of their original size on a standard keyboard, and can be color coded. A great way to introduce keyboarding to younger students as well!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator Mini+&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.3mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Diamond (fast)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>1) remove from raft<br>2) adhere to standard keyboard<\/p><\/div><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/0d\/2f\/13\/ea\/74\/Red_Letter_ON_Print_Bed.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Immediately after printing (on print bed)&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/3e\/19\/e8\/78\/8d\/Red_Letters_OFF_PrintBed.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Red Letters (TOP ROW) removed from raft. NO post-processing necessary.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/aa\/27\/66\/6a\/a4\/Blue_Letters_OFF_Print_Bed.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Blue letters (MIDDLE ROW) removed from rafts. NO post-processing necessary. The ;: and &amp;quot; &amp;#039; are delicate&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/90\/64\/35\/46\/6a\/IMG_7350.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Keyboard with sharpie (modified)&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/19\/c0\/46\/cf\/87\/IMG_7351.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Keyboard with 3D Printed Tactile Letters (modified)&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Tinkercad<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Block tool (14x11x3mm for the base) and standard text (sizing in approximate for most letters of 11.5x6.5x6mm) groupings.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>An overlay of important keyboard features geared toward students who are visually impaired based on feedback by vision therapists. This tactile keyboard enlarges letters to more than 200% of their original size on a standard keyboard, and can be color coded. A great way to introduce keyboarding to younger students as well!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>\n",
+            "printer": "<div><p>MakerBot Replicator Mini+<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "No",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>Diamond (fast)<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>1) remove from raft<br>2) adhere to standard keyboard<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/0d\/2f\/13\/ea\/74\/Red_Letter_ON_Print_Bed.png",
+            "caption": "Immediately after printing (on print bed)",
+            "image_id": "79207"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/3e\/19\/e8\/78\/8d\/Red_Letters_OFF_PrintBed.png",
+            "caption": "Red Letters (TOP ROW) removed from raft. NO post-processing necessary.",
+            "image_id": "79208"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/aa\/27\/66\/6a\/a4\/Blue_Letters_OFF_Print_Bed.png",
+            "caption": "Blue letters (MIDDLE ROW) removed from rafts. NO post-processing necessary. The ;: and \" ' are delicate",
+            "image_id": "79209"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/90\/64\/35\/46\/6a\/IMG_7350.jpg",
+            "caption": "Keyboard with sharpie (modified)",
+            "image_id": "79229"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/19\/c0\/46\/cf\/87\/IMG_7351.jpg",
+            "caption": "Keyboard with 3D Printed Tactile Letters (modified)",
+            "image_id": "79230"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Tinkercad",
+            "content": "<div><p>Block tool (14x11x3mm for the base) and standard text (sizing in approximate for most letters of 11.5x6.5x6mm) groupings.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-title\"><strong>Standards Met (CCSS)<\/strong><\/p>\n                <div><p>Writing - CCR.6 = <\/p>\n<p>Grade 3: With guidance and support from adults, use technology to produce and publish writing (using keyboarding skills) as well as to interact and collaborate with others.<\/p>\n<p>Grade 4: With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of one page in a single sitting.<\/p>\n<p>Grade 5: With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of two pages in a single sitting.<\/p>\n<p>Grade 6: Use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of three pages in a single sitting.<\/p><\/div>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<p class=\"detail-title\"><strong>Objectives for 3D Keyboard with Students<\/strong><\/p>\n                <div><p>Tactile keyboard with color coordination for visually impaired elementary school students learning finger placement or letter recognition while interfacing with a computer. The 3D printed letters in a bold color (organized by top, middle and lower row) help students focus their attention while searching for keys. In addition, the raised letters are 200% larger than the printed type on the standard keyboard.<\/p><\/div>\n<h1 class=\"thing-component-header materials materials-needed\">Materials Needed<\/h1>\n<p class=\"detail-title\"><strong>Requirements:<\/strong><\/p>\n                <div><p>~2 contrasting PLA Filament Colors<br>\n*after the final layer of the base blocks are complete, pause the printer if you have a single color printer (like the MakerBot Replicator Mini+). Change the PLA color to a contrasting color to the base block, and resume the print job. In this way, the raised lettering will be more visible to students.<\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "title": "Standards Met (CCSS)",
+            "content": "Writing - CCR.6 = \r\n\r\nGrade 3: With guidance and support from adults, use technology to produce and publish writing (using keyboarding skills) as well as to interact and collaborate with others.\r\n\r\nGrade 4: With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of one page in a single sitting.\r\n\r\nGrade 5: With some guidance and support from adults, use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of two pages in a single sitting.\r\n\r\nGrade 6: Use technology, including the Internet, to produce and publish writing as well as to interact and collaborate with others; demonstrate sufficient command of keyboarding skills to type a minimum of three pages in a single sitting."
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "title": "Objectives for 3D Keyboard with Students",
+            "content": "Tactile keyboard with color coordination for visually impaired elementary school students learning finger placement or letter recognition while interfacing with a computer. The 3D printed letters in a bold color (organized by top, middle and lower row) help students focus their attention while searching for keys. In addition, the raised letters are 200% larger than the printed type on the standard keyboard."
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "title": "Requirements:",
+            "content": "~2 contrasting PLA Filament Colors\r\n*after the final layer of the base blocks are complete, pause the printer if you have a single color printer (like the MakerBot Replicator Mini+). Change the PLA color to a contrasting color to the base block, and resume the print job. In this way, the raised lettering will be more visible to students.\r\n"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2867010\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2867010\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2867010\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2867010\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2867010\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2867010\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "EducationalProject",
+        "tag": "educationalproject",
+        "url": "https:\/\/api.thingiverse.com\/tags\/educationalproject",
+        "count": 68,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/educationalproject\/things",
+        "absolute_url": "\/tag:EducationalProject"
+      },
+      {
+        "name": "keyboard",
+        "tag": "keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyboard",
+        "count": 3803,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyboard\/things",
+        "absolute_url": "\/tag:keyboard"
+      },
+      {
+        "name": "special education",
+        "tag": "special_education",
+        "url": "https:\/\/api.thingiverse.com\/tags\/special_education",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/special_education\/things",
+        "absolute_url": "\/tag:special_education"
+      },
+      {
+        "name": "tactile",
+        "tag": "tactile",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tactile",
+        "count": 268,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tactile\/things",
+        "absolute_url": "\/tag:tactile"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2867010\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2872,
+    "view_count": 12745,
+    "education": {
+      "grades": {
+        "15": "Kindergarten",
+        "16": "1st Grade",
+        "17": "2nd Grade",
+        "18": "3rd Grade",
+        "19": "4th Grade",
+        "20": "5th Grade",
+        "21": "6th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 5,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Raised_Keyboard_Letters_-_UPPER_ROW.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/6b\/e9\/66\/39\/Raised_Keyboard_Letters_-_UPPER_ROW.stl"
+        },
+        {
+          "name": "Raised_Keyboard_Letters_-_LOWER_ROW_-_attempt_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/1c\/6b\/0b\/a1\/Raised_Keyboard_Letters_-_LOWER_ROW_-_attempt_1.stl"
+        },
+        {
+          "name": "Raised_Keyboard_Letters_-_MIDDLE_ROW_-_attempt_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/e1\/58\/fc\/92\/Raised_Keyboard_Letters_-_MIDDLE_ROW_-_attempt_1.stl"
+        },
+        {
+          "name": "Raised_Keyboard_Letters_-_Ctrl+Alr+del_keys.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/ca\/8b\/ab\/5f\/Raised_Keyboard_Letters_-_Ctrl%2BAlr%2Bdel_keys.stl"
+        },
+        {
+          "name": "Raised_Keyboard_Letters_-_NUMBER_ROW.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/26\/db\/95\/73\/Raised_Keyboard_Letters_-_NUMBER_ROW.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Keyboard_Covers_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/7c\/44\/0d\/c0\/Keyboard_Covers_2.jpg"
+        },
+        {
+          "name": "IMG_7351.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/69\/e8\/c2\/94\/IMG_7351.jpg"
+        },
+        {
+          "name": "46121c820817d1c4d2460a7aa2f739fb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8d\/38\/85\/05\/9a\/46121c820817d1c4d2460a7aa2f739fb.png"
+        },
+        {
+          "name": "40ed7754e58535a5339c9b11ea8c73f0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/15\/9c\/c9\/a9\/40ed7754e58535a5339c9b11ea8c73f0.png"
+        },
+        {
+          "name": "9f59508953e89f2f1ef5b6a5bced0a22.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/dc\/a7\/e1\/c2\/9f59508953e89f2f1ef5b6a5bced0a22.png"
+        },
+        {
+          "name": "ef31929b55296558406b787daf4f973a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/db\/d0\/84\/11\/ef31929b55296558406b787daf4f973a.png"
+        },
+        {
+          "name": "92f5113edd5a068a2d877aa8502ee4e6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f3\/cc\/4d\/da\/79\/92f5113edd5a068a2d877aa8502ee4e6.png"
+        }
+      ]
+    }
+  }
+}
