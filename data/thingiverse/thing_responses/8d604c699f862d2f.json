@@ -1,0 +1,440 @@
+{
+  "created_at": "2025-04-15T03:39:13.534909+00:00",
+  "elapsed": 0.112718,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93086a20ed99c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:13 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:13 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2353621?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2353621?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2353621,
+    "name": "OT student project : pen holder helper \/ support de stylo guide doigts ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2353621",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2353621",
+    "creator": {
+      "id": 419272,
+      "name": "Pole_ergo",
+      "first_name": "Guy.E",
+      "last_name": "ergotherapeute",
+      "url": "https:\/\/api.thingiverse.com\/users\/Pole_ergo",
+      "public_url": "https:\/\/www.thingiverse.com\/Pole_ergo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/74\/1b\/45\/7b\/logo_THINGIVERSE_thumb_medium.jpg",
+      "count_of_followers": 546,
+      "count_of_following": 13,
+      "count_of_designs": 57,
+      "collection_count": 22,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lyon, France.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/32\/bd\/91\/a0\/5d\/mains_puzzle_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-06-01T07:40:13+00:00",
+    "modified": "2017-06-01T07:40:13+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 198,
+    "is_liked": false,
+    "collect_count": 406,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 6130866,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/6d\/12\/7f\/33\/20170524_104226.jpg",
+      "name": "20170524_104226.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/1c\/51\/3a\/c5\/abd4345c12f3da58524132b83ed5939f_display_small.jpg"
+        }
+      ],
+      "added": "2017-05-30T10:00:09+00:00"
+    },
+    "description": "Merci de lire l'avertissement en cliquant sur le profil.\r\nImagin\u00e9 et d\u00e9velopp\u00e9 par les \u00e9tudiants ergoth\u00e9rapeutes de 3\u00e8me ann\u00e9e de l'IFE-LCA (institut de Formation en Ergoth\u00e9rapie Lorraine Champagne-Ardenne) de Nancy (IFE-LCA promo 2017), ce guide doigts support de stylo est con\u00e7u pour aider l'utilisateur \u00e0 maintenir et orienter le crayon pour donner acc\u00e8s et faciliter le graphisme.\r\n\r\nThanks to read warnings by clicking profil.\r\nImagined et developped by the 3rd year occupationals therapyst student from the IFE-LCA in Nancy (IFE-LCA class 2017), this keyguard and pen holder is designed to help the user maintain and keep the proper orientation to allow and help writing. ",
+    "instructions": "",
+    "description_html": "<div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Imagin&eacute; et d&eacute;velopp&eacute; par les &eacute;tudiants ergoth&eacute;rapeutes de 3&egrave;me ann&eacute;e de l'IFE-LCA (institut de Formation en Ergoth&eacute;rapie Lorraine Champagne-Ardenne) de Nancy (IFE-LCA promo 2017), ce guide doigts support de stylo est con&ccedil;u pour aider l'utilisateur &agrave; maintenir et orienter le crayon pour donner acc&egrave;s et faciliter le graphisme.<\/p><p>Thanks to read warnings by clicking profil.<br>Imagined et developped by the 3rd year occupationals therapyst student from the IFE-LCA in Nancy (IFE-LCA class 2017), this keyguard and pen holder is designed to help the user maintain and keep the proper orientation to allow and help writing. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Imagin&eacute; et d&eacute;velopp&eacute; par les &eacute;tudiants ergoth&eacute;rapeutes de 3&egrave;me ann&eacute;e de l'IFE-LCA (institut de Formation en Ergoth&eacute;rapie Lorraine Champagne-Ardenne) de Nancy (IFE-LCA promo 2017), ce guide doigts support de stylo est con&ccedil;u pour aider l'utilisateur &agrave; maintenir et orienter le crayon pour donner acc&egrave;s et faciliter le graphisme.<\/p><p>Thanks to read warnings by clicking profil.<br>Imagined et developped by the 3rd year occupationals therapyst student from the IFE-LCA in Nancy (IFE-LCA class 2017), this keyguard and pen holder is designed to help the user maintain and keep the proper orientation to allow and help writing. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Zortrax<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Zortrax M200&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Imagin&eacute; et d&eacute;velopp&eacute; par les &eacute;tudiants ergoth&eacute;rapeutes de 3&egrave;me ann&eacute;e de l'IFE-LCA (institut de Formation en Ergoth&eacute;rapie Lorraine Champagne-Ardenne) de Nancy (IFE-LCA promo 2017), ce guide doigts support de stylo est con&ccedil;u pour aider l'utilisateur &agrave; maintenir et orienter le crayon pour donner acc&egrave;s et faciliter le graphisme.<\/p><p>Thanks to read warnings by clicking profil.<br>Imagined et developped by the 3rd year occupationals therapyst student from the IFE-LCA in Nancy (IFE-LCA class 2017), this keyguard and pen holder is designed to help the user maintain and keep the proper orientation to allow and help writing. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Zortrax<\/p><\/div>\n",
+            "printer": "<div><p>Zortrax M200<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2353621\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2353621\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2353621\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2353621\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2353621\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2353621\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "pen holder",
+        "tag": "pen_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pen_holder",
+        "count": 4402,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pen_holder\/things",
+        "absolute_url": "\/tag:pen_holder"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2353621\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1594,
+    "view_count": 4212,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Pen__holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/e9\/f3\/9e\/85\/Pen__holder.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "20170524_104226.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/6d\/12\/7f\/33\/20170524_104226.jpg"
+        },
+        {
+          "name": "20170524_104507.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/26\/76\/08\/4a\/20170524_104507.jpg"
+        },
+        {
+          "name": "20170524_104424.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/98\/f7\/ff\/87\/20170524_104424.jpg"
+        },
+        {
+          "name": "DSCF4834.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/8d\/90\/66\/7d\/DSCF4834.JPG"
+        },
+        {
+          "name": "DSCF4836.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/4c\/4a\/a4\/8c\/DSCF4836.JPG"
+        },
+        {
+          "name": "9625874c456bf8f193dd8e73039eb043.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/ee\/4f\/d0\/2b\/9625874c456bf8f193dd8e73039eb043.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "cookies": {
+    "__cf_bm": "oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc",
+    "_cfuvid": "GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000"
+  },
+  "created_at": "2025-04-18T03:29:47.360310+00:00",
+  "elapsed": 0.424961,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9321146cce5afac6-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 18 Apr 2025 03:29:47 GMT",
+    "Server": "cloudflare",
+    "Set-Cookie": "__cf_bm=oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc; path=\/; expires=Fri, 18-Apr-25 03:59:47 GMT; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None, _cfuvid=GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000; path=\/; domain=.thingiverse.com; HttpOnly; Secure; SameSite=None",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 18 Apr 2025 03:59:47 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2724475?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2724475?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2724475,
+    "name": "Pocket Braille Printer",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2724475",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2724475",
+    "creator": {
+      "id": 205504,
+      "name": "oscampo",
+      "first_name": "Oscar",
+      "last_name": "Campo",
+      "url": "https:\/\/api.thingiverse.com\/users\/oscampo",
+      "public_url": "https:\/\/www.thingiverse.com\/oscampo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 1,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-12-21T14:20:04+00:00",
+    "modified": "2017-12-21T14:20:04+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 22,
+    "is_liked": false,
+    "collect_count": 49,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 7302036,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/ad\/27\/a9\/b9\/letters.jpeg",
+      "name": "letters.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_thumb_large.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_thumb_medium.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_thumb_small.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_thumb_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_featured.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_card.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_large.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_medium.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_small.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_birdwing.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_preview_tinycard.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_display_large.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_display_medium.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/7d\/bb\/b7\/d7\/f27a52328c85fce4f0ff9dec1db36ea5_display_small.jpeg"
+        }
+      ],
+      "added": "2017-12-21T14:17:10+00:00"
+    },
+    "description": "This is a customizable version of \"Braille business card writer\" designed by \r\nOlivier Chabot (https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer)\r\n\r\nYou can use this printer for print cards and\/or labels for create educational stuff for blind people or print your own Braille version of your business card \r\n",
+    "instructions": "",
+    "description_html": "<div><p>This is a customizable version of \"Braille business card writer\" designed by<br>Olivier Chabot (<a rel=\"ugc nofollow\" href=\"https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer\">https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer<\/a>)<\/p><p>You can use this printer for print cards and\/or labels for create educational stuff for blind people or print your own Braille version of your business card <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a customizable version of \"Braille business card writer\" designed by<br>Olivier Chabot (<a rel=\"ugc nofollow\" href=\"https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer\">https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer<\/a>)<\/p><p>You can use this printer for print cards and\/or labels for create educational stuff for blind people or print your own Braille version of your business card <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 3&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.1-0.2<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;For Parts of Braille Printer:&lt;br&gt;3D print at 0.2-0.1 resolution, 20% infill&lt;br&gt;Use four bearings 2809 for complete the assembly&lt;\/p&gt;&lt;p&gt;For letters:&lt;br&gt;Use 0.1 resolution, 100% infill&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a customizable version of \"Braille business card writer\" designed by<br>Olivier Chabot (<a rel=\"ugc nofollow\" href=\"https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer\">https:\/\/pinshape.com\/items\/34568-3d-printed-braille-business-card-writer<\/a>)<\/p><p>You can use this printer for print cards and\/or labels for create educational stuff for blind people or print your own Braille version of your business card <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 3<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Doesn't Matter",
+            "resolution": "<div><p>0.1-0.2<\/p><\/div>\n",
+            "notes": "<div><p>For Parts of Braille Printer:<br>3D print at 0.2-0.1 resolution, 20% infill<br>Use four bearings 2809 for complete the assembly<\/p><p>For letters:<br>Use 0.1 resolution, 100% infill<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2724475\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2724475\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2724475\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2724475\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2724475\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2724475\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2724475\/categories",
+    "file_count": 36,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3202,
+    "view_count": 1682,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "MyText_wheel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/fd\/e0\/15\/b4\/MyText_wheel.stl"
+        },
+        {
+          "name": "Support_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/24\/4e\/4e\/39\/Support_Top.stl"
+        },
+        {
+          "name": "Cap.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/61\/ed\/b5\/13\/Cap.stl"
+        },
+        {
+          "name": "Barrel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/a2\/ae\/44\/7b\/Barrel.stl"
+        },
+        {
+          "name": "Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/c3\/56\/9b\/47\/Support.stl"
+        },
+        {
+          "name": "Letter_f_Num_6.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/5d\/ad\/20\/f0\/Letter_f_Num_6.stl"
+        },
+        {
+          "name": "Letter_s.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/a5\/79\/3d\/58\/Letter_s.stl"
+        },
+        {
+          "name": "Letter_z.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/5f\/6f\/84\/1a\/Letter_z.stl"
+        },
+        {
+          "name": "Letter_d_Num_4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/92\/b7\/0f\/03\/Letter_d_Num_4.stl"
+        },
+        {
+          "name": "Letter_e_Num_5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/27\/6d\/90\/63\/Letter_e_Num_5.stl"
+        },
+        {
+          "name": "Letter_p.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/78\/a5\/0c\/2a\/Letter_p.stl"
+        },
+        {
+          "name": "Letter_v.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/15\/d2\/fe\/65\/Letter_v.stl"
+        },
+        {
+          "name": "NumberFollows.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/c8\/84\/91\/a8\/NumberFollows.stl"
+        },
+        {
+          "name": "Letter_g_Num_7.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/4d\/76\/ed\/89\/Letter_g_Num_7.stl"
+        },
+        {
+          "name": "Letter_b_Num_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/a3\/41\/6f\/c6\/Letter_b_Num_2.stl"
+        },
+        {
+          "name": "Letter_n.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/52\/18\/15\/f8\/Letter_n.stl"
+        },
+        {
+          "name": "Letter_o.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/c1\/fc\/ab\/be\/Letter_o.stl"
+        },
+        {
+          "name": "Letter_c_Num_3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/31\/f9\/a1\/68\/Letter_c_Num_3.stl"
+        },
+        {
+          "name": "Letter_r.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/63\/fd\/e6\/dd\/Letter_r.stl"
+        },
+        {
+          "name": "Letter_i_Num_9.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/43\/ea\/6a\/a4\/Letter_i_Num_9.stl"
+        },
+        {
+          "name": "Letter_m.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/d1\/cf\/69\/d5\/Letter_m.stl"
+        },
+        {
+          "name": "Letter_l.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/6f\/f8\/fe\/86\/Letter_l.stl"
+        },
+        {
+          "name": "Letter_k.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/70\/2d\/cf\/49\/Letter_k.stl"
+        },
+        {
+          "name": "Dot.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/d7\/ca\/5e\/b7\/Dot.stl"
+        },
+        {
+          "name": "Letter_y.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/8a\/66\/f5\/75\/Letter_y.stl"
+        },
+        {
+          "name": "Letter_x.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/05\/d2\/ea\/ca\/Letter_x.stl"
+        },
+        {
+          "name": "Letter_a_Num_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/e1\/77\/8d\/4e\/Letter_a_Num_1.stl"
+        },
+        {
+          "name": "Shifter_a_to__.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/99\/32\/25\/93\/Shifter_a_to__.stl"
+        },
+        {
+          "name": "Letter_h_Num_8.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/a0\/47\/57\/e5\/Letter_h_Num_8.stl"
+        },
+        {
+          "name": "Letter_j_Num_0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/15\/66\/ac\/95\/Letter_j_Num_0.stl"
+        },
+        {
+          "name": "Space.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/58\/b0\/ea\/99\/Space.stl"
+        },
+        {
+          "name": "CapLetter_Modifier.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/4c\/99\/6e\/f1\/CapLetter_Modifier.stl"
+        },
+        {
+          "name": "Letter_u.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/0c\/e5\/73\/27\/Letter_u.stl"
+        },
+        {
+          "name": "Letter_t.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/42\/89\/15\/b7\/Letter_t.stl"
+        },
+        {
+          "name": "Letter_q.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/9a\/c8\/1b\/0f\/Letter_q.stl"
+        },
+        {
+          "name": "Letter_w.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/48\/24\/c7\/5f\/Letter_w.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "letters.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/ad\/27\/a9\/b9\/letters.jpeg"
+        },
+        {
+          "name": "5bafbf920512e8d27417e5beb6000145.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/2c\/00\/87\/9b\/5bafbf920512e8d27417e5beb6000145.png"
+        },
+        {
+          "name": "4204d52029ccef083c9e1c93e8ecb0d6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/3a\/7c\/74\/b4\/4204d52029ccef083c9e1c93e8ecb0d6.png"
+        },
+        {
+          "name": "9a43941f8ad77cc87c0295102f39ded6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/47\/3a\/2f\/2b\/9a43941f8ad77cc87c0295102f39ded6.png"
+        },
+        {
+          "name": "31275643de2283cdb91c739c49ceb6a7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/0e\/78\/c8\/b9\/31275643de2283cdb91c739c49ceb6a7.png"
+        },
+        {
+          "name": "ebae6821c5cb84952064b5f17aade75b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/ff\/f2\/93\/ad\/ebae6821c5cb84952064b5f17aade75b.png"
+        },
+        {
+          "name": "10545c9961e9ae4ce2ab836af4cc78f2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/50\/38\/fd\/4b\/10545c9961e9ae4ce2ab836af4cc78f2.png"
+        },
+        {
+          "name": "cc40bc5b0d6d604da5a25833540e9535.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/c8\/04\/a3\/2f\/cc40bc5b0d6d604da5a25833540e9535.png"
+        },
+        {
+          "name": "96f58e4acd8d53f014a1bd26a7a69c94.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2a\/39\/2b\/ed\/28\/96f58e4acd8d53f014a1bd26a7a69c94.png"
+        },
+        {
+          "name": "195255c77d9f34c5a6dc7cb1034b4a5b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/9e\/63\/df\/06\/195255c77d9f34c5a6dc7cb1034b4a5b.png"
+        },
+        {
+          "name": "6427f4f073a508da434a5d3f57dd78d5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/8b\/d3\/46\/f5\/6427f4f073a508da434a5d3f57dd78d5.png"
+        },
+        {
+          "name": "8cdcd0bf217ac93808aae5529b0f3413.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/ed\/37\/b7\/64\/8cdcd0bf217ac93808aae5529b0f3413.png"
+        },
+        {
+          "name": "7c052b97faf5fcfebc441bf7d33a0139.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/c6\/2e\/00\/61\/7c052b97faf5fcfebc441bf7d33a0139.png"
+        },
+        {
+          "name": "9cbf3d819b6c3fa026695815a9bc735c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/ea\/8e\/78\/61\/9cbf3d819b6c3fa026695815a9bc735c.png"
+        },
+        {
+          "name": "f4a2f36c04c5dc3735829759486e0a83.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/94\/7c\/ba\/65\/99\/f4a2f36c04c5dc3735829759486e0a83.png"
+        },
+        {
+          "name": "cdf7da43d4fabe786d261c682e15f9b9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/46\/ce\/5c\/eb\/8a\/cdf7da43d4fabe786d261c682e15f9b9.png"
+        },
+        {
+          "name": "d1c9064cd046ed180153487ea37666b6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c4\/12\/f3\/e7\/b8\/d1c9064cd046ed180153487ea37666b6.png"
+        },
+        {
+          "name": "329663438b79636e0ce3e0920575dcf9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f4\/0b\/47\/1f\/e0\/329663438b79636e0ce3e0920575dcf9.png"
+        },
+        {
+          "name": "456538cf4557eb02b965f19d0da66410.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/66\/9b\/66\/53\/14\/456538cf4557eb02b965f19d0da66410.png"
+        },
+        {
+          "name": "caa83e06ae821d22142a079d60c56046.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/ac\/f0\/88\/43\/caa83e06ae821d22142a079d60c56046.png"
+        },
+        {
+          "name": "4a6eb45ec473580578fbdf8d0b488359.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/0e\/39\/89\/ce\/4a6eb45ec473580578fbdf8d0b488359.png"
+        },
+        {
+          "name": "86f05fa49e6ec178acdb80da3ce29a8b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/00\/16\/0a\/b5\/86f05fa49e6ec178acdb80da3ce29a8b.png"
+        },
+        {
+          "name": "f52240995c31e4cf12ebc8403c065480.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/6a\/c4\/c6\/09\/f52240995c31e4cf12ebc8403c065480.png"
+        },
+        {
+          "name": "d6685cd0537862f805ee9be105ff5bef.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/86\/7c\/a5\/95\/d6685cd0537862f805ee9be105ff5bef.png"
+        },
+        {
+          "name": "46c3c4c672cc2614a9637b7d27ab27c3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/44\/92\/dc\/4e\/46c3c4c672cc2614a9637b7d27ab27c3.png"
+        },
+        {
+          "name": "923f6d30a11b81ff61e935930d2c14f3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/c4\/2e\/95\/5b\/923f6d30a11b81ff61e935930d2c14f3.png"
+        },
+        {
+          "name": "ae412ef6b69cfb5d82ed51f7659016b4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/62\/98\/06\/f1\/ae412ef6b69cfb5d82ed51f7659016b4.png"
+        },
+        {
+          "name": "dce820dc1ef9571ca2cd3465d7825df9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/27\/be\/c7\/5b\/dce820dc1ef9571ca2cd3465d7825df9.png"
+        },
+        {
+          "name": "5f6779fe27177bde3b66c00912314163.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8f\/de\/6b\/8c\/6d\/5f6779fe27177bde3b66c00912314163.png"
+        },
+        {
+          "name": "9f1754fe77dd43d3f86730feca649b38.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f6\/a6\/0e\/6e\/3a\/9f1754fe77dd43d3f86730feca649b38.png"
+        },
+        {
+          "name": "277d20b0467b3be73763ee232ee72ad9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/c7\/aa\/d9\/6f\/277d20b0467b3be73763ee232ee72ad9.png"
+        },
+        {
+          "name": "2d451c3b2194cabf1051d60600fd03ff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2a\/44\/51\/12\/33\/2d451c3b2194cabf1051d60600fd03ff.png"
+        },
+        {
+          "name": "64f54a910dad9fa9564da05d206e12f6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/d1\/a9\/93\/56\/64f54a910dad9fa9564da05d206e12f6.png"
+        },
+        {
+          "name": "fac5d2b44812ea8e727fd2586b10a341.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/91\/35\/6b\/7f\/fac5d2b44812ea8e727fd2586b10a341.png"
+        },
+        {
+          "name": "9c892815bc008888588557dcaa2cc364.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/17\/ea\/ad\/e0\/9c892815bc008888588557dcaa2cc364.png"
+        },
+        {
+          "name": "7b89bbf3fa3b9722173867a499096465.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/27\/6d\/43\/ef\/7b89bbf3fa3b9722173867a499096465.png"
+        },
+        {
+          "name": "aa1b4ef18a080df5ee09256da9d375ee.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6c\/d9\/de\/2d\/e9\/aa1b4ef18a080df5ee09256da9d375ee.png"
+        }
+      ]
+    }
+  }
+}

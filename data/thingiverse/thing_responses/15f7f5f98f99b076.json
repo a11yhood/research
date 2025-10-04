@@ -1,0 +1,287 @@
+{
+  "created_at": "2025-04-15T03:39:09.853718+00:00",
+  "elapsed": 0.11667,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93086a09d972c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:09 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:09 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/908022?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/908022?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 908022,
+    "name": "Anthromod Hand V2.0 Draft",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e9\/c9\/a4\/b0\/cf\/02july2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/908022",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:908022",
+    "creator": {
+      "id": 10539,
+      "name": "Anthromod",
+      "first_name": "Chris",
+      "last_name": "Chappell",
+      "url": "https:\/\/api.thingiverse.com\/users\/Anthromod",
+      "public_url": "https:\/\/www.thingiverse.com\/Anthromod",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b9\/98\/47\/54\/ae\/2bf572fea50d37c5a4c8640e778ee3de_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 4,
+      "count_of_designs": 42,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Manchester",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/ea\/ab\/56\/39\/19\/b5e4d564a90adce8db62948838b7374a_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-07-02T16:41:38+00:00",
+    "modified": "2015-07-02T16:41:38+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 38,
+    "is_liked": false,
+    "collect_count": 77,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 2339367,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/6e\/6e\/68\/15\/02July2015Assembled.stl",
+      "name": "02July2015Assembled.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled_display_small.jpg"
+        }
+      ],
+      "added": "2015-07-02T16:42:51+00:00"
+    },
+    "description": "So I'm trying to make V2.0 of my Anthromod hand design.  \nThis design will be parametric and so you should be able to adjust almost everything about it and still have it work.  \nI've been working on the fingers mostly. They still need a little work in the tensioning elastic of each joint but they're getting there.  \nThe palm and thumb are causing more headaches. I want it to have an extra degree of freedom that the anthromod 1 didn't have.  \n\nI also want the final design to have some lateral flex in the knuckles, to help it grip better.  \n\nThe design needs a lot of cleaning up before I release properly. As I'm focusing on the parametric aspect I won't be happy until the 'back end' of it works as well as it looks.  \n\nI also want to make it compatible with E-nable type prosthetics, so I need to design the with that in mind as well.",
+    "instructions": "",
+    "description_html": "<div><p>So I'm trying to make V2.0 of my Anthromod hand design.<br>This design will be parametric and so you should be able to adjust almost everything about it and still have it work.<br>I've been working on the fingers mostly. They still need a little work in the tensioning elastic of each joint but they're getting there.<br>The palm and thumb are causing more headaches. I want it to have an extra degree of freedom that the anthromod 1 didn't have.  <\/p><p>I also want the final design to have some lateral flex in the knuckles, to help it grip better.  <\/p><p>The design needs a lot of cleaning up before I release properly. As I'm focusing on the parametric aspect I won't be happy until the 'back end' of it works as well as it looks.  <\/p><p>I also want to make it compatible with E-nable type prosthetics, so I need to design the with that in mind as well.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>So I'm trying to make V2.0 of my Anthromod hand design.<br>This design will be parametric and so you should be able to adjust almost everything about it and still have it work.<br>I've been working on the fingers mostly. They still need a little work in the tensioning elastic of each joint but they're getting there.<br>The palm and thumb are causing more headaches. I want it to have an extra degree of freedom that the anthromod 1 didn't have.  <\/p><p>I also want the final design to have some lateral flex in the knuckles, to help it grip better.  <\/p><p>The design needs a lot of cleaning up before I release properly. As I'm focusing on the parametric aspect I won't be happy until the 'back end' of it works as well as it looks.  <\/p><p>I also want to make it compatible with E-nable type prosthetics, so I need to design the with that in mind as well.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>So I'm trying to make V2.0 of my Anthromod hand design.<br>This design will be parametric and so you should be able to adjust almost everything about it and still have it work.<br>I've been working on the fingers mostly. They still need a little work in the tensioning elastic of each joint but they're getting there.<br>The palm and thumb are causing more headaches. I want it to have an extra degree of freedom that the anthromod 1 didn't have.  <\/p><p>I also want the final design to have some lateral flex in the knuckles, to help it grip better.  <\/p><p>The design needs a lot of cleaning up before I release properly. As I'm focusing on the parametric aspect I won't be happy until the 'back end' of it works as well as it looks.  <\/p><p>I also want to make it compatible with E-nable type prosthetics, so I need to design the with that in mind as well.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/908022\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/908022\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/908022\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/908022\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/908022\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/908022\/tags",
+    "tags": [
+      {
+        "name": "anthromod",
+        "tag": "anthromod",
+        "url": "https:\/\/api.thingiverse.com\/tags\/anthromod",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/anthromod\/things",
+        "absolute_url": "\/tag:anthromod"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "robot hand",
+        "tag": "robot_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robot_hand",
+        "count": 29,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robot_hand\/things",
+        "absolute_url": "\/tag:robot_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/908022\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3393,
+    "view_count": 2481,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "02July2015Assembled.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/6e\/6e\/68\/15\/02July2015Assembled.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "02July2015Assembled.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/0f\/d3\/75\/64\/02July2015Assembled.png"
+        },
+        {
+          "name": "02july2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/90\/40\/90\/46\/02july2.jpg"
+        },
+        {
+          "name": "02july1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/d4\/f2\/67\/c2\/02july1.jpg"
+        }
+      ]
+    }
+  }
+}

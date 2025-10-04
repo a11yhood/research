@@ -1,0 +1,654 @@
+{
+  "created_at": "2025-04-12T03:32:42.269054+00:00",
+  "elapsed": 0.210582,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa872fe12eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:42 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:42 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/683496?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/683496?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 683496,
+    "name": "Modified RIT Arm Parts",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/683496",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:683496",
+    "creator": {
+      "id": 248357,
+      "name": "masnart39",
+      "first_name": "Nick",
+      "last_name": "Norris",
+      "url": "https:\/\/api.thingiverse.com\/users\/masnart39",
+      "public_url": "https:\/\/www.thingiverse.com\/masnart39",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5f\/a7\/31\/10\/a8\/web-developer_thumb_medium.jpg",
+      "count_of_followers": 35,
+      "count_of_following": 2,
+      "count_of_designs": 6,
+      "collection_count": 13,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Ohio",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/77\/e8\/3b\/bd\/90\/thingiverse-bg_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-02-15T13:01:20+00:00",
+    "modified": "2015-02-15T13:01:20+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 86,
+    "is_liked": false,
+    "collect_count": 168,
+    "is_collected": false,
+    "comment_count": 17,
+    "is_watched": false,
+    "default_image": {
+      "id": 1806144,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/52\/44\/1c\/07\/updated-tri-cuff-1.jpg",
+      "name": "updated-tri-cuff-1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/44\/e5\/f5\/7e\/updated-tri-cuff-1_display_small.jpg"
+        }
+      ],
+      "added": "2015-02-15T13:01:18+00:00"
+    },
+    "description": "These files are parts that I modified for use in making the E-nable RIT 3D printed prosthetic arm. The tricep cuff was modified to address a cracking issue I had after a brief period of use by my first recipient. The forearm cup was modified to reduce weight, and allow a more generic, silicone insert friendly internal shape. The fingers were created to have a more visually compatible look than the Cyborg Beast fingers.  \r\n\r\nThese parts are designed for RIT arm v 0.43, but some parts may be compatible with newer versions. These files do not include everything required to make a complete arm. These are only the parts that I modified. The original RIT files are here: https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information  \r\n\r\nUse of these items require careful implementation of sizing methods that may require consultation with a medical professional.  \r\n\r\n03\/08\/2015 - Added left hand versions of tricep cuff, forearm receiver, and palm.  \r\n\r\n04-18-2015: Updated the tricep cuff to V2 to solve a newly reported cracking issue. http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg  ",
+    "instructions": "Scaling of these parts may cause fitment problems in holes that use Chicago style screws. Specifically, the holes where the finger and thumb proxes attach to the palm may be oversize or undersized depending on scaling.  \r\n\r\nSlightly undersized holes may be opened up to proper diameter by carefully running a drill through the holes. I have found that a 13\/64 (.203\") drill bit works well. Just be sure that the area around the hole doesn't become too thin.  \r\n\r\nIf you have SolidWorks capabilities, you may prefer to use the files I have located here: http:\/\/www.thingiverse.com\/thing:604380",
+    "description_html": "<div><p>These files are parts that I modified for use in making the E-nable RIT 3D printed prosthetic arm. The tricep cuff was modified to address a cracking issue I had after a brief period of use by my first recipient. The forearm cup was modified to reduce weight, and allow a more generic, silicone insert friendly internal shape. The fingers were created to have a more visually compatible look than the Cyborg Beast fingers.  <\/p><p>These parts are designed for RIT arm v 0.43, but some parts may be compatible with newer versions. These files do not include everything required to make a complete arm. These are only the parts that I modified. The original RIT files are here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information\">https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information<\/a>  <\/p><p>Use of these items require careful implementation of sizing methods that may require consultation with a medical professional.  <\/p><p>03\/08\/2015 - Added left hand versions of tricep cuff, forearm receiver, and palm.  <\/p><p>04-18-2015: Updated the tricep cuff to V2 to solve a newly reported cracking issue. <a rel=\"ugc nofollow\" href=\"http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg\">http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg<\/a>  <\/p><\/div>\n",
+    "instructions_html": "<div><p>Scaling of these parts may cause fitment problems in holes that use Chicago style screws. Specifically, the holes where the finger and thumb proxes attach to the palm may be oversize or undersized depending on scaling.  <\/p><p>Slightly undersized holes may be opened up to proper diameter by carefully running a drill through the holes. I have found that a 13\/64 (.203\") drill bit works well. Just be sure that the area around the hole doesn't become too thin.  <\/p><p>If you have SolidWorks capabilities, you may prefer to use the files I have located here: <a rel=\"ugc nofollow\" href=\"\/thing:604380\">http:\/\/www.thingiverse.com\/thing:604380<\/a><\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>These files are parts that I modified for use in making the E-nable RIT 3D printed prosthetic arm. The tricep cuff was modified to address a cracking issue I had after a brief period of use by my first recipient. The forearm cup was modified to reduce weight, and allow a more generic, silicone insert friendly internal shape. The fingers were created to have a more visually compatible look than the Cyborg Beast fingers.  <\/p><p>These parts are designed for RIT arm v 0.43, but some parts may be compatible with newer versions. These files do not include everything required to make a complete arm. These are only the parts that I modified. The original RIT files are here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information\">https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information<\/a>  <\/p><p>Use of these items require careful implementation of sizing methods that may require consultation with a medical professional.  <\/p><p>03\/08\/2015 - Added left hand versions of tricep cuff, forearm receiver, and palm.  <\/p><p>04-18-2015: Updated the tricep cuff to V2 to solve a newly reported cracking issue. <a rel=\"ugc nofollow\" href=\"http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg\">http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg<\/a>  <\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>Scaling of these parts may cause fitment problems in holes that use Chicago style screws. Specifically, the holes where the finger and thumb proxes attach to the palm may be oversize or undersized depending on scaling.  <\/p><p>Slightly undersized holes may be opened up to proper diameter by carefully running a drill through the holes. I have found that a 13\/64 (.203\") drill bit works well. Just be sure that the area around the hole doesn't become too thin.  <\/p><p>If you have SolidWorks capabilities, you may prefer to use the files I have located here: <a rel=\"ugc nofollow\" href=\"\/thing:604380\">http:\/\/www.thingiverse.com\/thing:604380<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>These files are parts that I modified for use in making the E-nable RIT 3D printed prosthetic arm. The tricep cuff was modified to address a cracking issue I had after a brief period of use by my first recipient. The forearm cup was modified to reduce weight, and allow a more generic, silicone insert friendly internal shape. The fingers were created to have a more visually compatible look than the Cyborg Beast fingers.  <\/p><p>These parts are designed for RIT arm v 0.43, but some parts may be compatible with newer versions. These files do not include everything required to make a complete arm. These are only the parts that I modified. The original RIT files are here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information\">https:\/\/www.youmagine.com\/designs\/rit-e-nable-arm-v0-43#!design-information<\/a>  <\/p><p>Use of these items require careful implementation of sizing methods that may require consultation with a medical professional.  <\/p><p>03\/08\/2015 - Added left hand versions of tricep cuff, forearm receiver, and palm.  <\/p><p>04-18-2015: Updated the tricep cuff to V2 to solve a newly reported cracking issue. <a rel=\"ugc nofollow\" href=\"http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg\">http:\/\/www.proto3dprinting.com\/wp-content\/uploads\/2014\/06\/cuff-update-v2.jpg<\/a>  <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>Scaling of these parts may cause fitment problems in holes that use Chicago style screws. Specifically, the holes where the finger and thumb proxes attach to the palm may be oversize or undersized depending on scaling.  <\/p><p>Slightly undersized holes may be opened up to proper diameter by carefully running a drill through the holes. I have found that a 13\/64 (.203\") drill bit works well. Just be sure that the area around the hole doesn't become too thin.  <\/p><p>If you have SolidWorks capabilities, you may prefer to use the files I have located here: <a rel=\"ugc nofollow\" href=\"\/thing:604380\">http:\/\/www.thingiverse.com\/thing:604380<\/a><\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/683496\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/683496\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/683496\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/683496\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/683496\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/683496\/tags",
+    "tags": [
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1719,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "assitive device",
+        "tag": "assitive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitive_device",
+        "count": 14,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitive_device\/things",
+        "absolute_url": "\/tag:assitive_device"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "enable",
+        "tag": "enable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enable",
+        "count": 166,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enable\/things",
+        "absolute_url": "\/tag:enable"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "prosthetic arm",
+        "tag": "prosthetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+        "count": 49,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+        "absolute_url": "\/tag:prosthetic_arm"
+      },
+      {
+        "name": "rit arm",
+        "tag": "rit_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rit_arm",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rit_arm\/things",
+        "absolute_url": "\/tag:rit_arm"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/683496\/categories",
+    "file_count": 16,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3781,
+    "view_count": 6021,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 3,
+    "app_count": 4,
+    "root_comment_count": 8,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 604380,
+        "name": "Modified RIT Arm Parts - Solidworks Format",
+        "url": "https:\/\/api.thingiverse.com\/things\/604380",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:604380",
+        "created_at": "2014-12-21T20:55:57+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1d\/01\/d4\/d8\/b0\/forearm-receiver-sectioned_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/1d\/01\/d4\/d8\/b0\/forearm-receiver-sectioned_preview_card.jpg",
+        "creator": {
+          "id": 248357,
+          "name": "masnart39",
+          "first_name": "Nick",
+          "last_name": "Norris",
+          "url": "https:\/\/api.thingiverse.com\/users\/masnart39",
+          "public_url": "https:\/\/www.thingiverse.com\/masnart39",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5f\/a7\/31\/10\/a8\/web-developer_thumb_medium.jpg",
+          "count_of_followers": 35,
+          "count_of_following": 2,
+          "count_of_designs": 6,
+          "collection_count": 13,
+          "make_count": 3,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Ohio",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/77\/e8\/3b\/bd\/90\/thingiverse-bg_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 3,
+        "make_count": 3,
+        "like_count": 47,
+        "tags": [
+          {
+            "name": "arm",
+            "tag": "arm",
+            "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+            "count": 1719,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+            "absolute_url": "\/tag:arm"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 533,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "printable prosthetics",
+            "tag": "printable_prosthetics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+            "count": 149,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+            "absolute_url": "\/tag:printable_prosthetics"
+          },
+          {
+            "name": "prosthesis",
+            "tag": "prosthesis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+            "count": 231,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+            "absolute_url": "\/tag:prosthesis"
+          },
+          {
+            "name": "prosthetc",
+            "tag": "prosthetc",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetc",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetc\/things",
+            "absolute_url": "\/tag:prosthetc"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "prosthetic arm",
+            "tag": "prosthetic_arm",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+            "count": 49,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+            "absolute_url": "\/tag:prosthetic_arm"
+          },
+          {
+            "name": "rit arm",
+            "tag": "rit_arm",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rit_arm",
+            "count": 4,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rit_arm\/things",
+            "absolute_url": "\/tag:rit_arm"
+          },
+          {
+            "name": "solidworks",
+            "tag": "solidworks",
+            "url": "https:\/\/api.thingiverse.com\/tags\/solidworks",
+            "count": 1630,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/solidworks\/things",
+            "absolute_url": "\/tag:solidworks"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 107,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "forearm-cup-modified.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/6a\/bb\/24\/8b\/forearm-cup-modified.STL"
+        },
+        {
+          "name": "pin-index-middle.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/1f\/18\/27\/1f\/pin-index-middle.STL"
+        },
+        {
+          "name": "pin-thumb-pinky.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/c9\/da\/67\/1e\/pin-thumb-pinky.STL"
+        },
+        {
+          "name": "pin-ring.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/aa\/11\/43\/13\/pin-ring.STL"
+        },
+        {
+          "name": "finger-middle.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/b7\/3d\/6f\/5d\/finger-middle.STL"
+        },
+        {
+          "name": "finger-ring.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/ee\/ec\/62\/52\/finger-ring.STL"
+        },
+        {
+          "name": "finger-pinky.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/35\/d4\/c5\/99\/finger-pinky.STL"
+        },
+        {
+          "name": "finger-index.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/3a\/47\/59\/e0\/finger-index.STL"
+        },
+        {
+          "name": "thumb.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/21\/74\/14\/31\/thumb.STL"
+        },
+        {
+          "name": "prox-thumb.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/e8\/32\/bd\/a0\/prox-thumb.STL"
+        },
+        {
+          "name": "prox-fingers.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/ad\/64\/d5\/25\/prox-fingers.STL"
+        },
+        {
+          "name": "palm-left.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/47\/17\/7a\/2f\/palm-left.STL"
+        },
+        {
+          "name": "forearm-receiver-left.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/1c\/22\/f8\/f5\/forearm-receiver-left.STL"
+        },
+        {
+          "name": "tricep-cuff-right-v2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/8f\/9c\/e9\/71\/tricep-cuff-right-v2.STL"
+        },
+        {
+          "name": "tricep-cuff-left-v2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/56\/77\/de\/45\/tricep-cuff-left-v2.STL"
+        },
+        {
+          "name": "Retainer_Ring.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/c7\/d9\/ba\/12\/Retainer_Ring.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "updated-tri-cuff-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/52\/44\/1c\/07\/updated-tri-cuff-1.jpg"
+        },
+        {
+          "name": "updated-tri-cuff-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/93\/b6\/f9\/d3\/updated-tri-cuff-2.jpg"
+        },
+        {
+          "name": "updated-tri-cuff-3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/ff\/70\/88\/5e\/updated-tri-cuff-3.jpg"
+        },
+        {
+          "name": "updated-tri-cuff-4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/ac\/d6\/cf\/9f\/updated-tri-cuff-4.jpg"
+        },
+        {
+          "name": "cuff-update-v2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/06\/51\/5e\/3b\/cuff-update-v2.jpg"
+        },
+        {
+          "name": "forearm-cup-1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/ee\/fd\/b2\/08\/forearm-cup-1.jpg"
+        },
+        {
+          "name": "forearm-cup-2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/09\/67\/5d\/9b\/forearm-cup-2.jpg"
+        },
+        {
+          "name": "typical-finger.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/f4\/03\/da\/54\/typical-finger.jpg"
+        },
+        {
+          "name": "typical-prox.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/b3\/a2\/d6\/0d\/typical-prox.jpg"
+        },
+        {
+          "name": "typical-pin.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/22\/27\/6a\/1f\/typical-pin.jpg"
+        },
+        {
+          "name": "forearm-cup-modified.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/00\/82\/ce\/36\/forearm-cup-modified.png"
+        },
+        {
+          "name": "forearm-receiver-left.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cd\/ae\/f5\/d4\/17\/forearm-receiver-left.png"
+        },
+        {
+          "name": "palm-left.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/15\/df\/48\/97\/palm-left.png"
+        },
+        {
+          "name": "tricep-cuff-left-v2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/46\/a2\/71\/ff\/ce\/tricep-cuff-left-v2.png"
+        },
+        {
+          "name": "tricep-cuff-right-v2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/a2\/30\/de\/d4\/tricep-cuff-right-v2.png"
+        },
+        {
+          "name": "finger-ring.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/11\/6c\/01\/b5\/finger-ring.png"
+        },
+        {
+          "name": "finger-middle.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/17\/60\/f3\/6f\/finger-middle.png"
+        },
+        {
+          "name": "finger-pinky.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fc\/60\/64\/bf\/69\/finger-pinky.png"
+        },
+        {
+          "name": "finger-index.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/1a\/fe\/c0\/32\/finger-index.png"
+        },
+        {
+          "name": "thumb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/fe\/50\/b5\/61\/thumb.png"
+        },
+        {
+          "name": "prox-thumb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/36\/22\/07\/27\/prox-thumb.png"
+        },
+        {
+          "name": "prox-fingers.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fa\/9c\/f9\/50\/15\/prox-fingers.png"
+        },
+        {
+          "name": "pin-thumb-pinky.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/be\/20\/59\/8f\/bc\/pin-thumb-pinky.png"
+        },
+        {
+          "name": "pin-ring.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9e\/03\/5e\/41\/3c\/pin-ring.png"
+        },
+        {
+          "name": "pin-index-middle.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/38\/60\/c9\/10\/pin-index-middle.png"
+        },
+        {
+          "name": "Retainer_Ring.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/2e\/07\/a2\/b0\/Retainer_Ring.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "created_at": "2025-10-03T03:26:49.680243+00:00",
+  "elapsed": 0.139088,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98895717a8d5d7c2-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 03 Oct 2025 03:26:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 03 Oct 2025 03:56:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "nhI24lsCmGJh3XgfHYjTC7_dP1NFgqWUuVfSzIzt6bs-1759461916-1.0.1.1-Rn_axndXnrqgOWl0d4f9I55DyrAZ.vMFK1d.MJ_TGL63EZ0m0oofomVMa5xtxAZRQCOUvHdh373KgwmGQ7im.fgBZduvyltNBWSXefM391w",
+      "_cfuvid": "tKDBxpG2cyk3EuMl7pOTGXBMUG9WgOOEZjKN9M8TJEI-1759461916327-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=nhI24lsCmGJh3XgfHYjTC7_dP1NFgqWUuVfSzIzt6bs-1759461916-1.0.1.1-Rn_axndXnrqgOWl0d4f9I55DyrAZ.vMFK1d.MJ_TGL63EZ0m0oofomVMa5xtxAZRQCOUvHdh373KgwmGQ7im.fgBZduvyltNBWSXefM391w; _cfuvid=tKDBxpG2cyk3EuMl7pOTGXBMUG9WgOOEZjKN9M8TJEI-1759461916327-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2353675?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2353675?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2353675,
+    "name": "Universal Wireless Switch Access",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2353675",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2353675",
+    "creator": {
+      "id": 419272,
+      "name": "Pole_ergo",
+      "first_name": "Guy.E",
+      "last_name": "ergotherapeute",
+      "url": "https:\/\/api.thingiverse.com\/users\/Pole_ergo",
+      "public_url": "https:\/\/www.thingiverse.com\/Pole_ergo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/74\/1b\/45\/7b\/logo_THINGIVERSE_thumb_medium.jpg",
+      "count_of_followers": 566,
+      "count_of_following": 13,
+      "count_of_designs": 57,
+      "collection_count": 22,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lyon, France.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/32\/bd\/91\/a0\/5d\/mains_puzzle_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-06-16T08:40:17+00:00",
+    "modified": "2017-06-16T08:40:17+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 28,
+    "is_liked": false,
+    "collect_count": 74,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 6231839,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/a7\/74\/0d\/7c\/03.jpg",
+      "name": "03.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/92\/dc\/06\/71\/f99687dd719c4e8bc6a39e946c3d9ef7_display_small.jpg"
+        }
+      ],
+      "added": "2017-06-16T08:37:26+00:00"
+    },
+    "description": "Merci de lire l'avertissement en cliquant sur le profil.\r\nPour la personne en situation de handicap, l\u2019acc\u00e8s \u00e0 l'ordinateur peut se r\u00e9v\u00e9ler compliqu\u00e9, en particulier avec les \u00e9crans tactiles lorsque l'usage des mains est compromis.\r\nHeureusement, la plupart des syst\u00e8mes d'exploitation (MacOs, IOS et Android) proposent, en s\u00e9rie, des outils facilitant la navigation dans l'environnement informatique. Pour Windows, le logiciels Civikeys est utilis\u00e9 : http:\/\/www.civikey.com\/\r\n\r\nPour \u00e9tendre encore ces possibilit\u00e9s, il est possible de connecter un contacteur externe qui permettra, par exemple, de faire d\u00e9filer puis s\u00e9lectionner les \u00e9l\u00e9ments et ic\u00f4nes pr\u00e9sent\u00e9s \u00e0 l'\u00e9cran.\r\n\r\nEn recherchant une solution ais\u00e9e, simple et abordable de produire ce type de contacteur sans fils, il est apparu qu'en mixant un bouton bluetooth pour selfie avec un design pr\u00e9vu pour accueillir ce dernier, il \u00e9tait possible de disposer d'un contacteur sans fils capable de piloter ces syst\u00e8mes \u00e0 d\u00e9filement et ainsi de r\u00e9aliser des essais de contr\u00f4le de l'ordinateur.\r\n\r\nun test du montage est disponible en cliquant le lien en bas du descriptif.\r\n\r\nSelfie button : http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw\r\n\r\nThanks to read warnings by clicking profil.\r\nAccessing a computer and specially a tablet without fingers is a challenge. Fortunaltely, most of the OS are equiped with accessibility tools designed to help users to access more easily their computer and tablet. For Windows, Civikeys virtual keyboard is used.\r\nTo further extend those possibility, it is possible to connect external switch to help, for example, with some screen scrolling to choose an item on it, to navigate and to select. \r\n\r\nIn my quest to find the cheaper and smarter solutions to build this kind of external switch, I found that mixing a very cheap selfie button, found on Ebay, with my own design maybe will be a interesting solution. Tests on different OS are shown on this video : https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&feature=youtu.be ",
+    "instructions": "",
+    "description_html": "<div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Pour la personne en situation de handicap, l\u2019acc\u00e8s \u00e0 l'ordinateur peut se r\u00e9v\u00e9ler compliqu\u00e9, en particulier avec les \u00e9crans tactiles lorsque l'usage des mains est compromis.<br>Heureusement, la plupart des syst\u00e8mes d'exploitation (MacOs, IOS et Android) proposent, en s\u00e9rie, des outils facilitant la navigation dans l'environnement informatique. Pour Windows, le logiciels Civikeys est utilis\u00e9 : <a rel=\"nofollow\" href=\"http:\/\/www.civikey.com\/\">http:\/\/www.civikey.com\/<\/a><\/p><p>Pour \u00e9tendre encore ces possibilit\u00e9s, il est possible de connecter un contacteur externe qui permettra, par exemple, de faire d\u00e9filer puis s\u00e9lectionner les \u00e9l\u00e9ments et ic\u00f4nes pr\u00e9sent\u00e9s \u00e0 l'\u00e9cran.<\/p><p>En recherchant une solution ais\u00e9e, simple et abordable de produire ce type de contacteur sans fils, il est apparu qu'en mixant un bouton bluetooth pour selfie avec un design pr\u00e9vu pour accueillir ce dernier, il \u00e9tait possible de disposer d'un contacteur sans fils capable de piloter ces syst\u00e8mes \u00e0 d\u00e9filement et ainsi de r\u00e9aliser des essais de contr\u00f4le de l'ordinateur.<\/p><p>un test du montage est disponible en cliquant le lien en bas du descriptif.<\/p><p>Selfie button : <a rel=\"nofollow\" href=\"http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw\">http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw<\/a><\/p><p>Thanks to read warnings by clicking profil.<br>Accessing a computer and specially a tablet without fingers is a challenge. Fortunaltely, most of the OS are equiped with accessibility tools designed to help users to access more easily their computer and tablet. For Windows, Civikeys virtual keyboard is used.<br>To further extend those possibility, it is possible to connect external switch to help, for example, with some screen scrolling to choose an item on it, to navigate and to select. <\/p><p>In my quest to find the cheaper and smarter solutions to build this kind of external switch, I found that mixing a very cheap selfie button, found on Ebay, with my own design maybe will be a interesting solution. Tests on different OS are shown on this video : <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be<\/a> <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Pour la personne en situation de handicap, l\u2019acc\u00e8s \u00e0 l'ordinateur peut se r\u00e9v\u00e9ler compliqu\u00e9, en particulier avec les \u00e9crans tactiles lorsque l'usage des mains est compromis.<br>Heureusement, la plupart des syst\u00e8mes d'exploitation (MacOs, IOS et Android) proposent, en s\u00e9rie, des outils facilitant la navigation dans l'environnement informatique. Pour Windows, le logiciels Civikeys est utilis\u00e9 : <a rel=\"nofollow\" href=\"http:\/\/www.civikey.com\/\">http:\/\/www.civikey.com\/<\/a><\/p><p>Pour \u00e9tendre encore ces possibilit\u00e9s, il est possible de connecter un contacteur externe qui permettra, par exemple, de faire d\u00e9filer puis s\u00e9lectionner les \u00e9l\u00e9ments et ic\u00f4nes pr\u00e9sent\u00e9s \u00e0 l'\u00e9cran.<\/p><p>En recherchant une solution ais\u00e9e, simple et abordable de produire ce type de contacteur sans fils, il est apparu qu'en mixant un bouton bluetooth pour selfie avec un design pr\u00e9vu pour accueillir ce dernier, il \u00e9tait possible de disposer d'un contacteur sans fils capable de piloter ces syst\u00e8mes \u00e0 d\u00e9filement et ainsi de r\u00e9aliser des essais de contr\u00f4le de l'ordinateur.<\/p><p>un test du montage est disponible en cliquant le lien en bas du descriptif.<\/p><p>Selfie button : <a rel=\"nofollow\" href=\"http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw\">http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw<\/a><\/p><p>Thanks to read warnings by clicking profil.<br>Accessing a computer and specially a tablet without fingers is a challenge. Fortunaltely, most of the OS are equiped with accessibility tools designed to help users to access more easily their computer and tablet. For Windows, Civikeys virtual keyboard is used.<br>To further extend those possibility, it is possible to connect external switch to help, for example, with some screen scrolling to choose an item on it, to navigate and to select. <\/p><p>In my quest to find the cheaper and smarter solutions to build this kind of external switch, I found that mixing a very cheap selfie button, found on Ebay, with my own design maybe will be a interesting solution. Tests on different OS are shown on this video : <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be<\/a> <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Zortrax<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Zortrax M200&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;It is possible to play with infill to change the flexibility of the switch.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Merci de lire l'avertissement en cliquant sur le profil.<br>Pour la personne en situation de handicap, l\u2019acc\u00e8s \u00e0 l'ordinateur peut se r\u00e9v\u00e9ler compliqu\u00e9, en particulier avec les \u00e9crans tactiles lorsque l'usage des mains est compromis.<br>Heureusement, la plupart des syst\u00e8mes d'exploitation (MacOs, IOS et Android) proposent, en s\u00e9rie, des outils facilitant la navigation dans l'environnement informatique. Pour Windows, le logiciels Civikeys est utilis\u00e9 : <a rel=\"nofollow\" href=\"http:\/\/www.civikey.com\/\">http:\/\/www.civikey.com\/<\/a><\/p><p>Pour \u00e9tendre encore ces possibilit\u00e9s, il est possible de connecter un contacteur externe qui permettra, par exemple, de faire d\u00e9filer puis s\u00e9lectionner les \u00e9l\u00e9ments et ic\u00f4nes pr\u00e9sent\u00e9s \u00e0 l'\u00e9cran.<\/p><p>En recherchant une solution ais\u00e9e, simple et abordable de produire ce type de contacteur sans fils, il est apparu qu'en mixant un bouton bluetooth pour selfie avec un design pr\u00e9vu pour accueillir ce dernier, il \u00e9tait possible de disposer d'un contacteur sans fils capable de piloter ces syst\u00e8mes \u00e0 d\u00e9filement et ainsi de r\u00e9aliser des essais de contr\u00f4le de l'ordinateur.<\/p><p>un test du montage est disponible en cliquant le lien en bas du descriptif.<\/p><p>Selfie button : <a rel=\"nofollow\" href=\"http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw\">http:\/\/www.ebay.fr\/itm\/Wireless-Bluetooth-Remote-Shutter-Button-For-Selfie-Stick-Monopod-Phone-Pole-\/291225033453?var=&amp;hash=item43ce5d5aed:m:mUmMV0kekn8nJ4YI5C6bpmw<\/a><\/p><p>Thanks to read warnings by clicking profil.<br>Accessing a computer and specially a tablet without fingers is a challenge. Fortunaltely, most of the OS are equiped with accessibility tools designed to help users to access more easily their computer and tablet. For Windows, Civikeys virtual keyboard is used.<br>To further extend those possibility, it is possible to connect external switch to help, for example, with some screen scrolling to choose an item on it, to navigate and to select. <\/p><p>In my quest to find the cheaper and smarter solutions to build this kind of external switch, I found that mixing a very cheap selfie button, found on Ebay, with my own design maybe will be a interesting solution. Tests on different OS are shown on this video : <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=yma1FJRDItg&amp;feature=youtu.be<\/a> <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Zortrax<\/p><\/div>",
+            "printer": "<div><p>Zortrax M200<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "notes": "<div><p>It is possible to play with infill to change the flexibility of the switch.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2353675\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2353675\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2353675\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2353675\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2353675\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2353675\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assitive technology",
+        "tag": "assitive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology",
+        "count": 40,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology\/things",
+        "absolute_url": "\/tag:assitive_technology"
+      },
+      {
+        "name": "Computer Accessories",
+        "tag": "computer_accessories",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer_accessories",
+        "count": 1681,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer_accessories\/things",
+        "absolute_url": "\/tag:Computer_Accessories"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 277,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 178,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 262,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 447,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "power switch",
+        "tag": "power_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/power_switch",
+        "count": 817,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/power_switch\/things",
+        "absolute_url": "\/tag:power_switch"
+      },
+      {
+        "name": "selfie remote",
+        "tag": "selfie_remote",
+        "url": "https:\/\/api.thingiverse.com\/tags\/selfie_remote",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/selfie_remote\/things",
+        "absolute_url": "\/tag:selfie_remote"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2353675\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 389,
+    "view_count": 1496,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "USWA.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/1c\/88\/98\/d1\/USWA.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "03.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/a7\/74\/0d\/7c\/03.jpg"
+        },
+        {
+          "name": "05.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/77\/a6\/82\/ab\/05.jpg"
+        },
+        {
+          "name": "02.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/ae\/16\/69\/74\/02.jpg"
+        },
+        {
+          "name": "01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/10\/d1\/ac\/5d\/01.jpg"
+        },
+        {
+          "name": "04.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/66\/55\/b0\/b0\/04.jpg"
+        },
+        {
+          "name": "6f394e27e69f46fad0402d5fa228be50.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f6\/ec\/32\/3a\/65\/6f394e27e69f46fad0402d5fa228be50.png"
+        }
+      ]
+    }
+  }
+}
