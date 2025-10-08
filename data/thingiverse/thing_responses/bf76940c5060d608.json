@@ -1,0 +1,612 @@
+{
+  "created_at": "2025-10-08T03:28:00.896296+00:00",
+  "elapsed": 0.216071,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28bb45dd63023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5996641?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5996641?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5996641,
+    "name": "Gazint Robotic Arm v1  (Open Source) ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/4a\/82\/05\/20\/12\/large_display_8a41a31d-0341-4747-a90d-fb31e7ed1a9a.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/5996641",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5996641",
+    "creator": {
+      "id": 3136769,
+      "name": "Altoids_exe",
+      "first_name": "Nicholas",
+      "last_name": "Odeh",
+      "url": "https:\/\/api.thingiverse.com\/users\/Altoids_exe",
+      "public_url": "https:\/\/www.thingiverse.com\/Altoids_exe",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/08\/fd\/d6\/ab\/04\/le-epic.jpg",
+      "count_of_followers": 3,
+      "count_of_following": 0,
+      "count_of_designs": 4,
+      "collection_count": 6,
+      "make_count": 4,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "united states",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/05\/d9\/eb\/b5\/60\/30971BE8-702E-4451-BFC4-478CC062FB01.jpeg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-04-28T21:07:02+00:00",
+    "modified": "2023-04-28T21:07:02+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 23,
+    "is_liked": false,
+    "collect_count": 45,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19437862,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/9f\/ae\/ae\/49\/b5288d8b-ca30-480f-b8a3-2a0c23aebc47.stl",
+      "name": "b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/ee\/1f\/b1\/36\/large_thumb_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/5d\/49\/b9\/e3\/medium_thumb_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/88\/70\/08\/66\/small_thumb_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/2d\/f3\/45\/a6\/tiny_thumb_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/f3\/21\/d0\/a0\/featured_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/b0\/d3\/9c\/fc\/card_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/76\/ba\/c4\/0c\/large_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/3b\/0e\/9c\/39\/medium_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/62\/1f\/d5\/22\/small_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/7d\/54\/92\/d0\/birdwing_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/78\/52\/84\/46\/tiny_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/6b\/ad\/ba\/a5\/tinycard_preview_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/1e\/9e\/83\/10\/large_display_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/db\/7e\/61\/58\/medium_display_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/82\/5a\/fc\/66\/small_display_b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        }
+      ],
+      "added": "2023-06-15T16:38:29+00:00"
+    },
+    "description": "The goal of Gazint is to be an open-source, low-cost robotic arm that is able to grab small objects through fine and general movement of servo motors. \r\n\r\n\r\nThe purpose of Gazint is to provide the foundation for making a completely open-source, AI-based, modularized robotic arm that can assist those who may not have the physical capacity to complete fine and or general movements. I decided to start working on Gazint as I noticed a lack of quality yet affordable tools to assist those struggling with motor skills. I aim to try to fix this and encourage you to join me in my efforts.\r\n\r\n\r\nPart Manifest: \r\n\r\n1x  Arduino Uno  (power off 5v battery pack)\r\n\r\n5x 10K potentiometers\r\n\r\n2x  5v battery packs   (AAA battery) \r\n\r\n1x  7v PSU @2amp\r\n\r\n1x Breadboard\r\n\r\n2x SG90 servo motor  (power of Arduino, may need capacitors if wanting a more smooth\/ snappy gripper  actuation. )\r\n\r\n3x MG996 servo motor  (power off of PSU)\r\n\r\n20x computer screws. \r\n\r\nPLA plastic\r\n\r\nrubberband for main arm to upper base attachment ( aids in reducing motor strain, optional if on a budget) \r\n\r\nwire sleeving (optional) \r\n\r\n\r\nPrint the arm parts with supports; supports may be hard to remove...good luck!\r\n\r\n\r\nThe summary still w.i.p, Updates with an explanation on wiring coming within 24hr. \r\nI have added some photos of the breadboard layout for now. \r\n\r\nThis project is also on [Github](https:\/\/github.com\/nicholasgreatone\/Gazint_Robotic_arm_V2.1)\r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>The goal of Gazint is to be an open-source, low-cost robotic arm that is able to grab small objects through fine and general movement of servo motors. <\/p><p>The purpose of Gazint is to provide the foundation for making a completely open-source, AI-based, modularized robotic arm that can assist those who may not have the physical capacity to complete fine and or general movements. I decided to start working on Gazint as I noticed a lack of quality yet affordable tools to assist those struggling with motor skills. I aim to try to fix this and encourage you to join me in my efforts.<\/p><p>Part Manifest: <\/p><p>1x  Arduino Uno  (power off 5v battery pack)<\/p><p>5x 10K potentiometers<\/p><p>2x  5v battery packs   (AAA battery) <\/p><p>1x  7v PSU @2amp<\/p><p>1x Breadboard<\/p><p>2x SG90 servo motor  (power of Arduino, may need capacitors if wanting a more smooth\/ snappy gripper  actuation. )<\/p><p>3x MG996 servo motor  (power off of PSU)<\/p><p>20x computer screws. <\/p><p>PLA plastic<\/p><p>rubberband for main arm to upper base attachment ( aids in reducing motor strain, optional if on a budget) <\/p><p>wire sleeving (optional) <\/p><p>Print the arm parts with supports; supports may be hard to remove...good luck!<\/p><p>The summary still w.i.p, Updates with an explanation on wiring coming within 24hr.<br>I have added some photos of the breadboard layout for now. <\/p><p>This project is also on <a rel=\"nofollow\" href=\"https:\/\/github.com\/nicholasgreatone\/Gazint_Robotic_arm_V2.1\">Github<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The goal of Gazint is to be an open-source, low-cost robotic arm that is able to grab small objects through fine and general movement of servo motors. <\/p><p>The purpose of Gazint is to provide the foundation for making a completely open-source, AI-based, modularized robotic arm that can assist those who may not have the physical capacity to complete fine and or general movements. I decided to start working on Gazint as I noticed a lack of quality yet affordable tools to assist those struggling with motor skills. I aim to try to fix this and encourage you to join me in my efforts.<\/p><p>Part Manifest: <\/p><p>1x  Arduino Uno  (power off 5v battery pack)<\/p><p>5x 10K potentiometers<\/p><p>2x  5v battery packs   (AAA battery) <\/p><p>1x  7v PSU @2amp<\/p><p>1x Breadboard<\/p><p>2x SG90 servo motor  (power of Arduino, may need capacitors if wanting a more smooth\/ snappy gripper  actuation. )<\/p><p>3x MG996 servo motor  (power off of PSU)<\/p><p>20x computer screws. <\/p><p>PLA plastic<\/p><p>rubberband for main arm to upper base attachment ( aids in reducing motor strain, optional if on a budget) <\/p><p>wire sleeving (optional) <\/p><p>Print the arm parts with supports; supports may be hard to remove...good luck!<\/p><p>The summary still w.i.p, Updates with an explanation on wiring coming within 24hr.<br>I have added some photos of the breadboard layout for now. <\/p><p>This project is also on <a rel=\"nofollow\" href=\"https:\/\/github.com\/nicholasgreatone\/Gazint_Robotic_arm_V2.1\">Github<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Ender 3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;rough, does not need to be pretty&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;10%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Any PLA, PETG, ABS, TPU(Tpu for gripper only)                Any                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Can use PLA, PETG, and ABS for all parts.   Use TPU only for the gripper.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>How to make main arm joint<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Remove suports&lt;\/p&gt;&lt;p&gt;Superglue ends of  long_side_arm_screw__side_v5.stl   and short_side_arm_servo_side_v5.stl together to make the main arm joint.  &lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The goal of Gazint is to be an open-source, low-cost robotic arm that is able to grab small objects through fine and general movement of servo motors. <\/p><p>The purpose of Gazint is to provide the foundation for making a completely open-source, AI-based, modularized robotic arm that can assist those who may not have the physical capacity to complete fine and or general movements. I decided to start working on Gazint as I noticed a lack of quality yet affordable tools to assist those struggling with motor skills. I aim to try to fix this and encourage you to join me in my efforts.<\/p><p>Part Manifest: <\/p><p>1x  Arduino Uno  (power off 5v battery pack)<\/p><p>5x 10K potentiometers<\/p><p>2x  5v battery packs   (AAA battery) <\/p><p>1x  7v PSU @2amp<\/p><p>1x Breadboard<\/p><p>2x SG90 servo motor  (power of Arduino, may need capacitors if wanting a more smooth\/ snappy gripper  actuation. )<\/p><p>3x MG996 servo motor  (power off of PSU)<\/p><p>20x computer screws. <\/p><p>PLA plastic<\/p><p>rubberband for main arm to upper base attachment ( aids in reducing motor strain, optional if on a budget) <\/p><p>wire sleeving (optional) <\/p><p>Print the arm parts with supports; supports may be hard to remove...good luck!<\/p><p>The summary still w.i.p, Updates with an explanation on wiring coming within 24hr.<br>I have added some photos of the breadboard layout for now. <\/p><p>This project is also on <a rel=\"nofollow\" href=\"https:\/\/github.com\/nicholasgreatone\/Gazint_Robotic_arm_V2.1\">Github<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>",
+            "printer": "<div><p>Ender 3<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>rough, does not need to be pretty<\/p><\/div>",
+            "infill": "<div><p>10%<\/p><\/div>",
+            "filament_brand": "<div><p>Any<\/p><\/div>",
+            "filament_color": "<div><p>Any<\/p><\/div>",
+            "filament_material": "<div><p>PLA, PETG, ABS, TPU(Tpu for gripper only)<\/p><\/div>",
+            "notes": "<div><p>Can use PLA, PETG, and ABS for all parts.   Use TPU only for the gripper.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "How to make main arm joint",
+            "content": "<div><p>Remove suports<\/p><p>Superglue ends of  long_side_arm_screw__side_v5.stl   and short_side_arm_servo_side_v5.stl together to make the main arm joint.  <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5996641\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5996641\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5996641\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5996641\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5996641\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5996641\/tags",
+    "tags": [
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10516,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "diy",
+        "tag": "diy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/diy",
+        "count": 11432,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/diy\/things",
+        "absolute_url": "\/tag:diy"
+      },
+      {
+        "name": "DIY electronics",
+        "tag": "diy_electronics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/diy_electronics",
+        "count": 1714,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/diy_electronics\/things",
+        "absolute_url": "\/tag:DIY_electronics"
+      },
+      {
+        "name": "engineeringproject",
+        "tag": "engineeringproject",
+        "url": "https:\/\/api.thingiverse.com\/tags\/engineeringproject",
+        "count": 584,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/engineeringproject\/things",
+        "absolute_url": "\/tag:engineeringproject"
+      },
+      {
+        "name": "FIRST Robotics",
+        "tag": "first_robotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/first_robotics",
+        "count": 785,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/first_robotics\/things",
+        "absolute_url": "\/tag:FIRST_Robotics"
+      },
+      {
+        "name": "functional",
+        "tag": "functional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/functional",
+        "count": 1093,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/functional\/things",
+        "absolute_url": "\/tag:functional"
+      },
+      {
+        "name": "functional print",
+        "tag": "functional_print",
+        "url": "https:\/\/api.thingiverse.com\/tags\/functional_print",
+        "count": 297,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/functional_print\/things",
+        "absolute_url": "\/tag:functional_print"
+      },
+      {
+        "name": "mechatronics",
+        "tag": "mechatronics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mechatronics",
+        "count": 76,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mechatronics\/things",
+        "absolute_url": "\/tag:mechatronics"
+      },
+      {
+        "name": "open source",
+        "tag": "open_source",
+        "url": "https:\/\/api.thingiverse.com\/tags\/open_source",
+        "count": 534,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/open_source\/things",
+        "absolute_url": "\/tag:open_source"
+      },
+      {
+        "name": "opensource",
+        "tag": "opensource",
+        "url": "https:\/\/api.thingiverse.com\/tags\/opensource",
+        "count": 342,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/opensource\/things",
+        "absolute_url": "\/tag:opensource"
+      },
+      {
+        "name": "opensource hardware",
+        "tag": "opensource_hardware",
+        "url": "https:\/\/api.thingiverse.com\/tags\/opensource_hardware",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/opensource_hardware\/things",
+        "absolute_url": "\/tag:opensource_hardware"
+      },
+      {
+        "name": "project",
+        "tag": "project",
+        "url": "https:\/\/api.thingiverse.com\/tags\/project",
+        "count": 632,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/project\/things",
+        "absolute_url": "\/tag:project"
+      },
+      {
+        "name": "Robotic Arm",
+        "tag": "robotic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic_arm",
+        "count": 135,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic_arm\/things",
+        "absolute_url": "\/tag:Robotic_Arm"
+      },
+      {
+        "name": "robotics",
+        "tag": "robotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+        "count": 3824,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+        "absolute_url": "\/tag:robotics"
+      },
+      {
+        "name": "robots",
+        "tag": "robots",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robots",
+        "count": 779,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robots\/things",
+        "absolute_url": "\/tag:robots"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5996641\/categories",
+    "file_count": 12,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 252,
+    "view_count": 1731,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "5serrvos_code.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/52\/84\/bc\/ea\/9df51d77-2583-4a5d-a2d2-114285bda138.ino"
+        },
+        {
+          "name": "Main_fusion_v3.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/2b\/22\/e0\/c8\/fea1cec8-44e9-4979-90ee-10c77fd9c3b6.f3d"
+        },
+        {
+          "name": "final_base_external_ard.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/26\/bd\/1b\/99\/983f8896-2b43-46a2-99f3-b280a911cfc5.stl"
+        },
+        {
+          "name": "long_side_arm_screw__side_v5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/b7\/c1\/64\/bd\/4aba0aa5-a7dd-4793-8e35-919ab7a99a20.stl"
+        },
+        {
+          "name": "short_side_arm_servo_side_v5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/e7\/39\/58\/41\/4e68f669-32f4-4266-b472-86254766b544.stl"
+        },
+        {
+          "name": "Real_final_nub_for_servo_grip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/82\/65\/77\/40\/54860e6d-d02e-449e-9328-d23a6f5302ea.stl"
+        },
+        {
+          "name": "Linear_gear.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/bb\/a8\/3b\/fb\/6913e194-654b-4519-8ff3-c0659326ea3d.stl"
+        },
+        {
+          "name": "Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/e3\/d3\/c1\/6f\/0474f4b3-cd90-49d8-bd14-40463d2ff0f6.stl"
+        },
+        {
+          "name": "Round_gear.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/e7\/1c\/ca\/2f\/8888d881-5964-47b5-b3f3-216b7e32abc4.stl"
+        },
+        {
+          "name": "upperbase_pt_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/ae\/6a\/ea\/77\/20365c17-daa8-498e-9f6f-f10d8934a5b3.stl"
+        },
+        {
+          "name": "upperbase_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/d3\/2d\/47\/94\/43b013c4-a216-494e-a9c4-9ab91d6e3668.stl"
+        },
+        {
+          "name": "New_bottom_base_upper_v4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/9f\/ae\/ae\/49\/b5288d8b-ca30-480f-b8a3-2a0c23aebc47.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/73\/af\/65\/e7\/b5288d8b-ca30-480f-b8a3-2a0c23aebc47.png"
+        },
+        {
+          "name": "8a41a31d-0341-4747-a90d-fb31e7ed1a9a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/24\/86\/ed\/7c\/8a41a31d-0341-4747-a90d-fb31e7ed1a9a.png"
+        },
+        {
+          "name": "233df524-f84c-4090-aa45-8919722eb7d4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/fe\/96\/4d\/43\/233df524-f84c-4090-aa45-8919722eb7d4.jpg"
+        },
+        {
+          "name": "3b1c1c15-0fd5-4443-924f-592f21e0dceb.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/38\/b9\/9e\/c8\/3b1c1c15-0fd5-4443-924f-592f21e0dceb.jpg"
+        },
+        {
+          "name": "31d61ef4-8c00-4c51-b93d-4659e947d3fd.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/bb\/60\/66\/ad\/31d61ef4-8c00-4c51-b93d-4659e947d3fd.jpg"
+        },
+        {
+          "name": "1dbecc8b-528c-4dae-9e8b-9e5f8b67477e.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/26\/9e\/12\/b7\/1dbecc8b-528c-4dae-9e8b-9e5f8b67477e.jpg"
+        },
+        {
+          "name": "47b77924-2e3b-4b2f-85d9-cc4e12c83296.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/25\/cd\/96\/64\/47b77924-2e3b-4b2f-85d9-cc4e12c83296.jpg"
+        },
+        {
+          "name": "212bec3b-d8b7-4a05-97f7-8be374b88196.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/2c\/12\/7e\/52\/212bec3b-d8b7-4a05-97f7-8be374b88196.jpg"
+        },
+        {
+          "name": "983f8896-2b43-46a2-99f3-b280a911cfc5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/34\/11\/54\/a5\/983f8896-2b43-46a2-99f3-b280a911cfc5.png"
+        },
+        {
+          "name": "4e68f669-32f4-4266-b472-86254766b544.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/24\/9e\/ff\/fd\/4e68f669-32f4-4266-b472-86254766b544.png"
+        },
+        {
+          "name": "4aba0aa5-a7dd-4793-8e35-919ab7a99a20.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/f4\/ec\/e5\/56\/4aba0aa5-a7dd-4793-8e35-919ab7a99a20.png"
+        },
+        {
+          "name": "54860e6d-d02e-449e-9328-d23a6f5302ea.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/36\/97\/dd\/24\/54860e6d-d02e-449e-9328-d23a6f5302ea.png"
+        },
+        {
+          "name": "0474f4b3-cd90-49d8-bd14-40463d2ff0f6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/da\/41\/cc\/85\/0474f4b3-cd90-49d8-bd14-40463d2ff0f6.png"
+        },
+        {
+          "name": "8888d881-5964-47b5-b3f3-216b7e32abc4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/1e\/91\/f0\/e3\/8888d881-5964-47b5-b3f3-216b7e32abc4.png"
+        },
+        {
+          "name": "6913e194-654b-4519-8ff3-c0659326ea3d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/11\/ae\/68\/19\/6913e194-654b-4519-8ff3-c0659326ea3d.png"
+        },
+        {
+          "name": "43b013c4-a216-494e-a9c4-9ab91d6e3668.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/79\/b5\/fd\/48\/43b013c4-a216-494e-a9c4-9ab91d6e3668.png"
+        },
+        {
+          "name": "20365c17-daa8-498e-9f6f-f10d8934a5b3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/b4\/a2\/36\/87\/20365c17-daa8-498e-9f6f-f10d8934a5b3.png"
+        }
+      ]
+    }
+  }
+}

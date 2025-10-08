@@ -1,0 +1,452 @@
+{
+  "created_at": "2025-07-10T03:52:05.023246+00:00",
+  "elapsed": 0.187498,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b363f38cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:05 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:04 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6586072?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6586072?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6586072,
+    "name": "Dolphin Flexi Fidget Toy - print in place",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/43\/bb\/e6\/78\/e4\/large_display_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6586072",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6586072",
+    "creator": {
+      "id": 5595608,
+      "name": "timmytombstone1",
+      "first_name": "timmy",
+      "last_name": "tombstone",
+      "url": "https:\/\/api.thingiverse.com\/users\/timmytombstone1",
+      "public_url": "https:\/\/www.thingiverse.com\/timmytombstone1",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/88\/77\/37\/9e\/37\/83e45ece-87d3-4fe4-ba60-660c44391a96.jpg",
+      "count_of_followers": 2,
+      "count_of_following": 0,
+      "count_of_designs": 4,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/26\/28\/e6\/9f\/95\/6124aa4d-5a4d-425a-a3e0-53ff4af91668.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-04-19T17:30:42+00:00",
+    "modified": "2024-04-19T17:30:42+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 101,
+    "is_liked": false,
+    "collect_count": 106,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 21028081,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/0d\/e4\/4d\/ac\/52ffa112-cb2c-40ca-825c-10a7b0a3b836.stl",
+      "name": "52ffa112-cb2c-40ca-825c-10a7b0a3b836.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/d7\/28\/7d\/41\/large_thumb_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/6a\/da\/43\/a0\/medium_thumb_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/60\/af\/b8\/85\/small_thumb_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/a7\/08\/24\/0f\/tiny_thumb_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/f1\/c9\/ec\/dc\/featured_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/ad\/8b\/b6\/3e\/card_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/80\/fc\/7b\/8f\/large_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/97\/32\/f5\/c7\/medium_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/d2\/53\/7a\/89\/small_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/ed\/bc\/fe\/c1\/birdwing_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/f3\/9c\/94\/f9\/tiny_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/58\/6b\/67\/79\/tinycard_preview_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/bb\/e6\/78\/e4\/large_display_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/ac\/0b\/fa\/2f\/medium_display_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/a0\/a6\/fb\/a4\/small_display_52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        }
+      ],
+      "added": "2024-04-19T17:31:34+00:00"
+    },
+    "description": "subscribe on thangs to get all my designs CODE: THANGS1YEAR for two months half price\r\n\r\nhttps:\/\/thangs.com\/designer\/timmy%20tombstone\r\n\r\nDiscover the satisfyingly playful, articulated dolphin 3D model by creative designer Timmy Tombstone on Thangs.com. This finely-detailed 3D printable model is perfect for hobbyists, educators or anyone passionate about the marine life. Rendered with exceptional precision and designed for effortless functionality, this dolphin caricature is an ideal companion for your desk or as a charming gift option. It comes as a display of fine craftsmanship, with a body that flexes with realism and adds a dynamic element to the design. The model can also be scaled down by 50% seamlessly, allowing you to customize it for your individual requirements. The highlight of the 3D model is that it's not just a static figure, but an articulated piece, giving the dolphin a lifelike mobility. Explore the brilliance of 3D printing technology with this captivating, flexi dolphin model. Let it be a part of your collection or use it as an educational assistive tool. Dive into the fascinating world of 3D modeling with Thangs.com and embrace the fun of creating your own marine world.",
+    "instructions": "",
+    "description_html": "<div><p>subscribe on thangs to get all my designs CODE: THANGS1YEAR for two months half price<\/p><p><a rel=\"nofollow\" href=\"https:\/\/thangs.com\/designer\/timmy%20tombstone\">https:\/\/thangs.com\/designer\/timmy%20tombstone<\/a><\/p><p>Discover the satisfyingly playful, articulated dolphin 3D model by creative designer Timmy Tombstone on Thangs.com. This finely-detailed 3D printable model is perfect for hobbyists, educators or anyone passionate about the marine life. Rendered with exceptional precision and designed for effortless functionality, this dolphin caricature is an ideal companion for your desk or as a charming gift option. It comes as a display of fine craftsmanship, with a body that flexes with realism and adds a dynamic element to the design. The model can also be scaled down by 50% seamlessly, allowing you to customize it for your individual requirements. The highlight of the 3D model is that it's not just a static figure, but an articulated piece, giving the dolphin a lifelike mobility. Explore the brilliance of 3D printing technology with this captivating, flexi dolphin model. Let it be a part of your collection or use it as an educational assistive tool. Dive into the fascinating world of 3D modeling with Thangs.com and embrace the fun of creating your own marine world.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>subscribe on thangs to get all my designs CODE: THANGS1YEAR for two months half price<\/p><p><a rel=\"nofollow\" href=\"https:\/\/thangs.com\/designer\/timmy%20tombstone\">https:\/\/thangs.com\/designer\/timmy%20tombstone<\/a><\/p><p>Discover the satisfyingly playful, articulated dolphin 3D model by creative designer Timmy Tombstone on Thangs.com. This finely-detailed 3D printable model is perfect for hobbyists, educators or anyone passionate about the marine life. Rendered with exceptional precision and designed for effortless functionality, this dolphin caricature is an ideal companion for your desk or as a charming gift option. It comes as a display of fine craftsmanship, with a body that flexes with realism and adds a dynamic element to the design. The model can also be scaled down by 50% seamlessly, allowing you to customize it for your individual requirements. The highlight of the 3D model is that it's not just a static figure, but an articulated piece, giving the dolphin a lifelike mobility. Explore the brilliance of 3D printing technology with this captivating, flexi dolphin model. Let it be a part of your collection or use it as an educational assistive tool. Dive into the fascinating world of 3D modeling with Thangs.com and embrace the fun of creating your own marine world.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>subscribe on thangs to get all my designs CODE: THANGS1YEAR for two months half price<\/p><p><a rel=\"nofollow\" href=\"https:\/\/thangs.com\/designer\/timmy%20tombstone\">https:\/\/thangs.com\/designer\/timmy%20tombstone<\/a><\/p><p>Discover the satisfyingly playful, articulated dolphin 3D model by creative designer Timmy Tombstone on Thangs.com. This finely-detailed 3D printable model is perfect for hobbyists, educators or anyone passionate about the marine life. Rendered with exceptional precision and designed for effortless functionality, this dolphin caricature is an ideal companion for your desk or as a charming gift option. It comes as a display of fine craftsmanship, with a body that flexes with realism and adds a dynamic element to the design. The model can also be scaled down by 50% seamlessly, allowing you to customize it for your individual requirements. The highlight of the 3D model is that it's not just a static figure, but an articulated piece, giving the dolphin a lifelike mobility. Explore the brilliance of 3D printing technology with this captivating, flexi dolphin model. Let it be a part of your collection or use it as an educational assistive tool. Dive into the fascinating world of 3D modeling with Thangs.com and embrace the fun of creating your own marine world.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6586072\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6586072\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6586072\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6586072\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6586072\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6586072\/tags",
+    "tags": [
+      {
+        "name": "animal",
+        "tag": "animal",
+        "url": "https:\/\/api.thingiverse.com\/tags\/animal",
+        "count": 7067,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/animal\/things",
+        "absolute_url": "\/tag:animal"
+      },
+      {
+        "name": "Articulated",
+        "tag": "articulated",
+        "url": "https:\/\/api.thingiverse.com\/tags\/articulated",
+        "count": 2946,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/articulated\/things",
+        "absolute_url": "\/tag:Articulated"
+      },
+      {
+        "name": "dolphin",
+        "tag": "dolphin",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dolphin",
+        "count": 271,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dolphin\/things",
+        "absolute_url": "\/tag:dolphin"
+      },
+      {
+        "name": "fidget",
+        "tag": "fidget",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fidget",
+        "count": 5144,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fidget\/things",
+        "absolute_url": "\/tag:fidget"
+      },
+      {
+        "name": "Flexi",
+        "tag": "flexi",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexi",
+        "count": 1616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexi\/things",
+        "absolute_url": "\/tag:Flexi"
+      },
+      {
+        "name": "kids",
+        "tag": "kids",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kids",
+        "count": 3150,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kids\/things",
+        "absolute_url": "\/tag:kids"
+      },
+      {
+        "name": "ocean",
+        "tag": "ocean",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ocean",
+        "count": 605,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ocean\/things",
+        "absolute_url": "\/tag:ocean"
+      },
+      {
+        "name": "print in place",
+        "tag": "print_in_place",
+        "url": "https:\/\/api.thingiverse.com\/tags\/print_in_place",
+        "count": 1952,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/print_in_place\/things",
+        "absolute_url": "\/tag:print_in_place"
+      },
+      {
+        "name": "toy",
+        "tag": "toy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/toy",
+        "count": 20911,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/toy\/things",
+        "absolute_url": "\/tag:toy"
+      },
+      {
+        "name": "water",
+        "tag": "water",
+        "url": "https:\/\/api.thingiverse.com\/tags\/water",
+        "count": 4079,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/water\/things",
+        "absolute_url": "\/tag:water"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6586072\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 547,
+    "view_count": 2110,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "dolphin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/0d\/e4\/4d\/ac\/52ffa112-cb2c-40ca-825c-10a7b0a3b836.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "52ffa112-cb2c-40ca-825c-10a7b0a3b836.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/09\/0c\/8c\/06\/52ffa112-cb2c-40ca-825c-10a7b0a3b836.png"
+        },
+        {
+          "name": "3f1d4ea5-e453-4b35-8330-3623a5314cea.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/91\/a8\/f8\/3b\/3f1d4ea5-e453-4b35-8330-3623a5314cea.jpg"
+        },
+        {
+          "name": "cb5d9828-be09-4257-81b3-92062a643c61.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/3c\/bc\/e9\/ea\/cb5d9828-be09-4257-81b3-92062a643c61.jpg"
+        }
+      ]
+    }
+  }
+}

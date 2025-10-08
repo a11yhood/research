@@ -1,0 +1,487 @@
+{
+  "created_at": "2025-06-15T03:50:34.954377+00:00",
+  "elapsed": 0.112571,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "94ff1aa3b80b07c9-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 15 Jun 2025 03:50:34 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 15 Jun 2025 04:20:34 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "0FzDDsajAJYItlv70pEV8KY0K6UKgvdowYRM4u2Gw1U-1749959348-1.0.1.1-c9gk4INGCdF6PgBFbyQ6o2rJdmn6eaAcp543CLIT3wAYsZ_hAwtYX9nhwRDZ4AtCruhr_fqtlViB2AwVwYpKl.qhUjzAzHIrifr96vhmkJo",
+      "_cfuvid": "2Tzgsh_VNt7ePEGRFAIzjRE0QkZgj3pekXoLXVNOO8c-1749959348864-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=0FzDDsajAJYItlv70pEV8KY0K6UKgvdowYRM4u2Gw1U-1749959348-1.0.1.1-c9gk4INGCdF6PgBFbyQ6o2rJdmn6eaAcp543CLIT3wAYsZ_hAwtYX9nhwRDZ4AtCruhr_fqtlViB2AwVwYpKl.qhUjzAzHIrifr96vhmkJo; _cfuvid=2Tzgsh_VNt7ePEGRFAIzjRE0QkZgj3pekXoLXVNOO8c-1749959348864-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2238502?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2238502?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2238502,
+    "name": "Magni-Card-A (Magnifying Glass Object Holder)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2238502",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2238502",
+    "creator": {
+      "id": 1373701,
+      "name": "Bryson_Jack",
+      "first_name": "Bryson",
+      "last_name": "Jack",
+      "url": "https:\/\/api.thingiverse.com\/users\/Bryson_Jack",
+      "public_url": "https:\/\/www.thingiverse.com\/Bryson_Jack",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/20\/17\/07\/dc\/77\/7dc89854fbee2c41d73ad1d6f687209f_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 1,
+      "count_of_designs": 12,
+      "collection_count": 3,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "South Jordan, Utah",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-04-09T21:14:04+00:00",
+    "modified": "2017-04-09T21:14:04+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 15,
+    "is_liked": false,
+    "collect_count": 28,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5793033,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/9e\/ea\/0a\/5a\/MainPhoto.png",
+      "name": "MainPhoto.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/8d\/17\/55\/8b\/7864af4b5c6ff28cc329ec4475434b69_display_small.jpg"
+        }
+      ],
+      "added": "2017-04-09T21:14:01+00:00"
+    },
+    "description": "My daughter is midway through her Occupational Therapy Assisting program and she was tasked with designing an adaptive technology that would assist people with disabilities. With a 99 year old great-grandmother with failing eyesight, who still enjoys playing cards in mind, she thought of designing a holder for the trump card.\r\n\r\nSince I had the skills and the 3D printer, I volunteered both so that it wasn't a cardboard and tape production. Perhaps someone will find it usefull for something.\r\n\r\nThe clamp fits a CARSON FreeHand LED Magnifier, 2.5x\/5x, found at Office Depot, and attaches in a way that it allows for the stand to close and for the light switch to turn on and off.\r\n\r\nThis could be used for a lot more than holding a trump card. With a small alligator clip or other attachments, it could provide help in holding and magnifying small things that are being soldered, glued or otherwise worked on. I made one of the holding arms in two parts so that designing new holders would use less plastic and be swapable.\r\n\r\nThe holding arms were designed to use this thing to hold the card, simply because it worked and I had one lying around: http:\/\/www.thingiverse.com\/thing:635200\r\n\r\nMy time and PLA went into designing this thing. If this design blesses your life in some way, feel free to favor me with a tip as thanks. Gratuities are not required, but are definitely appreciated. You can tip me any amount that you would like here: https:\/\/www.paypal.me\/brysonjack\r\nMake sure to include a comment telling me which design it is. Thanks in advance.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>My daughter is midway through her Occupational Therapy Assisting program and she was tasked with designing an adaptive technology that would assist people with disabilities. With a 99 year old great-grandmother with failing eyesight, who still enjoys playing cards in mind, she thought of designing a holder for the trump card.<\/p><p>Since I had the skills and the 3D printer, I volunteered both so that it wasn't a cardboard and tape production. Perhaps someone will find it usefull for something.<\/p><p>The clamp fits a CARSON FreeHand LED Magnifier, 2.5x\/5x, found at Office Depot, and attaches in a way that it allows for the stand to close and for the light switch to turn on and off.<\/p><p>This could be used for a lot more than holding a trump card. With a small alligator clip or other attachments, it could provide help in holding and magnifying small things that are being soldered, glued or otherwise worked on. I made one of the holding arms in two parts so that designing new holders would use less plastic and be swapable.<\/p><p>The holding arms were designed to use this thing to hold the card, simply because it worked and I had one lying around: <a rel=\"nofollow\" href=\"\/thing:635200\">http:\/\/www.thingiverse.com\/thing:635200<\/a><\/p><p>My time and PLA went into designing this thing. If this design blesses your life in some way, feel free to favor me with a tip as thanks. Gratuities are not required, but are definitely appreciated. You can tip me any amount that you would like here: <a rel=\"nofollow\" href=\"https:\/\/www.paypal.me\/brysonjack\">https:\/\/www.paypal.me\/brysonjack<\/a><br>Make sure to include a comment telling me which design it is. Thanks in advance.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>My daughter is midway through her Occupational Therapy Assisting program and she was tasked with designing an adaptive technology that would assist people with disabilities. With a 99 year old great-grandmother with failing eyesight, who still enjoys playing cards in mind, she thought of designing a holder for the trump card.<\/p><p>Since I had the skills and the 3D printer, I volunteered both so that it wasn't a cardboard and tape production. Perhaps someone will find it usefull for something.<\/p><p>The clamp fits a CARSON FreeHand LED Magnifier, 2.5x\/5x, found at Office Depot, and attaches in a way that it allows for the stand to close and for the light switch to turn on and off.<\/p><p>This could be used for a lot more than holding a trump card. With a small alligator clip or other attachments, it could provide help in holding and magnifying small things that are being soldered, glued or otherwise worked on. I made one of the holding arms in two parts so that designing new holders would use less plastic and be swapable.<\/p><p>The holding arms were designed to use this thing to hold the card, simply because it worked and I had one lying around: <a rel=\"nofollow\" href=\"\/thing:635200\">http:\/\/www.thingiverse.com\/thing:635200<\/a><\/p><p>My time and PLA went into designing this thing. If this design blesses your life in some way, feel free to favor me with a tip as thanks. Gratuities are not required, but are definitely appreciated. You can tip me any amount that you would like here: <a rel=\"nofollow\" href=\"https:\/\/www.paypal.me\/brysonjack\">https:\/\/www.paypal.me\/brysonjack<\/a><br>Make sure to include a comment telling me which design it is. Thanks in advance.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Monoprice Maker Select v2.1<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;.2mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>25%<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;The clamps for the handle were printed at .1mm I believe, and the back clamp was printed upside down like I have it in the .stl file. The rest of the parts can be printed .2mm or whatever you prefer.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>You will need a hobby knife and needle file set to clean up the print and get the clamp to fit together. Don't force things or it may break. File until it joins together without much effort. Hold the front clamp in place and then slide the back clamp down over the top of the front clamp.<\/p><p>You will need 2 bolts and 2 wingnuts for assembly. We used (2) #6-32 Stainless Steel Standard (SAE) Forged Wing Nuts and (2) #6-32 x 3\/4 inch bolts, both by Hillman, from Lowes.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>My daughter is midway through her Occupational Therapy Assisting program and she was tasked with designing an adaptive technology that would assist people with disabilities. With a 99 year old great-grandmother with failing eyesight, who still enjoys playing cards in mind, she thought of designing a holder for the trump card.<\/p><p>Since I had the skills and the 3D printer, I volunteered both so that it wasn't a cardboard and tape production. Perhaps someone will find it usefull for something.<\/p><p>The clamp fits a CARSON FreeHand LED Magnifier, 2.5x\/5x, found at Office Depot, and attaches in a way that it allows for the stand to close and for the light switch to turn on and off.<\/p><p>This could be used for a lot more than holding a trump card. With a small alligator clip or other attachments, it could provide help in holding and magnifying small things that are being soldered, glued or otherwise worked on. I made one of the holding arms in two parts so that designing new holders would use less plastic and be swapable.<\/p><p>The holding arms were designed to use this thing to hold the card, simply because it worked and I had one lying around: <a rel=\"nofollow\" href=\"\/thing:635200\">http:\/\/www.thingiverse.com\/thing:635200<\/a><\/p><p>My time and PLA went into designing this thing. If this design blesses your life in some way, feel free to favor me with a tip as thanks. Gratuities are not required, but are definitely appreciated. You can tip me any amount that you would like here: <a rel=\"nofollow\" href=\"https:\/\/www.paypal.me\/brysonjack\">https:\/\/www.paypal.me\/brysonjack<\/a><br>Make sure to include a comment telling me which design it is. Thanks in advance.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Monoprice Maker Select v2.1<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>.2mm<\/p><\/div>\n",
+            "infill": "<div><p>25%<\/p><\/div>\n",
+            "notes": "<div><p>The clamps for the handle were printed at .1mm I believe, and the back clamp was printed upside down like I have it in the .stl file. The rest of the parts can be printed .2mm or whatever you prefer.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>You will need a hobby knife and needle file set to clean up the print and get the clamp to fit together. Don't force things or it may break. File until it joins together without much effort. Hold the front clamp in place and then slide the back clamp down over the top of the front clamp.<\/p><p>You will need 2 bolts and 2 wingnuts for assembly. We used (2) #6-32 Stainless Steel Standard (SAE) Forged Wing Nuts and (2) #6-32 x 3\/4 inch bolts, both by Hillman, from Lowes.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2238502\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2238502\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2238502\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2238502\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2238502\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2238502\/tags",
+    "tags": [
+      {
+        "name": "adaptive device",
+        "tag": "adaptive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device",
+        "count": 47,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device\/things",
+        "absolute_url": "\/tag:adaptive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 643,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "magnification",
+        "tag": "magnification",
+        "url": "https:\/\/api.thingiverse.com\/tags\/magnification",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/magnification\/things",
+        "absolute_url": "\/tag:magnification"
+      },
+      {
+        "name": "magnifying glass",
+        "tag": "magnifying_glass",
+        "url": "https:\/\/api.thingiverse.com\/tags\/magnifying_glass",
+        "count": 117,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/magnifying_glass\/things",
+        "absolute_url": "\/tag:magnifying_glass"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 445,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "Playing Card Holder",
+        "tag": "playing_card_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/playing_card_holder",
+        "count": 378,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/playing_card_holder\/things",
+        "absolute_url": "\/tag:Playing_Card_Holder"
+      },
+      {
+        "name": "vision impaired",
+        "tag": "vision_impaired",
+        "url": "https:\/\/api.thingiverse.com\/tags\/vision_impaired",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/vision_impaired\/things",
+        "absolute_url": "\/tag:vision_impaired"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2238502\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 657,
+    "view_count": 765,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "FrontClamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/3d\/12\/aa\/ee\/FrontClamp.stl"
+        },
+        {
+          "name": "BackClamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/48\/77\/d3\/93\/BackClamp.stl"
+        },
+        {
+          "name": "Extension.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/b0\/06\/c8\/24\/Extension.stl"
+        },
+        {
+          "name": "HoldingArm_PartA.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/fb\/44\/d1\/b3\/HoldingArm_PartA.stl"
+        },
+        {
+          "name": "HoldingArm_PartB.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/8a\/87\/6a\/b2\/HoldingArm_PartB.stl"
+        },
+        {
+          "name": "HoldingArm_Solid.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/12\/27\/43\/09\/HoldingArm_Solid.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "MainPhoto.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/9e\/ea\/0a\/5a\/MainPhoto.png"
+        },
+        {
+          "name": "20170409_143425.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/90\/7c\/cc\/39\/20170409_143425.jpg"
+        },
+        {
+          "name": "20170409_143538.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/61\/d5\/a1\/d9\/20170409_143538.jpg"
+        },
+        {
+          "name": "060e7cc8d14fddaca8b60ec17e8002b3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/8e\/9f\/22\/d7\/060e7cc8d14fddaca8b60ec17e8002b3.png"
+        },
+        {
+          "name": "8bbc891b9c8400dd543ceb2641f976da.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dd\/db\/14\/6a\/8b\/8bbc891b9c8400dd543ceb2641f976da.png"
+        },
+        {
+          "name": "0811062735e50d3b24bc5588980adda2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/43\/84\/dd\/26\/7b\/0811062735e50d3b24bc5588980adda2.png"
+        },
+        {
+          "name": "d4b247805eaf44b95673a71f66fe4484.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/00\/cf\/9d\/6a\/d4b247805eaf44b95673a71f66fe4484.png"
+        },
+        {
+          "name": "cb62843d0ae62537a7695eede3ecd67d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/49\/c1\/69\/93\/4c\/cb62843d0ae62537a7695eede3ecd67d.png"
+        },
+        {
+          "name": "19e29dc53d5a78bcb94c25c5bde31ed3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d1\/31\/9f\/fd\/f2\/19e29dc53d5a78bcb94c25c5bde31ed3.png"
+        }
+      ]
+    }
+  }
+}

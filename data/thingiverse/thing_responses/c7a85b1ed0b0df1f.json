@@ -1,0 +1,490 @@
+{
+  "created_at": "2025-04-13T04:27:55.612212+00:00",
+  "elapsed": 0.144975,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836b7bc24d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3087098?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3087098?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3087098,
+    "name": "Customizable Straw Holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/07\/cc\/21\/4a\/f0\/317673b77a540feaf6d203bd26a37efd_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3087098",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3087098",
+    "creator": {
+      "id": 2059375,
+      "name": "Volksswitch",
+      "first_name": "Volksswitch",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+      "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+      "count_of_followers": 60,
+      "count_of_following": 2,
+      "count_of_designs": 33,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Denver, Colorado, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-09-06T20:44:55+00:00",
+    "modified": "2018-09-06T20:44:55+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 76,
+    "is_liked": false,
+    "collect_count": 176,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 8835781,
+      "url": "https:\/\/cdn.thingiverse.com\/",
+      "name": "7458a56e3144a573e843f3d4a4f0df9f.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f_display_small.jpg"
+        }
+      ],
+      "added": "2018-09-06T20:48:03+00:00"
+    },
+    "description": "I was looking for a customizable straw holder and liked the basic design by NoHands.  We just implemented the design in OpenSCAD and added a few parameters.\r\n\r\nYou should go to https:\/\/wp.me\/P9evBA-fT to learn more about how to customize the design.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>I was looking for a customizable straw holder and liked the basic design by NoHands.  We just implemented the design in OpenSCAD and added a few parameters.<\/p><p>You should go to <a rel=\"ugc nofollow\" href=\"https:\/\/wp.me\/P9evBA-fT\">https:\/\/wp.me\/P9evBA-fT<\/a> to learn more about how to customize the design.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I was looking for a customizable straw holder and liked the basic design by NoHands.  We just implemented the design in OpenSCAD and added a few parameters.<\/p><p>You should go to <a rel=\"ugc nofollow\" href=\"https:\/\/wp.me\/P9evBA-fT\">https:\/\/wp.me\/P9evBA-fT<\/a> to learn more about how to customize the design.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I was looking for a customizable straw holder and liked the basic design by NoHands.  We just implemented the design in OpenSCAD and added a few parameters.<\/p><p>You should go to <a rel=\"ugc nofollow\" href=\"https:\/\/wp.me\/P9evBA-fT\">https:\/\/wp.me\/P9evBA-fT<\/a> to learn more about how to customize the design.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3087098\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3087098\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3087098\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3087098\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3087098\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3087098\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3087098\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1413,
+    "view_count": 1929,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 5,
+    "make_count": 0,
+    "app_count": 5,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1953484,
+        "name": "Straw holder",
+        "url": "https:\/\/api.thingiverse.com\/things\/1953484",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1953484",
+        "created_at": "2016-12-09T07:38:28+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3c\/82\/19\/eb\/a3\/6dc65c0e593216bb2d560320841cc135_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/3c\/82\/19\/eb\/a3\/6dc65c0e593216bb2d560320841cc135_preview_card.JPG",
+        "creator": {
+          "id": 720452,
+          "name": "NoHands",
+          "first_name": "Shane",
+          "last_name": "Agnew",
+          "url": "https:\/\/api.thingiverse.com\/users\/NoHands",
+          "public_url": "https:\/\/www.thingiverse.com\/NoHands",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/00\/20\/ff\/2a\/2f\/e2798a8fb230e443df0121a54bba4a40_thumb_medium.jpg",
+          "count_of_followers": 10,
+          "count_of_following": 6,
+          "count_of_designs": 21,
+          "collection_count": 12,
+          "make_count": 15,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "perth western australia",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/8d\/8f\/0c\/51\/c5\/e00cb2ad75c4c8953107358ab2c15adc_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 2,
+        "make_count": 0,
+        "like_count": 62,
+        "tags": [
+          {
+            "name": "clip",
+            "tag": "clip",
+            "url": "https:\/\/api.thingiverse.com\/tags\/clip",
+            "count": 9080,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/clip\/things",
+            "absolute_url": "\/tag:clip"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 533,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "Straw Holder",
+            "tag": "straw_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/straw_holder",
+            "count": 42,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/straw_holder\/things",
+            "absolute_url": "\/tag:Straw_Holder"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 159,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "straw_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/00\/6e\/6a\/5b\/straw_holder.stl"
+        },
+        {
+          "name": "straw_holder.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/b3\/5e\/12\/ef\/straw_holder.scad"
+        }
+      ],
+      "images": [
+        {
+          "name": "7458a56e3144a573e843f3d4a4f0df9f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/c9\/f2\/43\/f1\/7458a56e3144a573e843f3d4a4f0df9f.png"
+        },
+        {
+          "name": "98224ea30ead38a7f768efb039b393ba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f4\/a8\/a2\/3f\/a2\/98224ea30ead38a7f768efb039b393ba.png"
+        },
+        {
+          "name": "straw_holder.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/b2\/7f\/3b\/f8\/straw_holder.JPG"
+        },
+        {
+          "name": "straw_holder_and_cup_holder.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/52\/f4\/43\/dc\/straw_holder_and_cup_holder.JPG"
+        }
+      ]
+    }
+  }
+}

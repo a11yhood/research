@@ -1,0 +1,936 @@
+{
+  "created_at": "2025-07-10T03:51:58.963543+00:00",
+  "elapsed": 0.181736,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b10686fcfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:51:58 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:21:58 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6518172?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6518172?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6518172,
+    "name": "Musicography Braille; Braille Music Notation; Musicografia Braille",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/98\/51\/68\/be\/4b\/large_display_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6518172",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6518172",
+    "creator": {
+      "id": 7828090,
+      "name": "PlinioMarins",
+      "first_name": "Pl\u00ednio",
+      "last_name": "Marins",
+      "url": "https:\/\/api.thingiverse.com\/users\/PlinioMarins",
+      "public_url": "https:\/\/www.thingiverse.com\/PlinioMarins",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_professional_thumb_medium.jpg",
+      "count_of_followers": 0,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 0,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Brasil, S\u00e3o Paulo -  Sorocaba",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-03-05T20:59:44+00:00",
+    "modified": "2024-03-05T20:59:44+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 0,
+    "is_liked": false,
+    "collect_count": 1,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 20801434,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/3f\/0f\/54\/bc\/7a4891e1-0db9-49d2-a3f8-34bc8daeb303.stl",
+      "name": "7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/c3\/10\/b5\/44\/large_thumb_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/f0\/db\/9b\/e6\/medium_thumb_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/af\/6b\/35\/6d\/small_thumb_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/9e\/d1\/23\/a7\/tiny_thumb_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/81\/b9\/5e\/55\/featured_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/b2\/25\/1b\/92\/card_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/bd\/73\/0c\/d7\/large_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/f5\/f4\/f2\/7a\/medium_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/95\/25\/be\/e1\/small_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/65\/e8\/55\/f4\/b2\/birdwing_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/78\/e1\/08\/b7\/tiny_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/a9\/8e\/20\/33\/tinycard_preview_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/51\/68\/be\/4b\/large_display_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/53\/05\/ce\/29\/medium_display_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/bb\/af\/22\/9e\/small_display_7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        }
+      ],
+      "added": "2024-03-05T20:38:25+00:00"
+    },
+    "description": "The present work is part of an ongoing master's research aimed at the development of an Assistive Technology, utilizing 3D printing as a tool, for teaching principles of music theory and Braille Music Notation to visually impaired individuals. Suggestions: plinio@ufscar.br",
+    "instructions": "",
+    "description_html": "<div><p>The present work is part of an ongoing master's research aimed at the development of an Assistive Technology, utilizing 3D printing as a tool, for teaching principles of music theory and Braille Music Notation to visually impaired individuals. Suggestions: plinio@ufscar.br<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The present work is part of an ongoing master's research aimed at the development of an Assistive Technology, utilizing 3D printing as a tool, for teaching principles of music theory and Braille Music Notation to visually impaired individuals. Suggestions: plinio@ufscar.br<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Raise3D<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;N2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;high&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The present work is part of an ongoing master's research aimed at the development of an Assistive Technology, utilizing 3D printing as a tool, for teaching principles of music theory and Braille Music Notation to visually impaired individuals. Suggestions: plinio@ufscar.br<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Raise3D<\/p><\/div>",
+            "printer": "<div><p>N2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "No",
+            "resolution": "<div><p>high<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/75\/fb\/ec\/bc\/a2\/f46f1aea-5c1f-4649-ab62-12dc38c9ae27.jpg\"><\/p>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<p class=\"detail-title\"><strong>Reference<\/strong><\/p>\n                <div><p>\"Material developed in accordance with the International Braille Music Notation Manual.\"<\/p><\/div>\n<h1 class=\"thing-component-header materials materials-needed\">Materials Needed<\/h1>\n<div><p>\"Basic knowledge of Braille music notation focused on teaching People with Visual Impairments.\"<\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/75\/fb\/ec\/bc\/a2\/f46f1aea-5c1f-4649-ab62-12dc38c9ae27.jpg",
+            "image_id": "919781"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "title": "Reference",
+            "content": "\"Material developed in accordance with the International Braille Music Notation Manual.\""
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "content": "\"Basic knowledge of Braille music notation focused on teaching People with Visual Impairments.\""
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6518172\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6518172\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6518172\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6518172\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6518172\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6518172\/tags",
+    "tags": [
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 525,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "education",
+        "tag": "education",
+        "url": "https:\/\/api.thingiverse.com\/tags\/education",
+        "count": 2250,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/education\/things",
+        "absolute_url": "\/tag:education"
+      },
+      {
+        "name": "music",
+        "tag": "music",
+        "url": "https:\/\/api.thingiverse.com\/tags\/music",
+        "count": 4419,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/music\/things",
+        "absolute_url": "\/tag:music"
+      },
+      {
+        "name": "notation",
+        "tag": "notation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/notation",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/notation\/things",
+        "absolute_url": "\/tag:notation"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6518172\/categories",
+    "file_count": 70,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 84,
+    "view_count": 151,
+    "education": {
+      "grades": {
+        "27": "12th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Art",
+          "slug": "art",
+          "id": 16
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "escrita_3_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/08\/18\/5d\/f5\/cfcc0ffe-c7dd-462a-9938-09108b60599f.stl"
+        },
+        {
+          "name": "sinal_bemol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/46\/d4\/07\/80\/13cc97c5-b754-426a-8cfb-e0949af74eb2.stl"
+        },
+        {
+          "name": "sinal_do1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/b6\/7b\/1c\/c7\/d512bf71-bc45-4abb-b2ee-2ece4aba36e4.stl"
+        },
+        {
+          "name": "sinal_ponto_aumento.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/ff\/4e\/89\/a8\/7ac3e6f5-e5f0-4ba6-ac0b-e9c59adf374c.stl"
+        },
+        {
+          "name": "sinal_barra_simples.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/77\/7c\/29\/a9\/50cab1db-7428-4053-92e0-3cc3cd7a122c.stl"
+        },
+        {
+          "name": "escrita_bemol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/66\/1e\/dc\/ec\/3a7d0230-3cfd-4f99-b068-b9aca22a01b7.stl"
+        },
+        {
+          "name": "sinal_do2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/3e\/be\/07\/48\/16db1924-2223-406f-90ef-1b2210244506.stl"
+        },
+        {
+          "name": "oitavas_corrigido_alto.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/43\/3e\/6e\/3d\/ece73b7b-0f6e-40df-8dcb-a75e57673abf.stl"
+        },
+        {
+          "name": "sinal_do5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/87\/e3\/78\/e0\/9ec12df0-5ed8-4f7b-ac38-8d2430949ef0.stl"
+        },
+        {
+          "name": "sinal_bequadro.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/6d\/2b\/6c\/3c\/8039c87d-0227-401f-81b3-a504aee79e10.stl"
+        },
+        {
+          "name": "sinal_ligadura_portamento.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/0f\/5c\/45\/9c\/40f03a02-9c17-470c-bafb-ae7fd9488183.stl"
+        },
+        {
+          "name": "sinal_tercina.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/77\/14\/6e\/8a\/245f0090-d430-49cc-8bf5-83a4e5b71e45.stl"
+        },
+        {
+          "name": "escrita_4_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/6e\/94\/c6\/e6\/b95b9989-d8b7-4c19-86b5-4a658b91377e.stl"
+        },
+        {
+          "name": "escrita_fermata.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/24\/47\/fa\/86\/5095a162-a379-4b6b-9407-9ac75821a753.stl"
+        },
+        {
+          "name": "sinal_do6.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/33\/20\/64\/03\/d857b314-be52-486d-aecc-85a294b432ee.stl"
+        },
+        {
+          "name": "escrita_tercina.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/40\/d9\/3c\/17\/4842a3ca-1f9c-4e6c-8eeb-5eb7a0702be3.stl"
+        },
+        {
+          "name": "escrita_1_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/15\/a6\/6a\/cb\/f68a4a26-d4e4-4deb-9895-b3116dbb5b74.stl"
+        },
+        {
+          "name": "sinal_ligadura_de_valor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/2f\/39\/f4\/29\/daded7f3-a713-42ae-85dc-d8b594410454.stl"
+        },
+        {
+          "name": "escrita_bequadro.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/70\/0a\/2f\/a2\/39d3c0f3-8990-46f0-ba1d-5f768dc0cb51.stl"
+        },
+        {
+          "name": "sinal_sustenido.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/5d\/cd\/54\/72\/41150777-11a8-4b6b-8171-51828734769a.stl"
+        },
+        {
+          "name": "escrita_2_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/d5\/a2\/ad\/d5\/0211e71d-6143-4c42-8382-aa6ddb062d21.stl"
+        },
+        {
+          "name": "escrita_5_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/a9\/cd\/dc\/6b\/61422d98-d71a-4334-b5a4-fb58afd78b6b.stl"
+        },
+        {
+          "name": "escrita_clave_de_sol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/73\/3e\/d6\/54\/470da8ca-3eca-4731-8006-bdfdad01a790.stl"
+        },
+        {
+          "name": "sinal_do3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/67\/2e\/b9\/82\/0b84c2ba-b13a-4301-adbb-a6895287c382.stl"
+        },
+        {
+          "name": "escrita_6_oitava.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/4f\/8d\/77\/33\/1f8d07b1-cafe-46aa-8c70-4951c4b3a2e7.stl"
+        },
+        {
+          "name": "sinal_compasso_C.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/bd\/b0\/b1\/ec\/7f378c06-3d59-4715-b95b-56b6aa4ec2f4.stl"
+        },
+        {
+          "name": "escrita_compasso_.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/71\/ef\/f5\/e0\/1c11e69d-8d13-4380-a872-ac7f7cca8be1.stl"
+        },
+        {
+          "name": "sinal_do4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/83\/4e\/cf\/19\/de805d6e-6e8b-4eae-b512-99dbc4dde5f3.stl"
+        },
+        {
+          "name": "escrita_compasso_C.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/a0\/1b\/12\/93\/2645f7ac-c97d-460b-9f72-1d8eb6059211.stl"
+        },
+        {
+          "name": "escrita_clave_de_fa4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/0b\/f2\/cd\/63\/f08c88b8-ab7f-4e91-a2ae-f03d7234c992.stl"
+        },
+        {
+          "name": "escrita_sustenido.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/ad\/3b\/98\/bf\/c3d289f4-58c7-4aab-8688-228de35ddd22.stl"
+        },
+        {
+          "name": "escrita_repeti\u00e7\u00e3o.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/ca\/1f\/ad\/8d\/e086831b-4939-4fb8-9fe6-c0daa395b309.stl"
+        },
+        {
+          "name": "escrita_clave_de_do3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/3b\/a7\/fd\/6c\/9c4a4320-b061-490e-a6a3-7fe94f940e55.stl"
+        },
+        {
+          "name": "escrita_dobrado_sustenido.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/da\/26\/ce\/bf\/e6879b36-b9c2-494f-bf70-25c29c0a2c24.stl"
+        },
+        {
+          "name": "sinal_compasso_.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/d4\/e1\/eb\/e9\/8f2a6d10-0907-41ea-b811-a2cc57ca0b9c.stl"
+        },
+        {
+          "name": "sinal_BR_dupla_e_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/b8\/f7\/7d\/45\/434f50a0-d751-4e4d-84b5-58c16b200c73.stl"
+        },
+        {
+          "name": "escrita_dobrado_bemol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/2d\/05\/2b\/e8\/36e2f84f-e498-46e3-a277-34ada9b0b246.stl"
+        },
+        {
+          "name": "sinal_BR_ritornelo_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/02\/74\/b2\/22\/35b3df62-41cd-44d0-ab10-52399980275f.stl"
+        },
+        {
+          "name": "sinal_dobrado_sustenido.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/89\/fc\/ca\/a1\/e5a6768c-354d-4b65-9ac9-ab78871fe7a5.stl"
+        },
+        {
+          "name": "sinal_fermata.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/84\/dc\/1c\/64\/72d9f533-04d4-43e8-bc2b-12b3be37f4c9.stl"
+        },
+        {
+          "name": "sinal_dobrado_bemol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/30\/a2\/d7\/05\/16be292e-150b-4bbd-b8e4-05d5e9f4ad9e.stl"
+        },
+        {
+          "name": "escrita_ritornelo_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/65\/4d\/2c\/81\/f0a1e9b2-b74d-4e3d-9da4-131b2f54340e.stl"
+        },
+        {
+          "name": "escrita_ligadura_de_valor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/3f\/0f\/54\/bc\/7a4891e1-0db9-49d2-a3f8-34bc8daeb303.stl"
+        },
+        {
+          "name": "escrita_ponto_de_aumento.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/d4\/68\/ec\/ea\/51228eff-0ab4-4287-ad3e-cc0d8dc26260.stl"
+        },
+        {
+          "name": "sinal_BR_ritornelo_inicio.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/c5\/87\/49\/f0\/5cfc8f0f-9484-4d03-81da-860575bb5a39.stl"
+        },
+        {
+          "name": "escrita_formula_compasso_4_4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/85\/2b\/a5\/38\/e24acbdb-bb0f-431f-9d2d-ad2626612df9.stl"
+        },
+        {
+          "name": "escrita_ritornelo_inicio.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/8b\/86\/35\/4f\/6077ba05-0e75-45b0-8f51-333b3a29e023.stl"
+        },
+        {
+          "name": "sinal_clave_sol.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/52\/b1\/af\/5e\/a7d8c84c-1c40-4e70-883b-9ac88a2205e7.stl"
+        },
+        {
+          "name": "escrita_ligadura_de_portamento.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/fa\/ee\/12\/b9\/d92c0b76-7d00-46a4-ae86-485db2d3c3de.stl"
+        },
+        {
+          "name": "escrita_barra_primeira_e_segunda.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/24\/10\/46\/1c\/b74a8ded-0ee9-4dbd-884c-b1514d4dfaf3.stl"
+        },
+        {
+          "name": "escrita_BR_comp_Simples.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/dc\/c3\/6c\/d8\/1796607f-2f21-4208-a00f-c0da5a14e0c5.stl"
+        },
+        {
+          "name": "sinal_clave_do3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/31\/5f\/4f\/1b\/4667c423-452b-442a-be5a-8d4412258602.stl"
+        },
+        {
+          "name": "escrita_formula_compasso_6_8.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/c3\/62\/9c\/81\/a6c1050a-436c-4d27-931b-43214118d331.stl"
+        },
+        {
+          "name": "sinal_4por4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/2b\/1e\/89\/8b\/13fe50b7-dda2-4251-ac3d-c1b36fd1fb02.stl"
+        },
+        {
+          "name": "escrita_BR_comp_dupla_e_final.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/ff\/e3\/af\/b9\/18cb821f-9410-4f40-a7c1-647e22055cac.stl"
+        },
+        {
+          "name": "sinal_clave_fa_4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/ca\/a7\/db\/d8\/f4ccfc21-4a17-45ad-b3bf-393a25673871.stl"
+        },
+        {
+          "name": "sinal__6p8.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/56\/94\/68\/5d\/c53f148a-8f3b-411a-a254-1343c6c9170e.stl"
+        },
+        {
+          "name": "sinal_BR_repeti\u00e7\u00e3o_1_e_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/1c\/86\/44\/00\/f01f5d91-afef-44cd-8a74-e767223ff0c4.stl"
+        },
+        {
+          "name": "nome_min_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/82\/65\/ee\/71\/b0b892bb-4dab-4bec-bd50-efe9e253e4ad.stl"
+        },
+        {
+          "name": "escrita_braille_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/fd\/bd\/22\/ee\/69c126d7-3f6d-4296-84ef-e29a7167c7c5.stl"
+        },
+        {
+          "name": "conjunto_de_notas_juntas.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/4a\/8a\/5c\/cf\/25847a9c-06f8-4c43-84c2-6715770b2fd9.stl"
+        },
+        {
+          "name": "escrita_basic_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/ef\/74\/1b\/56\/5470e3f0-134a-4d6b-817b-4c94e96acf3b.stl"
+        },
+        {
+          "name": "nome_colch_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/a7\/76\/5e\/6a\/d144bd8e-5213-40d0-8726-2ba000b4d4bd.stl"
+        },
+        {
+          "name": "nome_smin_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/12\/40\/69\/da\/184f3ce9-2587-4c0f-8182-718504c6bb8b.stl"
+        },
+        {
+          "name": "escrita_sim_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/e8\/63\/43\/4a\/c3413e8c-8b82-4011-ae7a-95c91d936961.stl"
+        },
+        {
+          "name": "notas_impres_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/09\/9d\/07\/39\/03518d69-d1ff-47b8-a7b3-ffae990fb5a8.stl"
+        },
+        {
+          "name": "escrita_musi_impress.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/70\/37\/23\/38\/33ba4517-f84e-4bf4-ae10-653cf1bee8b6.stl"
+        },
+        {
+          "name": "notas_impres_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/03\/3c\/ed\/03\/949ab8d0-b1d5-4fe1-b09c-786ff95294b8.stl"
+        },
+        {
+          "name": "nome_semib_e_semicl_impres.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/3d\/ce\/ca\/07\/647122d1-866b-4552-9e88-d5025bae59fa.stl"
+        },
+        {
+          "name": "X_Semin\u00e1rio_de_Pesquisa_e_IX_Encontro_de_Egressos_PPGEd_Pl\u00ednio_C\u00e9sar_Marins.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/70\/d8\/ef\/70\/f44f534e-a5df-49f5-b576-d6f1ad49e1ae.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/c4\/93\/08\/0b\/7a4891e1-0db9-49d2-a3f8-34bc8daeb303.png"
+        },
+        {
+          "name": "13fe50b7-dda2-4251-ac3d-c1b36fd1fb02.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/62\/9d\/f8\/59\/13fe50b7-dda2-4251-ac3d-c1b36fd1fb02.png"
+        },
+        {
+          "name": "c3413e8c-8b82-4011-ae7a-95c91d936961.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/c9\/7e\/4a\/30\/c3413e8c-8b82-4011-ae7a-95c91d936961.png"
+        },
+        {
+          "name": "b0b892bb-4dab-4bec-bd50-efe9e253e4ad.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/2a\/9b\/50\/c7\/b0b892bb-4dab-4bec-bd50-efe9e253e4ad.png"
+        },
+        {
+          "name": "7f378c06-3d59-4715-b95b-56b6aa4ec2f4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/2f\/a5\/33\/3f\/7f378c06-3d59-4715-b95b-56b6aa4ec2f4.png"
+        },
+        {
+          "name": "5cfc8f0f-9484-4d03-81da-860575bb5a39.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/39\/e7\/bd\/62\/5cfc8f0f-9484-4d03-81da-860575bb5a39.png"
+        },
+        {
+          "name": "245f0090-d430-49cc-8bf5-83a4e5b71e45.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/4a\/32\/f1\/d2\/245f0090-d430-49cc-8bf5-83a4e5b71e45.png"
+        },
+        {
+          "name": "16be292e-150b-4bbd-b8e4-05d5e9f4ad9e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/c9\/61\/a3\/b9\/16be292e-150b-4bbd-b8e4-05d5e9f4ad9e.png"
+        },
+        {
+          "name": "50cab1db-7428-4053-92e0-3cc3cd7a122c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/7e\/dc\/bf\/0f\/50cab1db-7428-4053-92e0-3cc3cd7a122c.png"
+        },
+        {
+          "name": "72d9f533-04d4-43e8-bc2b-12b3be37f4c9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/70\/f8\/00\/b1\/72d9f533-04d4-43e8-bc2b-12b3be37f4c9.png"
+        },
+        {
+          "name": "0b84c2ba-b13a-4301-adbb-a6895287c382.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/dc\/ad\/d0\/ca\/0b84c2ba-b13a-4301-adbb-a6895287c382.png"
+        },
+        {
+          "name": "434f50a0-d751-4e4d-84b5-58c16b200c73.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/02\/43\/75\/c5\/434f50a0-d751-4e4d-84b5-58c16b200c73.png"
+        },
+        {
+          "name": "e24acbdb-bb0f-431f-9d2d-ad2626612df9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/1f\/ac\/ea\/1f\/e24acbdb-bb0f-431f-9d2d-ad2626612df9.png"
+        },
+        {
+          "name": "61422d98-d71a-4334-b5a4-fb58afd78b6b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/73\/3e\/21\/48\/61422d98-d71a-4334-b5a4-fb58afd78b6b.png"
+        },
+        {
+          "name": "69c126d7-3f6d-4296-84ef-e29a7167c7c5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/66\/ba\/b4\/4a\/69c126d7-3f6d-4296-84ef-e29a7167c7c5.png"
+        },
+        {
+          "name": "1f8d07b1-cafe-46aa-8c70-4951c4b3a2e7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/34\/bb\/f8\/b0\/1f8d07b1-cafe-46aa-8c70-4951c4b3a2e7.png"
+        },
+        {
+          "name": "1c11e69d-8d13-4380-a872-ac7f7cca8be1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/7d\/66\/52\/f1\/1c11e69d-8d13-4380-a872-ac7f7cca8be1.png"
+        },
+        {
+          "name": "36e2f84f-e498-46e3-a277-34ada9b0b246.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/b9\/db\/5f\/91\/36e2f84f-e498-46e3-a277-34ada9b0b246.png"
+        },
+        {
+          "name": "d512bf71-bc45-4abb-b2ee-2ece4aba36e4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/92\/be\/70\/f5\/d512bf71-bc45-4abb-b2ee-2ece4aba36e4.png"
+        },
+        {
+          "name": "949ab8d0-b1d5-4fe1-b09c-786ff95294b8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/df\/7b\/61\/90\/949ab8d0-b1d5-4fe1-b09c-786ff95294b8.png"
+        },
+        {
+          "name": "b95b9989-d8b7-4c19-86b5-4a658b91377e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/3a\/94\/e6\/39\/b95b9989-d8b7-4c19-86b5-4a658b91377e.png"
+        },
+        {
+          "name": "33ba4517-f84e-4bf4-ae10-653cf1bee8b6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/f3\/63\/f4\/ca\/33ba4517-f84e-4bf4-ae10-653cf1bee8b6.png"
+        },
+        {
+          "name": "41150777-11a8-4b6b-8171-51828734769a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/dd\/ee\/73\/c1\/41150777-11a8-4b6b-8171-51828734769a.png"
+        },
+        {
+          "name": "c53f148a-8f3b-411a-a254-1343c6c9170e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/90\/b3\/75\/cb\/c53f148a-8f3b-411a-a254-1343c6c9170e.png"
+        },
+        {
+          "name": "f68a4a26-d4e4-4deb-9895-b3116dbb5b74.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/ff\/01\/16\/27\/f68a4a26-d4e4-4deb-9895-b3116dbb5b74.png"
+        },
+        {
+          "name": "7ac3e6f5-e5f0-4ba6-ac0b-e9c59adf374c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/9b\/7d\/86\/03\/7ac3e6f5-e5f0-4ba6-ac0b-e9c59adf374c.png"
+        },
+        {
+          "name": "35b3df62-41cd-44d0-ab10-52399980275f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/7b\/5d\/c8\/14\/35b3df62-41cd-44d0-ab10-52399980275f.png"
+        },
+        {
+          "name": "c3d289f4-58c7-4aab-8688-228de35ddd22.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/1c\/5c\/da\/47\/c3d289f4-58c7-4aab-8688-228de35ddd22.png"
+        },
+        {
+          "name": "8039c87d-0227-401f-81b3-a504aee79e10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/70\/96\/b2\/47\/8039c87d-0227-401f-81b3-a504aee79e10.png"
+        },
+        {
+          "name": "1796607f-2f21-4208-a00f-c0da5a14e0c5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/0c\/90\/21\/08\/1796607f-2f21-4208-a00f-c0da5a14e0c5.png"
+        },
+        {
+          "name": "9c4a4320-b061-490e-a6a3-7fe94f940e55.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/e9\/65\/78\/b2\/9c4a4320-b061-490e-a6a3-7fe94f940e55.png"
+        },
+        {
+          "name": "5095a162-a379-4b6b-9407-9ac75821a753.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/96\/ba\/61\/75\/5095a162-a379-4b6b-9407-9ac75821a753.png"
+        },
+        {
+          "name": "18cb821f-9410-4f40-a7c1-647e22055cac.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/a8\/ad\/7c\/cd\/18cb821f-9410-4f40-a7c1-647e22055cac.png"
+        },
+        {
+          "name": "03518d69-d1ff-47b8-a7b3-ffae990fb5a8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/11\/f5\/74\/c5\/03518d69-d1ff-47b8-a7b3-ffae990fb5a8.png"
+        },
+        {
+          "name": "5470e3f0-134a-4d6b-817b-4c94e96acf3b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/ff\/f0\/57\/58\/5470e3f0-134a-4d6b-817b-4c94e96acf3b.png"
+        },
+        {
+          "name": "16db1924-2223-406f-90ef-1b2210244506.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/ea\/37\/0a\/e6\/16db1924-2223-406f-90ef-1b2210244506.png"
+        },
+        {
+          "name": "0211e71d-6143-4c42-8382-aa6ddb062d21.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/fd\/39\/93\/85\/0211e71d-6143-4c42-8382-aa6ddb062d21.png"
+        },
+        {
+          "name": "b74a8ded-0ee9-4dbd-884c-b1514d4dfaf3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/a3\/58\/f0\/93\/b74a8ded-0ee9-4dbd-884c-b1514d4dfaf3.png"
+        },
+        {
+          "name": "39d3c0f3-8990-46f0-ba1d-5f768dc0cb51.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/f1\/b5\/c8\/90\/39d3c0f3-8990-46f0-ba1d-5f768dc0cb51.png"
+        },
+        {
+          "name": "de805d6e-6e8b-4eae-b512-99dbc4dde5f3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/ea\/0f\/ed\/72\/de805d6e-6e8b-4eae-b512-99dbc4dde5f3.png"
+        },
+        {
+          "name": "470da8ca-3eca-4731-8006-bdfdad01a790.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/ab\/81\/cd\/48\/470da8ca-3eca-4731-8006-bdfdad01a790.png"
+        },
+        {
+          "name": "2645f7ac-c97d-460b-9f72-1d8eb6059211.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/b6\/ff\/61\/6a\/2645f7ac-c97d-460b-9f72-1d8eb6059211.png"
+        },
+        {
+          "name": "ece73b7b-0f6e-40df-8dcb-a75e57673abf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/08\/d0\/a5\/2d\/ece73b7b-0f6e-40df-8dcb-a75e57673abf.png"
+        },
+        {
+          "name": "4842a3ca-1f9c-4e6c-8eeb-5eb7a0702be3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/f2\/5f\/40\/61\/4842a3ca-1f9c-4e6c-8eeb-5eb7a0702be3.png"
+        },
+        {
+          "name": "f0a1e9b2-b74d-4e3d-9da4-131b2f54340e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/93\/34\/56\/e9\/f0a1e9b2-b74d-4e3d-9da4-131b2f54340e.png"
+        },
+        {
+          "name": "d92c0b76-7d00-46a4-ae86-485db2d3c3de.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/38\/fd\/f6\/fc\/d92c0b76-7d00-46a4-ae86-485db2d3c3de.png"
+        },
+        {
+          "name": "40f03a02-9c17-470c-bafb-ae7fd9488183.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/e1\/0e\/5a\/ea\/40f03a02-9c17-470c-bafb-ae7fd9488183.png"
+        },
+        {
+          "name": "e6879b36-b9c2-494f-bf70-25c29c0a2c24.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/40\/cf\/93\/87\/e6879b36-b9c2-494f-bf70-25c29c0a2c24.png"
+        },
+        {
+          "name": "6077ba05-0e75-45b0-8f51-333b3a29e023.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/dd\/81\/a6\/fd\/6077ba05-0e75-45b0-8f51-333b3a29e023.png"
+        },
+        {
+          "name": "e086831b-4939-4fb8-9fe6-c0daa395b309.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/f2\/ec\/11\/fb\/e086831b-4939-4fb8-9fe6-c0daa395b309.png"
+        },
+        {
+          "name": "9ec12df0-5ed8-4f7b-ac38-8d2430949ef0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/25\/32\/07\/30\/9ec12df0-5ed8-4f7b-ac38-8d2430949ef0.png"
+        },
+        {
+          "name": "cfcc0ffe-c7dd-462a-9938-09108b60599f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/91\/3e\/ef\/86\/cfcc0ffe-c7dd-462a-9938-09108b60599f.png"
+        },
+        {
+          "name": "a6c1050a-436c-4d27-931b-43214118d331.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/ae\/f9\/ba\/c9\/a6c1050a-436c-4d27-931b-43214118d331.png"
+        },
+        {
+          "name": "51228eff-0ab4-4287-ad3e-cc0d8dc26260.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/81\/39\/54\/ad\/51228eff-0ab4-4287-ad3e-cc0d8dc26260.png"
+        },
+        {
+          "name": "3a7d0230-3cfd-4f99-b068-b9aca22a01b7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/a8\/34\/8a\/57\/3a7d0230-3cfd-4f99-b068-b9aca22a01b7.png"
+        },
+        {
+          "name": "f08c88b8-ab7f-4e91-a2ae-f03d7234c992.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/a2\/bd\/2b\/7f\/f08c88b8-ab7f-4e91-a2ae-f03d7234c992.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "created_at": "2025-04-13T04:27:50.080050+00:00",
+  "elapsed": 0.15372,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f83695197dd70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:50 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:50 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2246592?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2246592?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2246592,
+    "name": "Thumb Prosthesis",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2246592",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2246592",
+    "creator": {
+      "id": 765168,
+      "name": "GabrielaB",
+      "first_name": "Gabriela",
+      "last_name": "Bravo",
+      "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+      "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+      "count_of_followers": 125,
+      "count_of_following": 15,
+      "count_of_designs": 19,
+      "collection_count": 6,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "California",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-04-13T14:25:48+00:00",
+    "modified": "2017-04-13T14:25:48+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 106,
+    "is_liked": false,
+    "collect_count": 205,
+    "is_collected": false,
+    "comment_count": 14,
+    "is_watched": false,
+    "default_image": {
+      "id": 5815948,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/f0\/53\/6a\/da\/2017-04-11_12.26.29.jpg",
+      "name": "2017-04-11_12.26.29.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/7d\/29\/c2\/2d\/7abb6ad69c50c43011b3bcc10c74c208_display_small.jpg"
+        }
+      ],
+      "added": "2017-04-13T13:24:07+00:00"
+    },
+    "description": "This is a prosthesis for people that has lost his entire thumb. It's an articulated thumb, with silicone tip, connected by a wire to the index finger. When the index flexes, it flexes the thumb, this way the person is able to grip things of different diameters and perform tip grip.\r\n\r\nThe mechanism was inspired in the one used in the Cyborg Beast.\r\n\r\nThis object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.\r\n\r\n\r\nA video of the prosthesis begin tested (a former prototype) can be found in https:\/\/youtu.be\/vKrV3-DOdA4",
+    "instructions": "",
+    "description_html": "<div><p>This is a prosthesis for people that has lost his entire thumb. It's an articulated thumb, with silicone tip, connected by a wire to the index finger. When the index flexes, it flexes the thumb, this way the person is able to grip things of different diameters and perform tip grip.<\/p><p>The mechanism was inspired in the one used in the Cyborg Beast.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><p>A video of the prosthesis begin tested (a former prototype) can be found in <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vKrV3-DOdA4\">https:\/\/youtu.be\/vKrV3-DOdA4<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a prosthesis for people that has lost his entire thumb. It's an articulated thumb, with silicone tip, connected by a wire to the index finger. When the index flexes, it flexes the thumb, this way the person is able to grip things of different diameters and perform tip grip.<\/p><p>The mechanism was inspired in the one used in the Cyborg Beast.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><p>A video of the prosthesis begin tested (a former prototype) can be found in <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vKrV3-DOdA4\">https:\/\/youtu.be\/vKrV3-DOdA4<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Leapfrog<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creatr&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0,2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>it's recomended print thumb f2 with layer resolution of 0.1mm <\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/c8\/b0\/3d\/67\/69\/assembly.png\" alt=\"image\"><\/p><pre><code>                &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Assembly instructions&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;ol&gt;&lt;li&gt;Sew velcro to the extremes of the palm piece (you may put them over an elastic band for tighter closure). Also stick an non slip surface in the inner face of the palm.&lt;\/li&gt;&lt;li&gt;Heat the palm and shape it with the hand (you may use a heat gun or hot water, be careful to not burn the person)&lt;\/li&gt;&lt;li&gt;Add silicone on the tip of the Thumb f1 part. (it&amp;rsquo;s recommended a soft silicone, like the one used for sealing in the bathroom). For shape the silicone you may use the tip of a glove. Cut it from glove, put hand cream in the inner face, fill it with silicone and introduce the 3D printed piece.&lt;\/li&gt;&lt;li&gt;Put the axis (you can printed it or use a metallic bar) between the thumb f1 and the thumb f2 pieces. In the inner add a torsion spring, It will allow that the thumb remain extended. Use the holes in the thumb f1 and f2 parts for hide the coil end. Repeat the same process for the union between thumb f1 and the palm.&lt;\/li&gt;&lt;li&gt;Assemble the index exoskeleton, add a sponge or another soft surface if it&amp;rsquo;s needed. &lt;\/li&gt;&lt;li&gt;Pass the wire through the designated path&lt;\/li&gt;&lt;li&gt;Tie the thread at its ends. Add a blind knot for avoiding the previous knot slip.&lt;\/li&gt;&lt;\/ol&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a prosthesis for people that has lost his entire thumb. It's an articulated thumb, with silicone tip, connected by a wire to the index finger. When the index flexes, it flexes the thumb, this way the person is able to grip things of different diameters and perform tip grip.<\/p><p>The mechanism was inspired in the one used in the Cyborg Beast.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><p>A video of the prosthesis begin tested (a former prototype) can be found in <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/vKrV3-DOdA4\">https:\/\/youtu.be\/vKrV3-DOdA4<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Leapfrog<\/p><\/div>\n",
+            "printer": "<div><p>Creatr<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0,2<\/p><\/div>\n",
+            "infill": "<div><p>15<\/p><\/div>\n",
+            "notes": "<div><p>it's recomended print thumb f2 with layer resolution of 0.1mm <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c8\/b0\/3d\/67\/69\/assembly.png",
+            "image_id": "32634"
+          },
+          {
+            "title": "Assembly instructions",
+            "content": "<div><ol><li>Sew velcro to the extremes of the palm piece (you may put them over an elastic band for tighter closure). Also stick an non slip surface in the inner face of the palm.<\/li><li>Heat the palm and shape it with the hand (you may use a heat gun or hot water, be careful to not burn the person)<\/li><li>Add silicone on the tip of the Thumb f1 part. (it&rsquo;s recommended a soft silicone, like the one used for sealing in the bathroom). For shape the silicone you may use the tip of a glove. Cut it from glove, put hand cream in the inner face, fill it with silicone and introduce the 3D printed piece.<\/li><li>Put the axis (you can printed it or use a metallic bar) between the thumb f1 and the thumb f2 pieces. In the inner add a torsion spring, It will allow that the thumb remain extended. Use the holes in the thumb f1 and f2 parts for hide the coil end. Repeat the same process for the union between thumb f1 and the palm.<\/li><li>Assemble the index exoskeleton, add a sponge or another soft surface if it&rsquo;s needed. <\/li><li>Pass the wire through the designated path<\/li><li>Tie the thread at its ends. Add a blind knot for avoiding the previous knot slip.<\/li><\/ol><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2246592\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2246592\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2246592\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2246592\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2246592\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2246592\/tags",
+    "tags": [
+      {
+        "name": "Accesibility",
+        "tag": "accesibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibility",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibility\/things",
+        "absolute_url": "\/tag:Accesibility"
+      },
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "assitivetech",
+        "tag": "assitivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitivetech",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitivetech\/things",
+        "absolute_url": "\/tag:assitivetech"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "grip",
+        "tag": "grip",
+        "url": "https:\/\/api.thingiverse.com\/tags\/grip",
+        "count": 2121,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/grip\/things",
+        "absolute_url": "\/tag:grip"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "Orthotics",
+        "tag": "orthotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/orthotics",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/orthotics\/things",
+        "absolute_url": "\/tag:Orthotics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "thumb",
+        "tag": "thumb",
+        "url": "https:\/\/api.thingiverse.com\/tags\/thumb",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/thumb\/things",
+        "absolute_url": "\/tag:thumb"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2246592\/categories",
+    "file_count": 9,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1654,
+    "view_count": 6630,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 261462,
+        "name": "Cyborg Beast ",
+        "url": "https:\/\/api.thingiverse.com\/things\/261462",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:261462",
+        "created_at": "2014-03-02T18:54:40+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/63\/8f\/67\/88\/ac\/CB_PInk_and_Yellow_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/63\/8f\/67\/88\/ac\/CB_PInk_and_Yellow_preview_card.jpg",
+        "creator": {
+          "id": 95091,
+          "name": "JorgeZuniga",
+          "first_name": "",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/JorgeZuniga",
+          "public_url": "https:\/\/www.thingiverse.com\/JorgeZuniga",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/39\/77\/05\/83\/a1\/7b4d50f525973272626cecabeb3dd532_thumb_medium.jpg",
+          "count_of_followers": 204,
+          "count_of_following": 5,
+          "count_of_designs": 1,
+          "collection_count": 2,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Department of Biomechanics, Biomechanics Research Building",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/3a\/ab\/d4\/92\/57\/c1b59be6b54ad6282472b9d61ffd990f_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 209,
+        "make_count": 35,
+        "like_count": 3761,
+        "tags": [
+          {
+            "name": "3D",
+            "tag": "3d",
+            "url": "https:\/\/api.thingiverse.com\/tags\/3d",
+            "count": 7992,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/3d\/things",
+            "absolute_url": "\/tag:3D"
+          },
+          {
+            "name": "3d printed",
+            "tag": "3d_printed",
+            "url": "https:\/\/api.thingiverse.com\/tags\/3d_printed",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printed\/things",
+            "absolute_url": "\/tag:3d_printed"
+          },
+          {
+            "name": "cyborg",
+            "tag": "cyborg",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cyborg",
+            "count": 318,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cyborg\/things",
+            "absolute_url": "\/tag:cyborg"
+          },
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "original",
+            "tag": "original",
+            "url": "https:\/\/api.thingiverse.com\/tags\/original",
+            "count": 452,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/original\/things",
+            "absolute_url": "\/tag:original"
+          },
+          {
+            "name": "prosthesis",
+            "tag": "prosthesis",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+            "count": 231,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+            "absolute_url": "\/tag:prosthesis"
+          },
+          {
+            "name": "prosthetc",
+            "tag": "prosthetc",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetc",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetc\/things",
+            "absolute_url": "\/tag:prosthetc"
+          },
+          {
+            "name": "robohand",
+            "tag": "robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+            "count": 66,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+            "absolute_url": "\/tag:robohand"
+          },
+          {
+            "name": "robot hand",
+            "tag": "robot_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robot_hand",
+            "count": 29,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robot_hand\/things",
+            "absolute_url": "\/tag:robot_hand"
+          },
+          {
+            "name": "Snap together Robohand",
+            "tag": "snap_together_robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/snap_together_robohand",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/snap_together_robohand\/things",
+            "absolute_url": "\/tag:Snap_together_Robohand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 6311,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "axis.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/88\/a0\/54\/50\/axis.STL"
+        },
+        {
+          "name": "thumb_f1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/7e\/2f\/62\/48\/thumb_f1.STL"
+        },
+        {
+          "name": "thumb_f2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/4f\/92\/eb\/ec\/thumb_f2.STL"
+        },
+        {
+          "name": "index_f1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/93\/71\/eb\/e3\/index_f1.STL"
+        },
+        {
+          "name": "index_f2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/90\/a1\/8f\/5e\/index_f2.STL"
+        },
+        {
+          "name": "index_f3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/dd\/3f\/11\/8f\/index_f3.STL"
+        },
+        {
+          "name": "palm.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/47\/9c\/24\/9c\/palm.STL"
+        },
+        {
+          "name": "patient_hand.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/a0\/d2\/7e\/70\/patient_hand.stl"
+        },
+        {
+          "name": "thumb_solidworks.rar",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/4c\/ad\/31\/88\/thumb_solidworks.rar"
+        }
+      ],
+      "images": [
+        {
+          "name": "2017-04-11_12.26.29.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/f0\/53\/6a\/da\/2017-04-11_12.26.29.jpg"
+        },
+        {
+          "name": "thumb_movement.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/5a\/5c\/c9\/5e\/thumb_movement.png"
+        },
+        {
+          "name": "2017-04-11_12.27.33.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/6a\/f1\/93\/9f\/2017-04-11_12.27.33.jpg"
+        },
+        {
+          "name": "2017-04-11_12.43.47.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/b6\/d5\/7b\/dd\/2017-04-11_12.43.47.jpg"
+        },
+        {
+          "name": "2016-12-26_14.25.18.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/cc\/14\/08\/a6\/2016-12-26_14.25.18.jpg"
+        },
+        {
+          "name": "chanels_thumb_f1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/ca\/42\/4e\/4b\/chanels_thumb_f1.png"
+        },
+        {
+          "name": "chanels_thumb_f2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/43\/41\/5d\/c1\/chanels_thumb_f2.png"
+        },
+        {
+          "name": "chanels_palm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/63\/ae\/68\/14\/chanels_palm.png"
+        },
+        {
+          "name": "spring_position.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/dc\/4b\/4f\/52\/spring_position.png"
+        },
+        {
+          "name": "1931f1201ff4f5592261ec4c69245a1a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/d2\/bf\/6d\/75\/1931f1201ff4f5592261ec4c69245a1a.png"
+        },
+        {
+          "name": "68c31b848308b9e8097cd32e660d62c0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/b5\/ac\/9e\/ce\/68c31b848308b9e8097cd32e660d62c0.png"
+        },
+        {
+          "name": "82345bbcb211f33794e240763c491ffc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/3b\/6e\/ce\/dd\/82345bbcb211f33794e240763c491ffc.png"
+        },
+        {
+          "name": "da5f7b51b86b978bb83ac5b6514bcb65.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/75\/b6\/42\/dd\/25\/da5f7b51b86b978bb83ac5b6514bcb65.png"
+        },
+        {
+          "name": "6b85dcb1728eaa259975b8d7cbdc7081.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/b9\/9c\/30\/e5\/6b85dcb1728eaa259975b8d7cbdc7081.png"
+        },
+        {
+          "name": "e08177404e150fcf5435326924e5cb65.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/bd\/18\/bc\/db\/e08177404e150fcf5435326924e5cb65.png"
+        },
+        {
+          "name": "247d6a04f8aaefcea4468d7091b0db49.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/59\/fd\/8b\/eb\/247d6a04f8aaefcea4468d7091b0db49.png"
+        },
+        {
+          "name": "b6fe25d8dd037f383ec30e3a0e622152.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0c\/cc\/5e\/d9\/ab\/b6fe25d8dd037f383ec30e3a0e622152.png"
+        }
+      ]
+    }
+  }
+}

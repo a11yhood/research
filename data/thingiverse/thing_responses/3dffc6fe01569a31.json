@@ -1,0 +1,407 @@
+{
+  "created_at": "2025-10-08T03:27:35.681340+00:00",
+  "elapsed": 0.227036,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b16ac523023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:35 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:35 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1076707?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1076707?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1076707,
+    "name": "Arm activation buttons",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d8\/f0\/81\/95\/68\/test_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1076707",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1076707",
+    "creator": {
+      "id": 419925,
+      "name": "Teljemo",
+      "first_name": "Emanuel",
+      "last_name": "Teljemo",
+      "url": "https:\/\/api.thingiverse.com\/users\/Teljemo",
+      "public_url": "https:\/\/www.thingiverse.com\/Teljemo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/aa\/8b\/ff\/99\/d5\/076ab678fb6b7d3f8e33c297a2da5140_thumb_medium.jpg",
+      "count_of_followers": 82,
+      "count_of_following": 12,
+      "count_of_designs": 45,
+      "collection_count": 21,
+      "make_count": 36,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Sweden",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/5e\/a5\/35\/32\/b500b8a8c851f8f3969e7b4f791cc305_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-16T23:18:50+00:00",
+    "modified": "2015-10-16T23:18:50+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 41,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 2749647,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/e8\/58\/36\/2a\/Button.png",
+      "name": "Button.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/3c\/b2\/c3\/29\/Button_display_small.jpg"
+        }
+      ],
+      "added": "2015-10-16T23:18:45+00:00"
+    },
+    "description": "### Hitsory\r\nThis buttons I made for our son with Mild Cerebral palsy for him to train to use his left arm.\r\nCause of his contition and weakness in the left arm he don't use it at all and he hasnt done the past 4 years before we adopted him.\r\nSo to learn him that he CAN use his arm at least and make use of it, even a little.. we have to practice to get better..\r\nAnd hopeful in the future he will be able to make more use with his arm.. \r\nBut for now this is a way to activate him to use his left arm.\r\n\r\n### Function\r\nIt works as simple as you have to push both buttons down to get a signal. what the signal should start is up to you to decide.\r\nFor now I just added a beep signal but I got a hold of a circuit from an old toy that blinks and cheers when activated so that will go in soon ;)\r\n\r\n### build it\r\nYou need 2 small micro switches that you can get in any DIY electronics store..\r\nImage below, and it should measure 6mm in height without legs.\r\nThen you need some thin cables and a power supply like a battery.\r\nSolder required\r\n\r\nTo get the function of two hand command, that you need to push both buttons to get the signal you just connect the switches in series.\r\n\r\n#####  I make it simple:\r\n* you have a battery with + and -\r\n* Connect one cable to battery + and the other end on one leg of the first switch.\r\n* From the same switch you continue to the next switch with a new cable.\r\n* And from the second switch you pull a new piece of wire to your \"sond signal\" or \"flashing led\" and make sure to connect it to that components or circuits + side.\r\n* The - side of the component or circuit goes directly to the battery -minus side\r\n\r\nTest the circuit before installing all the cables in the parts ;)",
+    "instructions": "",
+    "description_html": "<div><h3>Hitsory<\/h3><p>This buttons I made for our son with Mild Cerebral palsy for him to train to use his left arm.<br>Cause of his contition and weakness in the left arm he don't use it at all and he hasnt done the past 4 years before we adopted him.<br>So to learn him that he CAN use his arm at least and make use of it, even a little.. we have to practice to get better..<br>And hopeful in the future he will be able to make more use with his arm..<br>But for now this is a way to activate him to use his left arm.<\/p><h3>Function<\/h3><p>It works as simple as you have to push both buttons down to get a signal. what the signal should start is up to you to decide.<br>For now I just added a beep signal but I got a hold of a circuit from an old toy that blinks and cheers when activated so that will go in soon ;)<\/p><h3>build it<\/h3><p>You need 2 small micro switches that you can get in any DIY electronics store..<br>Image below, and it should measure 6mm in height without legs.<br>Then you need some thin cables and a power supply like a battery.<br>Solder required<\/p><p>To get the function of two hand command, that you need to push both buttons to get the signal you just connect the switches in series.<\/p><h5>I make it simple:<\/h5><ul><li>you have a battery with + and -<\/li><li>Connect one cable to battery + and the other end on one leg of the first switch.<\/li><li>From the same switch you continue to the next switch with a new cable.<\/li><li>And from the second switch you pull a new piece of wire to your \"sond signal\" or \"flashing led\" and make sure to connect it to that components or circuits + side.<\/li><li>The - side of the component or circuit goes directly to the battery -minus side<\/li><\/ul><p>Test the circuit before installing all the cables in the parts ;)<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h3>Hitsory<\/h3><p>This buttons I made for our son with Mild Cerebral palsy for him to train to use his left arm.<br>Cause of his contition and weakness in the left arm he don't use it at all and he hasnt done the past 4 years before we adopted him.<br>So to learn him that he CAN use his arm at least and make use of it, even a little.. we have to practice to get better..<br>And hopeful in the future he will be able to make more use with his arm..<br>But for now this is a way to activate him to use his left arm.<\/p><h3>Function<\/h3><p>It works as simple as you have to push both buttons down to get a signal. what the signal should start is up to you to decide.<br>For now I just added a beep signal but I got a hold of a circuit from an old toy that blinks and cheers when activated so that will go in soon ;)<\/p><h3>build it<\/h3><p>You need 2 small micro switches that you can get in any DIY electronics store..<br>Image below, and it should measure 6mm in height without legs.<br>Then you need some thin cables and a power supply like a battery.<br>Solder required<\/p><p>To get the function of two hand command, that you need to push both buttons to get the signal you just connect the switches in series.<\/p><h5>I make it simple:<\/h5><ul><li>you have a battery with + and -<\/li><li>Connect one cable to battery + and the other end on one leg of the first switch.<\/li><li>From the same switch you continue to the next switch with a new cable.<\/li><li>And from the second switch you pull a new piece of wire to your \"sond signal\" or \"flashing led\" and make sure to connect it to that components or circuits + side.<\/li><li>The - side of the component or circuit goes directly to the battery -minus side<\/li><\/ul><p>Test the circuit before installing all the cables in the parts ;)<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;high&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;25%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;The base needs a bit of cleaning up around where the switch goes down.&lt;br&gt;It is suppose to be a tight fit ;)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom image\">Image<\/h1><p class=\"detail-caption\"><strong>micro switch 6mm height without legs.<\/strong><\/p><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/82\/9b\/d2\/f0\/88\/switch.jpg\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h3>Hitsory<\/h3><p>This buttons I made for our son with Mild Cerebral palsy for him to train to use his left arm.<br>Cause of his contition and weakness in the left arm he don't use it at all and he hasnt done the past 4 years before we adopted him.<br>So to learn him that he CAN use his arm at least and make use of it, even a little.. we have to practice to get better..<br>And hopeful in the future he will be able to make more use with his arm..<br>But for now this is a way to activate him to use his left arm.<\/p><h3>Function<\/h3><p>It works as simple as you have to push both buttons down to get a signal. what the signal should start is up to you to decide.<br>For now I just added a beep signal but I got a hold of a circuit from an old toy that blinks and cheers when activated so that will go in soon ;)<\/p><h3>build it<\/h3><p>You need 2 small micro switches that you can get in any DIY electronics store..<br>Image below, and it should measure 6mm in height without legs.<br>Then you need some thin cables and a power supply like a battery.<br>Solder required<\/p><p>To get the function of two hand command, that you need to push both buttons to get the signal you just connect the switches in series.<\/p><h5>I make it simple:<\/h5><ul><li>you have a battery with + and -<\/li><li>Connect one cable to battery + and the other end on one leg of the first switch.<\/li><li>From the same switch you continue to the next switch with a new cable.<\/li><li>And from the second switch you pull a new piece of wire to your \"sond signal\" or \"flashing led\" and make sure to connect it to that components or circuits + side.<\/li><li>The - side of the component or circuit goes directly to the battery -minus side<\/li><\/ul><p>Test the circuit before installing all the cables in the parts ;)<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>high<\/p><\/div>",
+            "infill": "<div><p>25%<\/p><\/div>",
+            "notes": "<div><p>The base needs a bit of cleaning up around where the switch goes down.<br>It is suppose to be a tight fit ;)<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Image",
+        "data": [
+          {
+            "image_id": 1562,
+            "caption": "micro switch 6mm height without legs.",
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/82\/9b\/d2\/f0\/88\/switch.jpg"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1076707\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1076707\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1076707\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1076707\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1076707\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1076707\/tags",
+    "tags": [
+      {
+        "name": "arm training",
+        "tag": "arm_training",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm_training",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm_training\/things",
+        "absolute_url": "\/tag:arm_training"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 195,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "button",
+        "tag": "button",
+        "url": "https:\/\/api.thingiverse.com\/tags\/button",
+        "count": 3002,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+        "absolute_url": "\/tag:button"
+      },
+      {
+        "name": "cerebral palsy",
+        "tag": "cerebral_palsy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cerebral_palsy",
+        "count": 20,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cerebral_palsy\/things",
+        "absolute_url": "\/tag:cerebral_palsy"
+      },
+      {
+        "name": "exercise",
+        "tag": "exercise",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exercise",
+        "count": 193,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exercise\/things",
+        "absolute_url": "\/tag:exercise"
+      },
+      {
+        "name": "palsy",
+        "tag": "palsy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/palsy",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/palsy\/things",
+        "absolute_url": "\/tag:palsy"
+      },
+      {
+        "name": "push button",
+        "tag": "push_button",
+        "url": "https:\/\/api.thingiverse.com\/tags\/push_button",
+        "count": 181,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/push_button\/things",
+        "absolute_url": "\/tag:push_button"
+      },
+      {
+        "name": "pushbutton",
+        "tag": "pushbutton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pushbutton",
+        "count": 422,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pushbutton\/things",
+        "absolute_url": "\/tag:pushbutton"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 129,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1076707\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 266,
+    "view_count": 1007,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "under_lid.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/c3\/93\/f9\/ed\/under_lid.stl"
+        },
+        {
+          "name": "base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/8d\/78\/ff\/48\/base.stl"
+        },
+        {
+          "name": "button.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/4a\/04\/13\/72\/button.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Button.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/e8\/58\/36\/2a\/Button.png"
+        },
+        {
+          "name": "base.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/99\/e0\/70\/4e\/base.png"
+        },
+        {
+          "name": "under_lid.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/09\/36\/b7\/80\/under_lid.png"
+        },
+        {
+          "name": "base2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/69\/47\/22\/23\/base2.png"
+        },
+        {
+          "name": "bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/db\/a6\/ae\/1f\/bottom.png"
+        },
+        {
+          "name": "IMG_20151002_210306_zpshjujjayd.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/61\/00\/c7\/56\/IMG_20151002_210306_zpshjujjayd.JPG"
+        },
+        {
+          "name": "IMG_20151002_210306_zpshjujjayd.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/17\/1f\/4d\/53\/IMG_20151002_210306_zpshjujjayd.JPG"
+        },
+        {
+          "name": "IMG_20151002_171352_zpsj3zg8sfr.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/cc\/13\/56\/6c\/IMG_20151002_171352_zpsj3zg8sfr.JPG"
+        },
+        {
+          "name": "button.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/96\/b1\/78\/6f\/d2\/button.png"
+        },
+        {
+          "name": "base.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f7\/48\/5b\/e1\/bd\/base.png"
+        },
+        {
+          "name": "under_lid.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/94\/6c\/52\/38\/b6\/under_lid.png"
+        },
+        {
+          "name": "test.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/cd\/34\/af\/20\/test.JPG"
+        }
+      ]
+    }
+  }
+}

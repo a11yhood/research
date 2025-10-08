@@ -1,0 +1,413 @@
+{
+  "created_at": "2025-10-08T03:28:23.815161+00:00",
+  "elapsed": 0.223405,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c438bc13023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:23 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:23 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4418408?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4418408?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4418408,
+    "name": "Desk support for crutch - Support b\u00e9quille bureau",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/e3\/69\/df\/4c\/d3\/large_display_IMG_20200602_112052.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4418408",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4418408",
+    "creator": {
+      "id": 3644089,
+      "name": "HumanlabSP",
+      "first_name": "Humanlab",
+      "last_name": "Saint-Pierre",
+      "url": "https:\/\/api.thingiverse.com\/users\/HumanlabSP",
+      "public_url": "https:\/\/www.thingiverse.com\/HumanlabSP",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/33\/7c\/ee\/9d\/f1\/28efc667-a276-42ad-a9d7-3bae9e9b315f.png",
+      "count_of_followers": 131,
+      "count_of_following": 6,
+      "count_of_designs": 54,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "3 Rue Ginies Mares, 34250 Palavas-les-Flots",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/87\/d4\/9f\/c2\/de\/98306574_588974908388965_4319615353102532608_o.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-06-02T09:59:01+00:00",
+    "modified": "2020-06-02T09:59:01+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 51,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 13494159,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/b9\/33\/df\/cb\/IMG_20200602_112052.jpg",
+      "name": "IMG_20200602_112052.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/7c\/5c\/c2\/0e\/large_thumb_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/78\/58\/f9\/25\/medium_thumb_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/a6\/fb\/b6\/d8\/small_thumb_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/e8\/17\/83\/ff\/tiny_thumb_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/07\/53\/49\/d8\/featured_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/cd\/28\/21\/4a\/card_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/4f\/2e\/4c\/e9\/large_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/85\/a1\/ab\/c0\/medium_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/f4\/e4\/24\/c8\/small_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/c5\/e5\/03\/cb\/birdwing_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/62\/3c\/1b\/31\/tiny_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/8e\/c2\/79\/6a\/tinycard_preview_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/69\/df\/4c\/d3\/large_display_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/58\/ea\/aa\/6b\/medium_display_IMG_20200602_112052.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/41\/75\/dc\/3c\/small_display_IMG_20200602_112052.jpg"
+        }
+      ],
+      "added": "2020-06-02T09:58:57+00:00"
+    },
+    "description": "The idea is to make a support that will keep the crutches in an upright position, within easy reach of children.\r\n\r\nThis support will be light and removable to be able to be removed from the tables. This project is under construction\r\n\r\nL'id\u00e9e est de fabriquer un support qui permettra de garder les b\u00e9quilles en position verticale, \u00e0 port\u00e9e de mains des enfants.\r\n\r\nCe support se voudra l\u00e9ger et amovible pour pouvoir \u00eatre enlever des tables. Ce projet est en cours de fabrication",
+    "instructions": "",
+    "description_html": "<div><p>The idea is to make a support that will keep the crutches in an upright position, within easy reach of children.<\/p><p>This support will be light and removable to be able to be removed from the tables. This project is under construction<\/p><p>L'id\u00e9e est de fabriquer un support qui permettra de garder les b\u00e9quilles en position verticale, \u00e0 port\u00e9e de mains des enfants.<\/p><p>Ce support se voudra l\u00e9ger et amovible pour pouvoir \u00eatre enlever des tables. Ce projet est en cours de fabrication<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The idea is to make a support that will keep the crutches in an upright position, within easy reach of children.<\/p><p>This support will be light and removable to be able to be removed from the tables. This project is under construction<\/p><p>L'id\u00e9e est de fabriquer un support qui permettra de garder les b\u00e9quilles en position verticale, \u00e0 port\u00e9e de mains des enfants.<\/p><p>Ce support se voudra l\u00e9ger et amovible pour pouvoir \u00eatre enlever des tables. Ce projet est en cours de fabrication<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;i3 MK3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The idea is to make a support that will keep the crutches in an upright position, within easy reach of children.<\/p><p>This support will be light and removable to be able to be removed from the tables. This project is under construction<\/p><p>L'id\u00e9e est de fabriquer un support qui permettra de garder les b\u00e9quilles en position verticale, \u00e0 port\u00e9e de mains des enfants.<\/p><p>Ce support se voudra l\u00e9ger et amovible pour pouvoir \u00eatre enlever des tables. Ce projet est en cours de fabrication<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>i3 MK3<\/p><\/div>",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>",
+            "infill": "<div><p>30%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4418408\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4418408\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4418408\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4418408\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4418408\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4418408\/tags",
+    "tags": [
+      {
+        "name": "aide technique",
+        "tag": "aide_technique",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aide_technique",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aide_technique\/things",
+        "absolute_url": "\/tag:aide_technique"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4418408\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 259,
+    "view_count": 722,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "vis_vBenoit.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/c8\/b7\/d8\/e8\/vis_vBenoit.stl"
+        },
+        {
+          "name": "support_bequille_vBenoit.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/ea\/0f\/58\/ba\/support_bequille_vBenoit.f3d"
+        },
+        {
+          "name": "receptacle_vBenoit.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/2a\/44\/a8\/33\/receptacle_vBenoit.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_20200602_112052.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/b9\/33\/df\/cb\/IMG_20200602_112052.jpg"
+        },
+        {
+          "name": "IMG_20200602_112115.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/96\/5a\/10\/2e\/IMG_20200602_112115.jpg"
+        },
+        {
+          "name": "IMG_20200602_112104.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/8c\/29\/c3\/5d\/IMG_20200602_112104.jpg"
+        },
+        {
+          "name": "receptacle_vBenoit.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/1b\/ba\/97\/20\/receptacle_vBenoit.png"
+        },
+        {
+          "name": "vis_vBenoit.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/87\/90\/37\/ce\/vis_vBenoit.png"
+        }
+      ]
+    }
+  }
+}

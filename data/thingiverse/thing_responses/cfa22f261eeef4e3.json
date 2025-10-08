@@ -1,0 +1,454 @@
+{
+  "created_at": "2025-07-10T03:52:03.176001+00:00",
+  "elapsed": 0.175725,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b2ac9f0cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:03 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:03 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4861794?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4861794?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4861794,
+    "name": "CPACE: Assistive Tech",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d9\/69\/dd\/91\/e0\/large_display_IMG_1758-removebg-preview_1_copy.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/4861794",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4861794",
+    "creator": {
+      "id": 3648531,
+      "name": "taliyahhuang",
+      "first_name": "Taliyah",
+      "last_name": "Huang",
+      "url": "https:\/\/api.thingiverse.com\/users\/taliyahhuang",
+      "public_url": "https:\/\/www.thingiverse.com\/taliyahhuang",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 5,
+      "count_of_following": 0,
+      "count_of_designs": 7,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-05-17T19:29:17+00:00",
+    "modified": "2021-05-17T19:29:17+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 8,
+    "is_liked": false,
+    "collect_count": 14,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 15460746,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/9f\/c9\/ff\/8b\/IMG_1758-removebg-preview_1_copy.png",
+      "name": "IMG_1758-removebg-preview_1_copy.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/d8\/b5\/7b\/91\/large_thumb_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/46\/cb\/37\/3f\/medium_thumb_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/b1\/52\/eb\/32\/small_thumb_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/57\/3c\/c7\/9a\/tiny_thumb_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/83\/fa\/48\/ca\/featured_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/66\/6e\/29\/eb\/card_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/66\/aa\/31\/c2\/large_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/ce\/4b\/42\/0f\/medium_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/82\/4e\/6a\/4a\/small_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/01\/12\/4f\/44\/birdwing_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/ae\/4c\/4b\/94\/tiny_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/e0\/38\/33\/f3\/tinycard_preview_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/69\/dd\/91\/e0\/large_display_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/f5\/11\/72\/43\/medium_display_IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/bd\/c4\/01\/3b\/small_display_IMG_1758-removebg-preview_1_copy.png"
+        }
+      ],
+      "added": "2021-05-17T19:29:11+00:00"
+    },
+    "description": "[See Website](http:\/\/cpace.tech)\r\nHow might we help a quadriplegic use the same technology we all use? We need a way to easily use a typical smartphone and computer hands free!\r\n\r\nCurrent solutions have limited apps and features, or cost tens of thousands of dollars!\r\nCPACE lets anyone easily plug in a smartphone or computer to start using! It tracks head motion to position a mouse on screen, and the bite sensor for clicking.\r\n\r\nCPACE inspires young people around the world to be creative, and design assistive technologies that will help everyone have the opportunity to rise to their full potential.",
+    "instructions": "",
+    "description_html": "<div><p><a rel=\"nofollow\" href=\"http:\/\/cpace.tech\">See Website<\/a><br>How might we help a quadriplegic use the same technology we all use? We need a way to easily use a typical smartphone and computer hands free!<\/p><p>Current solutions have limited apps and features, or cost tens of thousands of dollars!<br>CPACE lets anyone easily plug in a smartphone or computer to start using! It tracks head motion to position a mouse on screen, and the bite sensor for clicking.<\/p><p>CPACE inspires young people around the world to be creative, and design assistive technologies that will help everyone have the opportunity to rise to their full potential.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><a rel=\"nofollow\" href=\"http:\/\/cpace.tech\">See Website<\/a><br>How might we help a quadriplegic use the same technology we all use? We need a way to easily use a typical smartphone and computer hands free!<\/p><p>Current solutions have limited apps and features, or cost tens of thousands of dollars!<br>CPACE lets anyone easily plug in a smartphone or computer to start using! It tracks head motion to position a mouse on screen, and the bite sensor for clicking.<\/p><p>CPACE inspires young people around the world to be creative, and design assistive technologies that will help everyone have the opportunity to rise to their full potential.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;200&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; PolyMaker PLA                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;When importing to Cura, you may have to scale by 1000%. Also, please orient the pieces to be in the best printing position.&lt;br&gt;For logo plates, remember to print them individually so that you can change the color when it begins printing the text.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><a rel=\"nofollow\" href=\"http:\/\/cpace.tech\">See Website<\/a><br>How might we help a quadriplegic use the same technology we all use? We need a way to easily use a typical smartphone and computer hands free!<\/p><p>Current solutions have limited apps and features, or cost tens of thousands of dollars!<br>CPACE lets anyone easily plug in a smartphone or computer to start using! It tracks head motion to position a mouse on screen, and the bite sensor for clicking.<\/p><p>CPACE inspires young people around the world to be creative, and design assistive technologies that will help everyone have the opportunity to rise to their full potential.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>200<\/p><\/div>",
+            "infill": "<div><p>20<\/p><\/div>",
+            "filament_brand": "<div><p>PolyMaker<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>",
+            "notes": "<div><p>When importing to Cura, you may have to scale by 1000%. Also, please orient the pieces to be in the best printing position.<br>For logo plates, remember to print them individually so that you can change the color when it begins printing the text.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4861794\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4861794\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4861794\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4861794\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4861794\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4861794\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4861794\/categories",
+    "file_count": 9,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 528,
+    "view_count": 288,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Phone_Stand_-_Part_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/c3\/dc\/9a\/b4\/Phone_Stand_-_Part_1.stl"
+        },
+        {
+          "name": "Phone_Stand_-_Part_2_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/59\/b0\/5a\/62\/Phone_Stand_-_Part_2_1.stl"
+        },
+        {
+          "name": "Computer_Box_-_Part_1_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/9e\/92\/a5\/8c\/Computer_Box_-_Part_1_1.stl"
+        },
+        {
+          "name": "Computer_Box_-_Part_2_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/d4\/28\/a0\/68\/Computer_Box_-_Part_2_1.stl"
+        },
+        {
+          "name": "Computer_Box_-_Part_3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/11\/90\/4c\/15\/Computer_Box_-_Part_3.stl"
+        },
+        {
+          "name": "Headband_-_Part_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/9c\/e8\/7a\/61\/Headband_-_Part_1.stl"
+        },
+        {
+          "name": "Headband_-_Part_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/f0\/2d\/f9\/d0\/Headband_-_Part_2.stl"
+        },
+        {
+          "name": "Headband_-_Part_3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/13\/be\/a8\/7d\/Headband_-_Part_3.stl"
+        },
+        {
+          "name": "Pressure_Sensor_-_Part_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/f2\/17\/14\/f5\/Pressure_Sensor_-_Part_1.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_1758-removebg-preview_1_copy.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/9f\/c9\/ff\/8b\/IMG_1758-removebg-preview_1_copy.png"
+        },
+        {
+          "name": "IMG_2523.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/b6\/01\/78\/1b\/IMG_2523.png"
+        },
+        {
+          "name": "IMG_2524.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/6b\/ef\/a4\/9e\/IMG_2524.png"
+        },
+        {
+          "name": "Version_4_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/23\/9a\/2a\/98\/Version_4_1.png"
+        },
+        {
+          "name": "Headband_-_Part_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/b3\/b3\/68\/b2\/Headband_-_Part_2.png"
+        },
+        {
+          "name": "Computer_Box_-_Part_2_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/d8\/82\/a6\/41\/Computer_Box_-_Part_2_1.png"
+        },
+        {
+          "name": "Pressure_Sensor_-_Part_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/7f\/36\/b8\/d1\/Pressure_Sensor_-_Part_1.png"
+        },
+        {
+          "name": "Headband_-_Part_3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/33\/55\/8b\/0d\/Headband_-_Part_3.png"
+        },
+        {
+          "name": "Computer_Box_-_Part_1_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/fe\/d2\/4c\/7b\/Computer_Box_-_Part_1_1.png"
+        },
+        {
+          "name": "Computer_Box_-_Part_3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/2c\/da\/16\/8e\/Computer_Box_-_Part_3.png"
+        },
+        {
+          "name": "Headband_-_Part_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/86\/72\/cb\/03\/Headband_-_Part_1.png"
+        },
+        {
+          "name": "Phone_Stand_-_Part_2_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/d9\/10\/91\/a3\/Phone_Stand_-_Part_2_1.png"
+        },
+        {
+          "name": "Phone_Stand_-_Part_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/aa\/36\/e7\/cc\/Phone_Stand_-_Part_1.png"
+        }
+      ]
+    }
+  }
+}

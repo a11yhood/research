@@ -1,0 +1,464 @@
+{
+  "created_at": "2025-07-15T03:58:33.388500+00:00",
+  "elapsed": 0.111945,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f65791fc0af90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:33 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:33 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5337299?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5337299?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5337299,
+    "name": "Joystick fauteuil roulant \u00e9lectrique (FRE)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/34\/cc\/b0\/be\/b9\/large_display_joystickFRE.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5337299",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5337299",
+    "creator": {
+      "id": 2397801,
+      "name": "APAJH44",
+      "first_name": "FABLAB",
+      "last_name": "APAJH44",
+      "url": "https:\/\/api.thingiverse.com\/users\/APAJH44",
+      "public_url": "https:\/\/www.thingiverse.com\/APAJH44",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/f4\/45\/dd\/da\/45\/humanlab.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 15,
+      "count_of_designs": 29,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Nantes",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/f8\/d3\/85\/c9\/78\/8dd63efa027e202012157f9dc4e7295e_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2022-04-01T12:02:38+00:00",
+    "modified": "2022-04-01T12:02:38+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 27,
+    "is_liked": false,
+    "collect_count": 42,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 17158926,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/8d\/b0\/08\/5c\/joystickFRE.jpg",
+      "name": "joystickFRE.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/22\/55\/0b\/bc\/large_thumb_joystickFRE.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/09\/e7\/ba\/e2\/medium_thumb_joystickFRE.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/ec\/ee\/f8\/f1\/small_thumb_joystickFRE.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/20\/05\/b1\/a8\/tiny_thumb_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/6e\/f6\/8c\/85\/featured_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/20\/3e\/fb\/a6\/card_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/f7\/2d\/a6\/e8\/large_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/d7\/11\/ac\/4a\/medium_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/4a\/51\/eb\/15\/small_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/04\/16\/c1\/49\/birdwing_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/4b\/09\/d1\/e6\/tiny_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/03\/12\/33\/38\/tinycard_preview_joystickFRE.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/cc\/b0\/be\/b9\/large_display_joystickFRE.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/98\/6a\/5e\/3b\/medium_display_joystickFRE.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/bc\/18\/55\/a0\/small_display_joystickFRE.jpg"
+        }
+      ],
+      "added": "2022-04-01T12:01:36+00:00"
+    },
+    "description": "Joystick pour fauteuil roulant \u00e9lectrique (FRE) pour droitier\r\nAide technique pour une personne en situation de handicap \r\nAvantages : \r\n+ meilleure prise pour conduite du FRE avec empreintes de doigts\r\n+ positionnement de la main \r\n+ compatible avec permobil (ne pas h\u00e9siter \u00e0 \u00e9largir l'emplacement de la tige du joystick)\r\n\r\nN\u00e9cessite une vis de 5mm de diam\u00e8tre \r\n\r\nPour plus d'informations sur la conception des aides techniques faites au humanLab, n'h\u00e9sitez pas \u00e0 aller sur notre page Facebook :\r\nhttps:\/\/www.facebook.com\/fablabapajh44\/\r\n\r\nou notre site internet :\r\nhttps:\/\/humanlabapajh44.org\/\r\n\r\nLa Team HumanLab",
+    "instructions": "",
+    "description_html": "<div><p>Joystick pour fauteuil roulant \u00e9lectrique (FRE) pour droitier<br>Aide technique pour une personne en situation de handicap<br>Avantages : <\/p><ul><li>meilleure prise pour conduite du FRE avec empreintes de doigts<\/li><li>positionnement de la main <\/li><li>compatible avec permobil (ne pas h\u00e9siter \u00e0 \u00e9largir l'emplacement de la tige du joystick)<\/li><\/ul><p>N\u00e9cessite une vis de 5mm de diam\u00e8tre <\/p><p>Pour plus d'informations sur la conception des aides techniques faites au humanLab, n'h\u00e9sitez pas \u00e0 aller sur notre page Facebook :<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/fablabapajh44\/\">https:\/\/www.facebook.com\/fablabapajh44\/<\/a><\/p><p>ou notre site internet :<br><a rel=\"nofollow\" href=\"https:\/\/humanlabapajh44.org\/\">https:\/\/humanlabapajh44.org\/<\/a><\/p><p>La Team HumanLab<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Joystick pour fauteuil roulant \u00e9lectrique (FRE) pour droitier<br>Aide technique pour une personne en situation de handicap<br>Avantages : <\/p><ul><li>meilleure prise pour conduite du FRE avec empreintes de doigts<\/li><li>positionnement de la main <\/li><li>compatible avec permobil (ne pas h\u00e9siter \u00e0 \u00e9largir l'emplacement de la tige du joystick)<\/li><\/ul><p>N\u00e9cessite une vis de 5mm de diam\u00e8tre <\/p><p>Pour plus d'informations sur la conception des aides techniques faites au humanLab, n'h\u00e9sitez pas \u00e0 aller sur notre page Facebook :<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/fablabapajh44\/\">https:\/\/www.facebook.com\/fablabapajh44\/<\/a><\/p><p>ou notre site internet :<br><a rel=\"nofollow\" href=\"https:\/\/humanlabapajh44.org\/\">https:\/\/humanlabapajh44.org\/<\/a><\/p><p>La Team HumanLab<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Joystick pour fauteuil roulant \u00e9lectrique (FRE) pour droitier<br>Aide technique pour une personne en situation de handicap<br>Avantages : <\/p><ul><li>meilleure prise pour conduite du FRE avec empreintes de doigts<\/li><li>positionnement de la main <\/li><li>compatible avec permobil (ne pas h\u00e9siter \u00e0 \u00e9largir l'emplacement de la tige du joystick)<\/li><\/ul><p>N\u00e9cessite une vis de 5mm de diam\u00e8tre <\/p><p>Pour plus d'informations sur la conception des aides techniques faites au humanLab, n'h\u00e9sitez pas \u00e0 aller sur notre page Facebook :<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/fablabapajh44\/\">https:\/\/www.facebook.com\/fablabapajh44\/<\/a><\/p><p>ou notre site internet :<br><a rel=\"nofollow\" href=\"https:\/\/humanlabapajh44.org\/\">https:\/\/humanlabapajh44.org\/<\/a><\/p><p>La Team HumanLab<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5337299\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5337299\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5337299\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5337299\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5337299\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5337299\/tags",
+    "tags": [
+      {
+        "name": "aide technique",
+        "tag": "aide_technique",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aide_technique",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aide_technique\/things",
+        "absolute_url": "\/tag:aide_technique"
+      },
+      {
+        "name": "disease",
+        "tag": "disease",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disease",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disease\/things",
+        "absolute_url": "\/tag:disease"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 177,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "FabLab",
+        "tag": "fablab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fablab",
+        "count": 484,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fablab\/things",
+        "absolute_url": "\/tag:FabLab"
+      },
+      {
+        "name": "fauteuil roulant",
+        "tag": "fauteuil_roulant",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fauteuil_roulant",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fauteuil_roulant\/things",
+        "absolute_url": "\/tag:fauteuil_roulant"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 260,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "humanlab",
+        "tag": "humanlab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/humanlab",
+        "count": 54,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/humanlab\/things",
+        "absolute_url": "\/tag:humanlab"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1432,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 445,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 411,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      },
+      {
+        "name": "wheelchair joystick",
+        "tag": "wheelchair_joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick",
+        "count": 49,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick\/things",
+        "absolute_url": "\/tag:wheelchair_joystick"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5337299\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 283,
+    "view_count": 1020,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Joystick_FRE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/58\/f3\/22\/97\/Joystick_FRE.stl"
+        },
+        {
+          "name": "Joystick_FRE_avec_retour.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/e2\/9b\/b0\/5a\/Joystick_FRE_avec_retour.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "joystickFRE.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/8d\/b0\/08\/5c\/joystickFRE.jpg"
+        },
+        {
+          "name": "Joystick_FRE_avec_retour.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/a5\/85\/5b\/f1\/Joystick_FRE_avec_retour.png"
+        },
+        {
+          "name": "Joystick_FRE.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/1a\/8f\/d4\/d9\/Joystick_FRE.png"
+        }
+      ]
+    }
+  }
+}

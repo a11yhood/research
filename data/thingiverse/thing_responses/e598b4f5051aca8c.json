@@ -1,0 +1,481 @@
+{
+  "created_at": "2025-04-09T19:45:46.867456+00:00",
+  "elapsed": 0.230582,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81ba8c951563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:46 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:46 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1294517?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1294517?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1294517,
+    "name": "Ada Robotic Hand",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4f\/9c\/f6\/7c\/54\/24748390468fb73badec9fd58db68cc5_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1294517",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1294517",
+    "creator": {
+      "id": 185304,
+      "name": "openbionics",
+      "first_name": "Open",
+      "last_name": "Bionics",
+      "url": "https:\/\/api.thingiverse.com\/users\/openbionics",
+      "public_url": "https:\/\/www.thingiverse.com\/openbionics",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7b\/3c\/45\/c1\/1f\/842372278543770b412e6c8eb4749416_thumb_medium.jpg",
+      "count_of_followers": 347,
+      "count_of_following": 7,
+      "count_of_designs": 10,
+      "collection_count": 6,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Bristol",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/ea\/05\/af\/9d\/5c\/IMG_1765_800x533_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-01-26T17:01:03+00:00",
+    "modified": "2016-01-26T17:01:03+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 1118,
+    "is_liked": false,
+    "collect_count": 2222,
+    "is_collected": false,
+    "comment_count": 27,
+    "is_watched": false,
+    "default_image": {
+      "id": 3389530,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/f8\/90\/ff\/bf\/L_Ada_v1.1_Palm.stl",
+      "name": "b2eef965c6867eab842aa428ba18a4de.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de_display_small.jpg"
+        }
+      ],
+      "added": "2016-02-22T13:50:30+00:00"
+    },
+    "description": "This is the Ada robotic hand from [Open Bionics](http:\/\/www.openbionics.com), a fully 3D printable robotic hand, derived from the Dextrus robotic hand by the [Open Hand Project](http:\/\/www.openhandproject.org\/) .This hand design is completely open source and free for you to download and use.\r\n\r\n\r\nAll of the components required for a right hand start with 'R' and the components for a left hand start with 'L'. \r\n\r\nA single hand requires the following 3D printed components:\r\n - Palm\r\n - Back Cover\r\n - PCB Tray Upper\r\n - PCB Tray Lower\r\n\r\nNon-3D printed components:\r\n - 9 x [M3 bolts (6mm length)](http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts)\r\n - 13 x [M3 threaded push inserts](http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts)\r\n - 1m x [0.7mm tendon string](http:\/\/http:\/\/www.openbionics.com\/shop\/tendon-line)\r\n - 5 x [Firgelli 12V linear actuators (PQ12-30-12-P)](http:\/\/www.openbionics.com\/shop\/5-x-pq12-30-12-p)\r\n - 1 x [Open Bionics Almond electronics](http:\/\/www.openbionics.com\/shop\/pcb)\r\n - 5 x [Micro gel fingertip grips](http:\/\/www.openbionics.com\/shop\/fingertip-grips)\r\n - [Super glue](http:\/\/www.amazon.co.uk\/dp\/B003CT4XT0\/)\r\n\r\nFor assembly instructions and a guide on installing the firmware, we have written a few [tutorials](http:\/\/www.openbionics.com\/tutorials).\r\n\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=b8QUceVSLWg\r\n\r\n\r\n**Version History**\r\n16\/02\/16 - Ada V1.1\r\nA step was added on the dorsal (back) side of the proximal finger joints. This \"absorbs\" the impact of any top layer curling during printing, protecting the joints. This should prevent any hands printing with floppy fingers on un-optimised machines.\r\n02\/02\/16 - Ada V1.0\r\nInitial release of the Ada hand\r\n\r\nThis work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/)",
+    "instructions": "",
+    "description_html": "<div><p>This is the Ada robotic hand from <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\">Open Bionics<\/a>, a fully 3D printable robotic hand, derived from the Dextrus robotic hand by the <a rel=\"ugc nofollow\" href=\"http:\/\/www.openhandproject.org\/\">Open Hand Project<\/a> .This hand design is completely open source and free for you to download and use.<\/p><p>All of the components required for a right hand start with 'R' and the components for a left hand start with 'L'. <\/p><p>A single hand requires the following 3D printed components:<\/p><ul><li>Palm<\/li><li>Back Cover<\/li><li>PCB Tray Upper<\/li><li>PCB Tray Lower<\/li><\/ul><p>Non-3D printed components:<\/p><ul><li>9 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 bolts (6mm length)<\/a><\/li><li>13 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 threaded push inserts<\/a><\/li><li>1m x <a rel=\"ugc nofollow\" href=\"http:\/\/http:\/\/www.openbionics.com\/shop\/tendon-line\">0.7mm tendon string<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/5-x-pq12-30-12-p\">Firgelli 12V linear actuators (PQ12-30-12-P)<\/a><\/li><li>1 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/pcb\">Open Bionics Almond electronics<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/fingertip-grips\">Micro gel fingertip grips<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.co.uk\/dp\/B003CT4XT0\/\">Super glue<\/a><\/li><\/ul><p>For assembly instructions and a guide on installing the firmware, we have written a few <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/tutorials\">tutorials<\/a>.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg\">https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg<\/a><\/p><p><strong>Version History<\/strong><br>16\/02\/16 - Ada V1.1<br>A step was added on the dorsal (back) side of the proximal finger joints. This \"absorbs\" the impact of any top layer curling during printing, protecting the joints. This should prevent any hands printing with floppy fingers on un-optimised machines.<br>02\/02\/16 - Ada V1.0<br>Initial release of the Ada hand<\/p><p>This work is licensed under the <a rel=\"ugc nofollow\" href=\"http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">Creative Commons Attribution-ShareAlike 4.0 International License.<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is the Ada robotic hand from <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\">Open Bionics<\/a>, a fully 3D printable robotic hand, derived from the Dextrus robotic hand by the <a rel=\"ugc nofollow\" href=\"http:\/\/www.openhandproject.org\/\">Open Hand Project<\/a> .This hand design is completely open source and free for you to download and use.<\/p><p>All of the components required for a right hand start with 'R' and the components for a left hand start with 'L'. <\/p><p>A single hand requires the following 3D printed components:<\/p><ul><li>Palm<\/li><li>Back Cover<\/li><li>PCB Tray Upper<\/li><li>PCB Tray Lower<\/li><\/ul><p>Non-3D printed components:<\/p><ul><li>9 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 bolts (6mm length)<\/a><\/li><li>13 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 threaded push inserts<\/a><\/li><li>1m x <a rel=\"ugc nofollow\" href=\"http:\/\/http:\/\/www.openbionics.com\/shop\/tendon-line\">0.7mm tendon string<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/5-x-pq12-30-12-p\">Firgelli 12V linear actuators (PQ12-30-12-P)<\/a><\/li><li>1 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/pcb\">Open Bionics Almond electronics<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/fingertip-grips\">Micro gel fingertip grips<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.co.uk\/dp\/B003CT4XT0\/\">Super glue<\/a><\/li><\/ul><p>For assembly instructions and a guide on installing the firmware, we have written a few <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/tutorials\">tutorials<\/a>.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg\">https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg<\/a><\/p><p><strong>Version History<\/strong><br>16\/02\/16 - Ada V1.1<br>A step was added on the dorsal (back) side of the proximal finger joints. This \"absorbs\" the impact of any top layer curling during printing, protecting the joints. This should prevent any hands printing with floppy fingers on un-optimised machines.<br>02\/02\/16 - Ada V1.0<br>Initial release of the Ada hand<\/p><p>This work is licensed under the <a rel=\"ugc nofollow\" href=\"http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">Creative Commons Attribution-ShareAlike 4.0 International License.<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>LulzBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;TAZ 5&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>45%<\/p><\/div><h1 class=\"thing-component-header custom print-settings-cont\">Print Settings Cont.<\/h1><div><p><strong>Material<\/strong><br>Palm - Ninjaflex<br>Back cover - PLA\/ABS<br>PCB tray upper - PLA\/ABS<br>PCB tray lower - PLA\/ABS<\/p><p><strong>Print Orientation<\/strong><br>Print all of the parts in the orientation seen on thingiverse<\/p><p><strong>Support Settings<\/strong><br>Palm - Touching build plate<br>Back cover - Everywhere<br>PCB tray upper - None<br>PCB tray lower - None<\/p><p><strong>Settings<\/strong><br>For a more detailed print settings, visit our printing tutorial<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is the Ada robotic hand from <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\">Open Bionics<\/a>, a fully 3D printable robotic hand, derived from the Dextrus robotic hand by the <a rel=\"ugc nofollow\" href=\"http:\/\/www.openhandproject.org\/\">Open Hand Project<\/a> .This hand design is completely open source and free for you to download and use.<\/p><p>All of the components required for a right hand start with 'R' and the components for a left hand start with 'L'. <\/p><p>A single hand requires the following 3D printed components:<\/p><ul><li>Palm<\/li><li>Back Cover<\/li><li>PCB Tray Upper<\/li><li>PCB Tray Lower<\/li><\/ul><p>Non-3D printed components:<\/p><ul><li>9 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 bolts (6mm length)<\/a><\/li><li>13 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/20-x-m3-bolts-and-inserts\">M3 threaded push inserts<\/a><\/li><li>1m x <a rel=\"ugc nofollow\" href=\"http:\/\/http:\/\/www.openbionics.com\/shop\/tendon-line\">0.7mm tendon string<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/5-x-pq12-30-12-p\">Firgelli 12V linear actuators (PQ12-30-12-P)<\/a><\/li><li>1 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/pcb\">Open Bionics Almond electronics<\/a><\/li><li>5 x <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/shop\/fingertip-grips\">Micro gel fingertip grips<\/a><\/li><li><a rel=\"ugc nofollow\" href=\"http:\/\/www.amazon.co.uk\/dp\/B003CT4XT0\/\">Super glue<\/a><\/li><\/ul><p>For assembly instructions and a guide on installing the firmware, we have written a few <a rel=\"ugc nofollow\" href=\"http:\/\/www.openbionics.com\/tutorials\">tutorials<\/a>.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg\">https:\/\/www.youtube.com\/watch?v=b8QUceVSLWg<\/a><\/p><p><strong>Version History<\/strong><br>16\/02\/16 - Ada V1.1<br>A step was added on the dorsal (back) side of the proximal finger joints. This \"absorbs\" the impact of any top layer curling during printing, protecting the joints. This should prevent any hands printing with floppy fingers on un-optimised machines.<br>02\/02\/16 - Ada V1.0<br>Initial release of the Ada hand<\/p><p>This work is licensed under the <a rel=\"ugc nofollow\" href=\"http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">Creative Commons Attribution-ShareAlike 4.0 International License.<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>LulzBot<\/p><\/div>\n",
+            "printer": "<div><p>TAZ 5<\/p><\/div>\n",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>45%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Print Settings Cont.",
+        "data": [
+          {
+            "content": "<div><p><strong>Material<\/strong><br>Palm - Ninjaflex<br>Back cover - PLA\/ABS<br>PCB tray upper - PLA\/ABS<br>PCB tray lower - PLA\/ABS<\/p><p><strong>Print Orientation<\/strong><br>Print all of the parts in the orientation seen on thingiverse<\/p><p><strong>Support Settings<\/strong><br>Palm - Touching build plate<br>Back cover - Everywhere<br>PCB tray upper - None<br>PCB tray lower - None<\/p><p><strong>Settings<\/strong><br>For a more detailed print settings, visit our printing tutorial<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1294517\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1294517\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1294517\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1294517\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1294517\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1294517\/tags",
+    "tags": [
+      {
+        "name": "bionics",
+        "tag": "bionics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bionics",
+        "count": 8,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bionics\/things",
+        "absolute_url": "\/tag:bionics"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "open bionics",
+        "tag": "open_bionics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/open_bionics",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/open_bionics\/things",
+        "absolute_url": "\/tag:open_bionics"
+      },
+      {
+        "name": "openbionics",
+        "tag": "openbionics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openbionics",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openbionics\/things",
+        "absolute_url": "\/tag:openbionics"
+      },
+      {
+        "name": "open source",
+        "tag": "open_source",
+        "url": "https:\/\/api.thingiverse.com\/tags\/open_source",
+        "count": 501,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/open_source\/things",
+        "absolute_url": "\/tag:open_source"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "robohand",
+        "tag": "robohand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+        "count": 66,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+        "absolute_url": "\/tag:robohand"
+      },
+      {
+        "name": "robot",
+        "tag": "robot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robot",
+        "count": 8509,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robot\/things",
+        "absolute_url": "\/tag:robot"
+      },
+      {
+        "name": "robot hand",
+        "tag": "robot_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robot_hand",
+        "count": 29,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robot_hand\/things",
+        "absolute_url": "\/tag:robot_hand"
+      },
+      {
+        "name": "robotic",
+        "tag": "robotic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic",
+        "count": 268,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic\/things",
+        "absolute_url": "\/tag:robotic"
+      },
+      {
+        "name": "robotics",
+        "tag": "robotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotics",
+        "count": 3568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotics\/things",
+        "absolute_url": "\/tag:robotics"
+      },
+      {
+        "name": "robots",
+        "tag": "robots",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robots",
+        "count": 699,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robots\/things",
+        "absolute_url": "\/tag:robots"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1294517\/categories",
+    "file_count": 8,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 19796,
+    "view_count": 93807,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 14,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "L_Ada_v1.1_Palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/f8\/90\/ff\/bf\/L_Ada_v1.1_Palm.stl"
+        },
+        {
+          "name": "L_Ada_v1.1_PCB_Tray_Upper.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/c4\/15\/4a\/09\/L_Ada_v1.1_PCB_Tray_Upper.stl"
+        },
+        {
+          "name": "L_Ada_v1.1_PCB_Tray_Lower.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/19\/7c\/03\/32\/L_Ada_v1.1_PCB_Tray_Lower.stl"
+        },
+        {
+          "name": "L_Ada_v1.1_Back_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/70\/1e\/f2\/82\/L_Ada_v1.1_Back_Cover.stl"
+        },
+        {
+          "name": "R_Ada_v1.1_Palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/95\/5d\/81\/02\/R_Ada_v1.1_Palm.stl"
+        },
+        {
+          "name": "R_Ada_v1.1_PCB_Tray_Upper.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/c7\/40\/d6\/88\/R_Ada_v1.1_PCB_Tray_Upper.stl"
+        },
+        {
+          "name": "R_Ada_v1.1_PCB_Tray_Lower.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/2d\/86\/9a\/c9\/R_Ada_v1.1_PCB_Tray_Lower.stl"
+        },
+        {
+          "name": "R_Ada_v1.1_Back_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/14\/2f\/2f\/1d\/R_Ada_v1.1_Back_Cover.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "b2eef965c6867eab842aa428ba18a4de.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/94\/c6\/38\/e0\/b2eef965c6867eab842aa428ba18a4de.png"
+        },
+        {
+          "name": "IMG_7479_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/43\/fe\/3a\/e7\/IMG_7479_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7490_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/e3\/5d\/b1\/14\/IMG_7490_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7488_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/ef\/fe\/95\/07\/IMG_7488_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7485_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/1d\/02\/ee\/c2\/IMG_7485_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7501_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/50\/b9\/f0\/4a\/IMG_7501_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7503_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/ec\/14\/b3\/6a\/IMG_7503_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7507_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/52\/3f\/47\/6b\/IMG_7507_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7500_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/96\/25\/8d\/11\/IMG_7500_with_logo.jpg"
+        },
+        {
+          "name": "IMG_7498_with_logo.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/62\/84\/78\/f9\/IMG_7498_with_logo.jpg"
+        },
+        {
+          "name": "HandPalmDownWhite.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/19\/d1\/eb\/53\/HandPalmDownWhite.png"
+        },
+        {
+          "name": "2ad6c18f1ee6dbb289f1bd436829fa86.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/c5\/8e\/13\/dc\/2ad6c18f1ee6dbb289f1bd436829fa86.png"
+        },
+        {
+          "name": "eae1c9d4d052adcef8dc2ab4bf905f23.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/4c\/0c\/ca\/3b\/eae1c9d4d052adcef8dc2ab4bf905f23.png"
+        },
+        {
+          "name": "c50ff3d3e7244201682d25115328a601.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/4d\/a3\/26\/a7\/c50ff3d3e7244201682d25115328a601.png"
+        },
+        {
+          "name": "252afc19dd356ca093a6dcb4af02a3a8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cc\/31\/a7\/52\/7b\/252afc19dd356ca093a6dcb4af02a3a8.png"
+        },
+        {
+          "name": "9ba89178cf67579b0d0d2688f39da9d5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/b6\/5b\/73\/76\/9ba89178cf67579b0d0d2688f39da9d5.png"
+        },
+        {
+          "name": "679cb453d49f37c54289342486f373e8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/4b\/01\/4e\/bc\/679cb453d49f37c54289342486f373e8.png"
+        },
+        {
+          "name": "81b10c575b0c77fe6323aa7bcc853609.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/54\/53\/85\/bb\/81b10c575b0c77fe6323aa7bcc853609.png"
+        }
+      ]
+    }
+  }
+}

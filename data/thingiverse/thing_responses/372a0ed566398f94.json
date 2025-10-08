@@ -1,0 +1,320 @@
+{
+  "created_at": "2025-10-08T03:27:37.370513+00:00",
+  "elapsed": 0.214368,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b214b3b3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:37 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:37 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/895777?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/895777?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 895777,
+    "name": "Tri-Crutch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/895777",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:895777",
+    "creator": {
+      "id": 189169,
+      "name": "pwave",
+      "first_name": "Gal",
+      "last_name": "Naim",
+      "url": "https:\/\/api.thingiverse.com\/users\/pwave",
+      "public_url": "https:\/\/www.thingiverse.com\/pwave",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/5b\/09\/7a\/13\/06\/MAKE_IT__NO_TEXT.png",
+      "count_of_followers": 9,
+      "count_of_following": 30,
+      "count_of_designs": 10,
+      "collection_count": 13,
+      "make_count": 20,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Israel",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/75\/ab\/96\/ec\/92\/11075209_414908128680873_4648956242900389724_n%5B1%5D_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-06-24T11:01:19+00:00",
+    "modified": "2015-06-24T11:01:19+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 43,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 2310413,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/43\/44\/fc\/04\/FINIRYQIB4AGLH5.LARGE%5B1.jpg",
+      "name": "FINIRYQIB4AGLH5.LARGE[1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/03\/92\/9f\/67\/FINIRYQIB4AGLH5.LARGE%5B1_display_small.jpg"
+        }
+      ],
+      "added": "2015-06-24T10:59:49+00:00"
+    },
+    "description": "After seeing now crutches are usually left leaning on a wall and always end up sliding an falling I thought it was about time for a solution !  \r\n\r\nThis is what i cam up with ! It is still a work in progress but it works !  \r\n\r\nthis is basically a third leg that moves sideways when both crutches are connected and the mechanism is turned by moving the ends of the crutches away from each other ....  \r\n\r\nmore here : http:\/\/www.instructables.com\/id\/tricrutch\/",
+    "instructions": "http:\/\/www.instructables.com\/id\/tricrutch\/",
+    "description_html": "<div><p>After seeing now crutches are usually left leaning on a wall and always end up sliding an falling I thought it was about time for a solution !  <\/p><p>This is what i cam up with ! It is still a work in progress but it works !  <\/p><p>this is basically a third leg that moves sideways when both crutches are connected and the mechanism is turned by moving the ends of the crutches away from each other ....  <\/p><p>more here : <a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div>",
+    "instructions_html": "<div><p><a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>After seeing now crutches are usually left leaning on a wall and always end up sliding an falling I thought it was about time for a solution !  <\/p><p>This is what i cam up with ! It is still a work in progress but it works !  <\/p><p>this is basically a third leg that moves sideways when both crutches are connected and the mechanism is turned by moving the ends of the crutches away from each other ....  <\/p><p>more here : <a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p><a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>After seeing now crutches are usually left leaning on a wall and always end up sliding an falling I thought it was about time for a solution !  <\/p><p>This is what i cam up with ! It is still a work in progress but it works !  <\/p><p>this is basically a third leg that moves sideways when both crutches are connected and the mechanism is turned by moving the ends of the crutches away from each other ....  <\/p><p>more here : <a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p><a rel=\"nofollow\" href=\"http:\/\/www.instructables.com\/id\/tricrutch\/\">http:\/\/www.instructables.com\/id\/tricrutch\/<\/a><\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/895777\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/895777\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/895777\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/895777\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/895777\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/895777\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/895777\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 938,
+    "view_count": 1409,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "mec_R_2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/7f\/fc\/51\/e2\/mec_R_2.STL"
+        },
+        {
+          "name": "magnet_locking_2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/28\/59\/89\/3f\/magnet_locking_2.STL"
+        },
+        {
+          "name": "BRACE_mini.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/17\/df\/90\/28\/BRACE_mini.STL"
+        },
+        {
+          "name": "rotor_ass.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/fd\/d2\/e5\/dd\/rotor_ass.STL"
+        },
+        {
+          "name": "ass_poj_crutch.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/ad\/50\/e4\/63\/ass_poj_crutch.STL"
+        },
+        {
+          "name": "hing_part_ass.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/49\/c1\/8a\/da\/hing_part_ass.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "FINIRYQIB4AGLH5.LARGE[1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/43\/44\/fc\/04\/FINIRYQIB4AGLH5.LARGE[1.jpg"
+        },
+        {
+          "name": "FZXS70CIB4AGO60.LARGE[1.gif",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/8b\/99\/1d\/0f\/FZXS70CIB4AGO60.LARGE[1.gif"
+        },
+        {
+          "name": "mec_R_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a1\/bf\/c5\/53\/0d\/mec_R_2.png"
+        },
+        {
+          "name": "magnet_locking_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5c\/a5\/e5\/a8\/82\/magnet_locking_2.png"
+        },
+        {
+          "name": "rotor_ass.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/69\/d1\/e4\/bf\/rotor_ass.png"
+        },
+        {
+          "name": "ass_poj_crutch.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/ee\/d0\/06\/da\/ass_poj_crutch.png"
+        },
+        {
+          "name": "hing_part_ass.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/61\/d0\/b7\/d1\/hing_part_ass.png"
+        },
+        {
+          "name": "BRACE_mini.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f3\/5f\/58\/d3\/07\/BRACE_mini.png"
+        }
+      ]
+    }
+  }
+}

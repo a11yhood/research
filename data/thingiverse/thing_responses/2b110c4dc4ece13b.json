@@ -1,0 +1,430 @@
+{
+  "created_at": "2025-10-08T03:27:36.166113+00:00",
+  "elapsed": 0.22326,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b19b9853023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:36 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:36 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5146445?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5146445?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5146445,
+    "name": " Toothpaste extractor",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/26\/61\/85\/0e\/c3\/large_display__MG_0015.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5146445",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5146445",
+    "creator": {
+      "id": 202209,
+      "name": "Nestor9dw",
+      "first_name": "Nestor",
+      "last_name": "Aparicio",
+      "url": "https:\/\/api.thingiverse.com\/users\/Nestor9dw",
+      "public_url": "https:\/\/www.thingiverse.com\/Nestor9dw",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/2d\/27\/57\/24\/d8\/5408904b-7b80-46fd-98f0-0bb935cc4117.jpg",
+      "count_of_followers": 103,
+      "count_of_following": 160,
+      "count_of_designs": 56,
+      "collection_count": 15,
+      "make_count": 5,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Barcelona",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-11_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-11-25T17:19:11+00:00",
+    "modified": "2021-11-25T17:19:11+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 44,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 16334203,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/eb\/76\/79\/3e\/_MG_0015.jpg",
+      "name": "_MG_0015.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/1e\/b6\/17\/fd\/large_thumb__MG_0015.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/b7\/f0\/55\/a7\/medium_thumb__MG_0015.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/ff\/ba\/56\/6f\/small_thumb__MG_0015.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/5a\/60\/c3\/10\/tiny_thumb__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/b9\/bb\/ad\/e6\/featured_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/a2\/f3\/2e\/f3\/card_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/25\/b9\/1c\/fc\/large_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/c5\/3f\/c0\/92\/medium_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/51\/68\/08\/c8\/small_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/54\/48\/7b\/a2\/birdwing_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/7d\/75\/32\/bb\/tiny_preview__MG_0015.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/c2\/d5\/1f\/62\/tinycard_preview__MG_0015.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/61\/85\/0e\/c3\/large_display__MG_0015.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/6b\/9f\/94\/4c\/medium_display__MG_0015.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/01\/17\/c6\/e6\/small_display__MG_0015.jpg"
+        }
+      ],
+      "added": "2021-11-25T17:19:06+00:00"
+    },
+    "description": "El extractor est\u00e1 dise\u00f1ado para facilitar la tarea de apretar el tubo de pasta de dientes (o otros tubos) y poder sacar toda la pasta. \r\n\r\nHay que realizar la colocaci\u00f3n del tubo pasando por la ranura de la base y luego por la ranura del cilindro. Una vez hecho esto, hay que girar y permitir que se enrolle sobre s\u00ed mismo. \r\n\r\n------------------------------------ENG----------------------------\r\n\r\nThe extractor is designed to make it easier to squeeze the toothpaste tube (or other tubes) so that you can remove all of the toothpaste.\r\n\r\nThe tube must be placed through the base gap and then through the cylinder gap. Once this is done, it must be turned and allowed to roll up on itself.",
+    "instructions": "",
+    "description_html": "<div><p>El extractor est\u00e1 dise\u00f1ado para facilitar la tarea de apretar el tubo de pasta de dientes (o otros tubos) y poder sacar toda la pasta. <\/p><p>Hay que realizar la colocaci\u00f3n del tubo pasando por la ranura de la base y luego por la ranura del cilindro. Una vez hecho esto, hay que girar y permitir que se enrolle sobre s\u00ed mismo. <\/p><p>------------------------------------ENG----------------------------<\/p><p>The extractor is designed to make it easier to squeeze the toothpaste tube (or other tubes) so that you can remove all of the toothpaste.<\/p><p>The tube must be placed through the base gap and then through the cylinder gap. Once this is done, it must be turned and allowed to roll up on itself.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>El extractor est\u00e1 dise\u00f1ado para facilitar la tarea de apretar el tubo de pasta de dientes (o otros tubos) y poder sacar toda la pasta. <\/p><p>Hay que realizar la colocaci\u00f3n del tubo pasando por la ranura de la base y luego por la ranura del cilindro. Una vez hecho esto, hay que girar y permitir que se enrolle sobre s\u00ed mismo. <\/p><p>------------------------------------ENG----------------------------<\/p><p>The extractor is designed to make it easier to squeeze the toothpaste tube (or other tubes) so that you can remove all of the toothpaste.<\/p><p>The tube must be placed through the base gap and then through the cylinder gap. Once this is done, it must be turned and allowed to roll up on itself.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.20mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>El extractor est\u00e1 dise\u00f1ado para facilitar la tarea de apretar el tubo de pasta de dientes (o otros tubos) y poder sacar toda la pasta. <\/p><p>Hay que realizar la colocaci\u00f3n del tubo pasando por la ranura de la base y luego por la ranura del cilindro. Una vez hecho esto, hay que girar y permitir que se enrolle sobre s\u00ed mismo. <\/p><p>------------------------------------ENG----------------------------<\/p><p>The extractor is designed to make it easier to squeeze the toothpaste tube (or other tubes) so that you can remove all of the toothpaste.<\/p><p>The tube must be placed through the base gap and then through the cylinder gap. Once this is done, it must be turned and allowed to roll up on itself.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.20mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5146445\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5146445\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5146445\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5146445\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5146445\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5146445\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 448,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "terapia ocupacional",
+        "tag": "terapia_ocupacional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional",
+        "count": 131,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional\/things",
+        "absolute_url": "\/tag:terapia_ocupacional"
+      },
+      {
+        "name": "toothpaste",
+        "tag": "toothpaste",
+        "url": "https:\/\/api.thingiverse.com\/tags\/toothpaste",
+        "count": 770,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/toothpaste\/things",
+        "absolute_url": "\/tag:toothpaste"
+      },
+      {
+        "name": "toothpaste squeezer",
+        "tag": "toothpaste_squeezer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/toothpaste_squeezer",
+        "count": 395,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/toothpaste_squeezer\/things",
+        "absolute_url": "\/tag:toothpaste_squeezer"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5146445\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 319,
+    "view_count": 1168,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Toothpaste_extractor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/07\/78\/57\/41\/Toothpaste_extractor.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "_MG_0015.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/eb\/76\/79\/3e\/_MG_0015.jpg"
+        },
+        {
+          "name": "_MG_0006.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/58\/03\/f9\/c1\/_MG_0006.jpg"
+        },
+        {
+          "name": "Toothpaste_extractor.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/b1\/d6\/85\/e0\/Toothpaste_extractor.png"
+        }
+      ]
+    }
+  }
+}

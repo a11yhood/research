@@ -1,0 +1,615 @@
+{
+  "created_at": "2025-04-09T19:45:41.609676+00:00",
+  "elapsed": 0.195595,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc8199d8c81563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1737001?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1737001?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1737001,
+    "name": "Kinetic Finger",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1737001",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1737001",
+    "creator": {
+      "id": 755417,
+      "name": "MatBowtell",
+      "first_name": "Mat",
+      "last_name": "Bowtell",
+      "url": "https:\/\/api.thingiverse.com\/users\/MatBowtell",
+      "public_url": "https:\/\/www.thingiverse.com\/MatBowtell",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/bf\/6d\/4a\/a3\/2a\/b78aefa4-902e-4a0e-9aaf-7883926e795a.png",
+      "count_of_followers": 120,
+      "count_of_following": 1,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Melbourne, Australia",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/86\/e5\/53\/4c\/05\/0734c29e-3388-49a0-acc1-9d2a3e9fb5d8.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-08-26T00:31:08+00:00",
+    "modified": "2016-08-26T00:31:08+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 670,
+    "is_liked": false,
+    "collect_count": 1220,
+    "is_collected": false,
+    "comment_count": 40,
+    "is_watched": false,
+    "default_image": {
+      "id": 4310876,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/a5\/7e\/be\/36\/2.JPG",
+      "name": "2.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/04\/2f\/f1\/d0\/75fbb7f751dcbed3164815928ce30210_display_small.JPG"
+        }
+      ],
+      "added": "2016-08-25T23:03:48+00:00"
+    },
+    "description": "In May 2015, I set out on a challenge to develop a functional finger prosthetic that would not only be revolutionary, but would be accessible to anybody on the planet- for free. \r\n\r\nThe \"Kinetic finger\" is a body-powered device that has no complicated moving parts, and utilizes TPE flexible hinges to allow the finger to open and close in a realistic manner.\r\n\r\nThe design is unobtrusive, allowing the \"Kinetic finger\" to be used under work gloves.\r\n\r\nDuring trial, finger amputees were able to pick and place a wide variety of heavy and light objects, as well as play a piano and finger pick a guitar.\r\n\r\nThe \"Kinetic finger\" is designed to look like an accessory, similar to a watch, that can be attached and removed as the user pleases.\r\n\r\nThis is a continuous work in progress, so files will be updated over time. Please share your experiences and trials to help me to continuously improve this design. \r\n\r\nFeel free to e-mail my team at info@free3dhands.org for any questions or feedback.\r\n\r\nPlease see the videos attached for a demonstration of the \"Kinetic finger\".\r\n\r\nThis design is for evaluation purposes only. I will take no responsibility for any accidents or claims as a result of making\/ distribution of this design. Thank you.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>In May 2015, I set out on a challenge to develop a functional finger prosthetic that would not only be revolutionary, but would be accessible to anybody on the planet- for free. <\/p><p>The \"Kinetic finger\" is a body-powered device that has no complicated moving parts, and utilizes TPE flexible hinges to allow the finger to open and close in a realistic manner.<\/p><p>The design is unobtrusive, allowing the \"Kinetic finger\" to be used under work gloves.<\/p><p>During trial, finger amputees were able to pick and place a wide variety of heavy and light objects, as well as play a piano and finger pick a guitar.<\/p><p>The \"Kinetic finger\" is designed to look like an accessory, similar to a watch, that can be attached and removed as the user pleases.<\/p><p>This is a continuous work in progress, so files will be updated over time. Please share your experiences and trials to help me to continuously improve this design. <\/p><p>Feel free to e-mail my team at info@free3dhands.org for any questions or feedback.<\/p><p>Please see the videos attached for a demonstration of the \"Kinetic finger\".<\/p><p>This design is for evaluation purposes only. I will take no responsibility for any accidents or claims as a result of making\/ distribution of this design. Thank you.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>In May 2015, I set out on a challenge to develop a functional finger prosthetic that would not only be revolutionary, but would be accessible to anybody on the planet- for free. <\/p><p>The \"Kinetic finger\" is a body-powered device that has no complicated moving parts, and utilizes TPE flexible hinges to allow the finger to open and close in a realistic manner.<\/p><p>The design is unobtrusive, allowing the \"Kinetic finger\" to be used under work gloves.<\/p><p>During trial, finger amputees were able to pick and place a wide variety of heavy and light objects, as well as play a piano and finger pick a guitar.<\/p><p>The \"Kinetic finger\" is designed to look like an accessory, similar to a watch, that can be attached and removed as the user pleases.<\/p><p>This is a continuous work in progress, so files will be updated over time. Please share your experiences and trials to help me to continuously improve this design. <\/p><p>Feel free to e-mail my team at info@free3dhands.org for any questions or feedback.<\/p><p>Please see the videos attached for a demonstration of the \"Kinetic finger\".<\/p><p>This design is for evaluation purposes only. I will take no responsibility for any accidents or claims as a result of making\/ distribution of this design. Thank you.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Flashforge Creator Pro<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>40%<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>(1) PLA Parts:  40% infill, one perimeter, 0.2mm layer height, no supports, no raft, 60mm\/sec at 215C.<br>Proximal phalanx, middle phalanx, distal phalanx, tensioner clip  (4 parts)<\/p><p>(2) Ninjaflex (flexible and elastic TPE) Parts: 100% infill, one perimeter, 0.2mm layer height, supports, no raft, 30mm\/sec at 230C.<br>Distal inter-phalangeal hinge, proximal inter-phalangeal hinge, tendon guide (3 parts)<\/p><p>(3) Ninjaflex (flexible and elastic TPE) Parts: 30~50% infill, one perimeter, 0.2mm layer height, no supports, no raft, 30mm\/sec at 230C. (to allow for tactile grips)<br>Distal phalanx grip, middle phalanx grip (2 parts) <\/p><p>All parts should be scaled except for the tendon guide and tensioner clip.<br>Recommended tendon: 50lb (25kg) braided fishing line.<br>Recommended Velcro for tensioner clip: double sided 25mm width, 400mm length.<br>Recommended adhesive: Superglue for tendon and holding grips in place. <\/p><p>Scaling and assembly instructions to come soon.<br>Index finger test case: 100% scale<br>Ring finger test case: 90% scale<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/uowrWxK5QsM\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p>                <p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/hzXtqlpLvbM\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><h1 class=\"thing-component-header custom design-merits\">Design merits<\/h1><div><p>I would like to share with you the key merits of the design in the hope that some of you may find it useful for improving your own designs.<br>1) Hinges. The flexible hinges have been designed in a \"U\" shaped configuration to prevent them from flopping around the center point and give improved spring-back. The center is also cut out to prevent the hinge from sliding out during operation. They are fitted from one side, and then stretched to fit from the other side. The hinges have a dampener which forms a part of the knuckle. There are two reasons for this.. The first reason is to allow for silent operation with no contact of plastic parts. The second reason is to fill the gap when opened to allow gloves to be worn without getting caught in the void.<br>2) Joints: Having the center available in the joint allows the tendon hole to come as far forward and as close to the hinge as possible, requiring less retraction of the tendon to close the finger. Bringing the tendon guide hole as far forward as possible also allows the cavity for the finger to come very close to the joint allowing for realistic finger length when the finger is severed close to the joint.<br>3) Tendon guide: The flexible tendon guide is comfortable and flexes with the hand. It does not bear the load of the tendon, rather it is only a guide to the rigid tensioner clip. The rigid tensioner clip takes the full load of the tendon, and is fixed to the wrist by a Velcro strap. Therefore, there is no stretching of the flexible tendon guide which improves grip strength.<br>4) Grips: The grips are also printed in flexible material and provide more grip than plastic. I have also made a scalable mold for super grippy silicone tips which will be uploaded shortly. The grips have key-ways to assist in adhesion when glued into place. <\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/d6\/04\/bc\/4a\/96\/Assembly_exploded3.JPG\" alt=\"image\"><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>In May 2015, I set out on a challenge to develop a functional finger prosthetic that would not only be revolutionary, but would be accessible to anybody on the planet- for free. <\/p><p>The \"Kinetic finger\" is a body-powered device that has no complicated moving parts, and utilizes TPE flexible hinges to allow the finger to open and close in a realistic manner.<\/p><p>The design is unobtrusive, allowing the \"Kinetic finger\" to be used under work gloves.<\/p><p>During trial, finger amputees were able to pick and place a wide variety of heavy and light objects, as well as play a piano and finger pick a guitar.<\/p><p>The \"Kinetic finger\" is designed to look like an accessory, similar to a watch, that can be attached and removed as the user pleases.<\/p><p>This is a continuous work in progress, so files will be updated over time. Please share your experiences and trials to help me to continuously improve this design. <\/p><p>Feel free to e-mail my team at info@free3dhands.org for any questions or feedback.<\/p><p>Please see the videos attached for a demonstration of the \"Kinetic finger\".<\/p><p>This design is for evaluation purposes only. I will take no responsibility for any accidents or claims as a result of making\/ distribution of this design. Thank you.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Flashforge Creator Pro<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2mm<\/p><\/div>\n",
+            "infill": "<div><p>40%<\/p><\/div>\n",
+            "notes": "<div><p>(1) PLA Parts:  40% infill, one perimeter, 0.2mm layer height, no supports, no raft, 60mm\/sec at 215C.<br>Proximal phalanx, middle phalanx, distal phalanx, tensioner clip  (4 parts)<\/p><p>(2) Ninjaflex (flexible and elastic TPE) Parts: 100% infill, one perimeter, 0.2mm layer height, supports, no raft, 30mm\/sec at 230C.<br>Distal inter-phalangeal hinge, proximal inter-phalangeal hinge, tendon guide (3 parts)<\/p><p>(3) Ninjaflex (flexible and elastic TPE) Parts: 30~50% infill, one perimeter, 0.2mm layer height, no supports, no raft, 30mm\/sec at 230C. (to allow for tactile grips)<br>Distal phalanx grip, middle phalanx grip (2 parts) <\/p><p>All parts should be scaled except for the tendon guide and tensioner clip.<br>Recommended tendon: 50lb (25kg) braided fishing line.<br>Recommended Velcro for tensioner clip: double sided 25mm width, 400mm length.<br>Recommended adhesive: Superglue for tendon and holding grips in place. <\/p><p>Scaling and assembly instructions to come soon.<br>Index finger test case: 100% scale<br>Ring finger test case: 90% scale<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/uowrWxK5QsM\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/hzXtqlpLvbM\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Design merits",
+        "data": [
+          {
+            "content": "<div><p>I would like to share with you the key merits of the design in the hope that some of you may find it useful for improving your own designs.<br>1) Hinges. The flexible hinges have been designed in a \"U\" shaped configuration to prevent them from flopping around the center point and give improved spring-back. The center is also cut out to prevent the hinge from sliding out during operation. They are fitted from one side, and then stretched to fit from the other side. The hinges have a dampener which forms a part of the knuckle. There are two reasons for this.. The first reason is to allow for silent operation with no contact of plastic parts. The second reason is to fill the gap when opened to allow gloves to be worn without getting caught in the void.<br>2) Joints: Having the center available in the joint allows the tendon hole to come as far forward and as close to the hinge as possible, requiring less retraction of the tendon to close the finger. Bringing the tendon guide hole as far forward as possible also allows the cavity for the finger to come very close to the joint allowing for realistic finger length when the finger is severed close to the joint.<br>3) Tendon guide: The flexible tendon guide is comfortable and flexes with the hand. It does not bear the load of the tendon, rather it is only a guide to the rigid tensioner clip. The rigid tensioner clip takes the full load of the tendon, and is fixed to the wrist by a Velcro strap. Therefore, there is no stretching of the flexible tendon guide which improves grip strength.<br>4) Grips: The grips are also printed in flexible material and provide more grip than plastic. I have also made a scalable mold for super grippy silicone tips which will be uploaded shortly. The grips have key-ways to assist in adhesion when glued into place. <\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/d6\/04\/bc\/4a\/96\/Assembly_exploded3.JPG",
+            "image_id": "19008"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1737001\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1737001\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1737001\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1737001\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1737001\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1737001\/tags",
+    "tags": [
+      {
+        "name": "3d printed finger",
+        "tag": "3d_printed_finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_finger",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_finger\/things",
+        "absolute_url": "\/tag:3d_printed_finger"
+      },
+      {
+        "name": "3d printed prosthetic",
+        "tag": "3d_printed_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_prosthetic",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printed_prosthetic\/things",
+        "absolute_url": "\/tag:3d_printed_prosthetic"
+      },
+      {
+        "name": "body powered finger",
+        "tag": "body_powered_finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/body_powered_finger",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/body_powered_finger\/things",
+        "absolute_url": "\/tag:body_powered_finger"
+      },
+      {
+        "name": "e-nable",
+        "tag": "e-nable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+        "count": 233,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+        "absolute_url": "\/tag:e-nable"
+      },
+      {
+        "name": "functional",
+        "tag": "functional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/functional",
+        "count": 989,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/functional\/things",
+        "absolute_url": "\/tag:functional"
+      },
+      {
+        "name": "Low cost prosthetic",
+        "tag": "low_cost_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/low_cost_prosthetic",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/low_cost_prosthetic\/things",
+        "absolute_url": "\/tag:Low_cost_prosthetic"
+      },
+      {
+        "name": "partial finger",
+        "tag": "partial_finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/partial_finger",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/partial_finger\/things",
+        "absolute_url": "\/tag:partial_finger"
+      },
+      {
+        "name": "partial replacement",
+        "tag": "partial_replacement",
+        "url": "https:\/\/api.thingiverse.com\/tags\/partial_replacement",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/partial_replacement\/things",
+        "absolute_url": "\/tag:partial_replacement"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "replacement finger",
+        "tag": "replacement_finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/replacement_finger",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/replacement_finger\/things",
+        "absolute_url": "\/tag:replacement_finger"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1737001\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 7126,
+    "view_count": 28914,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 3,
+    "make_count": 4,
+    "app_count": 4,
+    "root_comment_count": 22,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "interphalangeal_hinges-plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/2d\/49\/7b\/ba\/interphalangeal_hinges-plate.stl"
+        },
+        {
+          "name": "phalange_grips-plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/90\/ae\/53\/dd\/phalange_grips-plate.stl"
+        },
+        {
+          "name": "phalanges-plate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/39\/05\/32\/07\/phalanges-plate.stl"
+        },
+        {
+          "name": "distal_interphalangeal_hinge.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/73\/7f\/03\/de\/distal_interphalangeal_hinge.STL"
+        },
+        {
+          "name": "tensioner_clip.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/a9\/5e\/90\/35\/tensioner_clip.STL"
+        },
+        {
+          "name": "proximal_interphalangeal_hinge.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/89\/2e\/7b\/a2\/proximal_interphalangeal_hinge.STL"
+        },
+        {
+          "name": "middle_phalanx_grip.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/f0\/aa\/36\/8b\/middle_phalanx_grip.STL"
+        },
+        {
+          "name": "tendon_guide.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/9c\/81\/89\/ec\/tendon_guide.stl"
+        },
+        {
+          "name": "distal_phalanx_grip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/4b\/b6\/9a\/30\/distal_phalanx_grip.stl"
+        },
+        {
+          "name": "distal_phalanx.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/45\/e4\/ba\/b3\/distal_phalanx.STL"
+        },
+        {
+          "name": "middle_phalanx.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/ee\/16\/ee\/f6\/middle_phalanx.STL"
+        },
+        {
+          "name": "proximal_phalanx_ring.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/41\/e7\/7e\/d9\/proximal_phalanx_ring.STL"
+        },
+        {
+          "name": "proximal_phalanx_index.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/2a\/3d\/75\/ea\/proximal_phalanx_index.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/a5\/7e\/be\/36\/2.JPG"
+        },
+        {
+          "name": "IMG_9871.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/2f\/a6\/5e\/f2\/IMG_9871.jpg"
+        },
+        {
+          "name": "IMG_9626.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/9f\/e3\/60\/42\/IMG_9626.JPG"
+        },
+        {
+          "name": "IMG_9622.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/58\/3e\/7a\/71\/IMG_9622.JPG"
+        },
+        {
+          "name": "IMG_9623.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/40\/a2\/ca\/2a\/IMG_9623.JPG"
+        },
+        {
+          "name": "5.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/b8\/02\/c2\/89\/5.JPG"
+        },
+        {
+          "name": "1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/2e\/bb\/e6\/d7\/1.JPG"
+        },
+        {
+          "name": "IMG_9327.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/25\/ed\/9b\/52\/IMG_9327.JPG"
+        },
+        {
+          "name": "IMG_9407.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/0a\/74\/05\/5d\/IMG_9407.JPG"
+        },
+        {
+          "name": "Assembly_exploded3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/dc\/7c\/a4\/76\/Assembly_exploded3.JPG"
+        },
+        {
+          "name": "Assembly_exploded2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/1e\/45\/ca\/32\/Assembly_exploded2.JPG"
+        },
+        {
+          "name": "57c3a0d571466ff0c34e0e108c5ac4e7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/63\/c1\/00\/f6\/57c3a0d571466ff0c34e0e108c5ac4e7.png"
+        },
+        {
+          "name": "01094f12c64bff88dd2c8db2f85973da.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c7\/fb\/97\/85\/bd\/01094f12c64bff88dd2c8db2f85973da.png"
+        },
+        {
+          "name": "e12629e801cc15712ff12e1790a93404.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a1\/6f\/40\/bd\/e0\/e12629e801cc15712ff12e1790a93404.png"
+        },
+        {
+          "name": "14baeba4f3c4f13d475c0b297892909a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/84\/ff\/02\/ea\/a0\/14baeba4f3c4f13d475c0b297892909a.png"
+        },
+        {
+          "name": "1b24bcfb3b261031753a2becffe1b867.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/55\/98\/12\/50\/d2\/1b24bcfb3b261031753a2becffe1b867.png"
+        },
+        {
+          "name": "eb20352c5f0b436e4a9be4b3d82bcfd6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fa\/7d\/67\/78\/8e\/eb20352c5f0b436e4a9be4b3d82bcfd6.png"
+        },
+        {
+          "name": "079ecf1486aa8bb81b1218a134e8266b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d1\/6f\/a6\/6a\/86\/079ecf1486aa8bb81b1218a134e8266b.png"
+        },
+        {
+          "name": "d90dad6d5dea913cc34522b1d78df4fd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9e\/71\/d0\/22\/fa\/d90dad6d5dea913cc34522b1d78df4fd.png"
+        },
+        {
+          "name": "b384350426fc26e8a9ef5eb5daabc542.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/2d\/b7\/f2\/c5\/b384350426fc26e8a9ef5eb5daabc542.png"
+        },
+        {
+          "name": "ec301143b639dd3b53d4bcc79f7da81c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/56\/a2\/9d\/dc\/ec301143b639dd3b53d4bcc79f7da81c.png"
+        },
+        {
+          "name": "ef785f1edc06aced6f87a34b4ecb1194.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/a2\/92\/d5\/95\/ef785f1edc06aced6f87a34b4ecb1194.png"
+        },
+        {
+          "name": "eb27ad2df341d4423233ecbb977fd0fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a1\/a9\/11\/4e\/0b\/eb27ad2df341d4423233ecbb977fd0fc.png"
+        },
+        {
+          "name": "95697bc8aa6795aeac3a8e459cf350f6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/bb\/49\/9a\/2d\/95697bc8aa6795aeac3a8e459cf350f6.png"
+        }
+      ]
+    }
+  }
+}

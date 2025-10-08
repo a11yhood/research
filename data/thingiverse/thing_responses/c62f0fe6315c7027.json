@@ -1,0 +1,1174 @@
+{
+  "created_at": "2025-04-10T03:34:46.623279+00:00",
+  "elapsed": 0.242467,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df30bbde1e2a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:46 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:46 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2727176?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2727176?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2727176,
+    "name": "robotic hand servo controlled fingers",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2727176",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2727176",
+    "creator": {
+      "id": 767306,
+      "name": "Hatsyflatsy",
+      "first_name": "dre",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Hatsyflatsy",
+      "public_url": "https:\/\/www.thingiverse.com\/Hatsyflatsy",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/92\/7f\/5e\/5a\/65\/8c1d88b1587e1d32fc7cf35fc0c0e9e7_thumb_medium.jpg",
+      "count_of_followers": 130,
+      "count_of_following": 2,
+      "count_of_designs": 82,
+      "collection_count": 25,
+      "make_count": 25,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Netherlands",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/17\/ab\/57\/19\/b4\/46feec6bb44211212e91d8989cef4ac7_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-12-28T23:05:58+00:00",
+    "modified": "2017-12-28T23:05:58+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 342,
+    "is_liked": false,
+    "collect_count": 636,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 7346846,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/b7\/59\/40\/28\/20171229_134553_resized.jpg",
+      "name": "20171229_134553_resized.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/ef\/1a\/a8\/93\/23f062df3c1aedde4a2ce8b2dcf5ce11_display_small.jpg"
+        }
+      ],
+      "added": "2017-12-29T12:50:39+00:00"
+    },
+    "description": "Servo controlled  hand.\r\nBy flexing the elbow the hand will close. \r\nThe servos are controlled by a servo testing unit, so no need for arduino sketch etc.\r\nThe fingers hinges are connected with ptfe tube 4mm, and the small rods are fastened with petg 1.75. \r\n\r\nThe servo test unit box is a remix from Alex Sahka  (https:\/\/www.thingiverse.com\/thing:35515). And the gears to move the knob for motion control are remix from elefantman (https:\/\/www.thingiverse.com\/thing:683389).\r\nFor powering the servos and testbox i used the 4 AA battery holder by devlab (https:\/\/www.thingiverse.com\/thing:35515) this file is included.\r\n\r\nThe upper and lower arm piece are printed flat, and need some thermofolding. They were inspired by another arm design uploaded by laurah (https:\/\/www.thingiverse.com\/thing:2066705)\r\n\r\n3 servo MG90s\r\nservo testing box \r\nPTFE tube\r\n\r\nI will upload the final BOM and building instructions.\r\nIf parts are changed i will make a notification of the uploaded\/changed part.\r\nhttps:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg\r\n\r\n------UPDATE-------\r\nIf you want to print this project, but you have already made my other hand https:\/\/www.thingiverse.com\/thing:2171811\/#files. You can use that hand for this project. Just need to print the wrist adaptor. This makes it compatible with the lower arm from this project.",
+    "instructions": "",
+    "description_html": "<div><p>Servo controlled  hand.<br>By flexing the elbow the hand will close.<br>The servos are controlled by a servo testing unit, so no need for arduino sketch etc.<br>The fingers hinges are connected with ptfe tube 4mm, and the small rods are fastened with petg 1.75. <\/p><p>The servo test unit box is a remix from Alex Sahka  (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>). And the gears to move the knob for motion control are remix from elefantman (<a rel=\"ugc nofollow\" href=\"\/thing:683389\">https:\/\/www.thingiverse.com\/thing:683389<\/a>).<br>For powering the servos and testbox i used the 4 AA battery holder by devlab (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>) this file is included.<\/p><p>The upper and lower arm piece are printed flat, and need some thermofolding. They were inspired by another arm design uploaded by laurah (<a rel=\"ugc nofollow\" href=\"\/thing:2066705\">https:\/\/www.thingiverse.com\/thing:2066705<\/a>)<\/p><p>3 servo MG90s<br>servo testing box<br>PTFE tube<\/p><p>I will upload the final BOM and building instructions.<br>If parts are changed i will make a notification of the uploaded\/changed part.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg\">https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg<\/a><\/p><p>------UPDATE-------<br>If you want to print this project, but you have already made my other hand <a rel=\"ugc nofollow\" href=\"\/thing:2171811\/\">https:\/\/www.thingiverse.com\/thing:2171811\/#files<\/a>. You can use that hand for this project. Just need to print the wrist adaptor. This makes it compatible with the lower arm from this project.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Servo controlled  hand.<br>By flexing the elbow the hand will close.<br>The servos are controlled by a servo testing unit, so no need for arduino sketch etc.<br>The fingers hinges are connected with ptfe tube 4mm, and the small rods are fastened with petg 1.75. <\/p><p>The servo test unit box is a remix from Alex Sahka  (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>). And the gears to move the knob for motion control are remix from elefantman (<a rel=\"ugc nofollow\" href=\"\/thing:683389\">https:\/\/www.thingiverse.com\/thing:683389<\/a>).<br>For powering the servos and testbox i used the 4 AA battery holder by devlab (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>) this file is included.<\/p><p>The upper and lower arm piece are printed flat, and need some thermofolding. They were inspired by another arm design uploaded by laurah (<a rel=\"ugc nofollow\" href=\"\/thing:2066705\">https:\/\/www.thingiverse.com\/thing:2066705<\/a>)<\/p><p>3 servo MG90s<br>servo testing box<br>PTFE tube<\/p><p>I will upload the final BOM and building instructions.<br>If parts are changed i will make a notification of the uploaded\/changed part.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg\">https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg<\/a><\/p><p>------UPDATE-------<br>If you want to print this project, but you have already made my other hand <a rel=\"ugc nofollow\" href=\"\/thing:2171811\/\">https:\/\/www.thingiverse.com\/thing:2171811\/#files<\/a>. You can use that hand for this project. Just need to print the wrist adaptor. This makes it compatible with the lower arm from this project.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>1<br>Print all the parts.<br>Fingers need to printed 5 times.<br>Connector rod 3_5 needs to be printed 10 times<br>Connector rod 1_2 needs to be printed 5 times<\/p><p>2<br>Hand plate has a bending guide in the middle. Heat the plate with a heat gun. Just enough to make it flex. Bend the hand plate, so it&rsquo;s become concave.<br>Make sure the hinge parts are perpendicular. If not push a 4mm rod through the holes. And use washers and nuts to help you make it perpendicular. Make the parts flexible with the heat gun (not to hot) and just tighten the nuts.<\/p><p>3<br>Fingers parts are connected with a 4mm PTFE tube. Drill the outer holes with a 4mm drill, and the inner holes with a 4,2 or 4.5 drill. So the inner part can move free on the PTFE tube. But has a snug fit on the outer parts<br>The finger connector parts (connector 1_2 and 3_5) are connected using some filament. Just push the filament through the holes, and use a lighter or welding torch to meld the filament so it locks the parts<\/p><p>4<br>The fingers are  placed on the hand plate and use some screws to fasten them.<\/p><p>5<br>The upper and lower arm need to be thermoformed. First heat up the part, but be careful at the hinge parts. Better to do this multiple times so you can make little adjustments.<br>The hinges need to be perpendicular. So use a 4mm rod as used by the hand parts. Make sure that you do this for both hinges at the lower arm part. Then heat up the lower arm, just the middle. And rotate the arm. So the elbow and wrist part are 90 dgs rotated in opposite of each other.<\/p><p>6<br>The servo test unit needs to be taken out of its cover. Just remove the plastic. And place the servo test unit on the bottom part. And when top part is placed use screws to clap the parts together.<br>The servo test knob is replaced with a gear. I used the 22 teeth and the 52 teeth version. If you want to change the range of motion for the servo control, you can use other gear versions <a rel=\"ugc nofollow\" href=\"\/thing:683389\">https:\/\/www.thingiverse.com\/thing:683389<\/a>. <\/p><p>7<br>The battery box mockup is explained here <a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Servo controlled  hand.<br>By flexing the elbow the hand will close.<br>The servos are controlled by a servo testing unit, so no need for arduino sketch etc.<br>The fingers hinges are connected with ptfe tube 4mm, and the small rods are fastened with petg 1.75. <\/p><p>The servo test unit box is a remix from Alex Sahka  (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>). And the gears to move the knob for motion control are remix from elefantman (<a rel=\"ugc nofollow\" href=\"\/thing:683389\">https:\/\/www.thingiverse.com\/thing:683389<\/a>).<br>For powering the servos and testbox i used the 4 AA battery holder by devlab (<a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a>) this file is included.<\/p><p>The upper and lower arm piece are printed flat, and need some thermofolding. They were inspired by another arm design uploaded by laurah (<a rel=\"ugc nofollow\" href=\"\/thing:2066705\">https:\/\/www.thingiverse.com\/thing:2066705<\/a>)<\/p><p>3 servo MG90s<br>servo testing box<br>PTFE tube<\/p><p>I will upload the final BOM and building instructions.<br>If parts are changed i will make a notification of the uploaded\/changed part.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg\">https:\/\/www.youtube.com\/watch?v=ZhDsKN0UFYg<\/a><\/p><p>------UPDATE-------<br>If you want to print this project, but you have already made my other hand <a rel=\"ugc nofollow\" href=\"\/thing:2171811\/\">https:\/\/www.thingiverse.com\/thing:2171811\/#files<\/a>. You can use that hand for this project. Just need to print the wrist adaptor. This makes it compatible with the lower arm from this project.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>1<br>Print all the parts.<br>Fingers need to printed 5 times.<br>Connector rod 3_5 needs to be printed 10 times<br>Connector rod 1_2 needs to be printed 5 times<\/p><p>2<br>Hand plate has a bending guide in the middle. Heat the plate with a heat gun. Just enough to make it flex. Bend the hand plate, so it&rsquo;s become concave.<br>Make sure the hinge parts are perpendicular. If not push a 4mm rod through the holes. And use washers and nuts to help you make it perpendicular. Make the parts flexible with the heat gun (not to hot) and just tighten the nuts.<\/p><p>3<br>Fingers parts are connected with a 4mm PTFE tube. Drill the outer holes with a 4mm drill, and the inner holes with a 4,2 or 4.5 drill. So the inner part can move free on the PTFE tube. But has a snug fit on the outer parts<br>The finger connector parts (connector 1_2 and 3_5) are connected using some filament. Just push the filament through the holes, and use a lighter or welding torch to meld the filament so it locks the parts<\/p><p>4<br>The fingers are  placed on the hand plate and use some screws to fasten them.<\/p><p>5<br>The upper and lower arm need to be thermoformed. First heat up the part, but be careful at the hinge parts. Better to do this multiple times so you can make little adjustments.<br>The hinges need to be perpendicular. So use a 4mm rod as used by the hand parts. Make sure that you do this for both hinges at the lower arm part. Then heat up the lower arm, just the middle. And rotate the arm. So the elbow and wrist part are 90 dgs rotated in opposite of each other.<\/p><p>6<br>The servo test unit needs to be taken out of its cover. Just remove the plastic. And place the servo test unit on the bottom part. And when top part is placed use screws to clap the parts together.<br>The servo test knob is replaced with a gear. I used the 22 teeth and the 52 teeth version. If you want to change the range of motion for the servo control, you can use other gear versions <a rel=\"ugc nofollow\" href=\"\/thing:683389\">https:\/\/www.thingiverse.com\/thing:683389<\/a>. <\/p><p>7<br>The battery box mockup is explained here <a rel=\"ugc nofollow\" href=\"\/thing:35515\">https:\/\/www.thingiverse.com\/thing:35515<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2727176\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2727176\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2727176\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2727176\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2727176\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2727176\/tags",
+    "tags": [
+      {
+        "name": "3D Prosthetic",
+        "tag": "3d_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic\/things",
+        "absolute_url": "\/tag:3D_Prosthetic"
+      },
+      {
+        "name": "finger",
+        "tag": "finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/finger",
+        "count": 792,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/finger\/things",
+        "absolute_url": "\/tag:finger"
+      },
+      {
+        "name": "flexible",
+        "tag": "flexible",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexible",
+        "count": 3476,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexible\/things",
+        "absolute_url": "\/tag:flexible"
+      },
+      {
+        "name": "flexible filament",
+        "tag": "flexible_filament",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flexible_filament",
+        "count": 762,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flexible_filament\/things",
+        "absolute_url": "\/tag:flexible_filament"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "Ninjaflex",
+        "tag": "ninjaflex",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex",
+        "count": 882,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex\/things",
+        "absolute_url": "\/tag:Ninjaflex"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic arm",
+        "tag": "prosthetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+        "count": 49,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+        "absolute_url": "\/tag:prosthetic_arm"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "servo",
+        "tag": "servo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/servo",
+        "count": 2690,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/servo\/things",
+        "absolute_url": "\/tag:servo"
+      },
+      {
+        "name": "termoform",
+        "tag": "termoform",
+        "url": "https:\/\/api.thingiverse.com\/tags\/termoform",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/termoform\/things",
+        "absolute_url": "\/tag:termoform"
+      },
+      {
+        "name": "thermoforming",
+        "tag": "thermoforming",
+        "url": "https:\/\/api.thingiverse.com\/tags\/thermoforming",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/thermoforming\/things",
+        "absolute_url": "\/tag:thermoforming"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2727176\/categories",
+    "file_count": 15,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 3138,
+    "view_count": 14571,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2053218,
+        "name": "Box for Servo Tester",
+        "url": "https:\/\/api.thingiverse.com\/things\/2053218",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2053218",
+        "created_at": "2017-01-21T17:59:24+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ba\/19\/7b\/40\/55\/0d762418116e024d51899ba667f0d748_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/ba\/19\/7b\/40\/55\/0d762418116e024d51899ba667f0d748_preview_card.jpg",
+        "creator": {
+          "id": 1165285,
+          "name": "Alex_Sashka",
+          "first_name": "Alexander",
+          "last_name": "Kurayev",
+          "url": "https:\/\/api.thingiverse.com\/users\/Alex_Sashka",
+          "public_url": "https:\/\/www.thingiverse.com\/Alex_Sashka",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/f1\/d2\/04\/03\/0f\/SASH._-_Favicon_-_256x256_R.png",
+          "count_of_followers": 18,
+          "count_of_following": 11,
+          "count_of_designs": 6,
+          "collection_count": 3,
+          "make_count": 1,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 7,
+        "make_count": 4,
+        "like_count": 137,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 309,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 683389,
+        "name": "MOD 1.0 SPUR GEAR COLLECTION",
+        "url": "https:\/\/api.thingiverse.com\/things\/683389",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:683389",
+        "created_at": "2015-02-15T09:36:27+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6b\/1e\/5f\/46\/c1\/CM150215-08354602_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/6b\/1e\/5f\/46\/c1\/CM150215-08354602_preview_card.jpg",
+        "creator": {
+          "id": 397997,
+          "name": "elefantman",
+          "first_name": "Elefant",
+          "last_name": "Man",
+          "url": "https:\/\/api.thingiverse.com\/users\/elefantman",
+          "public_url": "https:\/\/www.thingiverse.com\/elefantman",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_engineer_thumb_medium.jpg",
+          "count_of_followers": 34,
+          "count_of_following": 2,
+          "count_of_designs": 21,
+          "collection_count": 1,
+          "make_count": 10,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Cheshire, UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 14,
+        "make_count": 1,
+        "like_count": 250,
+        "tags": [
+          {
+            "name": "cogs",
+            "tag": "cogs",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cogs",
+            "count": 46,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cogs\/things",
+            "absolute_url": "\/tag:cogs"
+          },
+          {
+            "name": "Gear",
+            "tag": "gear",
+            "url": "https:\/\/api.thingiverse.com\/tags\/gear",
+            "count": 4246,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/gear\/things",
+            "absolute_url": "\/tag:Gear"
+          },
+          {
+            "name": "mod 10",
+            "tag": "mod_10",
+            "url": "https:\/\/api.thingiverse.com\/tags\/mod_10",
+            "count": 3,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/mod_10\/things",
+            "absolute_url": "\/tag:mod_10"
+          },
+          {
+            "name": "spur",
+            "tag": "spur",
+            "url": "https:\/\/api.thingiverse.com\/tags\/spur",
+            "count": 90,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/spur\/things",
+            "absolute_url": "\/tag:spur"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 583,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 35515,
+        "name": "Battery holders for AA and AAA types",
+        "url": "https:\/\/api.thingiverse.com\/things\/35515",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:35515",
+        "created_at": "2012-11-23T22:19:34+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/21\/14\/07\/f4\/72\/Assembled_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/21\/14\/07\/f4\/72\/Assembled_preview_card.jpg",
+        "creator": {
+          "id": 30414,
+          "name": "devlab",
+          "first_name": "Devlab",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/devlab",
+          "public_url": "https:\/\/www.thingiverse.com\/devlab",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_engineer_thumb_medium.jpg",
+          "count_of_followers": 17,
+          "count_of_following": 7,
+          "count_of_designs": 16,
+          "collection_count": 1,
+          "make_count": 3,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Kyiv, Ukraine",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 18,
+        "make_count": 9,
+        "like_count": 1127,
+        "tags": [
+          {
+            "name": "aa",
+            "tag": "aa",
+            "url": "https:\/\/api.thingiverse.com\/tags\/aa",
+            "count": 75,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/aa\/things",
+            "absolute_url": "\/tag:aa"
+          },
+          {
+            "name": "AAA",
+            "tag": "aaa",
+            "url": "https:\/\/api.thingiverse.com\/tags\/aaa",
+            "count": 454,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/aaa\/things",
+            "absolute_url": "\/tag:AAA"
+          },
+          {
+            "name": "alkaline",
+            "tag": "alkaline",
+            "url": "https:\/\/api.thingiverse.com\/tags\/alkaline",
+            "count": 5,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/alkaline\/things",
+            "absolute_url": "\/tag:alkaline"
+          },
+          {
+            "name": "battery",
+            "tag": "battery",
+            "url": "https:\/\/api.thingiverse.com\/tags\/battery",
+            "count": 6787,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/battery\/things",
+            "absolute_url": "\/tag:battery"
+          },
+          {
+            "name": "connector",
+            "tag": "connector",
+            "url": "https:\/\/api.thingiverse.com\/tags\/connector",
+            "count": 2638,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/connector\/things",
+            "absolute_url": "\/tag:connector"
+          },
+          {
+            "name": "container",
+            "tag": "container",
+            "url": "https:\/\/api.thingiverse.com\/tags\/container",
+            "count": 9238,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/container\/things",
+            "absolute_url": "\/tag:container"
+          },
+          {
+            "name": "electronics",
+            "tag": "electronics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/electronics",
+            "count": 6419,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/electronics\/things",
+            "absolute_url": "\/tag:electronics"
+          },
+          {
+            "name": "holder",
+            "tag": "holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+            "count": 43001,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+            "absolute_url": "\/tag:holder"
+          },
+          {
+            "name": "HR03",
+            "tag": "hr03",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hr03",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hr03\/things",
+            "absolute_url": "\/tag:HR03"
+          },
+          {
+            "name": "HR6",
+            "tag": "hr6",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hr6",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hr6\/things",
+            "absolute_url": "\/tag:HR6"
+          },
+          {
+            "name": "LR03",
+            "tag": "lr03",
+            "url": "https:\/\/api.thingiverse.com\/tags\/lr03",
+            "count": 7,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/lr03\/things",
+            "absolute_url": "\/tag:LR03"
+          },
+          {
+            "name": "LR6",
+            "tag": "lr6",
+            "url": "https:\/\/api.thingiverse.com\/tags\/lr6",
+            "count": 18,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/lr6\/things",
+            "absolute_url": "\/tag:LR6"
+          },
+          {
+            "name": "NiMH",
+            "tag": "nimh",
+            "url": "https:\/\/api.thingiverse.com\/tags\/nimh",
+            "count": 38,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/nimh\/things",
+            "absolute_url": "\/tag:NiMH"
+          },
+          {
+            "name": "power",
+            "tag": "power",
+            "url": "https:\/\/api.thingiverse.com\/tags\/power",
+            "count": 1944,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/power\/things",
+            "absolute_url": "\/tag:power"
+          },
+          {
+            "name": "reprap",
+            "tag": "reprap",
+            "url": "https:\/\/api.thingiverse.com\/tags\/reprap",
+            "count": 4399,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/reprap\/things",
+            "absolute_url": "\/tag:reprap"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 2362,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 2171811,
+        "name": "Robotic hand  servo powered",
+        "url": "https:\/\/api.thingiverse.com\/things\/2171811",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2171811",
+        "created_at": "2017-03-12T17:27:36+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7e\/f2\/04\/da\/af\/982223e4db433ef005b54841139f2a62_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/7e\/f2\/04\/da\/af\/982223e4db433ef005b54841139f2a62_preview_card.jpg",
+        "creator": {
+          "id": 767306,
+          "name": "Hatsyflatsy",
+          "first_name": "dre",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/Hatsyflatsy",
+          "public_url": "https:\/\/www.thingiverse.com\/Hatsyflatsy",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/92\/7f\/5e\/5a\/65\/8c1d88b1587e1d32fc7cf35fc0c0e9e7_thumb_medium.jpg",
+          "count_of_followers": 130,
+          "count_of_following": 2,
+          "count_of_designs": 82,
+          "collection_count": 25,
+          "make_count": 25,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Netherlands",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/17\/ab\/57\/19\/b4\/46feec6bb44211212e91d8989cef4ac7_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 67,
+        "make_count": 6,
+        "like_count": 328,
+        "tags": [
+          {
+            "name": "robot",
+            "tag": "robot",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robot",
+            "count": 8509,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robot\/things",
+            "absolute_url": "\/tag:robot"
+          },
+          {
+            "name": "robot hand",
+            "tag": "robot_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robot_hand",
+            "count": 29,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robot_hand\/things",
+            "absolute_url": "\/tag:robot_hand"
+          },
+          {
+            "name": "servo",
+            "tag": "servo",
+            "url": "https:\/\/api.thingiverse.com\/tags\/servo",
+            "count": 2690,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/servo\/things",
+            "absolute_url": "\/tag:servo"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 633,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 1920218,
+        "name": "terminator style lower arm prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/things\/1920218",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1920218",
+        "created_at": "2016-12-03T11:24:40+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6a\/85\/f5\/06\/66\/80d456221f44b890042710c3d0cda750_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/6a\/85\/f5\/06\/66\/80d456221f44b890042710c3d0cda750_preview_card.jpg",
+        "creator": {
+          "id": 767306,
+          "name": "Hatsyflatsy",
+          "first_name": "dre",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/Hatsyflatsy",
+          "public_url": "https:\/\/www.thingiverse.com\/Hatsyflatsy",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/92\/7f\/5e\/5a\/65\/8c1d88b1587e1d32fc7cf35fc0c0e9e7_thumb_medium.jpg",
+          "count_of_followers": 130,
+          "count_of_following": 2,
+          "count_of_designs": 82,
+          "collection_count": 25,
+          "make_count": 25,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Netherlands",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/17\/ab\/57\/19\/b4\/46feec6bb44211212e91d8989cef4ac7_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 0,
+        "make_count": 0,
+        "like_count": 123,
+        "tags": [
+          {
+            "name": "Prosthetic hand",
+            "tag": "prosthetic_hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+            "count": 228,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+            "absolute_url": "\/tag:Prosthetic_hand"
+          },
+          {
+            "name": "Terminator",
+            "tag": "terminator",
+            "url": "https:\/\/api.thingiverse.com\/tags\/terminator",
+            "count": 333,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/terminator\/things",
+            "absolute_url": "\/tag:Terminator"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 232,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 2066705,
+        "name": "Enabling the Future. New combination of the unlimbited arm and the flexy hand",
+        "url": "https:\/\/api.thingiverse.com\/things\/2066705",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2066705",
+        "created_at": "2017-01-27T14:58:48+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1f\/16\/9a\/a9\/3d\/4331afab15e1b23826ebc319e82292c6_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/1f\/16\/9a\/a9\/3d\/4331afab15e1b23826ebc319e82292c6_preview_card.JPG",
+        "creator": {
+          "id": 1146402,
+          "name": "laurah",
+          "first_name": "laura",
+          "last_name": "van Houtum",
+          "url": "https:\/\/api.thingiverse.com\/users\/laurah",
+          "public_url": "https:\/\/www.thingiverse.com\/laurah",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+          "count_of_followers": 4,
+          "count_of_following": 0,
+          "count_of_designs": 1,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 0,
+        "like_count": 31,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 68,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "mecha_flex.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/6b\/a4\/f3\/10\/mecha_flex.stl"
+        },
+        {
+          "name": "flex_hand_v1_forearm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/77\/9a\/56\/94\/flex_hand_v1_forearm.stl"
+        },
+        {
+          "name": "mecha_flex_connector_1_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/21\/4b\/e6\/c2\/mecha_flex_connector_1_2.stl"
+        },
+        {
+          "name": "mecha_flex_connector_3_5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/62\/92\/8e\/c5\/mecha_flex_connector_3_5.stl"
+        },
+        {
+          "name": "mecha_flex_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/99\/25\/96\/48\/mecha_flex_1.stl"
+        },
+        {
+          "name": "mecha_flex_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/03\/01\/e1\/5a\/mecha_flex_2.stl"
+        },
+        {
+          "name": "mecha_flex_3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/89\/36\/8a\/3f\/mecha_flex_3.stl"
+        },
+        {
+          "name": "mecha_flex_4.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/d7\/37\/ce\/f1\/mecha_flex_4.stl"
+        },
+        {
+          "name": "mecha_flex_thumb_connector.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/d6\/43\/16\/02\/mecha_flex_thumb_connector.stl"
+        },
+        {
+          "name": "flex_hand_v1_upper_arm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/af\/1c\/fd\/07\/flex_hand_v1_upper_arm.stl"
+        },
+        {
+          "name": "flex_hand_servo_test_gear.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/24\/1d\/76\/50\/flex_hand_servo_test_gear.stl"
+        },
+        {
+          "name": "flex_hand_servo_test_gear_upper_arm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/48\/31\/af\/2e\/flex_hand_servo_test_gear_upper_arm.stl"
+        },
+        {
+          "name": "flex_hand_servo_box_part_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/62\/de\/9e\/e2\/flex_hand_servo_box_part_1.stl"
+        },
+        {
+          "name": "flex_hand_v1_servo_test_bottomplate.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/47\/cb\/0c\/05\/flex_hand_v1_servo_test_bottomplate.stl"
+        },
+        {
+          "name": "AA_4_Battery_Holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/bd\/a8\/57\/0a\/AA_4_Battery_Holder.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "20171229_134553_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/b7\/59\/40\/28\/20171229_134553_resized.jpg"
+        },
+        {
+          "name": "20171229_134658_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/e0\/46\/6e\/1c\/20171229_134658_resized.jpg"
+        },
+        {
+          "name": "20171229_134804_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/57\/e2\/09\/67\/20171229_134804_resized.jpg"
+        },
+        {
+          "name": "20171229_134716_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/5f\/df\/7b\/ff\/20171229_134716_resized.jpg"
+        },
+        {
+          "name": "20171229_134757_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/0d\/77\/1f\/5e\/20171229_134757_resized.jpg"
+        },
+        {
+          "name": "20171229_134612_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/85\/c3\/8c\/38\/20171229_134612_resized.jpg"
+        },
+        {
+          "name": "20171229_134605_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/f1\/e1\/85\/d8\/20171229_134605_resized.jpg"
+        },
+        {
+          "name": "e98677f1c0cc02b9948692be8bbb98ae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/02\/2d\/89\/97\/e98677f1c0cc02b9948692be8bbb98ae.png"
+        },
+        {
+          "name": "795ee1375334cf601b53439d14e86f23.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/88\/fb\/56\/3f\/58\/795ee1375334cf601b53439d14e86f23.png"
+        },
+        {
+          "name": "df79ab2f4f463b753a3bea8b66140b59.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/58\/45\/8c\/f6\/9d\/df79ab2f4f463b753a3bea8b66140b59.png"
+        },
+        {
+          "name": "ed5127a1c70b0d92f3b2b6f4151474b0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/e1\/7c\/94\/a2\/ed5127a1c70b0d92f3b2b6f4151474b0.png"
+        },
+        {
+          "name": "429085864ac220caa6fe62e2db0232c5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/7e\/13\/32\/15\/429085864ac220caa6fe62e2db0232c5.png"
+        },
+        {
+          "name": "db8a6273d7f490ee4849ed4fed9cc8ce.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/19\/fd\/9e\/b0\/db8a6273d7f490ee4849ed4fed9cc8ce.png"
+        },
+        {
+          "name": "995a650d11d078e87105e7a465ad94c6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6e\/f2\/06\/2b\/e1\/995a650d11d078e87105e7a465ad94c6.png"
+        },
+        {
+          "name": "31bdaa80002041666cfa9baf57de0785.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/f6\/c2\/03\/fe\/31bdaa80002041666cfa9baf57de0785.png"
+        },
+        {
+          "name": "a34a4fc9ff701c09fcbb34bd08d2140a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/90\/3b\/58\/d7\/ad\/a34a4fc9ff701c09fcbb34bd08d2140a.png"
+        },
+        {
+          "name": "61d777e58d09fc0c44a12a73ff247952.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/33\/96\/96\/01\/61d777e58d09fc0c44a12a73ff247952.png"
+        },
+        {
+          "name": "67d0d5b0b58e3cdf6819125153279d90.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/98\/12\/05\/7f\/67d0d5b0b58e3cdf6819125153279d90.png"
+        },
+        {
+          "name": "e941899569b4c77387cd4449d32f15d9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/88\/f3\/f0\/25\/e5\/e941899569b4c77387cd4449d32f15d9.png"
+        },
+        {
+          "name": "f645a1aea6d50d114ed04a0fd8b21df4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/5f\/a4\/41\/a1\/f645a1aea6d50d114ed04a0fd8b21df4.png"
+        },
+        {
+          "name": "49b46ad70a5ae7b4ce25f7848af9058c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/66\/48\/e5\/3c\/62\/49b46ad70a5ae7b4ce25f7848af9058c.png"
+        },
+        {
+          "name": "ac5d8d253e24cdb5be06852efd697062.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3a\/45\/65\/49\/61\/ac5d8d253e24cdb5be06852efd697062.png"
+        },
+        {
+          "name": "20171229_110802_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/f9\/7a\/29\/31\/20171229_110802_resized.jpg"
+        },
+        {
+          "name": "20171229_110944_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/af\/1f\/e1\/33\/20171229_110944_resized.jpg"
+        },
+        {
+          "name": "20171229_111136_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/f9\/1a\/fe\/c5\/20171229_111136_resized.jpg"
+        },
+        {
+          "name": "20171229_111319_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/d6\/6f\/97\/b3\/20171229_111319_resized.jpg"
+        },
+        {
+          "name": "20171229_111503_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/d4\/73\/11\/74\/20171229_111503_resized.jpg"
+        },
+        {
+          "name": "20171229_111457_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/68\/bb\/9a\/26\/20171229_111457_resized.jpg"
+        },
+        {
+          "name": "20171229_111903_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/22\/5f\/39\/c8\/20171229_111903_resized.jpg"
+        },
+        {
+          "name": "20171229_114751_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/b3\/e5\/c7\/c6\/20171229_114751_resized.jpg"
+        },
+        {
+          "name": "20171229_114917_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/4e\/46\/d5\/63\/20171229_114917_resized.jpg"
+        },
+        {
+          "name": "20171229_115046_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/d3\/ad\/12\/c8\/20171229_115046_resized.jpg"
+        },
+        {
+          "name": "20171229_115055_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/a9\/78\/03\/93\/20171229_115055_resized.jpg"
+        },
+        {
+          "name": "20171229_112128_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/a1\/4a\/5d\/55\/20171229_112128_resized.jpg"
+        },
+        {
+          "name": "20171229_112121_resized.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/4c\/8a\/f1\/85\/20171229_112121_resized.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "created_at": "2025-04-13T04:27:32.187522+00:00",
+  "elapsed": 0.129845,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836256eaed70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:32 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:32 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3294279?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3294279?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3294279,
+    "name": "[K] Anse pour t\u00e9l\u00e9phone portable \/ Phone ring",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3294279",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3294279",
+    "creator": {
+      "id": 773420,
+      "name": "RehabLab-Kerpape",
+      "first_name": "Rehab-Lab",
+      "last_name": "Kerpape",
+      "url": "https:\/\/api.thingiverse.com\/users\/RehabLab-Kerpape",
+      "public_url": "https:\/\/www.thingiverse.com\/RehabLab-Kerpape",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d6\/6b\/7d\/4f\/cd\/e2be90a55cf6a4f97dd04a15b22a057d_thumb_medium.jpg",
+      "count_of_followers": 130,
+      "count_of_following": 10,
+      "count_of_designs": 35,
+      "collection_count": 10,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "CMRRF Kerpape (France)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/ca\/a2\/7d\/d2\/ff8a3fdde84fe250b3d4c94245aa3980_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-12-18T10:21:11+00:00",
+    "modified": "2018-12-18T10:21:11+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 23,
+    "is_liked": false,
+    "collect_count": 46,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 9553916,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/5b\/15\/6a\/5c\/IMG_4819.JPG",
+      "name": "IMG_4819.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a5\/0f\/3b\/af\/73\/082031d10096d782d76d72b693d9f85c_display_small.JPG"
+        }
+      ],
+      "added": "2018-12-18T10:21:10+00:00"
+    },
+    "description": "English translation further down.\r\n\r\n<h1> Anse pour t\u00e9l\u00e9phone portable<\/h1>\r\n<p>Cette <b>aide technique <\/b>est une bague reli\u00e9e \u00e0 une plaquette qui viendra se scratcher ou se coller sur le t\u00e9l\u00e9phone pour que le patient puisse le tenir plus facilement.<\/p>\r\n\r\nCr\u00e9\u00e9e au RehabLab du CMRRF de Kerpape (Bretagne, France), avec l'aide d'<b>ergoth\u00e9rapeutes<\/b>.\r\nPlus d'informations sur le <a href=\"http:\/\/k-lab.fr\/wordpress\/\">site<\/a>.\r\n\r\n<h1>Phone ring<\/h1>\r\n<p>This <b>assistive device<\/b>,created at the CMRRF de Kerpape (France),  is a phone ring which allows a better phone maintaining.<\/p>\r\n\r\n<p>Designed with the help of <b>occupational therapists<\/b>, at the RehabLab.\r\nMore information on this <a href=\"http:\/\/k-lab.fr\/wordpress\/\">website<\/a>.<\/p>",
+    "instructions": "",
+    "description_html": "<div><p>English translation further down.<\/p><h1> Anse pour t&eacute;l&eacute;phone portable<\/h1><p>Cette <b>aide technique <\/b>est une bague reli&eacute;e &agrave; une plaquette qui viendra se scratcher ou se coller sur le t&eacute;l&eacute;phone pour que le patient puisse le tenir plus facilement.<\/p><p>Cr&eacute;&eacute;e au RehabLab du CMRRF de Kerpape (Bretagne, France), avec l'aide d'<b>ergoth&eacute;rapeutes<\/b>.<br>Plus d'informations sur le <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">site<\/a>.<\/p><h1>Phone ring<\/h1><p>This <b>assistive device<\/b>,created at the CMRRF de Kerpape (France),  is a phone ring which allows a better phone maintaining.<\/p><p>Designed with the help of <b>occupational therapists<\/b>, at the RehabLab.More information on this <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">website<\/a>.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>English translation further down.<\/p><h1> Anse pour t&eacute;l&eacute;phone portable<\/h1><p>Cette <b>aide technique <\/b>est une bague reli&eacute;e &agrave; une plaquette qui viendra se scratcher ou se coller sur le t&eacute;l&eacute;phone pour que le patient puisse le tenir plus facilement.<\/p><p>Cr&eacute;&eacute;e au RehabLab du CMRRF de Kerpape (Bretagne, France), avec l'aide d'<b>ergoth&eacute;rapeutes<\/b>.<br>Plus d'informations sur le <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">site<\/a>.<\/p><h1>Phone ring<\/h1><p>This <b>assistive device<\/b>,created at the CMRRF de Kerpape (France),  is a phone ring which allows a better phone maintaining.<\/p><p>Designed with the help of <b>occupational therapists<\/b>, at the RehabLab.More information on this <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">website<\/a>.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 2 Extended&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>English translation further down.<\/p><h1> Anse pour t&eacute;l&eacute;phone portable<\/h1><p>Cette <b>aide technique <\/b>est une bague reli&eacute;e &agrave; une plaquette qui viendra se scratcher ou se coller sur le t&eacute;l&eacute;phone pour que le patient puisse le tenir plus facilement.<\/p><p>Cr&eacute;&eacute;e au RehabLab du CMRRF de Kerpape (Bretagne, France), avec l'aide d'<b>ergoth&eacute;rapeutes<\/b>.<br>Plus d'informations sur le <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">site<\/a>.<\/p><h1>Phone ring<\/h1><p>This <b>assistive device<\/b>,created at the CMRRF de Kerpape (France),  is a phone ring which allows a better phone maintaining.<\/p><p>Designed with the help of <b>occupational therapists<\/b>, at the RehabLab.More information on this <a rel=\"ugc nofollow\" href=\"http:\/\/k-lab.fr\/wordpress\/\">website<\/a>.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 2 Extended<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3294279\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3294279\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3294279\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3294279\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3294279\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3294279\/tags",
+    "tags": [
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "assitivetech",
+        "tag": "assitivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitivetech",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitivetech\/things",
+        "absolute_url": "\/tag:assitivetech"
+      },
+      {
+        "name": "cellphone",
+        "tag": "cellphone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cellphone",
+        "count": 792,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cellphone\/things",
+        "absolute_url": "\/tag:cellphone"
+      },
+      {
+        "name": "cellular",
+        "tag": "cellular",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cellular",
+        "count": 116,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cellular\/things",
+        "absolute_url": "\/tag:cellular"
+      },
+      {
+        "name": "cell phone",
+        "tag": "cell_phone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cell_phone",
+        "count": 673,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cell_phone\/things",
+        "absolute_url": "\/tag:cell_phone"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "Helper",
+        "tag": "helper",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helper",
+        "count": 384,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helper\/things",
+        "absolute_url": "\/tag:Helper"
+      },
+      {
+        "name": "helpful",
+        "tag": "helpful",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helpful",
+        "count": 429,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helpful\/things",
+        "absolute_url": "\/tag:helpful"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 43024,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "phone",
+        "tag": "phone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/phone",
+        "count": 6841,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/phone\/things",
+        "absolute_url": "\/tag:phone"
+      },
+      {
+        "name": "ring",
+        "tag": "ring",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ring",
+        "count": 4719,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ring\/things",
+        "absolute_url": "\/tag:ring"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3294279\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 267,
+    "view_count": 933,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "crochet-tel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/5c\/72\/3b\/45\/crochet-tel.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_4819.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/5b\/15\/6a\/5c\/IMG_4819.JPG"
+        },
+        {
+          "name": "0a59376aafa3db37081962be5fb7c2cd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/23\/ef\/0e\/9a\/0a59376aafa3db37081962be5fb7c2cd.png"
+        },
+        {
+          "name": "Capture.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/ed\/88\/a6\/59\/Capture.JPG"
+        },
+        {
+          "name": "IMG_4821_1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/21\/05\/ba\/9f\/IMG_4821_1.JPG"
+        }
+      ]
+    }
+  }
+}

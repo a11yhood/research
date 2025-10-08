@@ -1,0 +1,518 @@
+{
+  "created_at": "2025-04-17T03:32:27.063051+00:00",
+  "elapsed": 0.145139,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318daf438c881d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:27 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:27 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/277972?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/277972?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 277972,
+    "name": "Experimental Anti-Hand Tremor Cups (fluid series: 1 design)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/277972",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:277972",
+    "creator": {
+      "id": 169580,
+      "name": "omniverse",
+      "first_name": "Clayton",
+      "last_name": "Inman",
+      "url": "https:\/\/api.thingiverse.com\/users\/omniverse",
+      "public_url": "https:\/\/www.thingiverse.com\/omniverse",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/79\/2f\/a0\/02\/cf\/c3836acf068a9b227834e0adda226ac2_thumb_medium.jpg",
+      "count_of_followers": 16,
+      "count_of_following": 1,
+      "count_of_designs": 11,
+      "collection_count": 8,
+      "make_count": 9,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "RI & CLE",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/8f\/77\/c7\/57\/d9\/Space_Space_explosion_033531__preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2014-03-22T01:14:39+00:00",
+    "modified": "2014-03-22T01:14:39+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 61,
+    "is_liked": false,
+    "collect_count": 112,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 791455,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/e4\/f7\/1e\/6c\/nnw1.PNG",
+      "name": "nnw1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1_display_small.jpg"
+        }
+      ],
+      "added": "2014-03-22T01:14:31+00:00"
+    },
+    "description": "EDIT 7-24-2016\r\nSo I've gotten a lot of emails over the last two years from people who suffer from hand tremors or know close friends\/family that do and would like to see updates for this design. I have news... sorta, in an engineering course I worked with a group of several students to improve this design and make it manufacturable. the improved design is more stable from a physics standpoint but doesn't use any 3D printed parts. I am working to adapt the design to a printable form factor and publish it online for all to use.\r\n\r\nSo these were created for a science fair project I did with the objective to try to develop several different types of drinking cups for people with parkinsons or suffer from a severe intention tremor.  \r\n\r\nMy grandfather, who has a severe intention tremor, burned himself trying to drink coffee one day and thats what inspired me to create these cups.  \r\n\r\nI only had my printer for a month before the fair, so I did not get to develop these as much as I had hoped to. In a later version there may be a better handle, better fluid containment, less of a pressure difference upon pivot, increased degrees of freedom.  \r\n\r\nHeres the catch, If I hear that any one of you makermen and women think that this is a great idea, and say so in the comments, then I will complete my designs for these cups more proactively.  \r\n\r\nIn the fluid series I have developed a unique mug that is intended to use a non-newtonian (shear-thinning) to simulate a slosh tank (what they use to counter earthquake vibrations in tall buildings)  within a large outer apparatus. As a result the inner cup pivots in the opposite direction to counter the effect of some minor translational and rotational oscillations due to hand tremors.  \r\n\r\nMy axis series: http:\/\/www.thingiverse.com\/thing:277956",
+    "instructions": "The Non-newtonian fluid I used was a silicone lubricant, It demonstrated the desired effect for shear-thinning which I believed would most benefit the design. however, I think plain old water my also work, as long as the fluid in the inner cup isn't particularly dense.  \r\n\r\nThere is a cap for the bottom included because there was seepage in my design. just glue one of these things to it and you should be fine. (yes I know its ugly, but the whole thing is anyway)  \r\n\r\nI printed with PLA   \r\n.4 fill   \r\n3 layers, everywhere   \r\n.2 think  \r\n\r\nIf you are considering using these products then I recommend   \r\n4 layers on top   \r\nsolid infil every few layers   \r\n<.2 thinkness   \r\nand vapor polish it",
+    "description_html": "<div><p>EDIT 7-24-2016<br>So I've gotten a lot of emails over the last two years from people who suffer from hand tremors or know close friends\/family that do and would like to see updates for this design. I have news... sorta, in an engineering course I worked with a group of several students to improve this design and make it manufacturable. the improved design is more stable from a physics standpoint but doesn't use any 3D printed parts. I am working to adapt the design to a printable form factor and publish it online for all to use.<\/p><p>So these were created for a science fair project I did with the objective to try to develop several different types of drinking cups for people with parkinsons or suffer from a severe intention tremor.  <\/p><p>My grandfather, who has a severe intention tremor, burned himself trying to drink coffee one day and thats what inspired me to create these cups.  <\/p><p>I only had my printer for a month before the fair, so I did not get to develop these as much as I had hoped to. In a later version there may be a better handle, better fluid containment, less of a pressure difference upon pivot, increased degrees of freedom.  <\/p><p>Heres the catch, If I hear that any one of you makermen and women think that this is a great idea, and say so in the comments, then I will complete my designs for these cups more proactively.  <\/p><p>In the fluid series I have developed a unique mug that is intended to use a non-newtonian (shear-thinning) to simulate a slosh tank (what they use to counter earthquake vibrations in tall buildings)  within a large outer apparatus. As a result the inner cup pivots in the opposite direction to counter the effect of some minor translational and rotational oscillations due to hand tremors.  <\/p><p>My axis series: <a rel=\"ugc nofollow\" href=\"\/thing:277956\">http:\/\/www.thingiverse.com\/thing:277956<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><p>The Non-newtonian fluid I used was a silicone lubricant, It demonstrated the desired effect for shear-thinning which I believed would most benefit the design. however, I think plain old water my also work, as long as the fluid in the inner cup isn't particularly dense.  <\/p><p>There is a cap for the bottom included because there was seepage in my design. just glue one of these things to it and you should be fine. (yes I know its ugly, but the whole thing is anyway)  <\/p><p>I printed with PLA<br>.4 fill<br>3 layers, everywhere<br>.2 think  <\/p><p>If you are considering using these products then I recommend<br>4 layers on top<br>solid infil every few layers<br>&lt;.2 thinkness<br>and vapor polish it<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>EDIT 7-24-2016<br>So I've gotten a lot of emails over the last two years from people who suffer from hand tremors or know close friends\/family that do and would like to see updates for this design. I have news... sorta, in an engineering course I worked with a group of several students to improve this design and make it manufacturable. the improved design is more stable from a physics standpoint but doesn't use any 3D printed parts. I am working to adapt the design to a printable form factor and publish it online for all to use.<\/p><p>So these were created for a science fair project I did with the objective to try to develop several different types of drinking cups for people with parkinsons or suffer from a severe intention tremor.  <\/p><p>My grandfather, who has a severe intention tremor, burned himself trying to drink coffee one day and thats what inspired me to create these cups.  <\/p><p>I only had my printer for a month before the fair, so I did not get to develop these as much as I had hoped to. In a later version there may be a better handle, better fluid containment, less of a pressure difference upon pivot, increased degrees of freedom.  <\/p><p>Heres the catch, If I hear that any one of you makermen and women think that this is a great idea, and say so in the comments, then I will complete my designs for these cups more proactively.  <\/p><p>In the fluid series I have developed a unique mug that is intended to use a non-newtonian (shear-thinning) to simulate a slosh tank (what they use to counter earthquake vibrations in tall buildings)  within a large outer apparatus. As a result the inner cup pivots in the opposite direction to counter the effect of some minor translational and rotational oscillations due to hand tremors.  <\/p><p>My axis series: <a rel=\"ugc nofollow\" href=\"\/thing:277956\">http:\/\/www.thingiverse.com\/thing:277956<\/a><\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>The Non-newtonian fluid I used was a silicone lubricant, It demonstrated the desired effect for shear-thinning which I believed would most benefit the design. however, I think plain old water my also work, as long as the fluid in the inner cup isn't particularly dense.  <\/p><p>There is a cap for the bottom included because there was seepage in my design. just glue one of these things to it and you should be fine. (yes I know its ugly, but the whole thing is anyway)  <\/p><p>I printed with PLA<br>.4 fill<br>3 layers, everywhere<br>.2 think  <\/p><p>If you are considering using these products then I recommend<br>4 layers on top<br>solid infil every few layers<br>&lt;.2 thinkness<br>and vapor polish it<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>EDIT 7-24-2016<br>So I've gotten a lot of emails over the last two years from people who suffer from hand tremors or know close friends\/family that do and would like to see updates for this design. I have news... sorta, in an engineering course I worked with a group of several students to improve this design and make it manufacturable. the improved design is more stable from a physics standpoint but doesn't use any 3D printed parts. I am working to adapt the design to a printable form factor and publish it online for all to use.<\/p><p>So these were created for a science fair project I did with the objective to try to develop several different types of drinking cups for people with parkinsons or suffer from a severe intention tremor.  <\/p><p>My grandfather, who has a severe intention tremor, burned himself trying to drink coffee one day and thats what inspired me to create these cups.  <\/p><p>I only had my printer for a month before the fair, so I did not get to develop these as much as I had hoped to. In a later version there may be a better handle, better fluid containment, less of a pressure difference upon pivot, increased degrees of freedom.  <\/p><p>Heres the catch, If I hear that any one of you makermen and women think that this is a great idea, and say so in the comments, then I will complete my designs for these cups more proactively.  <\/p><p>In the fluid series I have developed a unique mug that is intended to use a non-newtonian (shear-thinning) to simulate a slosh tank (what they use to counter earthquake vibrations in tall buildings)  within a large outer apparatus. As a result the inner cup pivots in the opposite direction to counter the effect of some minor translational and rotational oscillations due to hand tremors.  <\/p><p>My axis series: <a rel=\"ugc nofollow\" href=\"\/thing:277956\">http:\/\/www.thingiverse.com\/thing:277956<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>The Non-newtonian fluid I used was a silicone lubricant, It demonstrated the desired effect for shear-thinning which I believed would most benefit the design. however, I think plain old water my also work, as long as the fluid in the inner cup isn't particularly dense.  <\/p><p>There is a cap for the bottom included because there was seepage in my design. just glue one of these things to it and you should be fine. (yes I know its ugly, but the whole thing is anyway)  <\/p><p>I printed with PLA<br>.4 fill<br>3 layers, everywhere<br>.2 think  <\/p><p>If you are considering using these products then I recommend<br>4 layers on top<br>solid infil every few layers<br>&lt;.2 thinkness<br>and vapor polish it<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/277972\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/277972\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/277972\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/277972\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/277972\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/277972\/tags",
+    "tags": [
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "cups",
+        "tag": "cups",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cups",
+        "count": 222,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cups\/things",
+        "absolute_url": "\/tag:cups"
+      },
+      {
+        "name": "drinking",
+        "tag": "drinking",
+        "url": "https:\/\/api.thingiverse.com\/tags\/drinking",
+        "count": 465,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/drinking\/things",
+        "absolute_url": "\/tag:drinking"
+      },
+      {
+        "name": "Fluid",
+        "tag": "fluid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fluid",
+        "count": 211,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fluid\/things",
+        "absolute_url": "\/tag:Fluid"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "mugs",
+        "tag": "mugs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mugs",
+        "count": 113,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mugs\/things",
+        "absolute_url": "\/tag:mugs"
+      },
+      {
+        "name": "non-newtonian",
+        "tag": "non-newtonian",
+        "url": "https:\/\/api.thingiverse.com\/tags\/non-newtonian",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/non-newtonian\/things",
+        "absolute_url": "\/tag:non-newtonian"
+      },
+      {
+        "name": "parkinsons",
+        "tag": "parkinsons",
+        "url": "https:\/\/api.thingiverse.com\/tags\/parkinsons",
+        "count": 16,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/parkinsons\/things",
+        "absolute_url": "\/tag:parkinsons"
+      },
+      {
+        "name": "slosh tank",
+        "tag": "slosh_tank",
+        "url": "https:\/\/api.thingiverse.com\/tags\/slosh_tank",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/slosh_tank\/things",
+        "absolute_url": "\/tag:slosh_tank"
+      },
+      {
+        "name": "stabilizing",
+        "tag": "stabilizing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/stabilizing",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/stabilizing\/things",
+        "absolute_url": "\/tag:stabilizing"
+      },
+      {
+        "name": "tremor",
+        "tag": "tremor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tremor",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tremor\/things",
+        "absolute_url": "\/tag:tremor"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/277972\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1292,
+    "view_count": 7000,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 277956,
+        "name": "Experimental Anti-Hand Tremor Cups (axis series: 2 designs)",
+        "url": "https:\/\/api.thingiverse.com\/things\/277956",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:277956",
+        "created_at": "2014-03-22T00:46:45+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/dc\/17\/af\/eb\/96\/fo3_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/dc\/17\/af\/eb\/96\/fo3_preview_card.jpg",
+        "creator": {
+          "id": 169580,
+          "name": "omniverse",
+          "first_name": "Clayton",
+          "last_name": "Inman",
+          "url": "https:\/\/api.thingiverse.com\/users\/omniverse",
+          "public_url": "https:\/\/www.thingiverse.com\/omniverse",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/79\/2f\/a0\/02\/cf\/c3836acf068a9b227834e0adda226ac2_thumb_medium.jpg",
+          "count_of_followers": 16,
+          "count_of_following": 1,
+          "count_of_designs": 11,
+          "collection_count": 8,
+          "make_count": 9,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "RI & CLE",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/8f\/77\/c7\/57\/d9\/Space_Space_explosion_033531__preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 0,
+        "like_count": 164,
+        "tags": [
+          {
+            "name": "aid",
+            "tag": "aid",
+            "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+            "count": 292,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+            "absolute_url": "\/tag:aid"
+          },
+          {
+            "name": "cups",
+            "tag": "cups",
+            "url": "https:\/\/api.thingiverse.com\/tags\/cups",
+            "count": 222,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/cups\/things",
+            "absolute_url": "\/tag:cups"
+          },
+          {
+            "name": "drinking",
+            "tag": "drinking",
+            "url": "https:\/\/api.thingiverse.com\/tags\/drinking",
+            "count": 465,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/drinking\/things",
+            "absolute_url": "\/tag:drinking"
+          },
+          {
+            "name": "handicap",
+            "tag": "handicap",
+            "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+            "count": 258,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+            "absolute_url": "\/tag:handicap"
+          },
+          {
+            "name": "handle",
+            "tag": "handle",
+            "url": "https:\/\/api.thingiverse.com\/tags\/handle",
+            "count": 6334,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/handle\/things",
+            "absolute_url": "\/tag:handle"
+          },
+          {
+            "name": "mugs",
+            "tag": "mugs",
+            "url": "https:\/\/api.thingiverse.com\/tags\/mugs",
+            "count": 113,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/mugs\/things",
+            "absolute_url": "\/tag:mugs"
+          },
+          {
+            "name": "parkinsons",
+            "tag": "parkinsons",
+            "url": "https:\/\/api.thingiverse.com\/tags\/parkinsons",
+            "count": 16,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/parkinsons\/things",
+            "absolute_url": "\/tag:parkinsons"
+          },
+          {
+            "name": "stabilizing",
+            "tag": "stabilizing",
+            "url": "https:\/\/api.thingiverse.com\/tags\/stabilizing",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/stabilizing\/things",
+            "absolute_url": "\/tag:stabilizing"
+          },
+          {
+            "name": "tremor",
+            "tag": "tremor",
+            "url": "https:\/\/api.thingiverse.com\/tags\/tremor",
+            "count": 11,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/tremor\/things",
+            "absolute_url": "\/tag:tremor"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 289,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "100mm_cap.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/24\/a4\/87\/57\/100mm_cap.STL"
+        },
+        {
+          "name": "nonnewt-outside_1.0_cap.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/79\/51\/8a\/7d\/nonnewt-outside_1.0_cap.STL"
+        },
+        {
+          "name": "nonnewt-outside_1.0.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/af\/6e\/96\/b9\/nonnewt-outside_1.0.STL"
+        },
+        {
+          "name": "nonnewt.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/10\/8d\/fa\/31\/nonnewt.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "nnw1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/5e\/d7\/d5\/65\/nnw1.jpg"
+        },
+        {
+          "name": "IMG_2961.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/96\/b0\/b6\/e4\/50\/IMG_2961.jpg"
+        },
+        {
+          "name": "IMG_2959.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e5\/ff\/fe\/a3\/45\/IMG_2959.jpg"
+        },
+        {
+          "name": "IMG_2891.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/9f\/fd\/07\/a8\/IMG_2891.jpg"
+        },
+        {
+          "name": "nonnewt-outside_1.0.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bd\/b9\/7a\/1b\/e7\/nonnewt-outside_1.0.jpg"
+        },
+        {
+          "name": "nonnewt-outside_1.0_cap.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/3b\/e4\/77\/96\/nonnewt-outside_1.0_cap.jpg"
+        },
+        {
+          "name": "nonnewt.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/27\/fc\/ef\/62\/16\/nonnewt.jpg"
+        },
+        {
+          "name": "100mm_cap.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/fd\/97\/af\/90\/100mm_cap.jpg"
+        }
+      ]
+    }
+  }
+}

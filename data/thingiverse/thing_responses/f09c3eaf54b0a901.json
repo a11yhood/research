@@ -1,0 +1,473 @@
+{
+  "created_at": "2025-10-08T03:27:07.936039+00:00",
+  "elapsed": 0.220108,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a694f423023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:07 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:07 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2061248?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2061248?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2061248,
+    "name": "3 Inch AT Switch Camera Mount (1\/4\"-20 thread)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/a5\/06\/5b\/0e\/96\/dad9f04c74f6942a86db4475c67297a1_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2061248",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2061248",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 121,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-01-25T05:48:27+00:00",
+    "modified": "2017-01-25T05:48:27+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 27,
+    "is_liked": false,
+    "collect_count": 63,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5390628,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/28\/e0\/9e\/3b\/3in_Switch_5-16in.stl",
+      "name": "97e325473e866339dc6c7c7702de94c1.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1_display_small.jpg"
+        }
+      ],
+      "added": "2017-02-10T21:55:28+00:00"
+    },
+    "description": "This is the first of several mounts that are designed to convert an Assistive Technology (AT) Switch to fit on standard camera mounts.\r\n\r\nCamera mounts are 1\/4\"-20 female sockets.  That is, they take a standard 1\/4\" bolt with 20 threads per inch.  These mounts are everywhere (there are over 3000 camera mounts with 4+ stars on Amazon) including on Tripods, Brackets, Monopods, Booms, etc.  Being able to use these tools to position AT Switches is a huge advantage and these \"things\" will help make that happen.\r\n\r\nThe first that I'm posting is a 3\" mount that uses a 1\/4-20 \"T-Nut\" to create the socket.  T-Nuts are used in rock climbing walls and are available at your local hardware store for about $.60 or online for about $.10  This design calls for a T-Nut with a total height of .6in (I believe they are sold as 1\/2\" but don't count the base).\r\n\r\nTo assemble this, you will also need a 1\/4-20 bolt that's at least 3\/4\" long to pull the t-nut into place.  See pictures above.\r\n\r\nThe 3\" mount fits an Ablenet Jelly Bean Twist and other 3\" switches.  Additional mounts will be forthcoming.  Please join us at ATMakers.org and the corresponding Facebook Group.\r\n\r\n[EDIT 2: Thanks to ATMakers member Barbara Sullivan who tested this and found that the Jelly Bean Twist is actually 85mm across - I have updated this design to include her modifications]\r\n\r\n[EDIT: I modified to include 5\/16\" 7\/16\" and 9\/16\" T-Nut models as well as supporting 3,4, and 6 barbs]",
+    "instructions": "",
+    "description_html": "<div><p>This is the first of several mounts that are designed to convert an Assistive Technology (AT) Switch to fit on standard camera mounts.<\/p><p>Camera mounts are 1\/4\"-20 female sockets.  That is, they take a standard 1\/4\" bolt with 20 threads per inch.  These mounts are everywhere (there are over 3000 camera mounts with 4+ stars on Amazon) including on Tripods, Brackets, Monopods, Booms, etc.  Being able to use these tools to position AT Switches is a huge advantage and these \"things\" will help make that happen.<\/p><p>The first that I'm posting is a 3\" mount that uses a 1\/4-20 \"T-Nut\" to create the socket.  T-Nuts are used in rock climbing walls and are available at your local hardware store for about $.60 or online for about $.10  This design calls for a T-Nut with a total height of .6in (I believe they are sold as 1\/2\" but don't count the base).<\/p><p>To assemble this, you will also need a 1\/4-20 bolt that's at least 3\/4\" long to pull the t-nut into place.  See pictures above.<\/p><p>The 3\" mount fits an Ablenet Jelly Bean Twist and other 3\" switches.  Additional mounts will be forthcoming.  Please join us at ATMakers.org and the corresponding Facebook Group.<\/p><p>[EDIT 2: Thanks to ATMakers member Barbara Sullivan who tested this and found that the Jelly Bean Twist is actually 85mm across - I have updated this design to include her modifications]<\/p><p>[EDIT: I modified to include 5\/16\" 7\/16\" and 9\/16\" T-Nut models as well as supporting 3,4, and 6 barbs]<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is the first of several mounts that are designed to convert an Assistive Technology (AT) Switch to fit on standard camera mounts.<\/p><p>Camera mounts are 1\/4\"-20 female sockets.  That is, they take a standard 1\/4\" bolt with 20 threads per inch.  These mounts are everywhere (there are over 3000 camera mounts with 4+ stars on Amazon) including on Tripods, Brackets, Monopods, Booms, etc.  Being able to use these tools to position AT Switches is a huge advantage and these \"things\" will help make that happen.<\/p><p>The first that I'm posting is a 3\" mount that uses a 1\/4-20 \"T-Nut\" to create the socket.  T-Nuts are used in rock climbing walls and are available at your local hardware store for about $.60 or online for about $.10  This design calls for a T-Nut with a total height of .6in (I believe they are sold as 1\/2\" but don't count the base).<\/p><p>To assemble this, you will also need a 1\/4-20 bolt that's at least 3\/4\" long to pull the t-nut into place.  See pictures above.<\/p><p>The 3\" mount fits an Ablenet Jelly Bean Twist and other 3\" switches.  Additional mounts will be forthcoming.  Please join us at ATMakers.org and the corresponding Facebook Group.<\/p><p>[EDIT 2: Thanks to ATMakers member Barbara Sullivan who tested this and found that the Jelly Bean Twist is actually 85mm across - I have updated this design to include her modifications]<\/p><p>[EDIT: I modified to include 5\/16\" 7\/16\" and 9\/16\" T-Nut models as well as supporting 3,4, and 6 barbs]<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;FlashForge Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;.20&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Supports hold the inset up.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Assembly Instructions<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;1: Remove any brim or additions and the supports from the center inset.&lt;br&gt;2: Insert the T-Nut aligning the barbs with the small slits&lt;br&gt;3: Insert a 3\/4\" (or longer) 1\/4\"-20 bolt into the top of the mount (where the logo is) and tighten to pull the barbs into the plastic&lt;br&gt;4: Remove the bolt and enjoy!&lt;\/p&gt;&lt;p&gt;:-)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is the first of several mounts that are designed to convert an Assistive Technology (AT) Switch to fit on standard camera mounts.<\/p><p>Camera mounts are 1\/4\"-20 female sockets.  That is, they take a standard 1\/4\" bolt with 20 threads per inch.  These mounts are everywhere (there are over 3000 camera mounts with 4+ stars on Amazon) including on Tripods, Brackets, Monopods, Booms, etc.  Being able to use these tools to position AT Switches is a huge advantage and these \"things\" will help make that happen.<\/p><p>The first that I'm posting is a 3\" mount that uses a 1\/4-20 \"T-Nut\" to create the socket.  T-Nuts are used in rock climbing walls and are available at your local hardware store for about $.60 or online for about $.10  This design calls for a T-Nut with a total height of .6in (I believe they are sold as 1\/2\" but don't count the base).<\/p><p>To assemble this, you will also need a 1\/4-20 bolt that's at least 3\/4\" long to pull the t-nut into place.  See pictures above.<\/p><p>The 3\" mount fits an Ablenet Jelly Bean Twist and other 3\" switches.  Additional mounts will be forthcoming.  Please join us at ATMakers.org and the corresponding Facebook Group.<\/p><p>[EDIT 2: Thanks to ATMakers member Barbara Sullivan who tested this and found that the Jelly Bean Twist is actually 85mm across - I have updated this design to include her modifications]<\/p><p>[EDIT: I modified to include 5\/16\" 7\/16\" and 9\/16\" T-Nut models as well as supporting 3,4, and 6 barbs]<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>FlashForge Creator Pro<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>.20<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "notes": "<div><p>Supports hold the inset up.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Assembly Instructions",
+            "content": "<div><p>1: Remove any brim or additions and the supports from the center inset.<br>2: Insert the T-Nut aligning the barbs with the small slits<br>3: Insert a 3\/4\" (or longer) 1\/4\"-20 bolt into the top of the mount (where the logo is) and tighten to pull the barbs into the plastic<br>4: Remove the bolt and enjoy!<\/p><p>:-)<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2061248\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2061248\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2061248\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2061248\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2061248\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2061248\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "camera mount",
+        "tag": "camera_mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/camera_mount",
+        "count": 8366,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/camera_mount\/things",
+        "absolute_url": "\/tag:camera_mount"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2061248\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 859,
+    "view_count": 1402,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Camera_Mount_3_Inch_T-Bolt_v8.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/a4\/39\/86\/54\/Camera_Mount_3_Inch_T-Bolt_v8.f3d"
+        },
+        {
+          "name": "3in_Switch_5-16in.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/28\/e0\/9e\/3b\/3in_Switch_5-16in.stl"
+        },
+        {
+          "name": "3in_Switch_7-16in.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/c0\/3c\/3c\/28\/3in_Switch_7-16in.stl"
+        },
+        {
+          "name": "3in_Switch_9-16in.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/10\/ef\/4a\/42\/3in_Switch_9-16in.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "97e325473e866339dc6c7c7702de94c1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/3c\/a0\/89\/af\/97e325473e866339dc6c7c7702de94c1.png"
+        },
+        {
+          "name": "1891562b8a8fa50eca50b899a8ce5633.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/4e\/8b\/8d\/1b\/1891562b8a8fa50eca50b899a8ce5633.png"
+        },
+        {
+          "name": "969daa91510af3f06733ff0428b567ef.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/7d\/66\/f6\/3d\/969daa91510af3f06733ff0428b567ef.png"
+        },
+        {
+          "name": "File_001_4.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/48\/cb\/6d\/b4\/File_001_4.jpeg"
+        },
+        {
+          "name": "File_000_8.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/b1\/b3\/91\/56\/File_000_8.jpeg"
+        },
+        {
+          "name": "File_008_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/21\/ca\/6e\/f1\/File_008_1.jpeg"
+        },
+        {
+          "name": "File_000_7.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/b7\/22\/2e\/88\/File_000_7.jpeg"
+        },
+        {
+          "name": "File_004_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/f7\/dd\/39\/0e\/File_004_1.jpeg"
+        },
+        {
+          "name": "File_002_4.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/ae\/39\/88\/a8\/File_002_4.jpeg"
+        },
+        {
+          "name": "File_005_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/50\/cf\/ae\/f5\/File_005_1.jpeg"
+        },
+        {
+          "name": "File_006.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/f1\/ad\/04\/34\/File_006.jpeg"
+        },
+        {
+          "name": "File_007.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/21\/57\/fc\/f7\/File_007.jpeg"
+        },
+        {
+          "name": "File_009.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/1a\/40\/50\/a4\/File_009.jpeg"
+        }
+      ]
+    }
+  }
+}

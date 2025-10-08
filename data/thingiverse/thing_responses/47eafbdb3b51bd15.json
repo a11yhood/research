@@ -1,0 +1,527 @@
+{
+  "created_at": "2025-07-11T03:58:24.980235+00:00",
+  "elapsed": 0.174445,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95d561dd0ecdce50-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Jul 2025 03:58:24 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Jul 2025 04:28:24 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "veSh9ZDYu_XaEkj693yB29KX2xsty2jCkROOxqh.6jk-1752206189-1.0.1.1-7hx.lpQvCRwmoDY1eiWTjgIIw7mBtVOfFPMhZMNPuk5v3PoY8HYFhJ1Do52qgkElsmh28zHTey42102ylI0bkN_AM0l1HgJNb75iGv8q45I",
+      "_cfuvid": "tN9_qhRrGhYXAngJpeEofJjFI5AULnwMl4FIzPREDyw-1752206189775-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=veSh9ZDYu_XaEkj693yB29KX2xsty2jCkROOxqh.6jk-1752206189-1.0.1.1-7hx.lpQvCRwmoDY1eiWTjgIIw7mBtVOfFPMhZMNPuk5v3PoY8HYFhJ1Do52qgkElsmh28zHTey42102ylI0bkN_AM0l1HgJNb75iGv8q45I; _cfuvid=tN9_qhRrGhYXAngJpeEofJjFI5AULnwMl4FIzPREDyw-1752206189775-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699666?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3699666?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3699666,
+    "name": "Tactile Food Chain",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699666",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3699666",
+    "creator": {
+      "id": 2652477,
+      "name": "ntaufscar",
+      "first_name": "NTA",
+      "last_name": "UFSCar Campus Sorocaba",
+      "url": "https:\/\/api.thingiverse.com\/users\/ntaufscar",
+      "public_url": "https:\/\/www.thingiverse.com\/ntaufscar",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/78\/64\/6b\/10\/0677fe0ca2f244ce0c2264d6557c3057_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sorocaba, S\u00e3o Paulo, Brazil",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/1e\/a8\/f6\/84\/d62608f0b1b91c7c29beb0b93c3a3ba8_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-18T20:47:37+00:00",
+    "modified": "2019-06-18T20:47:37+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 7,
+    "is_liked": false,
+    "collect_count": 14,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10996433,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/66\/0b\/74\/8d\/FoodChain.jpeg",
+      "name": "FoodChain.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_thumb_large.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_thumb_medium.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_thumb_small.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_thumb_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_featured.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_card.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_large.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_medium.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_small.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_birdwing.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_preview_tinycard.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_display_large.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_display_medium.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8b\/78\/7c\/6c\/a9c81c09cf5f258b8e202869916248b0_display_small.jpeg"
+        }
+      ],
+      "added": "2019-06-18T20:47:00+00:00"
+    },
+    "description": "In order to use the device it is necessary to employ a galvanized steel sheet, Neodimio magnets (2 for each object board) and rubber strings. The rubber strings must be tied at the start pin and ending pin. The start pin means \"this animal\/plant is food for...\" and the ending pin means \"this animal\/plant eats\/consumes...\". The magnets have to be glued underneath the objects boards. The silhouettes can be either printed at the same time of the bases in printers with two extruders or you can print the silhouette in separate and glue it on the base.\r\n\r\nALL BRAILLE TEXTS ARE IN PORTUGUESE.\r\n\r\nThis assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.\r\n\r\nThe research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.",
+    "instructions": "",
+    "description_html": "<div><p>In order to use the device it is necessary to employ a galvanized steel sheet, Neodimio magnets (2 for each object board) and rubber strings. The rubber strings must be tied at the start pin and ending pin. The start pin means \"this animal\/plant is food for...\" and the ending pin means \"this animal\/plant eats\/consumes...\". The magnets have to be glued underneath the objects boards. The silhouettes can be either printed at the same time of the bases in printers with two extruders or you can print the silhouette in separate and glue it on the base.<\/p><p>ALL BRAILLE TEXTS ARE IN PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>In order to use the device it is necessary to employ a galvanized steel sheet, Neodimio magnets (2 for each object board) and rubber strings. The rubber strings must be tied at the start pin and ending pin. The start pin means \"this animal\/plant is food for...\" and the ending pin means \"this animal\/plant eats\/consumes...\". The magnets have to be glued underneath the objects boards. The silhouettes can be either printed at the same time of the bases in printers with two extruders or you can print the silhouette in separate and glue it on the base.<\/p><p>ALL BRAILLE TEXTS ARE IN PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>3D Raise N2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Normal&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;85%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; 3D Fila ABS                Blue, Yellow, Green and Black<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>In order to use the device it is necessary to employ a galvanized steel sheet, Neodimio magnets (2 for each object board) and rubber strings. The rubber strings must be tied at the start pin and ending pin. The start pin means \"this animal\/plant is food for...\" and the ending pin means \"this animal\/plant eats\/consumes...\". The magnets have to be glued underneath the objects boards. The silhouettes can be either printed at the same time of the bases in printers with two extruders or you can print the silhouette in separate and glue it on the base.<\/p><p>ALL BRAILLE TEXTS ARE IN PORTUGUESE.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>3D Raise N2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>Normal<\/p><\/div>",
+            "infill": "<div><p>85%<\/p><\/div>",
+            "filament_brand": "<div><p>3D Fila<\/p><\/div>",
+            "filament_color": "<div><p>Blue, Yellow, Green and Black<\/p><\/div>",
+            "filament_material": "<div><p>ABS<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3699666\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3699666\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3699666\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3699666\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3699666\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3699666\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3699666\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1190,
+    "view_count": 329,
+    "education": {
+      "grades": {
+        "20": "5th Grade",
+        "21": "6th Grade",
+        "22": "7th Grade",
+        "23": "8th Grade",
+        "24": "9th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "On\u00e7a.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/08\/78\/79\/11\/On%C3%A7a.stl"
+        },
+        {
+          "name": "Bacterias.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/d5\/82\/bc\/72\/Bacterias.stl"
+        },
+        {
+          "name": "EndingPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/88\/c3\/b3\/13\/EndingPin.stl"
+        },
+        {
+          "name": "StartPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/c1\/13\/c3\/57\/StartPin.stl"
+        },
+        {
+          "name": "Plantas.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/17\/41\/b2\/04\/Plantas.stl"
+        },
+        {
+          "name": "Sementes.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/c6\/3f\/e5\/08\/Sementes.stl"
+        },
+        {
+          "name": "Ser_humano.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/d9\/74\/01\/34\/Ser_humano.stl"
+        },
+        {
+          "name": "Arara.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/d7\/32\/17\/5f\/Arara.stl"
+        },
+        {
+          "name": "Anta.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/23\/d4\/11\/29\/Anta.stl"
+        },
+        {
+          "name": "Gafanhoto.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/6b\/14\/b0\/6d\/Gafanhoto.stl"
+        },
+        {
+          "name": "Arara.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/ae\/51\/cb\/09\/Arara.stl"
+        },
+        {
+          "name": "Anta.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/23\/0c\/c6\/38\/Anta.stl"
+        },
+        {
+          "name": "Bacterias.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/8a\/72\/ac\/d3\/Bacterias.stl"
+        },
+        {
+          "name": "Plantas.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/1a\/ec\/dd\/9f\/Plantas.stl"
+        },
+        {
+          "name": "Sementes.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/7e\/7a\/7e\/05\/Sementes.stl"
+        },
+        {
+          "name": "Onca.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/4b\/d6\/e3\/48\/Onca.stl"
+        },
+        {
+          "name": "Gafanhoto.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/50\/34\/2c\/8a\/Gafanhoto.stl"
+        },
+        {
+          "name": "SerHumano.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/dc\/9a\/f1\/bd\/SerHumano.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "FoodChain.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/66\/0b\/74\/8d\/FoodChain.jpeg"
+        },
+        {
+          "name": "15106b53097956af01844f921e05fa3d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/cd\/5c\/ef\/d6\/15106b53097956af01844f921e05fa3d.png"
+        },
+        {
+          "name": "ca18bee330a7a1ac15ff8cd16c097ddb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a6\/9e\/f4\/52\/96\/ca18bee330a7a1ac15ff8cd16c097ddb.png"
+        },
+        {
+          "name": "7a5136265ead1ec2f73062b5460775e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/8b\/b4\/1d\/8c\/7a5136265ead1ec2f73062b5460775e2.png"
+        },
+        {
+          "name": "bf9b5acd0e5f16a827331c97fc72ee12.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/c6\/ce\/d2\/05\/bf9b5acd0e5f16a827331c97fc72ee12.png"
+        },
+        {
+          "name": "a05a3287a3c746ebb8e62af56ffa4d6f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/c1\/e6\/e1\/ec\/a05a3287a3c746ebb8e62af56ffa4d6f.png"
+        },
+        {
+          "name": "059955fe3f77682683598126cc665564.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/98\/a2\/3d\/f7\/059955fe3f77682683598126cc665564.png"
+        },
+        {
+          "name": "f2cfb09f46ba974b1b3c31254d9ae7be.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/7a\/60\/98\/f0\/f2cfb09f46ba974b1b3c31254d9ae7be.png"
+        },
+        {
+          "name": "b3eb441dd0c32d15f5c963861abe5b5f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/9e\/38\/d2\/79\/b3eb441dd0c32d15f5c963861abe5b5f.png"
+        },
+        {
+          "name": "00b03f3dba65f73d7ef9b58306f4e559.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/27\/00\/c6\/38\/ca\/00b03f3dba65f73d7ef9b58306f4e559.png"
+        },
+        {
+          "name": "8cf79febaeca20a9e733f546ece2cf20.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/17\/dc\/63\/36\/46\/8cf79febaeca20a9e733f546ece2cf20.png"
+        },
+        {
+          "name": "dbc04b2b39885e70939bedbaf9891304.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/57\/14\/80\/17\/dbc04b2b39885e70939bedbaf9891304.png"
+        },
+        {
+          "name": "15106b53097956af01844f921e05fa3d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/bd\/fe\/b7\/c2\/15106b53097956af01844f921e05fa3d.png"
+        },
+        {
+          "name": "f1f836da3fc9a12d92dcf3b4d3c2a618.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/d8\/6a\/68\/9d\/f1f836da3fc9a12d92dcf3b4d3c2a618.png"
+        },
+        {
+          "name": "bf9b5acd0e5f16a827331c97fc72ee12.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/59\/2d\/26\/85\/f3\/bf9b5acd0e5f16a827331c97fc72ee12.png"
+        },
+        {
+          "name": "ca18bee330a7a1ac15ff8cd16c097ddb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/51\/53\/64\/8b\/ca18bee330a7a1ac15ff8cd16c097ddb.png"
+        },
+        {
+          "name": "059955fe3f77682683598126cc665564.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fc\/a8\/9b\/90\/a4\/059955fe3f77682683598126cc665564.png"
+        },
+        {
+          "name": "00b03f3dba65f73d7ef9b58306f4e559.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/13\/42\/f2\/9b\/00b03f3dba65f73d7ef9b58306f4e559.png"
+        },
+        {
+          "name": "7a5136265ead1ec2f73062b5460775e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c5\/92\/ef\/0c\/40\/7a5136265ead1ec2f73062b5460775e2.png"
+        }
+      ]
+    }
+  }
+}

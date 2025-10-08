@@ -1,0 +1,452 @@
+{
+  "created_at": "2025-07-10T03:52:10.663257+00:00",
+  "elapsed": 0.193667,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b597ac0cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:10 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:10 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6837655?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6837655?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6837655,
+    "name": "Prosthetic Hand for wrist amputees",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/0b\/25\/a8\/56\/af\/large_display_20241118_235236.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6837655",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6837655",
+    "creator": {
+      "id": 1415698,
+      "name": "Ensergio",
+      "first_name": "Anmol",
+      "last_name": "Stephen",
+      "url": "https:\/\/api.thingiverse.com\/users\/Ensergio",
+      "public_url": "https:\/\/www.thingiverse.com\/Ensergio",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/54\/87\/c8\/f4\/96\/Logo_4_v2.jpg",
+      "count_of_followers": 0,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Bangalore, India",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-11-19T05:29:42+00:00",
+    "modified": "2024-11-19T05:29:42+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 0,
+    "is_liked": false,
+    "collect_count": 0,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21910939,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/92\/40\/e8\/5b\/Wrist_Socket_v3.png",
+      "name": "Wrist_Socket_v3.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/6d\/9e\/c5\/6f\/large_thumb_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/68\/fd\/57\/e4\/medium_thumb_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/d7\/2c\/23\/8e\/small_thumb_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/0e\/01\/f8\/78\/tiny_thumb_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/ae\/a2\/72\/da\/featured_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/92\/b4\/33\/28\/card_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/a8\/e7\/78\/25\/large_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/b9\/32\/d4\/ac\/medium_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/81\/47\/eb\/52\/small_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/5d\/46\/ab\/84\/birdwing_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/a4\/2b\/b2\/ca\/tiny_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/cb\/ab\/05\/a8\/tinycard_preview_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/01\/3e\/79\/7d\/large_display_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/0a\/f1\/40\/48\/medium_display_Wrist_Socket_v3.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/14\/ed\/79\/de\/small_display_Wrist_Socket_v3.png"
+        }
+      ],
+      "added": "2024-11-19T05:31:19+00:00"
+    },
+    "description": "This device is a passive-gripping prosthetic hand 3D printed from plastic and with a separate modular wrist socket and hand + thumb part. All the dimensions are parametric and hence the sizing can be customized to the user\u2019s needs and there are 5 different configurations of the wrist socket so that people with all different wrist sizes can use the prosthetic.\r\nThe thumb is moveable and spring loaded with rubber bands, so that adjusting the number of robber bands in the component will adjust the spring force easily. The thumb auto-closes due to the spring force and can be used to grip objects lightly.",
+    "instructions": "",
+    "description_html": "<div><p>This device is a passive-gripping prosthetic hand 3D printed from plastic and with a separate modular wrist socket and hand + thumb part. All the dimensions are parametric and hence the sizing can be customized to the user\u2019s needs and there are 5 different configurations of the wrist socket so that people with all different wrist sizes can use the prosthetic.<br>The thumb is moveable and spring loaded with rubber bands, so that adjusting the number of robber bands in the component will adjust the spring force easily. The thumb auto-closes due to the spring force and can be used to grip objects lightly.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This device is a passive-gripping prosthetic hand 3D printed from plastic and with a separate modular wrist socket and hand + thumb part. All the dimensions are parametric and hence the sizing can be customized to the user\u2019s needs and there are 5 different configurations of the wrist socket so that people with all different wrist sizes can use the prosthetic.<br>The thumb is moveable and spring loaded with rubber bands, so that adjusting the number of robber bands in the component will adjust the spring force easily. The thumb auto-closes due to the spring force and can be used to grip objects lightly.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>UltiMaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 3&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Remove supports and assemble. Put rubber bands into the slots on the prosthetic attachment and thumb part. Will require tweezers for the attachment of rubber bands.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>Designed in Solidworks<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This device is a passive-gripping prosthetic hand 3D printed from plastic and with a separate modular wrist socket and hand + thumb part. All the dimensions are parametric and hence the sizing can be customized to the user\u2019s needs and there are 5 different configurations of the wrist socket so that people with all different wrist sizes can use the prosthetic.<br>The thumb is moveable and spring loaded with rubber bands, so that adjusting the number of robber bands in the component will adjust the spring force easily. The thumb auto-closes due to the spring force and can be used to grip objects lightly.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>UltiMaker<\/p><\/div>",
+            "printer": "<div><p>Ultimaker 3<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Remove supports and assemble. Put rubber bands into the slots on the prosthetic attachment and thumb part. Will require tweezers for the attachment of rubber bands.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>Designed in Solidworks<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6837655\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6837655\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6837655\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6837655\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6837655\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6837655\/tags",
+    "tags": [
+      {
+        "name": "3d printable",
+        "tag": "3d_printable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_printable",
+        "count": 351,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_printable\/things",
+        "absolute_url": "\/tag:3d_printable"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 687,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 241,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6837655\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 8,
+    "view_count": 141,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Hand_Prosthetic_Attachment.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/4f\/28\/43\/05\/Hand_Prosthetic_Attachment.SLDPRT"
+        },
+        {
+          "name": "Fully_Prosthetic_Assembly.SLDASM",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/a4\/60\/af\/e4\/Fully_Prosthetic_Assembly.SLDASM"
+        },
+        {
+          "name": "Wrist_Socket.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/7b\/96\/2a\/3b\/Wrist_Socket.SLDPRT"
+        },
+        {
+          "name": "Thumb.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/e6\/c8\/a3\/17\/Thumb.SLDPRT"
+        },
+        {
+          "name": "Wrist_Socket_v3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/24\/4b\/44\/aa\/Wrist_Socket_v3.STL"
+        },
+        {
+          "name": "Hand_Prosthetic_Attachment_v3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/4c\/3a\/7c\/ef\/Hand_Prosthetic_Attachment_v3.STL"
+        },
+        {
+          "name": "Thumb_v3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/cf\/e9\/21\/0f\/Thumb_v3.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Wrist_Socket_v3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/92\/40\/e8\/5b\/Wrist_Socket_v3.png"
+        },
+        {
+          "name": "Thumb_v3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/b6\/2c\/f0\/3f\/Thumb_v3.png"
+        },
+        {
+          "name": "Hand_Prosthetic_Attachment_v3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/70\/fd\/78\/24\/Hand_Prosthetic_Attachment_v3.png"
+        },
+        {
+          "name": "20241118_235236.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/31\/df\/e4\/48\/20241118_235236.jpg"
+        },
+        {
+          "name": "20241118_235254.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/f3\/e6\/a0\/f4\/20241118_235254.jpg"
+        },
+        {
+          "name": "20241118_235315.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/59\/3e\/fc\/9a\/20241118_235315.jpg"
+        }
+      ]
+    }
+  }
+}

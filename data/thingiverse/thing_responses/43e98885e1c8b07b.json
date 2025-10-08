@@ -1,0 +1,525 @@
+{
+  "created_at": "2025-04-16T03:33:55.944132+00:00",
+  "elapsed": 0.14931,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109fbfcb7c63d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2930181?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2930181?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2930181,
+    "name": "Assistive Devices for PC Keyboard",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/64\/16\/46\/01\/82\/70ff6a7cc6371e878a55faedae13a605_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2930181",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2930181",
+    "creator": {
+      "id": 27540,
+      "name": "Beatrice1975",
+      "first_name": "Beatrice",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Beatrice1975",
+      "public_url": "https:\/\/www.thingiverse.com\/Beatrice1975",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e3\/96\/53\/b3\/a9\/metropolis01_thumb_medium.jpg",
+      "count_of_followers": 112,
+      "count_of_following": 24,
+      "count_of_designs": 76,
+      "collection_count": 4,
+      "make_count": 34,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Italy",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/6c\/c0\/59\/63\/c9\/22020_10151376476811306_319684499_n_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-05-25T14:10:12+00:00",
+    "modified": "2018-05-25T14:10:12+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 66,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 8240200,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/07\/d5\/01\/2c\/Ring_8.stl",
+      "name": "19536b84cf4133d4b46e9efdc5b71a7a.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a_display_small.jpg"
+        }
+      ],
+      "added": "2018-05-25T14:10:37+00:00"
+    },
+    "description": "This is a collection of assisitive pieces expecially designed to use a computer keyboard. They have different shapes to conform different needs:\r\n\r\n-Ring o (light blue), can be worn in the pinkie finger and allows some degree of the wrist without being heavy or cumbersome.\r\n-Ring 8 (yellow), can be worn in the pinkie and ring finger with less degree of movement of the wrist, but maybe is a little more steady.\r\n-T shape (purple) allows to push the keys with the palm of the hand facing down, with the clenched fist.\r\n-C shape (red) also allows to keep the palm of the hand facing down, but the hand can stay open as the C embraces it.\r\n-U shape (violet) is similar to C shape but the hand is kept perpendicular to the keyboard.\r\n- Mouth piece (green) this allows a person to use the mouth to tap on the keyboard. This piece needs the supporting material. \r\n- Finger key (forgot to put in the photo) is a wishbone shaped piece that can be grabbed by three fingers or phalanxes, and extends the lenght to better reach the keyboard.\r\n ",
+    "instructions": "",
+    "description_html": "<div><p>This is a collection of assisitive pieces expecially designed to use a computer keyboard. They have different shapes to conform different needs:<\/p><p>-Ring o (light blue), can be worn in the pinkie finger and allows some degree of the wrist without being heavy or cumbersome.<br>-Ring 8 (yellow), can be worn in the pinkie and ring finger with less degree of movement of the wrist, but maybe is a little more steady.<br>-T shape (purple) allows to push the keys with the palm of the hand facing down, with the clenched fist.<br>-C shape (red) also allows to keep the palm of the hand facing down, but the hand can stay open as the C embraces it.<br>-U shape (violet) is similar to C shape but the hand is kept perpendicular to the keyboard.<\/p><ul><li>Mouth piece (green) this allows a person to use the mouth to tap on the keyboard. This piece needs the supporting material. <\/li><li>Finger key (forgot to put in the photo) is a wishbone shaped piece that can be grabbed by three fingers or phalanxes, and extends the lenght to better reach the keyboard.<\/li><\/ul><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a collection of assisitive pieces expecially designed to use a computer keyboard. They have different shapes to conform different needs:<\/p><p>-Ring o (light blue), can be worn in the pinkie finger and allows some degree of the wrist without being heavy or cumbersome.<br>-Ring 8 (yellow), can be worn in the pinkie and ring finger with less degree of movement of the wrist, but maybe is a little more steady.<br>-T shape (purple) allows to push the keys with the palm of the hand facing down, with the clenched fist.<br>-C shape (red) also allows to keep the palm of the hand facing down, but the hand can stay open as the C embraces it.<br>-U shape (violet) is similar to C shape but the hand is kept perpendicular to the keyboard.<\/p><ul><li>Mouth piece (green) this allows a person to use the mouth to tap on the keyboard. This piece needs the supporting material. <\/li><li>Finger key (forgot to put in the photo) is a wishbone shaped piece that can be grabbed by three fingers or phalanxes, and extends the lenght to better reach the keyboard.<\/li><\/ul><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Pro Mendel<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;low or medium&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>NOTE: the mouth piece needs supporting material. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a collection of assisitive pieces expecially designed to use a computer keyboard. They have different shapes to conform different needs:<\/p><p>-Ring o (light blue), can be worn in the pinkie finger and allows some degree of the wrist without being heavy or cumbersome.<br>-Ring 8 (yellow), can be worn in the pinkie and ring finger with less degree of movement of the wrist, but maybe is a little more steady.<br>-T shape (purple) allows to push the keys with the palm of the hand facing down, with the clenched fist.<br>-C shape (red) also allows to keep the palm of the hand facing down, but the hand can stay open as the C embraces it.<br>-U shape (violet) is similar to C shape but the hand is kept perpendicular to the keyboard.<\/p><ul><li>Mouth piece (green) this allows a person to use the mouth to tap on the keyboard. This piece needs the supporting material. <\/li><li>Finger key (forgot to put in the photo) is a wishbone shaped piece that can be grabbed by three fingers or phalanxes, and extends the lenght to better reach the keyboard.<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Pro Mendel<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "infill": "<div><p>low or medium<\/p><\/div>\n",
+            "notes": "<div><p>NOTE: the mouth piece needs supporting material. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2930181\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2930181\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2930181\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2930181\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2930181\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2930181\/tags",
+    "tags": [
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 61,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive device for elderly or disabled",
+        "tag": "assistive_device_for_elderly_or_disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled",
+        "count": 59,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device_for_elderly_or_disabled\/things",
+        "absolute_url": "\/tag:assistive_device_for_elderly_or_disabled"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disabilities",
+        "tag": "disabilities",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabilities",
+        "count": 54,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabilities\/things",
+        "absolute_url": "\/tag:disabilities"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1942,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2142,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "Help",
+        "tag": "help",
+        "url": "https:\/\/api.thingiverse.com\/tags\/help",
+        "count": 240,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/help\/things",
+        "absolute_url": "\/tag:Help"
+      },
+      {
+        "name": "helping tool",
+        "tag": "helping_tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping_tool",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping_tool\/things",
+        "absolute_url": "\/tag:helping_tool"
+      },
+      {
+        "name": "keyboard",
+        "tag": "keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyboard",
+        "count": 3804,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyboard\/things",
+        "absolute_url": "\/tag:keyboard"
+      },
+      {
+        "name": "mouthpiece",
+        "tag": "mouthpiece",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mouthpiece",
+        "count": 386,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mouthpiece\/things",
+        "absolute_url": "\/tag:mouthpiece"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2930181\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 767,
+    "view_count": 1147,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Ring_o.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/4c\/c9\/a0\/5e\/Ring_o.stl"
+        },
+        {
+          "name": "Finger_Key.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/93\/6a\/fc\/8a\/Finger_Key.stl"
+        },
+        {
+          "name": "T_shape.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/ca\/0f\/28\/7d\/T_shape.stl"
+        },
+        {
+          "name": "Ring_8.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/07\/d5\/01\/2c\/Ring_8.stl"
+        },
+        {
+          "name": "mouth_piece.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/d4\/47\/6b\/b3\/mouth_piece.stl"
+        },
+        {
+          "name": "U_shape.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/a2\/c6\/78\/d5\/U_shape.stl"
+        },
+        {
+          "name": "C_shape.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/42\/02\/c4\/43\/C_shape.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "19536b84cf4133d4b46e9efdc5b71a7a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/1d\/65\/57\/c2\/19536b84cf4133d4b46e9efdc5b71a7a.png"
+        },
+        {
+          "name": "4cd210bdae21df9eb02b95ec70312a7a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/87\/a2\/78\/ce\/47\/4cd210bdae21df9eb02b95ec70312a7a.png"
+        },
+        {
+          "name": "51896eda37bdc9b3a8aa3d366202c975.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a8\/05\/70\/f3\/9f\/51896eda37bdc9b3a8aa3d366202c975.png"
+        },
+        {
+          "name": "a0ac3a614a0a0e4139debd95d33843ef.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/19\/b7\/60\/6c\/a0ac3a614a0a0e4139debd95d33843ef.png"
+        },
+        {
+          "name": "f48f9760f30fcd79c058827191501812.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/75\/bf\/7f\/4a\/bb\/f48f9760f30fcd79c058827191501812.png"
+        },
+        {
+          "name": "Assistive_Devices_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/45\/26\/2b\/3b\/Assistive_Devices_1.jpg"
+        },
+        {
+          "name": "Assistive_Devices_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/8c\/56\/e4\/3e\/Assistive_Devices_2.jpg"
+        },
+        {
+          "name": "499e724c4f1bde929074aa1096f82973.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/42\/e3\/16\/67\/a6\/499e724c4f1bde929074aa1096f82973.png"
+        },
+        {
+          "name": "9ee55c0d96f4e52012d5d650efa00038.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/e8\/bc\/73\/3a\/9ee55c0d96f4e52012d5d650efa00038.png"
+        }
+      ]
+    }
+  }
+}

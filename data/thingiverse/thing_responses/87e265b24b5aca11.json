@@ -1,0 +1,441 @@
+{
+  "created_at": "2025-04-15T03:38:59.320582+00:00",
+  "elapsed": 0.122301,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869c808adc95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:38:59 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:08:59 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3060014?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3060014?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3060014,
+    "name": "Display-Aligned Hinge Mounts (EyeGaze & More)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3060014",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3060014",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 118,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-08-21T03:12:25+00:00",
+    "modified": "2018-08-21T03:12:25+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 48,
+    "is_liked": false,
+    "collect_count": 118,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 8733799,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/fe\/73\/37\/fb\/Tobii4C.png",
+      "name": "Tobii4C.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/78\/db\/a9\/45\/576fbc156f85a5bf5628cb16f70b943a_display_small.jpg"
+        }
+      ],
+      "added": "2018-08-21T03:16:37+00:00"
+    },
+    "description": "Detailed Discussion in this video:\r\nhttps:\/\/youtu.be\/CczqSuy2NOw\r\n\r\nThis system allows you to mount a device to a display and have the device remain aligned to the display.  If the display rotates, the device will as well.\r\n\r\nThis is especially helpful for things like Eye Gaze devices for Assistive Technology users (and gamers, it turns out) and perhaps cameras and more.\r\n\r\nThis system is based on our prototype \"Watch band\" mount for the Tobii EyeX eye gaze device: https:\/\/www.thingiverse.com\/thing:2266941 which should be considered obsolete.\r\n\r\nTo use this system, you will need a Base, some links, and a device connection.  Right now we have one base (the VESA mount) and two device connections (the EyeX and 4C eye gaze devices).  Additional bases such as tablet & laptop mounts as well as additional devices such as cameras will be added to this system.\r\n#Assembly\r\nTo connect the hinges, use #6 or 1\/8\" bolts at least 2\" long.  Or M4 metric bolts at least 50mm long (55 or 60 is better).  Matching lock-nuts are ideal and will be captured.\r\n\r\nImperial #6-32 bolts can be ordered here: https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548\r\nWith matching Nuts: https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193\r\n\r\nM4-60 bolts can be ordered her: https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895\r\nWith matching Nuts: https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802\r\n\r\nIn either case, we found it best to insert neoprene washers to help the flat side of the screw to help it gain friction.",
+    "instructions": "",
+    "description_html": "<div><p>Detailed Discussion in this video:<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/CczqSuy2NOw\">https:\/\/youtu.be\/CczqSuy2NOw<\/a><\/p><p>This system allows you to mount a device to a display and have the device remain aligned to the display.  If the display rotates, the device will as well.<\/p><p>This is especially helpful for things like Eye Gaze devices for Assistive Technology users (and gamers, it turns out) and perhaps cameras and more.<\/p><p>This system is based on our prototype \"Watch band\" mount for the Tobii EyeX eye gaze device: <a rel=\"ugc nofollow\" href=\"\/thing:2266941\">https:\/\/www.thingiverse.com\/thing:2266941<\/a> which should be considered obsolete.<\/p><p>To use this system, you will need a Base, some links, and a device connection.  Right now we have one base (the VESA mount) and two device connections (the EyeX and 4C eye gaze devices).  Additional bases such as tablet &amp; laptop mounts as well as additional devices such as cameras will be added to this system.<\/p><h1>Assembly<\/h1><p>To connect the hinges, use #6 or 1\/8\" bolts at least 2\" long.  Or M4 metric bolts at least 50mm long (55 or 60 is better).  Matching lock-nuts are ideal and will be captured.<\/p><p>Imperial #6-32 bolts can be ordered here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193<\/a><\/p><p>M4-60 bolts can be ordered her: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802<\/a><\/p><p>In either case, we found it best to insert neoprene washers to help the flat side of the screw to help it gain friction.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Detailed Discussion in this video:<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/CczqSuy2NOw\">https:\/\/youtu.be\/CczqSuy2NOw<\/a><\/p><p>This system allows you to mount a device to a display and have the device remain aligned to the display.  If the display rotates, the device will as well.<\/p><p>This is especially helpful for things like Eye Gaze devices for Assistive Technology users (and gamers, it turns out) and perhaps cameras and more.<\/p><p>This system is based on our prototype \"Watch band\" mount for the Tobii EyeX eye gaze device: <a rel=\"ugc nofollow\" href=\"\/thing:2266941\">https:\/\/www.thingiverse.com\/thing:2266941<\/a> which should be considered obsolete.<\/p><p>To use this system, you will need a Base, some links, and a device connection.  Right now we have one base (the VESA mount) and two device connections (the EyeX and 4C eye gaze devices).  Additional bases such as tablet &amp; laptop mounts as well as additional devices such as cameras will be added to this system.<\/p><h1>Assembly<\/h1><p>To connect the hinges, use #6 or 1\/8\" bolts at least 2\" long.  Or M4 metric bolts at least 50mm long (55 or 60 is better).  Matching lock-nuts are ideal and will be captured.<\/p><p>Imperial #6-32 bolts can be ordered here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193<\/a><\/p><p>M4-60 bolts can be ordered her: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802<\/a><\/p><p>In either case, we found it best to insert neoprene washers to help the flat side of the screw to help it gain friction.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 2&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>25%+<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Some of the designs benefit from supports.  25% infill is a minimum for structural support.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Detailed Discussion in this video:<br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/CczqSuy2NOw\">https:\/\/youtu.be\/CczqSuy2NOw<\/a><\/p><p>This system allows you to mount a device to a display and have the device remain aligned to the display.  If the display rotates, the device will as well.<\/p><p>This is especially helpful for things like Eye Gaze devices for Assistive Technology users (and gamers, it turns out) and perhaps cameras and more.<\/p><p>This system is based on our prototype \"Watch band\" mount for the Tobii EyeX eye gaze device: <a rel=\"ugc nofollow\" href=\"\/thing:2266941\">https:\/\/www.thingiverse.com\/thing:2266941<\/a> which should be considered obsolete.<\/p><p>To use this system, you will need a Base, some links, and a device connection.  Right now we have one base (the VESA mount) and two device connections (the EyeX and 4C eye gaze devices).  Additional bases such as tablet &amp; laptop mounts as well as additional devices such as cameras will be added to this system.<\/p><h1>Assembly<\/h1><p>To connect the hinges, use #6 or 1\/8\" bolts at least 2\" long.  Or M4 metric bolts at least 50mm long (55 or 60 is better).  Matching lock-nuts are ideal and will be captured.<\/p><p>Imperial #6-32 bolts can be ordered here: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=1548<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=18193<\/a><\/p><p>M4-60 bolts can be ordered her: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=17895<\/a><br>With matching Nuts: <a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=4802<\/a><\/p><p>In either case, we found it best to insert neoprene washers to help the flat side of the screw to help it gain friction.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 2<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "infill": "<div><p>25%+<\/p><\/div>\n",
+            "notes": "<div><p>Some of the designs benefit from supports.  25% infill is a minimum for structural support.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3060014\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3060014\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3060014\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3060014\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3060014\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3060014\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3060014\/categories",
+    "file_count": 11,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1598,
+    "view_count": 3528,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Tobii_VESA__Hinge_Parametric_v1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/01\/d3\/e7\/e0\/Tobii_VESA__Hinge_Parametric_v1.f3d"
+        },
+        {
+          "name": "Tobii_HingeLink_Parametric_v1_v1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/44\/37\/35\/8a\/Tobii_HingeLink_Parametric_v1_v1.f3d"
+        },
+        {
+          "name": "Tobii4Cmount_Hinge_v1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/d0\/cb\/31\/8e\/Tobii4Cmount_Hinge_v1.f3d"
+        },
+        {
+          "name": "VESA100mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/d9\/c7\/5e\/df\/VESA100mm.stl"
+        },
+        {
+          "name": "Tobii4CRight.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/e7\/c9\/91\/e5\/Tobii4CRight.stl"
+        },
+        {
+          "name": "Link75mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/d5\/a0\/7a\/21\/Link75mm.stl"
+        },
+        {
+          "name": "Link50mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/95\/9a\/b3\/fa\/Link50mm.stl"
+        },
+        {
+          "name": "TobiiEyeXMount_Hinge_v1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/a6\/d7\/cc\/3b\/TobiiEyeXMount_Hinge_v1.f3d"
+        },
+        {
+          "name": "Link30mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/40\/43\/ee\/80\/Link30mm.stl"
+        },
+        {
+          "name": "Tobii4CLeft.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/11\/5e\/cf\/05\/Tobii4CLeft.stl"
+        },
+        {
+          "name": "TobiiEyeX.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/7f\/fc\/c6\/50\/TobiiEyeX.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Tobii4C.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/fe\/73\/37\/fb\/Tobii4C.png"
+        },
+        {
+          "name": "d462425e2f2a1fd2d053675912dffbbc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/25\/c1\/37\/fb\/41\/d462425e2f2a1fd2d053675912dffbbc.png"
+        },
+        {
+          "name": "3929d0abd60fcfb5faca79b6f18e7081.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/9b\/3d\/d6\/4c\/3929d0abd60fcfb5faca79b6f18e7081.png"
+        },
+        {
+          "name": "c2cd4e7ffe9c477e3ff02053690bd174.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f0\/c6\/7e\/4d\/02\/c2cd4e7ffe9c477e3ff02053690bd174.png"
+        },
+        {
+          "name": "c3a76ad080e79ae8a1eb394e0fb08073.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/6a\/1b\/2f\/62\/c3a76ad080e79ae8a1eb394e0fb08073.png"
+        },
+        {
+          "name": "3131855bfebc565e30d07c06337b1769.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/ef\/7d\/b8\/37\/3131855bfebc565e30d07c06337b1769.png"
+        },
+        {
+          "name": "7bb3475fd6b17900ee40ef0f1dced423.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/09\/37\/39\/1f\/7bb3475fd6b17900ee40ef0f1dced423.png"
+        },
+        {
+          "name": "3800dd58376e09b260609dcb3e8b0060.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/7e\/24\/50\/a8\/3800dd58376e09b260609dcb3e8b0060.png"
+        }
+      ]
+    }
+  }
+}

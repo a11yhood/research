@@ -1,0 +1,396 @@
+{
+  "created_at": "2025-10-08T03:28:28.580571+00:00",
+  "elapsed": 0.205688,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c616c0e3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:28 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:28 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/83208?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/83208?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 83208,
+    "name": "Snap-together clamshell housing for openSip+Puff",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/53\/3d\/53\/6d\/6c\/Good_prototype_PCB_in_housing_1_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/83208",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:83208",
+    "creator": {
+      "id": 16719,
+      "name": "jasonwebb",
+      "first_name": "Jason",
+      "last_name": "Webb",
+      "url": "https:\/\/api.thingiverse.com\/users\/jasonwebb",
+      "public_url": "https:\/\/www.thingiverse.com\/jasonwebb",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/66\/da\/64\/3c\/14\/bca32825a712f0f53672b6ad4d5c9fdc_thumb_medium.jpg",
+      "count_of_followers": 299,
+      "count_of_following": 18,
+      "count_of_designs": 26,
+      "collection_count": 12,
+      "make_count": 26,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Minneapolis, MN",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/ad\/7a\/f7\/b6\/scans_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2013-05-05T16:45:05+00:00",
+    "modified": "2013-05-05T16:45:05+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 30,
+    "is_liked": false,
+    "collect_count": 64,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 334651,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/48\/4e\/23\/5a\/Full_housing_with_mouse_ears.stl",
+      "name": "Full_housing_with_mouse_ears.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears_display_small.jpg"
+        }
+      ],
+      "added": "2013-05-02T20:14:51+00:00"
+    },
+    "description": "This is a snap-together chamshell housing for an open-source sip-and-puff interface I'm working on called [openSip+Puff](http:\/\/jason-webb.info\/wiki\/index.php?title=OpenSip%2BPuff).  \n\nThe housing is comprised of two halves that fit together using mating ledges that are offset by about 0.2mm.   \n\nIt was created in OpenSCAD and is fully parametric, so if you need to adjust the fit (or anything else for that matter) just grab the .scad file and have at it!  \n\nThe OpenSCAD script relies on the following libraries from MCAD:  \n\n* boxes.scad  \n* units.scad  \n* nuts_and_bolts.scad  \n\nRead more about the development process for this housing on my blog at: http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/  \n\nVideo: http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA",
+    "instructions": "I printed my prototype housings in ABS on a Makerbot Replicator using the following settings:  \n\n* Raft (no support)  \n* 25% infill  \n* 0.27mm layer height  \n* 1 shell  \n\nIf you want to print the housing using ABS, turn on the raft and download the housing files that have mouse ears attached. Otherwise you will get curling that will affect the fit of the parts.  \n\nThis part is ideally printed raftless using PLA, but I do not (yet) have the ability to do so.",
+    "description_html": "<div><p>This is a snap-together chamshell housing for an open-source sip-and-puff interface I'm working on called <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/wiki\/index.php?title=OpenSip%2BPuff\">openSip+Puff<\/a>.  <\/p><p>The housing is comprised of two halves that fit together using mating ledges that are offset by about 0.2mm.   <\/p><p>It was created in OpenSCAD and is fully parametric, so if you need to adjust the fit (or anything else for that matter) just grab the .scad file and have at it!  <\/p><p>The OpenSCAD script relies on the following libraries from MCAD:  <\/p><ul><li>boxes.scad  <\/li><li>units.scad  <\/li><li>nuts_and_bolts.scad  <\/li><\/ul><p>Read more about the development process for this housing on my blog at: <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/\">http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/<\/a>  <\/p><p>Video: <a rel=\"nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA\">http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA<\/a><\/p><\/div>",
+    "instructions_html": "<div><p>I printed my prototype housings in ABS on a Makerbot Replicator using the following settings:  <\/p><ul><li>Raft (no support)  <\/li><li>25% infill  <\/li><li>0.27mm layer height  <\/li><li>1 shell  <\/li><\/ul><p>If you want to print the housing using ABS, turn on the raft and download the housing files that have mouse ears attached. Otherwise you will get curling that will affect the fit of the parts.  <\/p><p>This part is ideally printed raftless using PLA, but I do not (yet) have the ability to do so.<\/p><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a snap-together chamshell housing for an open-source sip-and-puff interface I'm working on called <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/wiki\/index.php?title=OpenSip%2BPuff\">openSip+Puff<\/a>.  <\/p><p>The housing is comprised of two halves that fit together using mating ledges that are offset by about 0.2mm.   <\/p><p>It was created in OpenSCAD and is fully parametric, so if you need to adjust the fit (or anything else for that matter) just grab the .scad file and have at it!  <\/p><p>The OpenSCAD script relies on the following libraries from MCAD:  <\/p><ul><li>boxes.scad  <\/li><li>units.scad  <\/li><li>nuts_and_bolts.scad  <\/li><\/ul><p>Read more about the development process for this housing on my blog at: <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/\">http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/<\/a>  <\/p><p>Video: <a rel=\"nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA\">http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA<\/a><\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>I printed my prototype housings in ABS on a Makerbot Replicator using the following settings:  <\/p><ul><li>Raft (no support)  <\/li><li>25% infill  <\/li><li>0.27mm layer height  <\/li><li>1 shell  <\/li><\/ul><p>If you want to print the housing using ABS, turn on the raft and download the housing files that have mouse ears attached. Otherwise you will get curling that will affect the fit of the parts.  <\/p><p>This part is ideally printed raftless using PLA, but I do not (yet) have the ability to do so.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a snap-together chamshell housing for an open-source sip-and-puff interface I'm working on called <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/wiki\/index.php?title=OpenSip%2BPuff\">openSip+Puff<\/a>.  <\/p><p>The housing is comprised of two halves that fit together using mating ledges that are offset by about 0.2mm.   <\/p><p>It was created in OpenSCAD and is fully parametric, so if you need to adjust the fit (or anything else for that matter) just grab the .scad file and have at it!  <\/p><p>The OpenSCAD script relies on the following libraries from MCAD:  <\/p><ul><li>boxes.scad  <\/li><li>units.scad  <\/li><li>nuts_and_bolts.scad  <\/li><\/ul><p>Read more about the development process for this housing on my blog at: <a rel=\"nofollow\" href=\"http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/\">http:\/\/jason-webb.info\/2013\/05\/snap-together-3d-printable-clamshell-housing-for-opensippuff\/<\/a>  <\/p><p>Video: <a rel=\"nofollow\" href=\"http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA\">http:\/\/www.youtube.com\/watch?v=rA8_EXlYiVA<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>I printed my prototype housings in ABS on a Makerbot Replicator using the following settings:  <\/p><ul><li>Raft (no support)  <\/li><li>25% infill  <\/li><li>0.27mm layer height  <\/li><li>1 shell  <\/li><\/ul><p>If you want to print the housing using ABS, turn on the raft and download the housing files that have mouse ears attached. Otherwise you will get curling that will affect the fit of the parts.  <\/p><p>This part is ideally printed raftless using PLA, but I do not (yet) have the ability to do so.<\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/83208\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/83208\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/83208\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/83208\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/83208\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/83208\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 195,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "clamshell",
+        "tag": "clamshell",
+        "url": "https:\/\/api.thingiverse.com\/tags\/clamshell",
+        "count": 38,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/clamshell\/things",
+        "absolute_url": "\/tag:clamshell"
+      },
+      {
+        "name": "enclosure",
+        "tag": "enclosure",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enclosure",
+        "count": 5498,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enclosure\/things",
+        "absolute_url": "\/tag:enclosure"
+      },
+      {
+        "name": "housing",
+        "tag": "housing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/housing",
+        "count": 1656,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/housing\/things",
+        "absolute_url": "\/tag:housing"
+      },
+      {
+        "name": "openscad",
+        "tag": "openscad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+        "count": 15748,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+        "absolute_url": "\/tag:openscad"
+      },
+      {
+        "name": "openSipPuff",
+        "tag": "opensippuff",
+        "url": "https:\/\/api.thingiverse.com\/tags\/opensippuff",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/opensippuff\/things",
+        "absolute_url": "\/tag:openSipPuff"
+      },
+      {
+        "name": "sip and puff",
+        "tag": "sip_and_puff",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sip_and_puff",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sip_and_puff\/things",
+        "absolute_url": "\/tag:sip_and_puff"
+      },
+      {
+        "name": "snap",
+        "tag": "snap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/snap",
+        "count": 543,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/snap\/things",
+        "absolute_url": "\/tag:snap"
+      },
+      {
+        "name": "snap together",
+        "tag": "snap_together",
+        "url": "https:\/\/api.thingiverse.com\/tags\/snap_together",
+        "count": 269,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/snap_together\/things",
+        "absolute_url": "\/tag:snap_together"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/83208\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2521,
+    "view_count": 4207,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "openSip+Puff_housing.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/d3\/91\/65\/07\/openSip%2BPuff_housing.scad"
+        },
+        {
+          "name": "Full_housing_with_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/48\/4e\/23\/5a\/Full_housing_with_mouse_ears.stl"
+        },
+        {
+          "name": "Lower_half_with_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/0d\/b5\/fb\/4b\/Lower_half_with_mouse_ears.stl"
+        },
+        {
+          "name": "Upper_half_with_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/ba\/3c\/26\/f9\/Upper_half_with_mouse_ears.stl"
+        },
+        {
+          "name": "Full_housing_without_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/dd\/61\/ac\/a6\/Full_housing_without_mouse_ears.stl"
+        },
+        {
+          "name": "Lower_housing_without_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/2c\/d4\/af\/f1\/Lower_housing_without_mouse_ears.stl"
+        },
+        {
+          "name": "Upper_housing_without_mouse_ears.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/51\/5a\/63\/02\/Upper_housing_without_mouse_ears.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Full_housing_with_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/94\/f6\/bf\/3c\/Full_housing_with_mouse_ears.jpg"
+        },
+        {
+          "name": "Lower_half_with_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/6e\/54\/14\/c7\/Lower_half_with_mouse_ears.jpg"
+        },
+        {
+          "name": "Upper_half_with_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/2b\/90\/af\/46\/Upper_half_with_mouse_ears.jpg"
+        },
+        {
+          "name": "Full_housing_without_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/1a\/89\/36\/f0\/Full_housing_without_mouse_ears.jpg"
+        },
+        {
+          "name": "Lower_housing_without_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/90\/8d\/fa\/f4\/55\/Lower_housing_without_mouse_ears.jpg"
+        },
+        {
+          "name": "Upper_housing_without_mouse_ears.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/2c\/74\/b6\/d4\/Upper_housing_without_mouse_ears.jpg"
+        },
+        {
+          "name": "Good_prototype_PCB_in_housing_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/3d\/53\/6d\/6c\/Good_prototype_PCB_in_housing_1.jpg"
+        },
+        {
+          "name": "Good_prototype_PCB_in_housing_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/87\/d1\/0c\/91\/Good_prototype_PCB_in_housing_2.jpg"
+        }
+      ]
+    }
+  }
+}

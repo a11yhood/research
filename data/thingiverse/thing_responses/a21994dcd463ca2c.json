@@ -1,0 +1,479 @@
+{
+  "created_at": "2025-04-17T03:32:30.235230+00:00",
+  "elapsed": 0.129885,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318db08287b81d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:30 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:30 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3422719?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3422719?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3422719,
+    "name": "[Y] pupitre lecture (book holder)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3422719",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3422719",
+    "creator": {
+      "id": 1924976,
+      "name": "RehabLab-Perharidy",
+      "first_name": "RehabLab-Perharidy",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/RehabLab-Perharidy",
+      "public_url": "https:\/\/www.thingiverse.com\/RehabLab-Perharidy",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/af\/82\/ca\/bf\/c4\/7316bd1129d21400f95261b59e820c24_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 16,
+      "count_of_designs": 5,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Roscoff",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d1\/92\/49\/eb\/1e\/13fc447c6facbcff7c9470ec226c04d5_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-02-12T13:30:22+00:00",
+    "modified": "2019-02-12T13:30:22+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 60,
+    "is_liked": false,
+    "collect_count": 128,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 10019584,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/39\/45\/81\/2c\/20190117_085754.jpg",
+      "name": "20190117_085754.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/90\/01\/b1\/23\/d2eb68ed989e6db009e44d03a3417a0f_display_small.jpg"
+        }
+      ],
+      "added": "2019-02-12T13:19:11+00:00"
+    },
+    "description": "Cette aide technique permet \u00e0 une personne de lire sans avoir \u00e0 maintenir son livre. Les \u00e9crous peuvent \u00eatre d\u00e9plac\u00e9s le long du peigne incrust\u00e9 dans le plateau. Les deux adaptations permettent de serrer et desserrer les \u00e9crous en limitant la force de pr\u00e9hension. \r\n\r\nCr\u00e9\u00e9e au RehabLab de la fondation ILDYS(Bretagne, France), avec l'aide d'ergoth\u00e9rapeutes.",
+    "instructions": "",
+    "description_html": "<div><p>Cette aide technique permet &agrave; une personne de lire sans avoir &agrave; maintenir son livre. Les &eacute;crous peuvent &ecirc;tre d&eacute;plac&eacute;s le long du peigne incrust&eacute; dans le plateau. Les deux adaptations permettent de serrer et desserrer les &eacute;crous en limitant la force de pr&eacute;hension. <\/p><p>Cr&eacute;&eacute;e au RehabLab de la fondation ILDYS(Bretagne, France), avec l'aide d'ergoth&eacute;rapeutes.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Cette aide technique permet &agrave; une personne de lire sans avoir &agrave; maintenir son livre. Les &eacute;crous peuvent &ecirc;tre d&eacute;plac&eacute;s le long du peigne incrust&eacute; dans le plateau. Les deux adaptations permettent de serrer et desserrer les &eacute;crous en limitant la force de pr&eacute;hension. <\/p><p>Cr&eacute;&eacute;e au RehabLab de la fondation ILDYS(Bretagne, France), avec l'aide d'ergoth&eacute;rapeutes.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 3 Extended&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Cette aide technique permet &agrave; une personne de lire sans avoir &agrave; maintenir son livre. Les &eacute;crous peuvent &ecirc;tre d&eacute;plac&eacute;s le long du peigne incrust&eacute; dans le plateau. Les deux adaptations permettent de serrer et desserrer les &eacute;crous en limitant la force de pr&eacute;hension. <\/p><p>Cr&eacute;&eacute;e au RehabLab de la fondation ILDYS(Bretagne, France), avec l'aide d'ergoth&eacute;rapeutes.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 3 Extended<\/p><\/div>\n",
+            "supports": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3422719\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3422719\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3422719\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3422719\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3422719\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3422719\/tags",
+    "tags": [
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "book",
+        "tag": "book",
+        "url": "https:\/\/api.thingiverse.com\/tags\/book",
+        "count": 1871,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/book\/things",
+        "absolute_url": "\/tag:book"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 43043,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "reading",
+        "tag": "reading",
+        "url": "https:\/\/api.thingiverse.com\/tags\/reading",
+        "count": 452,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/reading\/things",
+        "absolute_url": "\/tag:reading"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3422719\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 590,
+    "view_count": 1590,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "support_livre_D_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/13\/37\/0e\/ca\/support_livre_D_STL.stl"
+        },
+        {
+          "name": "support_livre_G_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/10\/c2\/42\/21\/support_livre_G_STL.stl"
+        },
+        {
+          "name": "adapt_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/39\/e3\/db\/1d\/adapt_STL.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "20190117_085754.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/39\/45\/81\/2c\/20190117_085754.jpg"
+        },
+        {
+          "name": "20190117_085505.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/d1\/d7\/93\/d9\/20190117_085505.jpg"
+        },
+        {
+          "name": "20190117_085637.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/6c\/a2\/d8\/fc\/20190117_085637.jpg"
+        },
+        {
+          "name": "c5c6c5acf3ed30f493542f478091f422.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/8d\/1a\/20\/6c\/c5c6c5acf3ed30f493542f478091f422.png"
+        },
+        {
+          "name": "906cd677aa4f7bfdffbfedd9606797a8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/9c\/89\/b7\/83\/906cd677aa4f7bfdffbfedd9606797a8.png"
+        },
+        {
+          "name": "9ee9e059a8c769f52545dddf7f268209.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/50\/69\/bb\/ff\/9ee9e059a8c769f52545dddf7f268209.png"
+        }
+      ]
+    }
+  }
+}

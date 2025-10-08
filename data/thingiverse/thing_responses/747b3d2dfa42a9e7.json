@@ -1,0 +1,480 @@
+{
+  "created_at": "2025-10-08T03:28:14.873171+00:00",
+  "elapsed": 0.217814,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c0bae7a3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:14 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:14 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3490629?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3490629?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3490629,
+    "name": "WORKING Micro Arcade style joystick and buttons",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3490629",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3490629",
+    "creator": {
+      "id": 163526,
+      "name": "hagridden",
+      "first_name": "Leo",
+      "last_name": "Rolph",
+      "url": "https:\/\/api.thingiverse.com\/users\/hagridden",
+      "public_url": "https:\/\/www.thingiverse.com\/hagridden",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/11\/fa\/83\/6c\/ba1ad6a23bf391c545e536dca470b627_thumb_medium.jpg",
+      "count_of_followers": 13,
+      "count_of_following": 2,
+      "count_of_designs": 11,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Perth",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-03-14T02:36:19+00:00",
+    "modified": "2019-03-14T02:36:19+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 26,
+    "is_liked": false,
+    "collect_count": 47,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10261823,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/f8\/34\/56\/03\/joystick3.jpg",
+      "name": "joystick3.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/ab\/e7\/97\/83\/00b27f70efc0dcb0911edeab362a310b_display_small.jpg"
+        }
+      ],
+      "added": "2019-03-14T02:36:16+00:00"
+    },
+    "description": "EASY PRINT, NO SUPPORT, CLICK TOGETHER WORKING JOYSTICK FOR PC.\r\nThis is a simple arcade style joystick for use with keyboard keys (Cherry keys).\r\n\r\nA little glue or acetone required to join some parts (joystick and guard). Also they keys placed in the buttons will need the corners slightly snipped back to fit\r\n\r\nIt uses a simple ball joint and should be a straight forward print and assemble. Just slip 10 keys in and connect them to a USB controller.\r\n\r\nLink to a USB controller for under $10.\r\nhttps:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&cur_warehouse=CN\r\n\r\nYou might not need the top guard but it could help with longevity. \r\n\r\nPlease take a moment to view my daughters fundraising page. She's a happy-go-lucky 9 year old with cerebral palsy, this design was created to help with her gaming. We appreciate any donations as therapy is expensive and without the help of strangers, Ruby wouldn't be the strong girl she is today.\r\nhttps:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph",
+    "instructions": "",
+    "description_html": "<div><p>EASY PRINT, NO SUPPORT, CLICK TOGETHER WORKING JOYSTICK FOR PC.<br>This is a simple arcade style joystick for use with keyboard keys (Cherry keys).<\/p><p>A little glue or acetone required to join some parts (joystick and guard). Also they keys placed in the buttons will need the corners slightly snipped back to fit<\/p><p>It uses a simple ball joint and should be a straight forward print and assemble. Just slip 10 keys in and connect them to a USB controller.<\/p><p>Link to a USB controller for under $10.<br><a rel=\"nofollow\" href=\"https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN\">https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN<\/a><\/p><p>You might not need the top guard but it could help with longevity. <\/p><p>Please take a moment to view my daughters fundraising page. She's a happy-go-lucky 9 year old with cerebral palsy, this design was created to help with her gaming. We appreciate any donations as therapy is expensive and without the help of strangers, Ruby wouldn't be the strong girl she is today.<br><a rel=\"nofollow\" href=\"https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph\">https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>EASY PRINT, NO SUPPORT, CLICK TOGETHER WORKING JOYSTICK FOR PC.<br>This is a simple arcade style joystick for use with keyboard keys (Cherry keys).<\/p><p>A little glue or acetone required to join some parts (joystick and guard). Also they keys placed in the buttons will need the corners slightly snipped back to fit<\/p><p>It uses a simple ball joint and should be a straight forward print and assemble. Just slip 10 keys in and connect them to a USB controller.<\/p><p>Link to a USB controller for under $10.<br><a rel=\"nofollow\" href=\"https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN\">https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN<\/a><\/p><p>You might not need the top guard but it could help with longevity. <\/p><p>Please take a moment to view my daughters fundraising page. She's a happy-go-lucky 9 year old with cerebral palsy, this design was created to help with her gaming. We appreciate any donations as therapy is expensive and without the help of strangers, Ruby wouldn't be the strong girl she is today.<br><a rel=\"nofollow\" href=\"https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph\">https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Zortrax<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;M200&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.09 - 0.14mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;50%+&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; na ABS<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>EASY PRINT, NO SUPPORT, CLICK TOGETHER WORKING JOYSTICK FOR PC.<br>This is a simple arcade style joystick for use with keyboard keys (Cherry keys).<\/p><p>A little glue or acetone required to join some parts (joystick and guard). Also they keys placed in the buttons will need the corners slightly snipped back to fit<\/p><p>It uses a simple ball joint and should be a straight forward print and assemble. Just slip 10 keys in and connect them to a USB controller.<\/p><p>Link to a USB controller for under $10.<br><a rel=\"nofollow\" href=\"https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN\">https:\/\/www.banggood.com\/Arcade-USB-Encoder-PC-to-Joystick-Control-Panel-for-MAME-2Pin-SANWA-Type-Push-Buttons-p-1107124.html?rmmds=search&amp;cur_warehouse=CN<\/a><\/p><p>You might not need the top guard but it could help with longevity. <\/p><p>Please take a moment to view my daughters fundraising page. She's a happy-go-lucky 9 year old with cerebral palsy, this design was created to help with her gaming. We appreciate any donations as therapy is expensive and without the help of strangers, Ruby wouldn't be the strong girl she is today.<br><a rel=\"nofollow\" href=\"https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph\">https:\/\/www.sunshinebutterflies.com.au\/personal-fundraising-members\/ruby-rolph<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Zortrax<\/p><\/div>",
+            "printer": "<div><p>M200<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "No",
+            "resolution": "<div><p>0.09 - 0.14mm<\/p><\/div>",
+            "infill": "<div><p>50%+<\/p><\/div>",
+            "filament_brand": "<div><p>na<\/p><\/div>",
+            "filament_material": "<div><p>ABS<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3490629\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3490629\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3490629\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3490629\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3490629\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3490629\/tags",
+    "tags": [
+      {
+        "name": "arcade joystick",
+        "tag": "arcade_joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arcade_joystick",
+        "count": 295,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arcade_joystick\/things",
+        "absolute_url": "\/tag:arcade_joystick"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "computer games",
+        "tag": "computer_games",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer_games",
+        "count": 60,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer_games\/things",
+        "absolute_url": "\/tag:computer_games"
+      },
+      {
+        "name": "easy",
+        "tag": "easy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/easy",
+        "count": 4264,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/easy\/things",
+        "absolute_url": "\/tag:easy"
+      },
+      {
+        "name": "easy print",
+        "tag": "easy_print",
+        "url": "https:\/\/api.thingiverse.com\/tags\/easy_print",
+        "count": 3203,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/easy_print\/things",
+        "absolute_url": "\/tag:easy_print"
+      },
+      {
+        "name": "gaming",
+        "tag": "gaming",
+        "url": "https:\/\/api.thingiverse.com\/tags\/gaming",
+        "count": 6099,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/gaming\/things",
+        "absolute_url": "\/tag:gaming"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1456,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "retro",
+        "tag": "retro",
+        "url": "https:\/\/api.thingiverse.com\/tags\/retro",
+        "count": 2180,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/retro\/things",
+        "absolute_url": "\/tag:retro"
+      },
+      {
+        "name": "Retrogaming",
+        "tag": "retrogaming",
+        "url": "https:\/\/api.thingiverse.com\/tags\/retrogaming",
+        "count": 952,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/retrogaming\/things",
+        "absolute_url": "\/tag:Retrogaming"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3490629\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 433,
+    "view_count": 1103,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Joystick_micro_BUTTONS_and_STICK.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/59\/80\/88\/13\/Joystick_micro_BUTTONS_and_STICK.stl"
+        },
+        {
+          "name": "Joystick_micro_BASE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/0d\/fe\/af\/b2\/Joystick_micro_BASE.stl"
+        },
+        {
+          "name": "Joystick_micro_HOUSING2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/c4\/ee\/0f\/81\/Joystick_micro_HOUSING2.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "joystick3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/f8\/34\/56\/03\/joystick3.jpg"
+        },
+        {
+          "name": "joystick4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/78\/da\/4c\/4f\/joystick4.jpg"
+        },
+        {
+          "name": "joystick.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/d0\/ba\/0f\/77\/joystick.jpg"
+        },
+        {
+          "name": "joystick2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/97\/57\/f2\/6f\/joystick2.jpg"
+        },
+        {
+          "name": "074d039a5bb775d2c3667a9038d94f2d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/ed\/9c\/78\/fd\/074d039a5bb775d2c3667a9038d94f2d.png"
+        },
+        {
+          "name": "ee6516d19091c3bd01deff84e5ccd600.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4c\/fa\/88\/f3\/c4\/ee6516d19091c3bd01deff84e5ccd600.png"
+        },
+        {
+          "name": "d7b9d45c241e3a40f6f561bb950b67d7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c8\/f0\/96\/43\/68\/d7b9d45c241e3a40f6f561bb950b67d7.png"
+        }
+      ]
+    }
+  }
+}

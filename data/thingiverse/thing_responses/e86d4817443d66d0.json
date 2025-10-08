@@ -1,0 +1,536 @@
+{
+  "created_at": "2025-10-08T03:27:12.327385+00:00",
+  "elapsed": 0.244803,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a849c123023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:12 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:12 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3881987?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3881987?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3881987,
+    "name": "Wheelchair Cup holder support Permobil",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/78\/4a\/d1\/15\/e8\/large_display_Cup_support_Permobil_150.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/3881987",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3881987",
+    "creator": {
+      "id": 3059105,
+      "name": "Enabl3D_Designs",
+      "first_name": "Michael",
+      "last_name": "Gamble",
+      "url": "https:\/\/api.thingiverse.com\/users\/Enabl3D_Designs",
+      "public_url": "https:\/\/www.thingiverse.com\/Enabl3D_Designs",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d1\/ca\/d6\/b1\/ff\/20171213_144721.jpg",
+      "count_of_followers": 23,
+      "count_of_following": 0,
+      "count_of_designs": 9,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Toronto, Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/79\/b5\/bd\/c6\/12\/logo.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-09-27T13:01:29+00:00",
+    "modified": "2019-09-27T13:01:29+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 49,
+    "is_liked": false,
+    "collect_count": 81,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 14297165,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/44\/d7\/36\/39\/Cup_support_Permobil_150.stl",
+      "name": "Cup_support_Permobil_150.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/68\/82\/39\/d7\/large_thumb_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/cc\/ec\/dd\/85\/medium_thumb_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/cd\/36\/84\/59\/small_thumb_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/46\/c5\/b7\/aa\/tiny_thumb_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/1a\/a7\/4f\/1a\/featured_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/c9\/31\/16\/27\/card_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/bb\/24\/7c\/f1\/large_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/91\/54\/ea\/ce\/medium_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/67\/f2\/44\/e4\/small_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/9d\/27\/1e\/b0\/birdwing_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/95\/e9\/d3\/4a\/tiny_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/4c\/9e\/81\/89\/tinycard_preview_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/4a\/d1\/15\/e8\/large_display_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/04\/1a\/11\/c4\/medium_display_Cup_support_Permobil_150.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/6a\/32\/9e\/42\/small_display_Cup_support_Permobil_150.png"
+        }
+      ],
+      "added": "2020-11-13T12:25:27+00:00"
+    },
+    "description": "This cup holder is designed to fit the armrests on Permobil wheelchairs. I have included varying lengths which is indicated by the number in the filename. Note the 400 file is actually 390 mm to ensure it will fit the maximum bed size of most larger printers.\r\n\r\nThis support is for either of my wheelchair cup holders.\r\n\r\nCup holder for coffee cups etc.\r\nhttps:\/\/www.thingiverse.com\/thing:3879885\r\n\r\nCup holder for water bottles and thermos cups\r\nhttps:\/\/www.thingiverse.com\/thing:3881399\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This cup holder is designed to fit the armrests on Permobil wheelchairs. I have included varying lengths which is indicated by the number in the filename. Note the 400 file is actually 390 mm to ensure it will fit the maximum bed size of most larger printers.<\/p><p>This support is for either of my wheelchair cup holders.<\/p><p>Cup holder for coffee cups etc.<br><a rel=\"nofollow\" href=\"\/thing:3879885\">https:\/\/www.thingiverse.com\/thing:3879885<\/a><\/p><p>Cup holder for water bottles and thermos cups<br><a rel=\"nofollow\" href=\"\/thing:3881399\">https:\/\/www.thingiverse.com\/thing:3881399<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This cup holder is designed to fit the armrests on Permobil wheelchairs. I have included varying lengths which is indicated by the number in the filename. Note the 400 file is actually 390 mm to ensure it will fit the maximum bed size of most larger printers.<\/p><p>This support is for either of my wheelchair cup holders.<\/p><p>Cup holder for coffee cups etc.<br><a rel=\"nofollow\" href=\"\/thing:3879885\">https:\/\/www.thingiverse.com\/thing:3879885<\/a><\/p><p>Cup holder for water bottles and thermos cups<br><a rel=\"nofollow\" href=\"\/thing:3881399\">https:\/\/www.thingiverse.com\/thing:3881399<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Anycubic<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Predator&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;40%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Anycubic PLA                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;This does not need supports if it is printed horizontally.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This cup holder is designed to fit the armrests on Permobil wheelchairs. I have included varying lengths which is indicated by the number in the filename. Note the 400 file is actually 390 mm to ensure it will fit the maximum bed size of most larger printers.<\/p><p>This support is for either of my wheelchair cup holders.<\/p><p>Cup holder for coffee cups etc.<br><a rel=\"nofollow\" href=\"\/thing:3879885\">https:\/\/www.thingiverse.com\/thing:3879885<\/a><\/p><p>Cup holder for water bottles and thermos cups<br><a rel=\"nofollow\" href=\"\/thing:3881399\">https:\/\/www.thingiverse.com\/thing:3881399<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Anycubic<\/p><\/div>",
+            "printer": "<div><p>Predator<\/p><\/div>",
+            "rafts": "No",
+            "resolution": "<div><p>0.2<\/p><\/div>",
+            "infill": "<div><p>40%<\/p><\/div>",
+            "filament_brand": "<div><p>Anycubic<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>",
+            "notes": "<div><p>This does not need supports if it is printed horizontally.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3881987\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3881987\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3881987\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3881987\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3881987\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3881987\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 586,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "Accessible",
+        "tag": "accessible",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessible",
+        "count": 65,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessible\/things",
+        "absolute_url": "\/tag:Accessible"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 57,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "cupholder",
+        "tag": "cupholder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cupholder",
+        "count": 1416,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cupholder\/things",
+        "absolute_url": "\/tag:cupholder"
+      },
+      {
+        "name": "cup holder",
+        "tag": "cup_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cup_holder",
+        "count": 2499,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cup_holder\/things",
+        "absolute_url": "\/tag:cup_holder"
+      },
+      {
+        "name": "disabilities",
+        "tag": "disabilities",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabilities",
+        "count": 54,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabilities\/things",
+        "absolute_url": "\/tag:disabilities"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "Disability aid",
+        "tag": "disability_aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability_aid",
+        "count": 110,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability_aid\/things",
+        "absolute_url": "\/tag:Disability_aid"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 277,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "enabl3d",
+        "tag": "enabl3d",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enabl3d",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enabl3d\/things",
+        "absolute_url": "\/tag:enabl3d"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 422,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      },
+      {
+        "name": "WheelchairAttachment",
+        "tag": "wheelchairattachment",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment\/things",
+        "absolute_url": "\/tag:WheelchairAttachment"
+      },
+      {
+        "name": "wheelchair accessor",
+        "tag": "wheelchair_accessor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_accessor",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_accessor\/things",
+        "absolute_url": "\/tag:wheelchair_accessor"
+      },
+      {
+        "name": "wheelchair parts",
+        "tag": "wheelchair_parts",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_parts",
+        "count": 110,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_parts\/things",
+        "absolute_url": "\/tag:wheelchair_parts"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3881987\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 627,
+    "view_count": 2203,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 4,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Cup_support_Permobil_150.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/44\/d7\/36\/39\/Cup_support_Permobil_150.stl"
+        },
+        {
+          "name": "cup_support_permobile_300.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/42\/6c\/ab\/80\/cup_support_permobile_300.stl"
+        },
+        {
+          "name": "cup_support_permobile_400.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/b7\/32\/dc\/dc\/cup_support_permobile_400.stl"
+        },
+        {
+          "name": "Cup_support_Permobil_200.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/1a\/11\/aa\/9e\/Cup_support_Permobil_200.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Cup_support_Permobil_150.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/fc\/ba\/86\/e3\/Cup_support_Permobil_150.png"
+        },
+        {
+          "name": "Cup_support_Permobil_150.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/40\/d8\/60\/41\/Cup_support_Permobil_150.png"
+        },
+        {
+          "name": "Cup_support_Permobil_200.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/bf\/17\/f3\/95\/Cup_support_Permobil_200.png"
+        },
+        {
+          "name": "Cup_support_Permobil_350.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/35\/a9\/1f\/00\/Cup_support_Permobil_350.png"
+        }
+      ]
+    }
+  }
+}

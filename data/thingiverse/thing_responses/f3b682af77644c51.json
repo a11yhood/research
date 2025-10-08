@@ -1,0 +1,411 @@
+{
+  "created_at": "2025-10-08T03:28:13.725967+00:00",
+  "elapsed": 0.264118,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c043e6a3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:13 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:13 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2842524?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2842524?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2842524,
+    "name": "Pen Grip Ball",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2842524",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2842524",
+    "creator": {
+      "id": 750745,
+      "name": "scruss",
+      "first_name": "Stewart",
+      "last_name": "Russell",
+      "url": "https:\/\/api.thingiverse.com\/users\/scruss",
+      "public_url": "https:\/\/www.thingiverse.com\/scruss",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/98\/db\/c1\/a2\/56\/f5ea6910d247d15401c1d5a04071e61c_thumb_medium.jpg",
+      "count_of_followers": 43,
+      "count_of_following": 24,
+      "count_of_designs": 90,
+      "collection_count": 1,
+      "make_count": 27,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Toronto",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-03-28T03:16:31+00:00",
+    "modified": "2018-03-28T03:16:31+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 34,
+    "is_liked": false,
+    "collect_count": 73,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7886097,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/28\/19\/6e\/d0\/pen_grip_ball.jpg",
+      "name": "pen_grip_ball.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/22\/70\/88\/15\/c6\/154bccaa0768bcd788142c1f7c776cd9_display_small.jpg"
+        }
+      ],
+      "added": "2018-03-28T03:16:30+00:00"
+    },
+    "description": "Parametric pen grip ball, inspired by [Makers Making Change](http:\/\/www.makersmakingchange.com\/)'s [pen ball](https:\/\/www.thingiverse.com\/thing:2810069) and designed for them. \r\n* Prints in PLA, PET-G or ABS with *minimal* supports.\r\n* Parametric: size and pen diameter can be changed\r\n* Uses 5\u00d7 M4\u00d712 machine screws and 5\u00d7 M4 nuts\r\n\r\nAssembly video: https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Parametric pen grip ball, inspired by <a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\/\">Makers Making Change<\/a>'s <a rel=\"nofollow\" href=\"\/thing:2810069\">pen ball<\/a> and designed for them. <\/p><ul><li>Prints in PLA, PET-G or ABS with <em>minimal<\/em> supports.<\/li><li>Parametric: size and pen diameter can be changed<\/li><li>Uses 5\u00d7 M4\u00d712 machine screws and 5\u00d7 M4 nuts<\/li><\/ul><p>Assembly video: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo\">https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Parametric pen grip ball, inspired by <a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\/\">Makers Making Change<\/a>'s <a rel=\"nofollow\" href=\"\/thing:2810069\">pen ball<\/a> and designed for them. <\/p><ul><li>Prints in PLA, PET-G or ABS with <em>minimal<\/em> supports.<\/li><li>Parametric: size and pen diameter can be changed<\/li><li>Uses 5\u00d7 M4\u00d712 machine screws and 5\u00d7 M4 nuts<\/li><\/ul><p>Assembly video: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo\">https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20 %&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Use at least two shells for strength.rnrnThe design works best with some very light support material over the print bed only. It can be difficult to remove support from inside the inner nut catches, so use the lightest support you can get away with. You &lt;em&gt;can&lt;\/em&gt; print this without support, but the surface finish might not end up the best without support.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Parametric pen grip ball, inspired by <a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\/\">Makers Making Change<\/a>'s <a rel=\"nofollow\" href=\"\/thing:2810069\">pen ball<\/a> and designed for them. <\/p><ul><li>Prints in PLA, PET-G or ABS with <em>minimal<\/em> supports.<\/li><li>Parametric: size and pen diameter can be changed<\/li><li>Uses 5\u00d7 M4\u00d712 machine screws and 5\u00d7 M4 nuts<\/li><\/ul><p>Assembly video: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo\">https:\/\/www.youtube.com\/watch?v=FC61UELQ8Oo<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>Creator Pro<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3 mm<\/p><\/div>",
+            "infill": "<div><p>20 %<\/p><\/div>",
+            "notes": "<div><p>Use at least two shells for strength.rnrnThe design works best with some very light support material over the print bed only. It can be difficult to remove support from inside the inner nut catches, so use the lightest support you can get away with. You <em>can<\/em> print this without support, but the surface finish might not end up the best without support.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2842524\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2842524\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2842524\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2842524\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2842524\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2842524\/tags",
+    "tags": [
+      {
+        "name": "a11y",
+        "tag": "a11y",
+        "url": "https:\/\/api.thingiverse.com\/tags\/a11y",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/a11y\/things",
+        "absolute_url": "\/tag:a11y"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "Writing Aid",
+        "tag": "writing_aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/writing_aid",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/writing_aid\/things",
+        "absolute_url": "\/tag:Writing_Aid"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2842524\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 533,
+    "view_count": 1620,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Pen_Grip_Ball.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/81\/81\/11\/e5\/Pen_Grip_Ball.stl"
+        },
+        {
+          "name": "Pen_Grip_Ball.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/38\/a2\/25\/7a\/Pen_Grip_Ball.scad"
+        }
+      ],
+      "images": [
+        {
+          "name": "pen_grip_ball.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/28\/19\/6e\/d0\/pen_grip_ball.jpg"
+        },
+        {
+          "name": "14b40aaa2619c12289cc71667d47eeb6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ad\/1b\/5a\/89\/dd\/14b40aaa2619c12289cc71667d47eeb6.png"
+        },
+        {
+          "name": "385c5958983ff6ee96f5d897505ed075.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/0d\/bf\/2c\/d0\/385c5958983ff6ee96f5d897505ed075.png"
+        }
+      ]
+    }
+  }
+}

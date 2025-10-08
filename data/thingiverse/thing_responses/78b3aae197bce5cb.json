@@ -1,0 +1,555 @@
+{
+  "created_at": "2025-10-08T03:27:55.809457+00:00",
+  "elapsed": 0.241384,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b945ad03023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3177370?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3177370?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3177370,
+    "name": "\u200bMoving3Dmachine: Sewing Machine Adaptation Designed for Physical Disability",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/45\/45\/c4\/6f\/ae\/large_display_IMG_7164.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3177370",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3177370",
+    "creator": {
+      "id": 2331633,
+      "name": "Movingmood",
+      "first_name": "Rut",
+      "last_name": "Turr\u00f3",
+      "url": "https:\/\/api.thingiverse.com\/users\/Movingmood",
+      "public_url": "https:\/\/www.thingiverse.com\/Movingmood",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7b\/a2\/ea\/53\/ed\/de850c8af24fdc635dee086d9f64798c_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 8,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Barcelona",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/e5\/b9\/67\/4e\/66\/de850c8af24fdc635dee086d9f64798c_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-11-05T06:13:05+00:00",
+    "modified": "2018-11-05T06:13:05+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 38,
+    "is_liked": false,
+    "collect_count": 69,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 11488692,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/ad\/51\/c8\/77\/2._Regulador.stl",
+      "name": "2._Regulador.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/55\/07\/54\/fb\/2._Regulador.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/39\/54\/53\/8f\/medium_thumb_2._Regulador.stl"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/3d\/50\/c0\/9e\/small_thumb_2._Regulador.stl"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/61\/20\/04\/da\/tiny_thumb_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/55\/07\/54\/fb\/2._Regulador.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/98\/2b\/32\/99\/card_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/f8\/06\/79\/22\/large_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/4f\/1a\/8c\/e9\/medium_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/20\/43\/69\/66\/small_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/90\/b1\/f1\/a5\/birdwing_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/d8\/56\/53\/da\/tiny_preview_2._Regulador.stl"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/53\/f5\/4a\/0e\/tinycard_preview_2._Regulador.stl"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/ee\/ec\/94\/8b\/large_display_2._Regulador.stl"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/f8\/b2\/1f\/8e\/medium_display_2._Regulador.stl"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/b1\/48\/95\/78\/small_display_2._Regulador.stl"
+        }
+      ],
+      "added": "2019-09-05T20:39:42+00:00"
+    },
+    "description": "ESPA\u00d1OL\r\n\r\nMoving3Dmachine es una adaptaci\u00f3n para m\u00e1quinas de coser industriales, para usuarios de silla de ruedas.\r\nEl uso de pedales es substituido por palancas activadas con el brazo.\r\n\r\nEl dise\u00f1o en 3D se ha basado en una adaptaci\u00f3n realizada por Carlos Espinosa, inventor e usuario del sistema.\r\n\r\nEl equipo de Tangencial ha realizado el dise\u00f1o, desarrollo e impresi\u00f3n 3D de las piezas.\r\nMovingmood lleva a cabo la coordinaci\u00f3n e implantaci\u00f3n.\r\n\r\nEducar+ Practicar = Trabajar.\r\n\r\nNuestro objetivo es ofrecer una nueva herramienta de empleabilidad y formaci\u00f3n para el colectivo de la diversidad.\r\n\r\nMontaje:\r\nhttps:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\r\n- Se necesita imprimir una copia de cada una de las piezas. \r\n\r\n\r\nSi necesitas m\u00e1s informaci\u00f3n cont\u00e1ctanos en hello@movingmood.com o www.movingmood.com\r\n\r\nActualizaciones:\r\n2.Regulador v2.0: Orificio inferior ampliado para evitar dificultades al introducir el tubo.\r\n4.Soporte Antebrazo v2.0: Versi\u00f3n m\u00e1s robusta \r\n4. Soporte Antebrazo v3.0: Versi\u00f3n f\u00e1cil montaje \r\n\r\nENGLISH\r\n\r\nMoving3Dmachine is an adaptation for industrial sewing machines, for wheelchair users.\r\nThe use of pedals is replaced by arm-activated levers.\r\n\r\nThe 3D design is based on an adaptation made by Carlos Espinosa, inventor and user of the system.\r\n\r\nThe Tangencial team has made the design, development and 3D printing of the pieces.\r\nMovingmood carries out the coordination and implementation.\r\n\r\nEducate+ Practice = Work.\r\n\r\nOur aim is to offer a new employability and training tool for the diversity collective.\r\n\r\nAssembly:\r\nhttps:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\r\n-You need to print a copy of each of the pieces.\r\n\r\nIf you need more information contact us at hello@movingmood.com or www.movingmood.com\r\n\r\nUpdates:\r\n2. Regulador v2.0: Extended lower hole to avoid difficulties when introducing the tube.\r\n4. Soporte Antebrazo v2.0: More robust version\r\n4. Soporte Antebrazo v3.0: Easy assembly\r\n",
+    "instructions": "",
+    "description_html": "<div><p>ESPA\u00d1OL<\/p><p>Moving3Dmachine es una adaptaci\u00f3n para m\u00e1quinas de coser industriales, para usuarios de silla de ruedas.<br>El uso de pedales es substituido por palancas activadas con el brazo.<\/p><p>El dise\u00f1o en 3D se ha basado en una adaptaci\u00f3n realizada por Carlos Espinosa, inventor e usuario del sistema.<\/p><p>El equipo de Tangencial ha realizado el dise\u00f1o, desarrollo e impresi\u00f3n 3D de las piezas.<br>Movingmood lleva a cabo la coordinaci\u00f3n e implantaci\u00f3n.<\/p><p>Educar+ Practicar = Trabajar.<\/p><p>Nuestro objetivo es ofrecer una nueva herramienta de empleabilidad y formaci\u00f3n para el colectivo de la diversidad.<\/p><p>Montaje:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><\/p><ul><li>Se necesita imprimir una copia de cada una de las piezas. <\/li><\/ul><p>Si necesitas m\u00e1s informaci\u00f3n cont\u00e1ctanos en hello@movingmood.com o www.movingmood.com<\/p><p>Actualizaciones:<br>2.Regulador v2.0: Orificio inferior ampliado para evitar dificultades al introducir el tubo.<br>4.Soporte Antebrazo v2.0: Versi\u00f3n m\u00e1s robusta <\/p><ol><li>Soporte Antebrazo v3.0: Versi\u00f3n f\u00e1cil montaje <\/li><\/ol><p>ENGLISH<\/p><p>Moving3Dmachine is an adaptation for industrial sewing machines, for wheelchair users.<br>The use of pedals is replaced by arm-activated levers.<\/p><p>The 3D design is based on an adaptation made by Carlos Espinosa, inventor and user of the system.<\/p><p>The Tangencial team has made the design, development and 3D printing of the pieces.<br>Movingmood carries out the coordination and implementation.<\/p><p>Educate+ Practice = Work.<\/p><p>Our aim is to offer a new employability and training tool for the diversity collective.<\/p><p>Assembly:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><br>-You need to print a copy of each of the pieces.<\/p><p>If you need more information contact us at hello@movingmood.com or www.movingmood.com<\/p><p>Updates:<\/p><ol><li>Regulador v2.0: Extended lower hole to avoid difficulties when introducing the tube.<\/li><li>Soporte Antebrazo v2.0: More robust version<\/li><li>Soporte Antebrazo v3.0: Easy assembly<\/li><\/ol><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>ESPA\u00d1OL<\/p><p>Moving3Dmachine es una adaptaci\u00f3n para m\u00e1quinas de coser industriales, para usuarios de silla de ruedas.<br>El uso de pedales es substituido por palancas activadas con el brazo.<\/p><p>El dise\u00f1o en 3D se ha basado en una adaptaci\u00f3n realizada por Carlos Espinosa, inventor e usuario del sistema.<\/p><p>El equipo de Tangencial ha realizado el dise\u00f1o, desarrollo e impresi\u00f3n 3D de las piezas.<br>Movingmood lleva a cabo la coordinaci\u00f3n e implantaci\u00f3n.<\/p><p>Educar+ Practicar = Trabajar.<\/p><p>Nuestro objetivo es ofrecer una nueva herramienta de empleabilidad y formaci\u00f3n para el colectivo de la diversidad.<\/p><p>Montaje:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><\/p><ul><li>Se necesita imprimir una copia de cada una de las piezas. <\/li><\/ul><p>Si necesitas m\u00e1s informaci\u00f3n cont\u00e1ctanos en hello@movingmood.com o www.movingmood.com<\/p><p>Actualizaciones:<br>2.Regulador v2.0: Orificio inferior ampliado para evitar dificultades al introducir el tubo.<br>4.Soporte Antebrazo v2.0: Versi\u00f3n m\u00e1s robusta <\/p><ol><li>Soporte Antebrazo v3.0: Versi\u00f3n f\u00e1cil montaje <\/li><\/ol><p>ENGLISH<\/p><p>Moving3Dmachine is an adaptation for industrial sewing machines, for wheelchair users.<br>The use of pedals is replaced by arm-activated levers.<\/p><p>The 3D design is based on an adaptation made by Carlos Espinosa, inventor and user of the system.<\/p><p>The Tangencial team has made the design, development and 3D printing of the pieces.<br>Movingmood carries out the coordination and implementation.<\/p><p>Educate+ Practice = Work.<\/p><p>Our aim is to offer a new employability and training tool for the diversity collective.<\/p><p>Assembly:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><br>-You need to print a copy of each of the pieces.<\/p><p>If you need more information contact us at hello@movingmood.com or www.movingmood.com<\/p><p>Updates:<\/p><ol><li>Regulador v2.0: Extended lower hole to avoid difficulties when introducing the tube.<\/li><li>Soporte Antebrazo v2.0: More robust version<\/li><li>Soporte Antebrazo v3.0: Easy assembly<\/li><\/ol><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Prusa Steel&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;40&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Soporte solo necesario en la pieza 4.Soporte Antebrazo &lt;\/p&gt;&lt;p&gt;Support only needed in piece 4.Soporte Antebrazo &lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>ESPA\u00d1OL<\/p><p>Moving3Dmachine es una adaptaci\u00f3n para m\u00e1quinas de coser industriales, para usuarios de silla de ruedas.<br>El uso de pedales es substituido por palancas activadas con el brazo.<\/p><p>El dise\u00f1o en 3D se ha basado en una adaptaci\u00f3n realizada por Carlos Espinosa, inventor e usuario del sistema.<\/p><p>El equipo de Tangencial ha realizado el dise\u00f1o, desarrollo e impresi\u00f3n 3D de las piezas.<br>Movingmood lleva a cabo la coordinaci\u00f3n e implantaci\u00f3n.<\/p><p>Educar+ Practicar = Trabajar.<\/p><p>Nuestro objetivo es ofrecer una nueva herramienta de empleabilidad y formaci\u00f3n para el colectivo de la diversidad.<\/p><p>Montaje:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><\/p><ul><li>Se necesita imprimir una copia de cada una de las piezas. <\/li><\/ul><p>Si necesitas m\u00e1s informaci\u00f3n cont\u00e1ctanos en hello@movingmood.com o www.movingmood.com<\/p><p>Actualizaciones:<br>2.Regulador v2.0: Orificio inferior ampliado para evitar dificultades al introducir el tubo.<br>4.Soporte Antebrazo v2.0: Versi\u00f3n m\u00e1s robusta <\/p><ol><li>Soporte Antebrazo v3.0: Versi\u00f3n f\u00e1cil montaje <\/li><\/ol><p>ENGLISH<\/p><p>Moving3Dmachine is an adaptation for industrial sewing machines, for wheelchair users.<br>The use of pedals is replaced by arm-activated levers.<\/p><p>The 3D design is based on an adaptation made by Carlos Espinosa, inventor and user of the system.<\/p><p>The Tangencial team has made the design, development and 3D printing of the pieces.<br>Movingmood carries out the coordination and implementation.<\/p><p>Educate+ Practice = Work.<\/p><p>Our aim is to offer a new employability and training tool for the diversity collective.<\/p><p>Assembly:<br><a rel=\"nofollow\" href=\"https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/\">https:\/\/www.instructables.com\/id\/Moving3Dmachine-Sewing-Machine-Adaptation\/<\/a><br>-You need to print a copy of each of the pieces.<\/p><p>If you need more information contact us at hello@movingmood.com or www.movingmood.com<\/p><p>Updates:<\/p><ol><li>Regulador v2.0: Extended lower hole to avoid difficulties when introducing the tube.<\/li><li>Soporte Antebrazo v2.0: More robust version<\/li><li>Soporte Antebrazo v3.0: Easy assembly<\/li><\/ol><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>Prusa Steel<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>",
+            "infill": "<div><p>40<\/p><\/div>",
+            "notes": "<div><p>Soporte solo necesario en la pieza 4.Soporte Antebrazo <\/p><p>Support only needed in piece 4.Soporte Antebrazo <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3177370\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3177370\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3177370\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3177370\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3177370\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3177370\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "container",
+        "tag": "container",
+        "url": "https:\/\/api.thingiverse.com\/tags\/container",
+        "count": 9642,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/container\/things",
+        "absolute_url": "\/tag:container"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "education",
+        "tag": "education",
+        "url": "https:\/\/api.thingiverse.com\/tags\/education",
+        "count": 2286,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/education\/things",
+        "absolute_url": "\/tag:education"
+      },
+      {
+        "name": "fashion",
+        "tag": "fashion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fashion",
+        "count": 2400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fashion\/things",
+        "absolute_url": "\/tag:fashion"
+      },
+      {
+        "name": "hobby",
+        "tag": "hobby",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hobby",
+        "count": 2351,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hobby\/things",
+        "absolute_url": "\/tag:hobby"
+      },
+      {
+        "name": "inclusion",
+        "tag": "inclusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inclusion",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inclusion\/things",
+        "absolute_url": "\/tag:inclusion"
+      },
+      {
+        "name": "sewing",
+        "tag": "sewing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sewing",
+        "count": 1259,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sewing\/things",
+        "absolute_url": "\/tag:sewing"
+      },
+      {
+        "name": "sewing machine",
+        "tag": "sewing_machine",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sewing_machine",
+        "count": 626,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sewing_machine\/things",
+        "absolute_url": "\/tag:sewing_machine"
+      },
+      {
+        "name": "tailoring",
+        "tag": "tailoring",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tailoring",
+        "count": 20,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tailoring\/things",
+        "absolute_url": "\/tag:tailoring"
+      },
+      {
+        "name": "tool",
+        "tag": "tool",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tool",
+        "count": 12961,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tool\/things",
+        "absolute_url": "\/tag:tool"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3177370\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1879,
+    "view_count": 3582,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "4._Soporte_antebrazo_v3.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/0f\/55\/5c\/66\/4._Soporte_antebrazo_v3.0.stl"
+        },
+        {
+          "name": "3._Tija.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/1f\/3c\/19\/e7\/3._Tija.stl"
+        },
+        {
+          "name": "2._Regulador.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/ad\/51\/c8\/77\/2._Regulador.stl"
+        },
+        {
+          "name": "2._Regulador.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/ae\/66\/3a\/7d\/2._Regulador.stl"
+        },
+        {
+          "name": "2._Regulador_v2.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/2e\/27\/e4\/47\/2._Regulador_v2.0.stl"
+        },
+        {
+          "name": "4._Soporte_Antebrazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/13\/d7\/91\/24\/4._Soporte_Antebrazo.stl"
+        },
+        {
+          "name": "5._Soporte_Antebrazo_6x6.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/1b\/24\/91\/c2\/5._Soporte_Antebrazo_6x6.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "2._Regulador.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/55\/07\/54\/fb\/2._Regulador.png"
+        },
+        {
+          "name": "2._Regulador.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/9c\/38\/9e\/6d\/2._Regulador.png"
+        },
+        {
+          "name": "97712274d429e992c3e95b6d2bf5dcba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2a\/c2\/28\/40\/c8\/97712274d429e992c3e95b6d2bf5dcba.png"
+        },
+        {
+          "name": "IMG_7164.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/07\/8b\/7d\/b4\/IMG_7164.JPG"
+        },
+        {
+          "name": "DSCN4346.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/cd\/24\/6d\/51\/DSCN4346.jpg"
+        },
+        {
+          "name": "DSCN4350.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/f6\/a7\/c0\/13\/DSCN4350.jpg"
+        },
+        {
+          "name": "DSCN4354.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/2e\/56\/7f\/5b\/DSCN4354.jpeg"
+        },
+        {
+          "name": "d70ee8e334dfe4151958044c9135c02e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/9d\/e7\/88\/a4\/d70ee8e334dfe4151958044c9135c02e.png"
+        },
+        {
+          "name": "b5c693417232197456ee55e516cd6f41.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/42\/c4\/9f\/42\/b5c693417232197456ee55e516cd6f41.png"
+        },
+        {
+          "name": "0aeaf30455f7124057b2396af3b6b0ba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/0e\/f3\/88\/4b\/0aeaf30455f7124057b2396af3b6b0ba.png"
+        },
+        {
+          "name": "IMG_20181026_142701_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/de\/dc\/c9\/e8\/IMG_20181026_142701_2.jpg"
+        },
+        {
+          "name": "IMG_20181026_142618_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/5d\/9c\/52\/68\/IMG_20181026_142618_2.jpg"
+        },
+        {
+          "name": "IMG_20181026_143014_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/51\/2e\/12\/26\/IMG_20181026_143014_2.jpg"
+        },
+        {
+          "name": "af87d5a7300cda96083285089cd78054.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/f2\/1c\/06\/ad\/af87d5a7300cda96083285089cd78054.png"
+        },
+        {
+          "name": "97712274d429e992c3e95b6d2bf5dcba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/18\/3b\/39\/b8\/97712274d429e992c3e95b6d2bf5dcba.png"
+        },
+        {
+          "name": "c9a69eece1a554d2330fc963be783228.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/73\/00\/df\/61\/c9a69eece1a554d2330fc963be783228.png"
+        }
+      ]
+    }
+  }
+}

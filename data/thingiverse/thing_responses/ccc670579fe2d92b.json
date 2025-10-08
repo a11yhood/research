@@ -1,0 +1,449 @@
+{
+  "created_at": "2025-10-08T03:27:16.458409+00:00",
+  "elapsed": 0.212722,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a9e99283023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:16 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:16 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2964283?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2964283?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2964283,
+    "name": "Braille Raised Keyboard Letters and Numbers",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2964283",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2964283",
+    "creator": {
+      "id": 1893338,
+      "name": "CreativeFilament",
+      "first_name": "Jessica",
+      "last_name": "Pfau",
+      "url": "https:\/\/api.thingiverse.com\/users\/CreativeFilament",
+      "public_url": "https:\/\/www.thingiverse.com\/CreativeFilament",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/31\/12\/69\/1d\/c1\/30f7696c-5eac-41a8-8d0f-035b3ab92655.jpg",
+      "count_of_followers": 76,
+      "count_of_following": 55,
+      "count_of_designs": 17,
+      "collection_count": 2,
+      "make_count": 13,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Chandler, AZ",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-06-16T19:03:51+00:00",
+    "modified": "2018-06-16T19:03:51+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 22,
+    "is_liked": false,
+    "collect_count": 35,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 8366604,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/d7\/28\/39\/c1\/Braille_Raised_Keyboard_Letters.stl",
+      "name": "49f656f0a0e487ee6f27631ef70cf6f5.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5_display_small.jpg"
+        }
+      ],
+      "added": "2018-06-16T19:04:01+00:00"
+    },
+    "description": "I previously designed a keyboard for students with vision impairments, but none of my students read Braille. However, I hope to reach a larger audience with these keys. \r\n\r\nPlease provide feedback if you have any! Being a sighted individual, I am at a disadvantage. I'd love to make changes that will increase user-friendly interface with this design - larger dots, higher raise of dots, different spacing or other suggestions are all something I am interested in knowing from 1st hand use of the design. My many thanks!\r\n\r\n***Post-PRINT on August 21, 2018***\r\nI am dissatisfied with the overall quality of the vertical spacing in the dots. I may have to calibrate the sizing or shape. The horizontal dots don't join together, but as seen in the last post-print photo, the dots are somewhat connected. I had to wire brush and use a small knife to remove some plastic to shore up most of the dots on the other two boards. ",
+    "instructions": "",
+    "description_html": "<div><p>I previously designed a keyboard for students with vision impairments, but none of my students read Braille. However, I hope to reach a larger audience with these keys. <\/p><p>Please provide feedback if you have any! Being a sighted individual, I am at a disadvantage. I'd love to make changes that will increase user-friendly interface with this design - larger dots, higher raise of dots, different spacing or other suggestions are all something I am interested in knowing from 1st hand use of the design. My many thanks!<\/p><p><strong><em>Post-PRINT on August 21, 2018<\/em><\/strong><br>I am dissatisfied with the overall quality of the vertical spacing in the dots. I may have to calibrate the sizing or shape. The horizontal dots don't join together, but as seen in the last post-print photo, the dots are somewhat connected. I had to wire brush and use a small knife to remove some plastic to shore up most of the dots on the other two boards. <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I previously designed a keyboard for students with vision impairments, but none of my students read Braille. However, I hope to reach a larger audience with these keys. <\/p><p>Please provide feedback if you have any! Being a sighted individual, I am at a disadvantage. I'd love to make changes that will increase user-friendly interface with this design - larger dots, higher raise of dots, different spacing or other suggestions are all something I am interested in knowing from 1st hand use of the design. My many thanks!<\/p><p><strong><em>Post-PRINT on August 21, 2018<\/em><\/strong><br>I am dissatisfied with the overall quality of the vertical spacing in the dots. I may have to calibrate the sizing or shape. The horizontal dots don't join together, but as seen in the last post-print photo, the dots are somewhat connected. I had to wire brush and use a small knife to remove some plastic to shore up most of the dots on the other two boards. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator+&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I previously designed a keyboard for students with vision impairments, but none of my students read Braille. However, I hope to reach a larger audience with these keys. <\/p><p>Please provide feedback if you have any! Being a sighted individual, I am at a disadvantage. I'd love to make changes that will increase user-friendly interface with this design - larger dots, higher raise of dots, different spacing or other suggestions are all something I am interested in knowing from 1st hand use of the design. My many thanks!<\/p><p><strong><em>Post-PRINT on August 21, 2018<\/em><\/strong><br>I am dissatisfied with the overall quality of the vertical spacing in the dots. I may have to calibrate the sizing or shape. The horizontal dots don't join together, but as seen in the last post-print photo, the dots are somewhat connected. I had to wire brush and use a small knife to remove some plastic to shore up most of the dots on the other two boards. <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>",
+            "printer": "<div><p>MakerBot Replicator+<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "No",
+            "resolution": "<div><p>0.3mm<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2964283\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2964283\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2964283\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2964283\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2964283\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2964283\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 586,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "accomodations",
+        "tag": "accomodations",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accomodations",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accomodations\/things",
+        "absolute_url": "\/tag:accomodations"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 536,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "computer",
+        "tag": "computer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer",
+        "count": 4444,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer\/things",
+        "absolute_url": "\/tag:computer"
+      },
+      {
+        "name": "keyboard",
+        "tag": "keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyboard",
+        "count": 3988,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyboard\/things",
+        "absolute_url": "\/tag:keyboard"
+      },
+      {
+        "name": "modification",
+        "tag": "modification",
+        "url": "https:\/\/api.thingiverse.com\/tags\/modification",
+        "count": 658,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/modification\/things",
+        "absolute_url": "\/tag:modification"
+      },
+      {
+        "name": "technology",
+        "tag": "technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+        "count": 417,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+        "absolute_url": "\/tag:technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2964283\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 441,
+    "view_count": 993,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Braille_Raised_Keyboard_Letters.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/d7\/28\/39\/c1\/Braille_Raised_Keyboard_Letters.stl"
+        },
+        {
+          "name": "Braille_Numbers_-_for_keyboard.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/66\/2e\/72\/f6\/Braille_Numbers_-_for_keyboard.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "49f656f0a0e487ee6f27631ef70cf6f5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/f7\/3c\/85\/7e\/49f656f0a0e487ee6f27631ef70cf6f5.png"
+        },
+        {
+          "name": "b4ba2a59c9c74b45fe6ffd9c8f923dff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/84\/26\/08\/cf\/b4ba2a59c9c74b45fe6ffd9c8f923dff.png"
+        },
+        {
+          "name": "Braille_Keyboard_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/b2\/79\/d9\/36\/Braille_Keyboard_1.png"
+        },
+        {
+          "name": "Braille_Keyboard_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/40\/a9\/8c\/b7\/Braille_Keyboard_2.png"
+        },
+        {
+          "name": "Braille_Keyboard_3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/1a\/5e\/4d\/3c\/Braille_Keyboard_3.png"
+        }
+      ]
+    }
+  }
+}

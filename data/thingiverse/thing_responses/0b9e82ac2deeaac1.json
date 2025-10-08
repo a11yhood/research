@@ -1,0 +1,493 @@
+{
+  "created_at": "2025-04-13T04:27:41.989610+00:00",
+  "elapsed": 0.130655,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f83662af0ad70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3541114?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3541114?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3541114,
+    "name": "C-Clamp Threaded Mounting Adapter",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3541114",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3541114",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 580,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-04-04T22:33:32+00:00",
+    "modified": "2019-04-04T22:33:32+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 33,
+    "is_liked": false,
+    "collect_count": 66,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10432798,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/1e\/f1\/9a\/13\/IMG_8263.JPG",
+      "name": "IMG_8263.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/d0\/d3\/ee\/30\/1f20c8316a85d245fa96bdafd8f58ff2_display_small.JPG"
+        }
+      ],
+      "added": "2019-04-04T19:27:09+00:00"
+    },
+    "description": "This is a simple mounting adapter that lets you securely attach a 1\/4\"-20 UNC threaded device such as a magic arm to a table or desk using a readily available, inexpensive C-clamp. \r\n\r\nSimply thread the magic arm into the threaded insert (1\/4\u2033-20 UNC tee nut, 5\/16\u2033 long) in the mounting adapter and use a C-clamp to secure it to a flat surface.\r\n\r\nThis enables you to quickly and inexpensively create an adjustable mounting system for mounting cameras, switches, or other assistive technology.\r\n\r\nMMC Project Link: https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\r\n\r\n<hr>\r\n<table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>\r\n    <\/tr><\/table><br>\r\n<font color=\"#404041\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/font><Br>\r\n<font color=\"#404041\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/font><br><br>\r\n\r\n<font color=\"#404041\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/font>\r\n\r\n<div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>This is a simple mounting adapter that lets you securely attach a 1\/4\"-20 UNC threaded device such as a magic arm to a table or desk using a readily available, inexpensive C-clamp. <\/p><p>Simply thread the magic arm into the threaded insert (1\/4&Prime;-20 UNC tee nut, 5\/16&Prime; long) in the mounting adapter and use a C-clamp to secure it to a flat surface.<\/p><p>This enables you to quickly and inexpensively create an adjustable mounting system for mounting cameras, switches, or other assistive technology.<\/p><p>MMC Project Link: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\">https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a simple mounting adapter that lets you securely attach a 1\/4\"-20 UNC threaded device such as a magic arm to a table or desk using a readily available, inexpensive C-clamp. <\/p><p>Simply thread the magic arm into the threaded insert (1\/4&Prime;-20 UNC tee nut, 5\/16&Prime; long) in the mounting adapter and use a C-clamp to secure it to a flat surface.<\/p><p>This enables you to quickly and inexpensively create an adjustable mounting system for mounting cameras, switches, or other assistive technology.<\/p><p>MMC Project Link: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\">https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span>Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span>We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;60%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>At least 2 perimeters.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Hardware<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;1 &amp;ndash; 1\/4&amp;Prime;-20 UNC tee nut, 5\/16&amp;Prime; long&lt;\/p&gt;&lt;p&gt;You will also need the following temporarily to install the tee nut:&lt;br&gt;1 &amp;ndash; 1\/4&amp;Prime; Washer&lt;br&gt;1 &amp;ndash; 1\/4-20 UNC machine screw or bolt, 3\/4&amp;Prime; &amp;ndash; 1-1\/2&amp;Prime; length&lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Tools&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;Screwdriver \/ wrench to install tee nut&lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Assembly Instructions&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;For full instructions, see: &lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\"&gt;https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a simple mounting adapter that lets you securely attach a 1\/4\"-20 UNC threaded device such as a magic arm to a table or desk using a readily available, inexpensive C-clamp. <\/p><p>Simply thread the magic arm into the threaded insert (1\/4&Prime;-20 UNC tee nut, 5\/16&Prime; long) in the mounting adapter and use a C-clamp to secure it to a flat surface.<\/p><p>This enables you to quickly and inexpensively create an adjustable mounting system for mounting cameras, switches, or other assistive technology.<\/p><p>MMC Project Link: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\">https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>\n",
+            "printer": "<div><p>Creator Pro<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>\n",
+            "infill": "<div><p>60%<\/p><\/div>\n",
+            "notes": "<div><p>At least 2 perimeters.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Hardware",
+            "content": "<div><p>1 &ndash; 1\/4&Prime;-20 UNC tee nut, 5\/16&Prime; long<\/p><p>You will also need the following temporarily to install the tee nut:<br>1 &ndash; 1\/4&Prime; Washer<br>1 &ndash; 1\/4-20 UNC machine screw or bolt, 3\/4&Prime; &ndash; 1-1\/2&Prime; length<\/p><\/div>\n"
+          },
+          {
+            "title": "Tools",
+            "content": "<div><p>Screwdriver \/ wrench to install tee nut<\/p><\/div>\n"
+          },
+          {
+            "title": "Assembly Instructions",
+            "content": "<div><p>For full instructions, see: <a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/\">https:\/\/www.makersmakingchange.com\/project\/c-clamp-threaded-adapter\/<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3541114\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3541114\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3541114\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3541114\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3541114\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3541114\/tags",
+    "tags": [
+      {
+        "name": "access",
+        "tag": "access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/access",
+        "count": 105,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/access\/things",
+        "absolute_url": "\/tag:access"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "c clamp",
+        "tag": "c_clamp",
+        "url": "https:\/\/api.thingiverse.com\/tags\/c_clamp",
+        "count": 42,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/c_clamp\/things",
+        "absolute_url": "\/tag:c_clamp"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "mount",
+        "tag": "mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mount",
+        "count": 26851,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mount\/things",
+        "absolute_url": "\/tag:mount"
+      },
+      {
+        "name": "tripod mount",
+        "tag": "tripod_mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tripod_mount",
+        "count": 1376,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tripod_mount\/things",
+        "absolute_url": "\/tag:tripod_mount"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3541114\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 303,
+    "view_count": 679,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "c-clamp_base_v.1.0.0.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/93\/1e\/31\/0b\/c-clamp_base_v.1.0.0.0.stl"
+        },
+        {
+          "name": "c-clamp_base_v.1.0.0.0.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/93\/ef\/17\/f9\/c-clamp_base_v.1.0.0.0.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_8263.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/1e\/f1\/9a\/13\/IMG_8263.JPG"
+        },
+        {
+          "name": "fb7f13c9e1130f998598677c1b43cda6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/bf\/5c\/db\/17\/fb7f13c9e1130f998598677c1b43cda6.png"
+        },
+        {
+          "name": "IMG_8216.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/23\/54\/d3\/97\/IMG_8216.JPG"
+        },
+        {
+          "name": "IMG_8203.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/8c\/fd\/30\/5c\/IMG_8203.JPG"
+        },
+        {
+          "name": "IMG_8221.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/71\/37\/9e\/f9\/IMG_8221.JPG"
+        },
+        {
+          "name": "IMG_8226.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/2d\/22\/74\/cc\/IMG_8226.JPG"
+        },
+        {
+          "name": "IMG_8230.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/cf\/4a\/26\/85\/IMG_8230.JPG"
+        },
+        {
+          "name": "IMG_E8247.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/76\/ed\/6e\/9b\/IMG_E8247.JPG"
+        }
+      ]
+    }
+  }
+}

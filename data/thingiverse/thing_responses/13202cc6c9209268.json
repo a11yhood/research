@@ -1,0 +1,751 @@
+{
+  "created_at": "2025-04-17T03:32:19.643181+00:00",
+  "elapsed": 0.171106,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318dac5ac5281d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:19 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:19 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4847465?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4847465?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4847465,
+    "name": "Adapters to attach Prosthetic Hand to Black Ram Mount and updated Pins",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/b3\/c9\/43\/3b\/ea\/large_display_IMG_3064_-_Copy.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4847465",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4847465",
+    "creator": {
+      "id": 4388937,
+      "name": "AlwaysTinkering",
+      "first_name": "Always",
+      "last_name": "Tinkering",
+      "url": "https:\/\/api.thingiverse.com\/users\/AlwaysTinkering",
+      "public_url": "https:\/\/www.thingiverse.com\/AlwaysTinkering",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/6f\/06\/e2\/01\/b8\/AlwaysTinkeringPig_200x200_Imoge_copy.png",
+      "count_of_followers": 114,
+      "count_of_following": 12,
+      "count_of_designs": 189,
+      "collection_count": 23,
+      "make_count": 53,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Florida",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-05-03T04:44:44+00:00",
+    "modified": "2021-05-03T04:44:44+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 108,
+    "is_liked": false,
+    "collect_count": 237,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 15380424,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/1d\/32\/4e\/2f\/IMG_3064_-_Copy.JPG",
+      "name": "IMG_3064_-_Copy.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/e1\/f2\/2f\/c1\/large_thumb_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/dd\/10\/7c\/10\/medium_thumb_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/b1\/37\/05\/cb\/small_thumb_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/49\/03\/67\/ca\/tiny_thumb_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/ff\/d5\/e0\/6c\/featured_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/6d\/7d\/a3\/19\/card_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/60\/ab\/89\/2a\/large_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/32\/1a\/d5\/46\/medium_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/44\/a6\/f6\/45\/small_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/86\/8b\/29\/5e\/birdwing_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/af\/78\/59\/38\/tiny_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/c3\/94\/9c\/3f\/tinycard_preview_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/c9\/43\/3b\/ea\/large_display_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/9b\/58\/c2\/bb\/medium_display_IMG_3064_-_Copy.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/14\/e6\/60\/ea\/small_display_IMG_3064_-_Copy.JPG"
+        }
+      ],
+      "added": "2021-05-03T04:23:56+00:00"
+    },
+    "description": "This is a merge of two great projects and is a continuation of projects they were built off of.\r\n\r\nThis parts library only contains additional parts or modifications to existing parts when needed.  You will need to download the parts and instructions from the original libraries to complete this mod.  \r\n\r\nThe PINS can be used in the existing Black Ram models in places you don\u2019t want to use the plastic screws.\r\nI added an STL for a flat sided screw for the Black Ram so that they can be printed on their side.\r\n\r\nThe Prosthetic hand source https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand\r\n By SoniaVerdu.  It will on the Black Ram Hand (Robotic\/Prosthetic Hybrid) - Mark V by Black_Ram_Industries\r\n at https:\/\/www.thingiverse.com\/thing:1717809 \r\n\r\nAnd credit to the flex hand that I have not printed but was referenced by the creator of this version of the prosthetic hand - \"Flexy-hand\" http:\/\/www.thingiverse.com\/thing:380665  I used part of a connector brought forward from there model.\r\n\r\nI have a family member that had finger surgery on the left hand.  It could take a year or more to return to full functionality.   I printed the Black Ram Claw to bring some humor to their situation.  Then I started to wonder if it could provide basic practicality\u2026 could it hold a jar while they opened a lid?    I found challenges:\r\n\u2022\tBeing above and in front of the hand is awkward for movement.\r\n\u2022\tThe holding pressure on most claws is in-adequate (for all ends)\r\n\u2022\tSlippery plastic is a challenge\r\n\r\nSo I started looking at prosthetic prints.  There is some insane work that has been done in this area.  They are largely designed for people that are missing an appendage.  So I decided to try to adapt one to the Black Ram Assembly.  It is a lot of pieces to get it to work well together.  Getting the assembly to generate enough power to overcome the pull resistance took some time.  After several pull designes,  I eventually reduced the pull pressure enough to where to where my wrist did not hurt using it.  \r\n\r\nThe Prosthetic does not solve all the problems.   I printed the end fingers in flex with the recommended high fill.  So its kind of like pla, with a more tactile touch.  The visual motion is great.  The hand sits pretty far out.  I did this to reduce it hitting a healing finger.  I was also trying to place the pull cord entry into the hand level with the Black RAM pull.   Unknowingly I removed the designed in leverage of the low pivot point in the original Prosthetic design.   Do to the nature of the Black RAM design, the hand is mounted fixed and the ram moves.  I did consider angling the hand down more.\r\n\r\nParts I am providing for the BLACK RAM ASSEMBLY:\r\n\u2022\tI cut the side off a screw so I can print a plate of them lying flat.  If I print them without supports I lose a little thread detail as I transition of the bottom.  Since they were PLA I printed them with support off the plate giving great threads all around.  Works great you can let them all print at once.  I used a .15 layer height.\r\n\u2022\tI designed Pins to replace the screws in places they don\u2019t need screw tension and tend to fall out from the rotation.  The pins have nuts to just latch in place.   The 10mm short slots are probably best but a little harder to insert.\r\n\u2022\tThe Prosthetic Mount adapters for the RIGHT and LEFT hands (right hand not tested yet).\r\n\u2022\tA tensioning box to hold the prosthetic cords using tensioning_piece from the prosthetic hand design.  It is the same piece, I had to trim the knobs so they did not hit each other\u2026 so the trimmed version is included.\r\n\u2022\tTension Box cover if I can get it to stay\u2026 I spaced it with tape to prevent rattle\u2026 this cover is optional.. once our hand cords are adjusted the tension will hold them in place.  Lift them so the top octagon clears the block and turn them to tighten.  Nice design Sonia.\r\n\u2022\tThe lever to pull the hand.  The lever requires two 688 bearings (16mm diam, 5mm wide, 8mm hole) or print the plastic SHIM I will provide to reduce the hole).\r\n\u2022\t8mm Pins for the new lever to go through the bearings.\r\n\u2022\tStub-Tendon to go in the lever\r\n\u2022\tFixed Tendon for the gauntlet port.   This is required to raise the pull position\u2026 my first version was a tall fixed tendon.  I recommend the half height for improved leverage.\r\n\u2022\tThe gauntlet to lever tendon requiring 8mm pin on the lever side (top tendon).\r\n\r\nImprovements that I think could be made:\r\nBlack Ram Assembly\r\nThe joint between the gauntlet and the wrist assembly could use a conversion to a ball bearing.  That joint counters the pressure applied to the apparatus at the end.  While testing the prosthetic in its first version the pressure to close the hand was about 7 to 10 pounds (3.1 to 4.5kb) of pull.  I was bending the pins I had put in addition to the squeak.  It also made my wrist hurt.\r\n\r\nThe hooks are great but in the double claw you have too little leverage to keep the claw closed.  This is true for all the hooks.  There lots of ways to increase leverage at the end of the gripper such as a mod on this https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo or one of the many other examples online that could be converted.\r\n\r\nProsthetic Observations\r\nI know nothing about Prosthetics.  These are my observations.  \r\n1)\tCompounding the grip pressure at the tips to be able to hold things securely.  Maybe sleeving the channels through the hand with something like Teflon would reduce friction.  While I did not use the original wrist,  my hack could use some way to compound the pressure I apply to a significantly increased factor at the tips of the fingers.\r\n2)\tIndependent suspension?  Slip differential?  The 5 fingers travel as a unit.  The first two to hit can prevent the others from making contact.  It was harder to pickup items with the fingers than the simple tri-claw.  How do we make each finger travel independently so the travel of the others is not interrupted\u2026 and not compromise the overall grip?\r\n3)\tA floating palm?  The fixed palm gives a surface to close against.  If the closing pressure of the fingers is increased and stabilized, could the palm apply additional counter pressure and close the grip on the object without releasing it from the fingers?  We are mimicking the hand, but we are not limited to what a hand can do if a feature adds benefit.\r\n4)\tThe thumb.  School always taught us this is what differentiates humans from other species.   This mimics the two external joints, but the inside joint going to your wrist is what provides the real wrapping action in our thumbs and the closing pressure on the object to push it into the palm and the fingers.  I would see a requirement that the fixed assembly holding the current thumb design would need to move as well to close the grip.  This prosthetic model overall is missing a section in all the other fingers and therefore may be wrap challenged in some situations.\r\n\r\nOther files I am providing\u2026 \r\nMy openscad hacks to make the parts.\r\nSeveral openscad files to cut the large parts for printing\u2026 I then glued them back as suggested in this youtube video.  Made printing so much easier.  https:\/\/www.youtube.com\/watch?v=stry5kibhyY&t=86s\r\n\r\nProsthetic assembly notes:\r\n10mm and 20mm long 2mm machine screws are too long and will need trimming in many holes.  I think I will prefer the piece of metal and seal it with filament.  I don\u2019t know how that will work in the flex.. I tried melting some flex with an iron and it burnt at the same temp I do PLA with.  No science in that test though.  I was afraid a PLA plug would pop out of the flex.  The metal pieces save you money in bolts\u2026 and no MICROSCOPIC nuts to come off\u2026 glued or not.\r\n\r\nI started with nylon fishing wire.   Stranded is so much easier to work with.   I didn\u2019t even tie it\u2026 I just would the extra around the octagon fitting.\r\n\r\nThis was actually my first flex print.  I have 5 incomplete fingers to prove it.   It took me that long to figure out the config I downloaded that was tuned by someone for flex on my Prusa MK3S still had retraction on\u2026 at reduced settings, but the speed of the retraction was way too high.  The finger would get almost to the top and fail.. I assume there was more retraction required there.\r\n\r\nIf I print a hand body again I will print it with a bit more fill.  I can see it warping slightly under the strain of all 5 fingers pulling at once.   I likely did it at 20% for this one.\r\n\r\nThanks to all the creators of these items.   In addition to working correctly right off the printer, they provided a great documentation.\r\n\r\n10\/5\/2021 Parts OPTION updates..\r\n\r\nI am going to publish a  LPTF (Low Profile Tuning Fork Version)\r\nThis simplifies the print and adds more 688 bearings to reduce friction at the start of a motion.   I cannot tell which is better as I am playing with a Flexy-Hand which gets really hard to pull as the FLEX joints close more.  Printing is more straight forward.   I have not put the SoniaVerdu's hand on this assembly yet to test the differences.  It will fit with no problem, but the octobox has a different connection\u2026 and sits further from the hand so I would likely need to re-string to Sonia's hand to the new box.\r\n\r\nI have not uploaded the scad files with the mods yet so if you need them message me an I will get on that.\r\n\r\nIf you don't have 688 bearings,  The library does have a spacer you can put in its place\r\nBlack-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.stl\r\n\r\n\r\nIf you print the LPTF (Low Profile Tuning Fork Version)\r\nYou DO NOT need to print these parts\r\nBlack-Ram-To_Prothetic_lever_stub-tendon.stl\r\nBlack-Ram-To_Prothetic_Tensioning_octo_Block.stl\r\nBlack-Ram-To_Prothetic_fixed-HALF-tendon.stl \r\nBlack-Ram-To_Prothetic_fixed-TALL-tendon.stl \r\nBlack-Ram-To_Prothetic_Adapter_top_tendon.stl\r\nBlack-Ram-To_Prothetic_Tensioning_Cover.stl\r\nBlack-Ram-To_Prothetic_lever.stl\r\n\r\n \r\n\r\nInstead you will print these parts\r\nOption-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl\r\nOption-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl\r\nOption-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl\r\nOption-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl\r\nOption-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl\r\nOption-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl\r\nOPtional-Make_A_Pin_8mm_Nut.stl\r\nOptions_Explained.txt\r\n\r\n\r\nNEW GAUNTLET OPTIONS:\r\nOriginal from the Black RAM library\r\nbrh5-gauntlet.stl\r\nbrh5-hand.stl\r\n\r\nor the 688 BALL BEARING version\r\nOption-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl\r\nOption-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl\r\nOption-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl\r\n\r\nor the 688 BALL Bearing Versoin with the gauntlet printing as two parts you glue together.\r\nI smear a bunch of superglue on both surfaces in quick order... and clamp it together to dry for several hours.\r\nOption-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl\r\nOption-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl\r\nOption-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl\r\nOption-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl\r\n\r\n ",
+    "instructions": "",
+    "description_html": "<div><p>This is a merge of two great projects and is a continuation of projects they were built off of.<\/p><p>This parts library only contains additional parts or modifications to existing parts when needed.  You will need to download the parts and instructions from the original libraries to complete this mod.  <\/p><p>The PINS can be used in the existing Black Ram models in places you don&rsquo;t want to use the plastic screws.<br>I added an STL for a flat sided screw for the Black Ram so that they can be printed on their side.<\/p><p>The Prosthetic hand source <a rel=\"ugc nofollow\" href=\"https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand\">https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand<\/a><br>By SoniaVerdu.  It will on the Black Ram Hand (Robotic\/Prosthetic Hybrid) - Mark V by Black_Ram_Industries<br>at <a rel=\"ugc nofollow\" href=\"\/thing:1717809\">https:\/\/www.thingiverse.com\/thing:1717809<\/a> <\/p><p>And credit to the flex hand that I have not printed but was referenced by the creator of this version of the prosthetic hand - \"Flexy-hand\" <a rel=\"ugc nofollow\" href=\"\/thing:380665\">http:\/\/www.thingiverse.com\/thing:380665<\/a>  I used part of a connector brought forward from there model.<\/p><p>I have a family member that had finger surgery on the left hand.  It could take a year or more to return to full functionality.   I printed the Black Ram Claw to bring some humor to their situation.  Then I started to wonder if it could provide basic practicality&hellip; could it hold a jar while they opened a lid?    I found challenges:<br>&bull;   Being above and in front of the hand is awkward for movement.<br>&bull;   The holding pressure on most claws is in-adequate (for all ends)<br>&bull;   Slippery plastic is a challenge<\/p><p>So I started looking at prosthetic prints.  There is some insane work that has been done in this area.  They are largely designed for people that are missing an appendage.  So I decided to try to adapt one to the Black Ram Assembly.  It is a lot of pieces to get it to work well together.  Getting the assembly to generate enough power to overcome the pull resistance took some time.  After several pull designes,  I eventually reduced the pull pressure enough to where to where my wrist did not hurt using it.  <\/p><p>The Prosthetic does not solve all the problems.   I printed the end fingers in flex with the recommended high fill.  So its kind of like pla, with a more tactile touch.  The visual motion is great.  The hand sits pretty far out.  I did this to reduce it hitting a healing finger.  I was also trying to place the pull cord entry into the hand level with the Black RAM pull.   Unknowingly I removed the designed in leverage of the low pivot point in the original Prosthetic design.   Do to the nature of the Black RAM design, the hand is mounted fixed and the ram moves.  I did consider angling the hand down more.<\/p><p>Parts I am providing for the BLACK RAM ASSEMBLY:<br>&bull;   I cut the side off a screw so I can print a plate of them lying flat.  If I print them without supports I lose a little thread detail as I transition of the bottom.  Since they were PLA I printed them with support off the plate giving great threads all around.  Works great you can let them all print at once.  I used a .15 layer height.<br>&bull;   I designed Pins to replace the screws in places they don&rsquo;t need screw tension and tend to fall out from the rotation.  The pins have nuts to just latch in place.   The 10mm short slots are probably best but a little harder to insert.<br>&bull;   The Prosthetic Mount adapters for the RIGHT and LEFT hands (right hand not tested yet).<br>&bull;   A tensioning box to hold the prosthetic cords using tensioning_piece from the prosthetic hand design.  It is the same piece, I had to trim the knobs so they did not hit each other&hellip; so the trimmed version is included.<br>&bull;   Tension Box cover if I can get it to stay&hellip; I spaced it with tape to prevent rattle&hellip; this cover is optional.. once our hand cords are adjusted the tension will hold them in place.  Lift them so the top octagon clears the block and turn them to tighten.  Nice design Sonia.<br>&bull;   The lever to pull the hand.  The lever requires two 688 bearings (16mm diam, 5mm wide, 8mm hole) or print the plastic SHIM I will provide to reduce the hole).<br>&bull;   8mm Pins for the new lever to go through the bearings.<br>&bull;   Stub-Tendon to go in the lever<br>&bull;   Fixed Tendon for the gauntlet port.   This is required to raise the pull position&hellip; my first version was a tall fixed tendon.  I recommend the half height for improved leverage.<br>&bull;   The gauntlet to lever tendon requiring 8mm pin on the lever side (top tendon).<\/p><p>Improvements that I think could be made:<br>Black Ram Assembly<br>The joint between the gauntlet and the wrist assembly could use a conversion to a ball bearing.  That joint counters the pressure applied to the apparatus at the end.  While testing the prosthetic in its first version the pressure to close the hand was about 7 to 10 pounds (3.1 to 4.5kb) of pull.  I was bending the pins I had put in addition to the squeak.  It also made my wrist hurt.<\/p><p>The hooks are great but in the double claw you have too little leverage to keep the claw closed.  This is true for all the hooks.  There lots of ways to increase leverage at the end of the gripper such as a mod on this <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo\">https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo<\/a> or one of the many other examples online that could be converted.<\/p><p>Prosthetic Observations<br>I know nothing about Prosthetics.  These are my observations.<br>1)  Compounding the grip pressure at the tips to be able to hold things securely.  Maybe sleeving the channels through the hand with something like Teflon would reduce friction.  While I did not use the original wrist,  my hack could use some way to compound the pressure I apply to a significantly increased factor at the tips of the fingers.<br>2)  Independent suspension?  Slip differential?  The 5 fingers travel as a unit.  The first two to hit can prevent the others from making contact.  It was harder to pickup items with the fingers than the simple tri-claw.  How do we make each finger travel independently so the travel of the others is not interrupted&hellip; and not compromise the overall grip?<br>3)  A floating palm?  The fixed palm gives a surface to close against.  If the closing pressure of the fingers is increased and stabilized, could the palm apply additional counter pressure and close the grip on the object without releasing it from the fingers?  We are mimicking the hand, but we are not limited to what a hand can do if a feature adds benefit.<br>4)  The thumb.  School always taught us this is what differentiates humans from other species.   This mimics the two external joints, but the inside joint going to your wrist is what provides the real wrapping action in our thumbs and the closing pressure on the object to push it into the palm and the fingers.  I would see a requirement that the fixed assembly holding the current thumb design would need to move as well to close the grip.  This prosthetic model overall is missing a section in all the other fingers and therefore may be wrap challenged in some situations.<\/p><p>Other files I am providing&hellip;<br>My openscad hacks to make the parts.<br>Several openscad files to cut the large parts for printing&hellip; I then glued them back as suggested in this youtube video.  Made printing so much easier.  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s\">https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s<\/a><\/p><p>Prosthetic assembly notes:<br>10mm and 20mm long 2mm machine screws are too long and will need trimming in many holes.  I think I will prefer the piece of metal and seal it with filament.  I don&rsquo;t know how that will work in the flex.. I tried melting some flex with an iron and it burnt at the same temp I do PLA with.  No science in that test though.  I was afraid a PLA plug would pop out of the flex.  The metal pieces save you money in bolts&hellip; and no MICROSCOPIC nuts to come off&hellip; glued or not.<\/p><p>I started with nylon fishing wire.   Stranded is so much easier to work with.   I didn&rsquo;t even tie it&hellip; I just would the extra around the octagon fitting.<\/p><p>This was actually my first flex print.  I have 5 incomplete fingers to prove it.   It took me that long to figure out the config I downloaded that was tuned by someone for flex on my Prusa MK3S still had retraction on&hellip; at reduced settings, but the speed of the retraction was way too high.  The finger would get almost to the top and fail.. I assume there was more retraction required there.<\/p><p>If I print a hand body again I will print it with a bit more fill.  I can see it warping slightly under the strain of all 5 fingers pulling at once.   I likely did it at 20% for this one.<\/p><p>Thanks to all the creators of these items.   In addition to working correctly right off the printer, they provided a great documentation.<\/p><p>10\/5\/2021 Parts OPTION updates..<\/p><p>I am going to publish a  LPTF (Low Profile Tuning Fork Version)<br>This simplifies the print and adds more 688 bearings to reduce friction at the start of a motion.   I cannot tell which is better as I am playing with a Flexy-Hand which gets really hard to pull as the FLEX joints close more.  Printing is more straight forward.   I have not put the SoniaVerdu's hand on this assembly yet to test the differences.  It will fit with no problem, but the octobox has a different connection&hellip; and sits further from the hand so I would likely need to re-string to Sonia's hand to the new box.<\/p><p>I have not uploaded the scad files with the mods yet so if you need them message me an I will get on that.<\/p><p>If you don't have 688 bearings,  The library does have a spacer you can put in its place<br>Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.stl<\/p><p>If you print the LPTF (Low Profile Tuning Fork Version)<br>You DO NOT need to print these parts<br>Black-Ram-To_Prothetic_lever_stub-tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_octo_Block.stl<br>Black-Ram-To_Prothetic_fixed-HALF-tendon.stl<br>Black-Ram-To_Prothetic_fixed-TALL-tendon.stl<br>Black-Ram-To_Prothetic_Adapter_top_tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_Cover.stl<br>Black-Ram-To_Prothetic_lever.stl<\/p><p>Instead you will print these parts<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl<br>Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl<br>OPtional-Make_A_Pin_8mm_Nut.stl<br>Options_Explained.txt<\/p><p>NEW GAUNTLET OPTIONS:<br>Original from the Black RAM library<br>brh5-gauntlet.stl<br>brh5-hand.stl<\/p><p>or the 688 BALL BEARING version<br>Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><p>or the 688 BALL Bearing Versoin with the gauntlet printing as two parts you glue together.<br>I smear a bunch of superglue on both surfaces in quick order... and clamp it together to dry for several hours.<br>Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a merge of two great projects and is a continuation of projects they were built off of.<\/p><p>This parts library only contains additional parts or modifications to existing parts when needed.  You will need to download the parts and instructions from the original libraries to complete this mod.  <\/p><p>The PINS can be used in the existing Black Ram models in places you don&rsquo;t want to use the plastic screws.<br>I added an STL for a flat sided screw for the Black Ram so that they can be printed on their side.<\/p><p>The Prosthetic hand source <a rel=\"ugc nofollow\" href=\"https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand\">https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand<\/a><br>By SoniaVerdu.  It will on the Black Ram Hand (Robotic\/Prosthetic Hybrid) - Mark V by Black_Ram_Industries<br>at <a rel=\"ugc nofollow\" href=\"\/thing:1717809\">https:\/\/www.thingiverse.com\/thing:1717809<\/a> <\/p><p>And credit to the flex hand that I have not printed but was referenced by the creator of this version of the prosthetic hand - \"Flexy-hand\" <a rel=\"ugc nofollow\" href=\"\/thing:380665\">http:\/\/www.thingiverse.com\/thing:380665<\/a>  I used part of a connector brought forward from there model.<\/p><p>I have a family member that had finger surgery on the left hand.  It could take a year or more to return to full functionality.   I printed the Black Ram Claw to bring some humor to their situation.  Then I started to wonder if it could provide basic practicality&hellip; could it hold a jar while they opened a lid?    I found challenges:<br>&bull;   Being above and in front of the hand is awkward for movement.<br>&bull;   The holding pressure on most claws is in-adequate (for all ends)<br>&bull;   Slippery plastic is a challenge<\/p><p>So I started looking at prosthetic prints.  There is some insane work that has been done in this area.  They are largely designed for people that are missing an appendage.  So I decided to try to adapt one to the Black Ram Assembly.  It is a lot of pieces to get it to work well together.  Getting the assembly to generate enough power to overcome the pull resistance took some time.  After several pull designes,  I eventually reduced the pull pressure enough to where to where my wrist did not hurt using it.  <\/p><p>The Prosthetic does not solve all the problems.   I printed the end fingers in flex with the recommended high fill.  So its kind of like pla, with a more tactile touch.  The visual motion is great.  The hand sits pretty far out.  I did this to reduce it hitting a healing finger.  I was also trying to place the pull cord entry into the hand level with the Black RAM pull.   Unknowingly I removed the designed in leverage of the low pivot point in the original Prosthetic design.   Do to the nature of the Black RAM design, the hand is mounted fixed and the ram moves.  I did consider angling the hand down more.<\/p><p>Parts I am providing for the BLACK RAM ASSEMBLY:<br>&bull;   I cut the side off a screw so I can print a plate of them lying flat.  If I print them without supports I lose a little thread detail as I transition of the bottom.  Since they were PLA I printed them with support off the plate giving great threads all around.  Works great you can let them all print at once.  I used a .15 layer height.<br>&bull;   I designed Pins to replace the screws in places they don&rsquo;t need screw tension and tend to fall out from the rotation.  The pins have nuts to just latch in place.   The 10mm short slots are probably best but a little harder to insert.<br>&bull;   The Prosthetic Mount adapters for the RIGHT and LEFT hands (right hand not tested yet).<br>&bull;   A tensioning box to hold the prosthetic cords using tensioning_piece from the prosthetic hand design.  It is the same piece, I had to trim the knobs so they did not hit each other&hellip; so the trimmed version is included.<br>&bull;   Tension Box cover if I can get it to stay&hellip; I spaced it with tape to prevent rattle&hellip; this cover is optional.. once our hand cords are adjusted the tension will hold them in place.  Lift them so the top octagon clears the block and turn them to tighten.  Nice design Sonia.<br>&bull;   The lever to pull the hand.  The lever requires two 688 bearings (16mm diam, 5mm wide, 8mm hole) or print the plastic SHIM I will provide to reduce the hole).<br>&bull;   8mm Pins for the new lever to go through the bearings.<br>&bull;   Stub-Tendon to go in the lever<br>&bull;   Fixed Tendon for the gauntlet port.   This is required to raise the pull position&hellip; my first version was a tall fixed tendon.  I recommend the half height for improved leverage.<br>&bull;   The gauntlet to lever tendon requiring 8mm pin on the lever side (top tendon).<\/p><p>Improvements that I think could be made:<br>Black Ram Assembly<br>The joint between the gauntlet and the wrist assembly could use a conversion to a ball bearing.  That joint counters the pressure applied to the apparatus at the end.  While testing the prosthetic in its first version the pressure to close the hand was about 7 to 10 pounds (3.1 to 4.5kb) of pull.  I was bending the pins I had put in addition to the squeak.  It also made my wrist hurt.<\/p><p>The hooks are great but in the double claw you have too little leverage to keep the claw closed.  This is true for all the hooks.  There lots of ways to increase leverage at the end of the gripper such as a mod on this <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo\">https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo<\/a> or one of the many other examples online that could be converted.<\/p><p>Prosthetic Observations<br>I know nothing about Prosthetics.  These are my observations.<br>1)  Compounding the grip pressure at the tips to be able to hold things securely.  Maybe sleeving the channels through the hand with something like Teflon would reduce friction.  While I did not use the original wrist,  my hack could use some way to compound the pressure I apply to a significantly increased factor at the tips of the fingers.<br>2)  Independent suspension?  Slip differential?  The 5 fingers travel as a unit.  The first two to hit can prevent the others from making contact.  It was harder to pickup items with the fingers than the simple tri-claw.  How do we make each finger travel independently so the travel of the others is not interrupted&hellip; and not compromise the overall grip?<br>3)  A floating palm?  The fixed palm gives a surface to close against.  If the closing pressure of the fingers is increased and stabilized, could the palm apply additional counter pressure and close the grip on the object without releasing it from the fingers?  We are mimicking the hand, but we are not limited to what a hand can do if a feature adds benefit.<br>4)  The thumb.  School always taught us this is what differentiates humans from other species.   This mimics the two external joints, but the inside joint going to your wrist is what provides the real wrapping action in our thumbs and the closing pressure on the object to push it into the palm and the fingers.  I would see a requirement that the fixed assembly holding the current thumb design would need to move as well to close the grip.  This prosthetic model overall is missing a section in all the other fingers and therefore may be wrap challenged in some situations.<\/p><p>Other files I am providing&hellip;<br>My openscad hacks to make the parts.<br>Several openscad files to cut the large parts for printing&hellip; I then glued them back as suggested in this youtube video.  Made printing so much easier.  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s\">https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s<\/a><\/p><p>Prosthetic assembly notes:<br>10mm and 20mm long 2mm machine screws are too long and will need trimming in many holes.  I think I will prefer the piece of metal and seal it with filament.  I don&rsquo;t know how that will work in the flex.. I tried melting some flex with an iron and it burnt at the same temp I do PLA with.  No science in that test though.  I was afraid a PLA plug would pop out of the flex.  The metal pieces save you money in bolts&hellip; and no MICROSCOPIC nuts to come off&hellip; glued or not.<\/p><p>I started with nylon fishing wire.   Stranded is so much easier to work with.   I didn&rsquo;t even tie it&hellip; I just would the extra around the octagon fitting.<\/p><p>This was actually my first flex print.  I have 5 incomplete fingers to prove it.   It took me that long to figure out the config I downloaded that was tuned by someone for flex on my Prusa MK3S still had retraction on&hellip; at reduced settings, but the speed of the retraction was way too high.  The finger would get almost to the top and fail.. I assume there was more retraction required there.<\/p><p>If I print a hand body again I will print it with a bit more fill.  I can see it warping slightly under the strain of all 5 fingers pulling at once.   I likely did it at 20% for this one.<\/p><p>Thanks to all the creators of these items.   In addition to working correctly right off the printer, they provided a great documentation.<\/p><p>10\/5\/2021 Parts OPTION updates..<\/p><p>I am going to publish a  LPTF (Low Profile Tuning Fork Version)<br>This simplifies the print and adds more 688 bearings to reduce friction at the start of a motion.   I cannot tell which is better as I am playing with a Flexy-Hand which gets really hard to pull as the FLEX joints close more.  Printing is more straight forward.   I have not put the SoniaVerdu's hand on this assembly yet to test the differences.  It will fit with no problem, but the octobox has a different connection&hellip; and sits further from the hand so I would likely need to re-string to Sonia's hand to the new box.<\/p><p>I have not uploaded the scad files with the mods yet so if you need them message me an I will get on that.<\/p><p>If you don't have 688 bearings,  The library does have a spacer you can put in its place<br>Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.stl<\/p><p>If you print the LPTF (Low Profile Tuning Fork Version)<br>You DO NOT need to print these parts<br>Black-Ram-To_Prothetic_lever_stub-tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_octo_Block.stl<br>Black-Ram-To_Prothetic_fixed-HALF-tendon.stl<br>Black-Ram-To_Prothetic_fixed-TALL-tendon.stl<br>Black-Ram-To_Prothetic_Adapter_top_tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_Cover.stl<br>Black-Ram-To_Prothetic_lever.stl<\/p><p>Instead you will print these parts<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl<br>Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl<br>OPtional-Make_A_Pin_8mm_Nut.stl<br>Options_Explained.txt<\/p><p>NEW GAUNTLET OPTIONS:<br>Original from the Black RAM library<br>brh5-gauntlet.stl<br>brh5-hand.stl<\/p><p>or the 688 BALL BEARING version<br>Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><p>or the 688 BALL Bearing Versoin with the gauntlet printing as two parts you glue together.<br>I smear a bunch of superglue on both surfaces in quick order... and clamp it together to dry for several hours.<br>Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>i3 MK3<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>200<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20<\/p><\/div>                                                        <strong>Filament:<\/strong> gst3d PLA+ 1.75                    any                                        <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>I added a couple of SCAD files to cut the larger odd shape prints in half... you have to glue them back together but they will print without supports.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a merge of two great projects and is a continuation of projects they were built off of.<\/p><p>This parts library only contains additional parts or modifications to existing parts when needed.  You will need to download the parts and instructions from the original libraries to complete this mod.  <\/p><p>The PINS can be used in the existing Black Ram models in places you don&rsquo;t want to use the plastic screws.<br>I added an STL for a flat sided screw for the Black Ram so that they can be printed on their side.<\/p><p>The Prosthetic hand source <a rel=\"ugc nofollow\" href=\"https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand\">https:\/\/www.prusaprinters.org\/prints\/12224-prosthetic-hand<\/a><br>By SoniaVerdu.  It will on the Black Ram Hand (Robotic\/Prosthetic Hybrid) - Mark V by Black_Ram_Industries<br>at <a rel=\"ugc nofollow\" href=\"\/thing:1717809\">https:\/\/www.thingiverse.com\/thing:1717809<\/a> <\/p><p>And credit to the flex hand that I have not printed but was referenced by the creator of this version of the prosthetic hand - \"Flexy-hand\" <a rel=\"ugc nofollow\" href=\"\/thing:380665\">http:\/\/www.thingiverse.com\/thing:380665<\/a>  I used part of a connector brought forward from there model.<\/p><p>I have a family member that had finger surgery on the left hand.  It could take a year or more to return to full functionality.   I printed the Black Ram Claw to bring some humor to their situation.  Then I started to wonder if it could provide basic practicality&hellip; could it hold a jar while they opened a lid?    I found challenges:<br>&bull;   Being above and in front of the hand is awkward for movement.<br>&bull;   The holding pressure on most claws is in-adequate (for all ends)<br>&bull;   Slippery plastic is a challenge<\/p><p>So I started looking at prosthetic prints.  There is some insane work that has been done in this area.  They are largely designed for people that are missing an appendage.  So I decided to try to adapt one to the Black Ram Assembly.  It is a lot of pieces to get it to work well together.  Getting the assembly to generate enough power to overcome the pull resistance took some time.  After several pull designes,  I eventually reduced the pull pressure enough to where to where my wrist did not hurt using it.  <\/p><p>The Prosthetic does not solve all the problems.   I printed the end fingers in flex with the recommended high fill.  So its kind of like pla, with a more tactile touch.  The visual motion is great.  The hand sits pretty far out.  I did this to reduce it hitting a healing finger.  I was also trying to place the pull cord entry into the hand level with the Black RAM pull.   Unknowingly I removed the designed in leverage of the low pivot point in the original Prosthetic design.   Do to the nature of the Black RAM design, the hand is mounted fixed and the ram moves.  I did consider angling the hand down more.<\/p><p>Parts I am providing for the BLACK RAM ASSEMBLY:<br>&bull;   I cut the side off a screw so I can print a plate of them lying flat.  If I print them without supports I lose a little thread detail as I transition of the bottom.  Since they were PLA I printed them with support off the plate giving great threads all around.  Works great you can let them all print at once.  I used a .15 layer height.<br>&bull;   I designed Pins to replace the screws in places they don&rsquo;t need screw tension and tend to fall out from the rotation.  The pins have nuts to just latch in place.   The 10mm short slots are probably best but a little harder to insert.<br>&bull;   The Prosthetic Mount adapters for the RIGHT and LEFT hands (right hand not tested yet).<br>&bull;   A tensioning box to hold the prosthetic cords using tensioning_piece from the prosthetic hand design.  It is the same piece, I had to trim the knobs so they did not hit each other&hellip; so the trimmed version is included.<br>&bull;   Tension Box cover if I can get it to stay&hellip; I spaced it with tape to prevent rattle&hellip; this cover is optional.. once our hand cords are adjusted the tension will hold them in place.  Lift them so the top octagon clears the block and turn them to tighten.  Nice design Sonia.<br>&bull;   The lever to pull the hand.  The lever requires two 688 bearings (16mm diam, 5mm wide, 8mm hole) or print the plastic SHIM I will provide to reduce the hole).<br>&bull;   8mm Pins for the new lever to go through the bearings.<br>&bull;   Stub-Tendon to go in the lever<br>&bull;   Fixed Tendon for the gauntlet port.   This is required to raise the pull position&hellip; my first version was a tall fixed tendon.  I recommend the half height for improved leverage.<br>&bull;   The gauntlet to lever tendon requiring 8mm pin on the lever side (top tendon).<\/p><p>Improvements that I think could be made:<br>Black Ram Assembly<br>The joint between the gauntlet and the wrist assembly could use a conversion to a ball bearing.  That joint counters the pressure applied to the apparatus at the end.  While testing the prosthetic in its first version the pressure to close the hand was about 7 to 10 pounds (3.1 to 4.5kb) of pull.  I was bending the pins I had put in addition to the squeak.  It also made my wrist hurt.<\/p><p>The hooks are great but in the double claw you have too little leverage to keep the claw closed.  This is true for all the hooks.  There lots of ways to increase leverage at the end of the gripper such as a mod on this <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo\">https:\/\/www.youtube.com\/watch?v=YX1MsP7aRvo<\/a> or one of the many other examples online that could be converted.<\/p><p>Prosthetic Observations<br>I know nothing about Prosthetics.  These are my observations.<br>1)  Compounding the grip pressure at the tips to be able to hold things securely.  Maybe sleeving the channels through the hand with something like Teflon would reduce friction.  While I did not use the original wrist,  my hack could use some way to compound the pressure I apply to a significantly increased factor at the tips of the fingers.<br>2)  Independent suspension?  Slip differential?  The 5 fingers travel as a unit.  The first two to hit can prevent the others from making contact.  It was harder to pickup items with the fingers than the simple tri-claw.  How do we make each finger travel independently so the travel of the others is not interrupted&hellip; and not compromise the overall grip?<br>3)  A floating palm?  The fixed palm gives a surface to close against.  If the closing pressure of the fingers is increased and stabilized, could the palm apply additional counter pressure and close the grip on the object without releasing it from the fingers?  We are mimicking the hand, but we are not limited to what a hand can do if a feature adds benefit.<br>4)  The thumb.  School always taught us this is what differentiates humans from other species.   This mimics the two external joints, but the inside joint going to your wrist is what provides the real wrapping action in our thumbs and the closing pressure on the object to push it into the palm and the fingers.  I would see a requirement that the fixed assembly holding the current thumb design would need to move as well to close the grip.  This prosthetic model overall is missing a section in all the other fingers and therefore may be wrap challenged in some situations.<\/p><p>Other files I am providing&hellip;<br>My openscad hacks to make the parts.<br>Several openscad files to cut the large parts for printing&hellip; I then glued them back as suggested in this youtube video.  Made printing so much easier.  <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s\">https:\/\/www.youtube.com\/watch?v=stry5kibhyY&amp;t=86s<\/a><\/p><p>Prosthetic assembly notes:<br>10mm and 20mm long 2mm machine screws are too long and will need trimming in many holes.  I think I will prefer the piece of metal and seal it with filament.  I don&rsquo;t know how that will work in the flex.. I tried melting some flex with an iron and it burnt at the same temp I do PLA with.  No science in that test though.  I was afraid a PLA plug would pop out of the flex.  The metal pieces save you money in bolts&hellip; and no MICROSCOPIC nuts to come off&hellip; glued or not.<\/p><p>I started with nylon fishing wire.   Stranded is so much easier to work with.   I didn&rsquo;t even tie it&hellip; I just would the extra around the octagon fitting.<\/p><p>This was actually my first flex print.  I have 5 incomplete fingers to prove it.   It took me that long to figure out the config I downloaded that was tuned by someone for flex on my Prusa MK3S still had retraction on&hellip; at reduced settings, but the speed of the retraction was way too high.  The finger would get almost to the top and fail.. I assume there was more retraction required there.<\/p><p>If I print a hand body again I will print it with a bit more fill.  I can see it warping slightly under the strain of all 5 fingers pulling at once.   I likely did it at 20% for this one.<\/p><p>Thanks to all the creators of these items.   In addition to working correctly right off the printer, they provided a great documentation.<\/p><p>10\/5\/2021 Parts OPTION updates..<\/p><p>I am going to publish a  LPTF (Low Profile Tuning Fork Version)<br>This simplifies the print and adds more 688 bearings to reduce friction at the start of a motion.   I cannot tell which is better as I am playing with a Flexy-Hand which gets really hard to pull as the FLEX joints close more.  Printing is more straight forward.   I have not put the SoniaVerdu's hand on this assembly yet to test the differences.  It will fit with no problem, but the octobox has a different connection&hellip; and sits further from the hand so I would likely need to re-string to Sonia's hand to the new box.<\/p><p>I have not uploaded the scad files with the mods yet so if you need them message me an I will get on that.<\/p><p>If you don't have 688 bearings,  The library does have a spacer you can put in its place<br>Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.stl<\/p><p>If you print the LPTF (Low Profile Tuning Fork Version)<br>You DO NOT need to print these parts<br>Black-Ram-To_Prothetic_lever_stub-tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_octo_Block.stl<br>Black-Ram-To_Prothetic_fixed-HALF-tendon.stl<br>Black-Ram-To_Prothetic_fixed-TALL-tendon.stl<br>Black-Ram-To_Prothetic_Adapter_top_tendon.stl<br>Black-Ram-To_Prothetic_Tensioning_Cover.stl<br>Black-Ram-To_Prothetic_lever.stl<\/p><p>Instead you will print these parts<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl<br>Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl<br>Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl<br>OPtional-Make_A_Pin_8mm_Nut.stl<br>Options_Explained.txt<\/p><p>NEW GAUNTLET OPTIONS:<br>Original from the Black RAM library<br>brh5-gauntlet.stl<br>brh5-hand.stl<\/p><p>or the 688 BALL BEARING version<br>Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><p>or the 688 BALL Bearing Versoin with the gauntlet printing as two parts you glue together.<br>I smear a bunch of superglue on both surfaces in quick order... and clamp it together to dry for several hours.<br>Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl<br>Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl<br>Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>i3 MK3<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>200<\/p><\/div>\n",
+            "infill": "<div><p>20<\/p><\/div>\n",
+            "filament_brand": "<div><p>gst3d<\/p><\/div>\n",
+            "filament_color": "<div><p>any<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA+ 1.75<\/p><\/div>\n",
+            "notes": "<div><p>I added a couple of SCAD files to cut the larger odd shape prints in half... you have to glue them back together but they will print without supports.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4847465\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4847465\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4847465\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4847465\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4847465\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4847465\/tags",
+    "tags": [
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4847465\/categories",
+    "file_count": 36,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 5055,
+    "view_count": 4679,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1717809,
+        "name": "Black Ram Hand (Robotic\/Prosthetic Hybrid) - Mark V",
+        "url": "https:\/\/api.thingiverse.com\/things\/1717809",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1717809",
+        "created_at": "2016-08-14T03:38:13+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fe\/1a\/5a\/5e\/db\/62cf3ba1404adfea9069993ca999b4b2_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/fe\/1a\/5a\/5e\/db\/62cf3ba1404adfea9069993ca999b4b2_preview_card.JPG",
+        "creator": {
+          "id": 970470,
+          "name": "Black_Ram_Industries",
+          "first_name": "Luke",
+          "last_name": "Stanislas",
+          "url": "https:\/\/api.thingiverse.com\/users\/Black_Ram_Industries",
+          "public_url": "https:\/\/www.thingiverse.com\/Black_Ram_Industries",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/30\/78\/c6\/91\/81\/74c0de258c81ea9675b9824f6fa6d0f6_thumb_medium.jpg",
+          "count_of_followers": 167,
+          "count_of_following": 8,
+          "count_of_designs": 7,
+          "collection_count": 2,
+          "make_count": 1,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Sydney, Australia",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/02\/8f\/0a\/d5\/f2\/4845d0ed4ae6ef94d3d05466caa5890e_preview_large.jpeg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 24,
+        "make_count": 6,
+        "like_count": 1661,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 3470,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Pin_10mm-dia_20-1mm_Long-slot.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/42\/d6\/65\/40\/Pin_10mm-dia_20-1mm_Long-slot.stl"
+        },
+        {
+          "name": "Pin_8mm-dia_20-1mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/d5\/80\/d3\/39\/Pin_8mm-dia_20-1mm.stl"
+        },
+        {
+          "name": "cut_brh5-tri-claw_for-easier-Printing.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/33\/e4\/7a\/91\/cut_brh5-tri-claw_for-easier-Printing.scad"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/f6\/8a\/13\/f6\/Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing%2BFIller.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_LefttHand_Left-Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/d3\/27\/60\/63\/Black-Ram-To_Prothetic_Adapter_LefttHand_Left-Bracket.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_RightHand_Left-Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/a8\/28\/4c\/0a\/Black-Ram-To_Prothetic_Adapter_RightHand_Left-Bracket.stl"
+        },
+        {
+          "name": "Black-Ram-mod-brh5-bolt_cut_for-flat-printing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/47\/79\/89\/d4\/Black-Ram-mod-brh5-bolt_cut_for-flat-printing.stl"
+        },
+        {
+          "name": "Nut-for-8mm-Pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/e1\/9d\/0d\/fa\/Nut-for-8mm-Pin.stl"
+        },
+        {
+          "name": "Nut-for-10mm-Pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/66\/14\/cb\/27\/Nut-for-10mm-Pin.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_RightHand_Right-Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/a1\/f6\/5a\/28\/Black-Ram-To_Prothetic_Adapter_RightHand_Right-Bracket.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Tensioning_octo_Block.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/dd\/1a\/80\/3f\/Black-Ram-To_Prothetic_Tensioning_octo_Block.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_lever.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/6e\/74\/1e\/d9\/Black-Ram-To_Prothetic_lever.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_LeftHand_Right-Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/77\/2e\/bb\/8f\/Black-Ram-To_Prothetic_Adapter_LeftHand_Right-Bracket.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_Fixed_and_top_Tendon.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/3b\/45\/40\/31\/Black-Ram-To_Prothetic_Adapter_Fixed_and_top_Tendon.scad"
+        },
+        {
+          "name": "Cut_brh5-gauntlet_for-easier-printing.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/77\/3c\/dc\/e4\/Cut_brh5-gauntlet_for-easier-printing.scad"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_tension_assembly.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/1b\/f9\/a6\/4f\/Black-Ram-To_Prothetic_Adapter_tension_assembly.scad"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_tensioning_Cut_knob_print_qty_5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/3c\/48\/4d\/f1\/Black-Ram-To_Prothetic_tensioning_Cut_knob_print_qty_5.stl"
+        },
+        {
+          "name": "Pin_10mm-dia_20-1mm_Short-slot.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/aa\/ee\/70\/58\/Pin_10mm-dia_20-1mm_Short-slot.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Tensioning_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/3b\/3c\/65\/93\/Black-Ram-To_Prothetic_Tensioning_Cover.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_top_tendon.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/53\/58\/34\/38\/Black-Ram-To_Prothetic_Adapter_top_tendon.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_fixed-HALF-tendon.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/62\/22\/6b\/28\/Black-Ram-To_Prothetic_fixed-HALF-tendon.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_lever_stub-tendon.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/ec\/71\/42\/7f\/Black-Ram-To_Prothetic_lever_stub-tendon.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_fixed-TALL-tendon.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/6f\/f3\/11\/10\/Black-Ram-To_Prothetic_fixed-TALL-tendon.stl"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_Hand_Mount.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/5e\/7d\/af\/a8\/Black-Ram-To_Prothetic_Adapter_Hand_Mount.scad"
+        },
+        {
+          "name": "Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/43\/a9\/7b\/28\/Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.stl"
+        },
+        {
+          "name": "Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/42\/78\/bb\/6d\/Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.stl"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/9d\/77\/8a\/56\/Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/a5\/41\/e3\/8f\/Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.stl"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/15\/78\/e6\/d6\/Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.stl"
+        },
+        {
+          "name": "Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/cb\/ad\/05\/cf\/Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.stl"
+        },
+        {
+          "name": "Optional-Make_A_Pin_8mm_Nut.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/b7\/2d\/9d\/45\/Optional-Make_A_Pin_8mm_Nut.stl"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/68\/e0\/61\/fb\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.stl"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/58\/e0\/30\/80\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.stl"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/c8\/89\/1d\/6d\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.stl"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/ec\/2f\/c8\/4c\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.stl"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/6e\/c0\/e6\/5b\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_3064_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/1d\/32\/4e\/2f\/IMG_3064_-_Copy.JPG"
+        },
+        {
+          "name": "Prosthetic_500.gif",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/b7\/19\/95\/7a\/Prosthetic_500.gif"
+        },
+        {
+          "name": "IMG_3065_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/0a\/1b\/5b\/b3\/IMG_3065_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3052_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/01\/1d\/0e\/86\/IMG_3052_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3054_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/ce\/cd\/3a\/ad\/IMG_3054_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3067_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/6f\/77\/7c\/4f\/IMG_3067_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3030_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/38\/60\/9e\/cf\/IMG_3030_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3029_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/5b\/01\/1f\/64\/IMG_3029_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_2969_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/29\/3e\/d0\/29\/IMG_2969_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3060_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/c2\/ac\/7b\/34\/IMG_3060_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_2914_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/3b\/fb\/c1\/d7\/IMG_2914_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_2894_-_Copy.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/b9\/ad\/7f\/c9\/IMG_2894_-_Copy.JPG"
+        },
+        {
+          "name": "IMG_3358_-_Copy_copy.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/77\/5f\/a2\/54\/IMG_3358_-_Copy_copy.jpg"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_top_tendon.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/ca\/a5\/dd\/67\/Black-Ram-To_Prothetic_Adapter_top_tendon.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_fixed-TALL-tendon.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/bf\/58\/e0\/d3\/Black-Ram-To_Prothetic_fixed-TALL-tendon.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_lever_stub-tendon.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/f6\/59\/af\/78\/Black-Ram-To_Prothetic_lever_stub-tendon.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_fixed-HALF-tendon.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/ed\/d6\/5a\/40\/Black-Ram-To_Prothetic_fixed-HALF-tendon.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Tensioning_Cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/d3\/6f\/b3\/19\/Black-Ram-To_Prothetic_Tensioning_Cover.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Tensioning_octo_Block.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/1f\/ae\/60\/b3\/Black-Ram-To_Prothetic_Tensioning_octo_Block.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_tensioning_Cut_knob_print_qty_5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/7d\/05\/c4\/a7\/Black-Ram-To_Prothetic_tensioning_Cut_knob_print_qty_5.png"
+        },
+        {
+          "name": "Nut-for-8mm-Pin.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/ec\/ea\/61\/14\/Nut-for-8mm-Pin.png"
+        },
+        {
+          "name": "Nut-for-10mm-Pin.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/b2\/05\/59\/2e\/Nut-for-10mm-Pin.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/d4\/da\/dc\/7e\/Black-Ram-To_Prothetic_Adapter_688_8mm_center-hole_Bearing+FIller.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_LeftHand_Right-Bracket.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/97\/2c\/86\/ca\/Black-Ram-To_Prothetic_Adapter_LeftHand_Right-Bracket.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_lever.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/90\/1c\/67\/34\/Black-Ram-To_Prothetic_lever.png"
+        },
+        {
+          "name": "Black-Ram-mod-brh5-bolt_cut_for-flat-printing.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/f3\/5d\/ce\/d6\/Black-Ram-mod-brh5-bolt_cut_for-flat-printing.png"
+        },
+        {
+          "name": "Pin_10mm-dia_20-1mm_Short-slot.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/2f\/7e\/3b\/1e\/Pin_10mm-dia_20-1mm_Short-slot.png"
+        },
+        {
+          "name": "Pin_10mm-dia_20-1mm_Long-slot.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/12\/72\/c5\/6f\/Pin_10mm-dia_20-1mm_Long-slot.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_RightHand_Right-Bracket.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/ee\/67\/8d\/69\/Black-Ram-To_Prothetic_Adapter_RightHand_Right-Bracket.png"
+        },
+        {
+          "name": "Pin_8mm-dia_20-1mm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/b7\/35\/8e\/0d\/Pin_8mm-dia_20-1mm.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_RightHand_Left-Bracket.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/42\/86\/a2\/66\/Black-Ram-To_Prothetic_Adapter_RightHand_Left-Bracket.png"
+        },
+        {
+          "name": "Black-Ram-To_Prothetic_Adapter_LefttHand_Left-Bracket.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/ee\/ee\/e0\/90\/Black-Ram-To_Prothetic_Adapter_LefttHand_Left-Bracket.png"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/2b\/d9\/1f\/75\/Option-688-brh5-gauntlet_side1-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.png"
+        },
+        {
+          "name": "Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/f9\/70\/87\/c8\/Option-688-brh5-hand-Qty1-688-Bearing_8mm_Hole.png"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/83\/d4\/62\/cf\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_top-Tendon_Tuning-Fork-Version-Qty1.png"
+        },
+        {
+          "name": "Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/01\/2c\/b1\/31\/Option-LPTF-Qty1-Make_A_Pin_8mmx20-2.png"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/3e\/60\/29\/f3\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_SHORT_Fixed-Tendon-Qty1.png"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/29\/ac\/54\/8d\/Option-688-brh5-gauntlet-Qty1-Pair-with-688-Bearing-Hand_8mm_Hole.png"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/3c\/ec\/37\/22\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_withTendon-Qty1.png"
+        },
+        {
+          "name": "Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/89\/0e\/3b\/5b\/Option-688-brh5-gauntlet_side2-Qty1-GLUE-TOGETHER-Version-Pair-with-688-Bearing-Hand_8mm_Hole.png"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/65\/5e\/10\/bc\/7c\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Short_FlatLever_688-Bearings_Qty1.png"
+        },
+        {
+          "name": "Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/ad\/7a\/c7\/9a\/Option-LPTF-Black-Ram-To_Prothetic_Adapter_Octobox_cover_withcutout-Qty1.png"
+        },
+        {
+          "name": "Optional-Make_A_Pin_8mm_Nut.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/ec\/00\/75\/3e\/Optional-Make_A_Pin_8mm_Nut.png"
+        },
+        {
+          "name": "Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/17\/82\/57\/00\/Option-688-Hand-Qty2-Make_A_Pin_8mmx20-2.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "created_at": "2025-04-14T03:39:52.631707+00:00",
+  "elapsed": 0.176754,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002db4ee59eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:52 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:52 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1761738?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1761738?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1761738,
+    "name": "Ergo iPhone 6 Plus Case - For Limited Hand Mobility",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1761738",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1761738",
+    "creator": {
+      "id": 616315,
+      "name": "daveyclk",
+      "first_name": "Dave",
+      "last_name": "Clarke",
+      "url": "https:\/\/api.thingiverse.com\/users\/daveyclk",
+      "public_url": "https:\/\/www.thingiverse.com\/daveyclk",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/23\/1d\/bc\/04\/4d\/5ca5d9363445a39e79a235418d8522e9_thumb_medium.jpg",
+      "count_of_followers": 692,
+      "count_of_following": 1,
+      "count_of_designs": 16,
+      "collection_count": 1,
+      "make_count": 7,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "UK",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d6\/02\/a6\/d1\/37\/228073b946153d5a075a2dce66a5007b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-09-09T14:42:18+00:00",
+    "modified": "2016-09-09T14:42:18+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 85,
+    "is_liked": false,
+    "collect_count": 171,
+    "is_collected": false,
+    "comment_count": 8,
+    "is_watched": false,
+    "default_image": {
+      "id": 4375824,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/d5\/6a\/a9\/66\/iphone_6_plus_dimensionally_correct_2016-Sep-05_01-04-47PM-000_CustomizedView7788840612.png",
+      "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_01-04-47PM-000_CustomizedView7788840612.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/82\/02\/1f\/96\/cc8b79a53ef81ebbae1732fab7766dcd_display_small.jpg"
+        }
+      ],
+      "added": "2016-09-09T14:42:09+00:00"
+    },
+    "description": "It's taken a while to think of something that would benefit someone with limited hand mobility that:\r\n\r\na) isn't super complicated\r\n\r\nb) isn't cumbersome\r\n\r\nc) is created for the purposes of creating something rather than  addressing a specific need\r\n\r\nI spent a morning with taped up hands, and went about my day, and by far the trickiest thing was getting to grips with my iPhone 6 Plus. I love my iPhone and not being able to use it well made my face sad :(\r\n\r\nBehold, the solution to (at least my) problem, the ergo iPhone case!\r\n\r\nWith the easy grip side handle you're able to hold the iPhone easily whilst using your other hand the operate it. Not only is there a side handle, there are also 3 finger holes to allow customised gripping\r\n\r\nThe iPhone case was designed from scratch, starting with the Apple official guidelines for accessory design. This case adhere's to all of them so buttons are easily accessed, the camera is usable and no connector sockets are obstructed.\r\n\r\nEven 3D printed this is a perfect snap fit.\r\n\r\nSo did i address my initial questions? yes, yes i did\r\n\r\na) It's super simple, elegant design. no moving parts, no assembly.\r\n\r\nb) it hardly adds any weight and is barely bigger than the iPhone itself but is super durable \r\n\r\nc) It was designed to meet the requirements of one problem, not a jack of all trades device. iPhone 6 Plus is big! but now it's accessible to anyone regardless of their hand moblity (i'm keeping mine on my phone BTW!)\r\n\r\nI printed me case in a splendid bright orange PLA\r\n\r\nSettings were\r\n\r\nLayer Res - 200micron\r\n\r\nPrint temp - Layer 1 - 220C all others 200C\r\n\r\nHPB - 52C\r\n\r\nSpeed 70mm\/s\r\n\r\nInfil - 100%\r\n\r\nNOTES:\r\n\r\nThis is designed for the iPhone 6 Plus, other variants can be designed upon request\r\n\r\nI am right handed, so i have designed the case to be held in my left hand - A left handed version can also be designed upon request",
+    "instructions": "",
+    "description_html": "<div><p>It's taken a while to think of something that would benefit someone with limited hand mobility that:<\/p><p>a) isn't super complicated<\/p><p>b) isn't cumbersome<\/p><p>c) is created for the purposes of creating something rather than  addressing a specific need<\/p><p>I spent a morning with taped up hands, and went about my day, and by far the trickiest thing was getting to grips with my iPhone 6 Plus. I love my iPhone and not being able to use it well made my face sad :(<\/p><p>Behold, the solution to (at least my) problem, the ergo iPhone case!<\/p><p>With the easy grip side handle you're able to hold the iPhone easily whilst using your other hand the operate it. Not only is there a side handle, there are also 3 finger holes to allow customised gripping<\/p><p>The iPhone case was designed from scratch, starting with the Apple official guidelines for accessory design. This case adhere's to all of them so buttons are easily accessed, the camera is usable and no connector sockets are obstructed.<\/p><p>Even 3D printed this is a perfect snap fit.<\/p><p>So did i address my initial questions? yes, yes i did<\/p><p>a) It's super simple, elegant design. no moving parts, no assembly.<\/p><p>b) it hardly adds any weight and is barely bigger than the iPhone itself but is super durable <\/p><p>c) It was designed to meet the requirements of one problem, not a jack of all trades device. iPhone 6 Plus is big! but now it's accessible to anyone regardless of their hand moblity (i'm keeping mine on my phone BTW!)<\/p><p>I printed me case in a splendid bright orange PLA<\/p><p>Settings were<\/p><p>Layer Res - 200micron<\/p><p>Print temp - Layer 1 - 220C all others 200C<\/p><p>HPB - 52C<\/p><p>Speed 70mm\/s<\/p><p>Infil - 100%<\/p><p>NOTES:<\/p><p>This is designed for the iPhone 6 Plus, other variants can be designed upon request<\/p><p>I am right handed, so i have designed the case to be held in my left hand - A left handed version can also be designed upon request<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>It's taken a while to think of something that would benefit someone with limited hand mobility that:<\/p><p>a) isn't super complicated<\/p><p>b) isn't cumbersome<\/p><p>c) is created for the purposes of creating something rather than  addressing a specific need<\/p><p>I spent a morning with taped up hands, and went about my day, and by far the trickiest thing was getting to grips with my iPhone 6 Plus. I love my iPhone and not being able to use it well made my face sad :(<\/p><p>Behold, the solution to (at least my) problem, the ergo iPhone case!<\/p><p>With the easy grip side handle you're able to hold the iPhone easily whilst using your other hand the operate it. Not only is there a side handle, there are also 3 finger holes to allow customised gripping<\/p><p>The iPhone case was designed from scratch, starting with the Apple official guidelines for accessory design. This case adhere's to all of them so buttons are easily accessed, the camera is usable and no connector sockets are obstructed.<\/p><p>Even 3D printed this is a perfect snap fit.<\/p><p>So did i address my initial questions? yes, yes i did<\/p><p>a) It's super simple, elegant design. no moving parts, no assembly.<\/p><p>b) it hardly adds any weight and is barely bigger than the iPhone itself but is super durable <\/p><p>c) It was designed to meet the requirements of one problem, not a jack of all trades device. iPhone 6 Plus is big! but now it's accessible to anyone regardless of their hand moblity (i'm keeping mine on my phone BTW!)<\/p><p>I printed me case in a splendid bright orange PLA<\/p><p>Settings were<\/p><p>Layer Res - 200micron<\/p><p>Print temp - Layer 1 - 220C all others 200C<\/p><p>HPB - 52C<\/p><p>Speed 70mm\/s<\/p><p>Infil - 100%<\/p><p>NOTES:<\/p><p>This is designed for the iPhone 6 Plus, other variants can be designed upon request<\/p><p>I am right handed, so i have designed the case to be held in my left hand - A left handed version can also be designed upon request<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/JbAzLM6pNu0\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><h1 class=\"thing-component-header custom updates\">Updates<\/h1><p class=\"detail-title\"><strong>Update 1<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Added another version with the handle on the right hand side of the case&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>It's taken a while to think of something that would benefit someone with limited hand mobility that:<\/p><p>a) isn't super complicated<\/p><p>b) isn't cumbersome<\/p><p>c) is created for the purposes of creating something rather than  addressing a specific need<\/p><p>I spent a morning with taped up hands, and went about my day, and by far the trickiest thing was getting to grips with my iPhone 6 Plus. I love my iPhone and not being able to use it well made my face sad :(<\/p><p>Behold, the solution to (at least my) problem, the ergo iPhone case!<\/p><p>With the easy grip side handle you're able to hold the iPhone easily whilst using your other hand the operate it. Not only is there a side handle, there are also 3 finger holes to allow customised gripping<\/p><p>The iPhone case was designed from scratch, starting with the Apple official guidelines for accessory design. This case adhere's to all of them so buttons are easily accessed, the camera is usable and no connector sockets are obstructed.<\/p><p>Even 3D printed this is a perfect snap fit.<\/p><p>So did i address my initial questions? yes, yes i did<\/p><p>a) It's super simple, elegant design. no moving parts, no assembly.<\/p><p>b) it hardly adds any weight and is barely bigger than the iPhone itself but is super durable <\/p><p>c) It was designed to meet the requirements of one problem, not a jack of all trades device. iPhone 6 Plus is big! but now it's accessible to anyone regardless of their hand moblity (i'm keeping mine on my phone BTW!)<\/p><p>I printed me case in a splendid bright orange PLA<\/p><p>Settings were<\/p><p>Layer Res - 200micron<\/p><p>Print temp - Layer 1 - 220C all others 200C<\/p><p>HPB - 52C<\/p><p>Speed 70mm\/s<\/p><p>Infil - 100%<\/p><p>NOTES:<\/p><p>This is designed for the iPhone 6 Plus, other variants can be designed upon request<\/p><p>I am right handed, so i have designed the case to be held in my left hand - A left handed version can also be designed upon request<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/JbAzLM6pNu0\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Updates",
+        "data": [
+          {
+            "title": "Update 1",
+            "content": "<div><p>Added another version with the handle on the right hand side of the case<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1761738\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1761738\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1761738\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1761738\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1761738\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1761738\/tags",
+    "tags": [
+      {
+        "name": "iphone",
+        "tag": "iphone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iphone",
+        "count": 7804,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone\/things",
+        "absolute_url": "\/tag:iphone"
+      },
+      {
+        "name": "iphone 6",
+        "tag": "iphone_6",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iphone_6",
+        "count": 1125,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone_6\/things",
+        "absolute_url": "\/tag:iphone_6"
+      },
+      {
+        "name": "iphone case",
+        "tag": "iphone_case",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iphone_case",
+        "count": 1149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone_case\/things",
+        "absolute_url": "\/tag:iphone_case"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1761738\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1193,
+    "view_count": 7184,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Ergo_Case_for_iPhone.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/a7\/2d\/39\/5c\/Ergo_Case_for_iPhone.stl"
+        },
+        {
+          "name": "Ergo_Case_for_iPhone_Right_Side_Handle.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/f1\/33\/75\/f9\/Ergo_Case_for_iPhone_Right_Side_Handle.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_01-04-47PM-000_CustomizedView7788840612.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/d5\/6a\/a9\/66\/iphone_6_plus_dimensionally_correct_2016-Sep-05_01-04-47PM-000_CustomizedView7788840612.png"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-55-33AM-000_CustomizedView962472260.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/fb\/cb\/25\/c5\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-55-33AM-000_CustomizedView962472260.png"
+        },
+        {
+          "name": "7509f2a8799189e49a377c1045061935.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0c\/48\/89\/bc\/6b\/7509f2a8799189e49a377c1045061935.png"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2017-Apr-21_10-45-02AM-000_CustomizedView3928528157.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/bc\/2e\/bc\/0d\/iphone_6_plus_dimensionally_correct_2017-Apr-21_10-45-02AM-000_CustomizedView3928528157.png"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2017-Apr-21_10-45-49AM-000_CustomizedView2556831574.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/79\/96\/68\/af\/iphone_6_plus_dimensionally_correct_2017-Apr-21_10-45-49AM-000_CustomizedView2556831574.png"
+        },
+        {
+          "name": "e052eb6a2667587c32b5b76d08461301.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/9e\/d5\/88\/7d\/e052eb6a2667587c32b5b76d08461301.png"
+        },
+        {
+          "name": "IMG_2952.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/1b\/f4\/db\/ef\/IMG_2952.JPG"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-48-45AM-000_CustomizedView2963619705.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/5e\/40\/e7\/a2\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-48-45AM-000_CustomizedView2963619705.png"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-51-05AM-000_CustomizedView16050228739.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/ad\/6a\/c7\/95\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-51-05AM-000_CustomizedView16050228739.png"
+        },
+        {
+          "name": "IMG_2949.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/74\/f1\/6d\/3b\/IMG_2949.JPG"
+        },
+        {
+          "name": "Picture_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/47\/0b\/e3\/40\/Picture_1.jpg"
+        },
+        {
+          "name": "IMG_2950.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/cc\/ad\/d0\/ec\/IMG_2950.JPG"
+        },
+        {
+          "name": "Picture_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/55\/1b\/8b\/2e\/Picture_2.jpg"
+        },
+        {
+          "name": "Picture_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/53\/07\/73\/92\/Picture_3.jpg"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-54-15AM-000_CustomizedView7809004086.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/1d\/99\/fe\/7c\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-54-15AM-000_CustomizedView7809004086.png"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-52-12AM-000_CustomizedView7989981556.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/7b\/dc\/28\/db\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-52-12AM-000_CustomizedView7989981556.png"
+        },
+        {
+          "name": "IMG_2951.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/e8\/bf\/04\/5d\/IMG_2951.JPG"
+        },
+        {
+          "name": "iphone_6_plus_dimensionally_correct_2016-Sep-05_11-52-02AM-000_CustomizedView3179145598.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/5d\/a6\/22\/01\/iphone_6_plus_dimensionally_correct_2016-Sep-05_11-52-02AM-000_CustomizedView3179145598.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "created_at": "2025-10-08T03:27:41.410446+00:00",
+  "elapsed": 0.209598,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b3a99ee3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2351326?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2351326?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2351326,
+    "name": "Atomic Lab - RIGHT PROSTHETIC ARM - No strings - Modular",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2351326",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2351326",
+    "creator": {
+      "id": 29184,
+      "name": "tubaro1",
+      "first_name": "",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/tubaro1",
+      "public_url": "https:\/\/www.thingiverse.com\/tubaro1",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/3f\/d2\/f6\/b0\/d9\/funny_gino_thumb_medium.jpg",
+      "count_of_followers": 170,
+      "count_of_following": 4,
+      "count_of_designs": 12,
+      "collection_count": 4,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Buenos Aires, Argentina",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/f4\/fd\/4e\/bg_video_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-05-29T04:26:09+00:00",
+    "modified": "2017-05-29T04:26:09+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 52,
+    "is_liked": false,
+    "collect_count": 80,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 6123418,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/01\/ba\/7a\/3d\/manoton20170218-DSC_6253P.jpg",
+      "name": "manoton20170218-DSC_6253P.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/f5\/33\/c5\/22\/7b95434e4767ecc6fd702e9aaf06751f_display_small.jpg"
+        }
+      ],
+      "added": "2017-05-29T04:26:00+00:00"
+    },
+    "description": "Here is a small video of the hand working:\r\nhttps:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4\r\n\r\nThis hand was developed after 5 iterations of hands, it use no strings, it can be assembled in 15 minutes. The user doesn't need to do more strength to actioned the hand plus the strength of the elastic strings.\r\n\r\nIt can be easily repaired, the fingers have holes to put pens, or others things.\r\n\r\nFor more information, check Atomic Lab in the socials:\r\n\r\nwww.facebook.com\/theatomiclab or\r\nwww.twitter.com\/theatomiclab\r\n\r\nOr you can help Atomic Lab to keep working at http:\/\/limbs.earth\/donations\/limbs\/\r\n\r\nIf there is users and feedback for this hands, we will upload the arm version and the opposites hands.\r\n\r\nDon't forget to add velcro!",
+    "instructions": "",
+    "description_html": "<div><p>Here is a small video of the hand working:<br><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4\">https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4<\/a><\/p><p>This hand was developed after 5 iterations of hands, it use no strings, it can be assembled in 15 minutes. The user doesn't need to do more strength to actioned the hand plus the strength of the elastic strings.<\/p><p>It can be easily repaired, the fingers have holes to put pens, or others things.<\/p><p>For more information, check Atomic Lab in the socials:<\/p><p>www.facebook.com\/theatomiclab or<br>www.twitter.com\/theatomiclab<\/p><p>Or you can help Atomic Lab to keep working at <a rel=\"nofollow\" href=\"http:\/\/limbs.earth\/donations\/limbs\/\">http:\/\/limbs.earth\/donations\/limbs\/<\/a><\/p><p>If there is users and feedback for this hands, we will upload the arm version and the opposites hands.<\/p><p>Don't forget to add velcro!<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Here is a small video of the hand working:<br><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4\">https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4<\/a><\/p><p>This hand was developed after 5 iterations of hands, it use no strings, it can be assembled in 15 minutes. The user doesn't need to do more strength to actioned the hand plus the strength of the elastic strings.<\/p><p>It can be easily repaired, the fingers have holes to put pens, or others things.<\/p><p>For more information, check Atomic Lab in the socials:<\/p><p>www.facebook.com\/theatomiclab or<br>www.twitter.com\/theatomiclab<\/p><p>Or you can help Atomic Lab to keep working at <a rel=\"nofollow\" href=\"http:\/\/limbs.earth\/donations\/limbs\/\">http:\/\/limbs.earth\/donations\/limbs\/<\/a><\/p><p>If there is users and feedback for this hands, we will upload the arm version and the opposites hands.<\/p><p>Don't forget to add velcro!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Trideo<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1-&amp;gt;0.25 (No more.)&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15%-&amp;gt;35%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;ust check the best orientation to print with your printer, the files are not laiding in the bed.&lt;\/p&gt;&lt;p&gt;Use the supports for the small parts.&lt;\/p&gt;&lt;p&gt;Follow the \"Arm-o-Thon.PDF\" (English) or the Brazoton.pdf (Spanish) for assembly.&lt;\/p&gt;&lt;p&gt;Thumbscrew.stl and other \"mechanical parts\" such as connectors should be scaled down around 4%, depending on your machine quality (if its a cheap 3d, go up to 8%)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Here is a small video of the hand working:<br><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4\">https:\/\/www.youtube.com\/watch?v=V-BP-0MHJB4<\/a><\/p><p>This hand was developed after 5 iterations of hands, it use no strings, it can be assembled in 15 minutes. The user doesn't need to do more strength to actioned the hand plus the strength of the elastic strings.<\/p><p>It can be easily repaired, the fingers have holes to put pens, or others things.<\/p><p>For more information, check Atomic Lab in the socials:<\/p><p>www.facebook.com\/theatomiclab or<br>www.twitter.com\/theatomiclab<\/p><p>Or you can help Atomic Lab to keep working at <a rel=\"nofollow\" href=\"http:\/\/limbs.earth\/donations\/limbs\/\">http:\/\/limbs.earth\/donations\/limbs\/<\/a><\/p><p>If there is users and feedback for this hands, we will upload the arm version and the opposites hands.<\/p><p>Don't forget to add velcro!<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Trideo<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.1-&gt;0.25 (No more.)<\/p><\/div>",
+            "infill": "<div><p>15%-&gt;35%<\/p><\/div>",
+            "notes": "<div><p>ust check the best orientation to print with your printer, the files are not laiding in the bed.<\/p><p>Use the supports for the small parts.<\/p><p>Follow the \"Arm-o-Thon.PDF\" (English) or the Brazoton.pdf (Spanish) for assembly.<\/p><p>Thumbscrew.stl and other \"mechanical parts\" such as connectors should be scaled down around 4%, depending on your machine quality (if its a cheap 3d, go up to 8%)<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2351326\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2351326\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2351326\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2351326\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2351326\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2351326\/tags",
+    "tags": [
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1796,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "atomic lab",
+        "tag": "atomic_lab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/atomic_lab",
+        "count": 10,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/atomic_lab\/things",
+        "absolute_url": "\/tag:atomic_lab"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 690,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2351326\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1802,
+    "view_count": 3214,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Arm-o-thon.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/c2\/ac\/84\/99\/Arm-o-thon.pdf"
+        },
+        {
+          "name": "antebrazo_sup.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/c4\/c0\/06\/20\/antebrazo_sup.stl"
+        },
+        {
+          "name": "FINGERnormals.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/3d\/38\/23\/fc\/FINGERnormals.stl"
+        },
+        {
+          "name": "fingerX2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/a5\/71\/9b\/60\/fingerX2.stl"
+        },
+        {
+          "name": "Antebrazoinf.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/cd\/16\/d5\/a4\/Antebrazoinf.stl"
+        },
+        {
+          "name": "ThumbClip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/90\/9f\/40\/8a\/ThumbClip.stl"
+        },
+        {
+          "name": "FingerMechanismHolder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/c0\/e3\/c8\/31\/FingerMechanismHolder.stl"
+        },
+        {
+          "name": "thumbscrew_-_Escalarlo_5_menos_de_la_escala_.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/14\/be\/50\/47\/thumbscrew_-_Escalarlo_5_menos_de_la_escala_.stl"
+        },
+        {
+          "name": "tapax3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/6e\/d4\/3f\/47\/tapax3.stl"
+        },
+        {
+          "name": "Fingerstopper.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/96\/6e\/98\/c1\/Fingerstopper.stl"
+        },
+        {
+          "name": "FingerX1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/5f\/cf\/ce\/6d\/FingerX1.stl"
+        },
+        {
+          "name": "Palmnormals.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/cc\/42\/d4\/c6\/Palmnormals.stl"
+        },
+        {
+          "name": "AtomicLabCover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/79\/91\/bd\/6e\/AtomicLabCover.stl"
+        },
+        {
+          "name": "UpperArm_-_Palm_connector_x2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/47\/9f\/91\/0f\/UpperArm_-_Palm_connector_x2.stl"
+        },
+        {
+          "name": "THUMBnormals.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/12\/cc\/cd\/e7\/THUMBnormals.stl"
+        },
+        {
+          "name": "canoslim.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/6a\/94\/44\/00\/canoslim.stl"
+        },
+        {
+          "name": "tridente2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/8f\/f0\/80\/22\/tridente2.stl"
+        },
+        {
+          "name": "upperarmuniside.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/c7\/fa\/0c\/3d\/upperarmuniside.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "manoton20170218-DSC_6253P.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/01\/ba\/7a\/3d\/manoton20170218-DSC_6253P.jpg"
+        },
+        {
+          "name": "6d2e9d62c0d578e2cd00e26fcf15dbcb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d3\/3e\/64\/1a\/cd\/6d2e9d62c0d578e2cd00e26fcf15dbcb.png"
+        },
+        {
+          "name": "8cfbb2852c00129d9b98ed3c2d1f1b58.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/56\/84\/cd\/f8\/8cfbb2852c00129d9b98ed3c2d1f1b58.png"
+        },
+        {
+          "name": "37b5d3dc6afb817167e1a6efb9240d6e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/74\/0a\/19\/af\/37b5d3dc6afb817167e1a6efb9240d6e.png"
+        },
+        {
+          "name": "805bc7cccacae06eb2bf57fdc3a3c4f0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/81\/e5\/92\/c8\/805bc7cccacae06eb2bf57fdc3a3c4f0.png"
+        },
+        {
+          "name": "1b79a2f57c6b789c791d92e484a0a17f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/18\/8b\/5d\/b7\/30\/1b79a2f57c6b789c791d92e484a0a17f.png"
+        },
+        {
+          "name": "8db0dba878d5955ad936e5a0112115de.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ee\/6e\/15\/7d\/21\/8db0dba878d5955ad936e5a0112115de.png"
+        },
+        {
+          "name": "1532f6b26d605f7b7bd4f215c2c8e2a5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/f6\/63\/ee\/55\/1532f6b26d605f7b7bd4f215c2c8e2a5.png"
+        },
+        {
+          "name": "11a2b88b149d498634048fcd5532ad3d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f6\/16\/18\/3c\/8f\/11a2b88b149d498634048fcd5532ad3d.png"
+        },
+        {
+          "name": "055cd99c8d992bbfa93da9624e38febf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/5f\/47\/e3\/9a\/055cd99c8d992bbfa93da9624e38febf.png"
+        },
+        {
+          "name": "eb1a8793e92b076a52f9173278e1182a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/58\/0f\/1f\/d7\/eb1a8793e92b076a52f9173278e1182a.png"
+        },
+        {
+          "name": "5caa7c0ddd146ae6b0b775544871b403.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e4\/d5\/08\/c6\/08\/5caa7c0ddd146ae6b0b775544871b403.png"
+        },
+        {
+          "name": "9e1a6110efbbe873a8fc5b858ff3537f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a1\/52\/4c\/07\/0c\/9e1a6110efbbe873a8fc5b858ff3537f.png"
+        },
+        {
+          "name": "04fceb6dc16ec3f7e07791376c23f4ce.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/eb\/61\/17\/8d\/4b\/04fceb6dc16ec3f7e07791376c23f4ce.png"
+        },
+        {
+          "name": "99024e173b56405e9cda31af4351768a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/24\/cb\/db\/a4\/99024e173b56405e9cda31af4351768a.png"
+        },
+        {
+          "name": "06e50119872c9f8552adae9d20dd698a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/4d\/21\/e6\/91\/06e50119872c9f8552adae9d20dd698a.png"
+        },
+        {
+          "name": "cf3dc73ac78c5871a96496d6297324b0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/e6\/2c\/fa\/14\/cf3dc73ac78c5871a96496d6297324b0.png"
+        },
+        {
+          "name": "d83e70123400908b4bd388c949619c18.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/1a\/0e\/e8\/d0\/d83e70123400908b4bd388c949619c18.png"
+        }
+      ]
+    }
+  }
+}

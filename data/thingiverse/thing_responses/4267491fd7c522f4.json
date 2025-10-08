@@ -1,0 +1,591 @@
+{
+  "created_at": "2025-04-12T03:32:32.488919+00:00",
+  "elapsed": 0.202075,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa835dfdceb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:32 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:32 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3062522?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3062522?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3062522,
+    "name": "DIYAT Switch V4 - IMPROVED\/NEW CUSTOMIZER PARAMETERS)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3062522",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3062522",
+    "creator": {
+      "id": 1713130,
+      "name": "drewrb",
+      "first_name": "Drew",
+      "last_name": "Browning",
+      "url": "https:\/\/api.thingiverse.com\/users\/drewrb",
+      "public_url": "https:\/\/www.thingiverse.com\/drewrb",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_artist_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Chicago",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-08-24T16:07:08+00:00",
+    "modified": "2018-08-24T16:07:08+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 46,
+    "is_liked": false,
+    "collect_count": 127,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 9511919,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/92\/45\/24\/1f\/DIYAT_V4_26.png",
+      "name": "DIYAT_V4_26.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/41\/e1\/a4\/a2\/4b\/ae4517e56f0b1c8598e0e4cad660e383_display_small.jpg"
+        }
+      ],
+      "added": "2018-12-13T03:58:45+00:00"
+    },
+    "description": "### **2020 IMPROVED AND NEW CUSTOMIZER PARAMETRIC FEATURES:**\r\n* **Radial flexure width** and the concave button recess are now more proportional to outside diameter changes.\r\n* **Radial flexure thickness** is now a parameter to control activation force (Lo, Med and Hi). The default is Lo but Hi force will increase the activation force by approximately 66 grams force for the 35mm switch.\r\n* Since the **LilyPad Button Board** is available in two PCB thicknesses I added an option for **Thin or Thick**. The **default is Thin** (.8mm) as supplied by **SparkFun Electronics**. However the **Thick** setting will change the base part standoff height to accommodate a 1.6mm PCB thickness (as found on Amazon and elsewhere in the internet). \r\n* Since **Thingiverse Customizer** is still unreliable, I have posted **more STL file options** to make it easier to download the  size and button style you prefer. There are now 12 file options: **small, med and large** each with a choice of **convex or concave button** style. Of course you can still download the **OpenSCAD source file** and open it in the OpenSCAD application to use the built-in customizer for access to all the parameters.\r\n\r\n### **DIYAT Switch V4 Specifications:**\r\n* **Switching capacity:** 1 to 50 mA, 5 - 24 VDC (resistive load)\r\n* **Activation surface:** approximately 199 - 1655 square mm (smallest to largest outside diameter parameter)\r\n* **Activation force:** approximately 204 - 248 grams force (largest to smallest outside diameter parameter; measured with digital scale near center of button; less force required with larger button due to mechanical advantage)\r\n* **Activation distance:** approximately 0.25 mm (as per SparkFun Mini Pushbutton Switch - SMD specifications)\r\n\r\n**Discription**\r\nThis is a simple passive **Do It Yourself Assistive Technology** switch enclosure similar to **DIYAT V5** (https:\/\/www.thingiverse.com\/thing:3146646). The major difference is the switch used in the enclosure. This version uses a very small **\"Lilypad Button Board\"** with low activation force and capable of signal level switching, \r\n\r\nThis three part enclosure (no screws) makes a small momentary tactile button switch more durable and accessible by providing protection and a larger activation surface. Designed with **OpenSCAD**, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding). STL files for the small, medium and large sizes are provided for convenience. For other options use the **Customizer**. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses **radial flexures** for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: https:\/\/youtu.be\/2EqkSfG4u5U\r\n\r\n**Note:** the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a PCB style tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For loads up to 5 amps look at my **DIYAT Switch V5**. Although considerably larger, the microswitch used in V5 still has low activation force,\r\n\r\nThe DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. ",
+    "instructions": "",
+    "description_html": "<div><h3><strong>2020 IMPROVED AND NEW CUSTOMIZER PARAMETRIC FEATURES:<\/strong><\/h3><ul><li><strong>Radial flexure width<\/strong> and the concave button recess are now more proportional to outside diameter changes.<\/li><li><strong>Radial flexure thickness<\/strong> is now a parameter to control activation force (Lo, Med and Hi). The default is Lo but Hi force will increase the activation force by approximately 66 grams force for the 35mm switch.<\/li><li>Since the <strong>LilyPad Button Board<\/strong> is available in two PCB thicknesses I added an option for <strong>Thin or Thick<\/strong>. The <strong>default is Thin<\/strong> (.8mm) as supplied by <strong>SparkFun Electronics<\/strong>. However the <strong>Thick<\/strong> setting will change the base part standoff height to accommodate a 1.6mm PCB thickness (as found on Amazon and elsewhere in the internet). <\/li><li>Since <strong>Thingiverse Customizer<\/strong> is still unreliable, I have posted <strong>more STL file options<\/strong> to make it easier to download the  size and button style you prefer. There are now 12 file options: <strong>small, med and large<\/strong> each with a choice of <strong>convex or concave button<\/strong> style. Of course you can still download the <strong>OpenSCAD source file<\/strong> and open it in the OpenSCAD application to use the built-in customizer for access to all the parameters.<\/li><\/ul><h3><strong>DIYAT Switch V4 Specifications:<\/strong><\/h3><ul><li><strong>Switching capacity:<\/strong> 1 to 50 mA, 5 - 24 VDC (resistive load)<\/li><li><strong>Activation surface:<\/strong> approximately 199 - 1655 square mm (smallest to largest outside diameter parameter)<\/li><li><strong>Activation force:<\/strong> approximately 204 - 248 grams force (largest to smallest outside diameter parameter; measured with digital scale near center of button; less force required with larger button due to mechanical advantage)<\/li><li><strong>Activation distance:<\/strong> approximately 0.25 mm (as per SparkFun Mini Pushbutton Switch - SMD specifications)<\/li><\/ul><p><strong>Discription<\/strong><br>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V5<\/strong> (<a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a>). The major difference is the switch used in the enclosure. This version uses a very small <strong>\"Lilypad Button Board\"<\/strong> with low activation force and capable of signal level switching, <\/p><p>This three part enclosure (no screws) makes a small momentary tactile button switch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding). STL files for the small, medium and large sizes are provided for convenience. For other options use the <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p><strong>Note:<\/strong> the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a PCB style tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For loads up to 5 amps look at my <strong>DIYAT Switch V5<\/strong>. Although considerably larger, the microswitch used in V5 still has low activation force,<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><h3><strong>2020 IMPROVED AND NEW CUSTOMIZER PARAMETRIC FEATURES:<\/strong><\/h3><ul><li><strong>Radial flexure width<\/strong> and the concave button recess are now more proportional to outside diameter changes.<\/li><li><strong>Radial flexure thickness<\/strong> is now a parameter to control activation force (Lo, Med and Hi). The default is Lo but Hi force will increase the activation force by approximately 66 grams force for the 35mm switch.<\/li><li>Since the <strong>LilyPad Button Board<\/strong> is available in two PCB thicknesses I added an option for <strong>Thin or Thick<\/strong>. The <strong>default is Thin<\/strong> (.8mm) as supplied by <strong>SparkFun Electronics<\/strong>. However the <strong>Thick<\/strong> setting will change the base part standoff height to accommodate a 1.6mm PCB thickness (as found on Amazon and elsewhere in the internet). <\/li><li>Since <strong>Thingiverse Customizer<\/strong> is still unreliable, I have posted <strong>more STL file options<\/strong> to make it easier to download the  size and button style you prefer. There are now 12 file options: <strong>small, med and large<\/strong> each with a choice of <strong>convex or concave button<\/strong> style. Of course you can still download the <strong>OpenSCAD source file<\/strong> and open it in the OpenSCAD application to use the built-in customizer for access to all the parameters.<\/li><\/ul><h3><strong>DIYAT Switch V4 Specifications:<\/strong><\/h3><ul><li><strong>Switching capacity:<\/strong> 1 to 50 mA, 5 - 24 VDC (resistive load)<\/li><li><strong>Activation surface:<\/strong> approximately 199 - 1655 square mm (smallest to largest outside diameter parameter)<\/li><li><strong>Activation force:<\/strong> approximately 204 - 248 grams force (largest to smallest outside diameter parameter; measured with digital scale near center of button; less force required with larger button due to mechanical advantage)<\/li><li><strong>Activation distance:<\/strong> approximately 0.25 mm (as per SparkFun Mini Pushbutton Switch - SMD specifications)<\/li><\/ul><p><strong>Discription<\/strong><br>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V5<\/strong> (<a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a>). The major difference is the switch used in the enclosure. This version uses a very small <strong>\"Lilypad Button Board\"<\/strong> with low activation force and capable of signal level switching, <\/p><p>This three part enclosure (no screws) makes a small momentary tactile button switch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding). STL files for the small, medium and large sizes are provided for convenience. For other options use the <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p><strong>Note:<\/strong> the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a PCB style tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For loads up to 5 amps look at my <strong>DIYAT Switch V5<\/strong>. Although considerably larger, the microswitch used in V5 still has low activation force,<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Monoprice<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Select Mini<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>.175mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>22%<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Optional Strap Base<\/strong><\/p>                <div><p>The optional base for a strap is designed for a 1 inch strap such as a Velcro brand elastic cinch strap. This base can also be used to screw the DIYAT switch to a surface through the slots (M3 counter sunk screws) or to apply adhesive backed hook and loop fasteners.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/cf\/a5\/5e\/2b\/75\/DIYAT_V4_FLXR2_all-strap-screws-cap.png\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Parts needed for the DIYAT Switch:<\/strong><\/p>                <div><ul><li>Of course the <strong>3D printed enclosure parts<\/strong><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/4a\/35\/1c\/2f\/12\/DIYAT_18f3LH_35x15_all1-cv-LABEL_sm.png\" alt=\"image\"><\/p>                    <div><ul><li><strong>A \"LilyPad Button Board\"<\/strong> switch (DIYAT V4 is designed for this thin 0.8mm PCB - not all LilyPad Button Boards are this thickness)<ul><li>Recommended Vendor: Sparkfun <a rel=\"ugc nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/8776\">https:\/\/www.sparkfun.com\/products\/8776<\/a><\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/32\/2a\/24\/52\/16\/08776-01sm.png\" alt=\"image\"><\/p>                    <div><ul><li><strong>A 3.5mm phone plug cable<\/strong> (mono or stereo)<ul><li>Recommended Vendor: Adafruit <a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/03\/ea\/a5\/73\/StereoPhonePlugCable-tieless_sm.png\" alt=\"image\"><\/p>                    <div><hr><hr><h3>THE STEPS IN THIS PROJECT ARE:<\/h3><p><strong> 3D print the switch enclosure, wire the cable to the mini-microswitch, assemble the parts and test.<\/strong><\/p><p><strong>STEP 1: 3D PRINT THE SWITCH ENCLOSURE<\/strong><\/p><ul><li><strong>Material:<\/strong> PLA works well. Even though the button is designed to flex, the amount of flex is so small it doesn't crack the PLA.<\/li><li><strong>Layer resolution:<\/strong> .2mm or less<\/li><li><strong>Supports:<\/strong> not needed if printed as oriented in the 3D STL files<\/li><\/ul><p><strong>STEP 2: WIRE THE CABLE TO THE \"LILYPAD BUTTON BOARD\"<\/strong><\/p><ul><li><strong>Note that this is a stereo cable.<\/strong> There are 3 wires and 3 corresponding connections or contacts points on the connector.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/7e\/92\/60\/32\/0c\/StereoPhonePlugCable_labeled.png\" alt=\"image\"><\/p>                    <div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. <strong>Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/strong><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/64\/69\/54\/31\/95\/step2picture0.png\" alt=\"image\"><\/p>                    <div><ul><li><strong>Solder the cable to the button board as shown.<\/strong> The test clips are just to hold the button board while soldering. It doesn't matter which wire goes to which pad. Lightly tin the pads on the board first. Try not to get solder in the holes when soldering the wires. The board must fit over the posts of the enclosure base. Hold the tinned wires to the tinned pads and heat with the soldering iron. Make sure the soldered wires are not higher than the posts the board sits on or they may interfere with the button action.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/ad\/97\/15\/7c\/51\/step2picture1.PNG\" alt=\"image\"><\/p>                    <div><ul><li>The switch in the button board is a momentary, normally-open, dome PCB tactile switch.<ul><li>The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/li><\/ul><\/div>                <div><p><strong>STEP 3: ASSEMBLE THE PARTS AND TEST<\/strong><\/p><ul><li>Place the wired switch in the enclosure base as shown.<\/li><li>Seat the button board on the posts flat to ensure proper spacing when assembled.<\/li><li>Insert the button part into the retainer part as shown and thread to the base tight enough to compress the cable for strain relief.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/e0\/a4\/0f\/20\/4f\/DIYAT_18f3LH_35x15_base-all1_sm.png\" alt=\"image\"><\/p>                    <div><ul><li>A cable tie for strain relief is optional with this design. The cutout for the cable is sized to cause the cable to be compressed by the retainer when screwed down tight.<ul><li>If a cable tie is used, put it around cable just inside of the base wall to create a strain relief. <\/li><li>Make sure tension on the cable does not put tension on the switch.<\/li><\/ul><\/li><li>Testing the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. One lead to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/8a\/b7\/96\/e0\/44\/testing.PNG\" alt=\"image\"><\/p>                    <div><ul><li>When you press the switch you should hear a high pitched tone (if your meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working! If you don't hear the tone check your wiring and solder joints. As stated above make sure your solder joints do not go above the PCB post height or else there may be interference,<\/li><li>Troubleshooting the prints:<ul><li>The retainer part won't thread all the way down to the base part:<ul><li>Make sure the threads are clear of excess filament or stringing. Usually just exercising the threads will clear any roughness. If threading the parts together repeatedly does not clear the threads you can try a wire brush or sanding sticks or fine file (nail files a work well).<\/li><li>Make sure the LilyPad Button Board is down all the way on the posts. Again, excess filament may be in the way.<\/li><\/ul><\/li><li>The switch isn't clicking or continuity is always OFF or always ON when the button part is pushed:<ul><li>Make sure the button part moves freely in the retainer part hole. Clear excess filament as needed.<\/li><li>Make sure the LilyPad Button Board is matched to the associated base part (thin button board PCB needs the thin base part).<\/li><li>Make sure the LilyPad Button Board is down all the way on the posts. Clear excess filament as needed.<\/li><\/ul><\/li><li>If the switch is still not working properly you can try adjusting the resolution of your printer\/slicer software or change the _partGap variable in the OpenSCAD file.<\/li><\/ul><\/li><\/ul><\/div><h1 class=\"thing-component-header custom more-information\">MORE INFORMATION<\/h1><p class=\"detail-title\"><strong>Other AT Switches on Thingiverse:<\/strong><\/p>                <div><p>MMC60 Round Flexure Switch by Makers Making Change<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/round-flexure-switch-60mm\/\">https:\/\/www.makersmakingchange.com\/project\/round-flexure-switch-60mm\/<\/a><\/p><p>AT Switch by atmakers<br><a rel=\"ugc nofollow\" href=\"\/thing:2180151\">https:\/\/www.thingiverse.com\/thing:2180151<\/a><\/p><p>Modified AT Switch Design by khackbarth (remixed from above)<br><a rel=\"ugc nofollow\" href=\"\/thing:2507266\">https:\/\/www.thingiverse.com\/thing:2507266<\/a><\/p><p>Volksswitch - the People's AT Switch (Proof of Concept) by khackbarth<br><a rel=\"ugc nofollow\" href=\"\/thing:2870410\">https:\/\/www.thingiverse.com\/thing:2870410<\/a><\/p><p>Adaptive\/Assistive 3.5mm Button by ctag<br><a rel=\"ugc nofollow\" href=\"\/thing:1471760\">https:\/\/www.thingiverse.com\/thing:1471760<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><h3><strong>2020 IMPROVED AND NEW CUSTOMIZER PARAMETRIC FEATURES:<\/strong><\/h3><ul><li><strong>Radial flexure width<\/strong> and the concave button recess are now more proportional to outside diameter changes.<\/li><li><strong>Radial flexure thickness<\/strong> is now a parameter to control activation force (Lo, Med and Hi). The default is Lo but Hi force will increase the activation force by approximately 66 grams force for the 35mm switch.<\/li><li>Since the <strong>LilyPad Button Board<\/strong> is available in two PCB thicknesses I added an option for <strong>Thin or Thick<\/strong>. The <strong>default is Thin<\/strong> (.8mm) as supplied by <strong>SparkFun Electronics<\/strong>. However the <strong>Thick<\/strong> setting will change the base part standoff height to accommodate a 1.6mm PCB thickness (as found on Amazon and elsewhere in the internet). <\/li><li>Since <strong>Thingiverse Customizer<\/strong> is still unreliable, I have posted <strong>more STL file options<\/strong> to make it easier to download the  size and button style you prefer. There are now 12 file options: <strong>small, med and large<\/strong> each with a choice of <strong>convex or concave button<\/strong> style. Of course you can still download the <strong>OpenSCAD source file<\/strong> and open it in the OpenSCAD application to use the built-in customizer for access to all the parameters.<\/li><\/ul><h3><strong>DIYAT Switch V4 Specifications:<\/strong><\/h3><ul><li><strong>Switching capacity:<\/strong> 1 to 50 mA, 5 - 24 VDC (resistive load)<\/li><li><strong>Activation surface:<\/strong> approximately 199 - 1655 square mm (smallest to largest outside diameter parameter)<\/li><li><strong>Activation force:<\/strong> approximately 204 - 248 grams force (largest to smallest outside diameter parameter; measured with digital scale near center of button; less force required with larger button due to mechanical advantage)<\/li><li><strong>Activation distance:<\/strong> approximately 0.25 mm (as per SparkFun Mini Pushbutton Switch - SMD specifications)<\/li><\/ul><p><strong>Discription<\/strong><br>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V5<\/strong> (<a rel=\"ugc nofollow\" href=\"\/thing:3146646\">https:\/\/www.thingiverse.com\/thing:3146646<\/a>). The major difference is the switch used in the enclosure. This version uses a very small <strong>\"Lilypad Button Board\"<\/strong> with low activation force and capable of signal level switching, <\/p><p>This three part enclosure (no screws) makes a small momentary tactile button switch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding). STL files for the small, medium and large sizes are provided for convenience. For other options use the <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p><strong>Note:<\/strong> the switch used in this design is good for signal level switching (loads under 50mA) as is the case for any AT switch based on a PCB style tactile switch. For inductive loads, such as motorized toys that have been switch adapted, be aware of the load current. It can easily exceed 50mA. For loads up to 5 amps look at my <strong>DIYAT Switch V5<\/strong>. Although considerably larger, the microswitch used in V5 still has low activation force,<\/p><p>The DIYAT Switch is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Monoprice<\/p><\/div>\n",
+            "printer": "<div><p>Select Mini<\/p><\/div>\n",
+            "resolution": "<div><p>.175mm<\/p><\/div>\n",
+            "infill": "<div><p>22%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Optional Strap Base",
+            "content": "<div><p>The optional base for a strap is designed for a 1 inch strap such as a Velcro brand elastic cinch strap. This base can also be used to screw the DIYAT switch to a surface through the slots (M3 counter sunk screws) or to apply adhesive backed hook and loop fasteners.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/cf\/a5\/5e\/2b\/75\/DIYAT_V4_FLXR2_all-strap-screws-cap.png",
+            "image_id": "109877"
+          },
+          {
+            "title": "Parts needed for the DIYAT Switch:",
+            "content": "<div><ul><li>Of course the <strong>3D printed enclosure parts<\/strong><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/4a\/35\/1c\/2f\/12\/DIYAT_18f3LH_35x15_all1-cv-LABEL_sm.png",
+            "image_id": "101092"
+          },
+          {
+            "content": "<div><ul><li><strong>A \"LilyPad Button Board\"<\/strong> switch (DIYAT V4 is designed for this thin 0.8mm PCB - not all LilyPad Button Boards are this thickness)<ul><li>Recommended Vendor: Sparkfun <a rel=\"ugc nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/8776\">https:\/\/www.sparkfun.com\/products\/8776<\/a><\/li><\/ul><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/32\/2a\/24\/52\/16\/08776-01sm.png",
+            "image_id": "100592"
+          },
+          {
+            "content": "<div><ul><li><strong>A 3.5mm phone plug cable<\/strong> (mono or stereo)<ul><li>Recommended Vendor: Adafruit <a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/7e\/03\/ea\/a5\/73\/StereoPhonePlugCable-tieless_sm.png",
+            "image_id": "100603"
+          },
+          {
+            "content": "<div><hr><hr><h3>THE STEPS IN THIS PROJECT ARE:<\/h3><p><strong> 3D print the switch enclosure, wire the cable to the mini-microswitch, assemble the parts and test.<\/strong><\/p><p><strong>STEP 1: 3D PRINT THE SWITCH ENCLOSURE<\/strong><\/p><ul><li><strong>Material:<\/strong> PLA works well. Even though the button is designed to flex, the amount of flex is so small it doesn't crack the PLA.<\/li><li><strong>Layer resolution:<\/strong> .2mm or less<\/li><li><strong>Supports:<\/strong> not needed if printed as oriented in the 3D STL files<\/li><\/ul><p><strong>STEP 2: WIRE THE CABLE TO THE \"LILYPAD BUTTON BOARD\"<\/strong><\/p><ul><li><strong>Note that this is a stereo cable.<\/strong> There are 3 wires and 3 corresponding connections or contacts points on the connector.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/7e\/92\/60\/32\/0c\/StereoPhonePlugCable_labeled.png",
+            "image_id": "100594"
+          },
+          {
+            "content": "<div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. <strong>Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/strong><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/64\/69\/54\/31\/95\/step2picture0.png",
+            "image_id": "100595"
+          },
+          {
+            "content": "<div><ul><li><strong>Solder the cable to the button board as shown.<\/strong> The test clips are just to hold the button board while soldering. It doesn't matter which wire goes to which pad. Lightly tin the pads on the board first. Try not to get solder in the holes when soldering the wires. The board must fit over the posts of the enclosure base. Hold the tinned wires to the tinned pads and heat with the soldering iron. Make sure the soldered wires are not higher than the posts the board sits on or they may interfere with the button action.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/ad\/97\/15\/7c\/51\/step2picture1.PNG",
+            "image_id": "100596"
+          },
+          {
+            "content": "<div><ul><li>The switch in the button board is a momentary, normally-open, dome PCB tactile switch.<ul><li>The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/li><\/ul><\/div>\n"
+          },
+          {
+            "content": "<div><p><strong>STEP 3: ASSEMBLE THE PARTS AND TEST<\/strong><\/p><ul><li>Place the wired switch in the enclosure base as shown.<\/li><li>Seat the button board on the posts flat to ensure proper spacing when assembled.<\/li><li>Insert the button part into the retainer part as shown and thread to the base tight enough to compress the cable for strain relief.<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/e0\/a4\/0f\/20\/4f\/DIYAT_18f3LH_35x15_base-all1_sm.png",
+            "image_id": "100932"
+          },
+          {
+            "content": "<div><ul><li>A cable tie for strain relief is optional with this design. The cutout for the cable is sized to cause the cable to be compressed by the retainer when screwed down tight.<ul><li>If a cable tie is used, put it around cable just inside of the base wall to create a strain relief. <\/li><li>Make sure tension on the cable does not put tension on the switch.<\/li><\/ul><\/li><li>Testing the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. One lead to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/8a\/b7\/96\/e0\/44\/testing.PNG",
+            "image_id": "100598"
+          },
+          {
+            "content": "<div><ul><li>When you press the switch you should hear a high pitched tone (if your meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working! If you don't hear the tone check your wiring and solder joints. As stated above make sure your solder joints do not go above the PCB post height or else there may be interference,<\/li><li>Troubleshooting the prints:<ul><li>The retainer part won't thread all the way down to the base part:<ul><li>Make sure the threads are clear of excess filament or stringing. Usually just exercising the threads will clear any roughness. If threading the parts together repeatedly does not clear the threads you can try a wire brush or sanding sticks or fine file (nail files a work well).<\/li><li>Make sure the LilyPad Button Board is down all the way on the posts. Again, excess filament may be in the way.<\/li><\/ul><\/li><li>The switch isn't clicking or continuity is always OFF or always ON when the button part is pushed:<ul><li>Make sure the button part moves freely in the retainer part hole. Clear excess filament as needed.<\/li><li>Make sure the LilyPad Button Board is matched to the associated base part (thin button board PCB needs the thin base part).<\/li><li>Make sure the LilyPad Button Board is down all the way on the posts. Clear excess filament as needed.<\/li><\/ul><\/li><li>If the switch is still not working properly you can try adjusting the resolution of your printer\/slicer software or change the _partGap variable in the OpenSCAD file.<\/li><\/ul><\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "MORE INFORMATION",
+        "data": [
+          {
+            "title": "Other AT Switches on Thingiverse:",
+            "content": "<div><p>MMC60 Round Flexure Switch by Makers Making Change<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/round-flexure-switch-60mm\/\">https:\/\/www.makersmakingchange.com\/project\/round-flexure-switch-60mm\/<\/a><\/p><p>AT Switch by atmakers<br><a rel=\"ugc nofollow\" href=\"\/thing:2180151\">https:\/\/www.thingiverse.com\/thing:2180151<\/a><\/p><p>Modified AT Switch Design by khackbarth (remixed from above)<br><a rel=\"ugc nofollow\" href=\"\/thing:2507266\">https:\/\/www.thingiverse.com\/thing:2507266<\/a><\/p><p>Volksswitch - the People's AT Switch (Proof of Concept) by khackbarth<br><a rel=\"ugc nofollow\" href=\"\/thing:2870410\">https:\/\/www.thingiverse.com\/thing:2870410<\/a><\/p><p>Adaptive\/Assistive 3.5mm Button by ctag<br><a rel=\"ugc nofollow\" href=\"\/thing:1471760\">https:\/\/www.thingiverse.com\/thing:1471760<\/a><\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3062522\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3062522\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3062522\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3062522\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3062522\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3062522\/tags",
+    "tags": [
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "customizer",
+        "tag": "customizer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/customizer",
+        "count": 7152,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/customizer\/things",
+        "absolute_url": "\/tag:customizer"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3062522\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1634,
+    "view_count": 2546,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 9,
+    "make_count": 0,
+    "app_count": 2,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "DIYAT_V4_FLXR4_large-base-thn.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/24\/b7\/6e\/b8\/DIYAT_V4_FLXR4_large-base-thn.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_large-but-cc.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/5d\/87\/7e\/ff\/DIYAT_V4_FLXR4_large-but-cc.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_large-but-cv.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/5d\/19\/00\/08\/DIYAT_V4_FLXR4_large-but-cv.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_large-ret.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/ae\/16\/45\/92\/DIYAT_V4_FLXR4_large-ret.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_med-base-thn.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/64\/e4\/7a\/3e\/DIYAT_V4_FLXR4_med-base-thn.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_med-but-cc.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/08\/93\/bc\/88\/DIYAT_V4_FLXR4_med-but-cc.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_med-but-cv.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/47\/49\/b9\/9d\/DIYAT_V4_FLXR4_med-but-cv.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-base-thn.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/98\/32\/46\/34\/fb\/DIYAT_V4_FLXR4_small-base-thn.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-but-cc.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/bb\/b7\/7a\/e9\/DIYAT_V4_FLXR4_small-but-cc.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-but-cv.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/c2\/74\/23\/b6\/DIYAT_V4_FLXR4_small-but-cv.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-ret.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/5a\/71\/8e\/df\/DIYAT_V4_FLXR4_small-ret.stl"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4d_pub.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/e1\/a2\/12\/ed\/DIYAT_V4_FLXR4d_pub.scad"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_med-ret.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/f9\/5a\/14\/84\/DIYAT_V4_FLXR4_med-ret.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "DIYAT_V4_26.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/92\/45\/24\/1f\/DIYAT_V4_26.png"
+        },
+        {
+          "name": "DIYAT_V4_35d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/61\/b2\/e9\/72\/DIYAT_V4_35d.png"
+        },
+        {
+          "name": "DIYAT_18e2LH_all-cv.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/81\/d8\/ab\/90\/DIYAT_18e2LH_all-cv.png"
+        },
+        {
+          "name": "DIYAT_V4_FLXR2_all-base4strap.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/78\/ed\/fd\/3e\/DIYAT_V4_FLXR2_all-base4strap.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x15_all1-cv.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/07\/34\/c7\/92\/DIYAT_18f3LH_35x15_all1-cv.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x16_but-arc-cv.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/e6\/d1\/a6\/a0\/DIYAT_18f3LH_35x16_but-arc-cv.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x16_allx-arc-cv.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/10\/2c\/22\/36\/DIYAT_18f3LH_35x16_allx-arc-cv.png"
+        },
+        {
+          "name": "DIYAT_18e2LH_all.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/97\/49\/b5\/16\/DIYAT_18e2LH_all.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x15_all1-cc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/e4\/98\/37\/48\/DIYAT_18f3LH_35x15_all1-cc.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x16_but-arc-cc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/d5\/fa\/91\/fc\/DIYAT_18f3LH_35x16_but-arc-cc.png"
+        },
+        {
+          "name": "DIYAT_18f3LH_35x16_allx-arc-cc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/e3\/74\/f1\/f9\/DIYAT_18f3LH_35x16_allx-arc-cc.png"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-base-thn.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/cd\/a8\/09\/0a\/DIYAT_V4_FLXR4_small-base-thn.png"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-but-cv.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/3b\/d6\/f8\/0d\/DIYAT_V4_FLXR4_small-but-cv.png"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-but-cc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/e8\/82\/66\/bc\/DIYAT_V4_FLXR4_small-but-cc.png"
+        },
+        {
+          "name": "DIYAT_V4_FLXR4_small-ret.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/c7\/3e\/41\/2c\/DIYAT_V4_FLXR4_small-ret.png"
+        }
+      ]
+    }
+  }
+}

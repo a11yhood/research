@@ -1,0 +1,477 @@
+{
+  "created_at": "2025-10-08T03:28:31.844406+00:00",
+  "elapsed": 0.215848,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c75bc953023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:31 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:31 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2881400?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2881400?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2881400,
+    "name": "3D Printed Arm Socket",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2881400",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2881400",
+    "creator": {
+      "id": 184877,
+      "name": "sujana",
+      "first_name": "Sujana",
+      "last_name": "Rejab",
+      "url": "https:\/\/api.thingiverse.com\/users\/sujana",
+      "public_url": "https:\/\/www.thingiverse.com\/sujana",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e6\/84\/9b\/17\/5a\/11813524_1738028023091328_8161307085482211368_n_thumb_medium.jpg",
+      "count_of_followers": 11,
+      "count_of_following": 40,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 8,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Malaysia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/01\/2b\/8f\/fc\/0f\/11800028_1733076590253138_3472421112931905664_n_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-04-27T04:06:29+00:00",
+    "modified": "2018-04-27T04:06:29+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 9,
+    "is_liked": false,
+    "collect_count": 13,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 8064054,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/ed\/cc\/28\/fb\/Arm_Socket_C_27042018.stl",
+      "name": "754149ac8f70d9feeb9aca0931d02bf2.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2_display_small.jpg"
+        }
+      ],
+      "added": "2018-04-27T04:06:50+00:00"
+    },
+    "description": "3D printing technology has provided the medical field with over the past few years, none show as much immediate impact as the production of assistive devices.\r\n\r\nCompatible with EXIII 3D printed hand\r\n\r\nI will updates information and instruction soon\r\n\r\nDesign by: Sujana Rejab (Facebook)\r\nDrawing by: SamHoHCM (LinkedIn)\r\n\r\nMyVista Industries Pte Ltd\r\nwww.deltabionic.com\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>3D printing technology has provided the medical field with over the past few years, none show as much immediate impact as the production of assistive devices.<\/p><p>Compatible with EXIII 3D printed hand<\/p><p>I will updates information and instruction soon<\/p><p>Design by: Sujana Rejab (Facebook)<br>Drawing by: SamHoHCM (LinkedIn)<\/p><p>MyVista Industries Pte Ltd<br>www.deltabionic.com<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>3D printing technology has provided the medical field with over the past few years, none show as much immediate impact as the production of assistive devices.<\/p><p>Compatible with EXIII 3D printed hand<\/p><p>I will updates information and instruction soon<\/p><p>Design by: Sujana Rejab (Facebook)<br>Drawing by: SamHoHCM (LinkedIn)<\/p><p>MyVista Industries Pte Ltd<br>www.deltabionic.com<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>DeltaBionic<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>3D printing technology has provided the medical field with over the past few years, none show as much immediate impact as the production of assistive devices.<\/p><p>Compatible with EXIII 3D printed hand<\/p><p>I will updates information and instruction soon<\/p><p>Design by: Sujana Rejab (Facebook)<br>Drawing by: SamHoHCM (LinkedIn)<\/p><p>MyVista Industries Pte Ltd<br>www.deltabionic.com<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>DeltaBionic<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3<\/p><\/div>",
+            "infill": "<div><p>20<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2881400\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2881400\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2881400\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2881400\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2881400\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2881400\/tags",
+    "tags": [
+      {
+        "name": "3D Prosthetic",
+        "tag": "3d_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic",
+        "count": 83,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic\/things",
+        "absolute_url": "\/tag:3D_Prosthetic"
+      },
+      {
+        "name": "e-nable prosthetic enable",
+        "tag": "e-nable_prosthetic_enable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/e-nable_prosthetic_enable",
+        "count": 14,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable_prosthetic_enable\/things",
+        "absolute_url": "\/tag:e-nable_prosthetic_enable"
+      },
+      {
+        "name": "Low cost prosthetic",
+        "tag": "low_cost_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/low_cost_prosthetic",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/low_cost_prosthetic\/things",
+        "absolute_url": "\/tag:Low_cost_prosthetic"
+      },
+      {
+        "name": "Malaysia",
+        "tag": "malaysia",
+        "url": "https:\/\/api.thingiverse.com\/tags\/malaysia",
+        "count": 35,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/malaysia\/things",
+        "absolute_url": "\/tag:Malaysia"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 165,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 690,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "prosthetic arm",
+        "tag": "prosthetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+        "count": 52,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+        "absolute_url": "\/tag:prosthetic_arm"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 241,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2881400\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 479,
+    "view_count": 1144,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Arm_Socket_C_27042018.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/ed\/cc\/28\/fb\/Arm_Socket_C_27042018.stl"
+        },
+        {
+          "name": "Cover_27042018.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/9d\/83\/3b\/d9\/Cover_27042018.stl"
+        },
+        {
+          "name": "Knob.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/44\/11\/45\/ce\/Knob.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "754149ac8f70d9feeb9aca0931d02bf2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/6e\/58\/df\/bf\/754149ac8f70d9feeb9aca0931d02bf2.png"
+        },
+        {
+          "name": "e9b2cece3163624622397dbeb30f9131.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/07\/b4\/07\/89\/e9\/e9b2cece3163624622397dbeb30f9131.png"
+        },
+        {
+          "name": "7f51f3cb60b3b78290bf506c6b82ac9f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/31\/a5\/40\/78\/3a\/7f51f3cb60b3b78290bf506c6b82ac9f.png"
+        },
+        {
+          "name": "20180426_132426.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/c5\/85\/f3\/75\/20180426_132426.jpg"
+        },
+        {
+          "name": "20180426_140732.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/f9\/b2\/8e\/ab\/20180426_140732.jpg"
+        },
+        {
+          "name": "20180427_113656.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/a5\/44\/d5\/f6\/20180427_113656.jpg"
+        },
+        {
+          "name": "20180427_150456.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/c4\/ac\/8e\/e1\/20180427_150456.jpg"
+        },
+        {
+          "name": "20180427_150443.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/f8\/f5\/8d\/c7\/20180427_150443.jpg"
+        },
+        {
+          "name": "20180427_150545.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/fc\/34\/e6\/3e\/20180427_150545.jpg"
+        }
+      ]
+    }
+  }
+}

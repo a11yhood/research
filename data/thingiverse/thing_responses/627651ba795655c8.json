@@ -1,0 +1,440 @@
+{
+  "created_at": "2025-07-10T03:51:59.369225+00:00",
+  "elapsed": 0.166093,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b130be0cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:51:59 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:21:59 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2061214?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2061214?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2061214,
+    "name": "VESA Mount for Overhead Camera (IPevo HD Plus)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2061214",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2061214",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-01-25T05:09:19+00:00",
+    "modified": "2017-01-25T05:09:19+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 9,
+    "is_liked": false,
+    "collect_count": 16,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5254465,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/13\/ba\/82\/13\/Vesa2.jpeg",
+      "name": "Vesa2.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_thumb_large.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_thumb_medium.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_thumb_small.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_thumb_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_featured.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_card.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_large.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_medium.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_small.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_birdwing.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_preview_tinycard.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_display_large.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_display_medium.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e2\/9b\/89\/2a\/8f\/d6edad66d56bcddc9ce14c8c65350ca2_display_small.jpeg"
+        }
+      ],
+      "added": "2017-01-25T05:06:29+00:00"
+    },
+    "description": "This is a sleeve that holds an IPevo HD Plus camera on any VESA-compliant monitor\/TV mount.  I use it to hold the overhead camera above my desk, get additional height, and most importantly keep it out of the way when I'm not using it.\r\n\r\nThis is also part of ATMakers.org, a non-profit organization which aims to introduce Assistive Technology to High School STEM programs.  I documented the creation of this as an example of how to use Fusion 360 and will post the video here once it's edited.",
+    "instructions": "",
+    "description_html": "<div><p>This is a sleeve that holds an IPevo HD Plus camera on any VESA-compliant monitor\/TV mount.  I use it to hold the overhead camera above my desk, get additional height, and most importantly keep it out of the way when I'm not using it.<\/p><p>This is also part of ATMakers.org, a non-profit organization which aims to introduce Assistive Technology to High School STEM programs.  I documented the creation of this as an example of how to use Fusion 360 and will post the video here once it's edited.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a sleeve that holds an IPevo HD Plus camera on any VESA-compliant monitor\/TV mount.  I use it to hold the overhead camera above my desk, get additional height, and most importantly keep it out of the way when I'm not using it.<\/p><p>This is also part of ATMakers.org, a non-profit organization which aims to introduce Assistive Technology to High School STEM programs.  I documented the creation of this as an example of how to use Fusion 360 and will post the video here once it's edited.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;FlashForge Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;.20&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;This prints easily with the open end up.  With ABS, I've seen some sagging at the rounded lower corners - make sure there is adequate supports to hold them up.  If it's a problem, I will post a version with square lower corners (or just edit the F3d file!).&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>I designed this in Fusion 360<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;I will post a detailed video walking through this in the near future (join us on ATMakers.org or the accompanying Facebook Group if you want to encourage me to go faster :-)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a sleeve that holds an IPevo HD Plus camera on any VESA-compliant monitor\/TV mount.  I use it to hold the overhead camera above my desk, get additional height, and most importantly keep it out of the way when I'm not using it.<\/p><p>This is also part of ATMakers.org, a non-profit organization which aims to introduce Assistive Technology to High School STEM programs.  I documented the creation of this as an example of how to use Fusion 360 and will post the video here once it's edited.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>FlashForge Creator Pro<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>.20<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "notes": "<div><p>This prints easily with the open end up.  With ABS, I've seen some sagging at the rounded lower corners - make sure there is adequate supports to hold them up.  If it's a problem, I will post a version with square lower corners (or just edit the F3d file!).<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "I designed this in Fusion 360",
+            "content": "<div><p>I will post a detailed video walking through this in the near future (join us on ATMakers.org or the accompanying Facebook Group if you want to encourage me to go faster :-)<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2061214\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2061214\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2061214\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2061214\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2061214\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2061214\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2061214\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 372,
+    "view_count": 537,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "VESA_Mount_Overhead_Camera_Holder_v0.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/37\/a3\/19\/c8\/VESA_Mount_Overhead_Camera_Holder_v0.f3d"
+        },
+        {
+          "name": "VESA_Mount_Overhead_Camera_Holder_v0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/0d\/34\/7d\/da\/VESA_Mount_Overhead_Camera_Holder_v0.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Vesa2.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/13\/ba\/82\/13\/Vesa2.jpeg"
+        },
+        {
+          "name": "File_002_4.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/c2\/33\/4b\/d2\/File_002_4.jpeg"
+        },
+        {
+          "name": "VESA1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/ad\/9d\/29\/e1\/VESA1.jpeg"
+        },
+        {
+          "name": "Vesa10.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/92\/64\/a3\/fb\/Vesa10.jpeg"
+        },
+        {
+          "name": "Vesa8.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/44\/5e\/17\/72\/Vesa8.jpeg"
+        },
+        {
+          "name": "Vesa7.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/73\/95\/cb\/0c\/Vesa7.jpeg"
+        },
+        {
+          "name": "Vesa11.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/bb\/37\/98\/1f\/Vesa11.jpeg"
+        },
+        {
+          "name": "Vesa4.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/44\/55\/b4\/85\/Vesa4.jpeg"
+        },
+        {
+          "name": "Vesa5.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/c2\/4f\/07\/b7\/Vesa5.jpeg"
+        },
+        {
+          "name": "Vesa9.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/b4\/d8\/7f\/a3\/Vesa9.jpeg"
+        },
+        {
+          "name": "Vesa6.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/53\/94\/fb\/d5\/Vesa6.jpeg"
+        },
+        {
+          "name": "VesaPLA1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/5b\/d1\/bb\/54\/VesaPLA1.jpeg"
+        },
+        {
+          "name": "VesaPLA2.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/4c\/0e\/ae\/82\/VesaPLA2.jpeg"
+        },
+        {
+          "name": "VesaPLA3.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/7c\/db\/e8\/b7\/VesaPLA3.jpeg"
+        },
+        {
+          "name": "bf3425f8b0a04e420a4f5afde5e0707c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/ae\/61\/1e\/08\/bf3425f8b0a04e420a4f5afde5e0707c.png"
+        }
+      ]
+    }
+  }
+}

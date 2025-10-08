@@ -1,0 +1,380 @@
+{
+  "created_at": "2025-10-07T03:27:50.696064+00:00",
+  "elapsed": 0.161047,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98aa4e14ead9a468-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 07 Oct 2025 03:27:50 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 07 Oct 2025 03:57:50 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "B.cZq8wxtcsEMD9PmHUH8adHTnsGR_zusExFBXFMkVs-1759807634-1.0.1.1-o_JmbLKvmNWN36TScw9oUZNUf3sa37ADpuu_bRO6tdWnPhDzc6EpPH8QeAidx88svuqJstwZYXcQE5rTf8p7y_UHWYjFtWr9mxC3t2FqKTk",
+      "_cfuvid": "muctJpM8HPf2f2y05PUDyNOqA4mZGp6TZKC3zG9JqRk-1759807634968-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=B.cZq8wxtcsEMD9PmHUH8adHTnsGR_zusExFBXFMkVs-1759807634-1.0.1.1-o_JmbLKvmNWN36TScw9oUZNUf3sa37ADpuu_bRO6tdWnPhDzc6EpPH8QeAidx88svuqJstwZYXcQE5rTf8p7y_UHWYjFtWr9mxC3t2FqKTk; _cfuvid=muctJpM8HPf2f2y05PUDyNOqA4mZGp6TZKC3zG9JqRk-1759807634968-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3317184?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3317184?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3317184,
+    "name": "Ipad TouchChat Keyguard",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3317184",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3317184",
+    "creator": {
+      "id": 1979328,
+      "name": "Laurasaurus",
+      "first_name": "Laura",
+      "last_name": "Slotkoff",
+      "url": "https:\/\/api.thingiverse.com\/users\/Laurasaurus",
+      "public_url": "https:\/\/www.thingiverse.com\/Laurasaurus",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/73\/18\/62\/ed\/27\/b32ebeddd2159926e7e5097b926bb850_thumb_medium.jpeg",
+      "count_of_followers": 8,
+      "count_of_following": 15,
+      "count_of_designs": 1,
+      "collection_count": 11,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Philadelphia, PA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-12-27T19:55:59+00:00",
+    "modified": "2018-12-27T19:55:59+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 22,
+    "is_liked": false,
+    "collect_count": 44,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 9623576,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/31\/f0\/54\/41\/download.jpg",
+      "name": "download.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/c7\/db\/1b\/5c\/b9fb9d37bdf15a699bc071ce49baea53_display_small.jpg"
+        }
+      ],
+      "added": "2018-12-27T19:56:54+00:00"
+    },
+    "description": "This is a keyguard created inTinkercad for a young student to access TouchChat on an ipad. It is formatted to fit my student's specific ipad case, but should be pretty easy to adapt for others!",
+    "instructions": "",
+    "description_html": "<div><p>This is a keyguard created inTinkercad for a young student to access TouchChat on an ipad. It is formatted to fit my student's specific ipad case, but should be pretty easy to adapt for others!<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a keyguard created inTinkercad for a young student to access TouchChat on an ipad. It is formatted to fit my student's specific ipad case, but should be pretty easy to adapt for others!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator 2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Velcro added to the case and each of the 4 tabs.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a keyguard created inTinkercad for a young student to access TouchChat on an ipad. It is formatted to fit my student's specific ipad case, but should be pretty easy to adapt for others!<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>",
+            "printer": "<div><p>MakerBot Replicator 2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "No"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Velcro added to the case and each of the 4 tabs.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3317184\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3317184\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3317184\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3317184\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3317184\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3317184\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3317184\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 309,
+    "view_count": 1468,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Ipad_Keyguard.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/25\/88\/a9\/1e\/Ipad_Keyguard.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "download.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/31\/f0\/54\/41\/download.jpg"
+        },
+        {
+          "name": "b0de45ffe1da20bdb8be70a0a6a6cbec.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/d3\/0d\/46\/63\/b0de45ffe1da20bdb8be70a0a6a6cbec.png"
+        }
+      ]
+    }
+  }
+}

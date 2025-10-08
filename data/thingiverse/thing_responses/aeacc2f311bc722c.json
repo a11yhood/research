@@ -1,0 +1,496 @@
+{
+  "created_at": "2025-10-08T03:27:13.296118+00:00",
+  "elapsed": 0.222037,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a8ac8823023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:13 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:13 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3191057?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3191057?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3191057,
+    "name": "ERGONOMIC and USB adaptable switch \/ Contacteur adaptable ERGONOMIC et USB",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3191057",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3191057",
+    "creator": {
+      "id": 419272,
+      "name": "Pole_ergo",
+      "first_name": "Guy.E",
+      "last_name": "ergotherapeute",
+      "url": "https:\/\/api.thingiverse.com\/users\/Pole_ergo",
+      "public_url": "https:\/\/www.thingiverse.com\/Pole_ergo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/74\/1b\/45\/7b\/logo_THINGIVERSE_thumb_medium.jpg",
+      "count_of_followers": 568,
+      "count_of_following": 13,
+      "count_of_designs": 57,
+      "collection_count": 22,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Lyon, France.",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/32\/bd\/91\/a0\/5d\/mains_puzzle_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-01-17T10:51:01+00:00",
+    "modified": "2019-01-17T10:51:01+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 80,
+    "is_liked": false,
+    "collect_count": 168,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 9247569,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/4e\/c8\/36\/f0\/IMG_2265.JPG",
+      "name": "IMG_2265.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/be\/6f\/57\/d1\/2574555378a602e923474545f712ba8d_display_small.JPG"
+        }
+      ],
+      "added": "2018-11-07T12:42:53+00:00"
+    },
+    "description": "FRENCH\r\nMerci de lire l'avertissement en cliquant sur le profil.\r\n\r\nCette version ergonomique du grand contacteur propose une base inclin\u00e9e destin\u00e9e \u00e0 faciliter l'usage et permettre un positionnement sur bureau ou autres surfaces planes. Deux versions sont propos\u00e9es : avec fil ou avec le module Teensy permettant une connexion directe par USB. \r\nPour la construction, le mode d'emploi fourni pour la version V.1.0 reste valable.\r\nPour la programmation du module USB, suivre les instructions du contacteur USB : https:\/\/www.thingiverse.com\/thing:3195310\r\n\r\nLa base n'est plus compatible avec le support GoPro.\r\n\r\nPour le construire, il est possible de suivre le tutoriel fourni pour la premi\u00e8re version : https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\r\n\r\nEn version avec fil, ce contacteur g\u00e9n\u00e8re un clic gauche de souris, il doit \u00eatre utilis\u00e9 avec une interface telle que le swifty : http:\/\/www.orin.com\/access\/swifty\/\r\n\r\nPi\u00e8ces \u00e0 acheter\/parts to buy : \r\nPrise mini jack mono : https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2\r\n\r\nBouton poussoir : 12x12x10 mm : https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649\r\n\r\nENGLISH\r\nThanks to read warnings by clicking profil.\r\n\r\nThis ergonomic version of the large switch features an inclined base for easy use and positioning on desks or other flat surfaces. Two versions are available: with wire or with the Teensy module allowing a direct connection by USB. \r\nFor construction, the operating instructions provided for version V.1.0 remain valid.\r\nTo program the USB module, follow the instructions of the USB switch: https:\/\/www.thingiverse.com\/thing:3195310\r\n\r\nThe base is no longer compatible with GoPro support.\r\n\r\nTo build it, it is possible to follow the tutorial provided for the first version : https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\r\n\r\nIn wire version, to generate a left mouse click, it must be used with an interface such as swifty : http:\/\/www.orin.com\/access\/swifty\/",
+    "instructions": "",
+    "description_html": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version ergonomique du grand contacteur propose une base inclin\u00e9e destin\u00e9e \u00e0 faciliter l'usage et permettre un positionnement sur bureau ou autres surfaces planes. Deux versions sont propos\u00e9es : avec fil ou avec le module Teensy permettant une connexion directe par USB.<br>Pour la construction, le mode d'emploi fourni pour la version V.1.0 reste valable.<br>Pour la programmation du module USB, suivre les instructions du contacteur USB : <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>La base n'est plus compatible avec le support GoPro.<\/p><p>Pour le construire, il est possible de suivre le tutoriel fourni pour la premi\u00e8re version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>En version avec fil, ce contacteur g\u00e9n\u00e8re un clic gauche de souris, il doit \u00eatre utilis\u00e9 avec une interface telle que le swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><p>Pi\u00e8ces \u00e0 acheter\/parts to buy :<br>Prise mini jack mono : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2\">https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2<\/a><\/p><p>Bouton poussoir : 12x12x10 mm : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>This ergonomic version of the large switch features an inclined base for easy use and positioning on desks or other flat surfaces. Two versions are available: with wire or with the Teensy module allowing a direct connection by USB.<br>For construction, the operating instructions provided for version V.1.0 remain valid.<br>To program the USB module, follow the instructions of the USB switch: <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>The base is no longer compatible with GoPro support.<\/p><p>To build it, it is possible to follow the tutorial provided for the first version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>In wire version, to generate a left mouse click, it must be used with an interface such as swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version ergonomique du grand contacteur propose une base inclin\u00e9e destin\u00e9e \u00e0 faciliter l'usage et permettre un positionnement sur bureau ou autres surfaces planes. Deux versions sont propos\u00e9es : avec fil ou avec le module Teensy permettant une connexion directe par USB.<br>Pour la construction, le mode d'emploi fourni pour la version V.1.0 reste valable.<br>Pour la programmation du module USB, suivre les instructions du contacteur USB : <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>La base n'est plus compatible avec le support GoPro.<\/p><p>Pour le construire, il est possible de suivre le tutoriel fourni pour la premi\u00e8re version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>En version avec fil, ce contacteur g\u00e9n\u00e8re un clic gauche de souris, il doit \u00eatre utilis\u00e9 avec une interface telle que le swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><p>Pi\u00e8ces \u00e0 acheter\/parts to buy :<br>Prise mini jack mono : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2\">https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2<\/a><\/p><p>Bouton poussoir : 12x12x10 mm : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>This ergonomic version of the large switch features an inclined base for easy use and positioning on desks or other flat surfaces. Two versions are available: with wire or with the Teensy module allowing a direct connection by USB.<br>For construction, the operating instructions provided for version V.1.0 remain valid.<br>To program the USB module, follow the instructions of the USB switch: <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>The base is no longer compatible with GoPro support.<\/p><p>To build it, it is possible to follow the tutorial provided for the first version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>In wire version, to generate a left mouse click, it must be used with an interface such as swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>FRENCH<br>Merci de lire l'avertissement en cliquant sur le profil.<\/p><p>Cette version ergonomique du grand contacteur propose une base inclin\u00e9e destin\u00e9e \u00e0 faciliter l'usage et permettre un positionnement sur bureau ou autres surfaces planes. Deux versions sont propos\u00e9es : avec fil ou avec le module Teensy permettant une connexion directe par USB.<br>Pour la construction, le mode d'emploi fourni pour la version V.1.0 reste valable.<br>Pour la programmation du module USB, suivre les instructions du contacteur USB : <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>La base n'est plus compatible avec le support GoPro.<\/p><p>Pour le construire, il est possible de suivre le tutoriel fourni pour la premi\u00e8re version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>En version avec fil, ce contacteur g\u00e9n\u00e8re un clic gauche de souris, il doit \u00eatre utilis\u00e9 avec une interface telle que le swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><p>Pi\u00e8ces \u00e0 acheter\/parts to buy :<br>Prise mini jack mono : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2\">https:\/\/www.ebay.fr\/itm\/3FT-3-5mm-1-8-Male-Mini-Plug-To-Male-Monaural-Mono-Audio-Extension-Cable-Nickel\/111620401875?hash=item19fd182ad3:g:HOoAAOSwRHNVAsj2<\/a><\/p><p>Bouton poussoir : 12x12x10 mm : <a rel=\"nofollow\" href=\"https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649\">https:\/\/www.ebay.fr\/itm\/12x12x10mm-Colorful-Momentary-Push-Button-Tactile-Switch-Micro-PCB-Mounted-2-Pin\/222524916486?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649<\/a><\/p><p>ENGLISH<br>Thanks to read warnings by clicking profil.<\/p><p>This ergonomic version of the large switch features an inclined base for easy use and positioning on desks or other flat surfaces. Two versions are available: with wire or with the Teensy module allowing a direct connection by USB.<br>For construction, the operating instructions provided for version V.1.0 remain valid.<br>To program the USB module, follow the instructions of the USB switch: <a rel=\"nofollow\" href=\"\/thing:3195310\">https:\/\/www.thingiverse.com\/thing:3195310<\/a><\/p><p>The base is no longer compatible with GoPro support.<\/p><p>To build it, it is possible to follow the tutorial provided for the first version : <a rel=\"nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf\">https:\/\/cdn.thingiverse.com\/assets\/37\/ab\/2a\/86\/58\/ADAPTABLE_SWITCH_TUTORIAL_ENGLISH.pdf<\/a><\/p><p>In wire version, to generate a left mouse click, it must be used with an interface such as swifty : <a rel=\"nofollow\" href=\"http:\/\/www.orin.com\/access\/swifty\/\">http:\/\/www.orin.com\/access\/swifty\/<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3191057\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3191057\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3191057\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3191057\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3191057\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3191057\/tags",
+    "tags": [
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "button",
+        "tag": "button",
+        "url": "https:\/\/api.thingiverse.com\/tags\/button",
+        "count": 3002,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+        "absolute_url": "\/tag:button"
+      },
+      {
+        "name": "contacteur",
+        "tag": "contacteur",
+        "url": "https:\/\/api.thingiverse.com\/tags\/contacteur",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/contacteur\/things",
+        "absolute_url": "\/tag:contacteur"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 178,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 448,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "pushbutton",
+        "tag": "pushbutton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pushbutton",
+        "count": 422,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pushbutton\/things",
+        "absolute_url": "\/tag:pushbutton"
+      },
+      {
+        "name": "switch",
+        "tag": "switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch",
+        "count": 5144,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch\/things",
+        "absolute_url": "\/tag:switch"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      },
+      {
+        "name": "teensy",
+        "tag": "teensy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/teensy",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/teensy\/things",
+        "absolute_url": "\/tag:teensy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3191057\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 640,
+    "view_count": 2303,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "BIG_SWITCH_CAP.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/f9\/e8\/89\/48\/BIG_SWITCH_CAP.stl"
+        },
+        {
+          "name": "BIG_SWITCH_BUTTON.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/cc\/21\/b9\/c2\/BIG_SWITCH_BUTTON.stl"
+        },
+        {
+          "name": "LARGE_SWITCH_BASE_ERGO.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/47\/83\/8d\/72\/LARGE_SWITCH_BASE_ERGO.stl"
+        },
+        {
+          "name": "LARGE_SWITCH_BASE_ERGO_USB.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/16\/96\/b9\/00\/LARGE_SWITCH_BASE_ERGO_USB.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2265.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/4e\/c8\/36\/f0\/IMG_2265.JPG"
+        },
+        {
+          "name": "IMG_2257.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/00\/48\/cd\/b6\/IMG_2257.JPG"
+        },
+        {
+          "name": "IMG_2259.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/31\/4b\/55\/8b\/IMG_2259.JPG"
+        },
+        {
+          "name": "IMG_2256.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/24\/a7\/78\/05\/IMG_2256.JPG"
+        },
+        {
+          "name": "IMG_2262.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/36\/f3\/6f\/83\/IMG_2262.JPG"
+        },
+        {
+          "name": "ba14cd37332976c210a29b604ae8159e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/78\/97\/95\/22\/ba14cd37332976c210a29b604ae8159e.png"
+        },
+        {
+          "name": "f9270a97a1621f462281792be80186ae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/96\/d4\/a0\/46\/51\/f9270a97a1621f462281792be80186ae.png"
+        },
+        {
+          "name": "8ea88fdfaf6abfae5bca93bacf937182.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/02\/e4\/0b\/b6\/8ea88fdfaf6abfae5bca93bacf937182.png"
+        },
+        {
+          "name": "2c9a308004a19621836d8e373281c8f3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/b7\/f1\/d0\/de\/2c9a308004a19621836d8e373281c8f3.png"
+        }
+      ]
+    }
+  }
+}

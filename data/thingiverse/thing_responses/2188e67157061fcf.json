@@ -1,0 +1,422 @@
+{
+  "created_at": "2025-10-08T03:27:45.382648+00:00",
+  "elapsed": 0.237355,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b533f863023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:45 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:45 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3221145?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3221145?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3221145,
+    "name": "Measuring Stars",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3221145",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3221145",
+    "creator": {
+      "id": 2059375,
+      "name": "Volksswitch",
+      "first_name": "Volksswitch",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+      "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+      "count_of_followers": 64,
+      "count_of_following": 2,
+      "count_of_designs": 33,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Denver, Colorado, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-11-16T22:53:17+00:00",
+    "modified": "2018-11-16T22:53:17+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 79,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 9317667,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/d9\/c5\/e5\/f7\/measuring_stars.JPG",
+      "name": "measuring_stars.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/94\/5d\/6a\/a8\/9cc32d4f4807186c69ef42aa703c6ebe_display_small.JPG"
+        }
+      ],
+      "added": "2018-11-16T22:53:04+00:00"
+    },
+    "description": "Sometimes you just need to measure the diameter of someone's thumb, finger, or toe - and account for the size of a knuckle.\u00a0 These ring stars cover all diameters from 10 mm to 29 mm.\r\n\r\nAttempt to slip a ring over the individual's finger, thumb or toe - up to or past a selected knuckle.\u00a0 If the ring is too small, rotate the star counter clockwise and try again.\u00a0 If the ring is too large... well, you get the point.\u00a0 When you fine a ring size that fits just right, add the number in the center of the star to the number at the base of each branch.\u00a0 That total is the diameter of the best ring in millimeters.\r\n\r\nThe stars come in two thicknesses - 3 mm and 10 mm.  The 3 mm rings are most appropriate if your hand is typically contracted.  In that event you'll need a thinner ring as you turn corners and pass over your knuckles.  The 10 mm rings are most appropriate if your hand is typically extended.  A 10 mm ring will come closer to matching the device that you'll end up putting on your fingers and will better represent the stability that a thicker ring will provide and the amount of friction that the additional surface area will impose as you try to slip it on and off your finger.\r\n\r\nYou can learn more about these measuring rings - by going here: https:\/\/wp.me\/P9evBA-hR\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Sometimes you just need to measure the diameter of someone's thumb, finger, or toe - and account for the size of a knuckle.\u00a0 These ring stars cover all diameters from 10 mm to 29 mm.<\/p><p>Attempt to slip a ring over the individual's finger, thumb or toe - up to or past a selected knuckle.\u00a0 If the ring is too small, rotate the star counter clockwise and try again.\u00a0 If the ring is too large... well, you get the point.\u00a0 When you fine a ring size that fits just right, add the number in the center of the star to the number at the base of each branch.\u00a0 That total is the diameter of the best ring in millimeters.<\/p><p>The stars come in two thicknesses - 3 mm and 10 mm.  The 3 mm rings are most appropriate if your hand is typically contracted.  In that event you'll need a thinner ring as you turn corners and pass over your knuckles.  The 10 mm rings are most appropriate if your hand is typically extended.  A 10 mm ring will come closer to matching the device that you'll end up putting on your fingers and will better represent the stability that a thicker ring will provide and the amount of friction that the additional surface area will impose as you try to slip it on and off your finger.<\/p><p>You can learn more about these measuring rings - by going here: <a rel=\"nofollow\" href=\"https:\/\/wp.me\/P9evBA-hR\">https:\/\/wp.me\/P9evBA-hR<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Sometimes you just need to measure the diameter of someone's thumb, finger, or toe - and account for the size of a knuckle.\u00a0 These ring stars cover all diameters from 10 mm to 29 mm.<\/p><p>Attempt to slip a ring over the individual's finger, thumb or toe - up to or past a selected knuckle.\u00a0 If the ring is too small, rotate the star counter clockwise and try again.\u00a0 If the ring is too large... well, you get the point.\u00a0 When you fine a ring size that fits just right, add the number in the center of the star to the number at the base of each branch.\u00a0 That total is the diameter of the best ring in millimeters.<\/p><p>The stars come in two thicknesses - 3 mm and 10 mm.  The 3 mm rings are most appropriate if your hand is typically contracted.  In that event you'll need a thinner ring as you turn corners and pass over your knuckles.  The 10 mm rings are most appropriate if your hand is typically extended.  A 10 mm ring will come closer to matching the device that you'll end up putting on your fingers and will better represent the stability that a thicker ring will provide and the amount of friction that the additional surface area will impose as you try to slip it on and off your finger.<\/p><p>You can learn more about these measuring rings - by going here: <a rel=\"nofollow\" href=\"https:\/\/wp.me\/P9evBA-hR\">https:\/\/wp.me\/P9evBA-hR<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MK3<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Prusa i3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.15 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Sometimes you just need to measure the diameter of someone's thumb, finger, or toe - and account for the size of a knuckle.\u00a0 These ring stars cover all diameters from 10 mm to 29 mm.<\/p><p>Attempt to slip a ring over the individual's finger, thumb or toe - up to or past a selected knuckle.\u00a0 If the ring is too small, rotate the star counter clockwise and try again.\u00a0 If the ring is too large... well, you get the point.\u00a0 When you fine a ring size that fits just right, add the number in the center of the star to the number at the base of each branch.\u00a0 That total is the diameter of the best ring in millimeters.<\/p><p>The stars come in two thicknesses - 3 mm and 10 mm.  The 3 mm rings are most appropriate if your hand is typically contracted.  In that event you'll need a thinner ring as you turn corners and pass over your knuckles.  The 10 mm rings are most appropriate if your hand is typically extended.  A 10 mm ring will come closer to matching the device that you'll end up putting on your fingers and will better represent the stability that a thicker ring will provide and the amount of friction that the additional surface area will impose as you try to slip it on and off your finger.<\/p><p>You can learn more about these measuring rings - by going here: <a rel=\"nofollow\" href=\"https:\/\/wp.me\/P9evBA-hR\">https:\/\/wp.me\/P9evBA-hR<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MK3<\/p><\/div>",
+            "printer": "<div><p>Prusa i3<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.15 mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3221145\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3221145\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3221145\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3221145\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3221145\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3221145\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3221145\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 682,
+    "view_count": 948,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "measuring_star_10-10.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/22\/19\/e1\/43\/measuring_star_10-10.stl"
+        },
+        {
+          "name": "measuring_star_20-10.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/65\/c8\/b7\/bd\/measuring_star_20-10.stl"
+        },
+        {
+          "name": "measuring_star_10-3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/10\/69\/c9\/53\/measuring_star_10-3.stl"
+        },
+        {
+          "name": "measuring_star_20-3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/b8\/e1\/52\/00\/measuring_star_20-3.stl"
+        },
+        {
+          "name": "measuring_star.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/2f\/0c\/73\/74\/measuring_star.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "measuring_stars.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/d9\/c5\/e5\/f7\/measuring_stars.JPG"
+        },
+        {
+          "name": "measuring_star_20-10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/1f\/c6\/a2\/3f\/measuring_star_20-10.png"
+        },
+        {
+          "name": "measuring_star_10-10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/1e\/48\/51\/52\/measuring_star_10-10.png"
+        },
+        {
+          "name": "measuring_star_10-3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/5a\/f0\/fc\/9c\/measuring_star_10-3.png"
+        },
+        {
+          "name": "measuring_star_20-3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/a7\/4d\/41\/ac\/measuring_star_20-3.png"
+        }
+      ]
+    }
+  }
+}

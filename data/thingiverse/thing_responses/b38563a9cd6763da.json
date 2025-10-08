@@ -1,0 +1,532 @@
+{
+  "created_at": "2025-04-12T03:32:38.425493+00:00",
+  "elapsed": 0.194743,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa85b0a68eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1523525?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1523525?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1523525,
+    "name": "Porta vasos\/Drink holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1523525",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1523525",
+    "creator": {
+      "id": 625226,
+      "name": "ceapat",
+      "first_name": "Ceapat",
+      "last_name": "Imserso",
+      "url": "https:\/\/api.thingiverse.com\/users\/ceapat",
+      "public_url": "https:\/\/www.thingiverse.com\/ceapat",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/9a\/5a\/b1\/5e\/imgp0140-web_thumb_medium.jpg",
+      "count_of_followers": 256,
+      "count_of_following": 42,
+      "count_of_designs": 62,
+      "collection_count": 13,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Espa\u00f1a (Madrid)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/26\/d1\/4f\/d3\/IMG_1957_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-04-27T10:24:15+00:00",
+    "modified": "2016-04-27T10:24:15+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 194,
+    "is_liked": false,
+    "collect_count": 382,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 3760265,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/d1\/97\/1c\/09\/IMG_2061.JPG",
+      "name": "IMG_2061.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/64\/d8\/65\/4e\/6cb25e108bfe716bb86b976497a2771d_display_small.JPG"
+        }
+      ],
+      "added": "2016-04-27T10:23:32+00:00"
+    },
+    "description": "Drink holder for poeple with disabilities\r\n\r\n[Spanish] Pinza de mano con porta vasos. Dise\u00f1ada para ser utilizada por personas con problemas para poder asir o mantener un objeto con los dedos.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Drink holder for poeple with disabilities<\/p><p>[Spanish] Pinza de mano con porta vasos. Dise&ntilde;ada para ser utilizada por personas con problemas para poder asir o mantener un objeto con los dedos.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Drink holder for poeple with disabilities<\/p><p>[Spanish] Pinza de mano con porta vasos. Dise&ntilde;ada para ser utilizada por personas con problemas para poder asir o mantener un objeto con los dedos.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Drink holder for poeple with disabilities<\/p><p>[Spanish] Pinza de mano con porta vasos. Dise&ntilde;ada para ser utilizada por personas con problemas para poder asir o mantener un objeto con los dedos.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1523525\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1523525\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1523525\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1523525\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1523525\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1523525\/tags",
+    "tags": [
+      {
+        "name": "Accesibilidad",
+        "tag": "accesibilidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad",
+        "count": 87,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad\/things",
+        "absolute_url": "\/tag:Accesibilidad"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "ceapat",
+        "tag": "ceapat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ceapat",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ceapat\/things",
+        "absolute_url": "\/tag:ceapat"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "glass",
+        "tag": "glass",
+        "url": "https:\/\/api.thingiverse.com\/tags\/glass",
+        "count": 2073,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/glass\/things",
+        "absolute_url": "\/tag:glass"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 43020,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "Imserso",
+        "tag": "imserso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/imserso",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/imserso\/things",
+        "absolute_url": "\/tag:Imserso"
+      },
+      {
+        "name": "mano",
+        "tag": "mano",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mano",
+        "count": 76,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mano\/things",
+        "absolute_url": "\/tag:mano"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "pinza",
+        "tag": "pinza",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pinza",
+        "count": 52,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pinza\/things",
+        "absolute_url": "\/tag:pinza"
+      },
+      {
+        "name": "pinza de mano",
+        "tag": "pinza_de_mano",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pinza_de_mano",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pinza_de_mano\/things",
+        "absolute_url": "\/tag:pinza_de_mano"
+      },
+      {
+        "name": "vaso",
+        "tag": "vaso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/vaso",
+        "count": 133,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/vaso\/things",
+        "absolute_url": "\/tag:vaso"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1523525\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1656,
+    "view_count": 6237,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "pinzamanovertical.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/7a\/cf\/9a\/5c\/pinzamanovertical.stl"
+        },
+        {
+          "name": "soportevasocerrado.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/a7\/61\/64\/b4\/soportevasocerrado.stl"
+        },
+        {
+          "name": "soportevasoabiertoremache.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/dc\/d0\/5c\/47\/soportevasoabiertoremache.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2061.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/d1\/97\/1c\/09\/IMG_2061.JPG"
+        },
+        {
+          "name": "IMG_2062.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/e3\/8d\/70\/a8\/IMG_2062.JPG"
+        },
+        {
+          "name": "IMG_2064.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/af\/69\/12\/bb\/IMG_2064.JPG"
+        },
+        {
+          "name": "IMG_2068.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/4b\/49\/06\/d7\/IMG_2068.JPG"
+        },
+        {
+          "name": "83e5ed2aa48c4cdc573fc5bb42468452.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/88\/43\/70\/51\/83e5ed2aa48c4cdc573fc5bb42468452.png"
+        },
+        {
+          "name": "9618abc636b24690ce0ab6340f5757bc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/70\/af\/54\/e2\/5b\/9618abc636b24690ce0ab6340f5757bc.png"
+        },
+        {
+          "name": "e62191a22d4d74fedbb6c5fc13c2d629.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/61\/f2\/86\/f7\/e62191a22d4d74fedbb6c5fc13c2d629.png"
+        }
+      ]
+    }
+  }
+}

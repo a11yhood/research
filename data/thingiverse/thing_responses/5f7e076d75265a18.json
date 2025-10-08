@@ -1,0 +1,408 @@
+{
+  "created_at": "2025-07-15T03:58:45.519539+00:00",
+  "elapsed": 0.109644,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657ddcf16f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:45 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:45 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5322716?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5322716?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5322716,
+    "name": "Lever for car keys v1",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/32\/1b\/3c\/4f\/94\/large_display_Palanca_llave_auto_V1.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/5322716",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5322716",
+    "creator": {
+      "id": 5524083,
+      "name": "OlinRobotics",
+      "first_name": "Jos\u00e9",
+      "last_name": "Olin",
+      "url": "https:\/\/api.thingiverse.com\/users\/OlinRobotics",
+      "public_url": "https:\/\/www.thingiverse.com\/OlinRobotics",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/d7\/18\/f2\/d0\/14\/bitmap2.png",
+      "count_of_followers": 0,
+      "count_of_following": 0,
+      "count_of_designs": 2,
+      "collection_count": 11,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/1a\/97\/db\/4b\/61\/Logotipo_Amarillo_Gris_FondoNegro.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2022-03-19T02:39:11+00:00",
+    "modified": "2022-03-19T02:39:11+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 1,
+    "is_liked": false,
+    "collect_count": 4,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 17086864,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/50\/7f\/d5\/90\/Palanca_llave_auto_V1.STL",
+      "name": "Palanca_llave_auto_V1.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/31\/11\/ed\/7a\/large_thumb_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/e3\/ec\/e5\/a1\/medium_thumb_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/af\/23\/fa\/bc\/small_thumb_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/c6\/32\/b3\/01\/tiny_thumb_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/c7\/cd\/08\/38\/featured_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/e7\/3d\/b3\/d2\/card_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/45\/e0\/77\/39\/large_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/84\/bb\/00\/7c\/medium_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/0a\/4b\/af\/99\/small_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/ba\/ea\/59\/62\/birdwing_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/45\/54\/f1\/90\/tiny_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/32\/ba\/63\/ff\/tinycard_preview_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/1b\/3c\/4f\/94\/large_display_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/59\/84\/38\/61\/medium_display_Palanca_llave_auto_V1.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/ae\/bc\/b9\/54\/small_display_Palanca_llave_auto_V1.png"
+        }
+      ],
+      "added": "2022-03-19T02:39:35+00:00"
+    },
+    "description": "Lever to make it easier to turn the car keys.\r\n\r\nThis is the long lever version.\r\n\r\nAt Olin Robotics we design assistive technology for people with physical challenges.\r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Lever to make it easier to turn the car keys.<\/p><p>This is the long lever version.<\/p><p>At Olin Robotics we design assistive technology for people with physical challenges.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Lever to make it easier to turn the car keys.<\/p><p>This is the long lever version.<\/p><p>At Olin Robotics we design assistive technology for people with physical challenges.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Lever to make it easier to turn the car keys.<\/p><p>This is the long lever version.<\/p><p>At Olin Robotics we design assistive technology for people with physical challenges.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "GNU - GPL",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5322716\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5322716\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5322716\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5322716\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5322716\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5322716\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "car keys",
+        "tag": "car_keys",
+        "url": "https:\/\/api.thingiverse.com\/tags\/car_keys",
+        "count": 155,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/car_keys\/things",
+        "absolute_url": "\/tag:car_keys"
+      },
+      {
+        "name": "lever",
+        "tag": "lever",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lever",
+        "count": 703,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lever\/things",
+        "absolute_url": "\/tag:lever"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5322716\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 227,
+    "view_count": 158,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Palanca_llave_auto_V1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/50\/7f\/d5\/90\/Palanca_llave_auto_V1.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Palanca_llave_auto_V1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/fc\/a1\/98\/53\/Palanca_llave_auto_V1.png"
+        },
+        {
+          "name": "Palanca_llave_auto_V1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/9c\/55\/f8\/fe\/Palanca_llave_auto_V1.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "created_at": "2025-10-08T03:27:52.177749+00:00",
+  "elapsed": 0.240773,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b7d9f883023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:52 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:52 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5206222?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5206222?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5206222,
+    "name": "Customizable, 3D-Printable Book Stand for Table Attachment ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/ac\/bd\/00\/2b\/2d\/large_display_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5206222",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5206222",
+    "creator": {
+      "id": 5468423,
+      "name": "aplatte0",
+      "first_name": "Aim\u00e9e",
+      "last_name": "Platte",
+      "url": "https:\/\/api.thingiverse.com\/users\/aplatte0",
+      "public_url": "https:\/\/www.thingiverse.com\/aplatte0",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 1,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2022-01-19T15:35:03+00:00",
+    "modified": "2022-01-19T15:35:03+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 30,
+    "is_liked": false,
+    "collect_count": 49,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 16679291,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/b5\/a4\/6f\/1a\/WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg",
+      "name": "WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/61\/bd\/87\/50\/large_thumb_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/d4\/63\/4d\/b8\/medium_thumb_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/b7\/b3\/db\/a0\/small_thumb_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/ae\/a8\/32\/b1\/tiny_thumb_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/4a\/6e\/92\/05\/featured_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/ce\/78\/75\/bf\/card_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/c5\/8b\/bc\/a8\/large_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/96\/05\/1e\/41\/medium_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/f0\/e8\/3c\/fa\/small_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/de\/d0\/b3\/b5\/birdwing_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/4c\/90\/e0\/5a\/tiny_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/f1\/b2\/83\/e4\/tinycard_preview_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/bd\/00\/2b\/2d\/large_display_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/1b\/01\/66\/1b\/medium_display_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/65\/cf\/32\/e8\/small_display_WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        }
+      ],
+      "added": "2022-01-21T11:34:08+00:00"
+    },
+    "description": "**Problem**: \r\nAssistive technologies are often relatively large and take up too much space on individual desks in school. Additional materials, that are necessary for working in class, such as books and worksheets, no longer find room on the table or are too far away. Traditional book stands take up work surface themselves (standing on the table top), are too far away from the eyes of the learner (eg. placed behind the laptop) or are too expensive.\r\n\r\n**Our wallet-friendly solution**:\r\nA flexible book stand that can be attached to the side of the table and customized to meet the learners' needs allows for better visibility of materials and expands learners' work surface.\r\n\r\n**Further Customizing**: #educational_twist\r\nDesign individualized magnets with Tinkercad with your students (see further below). \r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p><strong>Problem<\/strong>:<br>Assistive technologies are often relatively large and take up too much space on individual desks in school. Additional materials, that are necessary for working in class, such as books and worksheets, no longer find room on the table or are too far away. Traditional book stands take up work surface themselves (standing on the table top), are too far away from the eyes of the learner (eg. placed behind the laptop) or are too expensive.<\/p><p><strong>Our wallet-friendly solution<\/strong>:<br>A flexible book stand that can be attached to the side of the table and customized to meet the learners' needs allows for better visibility of materials and expands learners' work surface.<\/p><p><strong>Further Customizing<\/strong>: #educational_twist<br>Design individualized magnets with Tinkercad with your students (see further below). <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p><strong>Problem<\/strong>:<br>Assistive technologies are often relatively large and take up too much space on individual desks in school. Additional materials, that are necessary for working in class, such as books and worksheets, no longer find room on the table or are too far away. Traditional book stands take up work surface themselves (standing on the table top), are too far away from the eyes of the learner (eg. placed behind the laptop) or are too expensive.<\/p><p><strong>Our wallet-friendly solution<\/strong>:<br>A flexible book stand that can be attached to the side of the table and customized to meet the learners' needs allows for better visibility of materials and expands learners' work surface.<\/p><p><strong>Further Customizing<\/strong>: #educational_twist<br>Design individualized magnets with Tinkercad with your students (see further below). <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p><a rel=\"nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\">Ultimaker 3<\/a><\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20 %<\/p><\/div>                                                        <strong>Filament:<\/strong> n.A.  PLA                    customizable<h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Additional Materials<\/strong><\/p>                <div><ul><li>Flexible mic stand with built-in 5\/8\" screw (<a rel=\"nofollow\" href=\"https:\/\/www.musicstore.de\/de_DE\/EUR\/Tie-Studio-Flexible-Mic-Stand\/art-REC0014203-000\">https:\/\/www.musicstore.de\/de_DE\/EUR\/Tie-Studio-Flexible-Mic-Stand\/art-REC0014203-000<\/a>)<\/li><li>Wheeled nut with 5\/8\" reducing thread (<a rel=\"nofollow\" href=\"https:\/\/www.musicstore.de\/de_DE\/EUR\/Koenig-Meyer-217-Reduziergewinde-geraendelt\/art-ACC0004983-000\">https:\/\/www.musicstore.de\/de_DE\/EUR\/Koenig-Meyer-217-Reduziergewinde-geraendelt\/art-ACC0004983-000<\/a>)<\/li><li>Screws 4mm diameter, about 1 cm long  <\/li><li>Butterfly nuts (depending on the screws)<\/li><li>Self-adhesive metal tape (e.g. <a rel=\"nofollow\" href=\"https:\/\/rb.gy\/vlxkjs\">https:\/\/rb.gy\/vlxkjs<\/a>) <\/li><li>Strong thin magnets (to glue behind the self-designed magnets)<\/li><li>Instant glue<\/li><li>Metal rod 4 mm diameter, 30 cm long<\/li><\/ul><\/div>                <p class=\"detail-title\"><strong>Instructions<\/strong><\/p>                <div><ol><li>Remove all supports and drill out holes.<\/li><li>Screw in the side extensions (two on each side) in the outer holes of the book stand. Tighten the screw so far that the extensions can be adjusted with some force. If necessary, place a flat washer between the screws and the nut to increase the tension.<\/li><li>Cut out the shape of the metal tape and stick it to the extensions as well as the middle part of the book stand.<\/li><li>Glue the two screws that are supposed to hold the book mounts in place and let dry. When dry, fasten the book mounts with the butterfly nuts. The position of the book mounts can be adjusted depending on the book hight or left. If papers are supposed to be held, they can be secured by magnets on the various metallic surfaces applied in step 3.<\/li><li>Glue the wheeled nut with 5\/8\" reducing thread to the back plate of the 3D book stand.<\/li><li>After waiting until the two parts are securely fixed to each other, screw it into the mic stand.<\/li><li>Fasten the mic stand to a table and adjust the mic stand to the required position.<\/li><li>For additional simplification of use, replace the nut at the top of the mic stand with a butterfly nut as well.<\/li><li>Stick a metal rod through the holes in the front and curl the endings up. <\/li><\/ol><\/div>                <p class=\"detail-title\"><strong>Developmental Potential<\/strong><\/p>                <div><ul><li>Instead of a 4 mm metal rod, better use a thicker one, so the rod has more resistance to hold down the pages.<\/li><li>The Butterfly nuts at the back to fasten the book mounts are quite small and fiddly. It would be an idea to mould a little ball with modelling clay (FIMO) and press the butterfly nut inside, so they are easier to handle. <\/li><li>The predetermined breaking point of the peace is the glued connection between the wheeled nut with reducing thread and the plate of the 3D object. To reduce the probability of breaking, we suggest either melting the plastic and the metal together, or a designing a plate that can be set in a recess in the back plate that surrounds the nut, so the load is spread on a greater surface. <\/li><\/ul><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p><strong>Problem<\/strong>:<br>Assistive technologies are often relatively large and take up too much space on individual desks in school. Additional materials, that are necessary for working in class, such as books and worksheets, no longer find room on the table or are too far away. Traditional book stands take up work surface themselves (standing on the table top), are too far away from the eyes of the learner (eg. placed behind the laptop) or are too expensive.<\/p><p><strong>Our wallet-friendly solution<\/strong>:<br>A flexible book stand that can be attached to the side of the table and customized to meet the learners' needs allows for better visibility of materials and expands learners' work surface.<\/p><p><strong>Further Customizing<\/strong>: #educational_twist<br>Design individualized magnets with Tinkercad with your students (see further below). <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>",
+            "printer": "<div><p>Ultimaker 3<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "infill": "<div><p>20 %<\/p><\/div>",
+            "filament_brand": "<div><p>n.A. <\/p><\/div>",
+            "filament_color": "<div><p>customizable <\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Additional Materials",
+            "content": "<div><ul><li>Flexible mic stand with built-in 5\/8\" screw (<a rel=\"nofollow\" href=\"https:\/\/www.musicstore.de\/de_DE\/EUR\/Tie-Studio-Flexible-Mic-Stand\/art-REC0014203-000\">https:\/\/www.musicstore.de\/de_DE\/EUR\/Tie-Studio-Flexible-Mic-Stand\/art-REC0014203-000<\/a>)<\/li><li>Wheeled nut with 5\/8\" reducing thread (<a rel=\"nofollow\" href=\"https:\/\/www.musicstore.de\/de_DE\/EUR\/Koenig-Meyer-217-Reduziergewinde-geraendelt\/art-ACC0004983-000\">https:\/\/www.musicstore.de\/de_DE\/EUR\/Koenig-Meyer-217-Reduziergewinde-geraendelt\/art-ACC0004983-000<\/a>)<\/li><li>Screws 4mm diameter, about 1 cm long  <\/li><li>Butterfly nuts (depending on the screws)<\/li><li>Self-adhesive metal tape (e.g. <a rel=\"nofollow\" href=\"https:\/\/rb.gy\/vlxkjs\">https:\/\/rb.gy\/vlxkjs<\/a>) <\/li><li>Strong thin magnets (to glue behind the self-designed magnets)<\/li><li>Instant glue<\/li><li>Metal rod 4 mm diameter, 30 cm long<\/li><\/ul><\/div>"
+          },
+          {
+            "title": "Instructions",
+            "content": "<div><ol><li>Remove all supports and drill out holes.<\/li><li>Screw in the side extensions (two on each side) in the outer holes of the book stand. Tighten the screw so far that the extensions can be adjusted with some force. If necessary, place a flat washer between the screws and the nut to increase the tension.<\/li><li>Cut out the shape of the metal tape and stick it to the extensions as well as the middle part of the book stand.<\/li><li>Glue the two screws that are supposed to hold the book mounts in place and let dry. When dry, fasten the book mounts with the butterfly nuts. The position of the book mounts can be adjusted depending on the book hight or left. If papers are supposed to be held, they can be secured by magnets on the various metallic surfaces applied in step 3.<\/li><li>Glue the wheeled nut with 5\/8\" reducing thread to the back plate of the 3D book stand.<\/li><li>After waiting until the two parts are securely fixed to each other, screw it into the mic stand.<\/li><li>Fasten the mic stand to a table and adjust the mic stand to the required position.<\/li><li>For additional simplification of use, replace the nut at the top of the mic stand with a butterfly nut as well.<\/li><li>Stick a metal rod through the holes in the front and curl the endings up. <\/li><\/ol><\/div>"
+          },
+          {
+            "title": "Developmental Potential",
+            "content": "<div><ul><li>Instead of a 4 mm metal rod, better use a thicker one, so the rod has more resistance to hold down the pages.<\/li><li>The Butterfly nuts at the back to fasten the book mounts are quite small and fiddly. It would be an idea to mould a little ball with modelling clay (FIMO) and press the butterfly nut inside, so they are easier to handle. <\/li><li>The predetermined breaking point of the peace is the glued connection between the wheeled nut with reducing thread and the plate of the 3D object. To reduce the probability of breaking, we suggest either melting the plastic and the metal together, or a designing a plate that can be set in a recess in the back plate that surrounds the nut, so the load is spread on a greater surface. <\/li><\/ul><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-title\"><strong>Disclaimer<\/strong><\/p>\n                <div><p>This lesson idea does not meet any official requirements. The idea as well as the whole 3D project was created by students of special education from the university of Cologne. <\/p><\/div>\n                <p class=\"detail-title\"><strong>Individual magnet design with Tinkercad<\/strong><\/p>\n                <div><p>Learners design and print their own magnets for the book stand as part of a 3D printing class.<\/p><\/div>\n                <p class=\"detail-title\"><strong>Objective<\/strong><\/p>\n                <div><ul><li>\n<p>Promotion of the aspect \"media production and presentation\" (Medienberatung NRW, 2017) according to the teaching of digital competencies (KMK, 2016).<\/p>\n<\/li>\n<li>\n<p>Space for free personality development and expression: Everyone has the right to free development of his personality, insofar as he does not violate the rights of others and does not violate the constitutional order or the moral law (Grundgesetz, Art. 2, Abs. 1).<\/p>\n<\/li>\n<li>Possibility of self-realization in the sense of creativity, personality and sense of individuality (Maslow 2021, p. 73)<\/li>\n<\/ul><p>An example of a self-designed magnet (.stl) is displayed in the gallery. <\/p><\/div>\n                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/1a\/82\/9e\/10\/fa\/magnet.png\"><\/p>\n                <p class=\"detail-caption\"><strong>Picture of the self-designed magnet<\/strong><\/p>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<p class=\"detail-title\"><strong>Projekt work<\/strong><\/p>\n                <div><p>The students are taught basic skills of the construction with Tinkercad.<br>\nThen they develop ideas of what their magnets should look like.<br>\nThen they can try to design their own magnet.<br>\nAfterwards they are guided through the process of printing the magnet by their teacher.<br>\nWhen the design is printed, the students smooth the edges and glue a magnet to the back of their object. <\/p><\/div>\n<h1 class=\"thing-component-header materials materials-needed\">Materials Needed<\/h1>\n<p class=\"detail-title\"><strong>Materials<\/strong><\/p>\n                <div><ul><li>\n<p>Strong magnets<\/p>\n<\/li>\n<li>\n<p>3D-Printer<\/p>\n<\/li>\n<li>\n<p>Computers<\/p>\n<\/li>\n<li>Filament<\/li>\n<\/ul><\/div>\n<h1 class=\"thing-component-header references references\">References<\/h1>\n<div><p>KMK - St&auml;ndige Konferenz der Kultusminister in der Bundesrepublik Deutschland (2016): Strategie der Kultusministerkonferenz \"Bildung in der digitalen Welt&ldquo;. (Beschluss der KMK vom 08.12.2016 i.d.F. vom 07.12.2017)<\/p>\n<p>Maslow, A.; (2021); Motivation und Pers&ouml;nlichkeit; Rowohlt Verlag (16.Auflage); Rheinbek bei Hamburg<\/p>\n<p>Medienberatung NRW (Hrsg.) (2017): Medienkompetenzrahmen. Verf&uuml;gbar unter: <a rel=\"nofollow\" href=\"https:\/\/medienkompetenzrahmen.nrw\/fileadmin\/pdf\/LVR_ZMB_MKR_Broschuere.pdf\">https:\/\/medienkompetenzrahmen.nrw\/fileadmin\/pdf\/LVR_ZMB_MKR_Broschuere.pdf<\/a> <\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "title": "Disclaimer",
+            "content": "This lesson idea does not meet any official requirements. The idea as well as the whole 3D project was created by students of special education from the university of Cologne. "
+          },
+          {
+            "title": "Individual magnet design with Tinkercad",
+            "content": "Learners design and print their own magnets for the book stand as part of a 3D printing class.\r\n\r\n"
+          },
+          {
+            "title": "Objective",
+            "content": "- Promotion of the aspect \"media production and presentation\" (Medienberatung NRW, 2017) according to the teaching of digital competencies (KMK, 2016).\r\n \r\n- Space for free personality development and expression: Everyone has the right to free development of his personality, insofar as he does not violate the rights of others and does not violate the constitutional order or the moral law (Grundgesetz, Art. 2, Abs. 1).\r\n\r\n- Possibility of self-realization in the sense of creativity, personality and sense of individuality (Maslow 2021, p. 73)\r\n\r\nAn example of a self-designed magnet (.stl) is displayed in the gallery. "
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/1a\/82\/9e\/10\/fa\/magnet.png",
+            "caption": "Picture of the self-designed magnet",
+            "image_id": "824595"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "title": "Projekt work",
+            "content": "The students are taught basic skills of the construction with Tinkercad. \r\nThen they develop ideas of what their magnets should look like. \r\nThen they can try to design their own magnet. \r\nAfterwards they are guided through the process of printing the magnet by their teacher. \r\nWhen the design is printed, the students smooth the edges and glue a magnet to the back of their object. "
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "title": "Materials",
+            "content": "- Strong magnets\r\n\r\n- 3D-Printer\r\n\r\n- Computers\r\n\r\n- Filament"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References",
+        "data": [
+          {
+            "content": "KMK - St\u00e4ndige Konferenz der Kultusminister in der Bundesrepublik Deutschland (2016): Strategie der Kultusministerkonferenz \"Bildung in der digitalen Welt\u201c. (Beschluss der KMK vom 08.12.2016 i.d.F. vom 07.12.2017)\r\n\r\nMaslow, A.; (2021); Motivation und Pers\u00f6nlichkeit; Rowohlt Verlag (16.Auflage); Rheinbek bei Hamburg\r\n\r\nMedienberatung NRW (Hrsg.) (2017): Medienkompetenzrahmen. Verf\u00fcgbar unter: https:\/\/medienkompetenzrahmen.nrw\/fileadmin\/pdf\/LVR_ZMB_MKR_Broschuere.pdf \r\n"
+          }
+        ]
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5206222\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5206222\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5206222\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5206222\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5206222\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5206222\/tags",
+    "tags": [
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "bookstand",
+        "tag": "bookstand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bookstand",
+        "count": 173,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bookstand\/things",
+        "absolute_url": "\/tag:bookstand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5206222\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 207,
+    "view_count": 841,
+    "education": {
+      "grades": {
+        "20": "5th Grade",
+        "21": "6th Grade",
+        "22": "7th Grade",
+        "23": "8th Grade",
+        "24": "9th Grade",
+        "25": "10th Grade",
+        "26": "11th Grade",
+        "27": "12th Grade",
+        "28": "Higher Education"
+      },
+      "subjects": [
+        {
+          "name": "Engineering",
+          "slug": "engineering",
+          "id": 13
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "book_stand_for_table_attachment.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/a9\/6c\/5a\/d0\/book_stand_for_table_attachment.stl"
+        },
+        {
+          "name": "Book_Stand_for_Table_Attachment.obj",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/ab\/fa\/c2\/26\/Book_Stand_for_Table_Attachment.obj"
+        },
+        {
+          "name": "book_stand_for_table_attachment_.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/22\/ed\/ce\/36\/book_stand_for_table_attachment_.f3d"
+        },
+        {
+          "name": "merry_Christmas_magnet.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/13\/bc\/b2\/b1\/merry_Christmas_magnet.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/b5\/a4\/6f\/1a\/WhatsApp_Image_2022-01-21_at_10.53.00_1.jpeg"
+        },
+        {
+          "name": "Bild2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/5e\/ff\/20\/fe\/Bild2.jpg"
+        },
+        {
+          "name": "Book_Stand_for_Table_Attachment.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/ff\/ec\/ba\/74\/Book_Stand_for_Table_Attachment.png"
+        },
+        {
+          "name": "book_stand_for_table_attachment.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/af\/b8\/a3\/4f\/book_stand_for_table_attachment.png"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_10.53.00.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/3a\/53\/1b\/4a\/WhatsApp_Image_2022-01-21_at_10.53.00.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_10.53.01_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/64\/4d\/b3\/23\/WhatsApp_Image_2022-01-21_at_10.53.01_1.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_10.53.02_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/b5\/7b\/74\/48\/WhatsApp_Image_2022-01-21_at_10.53.02_1.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_09.00.37.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/94\/89\/c8\/8f\/WhatsApp_Image_2022-01-21_at_09.00.37.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_09.00.38.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/4c\/fa\/ae\/04\/WhatsApp_Image_2022-01-21_at_09.00.38.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-21_at_09.00.38_1.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/c8\/f1\/89\/30\/WhatsApp_Image_2022-01-21_at_09.00.38_1.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2022-01-19_at_12.58.10.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/ba\/2d\/60\/02\/WhatsApp_Image_2022-01-19_at_12.58.10.jpeg"
+        },
+        {
+          "name": "merry_Christmas_magnet.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/c6\/d0\/2f\/52\/merry_Christmas_magnet.png"
+        },
+        {
+          "name": "magnet.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/09\/dd\/f7\/b0\/magnet.png"
+        }
+      ]
+    }
+  }
+}

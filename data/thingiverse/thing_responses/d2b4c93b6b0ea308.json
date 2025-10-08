@@ -1,0 +1,428 @@
+{
+  "created_at": "2025-10-08T03:28:08.899500+00:00",
+  "elapsed": 0.23383,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28be638a13023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:08 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:08 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5667985?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5667985?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5667985,
+    "name": "Suporte para copos",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/3d\/f3\/76\/ea\/9d\/large_display_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5667985",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5667985",
+    "creator": {
+      "id": 5347719,
+      "name": "otaviogobboIFSC",
+      "first_name": "Otavio",
+      "last_name": "Gobbo Junior",
+      "url": "https:\/\/api.thingiverse.com\/users\/otaviogobboIFSC",
+      "public_url": "https:\/\/www.thingiverse.com\/otaviogobboIFSC",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 3,
+      "count_of_following": 0,
+      "count_of_designs": 12,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2022-11-30T00:12:13+00:00",
+    "modified": "2022-11-30T00:12:13+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 28,
+    "is_liked": false,
+    "collect_count": 35,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 18287084,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/59\/ed\/d0\/32\/4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg",
+      "name": "4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/9d\/74\/8e\/07\/large_thumb_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/d1\/90\/80\/0b\/medium_thumb_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/0f\/48\/79\/b7\/small_thumb_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/01\/bf\/53\/6c\/tiny_thumb_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/b4\/97\/fe\/c0\/featured_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/02\/45\/2c\/00\/card_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/39\/38\/8d\/99\/large_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/db\/e9\/33\/ed\/medium_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/7f\/be\/25\/d4\/small_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/68\/a2\/d4\/30\/birdwing_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/cc\/30\/6a\/18\/tiny_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/92\/bd\/2b\/d4\/tinycard_preview_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/f3\/76\/ea\/9d\/large_display_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/d5\/06\/b7\/13\/medium_display_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/e4\/cd\/ab\/23\/small_display_4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        }
+      ],
+      "added": "2022-11-30T00:12:11+00:00"
+    },
+    "description": "Suporte para auxiliar as pessoas que possuem dificuldade para segurar um copo, evitando acidentes com l\u00edquidos quentes, copos quebrados, entre outros. Pode ser usado com copos descart\u00e1veis de 200 ml e copos estilo \u201camericano\u201d de 190 ml. H\u00e1 um modelo com al\u00e7a dupla transformando o copo em uma caneca com duas al\u00e7as e outro para PCD\u2019s que seguram objetos apenas pela press\u00e3o das m\u00e3os ou bra\u00e7os.\r\n\r\nComo produzir?\r\nImpress\u00e3o 3D com qualquer material.\r\nImprimir com o lado de cima para baixo. Foi conseguido bons resultados imprimindo sem suporte.\r\n\r\nProduto desenvolvido em um projeto de extens\u00e3o no Instituto Federal de Santa Catarina (IFSC), campus Chapec\u00f3, com recursos e bolsas da pr\u00f3 Reitoria de extens\u00e3o.\r\nConhe\u00e7a mais o projeto e os demais produtos: http:\/\/ifsc.edu.br\/imprime-assistiva\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Suporte para auxiliar as pessoas que possuem dificuldade para segurar um copo, evitando acidentes com l\u00edquidos quentes, copos quebrados, entre outros. Pode ser usado com copos descart\u00e1veis de 200 ml e copos estilo \u201camericano\u201d de 190 ml. H\u00e1 um modelo com al\u00e7a dupla transformando o copo em uma caneca com duas al\u00e7as e outro para PCD\u2019s que seguram objetos apenas pela press\u00e3o das m\u00e3os ou bra\u00e7os.<\/p><p>Como produzir?<br>Impress\u00e3o 3D com qualquer material.<br>Imprimir com o lado de cima para baixo. Foi conseguido bons resultados imprimindo sem suporte.<\/p><p>Produto desenvolvido em um projeto de extens\u00e3o no Instituto Federal de Santa Catarina (IFSC), campus Chapec\u00f3, com recursos e bolsas da pr\u00f3 Reitoria de extens\u00e3o.<br>Conhe\u00e7a mais o projeto e os demais produtos: <a rel=\"nofollow\" href=\"http:\/\/ifsc.edu.br\/imprime-assistiva\">http:\/\/ifsc.edu.br\/imprime-assistiva<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Suporte para auxiliar as pessoas que possuem dificuldade para segurar um copo, evitando acidentes com l\u00edquidos quentes, copos quebrados, entre outros. Pode ser usado com copos descart\u00e1veis de 200 ml e copos estilo \u201camericano\u201d de 190 ml. H\u00e1 um modelo com al\u00e7a dupla transformando o copo em uma caneca com duas al\u00e7as e outro para PCD\u2019s que seguram objetos apenas pela press\u00e3o das m\u00e3os ou bra\u00e7os.<\/p><p>Como produzir?<br>Impress\u00e3o 3D com qualquer material.<br>Imprimir com o lado de cima para baixo. Foi conseguido bons resultados imprimindo sem suporte.<\/p><p>Produto desenvolvido em um projeto de extens\u00e3o no Instituto Federal de Santa Catarina (IFSC), campus Chapec\u00f3, com recursos e bolsas da pr\u00f3 Reitoria de extens\u00e3o.<br>Conhe\u00e7a mais o projeto e os demais produtos: <a rel=\"nofollow\" href=\"http:\/\/ifsc.edu.br\/imprime-assistiva\">http:\/\/ifsc.edu.br\/imprime-assistiva<\/a><\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Suporte para auxiliar as pessoas que possuem dificuldade para segurar um copo, evitando acidentes com l\u00edquidos quentes, copos quebrados, entre outros. Pode ser usado com copos descart\u00e1veis de 200 ml e copos estilo \u201camericano\u201d de 190 ml. H\u00e1 um modelo com al\u00e7a dupla transformando o copo em uma caneca com duas al\u00e7as e outro para PCD\u2019s que seguram objetos apenas pela press\u00e3o das m\u00e3os ou bra\u00e7os.<\/p><p>Como produzir?<br>Impress\u00e3o 3D com qualquer material.<br>Imprimir com o lado de cima para baixo. Foi conseguido bons resultados imprimindo sem suporte.<\/p><p>Produto desenvolvido em um projeto de extens\u00e3o no Instituto Federal de Santa Catarina (IFSC), campus Chapec\u00f3, com recursos e bolsas da pr\u00f3 Reitoria de extens\u00e3o.<br>Conhe\u00e7a mais o projeto e os demais produtos: <a rel=\"nofollow\" href=\"http:\/\/ifsc.edu.br\/imprime-assistiva\">http:\/\/ifsc.edu.br\/imprime-assistiva<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Public Domain Dedication",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5667985\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5667985\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5667985\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5667985\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5667985\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5667985\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "pcd",
+        "tag": "pcd",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pcd",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pcd\/things",
+        "absolute_url": "\/tag:pcd"
+      },
+      {
+        "name": "tecnologia assistiva",
+        "tag": "tecnologia_assistiva",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tecnologia_assistiva",
+        "count": 12,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tecnologia_assistiva\/things",
+        "absolute_url": "\/tag:tecnologia_assistiva"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5667985\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 224,
+    "view_count": 1077,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Suporte_-_Copo_sem_al\u00e7a.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/9a\/d0\/2b\/39\/d970e3de-9d38-4216-8c30-e323eed18ced.STL"
+        },
+        {
+          "name": "Suporte_-_copo_al\u00e7a_dupla.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/87\/a3\/8d\/93\/3f4f8b7c-2b4b-4ad0-b812-d57f240d0cb5.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/59\/ed\/d0\/32\/4f8bbddd-8e01-41e1-ba80-828419a6fea0.jpg"
+        },
+        {
+          "name": "a177b6fd-bedb-48e8-8cca-ccf788840c01.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/62\/ff\/a6\/b1\/a177b6fd-bedb-48e8-8cca-ccf788840c01.jpg"
+        },
+        {
+          "name": "44a7a483-1b45-4b4d-bc7c-edb24d381119.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/3d\/6e\/47\/75\/44a7a483-1b45-4b4d-bc7c-edb24d381119.jpg"
+        },
+        {
+          "name": "f2daa7b4-ff46-4b04-8f4e-bc021e6af55e.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/80\/69\/46\/f2\/f2daa7b4-ff46-4b04-8f4e-bc021e6af55e.jpg"
+        },
+        {
+          "name": "3f4f8b7c-2b4b-4ad0-b812-d57f240d0cb5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/2b\/ef\/0f\/64\/3f4f8b7c-2b4b-4ad0-b812-d57f240d0cb5.png"
+        },
+        {
+          "name": "d970e3de-9d38-4216-8c30-e323eed18ced.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/08\/97\/2e\/73\/d970e3de-9d38-4216-8c30-e323eed18ced.png"
+        }
+      ]
+    }
+  }
+}

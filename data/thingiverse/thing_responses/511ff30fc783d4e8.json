@@ -1,0 +1,475 @@
+{
+  "created_at": "2025-10-08T03:27:43.832294+00:00",
+  "elapsed": 0.235946,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b498caf3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:43 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:43 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4643859?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4643859?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4643859,
+    "name": "MMC60 Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/fc\/54\/7e\/a6\/a9\/large_display_Round_Flexure_Switch_use.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4643859",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4643859",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 600,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-11-04T21:59:34+00:00",
+    "modified": "2020-11-04T21:59:34+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 64,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 14263606,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/10\/70\/2e\/e5\/Round_Flexure_Switch_use.JPG",
+      "name": "Round_Flexure_Switch_use.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/7c\/08\/0d\/0b\/large_thumb_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/a9\/76\/31\/46\/medium_thumb_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/3c\/37\/7e\/68\/small_thumb_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/16\/83\/26\/5a\/tiny_thumb_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/e4\/9d\/fd\/90\/featured_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/5b\/5f\/46\/06\/card_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/16\/e7\/0b\/25\/large_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/50\/46\/a5\/a9\/medium_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/58\/05\/27\/5c\/small_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/bb\/85\/c0\/2b\/birdwing_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/be\/19\/a2\/bd\/tiny_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/a8\/fc\/2a\/66\/tinycard_preview_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/54\/7e\/a6\/a9\/large_display_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/c8\/1a\/87\/fe\/medium_display_Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/98\/64\/4c\/f6\/small_display_Round_Flexure_Switch_use.JPG"
+        }
+      ],
+      "added": "2020-11-04T21:18:02+00:00"
+    },
+    "description": "This is a cost-effective, 3D printable accessibility switch. The switch has a 60 mm (2.5 inch) round activation surface and uses a standard 3.5 mm cable. The switch is 40 mm in height. Using the specified switch, the activation force is about 3.4 N (325-350 gf). The cost in parts is approximately $10 in hardware and 3D printing materials.\r\n\r\nThe switch is activated by applying pressure on the top surface. This switch can be connected to any standard AT interface, and can also be used with the Xbox Adaptive Controller. The switch can be used on a flat surface or mounted using the 1\/4\u2033-20 UNC connection on the bottom.\r\n\r\nThe top button \/ activation surface is attached to the base by threading it on. This makes it easy to change tops to change color, labels, etc.\r\n\r\nMore details and assembly instructions are available at the MMC Assistive Device page: https:\/\/makersmakingchange.com\/project\/mmc60-switch\/\r\n\r\n<hr>\r\n<table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>\r\n    <\/tr><\/table><br>\r\n<font color=\"#404041\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/font><Br>\r\n<font color=\"#404041\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/font><br><br>\r\n\r\n<font color=\"#404041\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/font>\r\n\r\n<div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>This is a cost-effective, 3D printable accessibility switch. The switch has a 60 mm (2.5 inch) round activation surface and uses a standard 3.5 mm cable. The switch is 40 mm in height. Using the specified switch, the activation force is about 3.4 N (325-350 gf). The cost in parts is approximately $10 in hardware and 3D printing materials.<\/p><p>The switch is activated by applying pressure on the top surface. This switch can be connected to any standard AT interface, and can also be used with the Xbox Adaptive Controller. The switch can be used on a flat surface or mounted using the 1\/4\u2033-20 UNC connection on the bottom.<\/p><p>The top button \/ activation surface is attached to the base by threading it on. This makes it easy to change tops to change color, labels, etc.<\/p><p>More details and assembly instructions are available at the MMC Assistive Device page: <a rel=\"nofollow\" href=\"https:\/\/makersmakingchange.com\/project\/mmc60-switch\/\">https:\/\/makersmakingchange.com\/project\/mmc60-switch\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a cost-effective, 3D printable accessibility switch. The switch has a 60 mm (2.5 inch) round activation surface and uses a standard 3.5 mm cable. The switch is 40 mm in height. Using the specified switch, the activation force is about 3.4 N (325-350 gf). The cost in parts is approximately $10 in hardware and 3D printing materials.<\/p><p>The switch is activated by applying pressure on the top surface. This switch can be connected to any standard AT interface, and can also be used with the Xbox Adaptive Controller. The switch can be used on a flat surface or mounted using the 1\/4\u2033-20 UNC connection on the bottom.<\/p><p>The top button \/ activation surface is attached to the base by threading it on. This makes it easy to change tops to change color, labels, etc.<\/p><p>More details and assembly instructions are available at the MMC Assistive Device page: <a rel=\"nofollow\" href=\"https:\/\/makersmakingchange.com\/project\/mmc60-switch\/\">https:\/\/makersmakingchange.com\/project\/mmc60-switch\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span>Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span>We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; n\/a PLA<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>This switch was designed to be easily assembled with minimal technical skill. <\/p><p>Elements of the design were inspired by the <a rel=\"nofollow\" href=\"\/thing:3146646\">DIYAT Switch V5<\/a> and the <a rel=\"nofollow\" href=\"\/thing:3310067\">Volksswitch v3<\/a>.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a cost-effective, 3D printable accessibility switch. The switch has a 60 mm (2.5 inch) round activation surface and uses a standard 3.5 mm cable. The switch is 40 mm in height. Using the specified switch, the activation force is about 3.4 N (325-350 gf). The cost in parts is approximately $10 in hardware and 3D printing materials.<\/p><p>The switch is activated by applying pressure on the top surface. This switch can be connected to any standard AT interface, and can also be used with the Xbox Adaptive Controller. The switch can be used on a flat surface or mounted using the 1\/4\u2033-20 UNC connection on the bottom.<\/p><p>The top button \/ activation surface is attached to the base by threading it on. This makes it easy to change tops to change color, labels, etc.<\/p><p>More details and assembly instructions are available at the MMC Assistive Device page: <a rel=\"nofollow\" href=\"https:\/\/makersmakingchange.com\/project\/mmc60-switch\/\">https:\/\/makersmakingchange.com\/project\/mmc60-switch\/<\/a><\/p><hr><table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "filament_brand": "<div><p>n\/a<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>This switch was designed to be easily assembled with minimal technical skill. <\/p><p>Elements of the design were inspired by the <a rel=\"nofollow\" href=\"\/thing:3146646\">DIYAT Switch V5<\/a> and the <a rel=\"nofollow\" href=\"\/thing:3310067\">Volksswitch v3<\/a>.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4643859\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4643859\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4643859\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4643859\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4643859\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4643859\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 586,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 57,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "switch",
+        "tag": "switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch",
+        "count": 5144,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch\/things",
+        "absolute_url": "\/tag:switch"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      },
+      {
+        "name": "xbox adaptive",
+        "tag": "xbox_adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive\/things",
+        "absolute_url": "\/tag:xbox_adaptive"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4643859\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 533,
+    "view_count": 580,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "RFS_Base_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/eb\/06\/e5\/0f\/RFS_Base_Top.stl"
+        },
+        {
+          "name": "RFS_Flexure.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/13\/f8\/fb\/ba\/RFS_Flexure.stl"
+        },
+        {
+          "name": "RFS_Sw_Jack_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/b0\/2c\/e9\/0b\/RFS_Sw_Jack_Mount.stl"
+        },
+        {
+          "name": "RFS_Button.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/41\/f6\/df\/36\/RFS_Button.stl"
+        },
+        {
+          "name": "RFS_Base_Bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/1d\/ec\/df\/3f\/RFS_Base_Bottom.stl"
+        },
+        {
+          "name": "RFS.f3z",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/83\/1e\/b2\/28\/RFS.f3z"
+        },
+        {
+          "name": "RFS_Pins.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/df\/1f\/fa\/d5\/RFS_Pins.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Round_Flexure_Switch_use.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/10\/70\/2e\/e5\/Round_Flexure_Switch_use.JPG"
+        },
+        {
+          "name": "Round_Cross.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/77\/01\/5d\/40\/Round_Cross.png"
+        },
+        {
+          "name": "RFS_Assembly_500.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/da\/2b\/31\/a7\/RFS_Assembly_500.jpg"
+        },
+        {
+          "name": "RFS_Flexure.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/99\/59\/11\/74\/RFS_Flexure.png"
+        },
+        {
+          "name": "RFS_Pins.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/c5\/69\/ad\/b2\/RFS_Pins.png"
+        }
+      ]
+    }
+  }
+}

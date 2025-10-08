@@ -1,0 +1,433 @@
+{
+  "created_at": "2025-04-15T03:39:04.310255+00:00",
+  "elapsed": 0.123938,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "930869e738f9c95e-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Apr 2025 03:39:04 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Apr 2025 04:09:04 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA",
+      "_cfuvid": "o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=HW6BtMfCntbGzJmTssfS6pdpl.EWCaH6iQz80PO6xm4-1744688088-1.0.1.1-YsmwbdS7AcnTDq44oOMMVIkdfonekIVdEa3t.GL1B2.0bZtlK5FI8QquxFkwYbkZzY8MuZmDUV1tHtfPotZ1zBEyFL9RQiP8ZnS0WRcCCCA; _cfuvid=o.HRCcyz4XEaoY18GuN0z1A3fmNxMGtRN7omZAYXBQA-1744688088613-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6193637?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6193637?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6193637,
+    "name": "Mouthstick holder for 3\/4&quot; loc-line ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/96\/9b\/1d\/c3\/80\/large_display_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/6193637",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6193637",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-08-29T21:10:57+00:00",
+    "modified": "2023-08-29T21:10:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 1,
+    "is_liked": false,
+    "collect_count": 3,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 19771164,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/26\/81\/99\/7e\/99c402dd-829d-42c3-9860-02ece3ae25b9.JPG",
+      "name": "99c402dd-829d-42c3-9860-02ece3ae25b9.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/65\/a4\/20\/34\/large_thumb_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/be\/90\/c5\/63\/medium_thumb_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/37\/07\/94\/3c\/small_thumb_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/1f\/60\/44\/56\/tiny_thumb_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/10\/35\/09\/e7\/featured_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/df\/37\/44\/bd\/card_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/9b\/74\/f8\/9b\/large_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/cf\/8a\/51\/31\/medium_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/3e\/a6\/8a\/d8\/small_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/0e\/83\/29\/27\/birdwing_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/16\/59\/b2\/85\/tiny_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/a7\/7d\/b5\/7a\/tinycard_preview_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/9b\/1d\/c3\/80\/large_display_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/cc\/a6\/19\/a7\/medium_display_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/00\/bf\/0e\/96\/small_display_99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        }
+      ],
+      "added": "2023-08-29T21:10:55+00:00"
+    },
+    "description": "3D printed tube for mouthstick or stylus. Attaches to the the female end of 3\/4\" loc-line. ",
+    "instructions": "",
+    "description_html": "<div><p>3D printed tube for mouthstick or stylus. Attaches to the the female end of 3\/4\" loc-line. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>3D printed tube for mouthstick or stylus. Attaches to the the female end of 3\/4\" loc-line. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Stratasys<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;F370&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>Print vertical with loc-line end down<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>3D printed tube for mouthstick or stylus. Attaches to the the female end of 3\/4\" loc-line. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Stratasys<\/p><\/div>\n",
+            "printer": "<div><p>F370<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "notes": "<div><p>Print vertical with loc-line end down<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6193637\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6193637\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6193637\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6193637\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6193637\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6193637\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "limited mobility",
+        "tag": "limited_mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility\/things",
+        "absolute_url": "\/tag:limited_mobility"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "spinal cord injury",
+        "tag": "spinal_cord_injury",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury\/things",
+        "absolute_url": "\/tag:spinal_cord_injury"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6193637\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 13,
+    "view_count": 122,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Short_Locline_mouthstick_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/8f\/ff\/45\/93\/0734de6c-2c92-440d-b101-4a1e4d3bed96.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "99c402dd-829d-42c3-9860-02ece3ae25b9.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/26\/81\/99\/7e\/99c402dd-829d-42c3-9860-02ece3ae25b9.JPG"
+        },
+        {
+          "name": "0734de6c-2c92-440d-b101-4a1e4d3bed96.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/44\/a8\/7b\/aa\/0734de6c-2c92-440d-b101-4a1e4d3bed96.png"
+        }
+      ]
+    }
+  }
+}

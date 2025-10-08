@@ -1,0 +1,548 @@
+{
+  "created_at": "2025-10-08T03:28:18.582501+00:00",
+  "elapsed": 0.212388,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c22eccc3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:18 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:18 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4963381?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4963381?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4963381,
+    "name": "Permobil R-net CSJM2 smartphone clamp v2",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/bc\/7e\/05\/6d\/a0\/large_display_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4963381",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4963381",
+    "creator": {
+      "id": 2100195,
+      "name": "alphacat52",
+      "first_name": "Sidney",
+      "last_name": "Bozec",
+      "url": "https:\/\/api.thingiverse.com\/users\/alphacat52",
+      "public_url": "https:\/\/www.thingiverse.com\/alphacat52",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/52\/c9\/b7\/c7\/95b08ce9de3a18ea6baa3ab92dedad74_thumb_medium.jpg",
+      "count_of_followers": 7,
+      "count_of_following": 5,
+      "count_of_designs": 4,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Bordeaux, France",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/79\/4e\/9c\/32\/0c\/a5d5d5d5de3abb7f95b5f7455e3f3377_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-09-12T13:19:48+00:00",
+    "modified": "2021-09-12T13:19:48+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 40,
+    "is_liked": false,
+    "collect_count": 75,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 16003161,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/d4\/e3\/32\/4f\/WhatsApp_Image_2021-09-09_at_15.22.59.jpeg",
+      "name": "WhatsApp_Image_2021-09-09_at_15.22.59.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/10\/f0\/19\/b3\/large_thumb_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/97\/75\/40\/79\/medium_thumb_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/d0\/28\/d8\/23\/small_thumb_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/ee\/c6\/57\/92\/tiny_thumb_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/e5\/5a\/d8\/4c\/featured_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/67\/e5\/b4\/59\/card_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/57\/cc\/84\/84\/large_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/25\/14\/1f\/68\/medium_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/ab\/98\/ec\/31\/small_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/1b\/9d\/24\/3e\/birdwing_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/78\/c9\/1a\/ee\/tiny_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/c6\/62\/df\/22\/tinycard_preview_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/7e\/05\/6d\/a0\/large_display_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/ab\/7a\/99\/f2\/medium_display_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/d4\/14\/16\/c8\/small_display_WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        }
+      ],
+      "added": "2021-09-12T13:19:42+00:00"
+    },
+    "description": "I tried some smartphone holders for Permobil Corpus first. I was looking at something smarter, lighter and easy to setup and found out I had to start from scratch.\r\n\r\nI modelled P&G (Penny and Gilles) R-net CJSM2 controller ; and test out dimensions adjustment so it fits perfectly by slipping from the front of the Rnet.\r\n\r\nAs for my personal use ; I attached on it an amazon smartphone holder I had no use at the moment as it has a screwed clamp for many smartphone sizes. It has a 1\/4 standard tripod screw so any 1\/4 screw must fit.\r\nhttps:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01\r\n\r\n[v1]\r\nI have to test it out much more on real outdoor conditions to make sure on how it's handling vibrations ; its very tight fit but it may need a thickness increase to get more stiffness on the PLA print. I will update the file if It need so after testing.\r\n\r\n[v2.2]\r\nAfter a few smartphone fall on gravel (smartphone is okay) vibrations and asphalt irregularities driving around 5mph (8km\/h).\r\nI reduced the fitting margin by .25mm on sideway axis, and updated it with a larger clamping length (16 to 30mm). \r\nI also added a small hooking extrusion so It enable easy \"elastic rope\" improvement if necessary during next week using ;)\r\nStill no support for printing\r\n\r\n\r\n[Features]\r\n- Easy\/fast to slide in and out\r\n- Smart \"keep it simple\" design\r\n- Adaptable to any screw size if you edit the f360 file\r\n\r\nPLA\r\nFull infill\r\n.8 extruder",
+    "instructions": "",
+    "description_html": "<div><p>I tried some smartphone holders for Permobil Corpus first. I was looking at something smarter, lighter and easy to setup and found out I had to start from scratch.<\/p><p>I modelled P&amp;G (Penny and Gilles) R-net CJSM2 controller ; and test out dimensions adjustment so it fits perfectly by slipping from the front of the Rnet.<\/p><p>As for my personal use ; I attached on it an amazon smartphone holder I had no use at the moment as it has a screwed clamp for many smartphone sizes. It has a 1\/4 standard tripod screw so any 1\/4 screw must fit.<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01\">https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01<\/a><\/p><p>[v1]<br>I have to test it out much more on real outdoor conditions to make sure on how it's handling vibrations ; its very tight fit but it may need a thickness increase to get more stiffness on the PLA print. I will update the file if It need so after testing.<\/p><p>[v2.2]<br>After a few smartphone fall on gravel (smartphone is okay) vibrations and asphalt irregularities driving around 5mph (8km\/h).<br>I reduced the fitting margin by .25mm on sideway axis, and updated it with a larger clamping length (16 to 30mm).<br>I also added a small hooking extrusion so It enable easy \"elastic rope\" improvement if necessary during next week using ;)<br>Still no support for printing<\/p><p>[Features]<\/p><ul><li>Easy\/fast to slide in and out<\/li><li>Smart \"keep it simple\" design<\/li><li>Adaptable to any screw size if you edit the f360 file<\/li><\/ul><p>PLA<br>Full infill<br>.8 extruder<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>I tried some smartphone holders for Permobil Corpus first. I was looking at something smarter, lighter and easy to setup and found out I had to start from scratch.<\/p><p>I modelled P&amp;G (Penny and Gilles) R-net CJSM2 controller ; and test out dimensions adjustment so it fits perfectly by slipping from the front of the Rnet.<\/p><p>As for my personal use ; I attached on it an amazon smartphone holder I had no use at the moment as it has a screwed clamp for many smartphone sizes. It has a 1\/4 standard tripod screw so any 1\/4 screw must fit.<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01\">https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01<\/a><\/p><p>[v1]<br>I have to test it out much more on real outdoor conditions to make sure on how it's handling vibrations ; its very tight fit but it may need a thickness increase to get more stiffness on the PLA print. I will update the file if It need so after testing.<\/p><p>[v2.2]<br>After a few smartphone fall on gravel (smartphone is okay) vibrations and asphalt irregularities driving around 5mph (8km\/h).<br>I reduced the fitting margin by .25mm on sideway axis, and updated it with a larger clamping length (16 to 30mm).<br>I also added a small hooking extrusion so It enable easy \"elastic rope\" improvement if necessary during next week using ;)<br>Still no support for printing<\/p><p>[Features]<\/p><ul><li>Easy\/fast to slide in and out<\/li><li>Smart \"keep it simple\" design<\/li><li>Adaptable to any screw size if you edit the f360 file<\/li><\/ul><p>PLA<br>Full infill<br>.8 extruder<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;200&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;100&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Any PLA<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>I tried some smartphone holders for Permobil Corpus first. I was looking at something smarter, lighter and easy to setup and found out I had to start from scratch.<\/p><p>I modelled P&amp;G (Penny and Gilles) R-net CJSM2 controller ; and test out dimensions adjustment so it fits perfectly by slipping from the front of the Rnet.<\/p><p>As for my personal use ; I attached on it an amazon smartphone holder I had no use at the moment as it has a screwed clamp for many smartphone sizes. It has a 1\/4 standard tripod screw so any 1\/4 screw must fit.<br><a rel=\"nofollow\" href=\"https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01\">https:\/\/www.amazon.fr\/gp\/product\/B01MD10K6I\/ref=ppx_yo_dt_b_asin_title_o04_s01<\/a><\/p><p>[v1]<br>I have to test it out much more on real outdoor conditions to make sure on how it's handling vibrations ; its very tight fit but it may need a thickness increase to get more stiffness on the PLA print. I will update the file if It need so after testing.<\/p><p>[v2.2]<br>After a few smartphone fall on gravel (smartphone is okay) vibrations and asphalt irregularities driving around 5mph (8km\/h).<br>I reduced the fitting margin by .25mm on sideway axis, and updated it with a larger clamping length (16 to 30mm).<br>I also added a small hooking extrusion so It enable easy \"elastic rope\" improvement if necessary during next week using ;)<br>Still no support for printing<\/p><p>[Features]<\/p><ul><li>Easy\/fast to slide in and out<\/li><li>Smart \"keep it simple\" design<\/li><li>Adaptable to any screw size if you edit the f360 file<\/li><\/ul><p>PLA<br>Full infill<br>.8 extruder<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Doesn't Matter",
+            "resolution": "<div><p>200<\/p><\/div>",
+            "infill": "<div><p>100<\/p><\/div>",
+            "filament_brand": "<div><p>Any<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4963381\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4963381\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4963381\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4963381\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4963381\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4963381\/tags",
+    "tags": [
+      {
+        "name": "accessory",
+        "tag": "accessory",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessory",
+        "count": 5462,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessory\/things",
+        "absolute_url": "\/tag:accessory"
+      },
+      {
+        "name": "clamp",
+        "tag": "clamp",
+        "url": "https:\/\/api.thingiverse.com\/tags\/clamp",
+        "count": 4645,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/clamp\/things",
+        "absolute_url": "\/tag:clamp"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "electric wheelchair",
+        "tag": "electric_wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electric_wheelchair",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electric_wheelchair\/things",
+        "absolute_url": "\/tag:electric_wheelchair"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 178,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 262,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "holder",
+        "tag": "holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/holder",
+        "count": 44710,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/holder\/things",
+        "absolute_url": "\/tag:holder"
+      },
+      {
+        "name": "permobil",
+        "tag": "permobil",
+        "url": "https:\/\/api.thingiverse.com\/tags\/permobil",
+        "count": 33,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/permobil\/things",
+        "absolute_url": "\/tag:permobil"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 129,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "RehabLab",
+        "tag": "rehablab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehablab",
+        "count": 34,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehablab\/things",
+        "absolute_url": "\/tag:RehabLab"
+      },
+      {
+        "name": "smartphone holder",
+        "tag": "smartphone_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/smartphone_holder",
+        "count": 3796,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/smartphone_holder\/things",
+        "absolute_url": "\/tag:smartphone_holder"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 422,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      },
+      {
+        "name": "WheelchairAttachment",
+        "tag": "wheelchairattachment",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchairattachment\/things",
+        "absolute_url": "\/tag:WheelchairAttachment"
+      },
+      {
+        "name": "wheelchair joystick",
+        "tag": "wheelchair_joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick",
+        "count": 50,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair_joystick\/things",
+        "absolute_url": "\/tag:wheelchair_joystick"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4963381\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 681,
+    "view_count": 2302,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Clamp_v2.2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/85\/7f\/69\/36\/Clamp_v2.2.stl"
+        },
+        {
+          "name": "Rnet_clamp_v2.2.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/77\/42\/b4\/fd\/Rnet_clamp_v2.2.f3d"
+        },
+        {
+          "name": "Rnet_clamp_v2.2.step",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/25\/99\/0e\/bd\/Rnet_clamp_v2.2.step"
+        },
+        {
+          "name": "Rnet_clamp.step",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/b0\/12\/53\/59\/Rnet_clamp.step"
+        },
+        {
+          "name": "Clamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/e9\/91\/2b\/d5\/Clamp.stl"
+        },
+        {
+          "name": "Rnet_clamp.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/fa\/09\/56\/65\/Rnet_clamp.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "WhatsApp_Image_2021-09-09_at_15.22.59.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/d4\/e3\/32\/4f\/WhatsApp_Image_2021-09-09_at_15.22.59.jpeg"
+        },
+        {
+          "name": "WhatsApp_Image_2021-09-09_at_15.22.29.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/69\/11\/9f\/bf\/WhatsApp_Image_2021-09-09_at_15.22.29.jpeg"
+        },
+        {
+          "name": "DSC_0383.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/61\/90\/aa\/8d\/DSC_0383.JPG"
+        },
+        {
+          "name": "Clamp.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/86\/23\/f4\/61\/Clamp.png"
+        },
+        {
+          "name": "DSC_0378.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/fe\/7b\/ee\/0c\/DSC_0378.JPG"
+        },
+        {
+          "name": "DSC_0372.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1b\/3e\/e8\/40\/ca\/DSC_0372.JPG"
+        },
+        {
+          "name": "DSC_0375.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/d5\/79\/18\/34\/DSC_0375.JPG"
+        },
+        {
+          "name": "DSC_0376.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/dc\/60\/8c\/5d\/DSC_0376.JPG"
+        },
+        {
+          "name": "DSC_0381.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/be\/ad\/9a\/e0\/DSC_0381.JPG"
+        },
+        {
+          "name": "DSC_0382.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/8a\/b1\/3e\/cc\/DSC_0382.JPG"
+        },
+        {
+          "name": "Clamp_v2.2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/d7\/f9\/86\/9e\/Clamp_v2.2.png"
+        }
+      ]
+    }
+  }
+}

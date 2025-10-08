@@ -1,0 +1,485 @@
+{
+  "created_at": "2025-04-09T19:45:26.293892+00:00",
+  "elapsed": 0.244279,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc8139d8451563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:26 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:26 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3649410?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3649410?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3649410,
+    "name": "Open Rocker Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/39\/3c\/e9\/30\/7b\/large_display_ORS_Picture_1.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3649410",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3649410",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 580,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-17T20:03:24+00:00",
+    "modified": "2019-06-17T20:03:24+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 33,
+    "is_liked": false,
+    "collect_count": 84,
+    "is_collected": false,
+    "comment_count": 8,
+    "is_watched": false,
+    "default_image": {
+      "id": 14422211,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/a8\/e5\/1f\/78\/ORS_Picture_1.JPG",
+      "name": "ORS_Picture_1.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/aa\/64\/b4\/c7\/large_thumb_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/15\/6d\/58\/de\/medium_thumb_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/3c\/f7\/ab\/42\/small_thumb_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/e5\/81\/8e\/cf\/tiny_thumb_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/85\/dd\/50\/7a\/featured_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/12\/b5\/60\/05\/card_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/92\/95\/f9\/cc\/large_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/98\/cd\/ee\/7b\/medium_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/b6\/fa\/5d\/7a\/small_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/9b\/69\/d6\/b4\/birdwing_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/46\/45\/53\/21\/tiny_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/bd\/53\/db\/30\/tinycard_preview_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/3c\/e9\/30\/7b\/large_display_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/8d\/12\/e3\/d7\/medium_display_ORS_Picture_1.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/76\/e1\/75\/ee\/small_display_ORS_Picture_1.JPG"
+        }
+      ],
+      "added": "2020-12-11T21:14:24+00:00"
+    },
+    "description": "The Open Rocker Switch is a DIY assistive switch. The device has two separate switches that are activated by pressing on either side. The activation surface on each side is about 58 mm in diameter. Using the 12 mm tactile switches specified below, the activation force is about 1.3N (130 gf). This switch has a similar size and activation force as the now discontinued AbleNet Rocker Switch.\r\n\r\nThis switch uses two 3.5 mm mono cables to carry the switch signals. An adapter can be used to connect the two 3.5 mm mono jacks to a 3.5 mm stereo jack.\r\n\r\nMore details can be found at the MMC Open-Source Assistive Technology library project page:\r\nhttps:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/\r\n\r\n2020-Dec-11\r\nAn updated version has been released.\r\n\r\n<hr>\r\n<table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>\r\n    <\/tr><\/table><br>\r\n<font color=\"#404041\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/font><Br>\r\n<font color=\"#404041\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/font><br><br>\r\n\r\n<font color=\"#404041\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/font>\r\n\r\n<div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>The Open Rocker Switch is a DIY assistive switch. The device has two separate switches that are activated by pressing on either side. The activation surface on each side is about 58 mm in diameter. Using the 12 mm tactile switches specified below, the activation force is about 1.3N (130 gf). This switch has a similar size and activation force as the now discontinued AbleNet Rocker Switch.<\/p><p>This switch uses two 3.5 mm mono cables to carry the switch signals. An adapter can be used to connect the two 3.5 mm mono jacks to a 3.5 mm stereo jack.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology library project page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/\">https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/<\/a><\/p><p>2020-Dec-11<br>An updated version has been released.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The Open Rocker Switch is a DIY assistive switch. The device has two separate switches that are activated by pressing on either side. The activation surface on each side is about 58 mm in diameter. Using the 12 mm tactile switches specified below, the activation force is about 1.3N (130 gf). This switch has a similar size and activation force as the now discontinued AbleNet Rocker Switch.<\/p><p>This switch uses two 3.5 mm mono cables to carry the switch signals. An adapter can be used to connect the two 3.5 mm mono jacks to a 3.5 mm stereo jack.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology library project page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/\">https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/<\/a><\/p><p>2020-Dec-11<br>An updated version has been released.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span>Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span>We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;i3 MK3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.20 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Various PLA<pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;We've also printed this successfully on a Creality Ender 3.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The Open Rocker Switch is a DIY assistive switch. The device has two separate switches that are activated by pressing on either side. The activation surface on each side is about 58 mm in diameter. Using the 12 mm tactile switches specified below, the activation force is about 1.3N (130 gf). This switch has a similar size and activation force as the now discontinued AbleNet Rocker Switch.<\/p><p>This switch uses two 3.5 mm mono cables to carry the switch signals. An adapter can be used to connect the two 3.5 mm mono jacks to a 3.5 mm stereo jack.<\/p><p>More details can be found at the MMC Open-Source Assistive Technology library project page:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/\">https:\/\/www.makersmakingchange.com\/project\/open-rocker-switch\/<\/a><\/p><p>2020-Dec-11<br>An updated version has been released.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>i3 MK3<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "resolution": "<div><p>0.20 mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "filament_brand": "<div><p>Various<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n",
+            "notes": "<div><p>We've also printed this successfully on a Creality Ender 3.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3649410\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3649410\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3649410\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3649410\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3649410\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3649410\/tags",
+    "tags": [
+      {
+        "name": "ability switch",
+        "tag": "ability_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ability_switch",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ability_switch\/things",
+        "absolute_url": "\/tag:ability_switch"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "openAT",
+        "tag": "openat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openat",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openat\/things",
+        "absolute_url": "\/tag:openAT"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3649410\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 578,
+    "view_count": 971,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ORS_Assembly.step",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/ea\/dc\/96\/97\/ORS_Assembly.step"
+        },
+        {
+          "name": "ORS.f3z",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/23\/a8\/b1\/05\/ORS.f3z"
+        },
+        {
+          "name": "ORS_Divider.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/55\/39\/00\/83\/ORS_Divider.stl"
+        },
+        {
+          "name": "ORS_Button.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/e1\/97\/fc\/43\/ORS_Button.stl"
+        },
+        {
+          "name": "ORS_Button_Pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/9e\/94\/ca\/3e\/ORS_Button_Pin.stl"
+        },
+        {
+          "name": "ORS_Bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/5e\/0d\/a2\/c9\/ORS_Bottom.stl"
+        },
+        {
+          "name": "ORS_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/3b\/23\/18\/d5\/ORS_Top.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "ORS_Picture_1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/a8\/e5\/1f\/78\/ORS_Picture_1.JPG"
+        },
+        {
+          "name": "ORS_Top.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/94\/69\/25\/fc\/ORS_Top.png"
+        },
+        {
+          "name": "ORS_Button.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/51\/fa\/a0\/b6\/ORS_Button.png"
+        },
+        {
+          "name": "ORS_Divider.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/2b\/bb\/9a\/dd\/ORS_Divider.png"
+        },
+        {
+          "name": "ORS_Button_Pin.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/0e\/06\/01\/ab\/ORS_Button_Pin.png"
+        },
+        {
+          "name": "ORS_Bottom.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/6b\/8d\/0e\/14\/ORS_Bottom.png"
+        }
+      ]
+    }
+  }
+}

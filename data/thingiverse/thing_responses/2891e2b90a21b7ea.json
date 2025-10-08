@@ -1,0 +1,480 @@
+{
+  "created_at": "2025-04-13T04:27:57.777736+00:00",
+  "elapsed": 0.130439,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836c55df3d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:57 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:57 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3777693?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3777693?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3777693,
+    "name": "Spoon Holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3777693",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3777693",
+    "creator": {
+      "id": 2939057,
+      "name": "centrorecupera",
+      "first_name": "Recupera",
+      "last_name": "centro",
+      "url": "https:\/\/api.thingiverse.com\/users\/centrorecupera",
+      "public_url": "https:\/\/www.thingiverse.com\/centrorecupera",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/82\/86\/5f\/b6\/82\/5a78fb5812a8594cd673b5d00261d026_thumb_medium.jpg",
+      "count_of_followers": 21,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Gij\u00f3n",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-07-29T10:57:59+00:00",
+    "modified": "2019-07-29T10:57:59+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 75,
+    "is_liked": false,
+    "collect_count": 135,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 11264944,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/ee\/d8\/dc\/35\/IMG_4262.JPG",
+      "name": "IMG_4262.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/57\/c3\/f0\/f8\/806f4efc958ac88667234c05f0ba6cdf_display_small.JPG"
+        }
+      ],
+      "added": "2019-07-29T10:57:36+00:00"
+    },
+    "description": "El producto de apoyo para la cuchara consta de una pieza, con ella podemos sujetar el cubierto en la mano del paciente de tal forma que la actividad se facilita y por tanto la persona podr\u00e1 ejecutarla de forma independiente.\r\nPor un lado consta de la correa de sujeci\u00f3n que permite colocar la pieza alrededor de la mano, y por otro lado el anillo distal donde se colocar\u00e1 el dedo coraz\u00f3n que ser\u00e1 la palanca necesaria para mantener el alimento en la cuchara.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>El producto de apoyo para la cuchara consta de una pieza, con ella podemos sujetar el cubierto en la mano del paciente de tal forma que la actividad se facilita y por tanto la persona podr&aacute; ejecutarla de forma independiente.<br>Por un lado consta de la correa de sujeci&oacute;n que permite colocar la pieza alrededor de la mano, y por otro lado el anillo distal donde se colocar&aacute; el dedo coraz&oacute;n que ser&aacute; la palanca necesaria para mantener el alimento en la cuchara.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>El producto de apoyo para la cuchara consta de una pieza, con ella podemos sujetar el cubierto en la mano del paciente de tal forma que la actividad se facilita y por tanto la persona podr&aacute; ejecutarla de forma independiente.<br>Por un lado consta de la correa de sujeci&oacute;n que permite colocar la pieza alrededor de la mano, y por otro lado el anillo distal donde se colocar&aacute; el dedo coraz&oacute;n que ser&aacute; la palanca necesaria para mantener el alimento en la cuchara.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Kossel Delta<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>25%<\/p><\/div>                                    <pre><code>                &lt;strong&gt;Filament:&lt;\/strong&gt; Bilby3D ABS                Translucent<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>El producto de apoyo para la cuchara consta de una pieza, con ella podemos sujetar el cubierto en la mano del paciente de tal forma que la actividad se facilita y por tanto la persona podr&aacute; ejecutarla de forma independiente.<br>Por un lado consta de la correa de sujeci&oacute;n que permite colocar la pieza alrededor de la mano, y por otro lado el anillo distal donde se colocar&aacute; el dedo coraz&oacute;n que ser&aacute; la palanca necesaria para mantener el alimento en la cuchara.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Kossel Delta<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>25%<\/p><\/div>\n",
+            "filament_brand": "<div><p>Bilby3D<\/p><\/div>\n",
+            "filament_color": "<div><p>Translucent<\/p><\/div>\n",
+            "filament_material": "<div><p>ABS<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3777693\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3777693\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3777693\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3777693\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3777693\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3777693\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "cuchara",
+        "tag": "cuchara",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cuchara",
+        "count": 25,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cuchara\/things",
+        "absolute_url": "\/tag:cuchara"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2140,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "ictus",
+        "tag": "ictus",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ictus",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ictus\/things",
+        "absolute_url": "\/tag:ictus"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "producto de apoyo",
+        "tag": "producto_de_apoyo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/producto_de_apoyo",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/producto_de_apoyo\/things",
+        "absolute_url": "\/tag:producto_de_apoyo"
+      },
+      {
+        "name": "spinal cord injury",
+        "tag": "spinal_cord_injury",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury\/things",
+        "absolute_url": "\/tag:spinal_cord_injury"
+      },
+      {
+        "name": "Spoon holder",
+        "tag": "spoon_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spoon_holder",
+        "count": 167,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spoon_holder\/things",
+        "absolute_url": "\/tag:Spoon_holder"
+      },
+      {
+        "name": "stroke",
+        "tag": "stroke",
+        "url": "https:\/\/api.thingiverse.com\/tags\/stroke",
+        "count": 41,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/stroke\/things",
+        "absolute_url": "\/tag:stroke"
+      },
+      {
+        "name": "terapia ocupacional",
+        "tag": "terapia_ocupacional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional",
+        "count": 124,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional\/things",
+        "absolute_url": "\/tag:terapia_ocupacional"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3777693\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 453,
+    "view_count": 1667,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "CUCHARA.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/c7\/c5\/96\/27\/CUCHARA.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_4262.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/ee\/d8\/dc\/35\/IMG_4262.JPG"
+        },
+        {
+          "name": "IMG_4261.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/4c\/3d\/88\/1a\/IMG_4261.JPG"
+        },
+        {
+          "name": "IMG_4259.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/a2\/bc\/aa\/87\/IMG_4259.JPG"
+        },
+        {
+          "name": "IMG_4231.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/b5\/56\/f5\/02\/IMG_4231.JPG"
+        },
+        {
+          "name": "741a2a340e6f091ddb39843b40b8f52d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/67\/5d\/e0\/b3\/0c\/741a2a340e6f091ddb39843b40b8f52d.png"
+        }
+      ]
+    }
+  }
+}

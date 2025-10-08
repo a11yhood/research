@@ -1,0 +1,434 @@
+{
+  "created_at": "2025-07-15T03:58:34.131744+00:00",
+  "elapsed": 0.120839,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657968c9af90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:34 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:34 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2743705?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2743705?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2743705,
+    "name": "Cane Contigo Bottle Holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2743705",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2743705",
+    "creator": {
+      "id": 104891,
+      "name": "partsoven",
+      "first_name": "",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/partsoven",
+      "public_url": "https:\/\/www.thingiverse.com\/partsoven",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7f\/90\/3a\/08\/16\/414589ae65d2ce7a2cf2c817def5a914_thumb_medium.jpg",
+      "count_of_followers": 6,
+      "count_of_following": 23,
+      "count_of_designs": 6,
+      "collection_count": 6,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Paso Robles, CA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-10_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-01-02T23:23:16+00:00",
+    "modified": "2018-01-02T23:23:16+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 42,
+    "is_liked": false,
+    "collect_count": 89,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7377522,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/e5\/44\/b5\/87\/IMG_0549.jpg",
+      "name": "IMG_0549.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/51\/cf\/cc\/e7\/f9\/5353fab8038e9dedc45e6559f31fbee3_display_small.jpg"
+        }
+      ],
+      "added": "2018-01-02T22:59:00+00:00"
+    },
+    "description": "This nifty water bottle holder was designed to make life a little bit easier, by enabling the user to carry a Contigo water bottle while using a quad cane. \r\n\r\nMy dad is working hard to recover mobility after a stroke. He uses a quad cane to help him get around, but was struggling to carry his favorite water bottle. With this bottle holder he can easily stay hydrated on the go.\r\n\r\nWater bottle he uses:\r\n<a target=\"_blank\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01MQZEIUN\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MQZEIUN&linkCode=as2&tag=partsoven-20&linkId=acba99e63d777a2ecc4b90634010d3a2\">Contigo AUTOSEAL Chill Stainless Steel Water Bottle, 24oz, Scuba<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&l=am2&o=1&a=B01MQZEIUN\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" style=\"border:none !important; margin:0px !important;\" \/> \r\nCane he uses:\r\n<a target=\"_blank\" href=\"https:\/\/www.amazon.com\/gp\/product\/B00BUHPSC2\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00BUHPSC2&linkCode=as2&tag=partsoven-20&linkId=76af13652f5001115059d65f58feae84\">NOVA Medical Products Large Base Quad Walking Cane, Black, 3 Pound<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&l=am2&o=1&a=B00BUHPSC2\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" style=\"border:none !important; margin:0px !important;\" \/>\r\n\r\nHardware needed:\r\n<a target=\"_blank\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01DIVTWYW\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01DIVTWYW&linkCode=as2&tag=partsoven-20&linkId=d2123070a69c9157610fa0b671ffdf6d\">uxcell M4 x 25mm Full Thread Hex Socket Cap Head Screws Bolts Black 50 Pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&l=am2&o=1&a=B01DIVTWYW\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" style=\"border:none !important; margin:0px !important;\" \/>\r\n<a target=\"_blank\" href=\"https:\/\/www.amazon.com\/gp\/product\/B012T3ILH4\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B012T3ILH4&linkCode=as2&tag=partsoven-20&linkId=f19d05063d78b27e46b45b9bb735c99a\">M4 x 0.7mm 304 Stainless Steel Nylock Nylon Insert Hex Lock Nuts 50pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&l=am2&o=1&a=B012T3ILH4\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" style=\"border:none !important; margin:0px !important;\" \/>",
+    "instructions": "",
+    "description_html": "<div><p>This nifty water bottle holder was designed to make life a little bit easier, by enabling the user to carry a Contigo water bottle while using a quad cane. <\/p><p>My dad is working hard to recover mobility after a stroke. He uses a quad cane to help him get around, but was struggling to carry his favorite water bottle. With this bottle holder he can easily stay hydrated on the go.<\/p><p>Water bottle he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01MQZEIUN\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01MQZEIUN&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=acba99e63d777a2ecc4b90634010d3a2\">Contigo AUTOSEAL Chill Stainless Steel Water Bottle, 24oz, Scuba<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01MQZEIUN\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br>Cane he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B00BUHPSC2\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00BUHPSC2&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=76af13652f5001115059d65f58feae84\">NOVA Medical Products Large Base Quad Walking Cane, Black, 3 Pound<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B00BUHPSC2\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><p>Hardware needed:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01DIVTWYW\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01DIVTWYW&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=d2123070a69c9157610fa0b671ffdf6d\">uxcell M4 x 25mm Full Thread Hex Socket Cap Head Screws Bolts Black 50 Pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01DIVTWYW\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B012T3ILH4\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B012T3ILH4&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=f19d05063d78b27e46b45b9bb735c99a\">M4 x 0.7mm 304 Stainless Steel Nylock Nylon Insert Hex Lock Nuts 50pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B012T3ILH4\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This nifty water bottle holder was designed to make life a little bit easier, by enabling the user to carry a Contigo water bottle while using a quad cane. <\/p><p>My dad is working hard to recover mobility after a stroke. He uses a quad cane to help him get around, but was struggling to carry his favorite water bottle. With this bottle holder he can easily stay hydrated on the go.<\/p><p>Water bottle he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01MQZEIUN\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01MQZEIUN&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=acba99e63d777a2ecc4b90634010d3a2\">Contigo AUTOSEAL Chill Stainless Steel Water Bottle, 24oz, Scuba<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01MQZEIUN\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br>Cane he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B00BUHPSC2\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00BUHPSC2&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=76af13652f5001115059d65f58feae84\">NOVA Medical Products Large Base Quad Walking Cane, Black, 3 Pound<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B00BUHPSC2\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><p>Hardware needed:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01DIVTWYW\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01DIVTWYW&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=d2123070a69c9157610fa0b671ffdf6d\">uxcell M4 x 25mm Full Thread Hex Socket Cap Head Screws Bolts Black 50 Pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01DIVTWYW\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B012T3ILH4\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B012T3ILH4&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=f19d05063d78b27e46b45b9bb735c99a\">M4 x 0.7mm 304 Stainless Steel Nylock Nylon Insert Hex Lock Nuts 50pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B012T3ILH4\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Public Onshape link:<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;&lt;a rel=\"nofollow\" href=\"https:\/\/cad.onshape.com\/documents\/f394ab67896e3865ff84765d\/w\/d4de242f0306e7ebb7a3e8f8\/e\/d8a3a81a29f19f15d388076d\"&gt;https:\/\/cad.onshape.com\/documents\/f394ab67896e3865ff84765d\/w\/d4de242f0306e7ebb7a3e8f8\/e\/d8a3a81a29f19f15d388076d&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This nifty water bottle holder was designed to make life a little bit easier, by enabling the user to carry a Contigo water bottle while using a quad cane. <\/p><p>My dad is working hard to recover mobility after a stroke. He uses a quad cane to help him get around, but was struggling to carry his favorite water bottle. With this bottle holder he can easily stay hydrated on the go.<\/p><p>Water bottle he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01MQZEIUN\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01MQZEIUN&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=acba99e63d777a2ecc4b90634010d3a2\">Contigo AUTOSEAL Chill Stainless Steel Water Bottle, 24oz, Scuba<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01MQZEIUN\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br>Cane he uses:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B00BUHPSC2\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00BUHPSC2&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=76af13652f5001115059d65f58feae84\">NOVA Medical Products Large Base Quad Walking Cane, Black, 3 Pound<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B00BUHPSC2\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><p>Hardware needed:<br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B01DIVTWYW\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01DIVTWYW&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=d2123070a69c9157610fa0b671ffdf6d\">uxcell M4 x 25mm Full Thread Hex Socket Cap Head Screws Bolts Black 50 Pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B01DIVTWYW\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><br><a target=\"_blank\" rel=\"nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B012T3ILH4\/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B012T3ILH4&amp;linkCode=as2&amp;tag=partsoven-20&amp;linkId=f19d05063d78b27e46b45b9bb735c99a\">M4 x 0.7mm 304 Stainless Steel Nylock Nylon Insert Hex Lock Nuts 50pcs<\/a><img src=\"\/\/ir-na.amazon-adsystem.com\/e\/ir?t=partsoven-20&amp;l=am2&amp;o=1&amp;a=B012T3ILH4\" width=\"1\" height=\"1\" border=\"0\" alt=\"\"><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Public Onshape link:",
+            "content": "<div><p><a rel=\"nofollow\" href=\"https:\/\/cad.onshape.com\/documents\/f394ab67896e3865ff84765d\/w\/d4de242f0306e7ebb7a3e8f8\/e\/d8a3a81a29f19f15d388076d\">https:\/\/cad.onshape.com\/documents\/f394ab67896e3865ff84765d\/w\/d4de242f0306e7ebb7a3e8f8\/e\/d8a3a81a29f19f15d388076d<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2743705\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2743705\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2743705\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2743705\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2743705\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2743705\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "cane",
+        "tag": "cane",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cane",
+        "count": 266,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cane\/things",
+        "absolute_url": "\/tag:cane"
+      },
+      {
+        "name": "mobility",
+        "tag": "mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobility",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobility\/things",
+        "absolute_url": "\/tag:mobility"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2743705\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 481,
+    "view_count": 1158,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Cane_Contigo_Holder_-_Clamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/fc\/d1\/ea\/4e\/Cane_Contigo_Holder_-_Clamp.stl"
+        },
+        {
+          "name": "Cane_Contigo_Holder_-_Main_Body.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/6b\/77\/65\/59\/Cane_Contigo_Holder_-_Main_Body.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_0549.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/e5\/44\/b5\/87\/IMG_0549.jpg"
+        },
+        {
+          "name": "IMG_0550.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/87\/6a\/11\/d0\/IMG_0550.jpg"
+        },
+        {
+          "name": "714ALTV03GL._SL1500_.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/e1\/2d\/5d\/aa\/714ALTV03GL._SL1500_.jpg"
+        },
+        {
+          "name": "61qWDxmdyKL._SY679_.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/5a\/3d\/7e\/de\/61qWDxmdyKL._SY679_.jpg"
+        },
+        {
+          "name": "9bbdd691e305a77654e172dc92e07cb6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/91\/d4\/85\/45\/9bbdd691e305a77654e172dc92e07cb6.png"
+        },
+        {
+          "name": "43c181a659822b0d75583d68f6664d9c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/fd\/49\/2c\/ea\/43c181a659822b0d75583d68f6664d9c.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "created_at": "2025-10-08T03:28:27.793931+00:00",
+  "elapsed": 0.22691,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c5c5e8d3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:27 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:27 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3710570?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3710570?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3710570,
+    "name": "Interatomic Bonds Tactile Model",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3710570",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3710570",
+    "creator": {
+      "id": 2652477,
+      "name": "ntaufscar",
+      "first_name": "NTA",
+      "last_name": "UFSCar Campus Sorocaba",
+      "url": "https:\/\/api.thingiverse.com\/users\/ntaufscar",
+      "public_url": "https:\/\/www.thingiverse.com\/ntaufscar",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/78\/64\/6b\/10\/0677fe0ca2f244ce0c2264d6557c3057_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sorocaba, S\u00e3o Paulo, Brazil",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/1e\/a8\/f6\/84\/d62608f0b1b91c7c29beb0b93c3a3ba8_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-24T12:12:19+00:00",
+    "modified": "2019-06-24T12:12:19+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 8,
+    "is_liked": false,
+    "collect_count": 16,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 11033615,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/e8\/ad\/d8\/78\/Quimica.png",
+      "name": "Quimica.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/ba\/57\/90\/3e\/7a7fe65580929c102b20ff862ae3bdf5_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-24T12:12:11+00:00"
+    },
+    "description": "This is a tactile model to help teachers to teach the principles of ionic and covalent bonds. This is not available to teach metallic bonds. In order to use the device it is necessary to employ rubber strings and a perforated wood sheet for tools (43.5 x 26.5 mm and 4.0 mm hole).\r\n\r\nThis assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.\r\n\r\nThe research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.",
+    "instructions": "",
+    "description_html": "<div><p>This is a tactile model to help teachers to teach the principles of ionic and covalent bonds. This is not available to teach metallic bonds. In order to use the device it is necessary to employ rubber strings and a perforated wood sheet for tools (43.5 x 26.5 mm and 4.0 mm hole).<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a tactile model to help teachers to teach the principles of ionic and covalent bonds. This is not available to teach metallic bonds. In order to use the device it is necessary to employ rubber strings and a perforated wood sheet for tools (43.5 x 26.5 mm and 4.0 mm hole).<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Raise 3D N2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Normal&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;50 to 100%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; 3D Fila ABS<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a tactile model to help teachers to teach the principles of ionic and covalent bonds. This is not available to teach metallic bonds. In order to use the device it is necessary to employ rubber strings and a perforated wood sheet for tools (43.5 x 26.5 mm and 4.0 mm hole).<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA \/ UFSCar \/ Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261 \/ 2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Raise 3D N2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>Normal<\/p><\/div>",
+            "infill": "<div><p>50 to 100%<\/p><\/div>",
+            "filament_brand": "<div><p>3D Fila<\/p><\/div>",
+            "filament_material": "<div><p>ABS<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3710570\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3710570\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3710570\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3710570\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3710570\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3710570\/tags",
+    "tags": [
+      {
+        "name": "chemistry",
+        "tag": "chemistry",
+        "url": "https:\/\/api.thingiverse.com\/tags\/chemistry",
+        "count": 1155,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/chemistry\/things",
+        "absolute_url": "\/tag:chemistry"
+      },
+      {
+        "name": "covalent bond",
+        "tag": "covalent_bond",
+        "url": "https:\/\/api.thingiverse.com\/tags\/covalent_bond",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/covalent_bond\/things",
+        "absolute_url": "\/tag:covalent_bond"
+      },
+      {
+        "name": "Interatomic bonds",
+        "tag": "interatomic_bonds",
+        "url": "https:\/\/api.thingiverse.com\/tags\/interatomic_bonds",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/interatomic_bonds\/things",
+        "absolute_url": "\/tag:Interatomic_bonds"
+      },
+      {
+        "name": "ionic bond",
+        "tag": "ionic_bond",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ionic_bond",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ionic_bond\/things",
+        "absolute_url": "\/tag:ionic_bond"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3710570\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1001,
+    "view_count": 544,
+    "education": {
+      "grades": {
+        "24": "9th Grade",
+        "25": "10th Grade",
+        "26": "11th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ElectronExchange.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/84\/9d\/99\/35\/ElectronExchange.stl"
+        },
+        {
+          "name": "MetallicElementElectronPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/af\/ed\/cc\/b4\/MetallicElementElectronPin.stl"
+        },
+        {
+          "name": "MetallicElementPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/bf\/20\/ba\/97\/MetallicElementPin.stl"
+        },
+        {
+          "name": "HydrogenInterconnectingPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/58\/3d\/f2\/72\/HydrogenInterconnectingPin.stl"
+        },
+        {
+          "name": "NonMetallicElementElectronPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/5a\/30\/a2\/9a\/NonMetallicElementElectronPin.stl"
+        },
+        {
+          "name": "NonMetallicElementPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/09\/99\/6e\/a7\/NonMetallicElementPin.stl"
+        },
+        {
+          "name": "ChlorineElement.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/b4\/3f\/ec\/30\/ChlorineElement.stl"
+        },
+        {
+          "name": "FixingElementsLowerPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/6d\/de\/09\/8a\/FixingElementsLowerPin.stl"
+        },
+        {
+          "name": "UniversalNucleonBase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/f3\/59\/3d\/23\/UniversalNucleonBase.stl"
+        },
+        {
+          "name": "HydrogenElement.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/0b\/fc\/eb\/6f\/HydrogenElement.stl"
+        },
+        {
+          "name": "OxygenElement.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/59\/05\/cb\/bc\/OxygenElement.stl"
+        },
+        {
+          "name": "SodiumElement.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/1b\/d0\/fe\/b1\/SodiumElement.stl"
+        },
+        {
+          "name": "Eletrosphere.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/24\/fa\/51\/8d\/Eletrosphere.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Quimica.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/e8\/ad\/d8\/78\/Quimica.png"
+        },
+        {
+          "name": "f54621c143e0dcbf19e2d3abf70711e0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/21\/ee\/e1\/65\/f54621c143e0dcbf19e2d3abf70711e0.png"
+        },
+        {
+          "name": "c6c1c4caa4bd4b55805f44963f4769e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/32\/ad\/6a\/54\/74\/c6c1c4caa4bd4b55805f44963f4769e2.png"
+        },
+        {
+          "name": "2b0d88ccb41e3f2b6ff19bdbdd156306.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0b\/17\/89\/c4\/dc\/2b0d88ccb41e3f2b6ff19bdbdd156306.png"
+        },
+        {
+          "name": "b98f1f25a98edcda32f37145408538fd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/47\/6f\/8e\/dc\/fa\/b98f1f25a98edcda32f37145408538fd.png"
+        },
+        {
+          "name": "f7d74911a22b15736ee2e4d79da5f195.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/0a\/e0\/cb\/6f\/f7d74911a22b15736ee2e4d79da5f195.png"
+        },
+        {
+          "name": "0c84cd42e9d0c229e7eb0a1ef142ce40.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/88\/86\/e5\/23\/d8\/0c84cd42e9d0c229e7eb0a1ef142ce40.png"
+        },
+        {
+          "name": "541c9efd902fb8a2501d84bb2709b39a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5a\/2f\/31\/bf\/88\/541c9efd902fb8a2501d84bb2709b39a.png"
+        },
+        {
+          "name": "c6c187d8ef7aba72e2d25b5d868f9a0d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/eb\/40\/85\/a6\/c6c187d8ef7aba72e2d25b5d868f9a0d.png"
+        },
+        {
+          "name": "0fc48c25f9d0826d7475e892a4de2085.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/d4\/17\/54\/9b\/0fc48c25f9d0826d7475e892a4de2085.png"
+        },
+        {
+          "name": "7d84a86938fb883346c801a43898f95e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/ae\/e6\/c7\/f2\/7d84a86938fb883346c801a43898f95e.png"
+        },
+        {
+          "name": "55559b4f48a28dfc88ee0e52f4073d08.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/33\/8e\/16\/8e\/55559b4f48a28dfc88ee0e52f4073d08.png"
+        },
+        {
+          "name": "175bdbdc4eb894a1b3de64d8bbb0eec2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/a1\/4c\/14\/6f\/175bdbdc4eb894a1b3de64d8bbb0eec2.png"
+        },
+        {
+          "name": "fea4cb13d3bde9ab16b343d8bf970b3f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/45\/74\/72\/9f\/fea4cb13d3bde9ab16b343d8bf970b3f.png"
+        }
+      ]
+    }
+  }
+}

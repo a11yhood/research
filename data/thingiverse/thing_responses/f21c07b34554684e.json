@@ -1,0 +1,555 @@
+{
+  "created_at": "2025-04-09T19:45:54.966812+00:00",
+  "elapsed": 0.198522,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81ed5da61563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3086591?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3086591?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3086591,
+    "name": "NOVAchat 12\" Keyguard w\/ Hinges",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3086591",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3086591",
+    "creator": {
+      "id": 2273800,
+      "name": "jobox3",
+      "first_name": "Joe",
+      "last_name": "Sharamitaro",
+      "url": "https:\/\/api.thingiverse.com\/users\/jobox3",
+      "public_url": "https:\/\/www.thingiverse.com\/jobox3",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/49\/19\/7d\/6b\/3d\/44bb1735963615b2b857c5de96072de6_thumb_medium.jpg",
+      "count_of_followers": 11,
+      "count_of_following": 2,
+      "count_of_designs": 11,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Massachusetts",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-09-07T20:37:35+00:00",
+    "modified": "2018-09-07T20:37:35+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 4,
+    "is_liked": false,
+    "collect_count": 9,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 8833955,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/37\/10\/be\/b0\/Cover_Photo.stl",
+      "name": "b5a9ed66ccbf908bcf813e3409bcf6ee.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee_display_small.jpg"
+        }
+      ],
+      "added": "2018-09-06T15:48:59+00:00"
+    },
+    "description": "This is my first custom design, and it is a keyguard for a NOVAchat 12. Because the device it was designed for was 12\", I had to split the keyguard into two pieces that slide in together to get it to work out as I didn't have the width on my printer bed to do it as one piece.\r\n\r\nThis should be a very easy print, and feel free to tweak and improve on it.",
+    "instructions": "",
+    "description_html": "<div><p>This is my first custom design, and it is a keyguard for a NOVAchat 12. Because the device it was designed for was 12\", I had to split the keyguard into two pieces that slide in together to get it to work out as I didn't have the width on my printer bed to do it as one piece.<\/p><p>This should be a very easy print, and feel free to tweak and improve on it.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is my first custom design, and it is a keyguard for a NOVAchat 12. Because the device it was designed for was 12\", I had to split the keyguard into two pieces that slide in together to get it to work out as I didn't have the width on my printer bed to do it as one piece.<\/p><p>This should be a very easy print, and feel free to tweak and improve on it.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 2&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                    <pre><code>                &lt;strong&gt;Filament:&lt;\/strong&gt; Ultimaker PLA<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/9d\/b1\/c9\/89\/cb\/IMG_20180907_120330.jpg\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;First attempt\/all pieces shown&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b3\/f0\/c0\/17\/80\/0.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Finalized version&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is my first custom design, and it is a keyguard for a NOVAchat 12. Because the device it was designed for was 12\", I had to split the keyguard into two pieces that slide in together to get it to work out as I didn't have the width on my printer bed to do it as one piece.<\/p><p>This should be a very easy print, and feel free to tweak and improve on it.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 2<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "filament_brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9d\/b1\/c9\/89\/cb\/IMG_20180907_120330.jpg",
+            "caption": "First attempt\/all pieces shown",
+            "image_id": "103173"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b3\/f0\/c0\/17\/80\/0.jpg",
+            "caption": "Finalized version",
+            "image_id": "102974"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3086591\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3086591\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3086591\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3086591\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3086591\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3086591\/tags",
+    "tags": [
+      {
+        "name": "AAC",
+        "tag": "aac",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aac",
+        "count": 53,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aac\/things",
+        "absolute_url": "\/tag:AAC"
+      },
+      {
+        "name": "Alternative",
+        "tag": "alternative",
+        "url": "https:\/\/api.thingiverse.com\/tags\/alternative",
+        "count": 158,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/alternative\/things",
+        "absolute_url": "\/tag:Alternative"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "augmentative",
+        "tag": "augmentative",
+        "url": "https:\/\/api.thingiverse.com\/tags\/augmentative",
+        "count": 12,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/augmentative\/things",
+        "absolute_url": "\/tag:augmentative"
+      },
+      {
+        "name": "augmented",
+        "tag": "augmented",
+        "url": "https:\/\/api.thingiverse.com\/tags\/augmented",
+        "count": 21,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/augmented\/things",
+        "absolute_url": "\/tag:augmented"
+      },
+      {
+        "name": "communication",
+        "tag": "communication",
+        "url": "https:\/\/api.thingiverse.com\/tags\/communication",
+        "count": 84,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/communication\/things",
+        "absolute_url": "\/tag:communication"
+      },
+      {
+        "name": "guard",
+        "tag": "guard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/guard",
+        "count": 1490,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/guard\/things",
+        "absolute_url": "\/tag:guard"
+      },
+      {
+        "name": "iPad",
+        "tag": "ipad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ipad",
+        "count": 1792,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad\/things",
+        "absolute_url": "\/tag:iPad"
+      },
+      {
+        "name": "key",
+        "tag": "key",
+        "url": "https:\/\/api.thingiverse.com\/tags\/key",
+        "count": 5552,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/key\/things",
+        "absolute_url": "\/tag:key"
+      },
+      {
+        "name": "keyguard",
+        "tag": "keyguard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyguard",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyguard\/things",
+        "absolute_url": "\/tag:keyguard"
+      },
+      {
+        "name": "novachat",
+        "tag": "novachat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/novachat",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/novachat\/things",
+        "absolute_url": "\/tag:novachat"
+      },
+      {
+        "name": "speech",
+        "tag": "speech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/speech",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/speech\/things",
+        "absolute_url": "\/tag:speech"
+      },
+      {
+        "name": "speech therapy",
+        "tag": "speech_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/speech_therapy",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/speech_therapy\/things",
+        "absolute_url": "\/tag:speech_therapy"
+      },
+      {
+        "name": "tech",
+        "tag": "tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tech",
+        "count": 411,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tech\/things",
+        "absolute_url": "\/tag:tech"
+      },
+      {
+        "name": "technology",
+        "tag": "technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/technology",
+        "count": 386,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/technology\/things",
+        "absolute_url": "\/tag:technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3086591\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": 332,
+    "download_count": 421,
+    "view_count": 152,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "[L_12_Inch_Custom_Keyguard_4_Holes.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/38\/77\/56\/9c\/%5BL_12_Inch_Custom_Keyguard_4_Holes.stl"
+        },
+        {
+          "name": "[R_12_Inch_Custom_Keyguard_4_Holes.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/6c\/19\/51\/ac\/%5BR_12_Inch_Custom_Keyguard_4_Holes.stl"
+        },
+        {
+          "name": "[R_12_Inch_Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/5c\/79\/25\/2d\/%5BR_12_Inch_Bracket.stl"
+        },
+        {
+          "name": "[L_12_Inch_Bracket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/bb\/99\/58\/c6\/%5BL_12_Inch_Bracket.stl"
+        },
+        {
+          "name": "Cover_Photo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/37\/10\/be\/b0\/Cover_Photo.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "b5a9ed66ccbf908bcf813e3409bcf6ee.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/35\/3d\/4f\/60\/b5a9ed66ccbf908bcf813e3409bcf6ee.png"
+        },
+        {
+          "name": "29c9f98f5c2172aaf0402232fd210a04.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/78\/27\/98\/ed\/3a\/29c9f98f5c2172aaf0402232fd210a04.png"
+        },
+        {
+          "name": "9a7f92cf252cafc2d006a7e3d5d5eaac.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/64\/f5\/e9\/38\/80\/9a7f92cf252cafc2d006a7e3d5d5eaac.png"
+        },
+        {
+          "name": "f25f4ad6348751ca2e45d3a94d1bccb9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ad\/10\/cb\/f7\/c0\/f25f4ad6348751ca2e45d3a94d1bccb9.png"
+        },
+        {
+          "name": "f2fc2785660c5d80fff6d4aa66e3965a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/8c\/cc\/a2\/81\/f2fc2785660c5d80fff6d4aa66e3965a.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "created_at": "2025-04-17T03:32:24.260776+00:00",
+  "elapsed": 0.123317,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318dae2dabc81d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:24 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:24 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/986561?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/986561?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 986561,
+    "name": "Hollies hand full colour print",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1c\/37\/95\/eb\/6e\/IMG_2920_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/986561",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:986561",
+    "creator": {
+      "id": 10539,
+      "name": "Anthromod",
+      "first_name": "Chris",
+      "last_name": "Chappell",
+      "url": "https:\/\/api.thingiverse.com\/users\/Anthromod",
+      "public_url": "https:\/\/www.thingiverse.com\/Anthromod",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b9\/98\/47\/54\/ae\/2bf572fea50d37c5a4c8640e778ee3de_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 4,
+      "count_of_designs": 42,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Manchester",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/ea\/ab\/56\/39\/19\/b5e4d564a90adce8db62948838b7374a_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-08-27T13:15:41+00:00",
+    "modified": "2015-08-27T13:15:41+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 48,
+    "is_liked": false,
+    "collect_count": 75,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 2537074,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/8b\/23\/e1\/2a\/render2.jpg",
+      "name": "render2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/27\/2e\/3b\/2f\/render2_display_small.jpg"
+        }
+      ],
+      "added": "2015-08-27T13:15:40+00:00"
+    },
+    "description": "UPDATE 19th September 2015:  \n\nHollie has tried on the hand and is very happy with it. The socket needs more padding and to be tightened but her father will do that once they get home.  \nThey also told me she was using the previous model quite a lot, and getting more out of it the stronger her arm became. So my next approach will be to combine the previous all nylon printed hand with covers of the full colour printed hand.  \n\nUPDATE 18th September 2015:  \n\nDue to conflicting holiday and work schedules Hollie hasn't been able to try out the hand yet. Hopefully this should change tomorrow. I've uploaded some images of the hand coated in silicone with the nylon printed prosthetic cup. My wife thought loom bands would look good and since it's for an 8 year old girl I said ok.   \n\nORIGINAL:  \nSo the print of Hollies hand has arrived from shapeways. It is printed in full colour sandstone. I did print one finger in full colour plastic but it didn't come out very well.  \nI'm currently adding a protective layer of silicone to it. The sandstone is quite brittle and grainy, so the silicone will help keep it together. I'll add a layer of epoxy to the inside to help reinforce it. It's possible to infiltrate the hand once it's printed with epoxy, but since I had to outsource printing that's something I couldn't control.  \n\nI plan on doing a similar thing with the hand once I've finished the Anthromod V2.0 parametric hand. Here the hand will be broken into sections and placed around the Anthromod 'bones'.  \n\nIf you want to help me develop this hand you can donate to http:\/\/www.gofundme.com\/prosthetic-hand  \nIt really does help cover the costs of getting the parts printed.  \n\nI will add additional updates as I process the hand and eventually Hollie tries it on.",
+    "instructions": "",
+    "description_html": "<div><p>UPDATE 19th September 2015:  <\/p><p>Hollie has tried on the hand and is very happy with it. The socket needs more padding and to be tightened but her father will do that once they get home.<br>They also told me she was using the previous model quite a lot, and getting more out of it the stronger her arm became. So my next approach will be to combine the previous all nylon printed hand with covers of the full colour printed hand.  <\/p><p>UPDATE 18th September 2015:  <\/p><p>Due to conflicting holiday and work schedules Hollie hasn't been able to try out the hand yet. Hopefully this should change tomorrow. I've uploaded some images of the hand coated in silicone with the nylon printed prosthetic cup. My wife thought loom bands would look good and since it's for an 8 year old girl I said ok.   <\/p><p>ORIGINAL:<br>So the print of Hollies hand has arrived from shapeways. It is printed in full colour sandstone. I did print one finger in full colour plastic but it didn't come out very well.<br>I'm currently adding a protective layer of silicone to it. The sandstone is quite brittle and grainy, so the silicone will help keep it together. I'll add a layer of epoxy to the inside to help reinforce it. It's possible to infiltrate the hand once it's printed with epoxy, but since I had to outsource printing that's something I couldn't control.  <\/p><p>I plan on doing a similar thing with the hand once I've finished the Anthromod V2.0 parametric hand. Here the hand will be broken into sections and placed around the Anthromod 'bones'.  <\/p><p>If you want to help me develop this hand you can donate to <a rel=\"ugc nofollow\" href=\"http:\/\/www.gofundme.com\/prosthetic-hand\">http:\/\/www.gofundme.com\/prosthetic-hand<\/a><br>It really does help cover the costs of getting the parts printed.  <\/p><p>I will add additional updates as I process the hand and eventually Hollie tries it on.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>UPDATE 19th September 2015:  <\/p><p>Hollie has tried on the hand and is very happy with it. The socket needs more padding and to be tightened but her father will do that once they get home.<br>They also told me she was using the previous model quite a lot, and getting more out of it the stronger her arm became. So my next approach will be to combine the previous all nylon printed hand with covers of the full colour printed hand.  <\/p><p>UPDATE 18th September 2015:  <\/p><p>Due to conflicting holiday and work schedules Hollie hasn't been able to try out the hand yet. Hopefully this should change tomorrow. I've uploaded some images of the hand coated in silicone with the nylon printed prosthetic cup. My wife thought loom bands would look good and since it's for an 8 year old girl I said ok.   <\/p><p>ORIGINAL:<br>So the print of Hollies hand has arrived from shapeways. It is printed in full colour sandstone. I did print one finger in full colour plastic but it didn't come out very well.<br>I'm currently adding a protective layer of silicone to it. The sandstone is quite brittle and grainy, so the silicone will help keep it together. I'll add a layer of epoxy to the inside to help reinforce it. It's possible to infiltrate the hand once it's printed with epoxy, but since I had to outsource printing that's something I couldn't control.  <\/p><p>I plan on doing a similar thing with the hand once I've finished the Anthromod V2.0 parametric hand. Here the hand will be broken into sections and placed around the Anthromod 'bones'.  <\/p><p>If you want to help me develop this hand you can donate to <a rel=\"ugc nofollow\" href=\"http:\/\/www.gofundme.com\/prosthetic-hand\">http:\/\/www.gofundme.com\/prosthetic-hand<\/a><br>It really does help cover the costs of getting the parts printed.  <\/p><p>I will add additional updates as I process the hand and eventually Hollie tries it on.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>UPDATE 19th September 2015:  <\/p><p>Hollie has tried on the hand and is very happy with it. The socket needs more padding and to be tightened but her father will do that once they get home.<br>They also told me she was using the previous model quite a lot, and getting more out of it the stronger her arm became. So my next approach will be to combine the previous all nylon printed hand with covers of the full colour printed hand.  <\/p><p>UPDATE 18th September 2015:  <\/p><p>Due to conflicting holiday and work schedules Hollie hasn't been able to try out the hand yet. Hopefully this should change tomorrow. I've uploaded some images of the hand coated in silicone with the nylon printed prosthetic cup. My wife thought loom bands would look good and since it's for an 8 year old girl I said ok.   <\/p><p>ORIGINAL:<br>So the print of Hollies hand has arrived from shapeways. It is printed in full colour sandstone. I did print one finger in full colour plastic but it didn't come out very well.<br>I'm currently adding a protective layer of silicone to it. The sandstone is quite brittle and grainy, so the silicone will help keep it together. I'll add a layer of epoxy to the inside to help reinforce it. It's possible to infiltrate the hand once it's printed with epoxy, but since I had to outsource printing that's something I couldn't control.  <\/p><p>I plan on doing a similar thing with the hand once I've finished the Anthromod V2.0 parametric hand. Here the hand will be broken into sections and placed around the Anthromod 'bones'.  <\/p><p>If you want to help me develop this hand you can donate to <a rel=\"ugc nofollow\" href=\"http:\/\/www.gofundme.com\/prosthetic-hand\">http:\/\/www.gofundme.com\/prosthetic-hand<\/a><br>It really does help cover the costs of getting the parts printed.  <\/p><p>I will add additional updates as I process the hand and eventually Hollie tries it on.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/986561\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/986561\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/986561\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/986561\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/986561\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/986561\/tags",
+    "tags": [
+      {
+        "name": "color",
+        "tag": "color",
+        "url": "https:\/\/api.thingiverse.com\/tags\/color",
+        "count": 1077,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/color\/things",
+        "absolute_url": "\/tag:color"
+      },
+      {
+        "name": "colour",
+        "tag": "colour",
+        "url": "https:\/\/api.thingiverse.com\/tags\/colour",
+        "count": 218,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/colour\/things",
+        "absolute_url": "\/tag:colour"
+      },
+      {
+        "name": "Multicolor",
+        "tag": "multicolor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/multicolor",
+        "count": 2513,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/multicolor\/things",
+        "absolute_url": "\/tag:Multicolor"
+      },
+      {
+        "name": "Multicolour",
+        "tag": "multicolour",
+        "url": "https:\/\/api.thingiverse.com\/tags\/multicolour",
+        "count": 309,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/multicolour\/things",
+        "absolute_url": "\/tag:Multicolour"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "scan",
+        "tag": "scan",
+        "url": "https:\/\/api.thingiverse.com\/tags\/scan",
+        "count": 12378,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/scan\/things",
+        "absolute_url": "\/tag:scan"
+      },
+      {
+        "name": "sculpture",
+        "tag": "sculpture",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sculpture",
+        "count": 5802,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sculpture\/things",
+        "absolute_url": "\/tag:sculpture"
+      },
+      {
+        "name": "shapeways",
+        "tag": "shapeways",
+        "url": "https:\/\/api.thingiverse.com\/tags\/shapeways",
+        "count": 47,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/shapeways\/things",
+        "absolute_url": "\/tag:shapeways"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/986561\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1118,
+    "view_count": 5695,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 1,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Hand_for_print.mtl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/03\/a0\/8b\/f7\/Hand_for_print.mtl"
+        },
+        {
+          "name": "Hand_for_print.obj",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/8b\/06\/15\/20\/Hand_for_print.obj"
+        }
+      ],
+      "images": [
+        {
+          "name": "render2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/8b\/23\/e1\/2a\/render2.jpg"
+        },
+        {
+          "name": "render3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/44\/2a\/b6\/7f\/render3.jpg"
+        },
+        {
+          "name": "render4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/5c\/56\/2e\/2a\/render4.jpg"
+        },
+        {
+          "name": "render1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/0c\/6e\/37\/12\/render1.jpg"
+        },
+        {
+          "name": "Hollies_Skin.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/aa\/03\/a5\/39\/Hollies_Skin.png"
+        },
+        {
+          "name": "IMG_2909b.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/84\/1c\/c0\/7d\/IMG_2909b.jpg"
+        },
+        {
+          "name": "IMG_2904b.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/f7\/5d\/71\/15\/IMG_2904b.jpg"
+        },
+        {
+          "name": "Hand_for_print.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/21\/6c\/7c\/f6\/Hand_for_print.png"
+        },
+        {
+          "name": "20150830_212728.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/36\/0b\/07\/40\/20150830_212728.jpg"
+        },
+        {
+          "name": "20150830_212838.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/db\/e2\/48\/4e\/20150830_212838.jpg"
+        },
+        {
+          "name": "20150830_212900.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/93\/64\/c8\/5f\/20150830_212900.jpg"
+        },
+        {
+          "name": "IMG_2920.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/e8\/f0\/53\/2f\/IMG_2920.JPG"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "created_at": "2025-10-08T03:26:58.601055+00:00",
+  "elapsed": 0.236275,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a2ed8a03023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:26:58 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:56:58 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1570980?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1570980?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1570980,
+    "name": "Exoskeleton Lower Leg Support",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1570980",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1570980",
+    "creator": {
+      "id": 445161,
+      "name": "Maddoctor",
+      "first_name": "Marty",
+      "last_name": "Purcell",
+      "url": "https:\/\/api.thingiverse.com\/users\/Maddoctor",
+      "public_url": "https:\/\/www.thingiverse.com\/Maddoctor",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/66\/22\/07\/8e\/29\/42974047c061ee92e0a0eea80e606cb8_thumb_medium.jpg",
+      "count_of_followers": 20,
+      "count_of_following": 0,
+      "count_of_designs": 17,
+      "collection_count": 2,
+      "make_count": 2,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Ireland",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-05-17T22:04:05+00:00",
+    "modified": "2016-05-17T22:04:05+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 25,
+    "is_liked": false,
+    "collect_count": 60,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 3873203,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/f8\/2d\/ec\/b3\/LowerLeg.jpg",
+      "name": "LowerLeg.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/99\/f2\/b2\/d4\/cc461eba582636155d4412da2f31ee65_display_small.jpg"
+        }
+      ],
+      "added": "2016-05-17T21:55:06+00:00"
+    },
+    "description": "This is just one component of a larger exoskeleton project.   You can find the main project and all files (including this one) and an assembly manual here:  http:\/\/www.thingiverse.com\/thing:1532027\r\n\r\nThis is the lower leg support to transmit the motor motion to the leg (from the knee down).\r\n\r\nIf you wish to customise this - you should be able to Copy&Tinker this and edit as needed here:  https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This is just one component of a larger exoskeleton project.   You can find the main project and all files (including this one) and an assembly manual here:  <a rel=\"nofollow\" href=\"\/thing:1532027\">http:\/\/www.thingiverse.com\/thing:1532027<\/a><\/p><p>This is the lower leg support to transmit the motor motion to the leg (from the knee down).<\/p><p>If you wish to customise this - you should be able to Copy&amp;Tinker this and edit as needed here:  <a rel=\"nofollow\" href=\"https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs\">https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is just one component of a larger exoskeleton project.   You can find the main project and all files (including this one) and an assembly manual here:  <a rel=\"nofollow\" href=\"\/thing:1532027\">http:\/\/www.thingiverse.com\/thing:1532027<\/a><\/p><p>This is the lower leg support to transmit the motor motion to the leg (from the knee down).<\/p><p>If you wish to customise this - you should be able to Copy&amp;Tinker this and edit as needed here:  <a rel=\"nofollow\" href=\"https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs\">https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>K8200<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;100%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;I've taken to printing mesh type parts with 100% infill.  I think the results come out better.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Just the usual cleanup of strings etc.<\/strong><\/p><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-title\"><strong>Printed in Bridge Nylon - strong, slightly flexible with excellent interlayer bonding.<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;All metal hot end (E3D v6) upgrade was required on my printer to print Nylons.&lt;br&gt;Also - a machined screw Z-Axis upgrade (as opposed to the original threaded bar) really improved the quality of the finished parts.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is just one component of a larger exoskeleton project.   You can find the main project and all files (including this one) and an assembly manual here:  <a rel=\"nofollow\" href=\"\/thing:1532027\">http:\/\/www.thingiverse.com\/thing:1532027<\/a><\/p><p>This is the lower leg support to transmit the motor motion to the leg (from the knee down).<\/p><p>If you wish to customise this - you should be able to Copy&amp;Tinker this and edit as needed here:  <a rel=\"nofollow\" href=\"https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs\">https:\/\/www.tinkercad.com\/search\/?q=Bot_Legs<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>K8200<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>",
+            "infill": "<div><p>100%<\/p><\/div>",
+            "notes": "<div><p>I've taken to printing mesh type parts with 100% infill.  I think the results come out better.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Just the usual cleanup of strings etc."
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "title": "Printed in Bridge Nylon - strong, slightly flexible with excellent interlayer bonding.",
+            "content": "<div><p>All metal hot end (E3D v6) upgrade was required on my printer to print Nylons.<br>Also - a machined screw Z-Axis upgrade (as opposed to the original threaded bar) really improved the quality of the finished parts.<\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1570980\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1570980\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1570980\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1570980\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1570980\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1570980\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "bionic",
+        "tag": "bionic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bionic",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bionic\/things",
+        "absolute_url": "\/tag:bionic"
+      },
+      {
+        "name": "Exoskeleton",
+        "tag": "exoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton",
+        "count": 80,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/exoskeleton\/things",
+        "absolute_url": "\/tag:Exoskeleton"
+      },
+      {
+        "name": "Iron Man",
+        "tag": "iron_man",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iron_man",
+        "count": 947,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iron_man\/things",
+        "absolute_url": "\/tag:Iron_Man"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1570980\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 509,
+    "view_count": 1454,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Lower_Leg_Support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/bf\/69\/97\/2c\/Lower_Leg_Support.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "LowerLeg.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/f8\/2d\/ec\/b3\/LowerLeg.jpg"
+        },
+        {
+          "name": "LowerLeg2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/a6\/00\/db\/3b\/LowerLeg2.jpg"
+        },
+        {
+          "name": "a5693830824ccbc3bc9d2bd76dbd5485.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/c5\/0c\/da\/dd\/a5693830824ccbc3bc9d2bd76dbd5485.png"
+        },
+        {
+          "name": "Lower_Leg_Support.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/ed\/cc\/25\/5f\/Lower_Leg_Support.jpg"
+        }
+      ]
+    }
+  }
+}

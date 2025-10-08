@@ -1,0 +1,463 @@
+{
+  "created_at": "2025-04-12T03:32:09.972368+00:00",
+  "elapsed": 0.196537,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92efa7a92a37eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:09 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:09 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1716073?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1716073?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1716073,
+    "name": "3D printed wheelchair for MakerED challenge #MakerEdChallenge2",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1716073",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1716073",
+    "creator": {
+      "id": 102090,
+      "name": "hugoarchicad",
+      "first_name": "hugo",
+      "last_name": "riveros",
+      "url": "https:\/\/api.thingiverse.com\/users\/hugoarchicad",
+      "public_url": "https:\/\/www.thingiverse.com\/hugoarchicad",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e2\/33\/52\/a7\/0e\/photo_thumb_medium.jpg",
+      "count_of_followers": 215,
+      "count_of_following": 6,
+      "count_of_designs": 81,
+      "collection_count": 0,
+      "make_count": 97,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Australia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/28\/e4\/2a\/bc\/c9\/straIGHToutofmy3Dprinter_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-08-12T00:52:05+00:00",
+    "modified": "2016-08-12T00:52:05+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 196,
+    "is_liked": false,
+    "collect_count": 324,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 4252346,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/fe\/80\/a3\/ea\/03_preview_featured77.jpg",
+      "name": "03_preview_featured77.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/a4\/11\/49\/57\/442ed6a61c9fdb64f7be4c05d2dc8bbe_display_small.jpg"
+        }
+      ],
+      "added": "2016-08-12T00:51:43+00:00"
+    },
+    "description": "This MUST become a school project.\r\n\r\nSo I am entering this in the #MakerEdChallenge2\r\n\r\nsome kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.\r\n\r\n\r\n\r\nI decided to create this wheelchair because I have used one before due to my own illness,\r\nI was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.\r\nwe even received training how to operate a wheelchair during the induction.\r\n\r\nI have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.\r\n\r\nSo, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.\r\n\r\nI visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap.\r\n\r\nI strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off.\r\n\r\nIt should be a tool that anyone should have access to use.\r\n\r\nI would love for a school to take this up and make it into a formal design project.\r\n\r\nI see this project divided into 4 modules.\r\n\r\nDrawing\/Design\r\nWoodwork\r\nTextiles\r\n3D printing\r\n\r\n\r\nTextiles:\r\nThe sawing of the cushions and armrests plus the support of these onto the wheelchair itself\r\n\r\nWoodwork:\r\nThe frame, cutting the MDF from a template, sanding, painting, drilling holes\r\nLearning how to measure, cut holes with drill, use of jigsaw.\r\n\r\n3D printing\r\nPrinting the bits and checking for tolerances.\r\n\r\nDrawing\/design\r\n\r\nI think kids can improve on the design and this should form part once it has been made.\r\nSo that the next year class can improve on it, eventually making the design better and better and perhaps changing all together!!\r\n\r\n.\r\nObjectives: \r\nThe most important lesson is not what you are building although it might seem like it.\r\nTo me the lesson is about gratitude.\r\nTo appreciate who we are and therefore help those who are less fortunate.\r\nTo work on a project who is going to potentially enrich someones life is the best project anyone can work on)\r\n\r\nYou will also learn how to make a wheelchair with very basic tools, using a drill, a jigsaw, sawing machine, how to cut material from a pattern (also how to make a pattern)etc\r\n\r\n\r\nAudiences: I do not have kids so I dont know. But I imagine kids 14-15 onwards would be able to operate those equipment safely with teacher supervision.\r\n\r\n\r\nLesson\/Activity: \r\n\r\nPerhaps the first lesson should be to familiarise kids with other kids that use a wheelchair,\r\nperhaps they could sit in the chair and drive it so they understand what it is like to use one and how difficult life would be without one.\r\n\r\nthen start with the 3D printing as this would take the longest\r\nKids could take turns learning how to upload the parts onto the 3D printer, how to clean the printer and after print finishing (painting\/sanding)\r\n\r\nthen we would go into tracing the template for the big frame, then cutting it.\r\nSo learning here how to transfer the template onto the MDF.\r\nhow to secure it for cutting, what blades to use, etc.\r\n\r\nthe drilling could go next.\r\n\r\nWe would need a wheelchair to get the use of the big wheels and the frame for the little ones.\r\n\r\n\r\n\r\n\r\nDuration:I estimate this could take 6 weeks to complete perhaps a couple of weeks more.\r\n\r\nPreparation: think about who the person kid in mind who will use it so to pick best cxolours and\/or fabrics, (could pick school colours\/favourite superhero)\r\n\r\nReferences: teachers should know how to operate jigsaws, drills and 3D printers.\r\n\r\nRubric & Assessment: \r\n\r\nThis is a class assignment so each student will be graded for the part they completed.\r\n\r\nat the end the class should donate the wheelchair to an actual person.\r\nthen also each student to answer what could have been better designed , what went wrong and what they learned from the experience.\r\n\r\n\r\n\r\nThis is a lovely thing a friend does for a mate but it should not have to be this hard!!\r\n\r\nhttp:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\r\n\r\n\r\n\r\nThe material list will be like this: (will be adding more as I need it)\r\n\r\n-Plywood\/MDF 16mm thick\r\n-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)\r\nat the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.\r\n-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)\r\n-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)\r\n-nuts and bolts (will specify how many, what type, size, lenght,etc)\r\n-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)\r\n-2 old\/new long 'socks' for the arm rests\r\n\r\nfabric for the seats (I was thinking flour bags) and or old tshits\r\ntools required\r\n\r\n-Jigsaw\r\n-drill (hand held or electric)\r\n-screwdriver\r\n-spanner (will specify size)\r\n-access to a 3D printer\r\n-access to needle and thread\r\n-pair of scissors\r\n\r\nand a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.\r\n\r\nfinally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)\r\n\r\nhttp:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\r\n\r\nnote: I have started to put PDF's now.\r\nonce I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.\r\n\r\nalso when the frame is done i will assemble it and begin to take photos of the real thing!!!!\r\n\r\nThis project has taken a great amount of time, effort and resources to design and build.\r\n(As you know any prototype is expensive at first, I am happy to wear the costs)\r\nMy purpose is to share it with the world for free, however a small contribution would be a huge help to continue its development.\r\nplease go here and help me if you believe in this worthy cause.\r\nhttps:\/\/www.paypal.me\/justonedollar\r\n\r\nMy dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.\r\n\r\nAnyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.\r\nAlso if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.\r\nIt doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing.\r\n\r\n\r\n\r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This MUST become a school project.<\/p><p>So I am entering this in the #MakerEdChallenge2<\/p><p>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap.<\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off.<\/p><p>It should be a tool that anyone should have access to use.<\/p><p>I would love for a school to take this up and make it into a formal design project.<\/p><p>I see this project divided into 4 modules.<\/p><p>Drawing\/Design<br>Woodwork<br>Textiles<br>3D printing<\/p><p>Textiles:<br>The sawing of the cushions and armrests plus the support of these onto the wheelchair itself<\/p><p>Woodwork:<br>The frame, cutting the MDF from a template, sanding, painting, drilling holes<br>Learning how to measure, cut holes with drill, use of jigsaw.<\/p><p>3D printing<br>Printing the bits and checking for tolerances.<\/p><p>Drawing\/design<\/p><p>I think kids can improve on the design and this should form part once it has been made.<br>So that the next year class can improve on it, eventually making the design better and better and perhaps changing all together!!<\/p><p>.<br>Objectives:<br>The most important lesson is not what you are building although it might seem like it.<br>To me the lesson is about gratitude.<br>To appreciate who we are and therefore help those who are less fortunate.<br>To work on a project who is going to potentially enrich someones life is the best project anyone can work on)<\/p><p>You will also learn how to make a wheelchair with very basic tools, using a drill, a jigsaw, sawing machine, how to cut material from a pattern (also how to make a pattern)etc<\/p><p>Audiences: I do not have kids so I dont know. But I imagine kids 14-15 onwards would be able to operate those equipment safely with teacher supervision.<\/p><p>Lesson\/Activity: <\/p><p>Perhaps the first lesson should be to familiarise kids with other kids that use a wheelchair,<br>perhaps they could sit in the chair and drive it so they understand what it is like to use one and how difficult life would be without one.<\/p><p>then start with the 3D printing as this would take the longest<br>Kids could take turns learning how to upload the parts onto the 3D printer, how to clean the printer and after print finishing (painting\/sanding)<\/p><p>then we would go into tracing the template for the big frame, then cutting it.<br>So learning here how to transfer the template onto the MDF.<br>how to secure it for cutting, what blades to use, etc.<\/p><p>the drilling could go next.<\/p><p>We would need a wheelchair to get the use of the big wheels and the frame for the little ones.<\/p><p>Duration:I estimate this could take 6 weeks to complete perhaps a couple of weeks more.<\/p><p>Preparation: think about who the person kid in mind who will use it so to pick best cxolours and\/or fabrics, (could pick school colours\/favourite superhero)<\/p><p>References: teachers should know how to operate jigsaws, drills and 3D printers.<\/p><p>Rubric &amp; Assessment: <\/p><p>This is a class assignment so each student will be graded for the part they completed.<\/p><p>at the end the class should donate the wheelchair to an actual person.<br>then also each student to answer what could have been better designed , what went wrong and what they learned from the experience.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><p>fabric for the seats (I was thinking flour bags) and or old tshits<br>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This MUST become a school project.<\/p><p>So I am entering this in the #MakerEdChallenge2<\/p><p>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap.<\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off.<\/p><p>It should be a tool that anyone should have access to use.<\/p><p>I would love for a school to take this up and make it into a formal design project.<\/p><p>I see this project divided into 4 modules.<\/p><p>Drawing\/Design<br>Woodwork<br>Textiles<br>3D printing<\/p><p>Textiles:<br>The sawing of the cushions and armrests plus the support of these onto the wheelchair itself<\/p><p>Woodwork:<br>The frame, cutting the MDF from a template, sanding, painting, drilling holes<br>Learning how to measure, cut holes with drill, use of jigsaw.<\/p><p>3D printing<br>Printing the bits and checking for tolerances.<\/p><p>Drawing\/design<\/p><p>I think kids can improve on the design and this should form part once it has been made.<br>So that the next year class can improve on it, eventually making the design better and better and perhaps changing all together!!<\/p><p>.<br>Objectives:<br>The most important lesson is not what you are building although it might seem like it.<br>To me the lesson is about gratitude.<br>To appreciate who we are and therefore help those who are less fortunate.<br>To work on a project who is going to potentially enrich someones life is the best project anyone can work on)<\/p><p>You will also learn how to make a wheelchair with very basic tools, using a drill, a jigsaw, sawing machine, how to cut material from a pattern (also how to make a pattern)etc<\/p><p>Audiences: I do not have kids so I dont know. But I imagine kids 14-15 onwards would be able to operate those equipment safely with teacher supervision.<\/p><p>Lesson\/Activity: <\/p><p>Perhaps the first lesson should be to familiarise kids with other kids that use a wheelchair,<br>perhaps they could sit in the chair and drive it so they understand what it is like to use one and how difficult life would be without one.<\/p><p>then start with the 3D printing as this would take the longest<br>Kids could take turns learning how to upload the parts onto the 3D printer, how to clean the printer and after print finishing (painting\/sanding)<\/p><p>then we would go into tracing the template for the big frame, then cutting it.<br>So learning here how to transfer the template onto the MDF.<br>how to secure it for cutting, what blades to use, etc.<\/p><p>the drilling could go next.<\/p><p>We would need a wheelchair to get the use of the big wheels and the frame for the little ones.<\/p><p>Duration:I estimate this could take 6 weeks to complete perhaps a couple of weeks more.<\/p><p>Preparation: think about who the person kid in mind who will use it so to pick best cxolours and\/or fabrics, (could pick school colours\/favourite superhero)<\/p><p>References: teachers should know how to operate jigsaws, drills and 3D printers.<\/p><p>Rubric &amp; Assessment: <\/p><p>This is a class assignment so each student will be graded for the part they completed.<\/p><p>at the end the class should donate the wheelchair to an actual person.<br>then also each student to answer what could have been better designed , what went wrong and what they learned from the experience.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><p>fabric for the seats (I was thinking flour bags) and or old tshits<br>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This MUST become a school project.<\/p><p>So I am entering this in the #MakerEdChallenge2<\/p><p>some kids can sew the seat covers, others in wood class can make the frame and others can 3D print the parts, the seniors could design it better! go on its for a great cause.<\/p><p>I decided to create this wheelchair because I have used one before due to my own illness,<br>I was a Sydney 2000 Olympic volunteer and part of my job then was to help people that are a different kind of perfect move around the Olympic park.<br>we even received training how to operate a wheelchair during the induction.<\/p><p>I have been 3D printing many things and for many people over the last 3 years and I think is time I begin to design\/make something for a noble cause.<\/p><p>So, I thought I should pay it forward and create one that anyone in the world could make and assemble with a very common cheap parts.<\/p><p>I visited my country of Birth Chile a few months ago and I saw first hand how 3D printed parts for different kind of perfect people could transform their lives but sadly they didnt know where to go to get their needs met or that it could be very cheap.<\/p><p>I strongly Believe that everyone in the world deserves to be able to move about and a wheelchair should not be a luxury item for the few\/well off.<\/p><p>It should be a tool that anyone should have access to use.<\/p><p>I would love for a school to take this up and make it into a formal design project.<\/p><p>I see this project divided into 4 modules.<\/p><p>Drawing\/Design<br>Woodwork<br>Textiles<br>3D printing<\/p><p>Textiles:<br>The sawing of the cushions and armrests plus the support of these onto the wheelchair itself<\/p><p>Woodwork:<br>The frame, cutting the MDF from a template, sanding, painting, drilling holes<br>Learning how to measure, cut holes with drill, use of jigsaw.<\/p><p>3D printing<br>Printing the bits and checking for tolerances.<\/p><p>Drawing\/design<\/p><p>I think kids can improve on the design and this should form part once it has been made.<br>So that the next year class can improve on it, eventually making the design better and better and perhaps changing all together!!<\/p><p>.<br>Objectives:<br>The most important lesson is not what you are building although it might seem like it.<br>To me the lesson is about gratitude.<br>To appreciate who we are and therefore help those who are less fortunate.<br>To work on a project who is going to potentially enrich someones life is the best project anyone can work on)<\/p><p>You will also learn how to make a wheelchair with very basic tools, using a drill, a jigsaw, sawing machine, how to cut material from a pattern (also how to make a pattern)etc<\/p><p>Audiences: I do not have kids so I dont know. But I imagine kids 14-15 onwards would be able to operate those equipment safely with teacher supervision.<\/p><p>Lesson\/Activity: <\/p><p>Perhaps the first lesson should be to familiarise kids with other kids that use a wheelchair,<br>perhaps they could sit in the chair and drive it so they understand what it is like to use one and how difficult life would be without one.<\/p><p>then start with the 3D printing as this would take the longest<br>Kids could take turns learning how to upload the parts onto the 3D printer, how to clean the printer and after print finishing (painting\/sanding)<\/p><p>then we would go into tracing the template for the big frame, then cutting it.<br>So learning here how to transfer the template onto the MDF.<br>how to secure it for cutting, what blades to use, etc.<\/p><p>the drilling could go next.<\/p><p>We would need a wheelchair to get the use of the big wheels and the frame for the little ones.<\/p><p>Duration:I estimate this could take 6 weeks to complete perhaps a couple of weeks more.<\/p><p>Preparation: think about who the person kid in mind who will use it so to pick best cxolours and\/or fabrics, (could pick school colours\/favourite superhero)<\/p><p>References: teachers should know how to operate jigsaws, drills and 3D printers.<\/p><p>Rubric &amp; Assessment: <\/p><p>This is a class assignment so each student will be graded for the part they completed.<\/p><p>at the end the class should donate the wheelchair to an actual person.<br>then also each student to answer what could have been better designed , what went wrong and what they learned from the experience.<\/p><p>This is a lovely thing a friend does for a mate but it should not have to be this hard!!<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/\">http:\/\/laughingsquid.com\/chinese-student-piggybacks-his-disabled-friend-to-class-for-three-years-so-he-wouldnt-miss-out-on-his-education\/<\/a><\/p><p>The material list will be like this: (will be adding more as I need it)<\/p><p>-Plywood\/MDF 16mm thick<br>-roll of plastic (1 kilo exactly is what will be needed to print all the components!!)<br>at the end I will rename each part so it has its weight in grams in case you are wondering if you have enough.<br>-zip ties (to support not load bearing components instead of using nuts, bolts and washers which are heavier and more expensive ( I used these for the seat support beam ends)<br>-rods 'broom sticks' of two sizes (50mm for cross bracing and 20mm for the others)<br>-nuts and bolts (will specify how many, what type, size, lenght,etc)<br>-paint (because the frame is kind of chunky a nice vibrant happy colour would be great (I will do version 1 in red because it will go faster)<br>-2 old\/new long 'socks' for the arm rests<\/p><p>fabric for the seats (I was thinking flour bags) and or old tshits<br>tools required<\/p><p>-Jigsaw<br>-drill (hand held or electric)<br>-screwdriver<br>-spanner (will specify size)<br>-access to a 3D printer<br>-access to needle and thread<br>-pair of scissors<\/p><p>and a bit of room to make it. (I live in a small apartment so my workshop was my balcony which I had to leave everytime my little dog needed to go to the toilet, he is shy and doesn't like to go when there are people watching), so a little more room would be best and a bench\/table would be great to have too.<\/p><p>finally, I dont like the term disabled so instead I replace it with \"a different kind of perfect\" which I got from here (its far nicer)<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/\">http:\/\/themighty.com\/2015\/04\/the-term-that-describes-my-daughter-better-than-special-needs-or-disabled\/<\/a><\/p><p>note: I have started to put PDF's now.<br>once I do the frame today, I will make a cad file of it in PDF and DWG and STL in one piece so that maybe someone with a laser cutter machine big enough can cut it automatically.<\/p><p>also when the frame is done i will assemble it and begin to take photos of the real thing!!!!<\/p><p>This project has taken a great amount of time, effort and resources to design and build.<br>(As you know any prototype is expensive at first, I am happy to wear the costs)<br>My purpose is to share it with the world for free, however a small contribution would be a huge help to continue its development.<br>please go here and help me if you believe in this worthy cause.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.paypal.me\/justonedollar\">https:\/\/www.paypal.me\/justonedollar<\/a><\/p><p>My dream would be for this project to be copied by someone like IKEA and mass produce this flat packed and shipped wherever these might be needed as part of help that countries offer one another.<\/p><p>Anyone with questions or help, done hesitate to send me a message and I will endeavour to reply ASAP.<br>Also if anyone would like to donate a 3D printer for this cause don't hesitate to get in touch with me.<br>It doesn't even need to be big or fancy, i can modify the wheelchair parts to fit their built area. you would be doing a great thing.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1716073\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1716073\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1716073\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1716073\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1716073\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1716073\/tags",
+    "tags": [
+      {
+        "name": "MakerEdChallenge2",
+        "tag": "makeredchallenge2",
+        "url": "https:\/\/api.thingiverse.com\/tags\/makeredchallenge2",
+        "count": 409,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/makeredchallenge2\/things",
+        "absolute_url": "\/tag:MakerEdChallenge2"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1716073\/categories",
+    "file_count": 10,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1671,
+    "view_count": 4804,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "cross_brace_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/ab\/e8\/6d\/58\/cross_brace_bottom.stl"
+        },
+        {
+          "name": "beam_endsx4_rebuilt_65grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/e7\/82\/25\/b8\/beam_endsx4_rebuilt_65grams.stl"
+        },
+        {
+          "name": "arm_brackets_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/af\/89\/37\/44\/8b\/arm_brackets_rebuilt.stl"
+        },
+        {
+          "name": "legs_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/57\/c4\/a7\/98\/legs_rebuilt.stl"
+        },
+        {
+          "name": "beam_mixedx2_100grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/70\/7c\/84\/ea\/beam_mixedx2_100grams.stl"
+        },
+        {
+          "name": "cross_brace_top_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/4c\/99\/f2\/fa\/cross_brace_top_rebuilt.stl"
+        },
+        {
+          "name": "one_arm_77grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/39\/09\/18\/04\/one_arm_77grams.stl"
+        },
+        {
+          "name": "little_wheel_210grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/50\/2f\/2a\/64\/little_wheel_210grams.stl"
+        },
+        {
+          "name": "SEAT_LEFT_rebuilt.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/51\/b7\/49\/1b\/SEAT_LEFT_rebuilt.stl"
+        },
+        {
+          "name": "beam_supportx4_rebuilt_135grams.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/e1\/98\/1f\/53\/beam_supportx4_rebuilt_135grams.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "03_preview_featured77.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/fe\/80\/a3\/ea\/03_preview_featured77.jpg"
+        },
+        {
+          "name": "reee.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/11\/cb\/1c\/0f\/reee.jpg"
+        },
+        {
+          "name": "04_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/f5\/02\/b5\/e6\/04_preview_featured.jpg"
+        },
+        {
+          "name": "arm.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/5f\/61\/81\/82\/arm.jpg"
+        },
+        {
+          "name": "unnamed-2_preview_featured5545.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/37\/94\/6d\/99\/unnamed-2_preview_featured5545.jpg"
+        },
+        {
+          "name": "unnamed-1_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/c6\/b2\/9c\/f0\/unnamed-1_preview_featured.jpg"
+        },
+        {
+          "name": "03_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/33\/0a\/a4\/3b\/03_preview_featured.jpg"
+        },
+        {
+          "name": "01_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/32\/f0\/7c\/0a\/01_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/2e\/3f\/c1\/5d\/unnamed_preview_featured.jpg"
+        },
+        {
+          "name": "ret.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/eb\/6d\/54\/f4\/ret.jpg"
+        },
+        {
+          "name": "sock_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/17\/80\/55\/72\/sock_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-6_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/d2\/66\/8c\/2d\/unnamed-6_preview_featured.jpg"
+        },
+        {
+          "name": "sk04_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/87\/98\/98\/6d\/sk04_preview_featured.jpg"
+        },
+        {
+          "name": "wheel_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/10\/56\/38\/c5\/wheel_preview_featured.jpg"
+        },
+        {
+          "name": "01_preview_featured55.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/1d\/55\/1c\/a1\/01_preview_featured55.jpg"
+        },
+        {
+          "name": "sk03_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/34\/73\/8c\/3e\/sk03_preview_featured.jpg"
+        },
+        {
+          "name": "sk02_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/3b\/d7\/0a\/79\/sk02_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-8_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/94\/86\/73\/d3\/unnamed-8_preview_featured.jpg"
+        },
+        {
+          "name": "seat_3_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/89\/55\/77\/6e\/seat_3_preview_featured.jpg"
+        },
+        {
+          "name": "shaped_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/4b\/33\/6d\/36\/shaped_preview_featured.jpg"
+        },
+        {
+          "name": "final_1_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/e2\/81\/1d\/93\/final_1_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-2_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/7e\/15\/0a\/cf\/unnamed-2_preview_featured.jpg"
+        },
+        {
+          "name": "better_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/cb\/7a\/36\/fd\/better_preview_featured.jpg"
+        },
+        {
+          "name": "seat_support_2_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/e0\/61\/a2\/68\/seat_support_2_preview_featured.jpg"
+        },
+        {
+          "name": "sk01_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/f3\/63\/69\/ab\/sk01_preview_featured.jpg"
+        },
+        {
+          "name": "cutting_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/41\/35\/0f\/53\/cutting_preview_featured.jpg"
+        },
+        {
+          "name": "sawing_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/99\/28\/5a\/8e\/sawing_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-5_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/35\/9a\/59\/4a\/unnamed-5_preview_featured.jpg"
+        },
+        {
+          "name": "the_one_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/e7\/0f\/b8\/76\/the_one_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-3_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/1c\/1c\/10\/57\/unnamed-3_preview_featured.jpg"
+        },
+        {
+          "name": "unnamed-4_preview_featured.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/f7\/27\/cd\/6e\/unnamed-4_preview_featured.jpg"
+        },
+        {
+          "name": "tr.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/0e\/c4\/5c\/82\/tr.jpg"
+        },
+        {
+          "name": "7366b437e6994911d203e99f7f88afd2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/69\/0d\/42\/61\/cc\/7366b437e6994911d203e99f7f88afd2.png"
+        },
+        {
+          "name": "9c88c9407ce0f67d1509da3e87a53e5f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7a\/4e\/17\/2a\/d0\/9c88c9407ce0f67d1509da3e87a53e5f.png"
+        },
+        {
+          "name": "1ccc9014ef08497b6d64368eeb00cbb6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/cf\/8f\/6a\/aa\/1ccc9014ef08497b6d64368eeb00cbb6.png"
+        },
+        {
+          "name": "d40788dfcc1b62efc8cddbad9040dd09.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/25\/e1\/d3\/52\/b0\/d40788dfcc1b62efc8cddbad9040dd09.png"
+        },
+        {
+          "name": "bc37628730c4b9d1e2c6bb65e78db314.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a9\/50\/47\/8b\/f5\/bc37628730c4b9d1e2c6bb65e78db314.png"
+        },
+        {
+          "name": "0c192eeb2d6009b42bbbb26b9a1b6297.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/84\/8b\/fc\/95\/8a\/0c192eeb2d6009b42bbbb26b9a1b6297.png"
+        },
+        {
+          "name": "df56cf2a9916fe0d9d529f4850d69791.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3b\/3e\/61\/19\/61\/df56cf2a9916fe0d9d529f4850d69791.png"
+        },
+        {
+          "name": "0939aeb3c6ac7e644aa1a9d64f5d27d9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/1b\/08\/8c\/ec\/0939aeb3c6ac7e644aa1a9d64f5d27d9.png"
+        },
+        {
+          "name": "bdfd6dc282e8da23b162bc335bcc98cc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/f5\/5f\/51\/06\/bdfd6dc282e8da23b162bc335bcc98cc.png"
+        },
+        {
+          "name": "5f1858a0842ac8931d1a2c00d9205bdb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/1d\/79\/f9\/dc\/5f1858a0842ac8931d1a2c00d9205bdb.png"
+        }
+      ]
+    }
+  }
+}

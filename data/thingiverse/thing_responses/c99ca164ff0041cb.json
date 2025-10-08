@@ -1,0 +1,461 @@
+{
+  "created_at": "2025-07-15T03:58:43.518968+00:00",
+  "elapsed": 0.116027,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657d14fd2f90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:43 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:43 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4230057?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4230057?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4230057,
+    "name": "Rectangular Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/e4\/e7\/8d\/25\/3d\/large_display_IMG_5500.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4230057",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4230057",
+    "creator": {
+      "id": 1287795,
+      "name": "meleinweber",
+      "first_name": "Marcia",
+      "last_name": "Leinweber",
+      "url": "https:\/\/api.thingiverse.com\/users\/meleinweber",
+      "public_url": "https:\/\/www.thingiverse.com\/meleinweber",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b5\/fe\/bc\/f8\/48\/d198423f442fe7ef3a9657b54f4383de_thumb_medium.jpg",
+      "count_of_followers": 17,
+      "count_of_following": 13,
+      "count_of_designs": 1,
+      "collection_count": 18,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Home",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-03-18T20:17:26+00:00",
+    "modified": "2020-03-18T20:17:26+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 5,
+    "is_liked": false,
+    "collect_count": 19,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 12804377,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/50\/1c\/46\/12\/IMG_5500.jpg",
+      "name": "IMG_5500.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/07\/cd\/77\/3c\/large_thumb_IMG_5500.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/ba\/16\/45\/d3\/medium_thumb_IMG_5500.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/c1\/4f\/4d\/82\/small_thumb_IMG_5500.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/8f\/2d\/5a\/6b\/tiny_thumb_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/db\/11\/27\/f6\/featured_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/44\/b0\/15\/6a\/card_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/6a\/d1\/21\/4f\/large_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/d4\/36\/9f\/b6\/medium_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/29\/0e\/1d\/81\/small_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/0e\/9e\/b9\/fb\/birdwing_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/88\/eb\/34\/af\/tiny_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/49\/67\/82\/d9\/tinycard_preview_IMG_5500.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e4\/e7\/8d\/25\/3d\/large_display_IMG_5500.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/e9\/49\/f1\/03\/medium_display_IMG_5500.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/29\/c8\/df\/50\/eb\/small_display_IMG_5500.jpg"
+        }
+      ],
+      "added": "2020-03-18T19:03:25+00:00"
+    },
+    "description": "Our Assistive Technology Team had a request to collaborate with a Teacher and Occupational Therapist to create a large, rectangular light touch switch. This is an ongoing project and could use additional modifications, but it works for our students' needs. Every student in the class can have their own switch to access class activities.\r\n\r\n\r\n\r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Our Assistive Technology Team had a request to collaborate with a Teacher and Occupational Therapist to create a large, rectangular light touch switch. This is an ongoing project and could use additional modifications, but it works for our students' needs. Every student in the class can have their own switch to access class activities.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Our Assistive Technology Team had a request to collaborate with a Teacher and Occupational Therapist to create a large, rectangular light touch switch. This is an ongoing project and could use additional modifications, but it works for our students' needs. Every student in the class can have their own switch to access class activities.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Other materials required<br>Tactile button Switch<br>2 Stand wire and 3.5mm Mono Male Jack<br>or 3.5mm aux cable<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/0b\/6f\/c7\/34\/cb\/IMG_6888.jpg\" alt=\"image\"><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/9d\/45\/e9\/05\/d2\/IMG_6890.jpg\" alt=\"image\"><\/p><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Remix of 2 designs<\/strong><\/p>                <div><p>We found a pencil box (<a rel=\"nofollow\" href=\"\/thing:2301168\">https:\/\/www.thingiverse.com\/thing:2301168<\/a>) and hinge design (<a rel=\"nofollow\" href=\"\/thing:2810928\">https:\/\/www.thingiverse.com\/thing:2810928<\/a>) to create a simple switch with TinkerCAD.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/05\/06\/4e\/ae\/4e\/Picture2.png\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>https:\/\/www.thingiverse.com\/thing:2301168<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/a9\/88\/ad\/b7\/Picture3.png\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>https:\/\/www.thingiverse.com\/thing:2810928<\/strong><\/p><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Our Assistive Technology Team had a request to collaborate with a Teacher and Occupational Therapist to create a large, rectangular light touch switch. This is an ongoing project and could use additional modifications, but it works for our students' needs. Every student in the class can have their own switch to access class activities.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Other materials required<br>Tactile button Switch<br>2 Stand wire and 3.5mm Mono Male Jack<br>or 3.5mm aux cable<\/p><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/0b\/6f\/c7\/34\/cb\/IMG_6888.jpg",
+            "image_id": "235107"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9d\/45\/e9\/05\/d2\/IMG_6890.jpg",
+            "image_id": "235108"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Remix of 2 designs",
+            "content": "<div><p>We found a pencil box (<a rel=\"nofollow\" href=\"\/thing:2301168\">https:\/\/www.thingiverse.com\/thing:2301168<\/a>) and hinge design (<a rel=\"nofollow\" href=\"\/thing:2810928\">https:\/\/www.thingiverse.com\/thing:2810928<\/a>) to create a simple switch with TinkerCAD.<\/p><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/05\/06\/4e\/ae\/4e\/Picture2.png",
+            "caption": "https:\/\/www.thingiverse.com\/thing:2301168",
+            "image_id": "235103"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/8c\/a9\/88\/ad\/b7\/Picture3.png",
+            "caption": "https:\/\/www.thingiverse.com\/thing:2810928",
+            "image_id": "235106"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Public Domain Dedication",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4230057\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4230057\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4230057\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4230057\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4230057\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4230057\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 616,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4230057\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 275,
+    "view_count": 150,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Rectangular_Top_F.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/ff\/a9\/8f\/12\/Rectangular_Top_F.stl"
+        },
+        {
+          "name": "Rectangular_Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/64\/80\/2a\/65\/Rectangular_Base.stl"
+        },
+        {
+          "name": "Rectangular_Top_M_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/dc\/07\/2f\/3a\/Rectangular_Top_M_2.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_5500.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/50\/1c\/46\/12\/IMG_5500.jpg"
+        },
+        {
+          "name": "IMG_6883.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/6b\/22\/e2\/e6\/IMG_6883.jpg"
+        },
+        {
+          "name": "IMG_6885.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/52\/0f\/d2\/1a\/IMG_6885.jpg"
+        },
+        {
+          "name": "IMG_6886.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/a9\/53\/19\/d8\/IMG_6886.jpg"
+        },
+        {
+          "name": "Rectangular_Top_M_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/79\/e2\/ec\/f1\/Rectangular_Top_M_2.png"
+        },
+        {
+          "name": "Rectangular_Base.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/cd\/02\/00\/32\/Rectangular_Base.png"
+        },
+        {
+          "name": "IMG_6884.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/c3\/d5\/c9\/cf\/IMG_6884.jpg"
+        },
+        {
+          "name": "IMG_6889.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/a4\/96\/db\/f3\/IMG_6889.jpg"
+        },
+        {
+          "name": "IMG_6887.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/bb\/ae\/d5\/28\/IMG_6887.jpg"
+        },
+        {
+          "name": "Picture1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/66\/89\/1b\/65\/Picture1.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "created_at": "2025-04-14T03:40:12.393881+00:00",
+  "elapsed": 0.184278,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002e305bd4eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:40:12 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:10:12 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3197633?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3197633?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3197633,
+    "name": "FAD - Falling Asleep Device",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3197633",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3197633",
+    "creator": {
+      "id": 2210107,
+      "name": "Head2Hand",
+      "first_name": "Joscha",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Head2Hand",
+      "public_url": "https:\/\/www.thingiverse.com\/Head2Hand",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ff\/03\/db\/47\/1f\/89c2348f55e6266f74f61578a1f8bc18_thumb_medium.jpg",
+      "count_of_followers": 28,
+      "count_of_following": 2,
+      "count_of_designs": 12,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Germany",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-7_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-11-05T18:26:20+00:00",
+    "modified": "2018-11-05T18:26:20+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 23,
+    "is_liked": false,
+    "collect_count": 44,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 9235788,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/62\/f7\/a4\/84\/IMG_20181105_191624.jpg",
+      "name": "IMG_20181105_191624.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/52\/0e\/b2\/c5\/c38cfbc664bc148532f964bd21e5b5aa_display_small.jpg"
+        }
+      ],
+      "added": "2018-11-05T18:25:56+00:00"
+    },
+    "description": "This is a 3D printed casing for the fabolous FAD by Youz on Instructables: https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/\r\n\r\nI didn't have a router at the time when I stumbled upon this gem but definitely wanted to give it a try. So what's the next best thing? Right! :)\r\n\r\nIf you want to build the FAD, check out Youz' instructions via the link above. It's a fun build and was a good learning experience for me.\r\n\r\nHere's a short video of the designing\/building process:\r\nhttps:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet\r\n\r\n\r\nIf you want to see what else I do, you can check out my YouTube Channel:\r\nhttps:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA",
+    "instructions": "",
+    "description_html": "<div><p>This is a 3D printed casing for the fabolous FAD by Youz on Instructables: <a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/\">https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/<\/a><\/p><p>I didn't have a router at the time when I stumbled upon this gem but definitely wanted to give it a try. So what's the next best thing? Right! :)<\/p><p>If you want to build the FAD, check out Youz' instructions via the link above. It's a fun build and was a good learning experience for me.<\/p><p>Here's a short video of the designing\/building process:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet\">https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet<\/a><\/p><p>If you want to see what else I do, you can check out my YouTube Channel:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA\">https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a 3D printed casing for the fabolous FAD by Youz on Instructables: <a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/\">https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/<\/a><\/p><p>I didn't have a router at the time when I stumbled upon this gem but definitely wanted to give it a try. So what's the next best thing? Right! :)<\/p><p>If you want to build the FAD, check out Youz' instructions via the link above. It's a fun build and was a good learning experience for me.<\/p><p>Here's a short video of the designing\/building process:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet\">https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet<\/a><\/p><p>If you want to see what else I do, you can check out my YouTube Channel:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA\">https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;CR-10&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2-0.3<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;60 - 100%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>You'll want to have close to 100% infill in order for the LEDs not to shine through the casing too much.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>I am always looking for ways to design practical stuff that I can print and use in everyday life.<\/p><p>If you want to see what else I do, you can follow me on Instagram:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instagram.com\/fromheadtohand\/\">https:\/\/www.instagram.com\/fromheadtohand\/<\/a><\/p><p>And of course, there's Facebook:<br>Facebook: <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/fromheadtohand\/\">https:\/\/www.facebook.com\/fromheadtohand\/<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a 3D printed casing for the fabolous FAD by Youz on Instructables: <a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/\">https:\/\/www.instructables.com\/id\/FADing-Fall-Asleep-Device\/<\/a><\/p><p>I didn't have a router at the time when I stumbled upon this gem but definitely wanted to give it a try. So what's the next best thing? Right! :)<\/p><p>If you want to build the FAD, check out Youz' instructions via the link above. It's a fun build and was a good learning experience for me.<\/p><p>Here's a short video of the designing\/building process:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet\">https:\/\/www.instagram.com\/p\/BpwxibKHkit\/?utm_source=ig_web_button_share_sheet<\/a><\/p><p>If you want to see what else I do, you can check out my YouTube Channel:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA\">https:\/\/www.youtube.com\/channel\/UCqaNAu9dOwhEgRsv0PmXHoA<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>\n",
+            "printer": "<div><p>CR-10<\/p><\/div>\n",
+            "resolution": "<div><p>0.2-0.3<\/p><\/div>\n",
+            "infill": "<div><p>60 - 100%<\/p><\/div>\n",
+            "notes": "<div><p>You'll want to have close to 100% infill in order for the LEDs not to shine through the casing too much.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>I am always looking for ways to design practical stuff that I can print and use in everyday life.<\/p><p>If you want to see what else I do, you can follow me on Instagram:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instagram.com\/fromheadtohand\/\">https:\/\/www.instagram.com\/fromheadtohand\/<\/a><\/p><p>And of course, there's Facebook:<br>Facebook: <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/fromheadtohand\/\">https:\/\/www.facebook.com\/fromheadtohand\/<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3197633\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3197633\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3197633\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3197633\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3197633\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3197633\/tags",
+    "tags": [
+      {
+        "name": "asleep",
+        "tag": "asleep",
+        "url": "https:\/\/api.thingiverse.com\/tags\/asleep",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/asleep\/things",
+        "absolute_url": "\/tag:asleep"
+      },
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "body",
+        "tag": "body",
+        "url": "https:\/\/api.thingiverse.com\/tags\/body",
+        "count": 861,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/body\/things",
+        "absolute_url": "\/tag:body"
+      },
+      {
+        "name": "casing",
+        "tag": "casing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/casing",
+        "count": 350,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/casing\/things",
+        "absolute_url": "\/tag:casing"
+      },
+      {
+        "name": "device",
+        "tag": "device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/device",
+        "count": 223,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/device\/things",
+        "absolute_url": "\/tag:device"
+      },
+      {
+        "name": "fader",
+        "tag": "fader",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fader",
+        "count": 94,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fader\/things",
+        "absolute_url": "\/tag:fader"
+      },
+      {
+        "name": "falling",
+        "tag": "falling",
+        "url": "https:\/\/api.thingiverse.com\/tags\/falling",
+        "count": 25,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/falling\/things",
+        "absolute_url": "\/tag:falling"
+      },
+      {
+        "name": "falling asleep",
+        "tag": "falling_asleep",
+        "url": "https:\/\/api.thingiverse.com\/tags\/falling_asleep",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/falling_asleep\/things",
+        "absolute_url": "\/tag:falling_asleep"
+      },
+      {
+        "name": "sleep",
+        "tag": "sleep",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sleep",
+        "count": 134,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sleep\/things",
+        "absolute_url": "\/tag:sleep"
+      },
+      {
+        "name": "sleeping",
+        "tag": "sleeping",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sleeping",
+        "count": 78,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sleeping\/things",
+        "absolute_url": "\/tag:sleeping"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3197633\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1097,
+    "view_count": 990,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Upper_Body_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/76\/61\/2a\/e3\/Upper_Body_Cover.stl"
+        },
+        {
+          "name": "Body.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/7e\/f0\/c9\/cd\/Body.stl"
+        },
+        {
+          "name": "Lid_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/6a\/52\/fe\/ac\/Lid_Cover.stl"
+        },
+        {
+          "name": "Bottom_Lid.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/20\/29\/19\/19\/Bottom_Lid.stl"
+        },
+        {
+          "name": "Lower_Body_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/e0\/06\/73\/62\/Lower_Body_Cover.stl"
+        },
+        {
+          "name": "Lid.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/bb\/ee\/68\/f4\/Lid.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_20181105_191624.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/62\/f7\/a4\/84\/IMG_20181105_191624.jpg"
+        },
+        {
+          "name": "IMG_20181105_191604.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/2e\/d9\/33\/75\/IMG_20181105_191604.jpg"
+        },
+        {
+          "name": "IMG_20181105_191651.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/33\/af\/09\/8e\/IMG_20181105_191651.jpg"
+        },
+        {
+          "name": "aa54c43be1094a707b14b1d9d656a114.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/84\/04\/42\/47\/ec\/aa54c43be1094a707b14b1d9d656a114.png"
+        },
+        {
+          "name": "678ade69737804cc27dab4cee0d10f0a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0e\/8b\/47\/73\/b5\/678ade69737804cc27dab4cee0d10f0a.png"
+        },
+        {
+          "name": "d8dc966b836fb1d6f55626886d98b9fe.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f6\/74\/8d\/15\/dd\/d8dc966b836fb1d6f55626886d98b9fe.png"
+        },
+        {
+          "name": "1cf25022bdda3a9b337aee2588914176.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/05\/fb\/93\/b2\/1cf25022bdda3a9b337aee2588914176.png"
+        },
+        {
+          "name": "6b36a6f209d3f431451bb04f37fd50c0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/3f\/07\/70\/2e\/6b36a6f209d3f431451bb04f37fd50c0.png"
+        },
+        {
+          "name": "0698a76b6a12b0c5422540d8409f3307.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/78\/5c\/e2\/cb\/0698a76b6a12b0c5422540d8409f3307.png"
+        }
+      ]
+    }
+  }
+}

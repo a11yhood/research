@@ -1,0 +1,681 @@
+{
+  "created_at": "2025-04-11T03:34:46.297358+00:00",
+  "elapsed": 0.195394,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76e1a2cca2350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:46 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:46 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1049237?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1049237?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1049237,
+    "name": "BrailleTooth -- Bluetooth Braille Keyboard",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1049237",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1049237",
+    "creator": {
+      "id": 178509,
+      "name": "jjpowelly",
+      "first_name": "Jason",
+      "last_name": "Powell",
+      "url": "https:\/\/api.thingiverse.com\/users\/jjpowelly",
+      "public_url": "https:\/\/www.thingiverse.com\/jjpowelly",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ab\/b0\/bd\/32\/b0\/1186331_10151839492868523_1503214809_n_thumb_medium.jpg",
+      "count_of_followers": 846,
+      "count_of_following": 0,
+      "count_of_designs": 57,
+      "collection_count": 0,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "New Jersey \/ New York",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/33\/87\/c5\/7c\/e5\/1799093_10153191939148523_4158930896785262399_o_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-02T21:11:20+00:00",
+    "modified": "2015-10-02T21:11:20+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 231,
+    "is_liked": false,
+    "collect_count": 420,
+    "is_collected": false,
+    "comment_count": 13,
+    "is_watched": false,
+    "default_image": {
+      "id": 2687788,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/d5\/4c\/17\/4c\/DSCN0157.JPG",
+      "name": "DSCN0157.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/2a\/e2\/27\/49\/DSCN0157_display_small.JPG"
+        }
+      ],
+      "added": "2015-10-02T21:08:49+00:00"
+    },
+    "description": "Hello Everyone,\r\n\r\nI\u2019ve been working on the project for some time now. I haven\u2019t put it on Thingiverse because I\u2019ve been prototyping it - but I saw that there is now a challenge for assistive technology, so what better time than now?\r\n\r\n\r\nThis idea came about when a friend and I competed in a 3D Printathon at Brandeis University outside Boston, Mass\u2026 It was a 24 hour event to create something 3D printed that benefited social justice... This is what we came up with. We did not have enough time to finish in 24 hours, yet still came in second\u2026 The actual development took me the better part of the summer.\r\n\r\n\r\nhttp:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose\r\n\r\n\r\nNow I only posted my phone cases here, none of the code, boards, or anything else\u2026 If you look at my profile and designs you\u2019ll see that I\u2019m very open about free sharing and open source \u2013 and I plan on making BrailleTooth ***FULLY OPEN SOURCE***, however, like I said, I spent a lot of time and money developing this, I went into a bit of debt and spent most of my time at home working all summer getting all the bugs out and figuring out the best electronic configurations\u2026 I\u2019m currently beta testing the prototypes at a local school for the blind and the students that are testing it love it\u2026  \r\n\r\nI\u2019m an engineer and not a business man \u2013 really I\u2019m a horrible capitalist \u2013 I\u2019m a lot more Tesla than I am Edison - but regardless of that I really want to see this make it to the market\u2026 So I plan on launching a Kickstarter shortly\u2026 I want to launch this as a non-profit that makes, sells, and shares accessibility products\u2026 Once I get to that point, where I can make these in large quantities \u2013 all my designs, code, and board schematics will be full open-source.\r\n\r\n\r\nI want this to end up being a community effort all of my prints print without supports and single extruded on any capable FDM\/FFF like Makerbot, Ultimaker, or and RepRap build...\r\n\r\n____________________________________________________________________\r\n\r\n\r\n***If you would like to follow BrailleTooth\u2019s development and Kickstarter here\u2019s the page:***\r\n\r\n\r\nhttp:\/\/www.facebook.com\/BrailleTooth\r\n\r\n\r\nI also own the Brailletooth.com domain but I have not yet been able to code the site up\u2026 So like or follow BrailleTooth on Facebook to get updates until I finish the website.\r\n\r\n_______________________________________________________________________\r\n\r\n\r\n\r\n***MISSION STATEMENT***\r\n\r\n\r\nBrailleTooth is a company with a mission to develop and build accessibility products for the blind and visually impaired. Currently, we are developing Braille Bluetooth Keyboards that can either be part of a phone case for both Android and Apple smartphones or as a wallet sized standalone that can be connected to any Bluetooth enabled device like a tablet, phone, or computer to be used as a fully functional keyboard and navigation device.\r\nSmartphones are becoming increasingly empowering for the blind community: screen readers speak the contents of websites and e-books to readers, recent developments are enabling computers to generate descriptions of what is happening in an image, and speech recognition technologies are becoming better, allowing users to express themselves quickly online with text.\r\nBut speaking out what you want to type is not always appropriate, and it can be frustrating when it doesn't work well. What are the alternatives for fast typing on a smartphone as a blind user? You could carry around a large keyboard with you, buy an incredibly expensive refreshable Brailler, or use a specialized app with virtual buttons and then copy over the text to the original app: all unsatisfactory solutions. This is why we propose the BrailleTooth, a phone case with integrated Braille Bluetooth keyboard that lets blind users type quickly using physical buttons while maintaining a reasonable price point which is a fraction of the current Braillers on the market.\r\nThe problem our idea addresses is easier accessibility for the blind. The case provides a physical Braille keyboard on the back so that the visually impaired can type on their phones without needing the phone to tell them what key is under their finger. It is time-consuming for the visually impaired to type well using a touchscreen - we found a way to change that.\r\nHere is a video demonstration of our iPhone Brailler\r\n\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw\r\n\r\n#ASSISTIVETECH\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Hello Everyone,<\/p><p>I&rsquo;ve been working on the project for some time now. I haven&rsquo;t put it on Thingiverse because I&rsquo;ve been prototyping it - but I saw that there is now a challenge for assistive technology, so what better time than now?<\/p><p>This idea came about when a friend and I competed in a 3D Printathon at Brandeis University outside Boston, Mass&hellip; It was a 24 hour event to create something 3D printed that benefited social justice... This is what we came up with. We did not have enough time to finish in 24 hours, yet still came in second&hellip; The actual development took me the better part of the summer.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose\">http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose<\/a><\/p><p>Now I only posted my phone cases here, none of the code, boards, or anything else&hellip; If you look at my profile and designs you&rsquo;ll see that I&rsquo;m very open about free sharing and open source &ndash; and I plan on making BrailleTooth <strong><em>FULLY OPEN SOURCE<\/em><\/strong>, however, like I said, I spent a lot of time and money developing this, I went into a bit of debt and spent most of my time at home working all summer getting all the bugs out and figuring out the best electronic configurations&hellip; I&rsquo;m currently beta testing the prototypes at a local school for the blind and the students that are testing it love it&hellip;  <\/p><p>I&rsquo;m an engineer and not a business man &ndash; really I&rsquo;m a horrible capitalist &ndash; I&rsquo;m a lot more Tesla than I am Edison - but regardless of that I really want to see this make it to the market&hellip; So I plan on launching a Kickstarter shortly&hellip; I want to launch this as a non-profit that makes, sells, and shares accessibility products&hellip; Once I get to that point, where I can make these in large quantities &ndash; all my designs, code, and board schematics will be full open-source.<\/p><p>I want this to end up being a community effort all of my prints print without supports and single extruded on any capable FDM\/FFF like Makerbot, Ultimaker, or and RepRap build...<\/p><hr><p><strong><em>If you would like to follow BrailleTooth&rsquo;s development and Kickstarter here&rsquo;s the page:<\/em><\/strong><\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/BrailleTooth\">http:\/\/www.facebook.com\/BrailleTooth<\/a><\/p><p>I also own the Brailletooth.com domain but I have not yet been able to code the site up&hellip; So like or follow BrailleTooth on Facebook to get updates until I finish the website.<\/p><hr><p><strong><em>MISSION STATEMENT<\/em><\/strong><\/p><p>BrailleTooth is a company with a mission to develop and build accessibility products for the blind and visually impaired. Currently, we are developing Braille Bluetooth Keyboards that can either be part of a phone case for both Android and Apple smartphones or as a wallet sized standalone that can be connected to any Bluetooth enabled device like a tablet, phone, or computer to be used as a fully functional keyboard and navigation device.<br>Smartphones are becoming increasingly empowering for the blind community: screen readers speak the contents of websites and e-books to readers, recent developments are enabling computers to generate descriptions of what is happening in an image, and speech recognition technologies are becoming better, allowing users to express themselves quickly online with text.<br>But speaking out what you want to type is not always appropriate, and it can be frustrating when it doesn't work well. What are the alternatives for fast typing on a smartphone as a blind user? You could carry around a large keyboard with you, buy an incredibly expensive refreshable Brailler, or use a specialized app with virtual buttons and then copy over the text to the original app: all unsatisfactory solutions. This is why we propose the BrailleTooth, a phone case with integrated Braille Bluetooth keyboard that lets blind users type quickly using physical buttons while maintaining a reasonable price point which is a fraction of the current Braillers on the market.<br>The problem our idea addresses is easier accessibility for the blind. The case provides a physical Braille keyboard on the back so that the visually impaired can type on their phones without needing the phone to tell them what key is under their finger. It is time-consuming for the visually impaired to type well using a touchscreen - we found a way to change that.<br>Here is a video demonstration of our iPhone Brailler<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw\">https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw<\/a><\/p><h1>ASSISTIVETECH<\/h1><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Hello Everyone,<\/p><p>I&rsquo;ve been working on the project for some time now. I haven&rsquo;t put it on Thingiverse because I&rsquo;ve been prototyping it - but I saw that there is now a challenge for assistive technology, so what better time than now?<\/p><p>This idea came about when a friend and I competed in a 3D Printathon at Brandeis University outside Boston, Mass&hellip; It was a 24 hour event to create something 3D printed that benefited social justice... This is what we came up with. We did not have enough time to finish in 24 hours, yet still came in second&hellip; The actual development took me the better part of the summer.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose\">http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose<\/a><\/p><p>Now I only posted my phone cases here, none of the code, boards, or anything else&hellip; If you look at my profile and designs you&rsquo;ll see that I&rsquo;m very open about free sharing and open source &ndash; and I plan on making BrailleTooth <strong><em>FULLY OPEN SOURCE<\/em><\/strong>, however, like I said, I spent a lot of time and money developing this, I went into a bit of debt and spent most of my time at home working all summer getting all the bugs out and figuring out the best electronic configurations&hellip; I&rsquo;m currently beta testing the prototypes at a local school for the blind and the students that are testing it love it&hellip;  <\/p><p>I&rsquo;m an engineer and not a business man &ndash; really I&rsquo;m a horrible capitalist &ndash; I&rsquo;m a lot more Tesla than I am Edison - but regardless of that I really want to see this make it to the market&hellip; So I plan on launching a Kickstarter shortly&hellip; I want to launch this as a non-profit that makes, sells, and shares accessibility products&hellip; Once I get to that point, where I can make these in large quantities &ndash; all my designs, code, and board schematics will be full open-source.<\/p><p>I want this to end up being a community effort all of my prints print without supports and single extruded on any capable FDM\/FFF like Makerbot, Ultimaker, or and RepRap build...<\/p><hr><p><strong><em>If you would like to follow BrailleTooth&rsquo;s development and Kickstarter here&rsquo;s the page:<\/em><\/strong><\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/BrailleTooth\">http:\/\/www.facebook.com\/BrailleTooth<\/a><\/p><p>I also own the Brailletooth.com domain but I have not yet been able to code the site up&hellip; So like or follow BrailleTooth on Facebook to get updates until I finish the website.<\/p><hr><p><strong><em>MISSION STATEMENT<\/em><\/strong><\/p><p>BrailleTooth is a company with a mission to develop and build accessibility products for the blind and visually impaired. Currently, we are developing Braille Bluetooth Keyboards that can either be part of a phone case for both Android and Apple smartphones or as a wallet sized standalone that can be connected to any Bluetooth enabled device like a tablet, phone, or computer to be used as a fully functional keyboard and navigation device.<br>Smartphones are becoming increasingly empowering for the blind community: screen readers speak the contents of websites and e-books to readers, recent developments are enabling computers to generate descriptions of what is happening in an image, and speech recognition technologies are becoming better, allowing users to express themselves quickly online with text.<br>But speaking out what you want to type is not always appropriate, and it can be frustrating when it doesn't work well. What are the alternatives for fast typing on a smartphone as a blind user? You could carry around a large keyboard with you, buy an incredibly expensive refreshable Brailler, or use a specialized app with virtual buttons and then copy over the text to the original app: all unsatisfactory solutions. This is why we propose the BrailleTooth, a phone case with integrated Braille Bluetooth keyboard that lets blind users type quickly using physical buttons while maintaining a reasonable price point which is a fraction of the current Braillers on the market.<br>The problem our idea addresses is easier accessibility for the blind. The case provides a physical Braille keyboard on the back so that the visually impaired can type on their phones without needing the phone to tell them what key is under their finger. It is time-consuming for the visually impaired to type well using a touchscreen - we found a way to change that.<br>Here is a video demonstration of our iPhone Brailler<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw\">https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw<\/a><\/p><h1>ASSISTIVETECH<\/h1><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Hello Everyone,<\/p><p>I&rsquo;ve been working on the project for some time now. I haven&rsquo;t put it on Thingiverse because I&rsquo;ve been prototyping it - but I saw that there is now a challenge for assistive technology, so what better time than now?<\/p><p>This idea came about when a friend and I competed in a 3D Printathon at Brandeis University outside Boston, Mass&hellip; It was a 24 hour event to create something 3D printed that benefited social justice... This is what we came up with. We did not have enough time to finish in 24 hours, yet still came in second&hellip; The actual development took me the better part of the summer.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose\">http:\/\/www.thejustice.org\/article\/2015\/03\/printing-with-purpose<\/a><\/p><p>Now I only posted my phone cases here, none of the code, boards, or anything else&hellip; If you look at my profile and designs you&rsquo;ll see that I&rsquo;m very open about free sharing and open source &ndash; and I plan on making BrailleTooth <strong><em>FULLY OPEN SOURCE<\/em><\/strong>, however, like I said, I spent a lot of time and money developing this, I went into a bit of debt and spent most of my time at home working all summer getting all the bugs out and figuring out the best electronic configurations&hellip; I&rsquo;m currently beta testing the prototypes at a local school for the blind and the students that are testing it love it&hellip;  <\/p><p>I&rsquo;m an engineer and not a business man &ndash; really I&rsquo;m a horrible capitalist &ndash; I&rsquo;m a lot more Tesla than I am Edison - but regardless of that I really want to see this make it to the market&hellip; So I plan on launching a Kickstarter shortly&hellip; I want to launch this as a non-profit that makes, sells, and shares accessibility products&hellip; Once I get to that point, where I can make these in large quantities &ndash; all my designs, code, and board schematics will be full open-source.<\/p><p>I want this to end up being a community effort all of my prints print without supports and single extruded on any capable FDM\/FFF like Makerbot, Ultimaker, or and RepRap build...<\/p><hr><p><strong><em>If you would like to follow BrailleTooth&rsquo;s development and Kickstarter here&rsquo;s the page:<\/em><\/strong><\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/BrailleTooth\">http:\/\/www.facebook.com\/BrailleTooth<\/a><\/p><p>I also own the Brailletooth.com domain but I have not yet been able to code the site up&hellip; So like or follow BrailleTooth on Facebook to get updates until I finish the website.<\/p><hr><p><strong><em>MISSION STATEMENT<\/em><\/strong><\/p><p>BrailleTooth is a company with a mission to develop and build accessibility products for the blind and visually impaired. Currently, we are developing Braille Bluetooth Keyboards that can either be part of a phone case for both Android and Apple smartphones or as a wallet sized standalone that can be connected to any Bluetooth enabled device like a tablet, phone, or computer to be used as a fully functional keyboard and navigation device.<br>Smartphones are becoming increasingly empowering for the blind community: screen readers speak the contents of websites and e-books to readers, recent developments are enabling computers to generate descriptions of what is happening in an image, and speech recognition technologies are becoming better, allowing users to express themselves quickly online with text.<br>But speaking out what you want to type is not always appropriate, and it can be frustrating when it doesn't work well. What are the alternatives for fast typing on a smartphone as a blind user? You could carry around a large keyboard with you, buy an incredibly expensive refreshable Brailler, or use a specialized app with virtual buttons and then copy over the text to the original app: all unsatisfactory solutions. This is why we propose the BrailleTooth, a phone case with integrated Braille Bluetooth keyboard that lets blind users type quickly using physical buttons while maintaining a reasonable price point which is a fraction of the current Braillers on the market.<br>The problem our idea addresses is easier accessibility for the blind. The case provides a physical Braille keyboard on the back so that the visually impaired can type on their phones without needing the phone to tell them what key is under their finger. It is time-consuming for the visually impaired to type well using a touchscreen - we found a way to change that.<br>Here is a video demonstration of our iPhone Brailler<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw\">https:\/\/www.youtube.com\/watch?v=4Mw84fKFbIw<\/a><\/p><h1>ASSISTIVETECH<\/h1><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "Doesn't Matter",
+            "supports": "Doesn't Matter"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1049237\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1049237\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1049237\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1049237\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1049237\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1049237\/tags",
+    "tags": [
+      {
+        "name": "3D",
+        "tag": "3d",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d",
+        "count": 7992,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d\/things",
+        "absolute_url": "\/tag:3D"
+      },
+      {
+        "name": "ABS",
+        "tag": "abs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/abs",
+        "count": 1429,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/abs\/things",
+        "absolute_url": "\/tag:ABS"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "ADA",
+        "tag": "ada",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ada",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ada\/things",
+        "absolute_url": "\/tag:ADA"
+      },
+      {
+        "name": "adafruit",
+        "tag": "adafruit",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adafruit",
+        "count": 1395,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adafruit\/things",
+        "absolute_url": "\/tag:adafruit"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10220,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "blind",
+        "tag": "blind",
+        "url": "https:\/\/api.thingiverse.com\/tags\/blind",
+        "count": 497,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/blind\/things",
+        "absolute_url": "\/tag:blind"
+      },
+      {
+        "name": "bluetooth",
+        "tag": "bluetooth",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bluetooth",
+        "count": 1020,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bluetooth\/things",
+        "absolute_url": "\/tag:bluetooth"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 512,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "brailler",
+        "tag": "brailler",
+        "url": "https:\/\/api.thingiverse.com\/tags\/brailler",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/brailler\/things",
+        "absolute_url": "\/tag:brailler"
+      },
+      {
+        "name": "button",
+        "tag": "button",
+        "url": "https:\/\/api.thingiverse.com\/tags\/button",
+        "count": 2884,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/button\/things",
+        "absolute_url": "\/tag:button"
+      },
+      {
+        "name": "buttons",
+        "tag": "buttons",
+        "url": "https:\/\/api.thingiverse.com\/tags\/buttons",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/buttons\/things",
+        "absolute_url": "\/tag:buttons"
+      },
+      {
+        "name": "cable",
+        "tag": "cable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cable",
+        "count": 5071,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cable\/things",
+        "absolute_url": "\/tag:cable"
+      },
+      {
+        "name": "case",
+        "tag": "case",
+        "url": "https:\/\/api.thingiverse.com\/tags\/case",
+        "count": 19109,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/case\/things",
+        "absolute_url": "\/tag:case"
+      },
+      {
+        "name": "charge",
+        "tag": "charge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/charge",
+        "count": 173,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/charge\/things",
+        "absolute_url": "\/tag:charge"
+      },
+      {
+        "name": "charger",
+        "tag": "charger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/charger",
+        "count": 3263,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/charger\/things",
+        "absolute_url": "\/tag:charger"
+      },
+      {
+        "name": "charity",
+        "tag": "charity",
+        "url": "https:\/\/api.thingiverse.com\/tags\/charity",
+        "count": 57,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/charity\/things",
+        "absolute_url": "\/tag:charity"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "electronic",
+        "tag": "electronic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electronic",
+        "count": 374,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electronic\/things",
+        "absolute_url": "\/tag:electronic"
+      },
+      {
+        "name": "electronics",
+        "tag": "electronics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electronics",
+        "count": 6419,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electronics\/things",
+        "absolute_url": "\/tag:electronics"
+      },
+      {
+        "name": "flashforge",
+        "tag": "flashforge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flashforge",
+        "count": 1916,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flashforge\/things",
+        "absolute_url": "\/tag:flashforge"
+      },
+      {
+        "name": "Flex",
+        "tag": "flex",
+        "url": "https:\/\/api.thingiverse.com\/tags\/flex",
+        "count": 642,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/flex\/things",
+        "absolute_url": "\/tag:Flex"
+      },
+      {
+        "name": "Galaxy",
+        "tag": "galaxy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/galaxy",
+        "count": 1122,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/galaxy\/things",
+        "absolute_url": "\/tag:Galaxy"
+      },
+      {
+        "name": "iphone",
+        "tag": "iphone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/iphone",
+        "count": 7802,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone\/things",
+        "absolute_url": "\/tag:iphone"
+      },
+      {
+        "name": "keyboard",
+        "tag": "keyboard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyboard",
+        "count": 3797,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyboard\/things",
+        "absolute_url": "\/tag:keyboard"
+      },
+      {
+        "name": "makerbot",
+        "tag": "makerbot",
+        "url": "https:\/\/api.thingiverse.com\/tags\/makerbot",
+        "count": 6065,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/makerbot\/things",
+        "absolute_url": "\/tag:makerbot"
+      },
+      {
+        "name": "Ninjaflex",
+        "tag": "ninjaflex",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex",
+        "count": 882,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ninjaflex\/things",
+        "absolute_url": "\/tag:Ninjaflex"
+      },
+      {
+        "name": "phone",
+        "tag": "phone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/phone",
+        "count": 6840,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/phone\/things",
+        "absolute_url": "\/tag:phone"
+      },
+      {
+        "name": "phone case",
+        "tag": "phone_case",
+        "url": "https:\/\/api.thingiverse.com\/tags\/phone_case",
+        "count": 1126,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/phone_case\/things",
+        "absolute_url": "\/tag:phone_case"
+      },
+      {
+        "name": "Pi",
+        "tag": "pi",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pi",
+        "count": 202,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pi\/things",
+        "absolute_url": "\/tag:Pi"
+      },
+      {
+        "name": "PLA",
+        "tag": "pla",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pla",
+        "count": 4205,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pla\/things",
+        "absolute_url": "\/tag:PLA"
+      },
+      {
+        "name": "press",
+        "tag": "press",
+        "url": "https:\/\/api.thingiverse.com\/tags\/press",
+        "count": 494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/press\/things",
+        "absolute_url": "\/tag:press"
+      },
+      {
+        "name": "print",
+        "tag": "print",
+        "url": "https:\/\/api.thingiverse.com\/tags\/print",
+        "count": 1048,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/print\/things",
+        "absolute_url": "\/tag:print"
+      },
+      {
+        "name": "printed",
+        "tag": "printed",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printed",
+        "count": 232,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printed\/things",
+        "absolute_url": "\/tag:printed"
+      },
+      {
+        "name": "printer",
+        "tag": "printer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printer",
+        "count": 1541,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printer\/things",
+        "absolute_url": "\/tag:printer"
+      },
+      {
+        "name": "shell",
+        "tag": "shell",
+        "url": "https:\/\/api.thingiverse.com\/tags\/shell",
+        "count": 1118,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/shell\/things",
+        "absolute_url": "\/tag:shell"
+      },
+      {
+        "name": "solid",
+        "tag": "solid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/solid",
+        "count": 209,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/solid\/things",
+        "absolute_url": "\/tag:solid"
+      },
+      {
+        "name": "solidworks",
+        "tag": "solidworks",
+        "url": "https:\/\/api.thingiverse.com\/tags\/solidworks",
+        "count": 1629,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/solidworks\/things",
+        "absolute_url": "\/tag:solidworks"
+      },
+      {
+        "name": "visual",
+        "tag": "visual",
+        "url": "https:\/\/api.thingiverse.com\/tags\/visual",
+        "count": 34,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/visual\/things",
+        "absolute_url": "\/tag:visual"
+      },
+      {
+        "name": "Wireless",
+        "tag": "wireless",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wireless",
+        "count": 696,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wireless\/things",
+        "absolute_url": "\/tag:Wireless"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1049237\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1426,
+    "view_count": 10985,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 9,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "iPhone_FrontCase.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/8c\/84\/2b\/c5\/iPhone_FrontCase.STL"
+        },
+        {
+          "name": "iPhone_BackPlate.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/9e\/84\/f3\/5d\/iPhone_BackPlate.SLDPRT"
+        }
+      ],
+      "images": [
+        {
+          "name": "DSCN0157.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/d5\/4c\/17\/4c\/DSCN0157.JPG"
+        },
+        {
+          "name": "2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/85\/37\/1e\/d8\/2.JPG"
+        },
+        {
+          "name": "DSCN0164.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/06\/32\/57\/34\/DSCN0164.JPG"
+        },
+        {
+          "name": "Logo1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/42\/e7\/85\/33\/Logo1.jpg"
+        },
+        {
+          "name": "Logo3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/48\/79\/53\/aa\/Logo3.jpg"
+        },
+        {
+          "name": "DSCN0165.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/d5\/df\/7c\/a1\/DSCN0165.JPG"
+        },
+        {
+          "name": "1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/48\/99\/8e\/87\/1.JPG"
+        },
+        {
+          "name": "1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/7c\/79\/7f\/08\/1.JPG"
+        },
+        {
+          "name": "6.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/ae\/6d\/53\/35\/6.JPG"
+        },
+        {
+          "name": "4.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/22\/1e\/27\/f8\/4.JPG"
+        },
+        {
+          "name": "9.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/b6\/37\/06\/51\/9.JPG"
+        },
+        {
+          "name": "10.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/b2\/78\/64\/69\/10.JPG"
+        },
+        {
+          "name": "13.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/47\/88\/23\/79\/13.JPG"
+        },
+        {
+          "name": "7.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/ea\/fc\/38\/fa\/7.JPG"
+        },
+        {
+          "name": "DSCN0132.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/07\/ac\/24\/10\/DSCN0132.JPG"
+        },
+        {
+          "name": "DSCN0152.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/db\/8f\/2a\/b5\/DSCN0152.JPG"
+        },
+        {
+          "name": "DSCN0159.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/54\/c4\/83\/ad\/DSCN0159.JPG"
+        },
+        {
+          "name": "b1.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/cf\/5f\/bd\/94\/b1.JPG"
+        },
+        {
+          "name": "r2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/cc\/cf\/c6\/d5\/r2.JPG"
+        },
+        {
+          "name": "b9.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/d1\/db\/ba\/4b\/b9.JPG"
+        },
+        {
+          "name": "3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/3f\/22\/3c\/f8\/3.JPG"
+        },
+        {
+          "name": "2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/57\/8d\/34\/c2\/2.JPG"
+        },
+        {
+          "name": "iPhone_FrontCase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/37\/52\/96\/71\/iPhone_FrontCase.png"
+        }
+      ]
+    }
+  }
+}

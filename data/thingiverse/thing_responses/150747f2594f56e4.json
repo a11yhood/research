@@ -1,0 +1,505 @@
+{
+  "created_at": "2025-04-12T03:32:31.261229+00:00",
+  "elapsed": 0.18394,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa82e5d19eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:31 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:31 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3436542?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3436542?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3436542,
+    "name": "CRE-011 SkyWalker Leg Prosthesis - iDIG (Integrated Digital Design Laboratory), Department of Industrial Design  ITS Indonesia",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3436542",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3436542",
+    "creator": {
+      "id": 1144880,
+      "name": "crewolprint3d",
+      "first_name": "Djoko",
+      "last_name": "Kuswanto",
+      "url": "https:\/\/api.thingiverse.com\/users\/crewolprint3d",
+      "public_url": "https:\/\/www.thingiverse.com\/crewolprint3d",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/33\/46\/cf\/5d\/05\/42b3c5e1dce2f8eef7a9ba65d3ab5080_thumb_medium.jpg",
+      "count_of_followers": 660,
+      "count_of_following": 0,
+      "count_of_designs": 15,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Surabaya, Indonesia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/93\/7f\/dc\/ca\/ce\/dd7c49f74a05421c82c47c4e56647256_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-02-18T16:50:41+00:00",
+    "modified": "2019-02-18T16:50:41+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 156,
+    "is_liked": false,
+    "collect_count": 269,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 10140416,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/52\/bd\/08\/6b\/cre-011_skywalker_leg_prosthesis_crewolprint3d_3d_printing_indonesia.jpg",
+      "name": "cre-011_skywalker_leg_prosthesis_crewolprint3d_3d_printing_indonesia.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/8b\/30\/3e\/91\/938b4fd2a6d26ecefc65dcadb6a33991_display_small.jpg"
+        }
+      ],
+      "added": "2019-02-27T14:24:17+00:00"
+    },
+    "description": "This is a 3D printer-based prosthesis design. Developed and designed by Imam Bagaskara, Department of Industrial Design, ITS Surabaya, Indonesia. Advisor: Djoko Kuswanto, ST., M.Biotech.\r\nLet's develop this together and immediately upload your modification so we can also use it.",
+    "instructions": "",
+    "description_html": "<div><p>This is a 3D printer-based prosthesis design. Developed and designed by Imam Bagaskara, Department of Industrial Design, ITS Surabaya, Indonesia. Advisor: Djoko Kuswanto, ST., M.Biotech.<br>Let's develop this together and immediately upload your modification so we can also use it.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a 3D printer-based prosthesis design. Developed and designed by Imam Bagaskara, Department of Industrial Design, ITS Surabaya, Indonesia. Advisor: Djoko Kuswanto, ST., M.Biotech.<br>Let's develop this together and immediately upload your modification so we can also use it.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/cb\/9b\/26\/12\/50\/prostesis_kaki_atas_lutut.jpg\" alt=\"image\"><\/p><pre><code>                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/8c\/a4\/24\/72\/68\/WhatsApp_Image_2019-01-05_at_09.17.56.jpeg\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a 3D printer-based prosthesis design. Developed and designed by Imam Bagaskara, Department of Industrial Design, ITS Surabaya, Indonesia. Advisor: Djoko Kuswanto, ST., M.Biotech.<br>Let's develop this together and immediately upload your modification so we can also use it.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/cb\/9b\/26\/12\/50\/prostesis_kaki_atas_lutut.jpg",
+            "image_id": "140288"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/8c\/a4\/24\/72\/68\/WhatsApp_Image_2019-01-05_at_09.17.56.jpeg",
+            "image_id": "140289"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3436542\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3436542\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3436542\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3436542\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3436542\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3436542\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3436542\/categories",
+    "file_count": 14,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2914,
+    "view_count": 4785,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 2,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Joint_Sendi.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/8b\/d9\/24\/5d\/Joint_Sendi.stl"
+        },
+        {
+          "name": "Clamp.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/ff\/34\/a8\/5c\/Clamp.stl"
+        },
+        {
+          "name": "Hinge_B.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/da\/6c\/c0\/61\/Hinge_B.stl"
+        },
+        {
+          "name": "Front_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/86\/7e\/48\/8b\/Front_Cover.stl"
+        },
+        {
+          "name": "Hinge_A.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/9a\/49\/d2\/d0\/Hinge_A.stl"
+        },
+        {
+          "name": "Foot_A.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/88\/6b\/05\/6d\/Foot_A.stl"
+        },
+        {
+          "name": "Rear_Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/69\/c0\/d1\/90\/Rear_Cover.stl"
+        },
+        {
+          "name": "Foot_B.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/38\/2d\/1c\/17\/Foot_B.stl"
+        },
+        {
+          "name": "Socket.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/ab\/0d\/88\/28\/Socket.stl"
+        },
+        {
+          "name": "mid_arm_knee.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/8f\/a8\/ab\/f6\/mid_arm_knee.stl"
+        },
+        {
+          "name": "Body_A_knee.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/86\/50\/e8\/22\/Body_A_knee.stl"
+        },
+        {
+          "name": "right_arm_knee.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/2d\/76\/e9\/28\/right_arm_knee.stl"
+        },
+        {
+          "name": "Body_B_knee.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/27\/4a\/21\/bf\/Body_B_knee.stl"
+        },
+        {
+          "name": "left_arm_knee.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/13\/b6\/d4\/52\/left_arm_knee.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "cre-011_skywalker_leg_prosthesis_crewolprint3d_3d_printing_indonesia.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/52\/bd\/08\/6b\/cre-011_skywalker_leg_prosthesis_crewolprint3d_3d_printing_indonesia.jpg"
+        },
+        {
+          "name": "WhatsApp_Image_2019-01-05_at_09.17.56.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/9b\/4b\/14\/e6\/WhatsApp_Image_2019-01-05_at_09.17.56.jpeg"
+        },
+        {
+          "name": "Poster-09.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/ce\/13\/71\/46\/Poster-09.jpg"
+        },
+        {
+          "name": "Capture_bagas.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/45\/94\/5a\/59\/Capture_bagas.JPG"
+        },
+        {
+          "name": "Poster-08.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/a2\/3b\/22\/fd\/Poster-08.jpg"
+        },
+        {
+          "name": "Poster-04.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/83\/71\/5a\/52\/Poster-04.jpg"
+        },
+        {
+          "name": "gambar_urai.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/ad\/36\/36\/3b\/gambar_urai.jpg"
+        },
+        {
+          "name": "1b79bff7ccc94848ccf7493db3106116.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/6b\/a0\/df\/bf\/1b79bff7ccc94848ccf7493db3106116.png"
+        },
+        {
+          "name": "5d88382a5a9f6ffba60215c23d222455.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/15\/4f\/ca\/3d\/10\/5d88382a5a9f6ffba60215c23d222455.png"
+        },
+        {
+          "name": "b324fcc22057f4592e147a6335a210e5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/29\/5d\/25\/a6\/0b\/b324fcc22057f4592e147a6335a210e5.png"
+        },
+        {
+          "name": "2c3e1b19497d28996e7b098318992aa9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dd\/49\/65\/3e\/a8\/2c3e1b19497d28996e7b098318992aa9.png"
+        },
+        {
+          "name": "e32f2c0c6bce205620049223aced77b7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/65\/f5\/04\/a8\/e32f2c0c6bce205620049223aced77b7.png"
+        },
+        {
+          "name": "200daffeb5e1bc6c758a81ea50413565.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0f\/22\/f4\/d2\/9e\/200daffeb5e1bc6c758a81ea50413565.png"
+        },
+        {
+          "name": "abfb431baf208101cad3d920e65ea00d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/d6\/95\/c2\/24\/abfb431baf208101cad3d920e65ea00d.png"
+        },
+        {
+          "name": "31645b778198d5f241c30fda1806c28c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/2a\/35\/1c\/c6\/31645b778198d5f241c30fda1806c28c.png"
+        },
+        {
+          "name": "0bad12ecb9fb3b6d651515570338ff55.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/46\/3a\/28\/98\/0bad12ecb9fb3b6d651515570338ff55.png"
+        },
+        {
+          "name": "bb80f2959504e7dfd82cac5a1dc3c5c6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/c3\/ec\/68\/1f\/bb80f2959504e7dfd82cac5a1dc3c5c6.png"
+        },
+        {
+          "name": "6a717e6175794c88b2341c6e671c8114.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/40\/40\/f8\/2e\/6a717e6175794c88b2341c6e671c8114.png"
+        },
+        {
+          "name": "5603b54662179c804ba9882970504843.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/df\/2c\/6f\/9c\/13\/5603b54662179c804ba9882970504843.png"
+        },
+        {
+          "name": "17ff1fcb04883f3226db8908b79d39e1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f7\/0c\/2a\/d6\/16\/17ff1fcb04883f3226db8908b79d39e1.png"
+        },
+        {
+          "name": "9b2c434e6797232c6650a2239aff4904.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/8d\/c9\/e7\/83\/9b2c434e6797232c6650a2239aff4904.png"
+        }
+      ]
+    }
+  }
+}

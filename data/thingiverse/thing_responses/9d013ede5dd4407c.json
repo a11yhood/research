@@ -1,0 +1,596 @@
+{
+  "created_at": "2025-04-14T03:40:08.856479+00:00",
+  "elapsed": 0.183438,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002e1a4a6eeb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:40:08 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:10:08 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2542267?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2542267?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2542267,
+    "name": "Head Pointer\/Casco licornio",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2542267",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2542267",
+    "creator": {
+      "id": 625226,
+      "name": "ceapat",
+      "first_name": "Ceapat",
+      "last_name": "Imserso",
+      "url": "https:\/\/api.thingiverse.com\/users\/ceapat",
+      "public_url": "https:\/\/www.thingiverse.com\/ceapat",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/9a\/5a\/b1\/5e\/imgp0140-web_thumb_medium.jpg",
+      "count_of_followers": 256,
+      "count_of_following": 42,
+      "count_of_designs": 62,
+      "collection_count": 13,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Espa\u00f1a (Madrid)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/26\/d1\/4f\/d3\/IMG_1957_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-09-20T09:53:08+00:00",
+    "modified": "2017-09-20T09:53:08+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 52,
+    "is_liked": false,
+    "collect_count": 122,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 6729690,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/18\/56\/68\/1a\/IMG_2286.JPG",
+      "name": "IMG_2286.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/98\/c4\/1c\/55\/8faf29e27e4c66363823283358d08b2d_display_small.JPG"
+        }
+      ],
+      "added": "2017-09-19T11:39:25+00:00"
+    },
+    "description": "Heand pointer for people with limited hand use. Head pointers is essential aid for people with limited hand use, for activities including turning pages, drawing, as a keyboard aid or a pencil holder.\r\n[Spanish]Cabezal licornio que pueden utilizar personas con diversidad funcional y con buen control de los movimientos de la cabeza. Dise\u00f1ado para trabajar con el teclado del ordenado, tablets, pintar, etc. Se ajusta f\u00e1cilmente con dos cinchas que van a la barbilla y a la nuca.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Heand pointer for people with limited hand use. Head pointers is essential aid for people with limited hand use, for activities including turning pages, drawing, as a keyboard aid or a pencil holder.<br>[Spanish]Cabezal licornio que pueden utilizar personas con diversidad funcional y con buen control de los movimientos de la cabeza. Dise&ntilde;ado para trabajar con el teclado del ordenado, tablets, pintar, etc. Se ajusta f&aacute;cilmente con dos cinchas que van a la barbilla y a la nuca.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Heand pointer for people with limited hand use. Head pointers is essential aid for people with limited hand use, for activities including turning pages, drawing, as a keyboard aid or a pencil holder.<br>[Spanish]Cabezal licornio que pueden utilizar personas con diversidad funcional y con buen control de los movimientos de la cabeza. Dise&ntilde;ado para trabajar con el teclado del ordenado, tablets, pintar, etc. Se ajusta f&aacute;cilmente con dos cinchas que van a la barbilla y a la nuca.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/1a\/72\/52\/a8\/65\/IMG_2272.JPG\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Materiales.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/03\/9b\/51\/77\/29\/IMG_2276.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Colocaci&amp;oacute;n de la base de la r&amp;oacute;tula.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/44\/5d\/4f\/78\/f5\/IMG_2278.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Fijaci&amp;oacute;n de la r&amp;oacute;tula.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/32\/5c\/04\/ce\/cb\/IMG_2279.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Pasador de las cinchas.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/40\/22\/26\/5e\/3e\/IMG_2280.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Goma protectora para la frente.&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/78\/bd\/dc\/48\/f9\/IMG_2281.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Colocaci&amp;oacute;n de las cinchas.&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Heand pointer for people with limited hand use. Head pointers is essential aid for people with limited hand use, for activities including turning pages, drawing, as a keyboard aid or a pencil holder.<br>[Spanish]Cabezal licornio que pueden utilizar personas con diversidad funcional y con buen control de los movimientos de la cabeza. Dise&ntilde;ado para trabajar con el teclado del ordenado, tablets, pintar, etc. Se ajusta f&aacute;cilmente con dos cinchas que van a la barbilla y a la nuca.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/1a\/72\/52\/a8\/65\/IMG_2272.JPG",
+            "caption": "Materiales.",
+            "image_id": "42619"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/03\/9b\/51\/77\/29\/IMG_2276.JPG",
+            "caption": "Colocaci\u00f3n de la base de la r\u00f3tula.",
+            "image_id": "42620"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/44\/5d\/4f\/78\/f5\/IMG_2278.JPG",
+            "caption": "Fijaci\u00f3n de la r\u00f3tula.",
+            "image_id": "42621"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/32\/5c\/04\/ce\/cb\/IMG_2279.JPG",
+            "caption": "Pasador de las cinchas.",
+            "image_id": "42622"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/40\/22\/26\/5e\/3e\/IMG_2280.JPG",
+            "caption": "Goma protectora para la frente.",
+            "image_id": "42623"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/78\/bd\/dc\/48\/f9\/IMG_2281.JPG",
+            "caption": "Colocaci\u00f3n de las cinchas.",
+            "image_id": "42624"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2542267\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2542267\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2542267\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2542267\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2542267\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2542267\/tags",
+    "tags": [
+      {
+        "name": "Accesibilidad",
+        "tag": "accesibilidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad",
+        "count": 87,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibilidad\/things",
+        "absolute_url": "\/tag:Accesibilidad"
+      },
+      {
+        "name": "Accesibility",
+        "tag": "accesibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibility",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibility\/things",
+        "absolute_url": "\/tag:Accesibility"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "Cabeza",
+        "tag": "cabeza",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cabeza",
+        "count": 22,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cabeza\/things",
+        "absolute_url": "\/tag:Cabeza"
+      },
+      {
+        "name": "cabezal",
+        "tag": "cabezal",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cabezal",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cabezal\/things",
+        "absolute_url": "\/tag:cabezal"
+      },
+      {
+        "name": "ceapat",
+        "tag": "ceapat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ceapat",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ceapat\/things",
+        "absolute_url": "\/tag:ceapat"
+      },
+      {
+        "name": "computer",
+        "tag": "computer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer",
+        "count": 4224,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer\/things",
+        "absolute_url": "\/tag:computer"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "head",
+        "tag": "head",
+        "url": "https:\/\/api.thingiverse.com\/tags\/head",
+        "count": 2614,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/head\/things",
+        "absolute_url": "\/tag:head"
+      },
+      {
+        "name": "Imserso",
+        "tag": "imserso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/imserso",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/imserso\/things",
+        "absolute_url": "\/tag:Imserso"
+      },
+      {
+        "name": "ordenador",
+        "tag": "ordenador",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ordenador",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ordenador\/things",
+        "absolute_url": "\/tag:ordenador"
+      },
+      {
+        "name": "producto apoyo",
+        "tag": "producto_apoyo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/producto_apoyo\/things",
+        "absolute_url": "\/tag:producto_apoyo"
+      },
+      {
+        "name": "pulsar",
+        "tag": "pulsar",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pulsar",
+        "count": 34,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pulsar\/things",
+        "absolute_url": "\/tag:pulsar"
+      },
+      {
+        "name": "push",
+        "tag": "push",
+        "url": "https:\/\/api.thingiverse.com\/tags\/push",
+        "count": 178,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/push\/things",
+        "absolute_url": "\/tag:push"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2542267\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1100,
+    "view_count": 2657,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "casco.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/1a\/f9\/91\/50\/casco.stl"
+        },
+        {
+          "name": "baserotulacasco.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/d7\/0d\/36\/f9\/baserotulacasco.stl"
+        },
+        {
+          "name": "base2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/07\/ae\/4f\/a2\/base2.stl"
+        },
+        {
+          "name": "regulador.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/e0\/1e\/18\/f8\/regulador.stl"
+        },
+        {
+          "name": "rotula.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/d6\/ba\/60\/34\/rotula.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2286.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/18\/56\/68\/1a\/IMG_2286.JPG"
+        },
+        {
+          "name": "IMG_2127.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/ec\/2e\/93\/40\/IMG_2127.JPG"
+        },
+        {
+          "name": "IMG_2284.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/0e\/7a\/2d\/ec\/IMG_2284.JPG"
+        },
+        {
+          "name": "a54bef4133cf5f291e475e18383583aa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/de\/dd\/88\/d4\/4c\/a54bef4133cf5f291e475e18383583aa.png"
+        },
+        {
+          "name": "792de75ae6459b1a2252fbd6cdaa4193.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/9a\/f4\/eb\/b5\/792de75ae6459b1a2252fbd6cdaa4193.png"
+        },
+        {
+          "name": "4461d44ae0c226e6fc2a17b80c7bd3f9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/a4\/31\/23\/fe\/4461d44ae0c226e6fc2a17b80c7bd3f9.png"
+        },
+        {
+          "name": "251e53789792333bda1f21f2e09f43f0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ae\/57\/c7\/88\/11\/251e53789792333bda1f21f2e09f43f0.png"
+        },
+        {
+          "name": "IMG_2281.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/f3\/ab\/31\/bc\/IMG_2281.JPG"
+        },
+        {
+          "name": "5c87cfb356f45de50a9afc1ccd0de662.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/47\/f0\/58\/78\/85\/5c87cfb356f45de50a9afc1ccd0de662.png"
+        }
+      ]
+    }
+  }
+}

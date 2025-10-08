@@ -1,0 +1,562 @@
+{
+  "created_at": "2025-10-08T03:27:57.751606+00:00",
+  "elapsed": 0.259389,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28ba06dd93023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:57 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:57 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4083564?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4083564?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4083564,
+    "name": "Spoon Holder with Cuff",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/bb\/1f\/96\/cb\/d9\/large_display_IMG_2926.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4083564",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4083564",
+    "creator": {
+      "id": 2248018,
+      "name": "Ko_myomyo",
+      "first_name": "Kazuto",
+      "last_name": "Suzuki",
+      "url": "https:\/\/api.thingiverse.com\/users\/Ko_myomyo",
+      "public_url": "https:\/\/www.thingiverse.com\/Ko_myomyo",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ea\/23\/5e\/9f\/94\/25b2916b5c49db617f52fa5ea48efee7_thumb_medium.jpg",
+      "count_of_followers": 28,
+      "count_of_following": 15,
+      "count_of_designs": 12,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tokyo",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/d4\/58\/1b\/de\/ac\/P7053705.JPG",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-01-04T09:00:20+00:00",
+    "modified": "2020-01-04T09:00:20+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 38,
+    "is_liked": false,
+    "collect_count": 62,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 12390852,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/96\/c7\/b0\/9b\/Spoon_holder_with_cuff.stl",
+      "name": "Spoon_holder_with_cuff.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/5a\/4a\/27\/3b\/large_thumb_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/68\/89\/11\/ae\/medium_thumb_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/95\/7e\/7e\/3d\/small_thumb_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/93\/7e\/14\/d0\/tiny_thumb_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/66\/fa\/53\/7c\/featured_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/f9\/87\/56\/02\/card_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/2a\/9d\/3c\/e5\/large_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/5f\/1a\/9c\/ec\/medium_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/27\/04\/d9\/d9\/small_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/05\/f3\/07\/c0\/birdwing_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/10\/ea\/af\/7b\/tiny_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/76\/e8\/b6\/ea\/tinycard_preview_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/29\/00\/17\/5d\/large_display_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/e3\/0f\/cf\/28\/medium_display_Spoon_holder_with_cuff.stl"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/05\/5c\/9b\/73\/small_display_Spoon_holder_with_cuff.stl"
+        }
+      ],
+      "added": "2020-01-04T09:01:07+00:00"
+    },
+    "description": "This spoon with cuff is able to take meal. even if hand can't grasp a spoon.\r\n\r\n\r\nmaking process\r\n\r\n1. Spoon holder with cuff Into boiled water.\r\n2. Spoon Into the Spoon holder with cuff while hot.",
+    "instructions": "",
+    "description_html": "<div><p>This spoon with cuff is able to take meal. even if hand can't grasp a spoon.<\/p><p>making process<\/p><ol><li>Spoon holder with cuff Into boiled water.<\/li><li>Spoon Into the Spoon holder with cuff while hot.<\/li><\/ol><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This spoon with cuff is able to take meal. even if hand can't grasp a spoon.<\/p><p>making process<\/p><ol><li>Spoon holder with cuff Into boiled water.<\/li><li>Spoon Into the Spoon holder with cuff while hot.<\/li><\/ol><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This spoon with cuff is able to take meal. even if hand can't grasp a spoon.<\/p><p>making process<\/p><ol><li>Spoon holder with cuff Into boiled water.<\/li><li>Spoon Into the Spoon holder with cuff while hot.<\/li><\/ol><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4083564\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4083564\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4083564\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4083564\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4083564\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4083564\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "spoon",
+        "tag": "spoon",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spoon",
+        "count": 773,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spoon\/things",
+        "absolute_url": "\/tag:spoon"
+      },
+      {
+        "name": "Spoon holder",
+        "tag": "spoon_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spoon_holder",
+        "count": 179,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spoon_holder\/things",
+        "absolute_url": "\/tag:Spoon_holder"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4083564\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 320,
+    "view_count": 728,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2394134,
+        "name": "Toothbrush Adapter",
+        "url": "https:\/\/api.thingiverse.com\/things\/2394134",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2394134",
+        "created_at": "2017-06-19T22:37:20+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/a3\/84\/c5\/b0\/ef57ae936b1c6f643f1826070af8d7ce_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/5a\/a3\/84\/c5\/b0\/ef57ae936b1c6f643f1826070af8d7ce_preview_card.jpg",
+        "creator": {
+          "id": 765168,
+          "name": "GabrielaB",
+          "first_name": "Gabriela",
+          "last_name": "Bravo",
+          "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+          "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+          "count_of_followers": 129,
+          "count_of_following": 15,
+          "count_of_designs": 19,
+          "collection_count": 6,
+          "make_count": 0,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "California",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 3,
+        "make_count": 1,
+        "like_count": 203,
+        "tags": [
+          {
+            "name": "aid",
+            "tag": "aid",
+            "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+            "count": 306,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+            "absolute_url": "\/tag:aid"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 926,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 634,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 715,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 553,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "hand tools",
+            "tag": "hand_tools",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+            "count": 2295,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+            "absolute_url": "\/tag:hand_tools"
+          },
+          {
+            "name": "hygiene",
+            "tag": "hygiene",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hygiene",
+            "count": 196,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hygiene\/things",
+            "absolute_url": "\/tag:hygiene"
+          },
+          {
+            "name": "occupational therapy",
+            "tag": "occupational_therapy",
+            "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+            "count": 448,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+            "absolute_url": "\/tag:occupational_therapy"
+          },
+          {
+            "name": "Orthotics",
+            "tag": "orthotics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/orthotics",
+            "count": 46,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/orthotics\/things",
+            "absolute_url": "\/tag:Orthotics"
+          },
+          {
+            "name": "toothbrush",
+            "tag": "toothbrush",
+            "url": "https:\/\/api.thingiverse.com\/tags\/toothbrush",
+            "count": 2117,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/toothbrush\/things",
+            "absolute_url": "\/tag:toothbrush"
+          },
+          {
+            "name": "toothbrush holder",
+            "tag": "toothbrush_holder",
+            "url": "https:\/\/api.thingiverse.com\/tags\/toothbrush_holder",
+            "count": 1912,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/toothbrush_holder\/things",
+            "absolute_url": "\/tag:toothbrush_holder"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 384,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Spoon_holder_with_cuff.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/96\/c7\/b0\/9b\/Spoon_holder_with_cuff.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Spoon_holder_with_cuff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/11\/55\/79\/f3\/Spoon_holder_with_cuff.png"
+        },
+        {
+          "name": "IMG_2926.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/d3\/bb\/4c\/ef\/IMG_2926.JPG"
+        },
+        {
+          "name": "IMG_2928.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/c4\/f0\/5d\/bf\/IMG_2928.JPG"
+        },
+        {
+          "name": "IMG_2927.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/c1\/da\/3d\/5a\/IMG_2927.JPG"
+        },
+        {
+          "name": "IMG_2931.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/df\/30\/41\/7f\/IMG_2931.JPG"
+        }
+      ]
+    }
+  }
+}

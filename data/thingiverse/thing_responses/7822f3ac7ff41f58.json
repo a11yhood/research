@@ -1,0 +1,456 @@
+{
+  "created_at": "2025-04-18T03:29:53.027865+00:00",
+  "elapsed": 0.189495,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9321149138abfac6-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 18 Apr 2025 03:29:53 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 18 Apr 2025 03:59:52 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc",
+      "_cfuvid": "GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=oxjOxRDAbkwHaOwJzF8A1wdX7lN0xMBdXpVMrfrrdsI-1744946987-1.0.1.1-mgWk7HUF4PkrBYAqdetW27wqsvQNlmnuLdi01y95Bz9JC40h05_6uJF9NUv4l521C7gWxl93fkKHyvlU5EOwpY.WQia3lLgBkxEj7YejTHc; _cfuvid=GtpCpWSPo7cAQA34wRoQ66t2jBpQksAHfMNoYtO1zI4-1744946987358-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6019313?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6019313?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6019313,
+    "name": "9 Hole Peg Test",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/dc\/ad\/07\/59\/9a\/large_display_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6019313",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6019313",
+    "creator": {
+      "id": 202209,
+      "name": "Nestor9dw",
+      "first_name": "Nestor",
+      "last_name": "Aparicio",
+      "url": "https:\/\/api.thingiverse.com\/users\/Nestor9dw",
+      "public_url": "https:\/\/www.thingiverse.com\/Nestor9dw",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/2d\/27\/57\/24\/d8\/5408904b-7b80-46fd-98f0-0bb935cc4117.jpg",
+      "count_of_followers": 98,
+      "count_of_following": 159,
+      "count_of_designs": 56,
+      "collection_count": 15,
+      "make_count": 5,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Barcelona",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-11_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-05-11T05:04:57+00:00",
+    "modified": "2023-05-11T05:04:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 36,
+    "is_liked": false,
+    "collect_count": 45,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19268781,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/62\/fb\/65\/63\/e0d14c6c-053e-4d62-818a-333388a91c4d.jpg",
+      "name": "e0d14c6c-053e-4d62-818a-333388a91c4d.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/72\/d7\/ac\/15\/large_thumb_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/92\/98\/91\/93\/medium_thumb_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/68\/3b\/e8\/31\/small_thumb_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/85\/e9\/06\/16\/tiny_thumb_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/01\/ab\/47\/18\/5e\/featured_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/5d\/15\/5e\/50\/card_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/a4\/74\/db\/10\/large_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/ce\/ed\/21\/3d\/medium_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/10\/d5\/71\/98\/small_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/eb\/c8\/22\/ba\/birdwing_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/ad\/9c\/bf\/a8\/tiny_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/06\/72\/d3\/ef\/tinycard_preview_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/ad\/07\/59\/9a\/large_display_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/68\/9c\/62\/84\/medium_display_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/fc\/2c\/f5\/3f\/small_display_e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        }
+      ],
+      "added": "2023-05-11T05:04:54+00:00"
+    },
+    "description": "9 Hole Peg Test es una herramienta de evaluaci\u00f3n para medir la destreza motora en las manos en personas con alteraciones neurol\u00f3gicas. \r\n\r\n-----------------------------ENG-----------------------\r\n\r\n9 Hole Peg Test is an assessment tool to measure motor skills in the hands in people with neurological disorders.",
+    "instructions": "",
+    "description_html": "<div><p>9 Hole Peg Test es una herramienta de evaluaci&oacute;n para medir la destreza motora en las manos en personas con alteraciones neurol&oacute;gicas. <\/p><p>-----------------------------ENG-----------------------<\/p><p>9 Hole Peg Test is an assessment tool to measure motor skills in the hands in people with neurological disorders.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>9 Hole Peg Test es una herramienta de evaluaci&oacute;n para medir la destreza motora en las manos en personas con alteraciones neurol&oacute;gicas. <\/p><p>-----------------------------ENG-----------------------<\/p><p>9 Hole Peg Test is an assessment tool to measure motor skills in the hands in people with neurological disorders.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>9 Hole Peg Test es una herramienta de evaluaci&oacute;n para medir la destreza motora en las manos en personas con alteraciones neurol&oacute;gicas. <\/p><p>-----------------------------ENG-----------------------<\/p><p>9 Hole Peg Test is an assessment tool to measure motor skills in the hands in people with neurological disorders.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6019313\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6019313\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6019313\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6019313\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6019313\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6019313\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "hand therapy",
+        "tag": "hand_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_therapy",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_therapy\/things",
+        "absolute_url": "\/tag:hand_therapy"
+      },
+      {
+        "name": "occupational",
+        "tag": "occupational",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational\/things",
+        "absolute_url": "\/tag:occupational"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "rehab",
+        "tag": "rehab",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehab",
+        "count": 25,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehab\/things",
+        "absolute_url": "\/tag:rehab"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "terapia ocupacional",
+        "tag": "terapia_ocupacional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional",
+        "count": 124,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional\/things",
+        "absolute_url": "\/tag:terapia_ocupacional"
+      },
+      {
+        "name": "therapy",
+        "tag": "therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/therapy",
+        "count": 121,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/therapy\/things",
+        "absolute_url": "\/tag:therapy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6019313\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 359,
+    "view_count": 1367,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "9_hole_peg_test_pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/e0\/c6\/31\/de\/70ea0b57-ee37-40f7-9d65-40abac3b2115.stl"
+        },
+        {
+          "name": "9_hole_peg_test_base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/e3\/3a\/5c\/40\/8adbb030-7a62-49d9-9ae1-16e9d0516863.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "e0d14c6c-053e-4d62-818a-333388a91c4d.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/62\/fb\/65\/63\/e0d14c6c-053e-4d62-818a-333388a91c4d.jpg"
+        },
+        {
+          "name": "8adbb030-7a62-49d9-9ae1-16e9d0516863.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/4e\/47\/23\/bd\/8adbb030-7a62-49d9-9ae1-16e9d0516863.png"
+        },
+        {
+          "name": "70ea0b57-ee37-40f7-9d65-40abac3b2115.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/52\/b5\/f4\/3a\/70ea0b57-ee37-40f7-9d65-40abac3b2115.png"
+        }
+      ]
+    }
+  }
+}

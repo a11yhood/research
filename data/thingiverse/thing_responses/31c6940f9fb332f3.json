@@ -1,0 +1,451 @@
+{
+  "created_at": "2025-04-12T03:32:27.384522+00:00",
+  "elapsed": 0.189372,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa8160cafeb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:27 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:27 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1291374?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1291374?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1291374,
+    "name": "Pill Dispenser",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1291374",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1291374",
+    "creator": {
+      "id": 446137,
+      "name": "sopak",
+      "first_name": "Kamil",
+      "last_name": "Sopko",
+      "url": "https:\/\/api.thingiverse.com\/users\/sopak",
+      "public_url": "https:\/\/www.thingiverse.com\/sopak",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/85\/1d\/a4\/d0\/03\/DiamondHotend_preview_featured_thumb_medium.jpg",
+      "count_of_followers": 24,
+      "count_of_following": 6,
+      "count_of_designs": 22,
+      "collection_count": 4,
+      "make_count": 16,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Czech Republic",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/62\/cd\/89\/3d\/28\/1902013_1103914622968043_4678324874001252953_n_preview_featured_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-04-18T19:03:52+00:00",
+    "modified": "2016-04-18T19:03:52+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 122,
+    "is_liked": false,
+    "collect_count": 240,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 3709299,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/b3\/04\/7c\/ca\/PillDispenserDistance.stl",
+      "name": "6f16b67c3da48e0463e4a4f2b8b3119c.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c_display_small.jpg"
+        }
+      ],
+      "added": "2016-04-18T18:42:34+00:00"
+    },
+    "description": "Pill Dispenser for up to 20 doses.\r\n\r\nThis tool use NodeMCU(ESP-12) (in C++ mode), that means we use eps8266 as main prosessor.\r\nThis cheap little board can run webserver, which is used to setup dose times and internet connection may be used used for time synchronization in future. My application needs no exact times as  dosing starts  in different time each day.\r\n\r\nMovement is done with cheap 28BYJ 5VDC step engine and ULN2003 stepper driver, it is accommodated with optical sensor for right position (Carrier wheel have printed special cylinder with spacing). 0.96\" I2C 128X64  monochromatic OLED display is used to show immediate data.\r\n\r\nI use 3* parallel 18650 scrap laptop batteries and TP4056\/microusb charger (photo included), it may be replace by another 3.7V+ source (on NodeMCU to Vin). Batteries are not necessary. I did not  make it to be \"super low consumption device\", but it easily works  longer then 5 days without charging and display is always on.\r\n\r\nControl is done by webserver also by one button, and display.\r\n\r\nButton is any with 12mm and nuts, Recommend easy to press, I already had to replace it.\r\n\r\nDisplay show's dose number, sequence number in day and time to next dose.\r\n\r\nShort button press  will move to next dose in daily sequence, mainly because targeted person can start medication in different times as sleeping is irregular.\r\nButton press for 5 seconds will execute full deploy and return to 0 position.\r\nButton press for 30 seconds will execute restart of network configuration.\r\n\r\nDevice is capable of OTA uploads over WIFI.\r\n\r\nDose timing is controloed by sequence of  minutes (zero means  wait  for press button)\r\nexample: 0,120,1,0,1,120,120,120,120,120\r\n  \r\n - fill time is  between 16:00-18:00\r\n - press button around 18:00, pill at position 1 is released\r\n - 20:00 position 2 released\r\n - 20:01 position 3 released (another pill  before sleep)\r\n - press button after wake up around 06:00, pill at position 4 is released\r\n - 6:01 position 5 released\r\n - 8:00 position 6 released\r\n - 10:00 position 7 released\r\n - 12:00 position 8 released\r\n - 14:00 position 9 released\r\n - 16:00 position 10 released\r\n\r\nSource code for NodeMCU(eps8266)  will be in this  repository \r\nhttps:\/\/bitbucket.org\/sopak\/pill-dispenser\r\n(...I will  upload source code and schema in future...)\r\n\r\nPrototype on photos(will be included in future) had problem with charger, therefor is only hot glued to the top. \r\n",
+    "instructions": "",
+    "description_html": "<div><p>Pill Dispenser for up to 20 doses.<\/p><p>This tool use NodeMCU(ESP-12) (in C++ mode), that means we use eps8266 as main prosessor.<br>This cheap little board can run webserver, which is used to setup dose times and internet connection may be used used for time synchronization in future. My application needs no exact times as  dosing starts  in different time each day.<\/p><p>Movement is done with cheap 28BYJ 5VDC step engine and ULN2003 stepper driver, it is accommodated with optical sensor for right position (Carrier wheel have printed special cylinder with spacing). 0.96\" I2C 128X64  monochromatic OLED display is used to show immediate data.<\/p><p>I use 3* parallel 18650 scrap laptop batteries and TP4056\/microusb charger (photo included), it may be replace by another 3.7V+ source (on NodeMCU to Vin). Batteries are not necessary. I did not  make it to be \"super low consumption device\", but it easily works  longer then 5 days without charging and display is always on.<\/p><p>Control is done by webserver also by one button, and display.<\/p><p>Button is any with 12mm and nuts, Recommend easy to press, I already had to replace it.<\/p><p>Display show's dose number, sequence number in day and time to next dose.<\/p><p>Short button press  will move to next dose in daily sequence, mainly because targeted person can start medication in different times as sleeping is irregular.<br>Button press for 5 seconds will execute full deploy and return to 0 position.<br>Button press for 30 seconds will execute restart of network configuration.<\/p><p>Device is capable of OTA uploads over WIFI.<\/p><p>Dose timing is controloed by sequence of  minutes (zero means  wait  for press button)<br>example: 0,120,1,0,1,120,120,120,120,120<\/p><ul><li>fill time is  between 16:00-18:00<\/li><li>press button around 18:00, pill at position 1 is released<\/li><li>20:00 position 2 released<\/li><li>20:01 position 3 released (another pill  before sleep)<\/li><li>press button after wake up around 06:00, pill at position 4 is released<\/li><li>6:01 position 5 released<\/li><li>8:00 position 6 released<\/li><li>10:00 position 7 released<\/li><li>12:00 position 8 released<\/li><li>14:00 position 9 released<\/li><li>16:00 position 10 released<\/li><\/ul><p>Source code for NodeMCU(eps8266)  will be in this  repository<br><a rel=\"ugc nofollow\" href=\"https:\/\/bitbucket.org\/sopak\/pill-dispenser\">https:\/\/bitbucket.org\/sopak\/pill-dispenser<\/a><br>(...I will  upload source code and schema in future...)<\/p><p>Prototype on photos(will be included in future) had problem with charger, therefor is only hot glued to the top. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Pill Dispenser for up to 20 doses.<\/p><p>This tool use NodeMCU(ESP-12) (in C++ mode), that means we use eps8266 as main prosessor.<br>This cheap little board can run webserver, which is used to setup dose times and internet connection may be used used for time synchronization in future. My application needs no exact times as  dosing starts  in different time each day.<\/p><p>Movement is done with cheap 28BYJ 5VDC step engine and ULN2003 stepper driver, it is accommodated with optical sensor for right position (Carrier wheel have printed special cylinder with spacing). 0.96\" I2C 128X64  monochromatic OLED display is used to show immediate data.<\/p><p>I use 3* parallel 18650 scrap laptop batteries and TP4056\/microusb charger (photo included), it may be replace by another 3.7V+ source (on NodeMCU to Vin). Batteries are not necessary. I did not  make it to be \"super low consumption device\", but it easily works  longer then 5 days without charging and display is always on.<\/p><p>Control is done by webserver also by one button, and display.<\/p><p>Button is any with 12mm and nuts, Recommend easy to press, I already had to replace it.<\/p><p>Display show's dose number, sequence number in day and time to next dose.<\/p><p>Short button press  will move to next dose in daily sequence, mainly because targeted person can start medication in different times as sleeping is irregular.<br>Button press for 5 seconds will execute full deploy and return to 0 position.<br>Button press for 30 seconds will execute restart of network configuration.<\/p><p>Device is capable of OTA uploads over WIFI.<\/p><p>Dose timing is controloed by sequence of  minutes (zero means  wait  for press button)<br>example: 0,120,1,0,1,120,120,120,120,120<\/p><ul><li>fill time is  between 16:00-18:00<\/li><li>press button around 18:00, pill at position 1 is released<\/li><li>20:00 position 2 released<\/li><li>20:01 position 3 released (another pill  before sleep)<\/li><li>press button after wake up around 06:00, pill at position 4 is released<\/li><li>6:01 position 5 released<\/li><li>8:00 position 6 released<\/li><li>10:00 position 7 released<\/li><li>12:00 position 8 released<\/li><li>14:00 position 9 released<\/li><li>16:00 position 10 released<\/li><\/ul><p>Source code for NodeMCU(eps8266)  will be in this  repository<br><a rel=\"ugc nofollow\" href=\"https:\/\/bitbucket.org\/sopak\/pill-dispenser\">https:\/\/bitbucket.org\/sopak\/pill-dispenser<\/a><br>(...I will  upload source code and schema in future...)<\/p><p>Prototype on photos(will be included in future) had problem with charger, therefor is only hot glued to the top. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Pill Dispenser for up to 20 doses.<\/p><p>This tool use NodeMCU(ESP-12) (in C++ mode), that means we use eps8266 as main prosessor.<br>This cheap little board can run webserver, which is used to setup dose times and internet connection may be used used for time synchronization in future. My application needs no exact times as  dosing starts  in different time each day.<\/p><p>Movement is done with cheap 28BYJ 5VDC step engine and ULN2003 stepper driver, it is accommodated with optical sensor for right position (Carrier wheel have printed special cylinder with spacing). 0.96\" I2C 128X64  monochromatic OLED display is used to show immediate data.<\/p><p>I use 3* parallel 18650 scrap laptop batteries and TP4056\/microusb charger (photo included), it may be replace by another 3.7V+ source (on NodeMCU to Vin). Batteries are not necessary. I did not  make it to be \"super low consumption device\", but it easily works  longer then 5 days without charging and display is always on.<\/p><p>Control is done by webserver also by one button, and display.<\/p><p>Button is any with 12mm and nuts, Recommend easy to press, I already had to replace it.<\/p><p>Display show's dose number, sequence number in day and time to next dose.<\/p><p>Short button press  will move to next dose in daily sequence, mainly because targeted person can start medication in different times as sleeping is irregular.<br>Button press for 5 seconds will execute full deploy and return to 0 position.<br>Button press for 30 seconds will execute restart of network configuration.<\/p><p>Device is capable of OTA uploads over WIFI.<\/p><p>Dose timing is controloed by sequence of  minutes (zero means  wait  for press button)<br>example: 0,120,1,0,1,120,120,120,120,120<\/p><ul><li>fill time is  between 16:00-18:00<\/li><li>press button around 18:00, pill at position 1 is released<\/li><li>20:00 position 2 released<\/li><li>20:01 position 3 released (another pill  before sleep)<\/li><li>press button after wake up around 06:00, pill at position 4 is released<\/li><li>6:01 position 5 released<\/li><li>8:00 position 6 released<\/li><li>10:00 position 7 released<\/li><li>12:00 position 8 released<\/li><li>14:00 position 9 released<\/li><li>16:00 position 10 released<\/li><\/ul><p>Source code for NodeMCU(eps8266)  will be in this  repository<br><a rel=\"ugc nofollow\" href=\"https:\/\/bitbucket.org\/sopak\/pill-dispenser\">https:\/\/bitbucket.org\/sopak\/pill-dispenser<\/a><br>(...I will  upload source code and schema in future...)<\/p><p>Prototype on photos(will be included in future) had problem with charger, therefor is only hot glued to the top. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1291374\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1291374\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1291374\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1291374\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1291374\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1291374\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "Automatic",
+        "tag": "automatic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/automatic",
+        "count": 409,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/automatic\/things",
+        "absolute_url": "\/tag:Automatic"
+      },
+      {
+        "name": "dispenser",
+        "tag": "dispenser",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dispenser",
+        "count": 1777,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dispenser\/things",
+        "absolute_url": "\/tag:dispenser"
+      },
+      {
+        "name": "medical",
+        "tag": "medical",
+        "url": "https:\/\/api.thingiverse.com\/tags\/medical",
+        "count": 1494,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/medical\/things",
+        "absolute_url": "\/tag:medical"
+      },
+      {
+        "name": "openscad",
+        "tag": "openscad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+        "count": 15333,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+        "absolute_url": "\/tag:openscad"
+      },
+      {
+        "name": "pill",
+        "tag": "pill",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pill",
+        "count": 430,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pill\/things",
+        "absolute_url": "\/tag:pill"
+      },
+      {
+        "name": "pill dispenser",
+        "tag": "pill_dispenser",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pill_dispenser",
+        "count": 14,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pill_dispenser\/things",
+        "absolute_url": "\/tag:pill_dispenser"
+      },
+      {
+        "name": "robotic",
+        "tag": "robotic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic",
+        "count": 268,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic\/things",
+        "absolute_url": "\/tag:robotic"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1291374\/categories",
+    "file_count": 10,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2162,
+    "view_count": 10517,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "FrontPanel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/11\/e3\/53\/fe\/FrontPanel.stl"
+        },
+        {
+          "name": "WheelTop.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/f5\/51\/57\/f3\/WheelTop.stl"
+        },
+        {
+          "name": "WheelBody.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/fc\/51\/d5\/58\/WheelBody.stl"
+        },
+        {
+          "name": "WheelBottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/4e\/bf\/fe\/2c\/WheelBottom.stl"
+        },
+        {
+          "name": "WheelKnob.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/ce\/f4\/c6\/d8\/WheelKnob.stl"
+        },
+        {
+          "name": "WheelCarrier.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/22\/a1\/8d\/b2\/WheelCarrier.stl"
+        },
+        {
+          "name": "MotorGear.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/3f\/a0\/0c\/54\/MotorGear.stl"
+        },
+        {
+          "name": "PillDispenser.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/0b\/05\/37\/4a\/PillDispenser.scad"
+        },
+        {
+          "name": "PillDispenser.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/4b\/51\/aa\/d0\/PillDispenser.stl"
+        },
+        {
+          "name": "PillDispenserDistance.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/b3\/04\/7c\/ca\/PillDispenserDistance.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "6f16b67c3da48e0463e4a4f2b8b3119c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/aa\/db\/ef\/7c\/6f16b67c3da48e0463e4a4f2b8b3119c.png"
+        },
+        {
+          "name": "117a6f3100301a62bb51148d673795f2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/35\/b5\/03\/b7\/117a6f3100301a62bb51148d673795f2.png"
+        },
+        {
+          "name": "WheelCarrier.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0f\/8d\/35\/35\/72\/WheelCarrier.png"
+        },
+        {
+          "name": "a90db485075718ffab011a4b0f20d5ec.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/cb\/f3\/13\/66\/a90db485075718ffab011a4b0f20d5ec.png"
+        },
+        {
+          "name": "FrontPanel.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6a\/8c\/5f\/24\/60\/FrontPanel.png"
+        },
+        {
+          "name": "WheelTop.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/3a\/ab\/a0\/ba\/WheelTop.png"
+        },
+        {
+          "name": "d34279c1754d2751218ad9337d35cdb9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c0\/f5\/1f\/17\/6f\/d34279c1754d2751218ad9337d35cdb9.png"
+        },
+        {
+          "name": "WheelKnob.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/77\/d7\/22\/73\/WheelKnob.png"
+        },
+        {
+          "name": "8738c92d760e81c1f2ac6e2883d1f648.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/88\/6b\/b3\/ab\/8738c92d760e81c1f2ac6e2883d1f648.png"
+        },
+        {
+          "name": "PillDispenser.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/ea\/50\/59\/34\/PillDispenser.png"
+        },
+        {
+          "name": "PillDispenserCharger.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/3c\/4a\/c3\/05\/PillDispenserCharger.jpg"
+        },
+        {
+          "name": "ULN2003.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/0c\/b7\/e5\/d4\/ULN2003.jpg"
+        },
+        {
+          "name": "NodeMCU.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/1b\/2d\/e5\/41\/NodeMCU.jpg"
+        },
+        {
+          "name": "0.96_inch_128X64_I2C_OLED.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/82\/1b\/d0\/e4\/0.96_inch_128X64_I2C_OLED.jpg"
+        },
+        {
+          "name": "_28BYJ-5VDC.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/90\/9a\/1c\/95\/_28BYJ-5VDC.jpg"
+        },
+        {
+          "name": "DSC_1014.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/1c\/9b\/2d\/ba\/DSC_1014.JPG"
+        },
+        {
+          "name": "DSC_1010.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/6a\/21\/45\/e0\/DSC_1010.JPG"
+        },
+        {
+          "name": "DSC_1013.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/ff\/b4\/9c\/58\/DSC_1013.JPG"
+        },
+        {
+          "name": "DSC_1007.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/f2\/6c\/c8\/cb\/DSC_1007.JPG"
+        },
+        {
+          "name": "DSC_1015.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/eb\/0b\/94\/7c\/DSC_1015.JPG"
+        },
+        {
+          "name": "DSC_1011.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/33\/ed\/31\/2f\/DSC_1011.JPG"
+        },
+        {
+          "name": "DSC_1009.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e8\/ff\/7e\/f5\/36\/DSC_1009.JPG"
+        },
+        {
+          "name": "DSC_1018.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/cf\/64\/5d\/de\/DSC_1018.JPG"
+        },
+        {
+          "name": "DSC_1012.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/cf\/58\/23\/c6\/DSC_1012.JPG"
+        },
+        {
+          "name": "DSC_1017.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/08\/a5\/fe\/3b\/DSC_1017.JPG"
+        }
+      ]
+    }
+  }
+}

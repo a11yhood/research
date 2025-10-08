@@ -1,0 +1,460 @@
+{
+  "created_at": "2025-04-16T03:33:59.340906+00:00",
+  "elapsed": 0.151292,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109fd4fb1f63d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:59 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:59 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2823963?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2823963?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2823963,
+    "name": "Makedo Chunky Adaptive Screwdriver",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2823963",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2823963",
+    "creator": {
+      "id": 17018,
+      "name": "coolpoolteacher",
+      "first_name": "",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/coolpoolteacher",
+      "public_url": "https:\/\/www.thingiverse.com\/coolpoolteacher",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/a0\/6d\/e3\/b2\/4a\/IMG_0480_display_large_thumb_medium.jpg",
+      "count_of_followers": 34,
+      "count_of_following": 4,
+      "count_of_designs": 68,
+      "collection_count": 3,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Cold Lake, Alberta, CANADA!",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-03-12T22:30:33+00:00",
+    "modified": "2018-03-12T22:30:33+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 94,
+    "is_liked": false,
+    "collect_count": 252,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 7793686,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/e8\/0b\/50\/0e\/IMG-0644.JPG",
+      "name": "IMG-0644.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/5f\/2e\/f1\/60\/c746cfedc0af1bc3bd995e9c1a4b1ea2_display_small.JPG"
+        }
+      ],
+      "added": "2018-03-12T22:23:41+00:00"
+    },
+    "description": "This is a 2 piece adaptive screwdriver I make for my Life Skills class. Many students have difficulty with grip strength so using a traditional style screwdriver isn't feasible. This design allows students to grab the screwdriver from many angles. I designed the screwdriver to work with the Makedo plastic screws. These are amazing tools for any class or makerspace! \r\n\r\nRotate Part B so the hexagon is facing upwards. Use some clear Gorilla glue or Crazy glue to join the two pieces. \r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This is a 2 piece adaptive screwdriver I make for my Life Skills class. Many students have difficulty with grip strength so using a traditional style screwdriver isn't feasible. This design allows students to grab the screwdriver from many angles. I designed the screwdriver to work with the Makedo plastic screws. These are amazing tools for any class or makerspace! <\/p><p>Rotate Part B so the hexagon is facing upwards. Use some clear Gorilla glue or Crazy glue to join the two pieces. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a 2 piece adaptive screwdriver I make for my Life Skills class. Many students have difficulty with grip strength so using a traditional style screwdriver isn't feasible. This design allows students to grab the screwdriver from many angles. I designed the screwdriver to work with the Makedo plastic screws. These are amazing tools for any class or makerspace! <\/p><p>Rotate Part B so the hexagon is facing upwards. Use some clear Gorilla glue or Crazy glue to join the two pieces. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 2&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/82\/86\/ec\/6a\/a7\/Screen_Shot_2018-03-12_at_4.21.35_PM.png\" alt=\"image\"><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a 2 piece adaptive screwdriver I make for my Life Skills class. Many students have difficulty with grip strength so using a traditional style screwdriver isn't feasible. This design allows students to grab the screwdriver from many angles. I designed the screwdriver to work with the Makedo plastic screws. These are amazing tools for any class or makerspace! <\/p><p>Rotate Part B so the hexagon is facing upwards. Use some clear Gorilla glue or Crazy glue to join the two pieces. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>\n",
+            "printer": "<div><p>Ultimaker 2<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>30%<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/82\/86\/ec\/6a\/a7\/Screen_Shot_2018-03-12_at_4.21.35_PM.png",
+            "image_id": "72264"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/ubYKAXv3bY8\" frameborder=\"0\" allowfullscreen><\/iframe><\/p>\n                <p class=\"detail-title\"><strong>Chunky Adaptive Makedo Screwdriver<\/strong><\/p>\n                <div><p><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/ubYKAXv3bY8\">https:\/\/youtu.be\/ubYKAXv3bY8<\/a><\/p><\/div>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<div><p>Use this tool as part of a Makerspace activity using Makedo screws. We are going to use this tool as part of our cardboard carnival games unit! <\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/ubYKAXv3bY8\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "title": "Chunky Adaptive Makedo Screwdriver",
+            "content": "https:\/\/youtu.be\/ubYKAXv3bY8"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "content": "Use this tool as part of a Makerspace activity using Makedo screws. We are going to use this tool as part of our cardboard carnival games unit! "
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2823963\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2823963\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2823963\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2823963\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2823963\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2823963\/tags",
+    "tags": [
+      {
+        "name": "adaptive device",
+        "tag": "adaptive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_device\/things",
+        "absolute_url": "\/tag:adaptive_device"
+      },
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2142,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "screwdriver",
+        "tag": "screwdriver",
+        "url": "https:\/\/api.thingiverse.com\/tags\/screwdriver",
+        "count": 2274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/screwdriver\/things",
+        "absolute_url": "\/tag:screwdriver"
+      },
+      {
+        "name": "special needs",
+        "tag": "special_needs",
+        "url": "https:\/\/api.thingiverse.com\/tags\/special_needs",
+        "count": 42,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/special_needs\/things",
+        "absolute_url": "\/tag:special_needs"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2823963\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 857,
+    "view_count": 2404,
+    "education": {
+      "grades": [],
+      "subjects": [
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "chunkyscrewdriverB.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/f6\/24\/ca\/06\/chunkyscrewdriverB.stl"
+        },
+        {
+          "name": "chunkyscrewdriverA.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/ad\/77\/cb\/8d\/chunkyscrewdriverA.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG-0644.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/e8\/0b\/50\/0e\/IMG-0644.JPG"
+        },
+        {
+          "name": "IMG-0642.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/8c\/3c\/0c\/e4\/IMG-0642.JPG"
+        },
+        {
+          "name": "IMG-0643.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/75\/0b\/89\/38\/IMG-0643.JPG"
+        },
+        {
+          "name": "73f618a61a2255522a9c9f32da1bce82.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/17\/1c\/86\/5a\/73f618a61a2255522a9c9f32da1bce82.png"
+        },
+        {
+          "name": "c40050eeefc7f4d29bc63bd657d49876.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/48\/bf\/54\/7b\/53\/c40050eeefc7f4d29bc63bd657d49876.png"
+        }
+      ]
+    }
+  }
+}

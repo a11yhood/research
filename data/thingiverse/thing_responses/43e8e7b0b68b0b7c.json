@@ -1,0 +1,495 @@
+{
+  "created_at": "2025-07-10T03:52:20.947728+00:00",
+  "elapsed": 0.16956,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b99dc30cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:20 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:20 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3146646?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3146646?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3146646,
+    "name": "DIYAT Switch V5 (microswitch, radial flexures)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3146646",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3146646",
+    "creator": {
+      "id": 1713130,
+      "name": "drewrb",
+      "first_name": "Drew",
+      "last_name": "Browning",
+      "url": "https:\/\/api.thingiverse.com\/users\/drewrb",
+      "public_url": "https:\/\/www.thingiverse.com\/drewrb",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_artist_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Chicago",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-10-14T02:43:24+00:00",
+    "modified": "2018-10-14T02:43:24+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 119,
+    "is_liked": false,
+    "collect_count": 271,
+    "is_collected": false,
+    "comment_count": 7,
+    "is_watched": false,
+    "default_image": {
+      "id": 9075017,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/49\/cc\/7f\/b9\/DIYAT_V5_65d.png",
+      "name": "DIYAT_V5_65d.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/26\/4d\/b7\/3e\/ce7fd59b0b62b2d253526b6b24b14ab7_display_small.jpg"
+        }
+      ],
+      "added": "2018-10-13T22:16:56+00:00"
+    },
+    "description": "This is a simple passive **Do It Yourself Assistive Technology** switch enclosure similar to **DIYAT V4** (https:\/\/www.thingiverse.com\/thing:3062522). The major difference is the switch used in the enclosure.This version uses a **mini-microswitch** capable of switching **five amps** as opposed to the fifty millliamp limit of V4. Even so, I wouldn't go more than an amp or two since 1\/8\" (3.5mm) audio phone connectors are not designed to handle power. The physical size of this switch necessitates a  larger enclosure but is well suited to higher current applications such as motorized toys that have been switch adapted. As always, be aware of the load current of your application and make sure it does not exceed the rating of your AT switch. \r\n\r\nThis three part enclosure (no screws) makes the momentary microswitch more durable and accessible by providing protection and a larger activation surface. Designed with **OpenSCAD**, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding) using **Customizer**. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses **radial flexures** for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: https:\/\/youtu.be\/2EqkSfG4u5U\r\n\r\nThe **DIYAT Switch** is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly.",
+    "instructions": "",
+    "description_html": "<div><p>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V4<\/strong> (<a rel=\"nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a>). The major difference is the switch used in the enclosure.This version uses a <strong>mini-microswitch<\/strong> capable of switching <strong>five amps<\/strong> as opposed to the fifty millliamp limit of V4. Even so, I wouldn't go more than an amp or two since 1\/8\" (3.5mm) audio phone connectors are not designed to handle power. The physical size of this switch necessitates a  larger enclosure but is well suited to higher current applications such as motorized toys that have been switch adapted. As always, be aware of the load current of your application and make sure it does not exceed the rating of your AT switch. <\/p><p>This three part enclosure (no screws) makes the momentary microswitch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding) using <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p>The <strong>DIYAT Switch<\/strong> is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V4<\/strong> (<a rel=\"nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a>). The major difference is the switch used in the enclosure.This version uses a <strong>mini-microswitch<\/strong> capable of switching <strong>five amps<\/strong> as opposed to the fifty millliamp limit of V4. Even so, I wouldn't go more than an amp or two since 1\/8\" (3.5mm) audio phone connectors are not designed to handle power. The physical size of this switch necessitates a  larger enclosure but is well suited to higher current applications such as motorized toys that have been switch adapted. As always, be aware of the load current of your application and make sure it does not exceed the rating of your AT switch. <\/p><p>This three part enclosure (no screws) makes the momentary microswitch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding) using <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p>The <strong>DIYAT Switch<\/strong> is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Monoprice<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Select Mini<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>.2<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>22%<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Optional Strap Base<\/strong><\/p>                <div><p>The optional base for a strap is designed for a 1 inch strap such as a Velcro brand elastic cinch strap. This base can also be used to screw the DIYAT switch to a surface through the slots (M3 counter-sink screws) or to apply adhesive backed hook and loop fasteners.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/44\/c2\/95\/34\/07\/DIYAT_V4_FLXR2_all-strap-screws-cap.png\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Parts needed for the DIYAT Switch:<\/strong><\/p>                <div><ul><li>Of course the <strong>3D printed enclosure parts<\/strong><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/48\/42\/dc\/b6\/da\/PartsNeeded.PNG\" alt=\"image\"><\/p>                    <div><ul><li><strong>A common mini-microswitch<\/strong>.<ul><li>Recommended Vendors:<ul><li>Sparkfun <a rel=\"nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/13639\">https:\/\/www.sparkfun.com\/products\/13639<\/a><\/li><li>ServoCity <a rel=\"nofollow\" href=\"https:\/\/www.servocity.com\/spdt-standard-miniature-snap-action-micro-switch\">https:\/\/www.servocity.com\/spdt-standard-miniature-snap-action-micro-switch<\/a><\/li><li>Mouser Electronics: <a rel=\"nofollow\" href=\"https:\/\/www.mouser.com\/ProductDetail\/Omron-Electronics\/SS-5-F-3?qs=sGAEpiMZZMumBvQ1hY%2ffBbrJe0jS1aFzFhqrNGpN450%3d\">https:\/\/www.mouser.com\/ProductDetail\/Omron-Electronics\/SS-5-F-3?qs=sGAEpiMZZMumBvQ1hY%2ffBbrJe0jS1aFzFhqrNGpN450%3d<\/a><br>These switches are rated for at least 5 amps. The first two switches are not rated for Operating Force but the last one specifies 0.49N (50gf).<\/li><\/ul><\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/45\/0a\/a9\/a5\/16\/MicroswitchPart.PNG\" alt=\"image\"><\/p>                    <div><ul><li><strong>A 3.5mm phone plug cable<\/strong> (mono or stereo)<ul><li>Recommended Vendor: Adafruit <a rel=\"nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/5a\/79\/7f\/ad\/7f\/StereoPhonePlugCable-tieless_sm.png\" alt=\"image\"><\/p>                    <div><hr><hr><h1>THE STEPS IN THIS PROJECT ARE:<\/h1><p><strong> 3D print the switch enclosure, wire the cable to the mini-microswitch, assemble the parts and test.<\/strong><\/p><p><strong>1: 3D PRINT THE SWITCH ENCLOSURE<\/strong>. Here are my recommendations:<\/p><ul><li><strong>Material:<\/strong> PLA works well. Even though the button is designed to flex, the amount of flex is so small it doesn't crack the PLA.<\/li><li><strong>Layer resolution:<\/strong> .2mm or less<\/li><li><strong>Supports:<\/strong> not needed if printed as oriented in the 3D STL files<\/li><\/ul><p><strong>2: WIRE THE CABLE TO THE MINI-MICROSWITCH<\/strong><\/p><ul><li><strong>Note that this is a stereo cable.<\/strong> There are 3 wires and 3 corresponding connections or contact points on the connector.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/79\/35\/43\/07\/fa\/StereoPhonePlugCable_labeled.png\" alt=\"image\"><\/p>                    <div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. <strong>Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/strong><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a2\/f5\/9a\/8a\/f6\/WiringTheMicroswitch.PNG\" alt=\"image\"><\/p>                    <div><ul><li><strong>Solder the cable to the mini-microswitch as shown.<\/strong> One wire connects to the Common (C ) terminal and the other connects to the Normally Open (NC) terminal. It doesn't matter which wire goes to which terminal. The Normally Closed (NC) terminal is unused. Do not use excessive solder when soldering the wires. The microswitch must fit within the walls that hold it to the base and the terminals must fit between the base standoffs which hold it at the proper height.<\/li><li>The switch is a <strong>momentary, normally-open switch<\/strong>.<ul><li>The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/li><\/ul><p><strong>3: ASSEMBLE THE PARTS AND TEST<\/strong><\/p><ul><li>Place the wired switch in the enclosure base as shown.<\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/c9\/70\/e9\/98\/0a\/AssembleParts.PNG\" alt=\"image\"><\/p>                    <div><ul><li>Test the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. Connect one probe to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/4f\/ec\/ad\/4b\/3b\/testing.PNG\" alt=\"image\"><\/p>                    <div><ul><li>When you press the switch you should hear a high pitched tone (if you meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working!<\/li><\/ul><\/div><h1 class=\"thing-component-header custom more-information\">MORE INFORMATION<\/h1><p class=\"detail-title\"><strong>Other AT Switches on Thingiverse:<\/strong><\/p>                <div><p>AT Switch by atmakers<br><a rel=\"nofollow\" href=\"\/thing:2180151\">https:\/\/www.thingiverse.com\/thing:2180151<\/a><\/p><p>Modified AT Switch Design by khackbarth (remixed from above)<br><a rel=\"nofollow\" href=\"\/thing:2507266\">https:\/\/www.thingiverse.com\/thing:2507266<\/a><\/p><p>Volksswitch - the People's AT Switch (Proof of Concept) by khackbarth<br><a rel=\"nofollow\" href=\"\/thing:2870410\">https:\/\/www.thingiverse.com\/thing:2870410<\/a><\/p><p>Adaptive\/Assistive 3.5mm Button by ctag<br><a rel=\"nofollow\" href=\"\/thing:1471760\">https:\/\/www.thingiverse.com\/thing:1471760<\/a><\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a simple passive <strong>Do It Yourself Assistive Technology<\/strong> switch enclosure similar to <strong>DIYAT V4<\/strong> (<a rel=\"nofollow\" href=\"\/thing:3062522\">https:\/\/www.thingiverse.com\/thing:3062522<\/a>). The major difference is the switch used in the enclosure.This version uses a <strong>mini-microswitch<\/strong> capable of switching <strong>five amps<\/strong> as opposed to the fifty millliamp limit of V4. Even so, I wouldn't go more than an amp or two since 1\/8\" (3.5mm) audio phone connectors are not designed to handle power. The physical size of this switch necessitates a  larger enclosure but is well suited to higher current applications such as motorized toys that have been switch adapted. As always, be aware of the load current of your application and make sure it does not exceed the rating of your AT switch. <\/p><p>This three part enclosure (no screws) makes the momentary microswitch more durable and accessible by providing protection and a larger activation surface. Designed with <strong>OpenSCAD<\/strong>, this parametric design allows selecting the build diameter, base style (plain or strap mounting) and button style (recessed or protruding) using <strong>Customizer<\/strong>. Make sure the custom diameter setting matches each of the three parts saved to insure they fit together. This version features a threaded latch and uses <strong>radial flexures<\/strong> for frictionless activation. Although it is frictionless, there is resistance from the flexures which increases the activation force slightly. Here's how the flexure works: <a rel=\"nofollow\" href=\"https:\/\/youtu.be\/2EqkSfG4u5U\">https:\/\/youtu.be\/2EqkSfG4u5U<\/a><\/p><p>The <strong>DIYAT Switch<\/strong> is designed to be simple to build, durable, inexpensive (minimal parts) and customizable in size and style. This design is an assembly of three parts that fit together and must be printed with enough precision to operate correctly.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Monoprice<\/p><\/div>",
+            "printer": "<div><p>Select Mini<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>.2<\/p><\/div>",
+            "infill": "<div><p>22%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Optional Strap Base",
+            "content": "<div><p>The optional base for a strap is designed for a 1 inch strap such as a Velcro brand elastic cinch strap. This base can also be used to screw the DIYAT switch to a surface through the slots (M3 counter-sink screws) or to apply adhesive backed hook and loop fasteners.<\/p><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/44\/c2\/95\/34\/07\/DIYAT_V4_FLXR2_all-strap-screws-cap.png",
+            "image_id": "109141"
+          },
+          {
+            "title": "Parts needed for the DIYAT Switch:",
+            "content": "<div><ul><li>Of course the <strong>3D printed enclosure parts<\/strong><\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/48\/42\/dc\/b6\/da\/PartsNeeded.PNG",
+            "image_id": "109538"
+          },
+          {
+            "content": "<div><ul><li><strong>A common mini-microswitch<\/strong>.<ul><li>Recommended Vendors:<ul><li>Sparkfun <a rel=\"nofollow\" href=\"https:\/\/www.sparkfun.com\/products\/13639\">https:\/\/www.sparkfun.com\/products\/13639<\/a><\/li><li>ServoCity <a rel=\"nofollow\" href=\"https:\/\/www.servocity.com\/spdt-standard-miniature-snap-action-micro-switch\">https:\/\/www.servocity.com\/spdt-standard-miniature-snap-action-micro-switch<\/a><\/li><li>Mouser Electronics: <a rel=\"nofollow\" href=\"https:\/\/www.mouser.com\/ProductDetail\/Omron-Electronics\/SS-5-F-3?qs=sGAEpiMZZMumBvQ1hY%2ffBbrJe0jS1aFzFhqrNGpN450%3d\">https:\/\/www.mouser.com\/ProductDetail\/Omron-Electronics\/SS-5-F-3?qs=sGAEpiMZZMumBvQ1hY%2ffBbrJe0jS1aFzFhqrNGpN450%3d<\/a><br>These switches are rated for at least 5 amps. The first two switches are not rated for Operating Force but the last one specifies 0.49N (50gf).<\/li><\/ul><\/li><\/ul><\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/45\/0a\/a9\/a5\/16\/MicroswitchPart.PNG",
+            "image_id": "109539"
+          },
+          {
+            "content": "<div><ul><li><strong>A 3.5mm phone plug cable<\/strong> (mono or stereo)<ul><li>Recommended Vendor: Adafruit <a rel=\"nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1700\">https:\/\/www.adafruit.com\/product\/1700<\/a><ul><li>This is a stereo pigtail cable with stripped and tinned wires<\/li><\/ul><\/li><li>Stereo plug cables are easier to find than mono and generally cheaper<\/li><li>Even less expensive: a plug to plug cable can be cut in half, stripped and tinned<\/li><\/ul><\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/5a\/79\/7f\/ad\/7f\/StereoPhonePlugCable-tieless_sm.png",
+            "image_id": "109054"
+          },
+          {
+            "content": "<div><hr><hr><h1>THE STEPS IN THIS PROJECT ARE:<\/h1><p><strong> 3D print the switch enclosure, wire the cable to the mini-microswitch, assemble the parts and test.<\/strong><\/p><p><strong>1: 3D PRINT THE SWITCH ENCLOSURE<\/strong>. Here are my recommendations:<\/p><ul><li><strong>Material:<\/strong> PLA works well. Even though the button is designed to flex, the amount of flex is so small it doesn't crack the PLA.<\/li><li><strong>Layer resolution:<\/strong> .2mm or less<\/li><li><strong>Supports:<\/strong> not needed if printed as oriented in the 3D STL files<\/li><\/ul><p><strong>2: WIRE THE CABLE TO THE MINI-MICROSWITCH<\/strong><\/p><ul><li><strong>Note that this is a stereo cable.<\/strong> There are 3 wires and 3 corresponding connections or contact points on the connector.<\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/79\/35\/43\/07\/fa\/StereoPhonePlugCable_labeled.png",
+            "image_id": "109540"
+          },
+          {
+            "content": "<div><ul><li>The wire ends are already stripped and tinned. Clip the ring (white) wire short. We won't need it. <strong>Note: the sleeve wire may be bare copper stranded wire or it may be black insulated.<\/strong><\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a2\/f5\/9a\/8a\/f6\/WiringTheMicroswitch.PNG",
+            "image_id": "109541"
+          },
+          {
+            "content": "<div><ul><li><strong>Solder the cable to the mini-microswitch as shown.<\/strong> One wire connects to the Common (C ) terminal and the other connects to the Normally Open (NC) terminal. It doesn't matter which wire goes to which terminal. The Normally Closed (NC) terminal is unused. Do not use excessive solder when soldering the wires. The microswitch must fit within the walls that hold it to the base and the terminals must fit between the base standoffs which hold it at the proper height.<\/li><li>The switch is a <strong>momentary, normally-open switch<\/strong>.<ul><li>The contacts are momentarily closed while pushing down on the switch and the connection is open when letting go. It is tactile because you can feel (and hear) the switch close (make) and open (break) the connection.<\/li><\/ul><\/li><\/ul><p><strong>3: ASSEMBLE THE PARTS AND TEST<\/strong><\/p><ul><li>Place the wired switch in the enclosure base as shown.<\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c9\/70\/e9\/98\/0a\/AssembleParts.PNG",
+            "image_id": "109542"
+          },
+          {
+            "content": "<div><ul><li>Test the assembled switch<ul><li>Connect your DIYAT switch to a multimeter in continuity mode. Connect one probe to the tip of the phone connector the other to the sleeve.<\/li><\/ul><\/li><\/ul><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/4f\/ec\/ad\/4b\/3b\/testing.PNG",
+            "image_id": "109543"
+          },
+          {
+            "content": "<div><ul><li>When you press the switch you should hear a high pitched tone (if you meter has this feature) and .001 (approximately) should be displayed. Your DIYAT switch is working!<\/li><\/ul><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "MORE INFORMATION",
+        "data": [
+          {
+            "title": "Other AT Switches on Thingiverse:",
+            "content": "<div><p>AT Switch by atmakers<br><a rel=\"nofollow\" href=\"\/thing:2180151\">https:\/\/www.thingiverse.com\/thing:2180151<\/a><\/p><p>Modified AT Switch Design by khackbarth (remixed from above)<br><a rel=\"nofollow\" href=\"\/thing:2507266\">https:\/\/www.thingiverse.com\/thing:2507266<\/a><\/p><p>Volksswitch - the People's AT Switch (Proof of Concept) by khackbarth<br><a rel=\"nofollow\" href=\"\/thing:2870410\">https:\/\/www.thingiverse.com\/thing:2870410<\/a><\/p><p>Adaptive\/Assistive 3.5mm Button by ctag<br><a rel=\"nofollow\" href=\"\/thing:1471760\">https:\/\/www.thingiverse.com\/thing:1471760<\/a><\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3146646\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3146646\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3146646\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3146646\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3146646\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3146646\/tags",
+    "tags": [
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 51,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "customizer",
+        "tag": "customizer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/customizer",
+        "count": 8482,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/customizer\/things",
+        "absolute_url": "\/tag:customizer"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3146646\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1661,
+    "view_count": 4389,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 9,
+    "make_count": 1,
+    "app_count": 2,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "DIYAT_V5_MS_FLXR_pub04a.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/0e\/56\/37\/af\/DIYAT_V5_MS_FLXR_pub04a.scad"
+        }
+      ],
+      "images": [
+        {
+          "name": "DIYAT_V5_65d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/49\/cc\/7f\/b9\/DIYAT_V5_65d.png"
+        },
+        {
+          "name": "DIYAT_V5_MS_FLXR_dev03_all.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/38\/9b\/d2\/6d\/DIYAT_V5_MS_FLXR_dev03_all.png"
+        },
+        {
+          "name": "DIYAT_V5_MS_FLXR_dev03_all-strap.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/1d\/9a\/e3\/7e\/DIYAT_V5_MS_FLXR_dev03_all-strap.png"
+        },
+        {
+          "name": "DIYAT_V5_MS_FLXR_dev03_all1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/47\/9c\/a9\/67\/DIYAT_V5_MS_FLXR_dev03_all1.png"
+        },
+        {
+          "name": "DIYAT_V5_MS_FLXR_pub03.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/b0\/72\/a7\/b7\/DIYAT_V5_MS_FLXR_pub03.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "created_at": "2025-07-10T03:52:25.929222+00:00",
+  "elapsed": 0.181398,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1bb8e99ccfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:25 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:25 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1601989?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1601989?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1601989,
+    "name": "EasyLink+ and Inspiro Storage Boxes",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1601989",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1601989",
+    "creator": {
+      "id": 16758,
+      "name": "ThePlanetMike",
+      "first_name": "Michael",
+      "last_name": "Bowers",
+      "url": "https:\/\/api.thingiverse.com\/users\/ThePlanetMike",
+      "public_url": "https:\/\/www.thingiverse.com\/ThePlanetMike",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c0\/e4\/9d\/a4\/e2\/DSC_8773BW_thumb_medium.jpg",
+      "count_of_followers": 168,
+      "count_of_following": 11,
+      "count_of_designs": 49,
+      "collection_count": 2,
+      "make_count": 28,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Seattle, WA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/f5\/6e\/ab\/f0\/02\/2014-01-14_16.23.19_HDR_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-06-01T18:55:07+00:00",
+    "modified": "2016-06-01T18:55:07+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 9,
+    "is_liked": false,
+    "collect_count": 10,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 3949439,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/ec\/b8\/7e\/4c\/20141029_102056.jpg",
+      "name": "20141029_102056.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/eb\/9a\/94\/9f\/df9fc4165ca83a90847579b6bec5fd13_display_small.jpg"
+        }
+      ],
+      "added": "2016-06-01T18:51:30+00:00"
+    },
+    "description": "These boxes, designed to store the EasyLink+ and Inspiro, were created for the 2014 Idea Challenge, organized by @Whampus. The challenge paired special education teachers with 3-D modelers to create unique assistive technology solutions to unusual problems at their school or in their district. One particular teacher had this idea:\r\n\r\n\"My idea would help with the organization and storage of equipment that is used by students with hearing loss. We provide FM equipment to approximately 200 students in 13 districts, so we have a large inventory of equipment to organize. The FM systems are used by students in schools to help improve their auditory access to instruction (in other words, it amplifies sound to help them hear their teachers better). Many of the pieces of equipment are small enough to be organized within plastic craft organizers, but we would like to improve our storage of the FM microphones\/transmitters.\r\n\r\nBasically, it's a drawer divider that would be a custom size to hold the transmitter units. We currently use very old foam that was used for shipping some equipment that we no longer use, but it has helped us store the pieces more securely than just having to put them all together in one drawer.\"\r\n\r\nI designed these 3-D printable boxes as a solution to this problem. They can fit neatly together in a drawer in various configurations maximizing storage space and minimizing the ability for the individual storage slots to slide around. They provide easy access to the equipment and its cables and wires inside.",
+    "instructions": "",
+    "description_html": "<div><p>These boxes, designed to store the EasyLink+ and Inspiro, were created for the 2014 Idea Challenge, organized by @Whampus. The challenge paired special education teachers with 3-D modelers to create unique assistive technology solutions to unusual problems at their school or in their district. One particular teacher had this idea:<\/p><p>\"My idea would help with the organization and storage of equipment that is used by students with hearing loss. We provide FM equipment to approximately 200 students in 13 districts, so we have a large inventory of equipment to organize. The FM systems are used by students in schools to help improve their auditory access to instruction (in other words, it amplifies sound to help them hear their teachers better). Many of the pieces of equipment are small enough to be organized within plastic craft organizers, but we would like to improve our storage of the FM microphones\/transmitters.<\/p><p>Basically, it's a drawer divider that would be a custom size to hold the transmitter units. We currently use very old foam that was used for shipping some equipment that we no longer use, but it has helped us store the pieces more securely than just having to put them all together in one drawer.\"<\/p><p>I designed these 3-D printable boxes as a solution to this problem. They can fit neatly together in a drawer in various configurations maximizing storage space and minimizing the ability for the individual storage slots to slide around. They provide easy access to the equipment and its cables and wires inside.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>These boxes, designed to store the EasyLink+ and Inspiro, were created for the 2014 Idea Challenge, organized by @Whampus. The challenge paired special education teachers with 3-D modelers to create unique assistive technology solutions to unusual problems at their school or in their district. One particular teacher had this idea:<\/p><p>\"My idea would help with the organization and storage of equipment that is used by students with hearing loss. We provide FM equipment to approximately 200 students in 13 districts, so we have a large inventory of equipment to organize. The FM systems are used by students in schools to help improve their auditory access to instruction (in other words, it amplifies sound to help them hear their teachers better). Many of the pieces of equipment are small enough to be organized within plastic craft organizers, but we would like to improve our storage of the FM microphones\/transmitters.<\/p><p>Basically, it's a drawer divider that would be a custom size to hold the transmitter units. We currently use very old foam that was used for shipping some equipment that we no longer use, but it has helped us store the pieces more securely than just having to put them all together in one drawer.\"<\/p><p>I designed these 3-D printable boxes as a solution to this problem. They can fit neatly together in a drawer in various configurations maximizing storage space and minimizing the ability for the individual storage slots to slide around. They provide easy access to the equipment and its cables and wires inside.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>These boxes, designed to store the EasyLink+ and Inspiro, were created for the 2014 Idea Challenge, organized by @Whampus. The challenge paired special education teachers with 3-D modelers to create unique assistive technology solutions to unusual problems at their school or in their district. One particular teacher had this idea:<\/p><p>\"My idea would help with the organization and storage of equipment that is used by students with hearing loss. We provide FM equipment to approximately 200 students in 13 districts, so we have a large inventory of equipment to organize. The FM systems are used by students in schools to help improve their auditory access to instruction (in other words, it amplifies sound to help them hear their teachers better). Many of the pieces of equipment are small enough to be organized within plastic craft organizers, but we would like to improve our storage of the FM microphones\/transmitters.<\/p><p>Basically, it's a drawer divider that would be a custom size to hold the transmitter units. We currently use very old foam that was used for shipping some equipment that we no longer use, but it has helped us store the pieces more securely than just having to put them all together in one drawer.\"<\/p><p>I designed these 3-D printable boxes as a solution to this problem. They can fit neatly together in a drawer in various configurations maximizing storage space and minimizing the ability for the individual storage slots to slide around. They provide easy access to the equipment and its cables and wires inside.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "No"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1601989\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1601989\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1601989\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1601989\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1601989\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1601989\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "box",
+        "tag": "box",
+        "url": "https:\/\/api.thingiverse.com\/tags\/box",
+        "count": 17810,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/box\/things",
+        "absolute_url": "\/tag:box"
+      },
+      {
+        "name": "storage",
+        "tag": "storage",
+        "url": "https:\/\/api.thingiverse.com\/tags\/storage",
+        "count": 8725,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/storage\/things",
+        "absolute_url": "\/tag:storage"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1601989\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 915,
+    "view_count": 325,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "inspiro-box-mbr1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/ad\/d2\/71\/41\/inspiro-box-mbr1.stl"
+        },
+        {
+          "name": "inspiro-box-mb02.skp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/80\/91\/62\/0b\/inspiro-box-mb02.skp"
+        },
+        {
+          "name": "easylinkplus-box-mbr1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/c5\/6c\/14\/0f\/easylinkplus-box-mbr1.stl"
+        },
+        {
+          "name": "easylinkplus-box-mb01.skp",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/2d\/52\/18\/59\/easylinkplus-box-mb01.skp"
+        },
+        {
+          "name": "inspiro-Technical-Data.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/27\/76\/a1\/eb\/inspiro-Technical-Data.pdf"
+        },
+        {
+          "name": "EasyLinkPlus-Technical-Data.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/89\/6f\/5c\/85\/EasyLinkPlus-Technical-Data.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "20141029_102056.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/ec\/b8\/7e\/4c\/20141029_102056.jpg"
+        },
+        {
+          "name": "20141029_102232.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/ed\/82\/b7\/f2\/20141029_102232.jpg"
+        },
+        {
+          "name": "20141029_143212.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/b6\/de\/da\/1b\/20141029_143212.jpg"
+        },
+        {
+          "name": "20141029_143337.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/4e\/76\/ae\/01\/20141029_143337.jpg"
+        },
+        {
+          "name": "EasyLink+andInspiro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/65\/8e\/97\/1d\/EasyLink+andInspiro.jpg"
+        },
+        {
+          "name": "13575b4d0e1f7895194bc31004214cee.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/c4\/f4\/17\/71\/13575b4d0e1f7895194bc31004214cee.png"
+        },
+        {
+          "name": "2389ad015ba1640c227a060f1e560e03.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/f4\/eb\/9e\/d7\/2389ad015ba1640c227a060f1e560e03.png"
+        }
+      ]
+    }
+  }
+}

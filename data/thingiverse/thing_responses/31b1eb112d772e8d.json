@@ -1,0 +1,544 @@
+{
+  "created_at": "2025-04-09T19:46:00.197419+00:00",
+  "elapsed": 0.221461,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc820de9b01563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:46:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:16:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1954875?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1954875?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1954875,
+    "name": "Learning Blade: Prosthetic Hand Mission",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1954875",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1954875",
+    "creator": {
+      "id": 1169506,
+      "name": "LearningBlade",
+      "first_name": "Learning",
+      "last_name": "Blade",
+      "url": "https:\/\/api.thingiverse.com\/users\/LearningBlade",
+      "public_url": "https:\/\/www.thingiverse.com\/LearningBlade",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/01\/1c\/47\/fd\/ac\/68cfcd0c248d22c39cc6b5d455282ae7_thumb_medium.jpg",
+      "count_of_followers": 63,
+      "count_of_following": 0,
+      "count_of_designs": 15,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/46\/31\/47\/9e\/0c\/f9b58b93b82609bfc7c02f9c7531560b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-12-10T13:48:36+00:00",
+    "modified": "2016-12-10T13:48:36+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": true,
+    "is_printable": false,
+    "like_count": 381,
+    "is_liked": false,
+    "collect_count": 761,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 4967661,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/e8\/81\/58\/ac\/IMG_0354.JPG",
+      "name": "IMG_0354.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/fc\/00\/0f\/c5\/87ffe29d90e54828b734007f2ceee57a_display_small.JPG"
+        }
+      ],
+      "added": "2016-12-09T21:39:22+00:00"
+    },
+    "description": "Objective: To take students understanding of prosthetics from the Learning Blade Dolphin Mission and apply that to a real world engineering design project. \r\n\r\nDescription: \u2013 Students will learn about and an organization called e-NABLE which partners groups with 3D printers and individuals, primarily children, around the world who are in need of prosthetic hands.\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Objective: To take students understanding of prosthetics from the Learning Blade Dolphin Mission and apply that to a real world engineering design project. <\/p><p>Description: &ndash; Students will learn about and an organization called e-NABLE which partners groups with 3D printers and individuals, primarily children, around the world who are in need of prosthetic hands.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Objective: To take students understanding of prosthetics from the Learning Blade Dolphin Mission and apply that to a real world engineering design project. <\/p><p>Description: &ndash; Students will learn about and an organization called e-NABLE which partners groups with 3D printers and individuals, primarily children, around the world who are in need of prosthetic hands.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Objective: To take students understanding of prosthetics from the Learning Blade Dolphin Mission and apply that to a real world engineering design project. <\/p><p>Description: &ndash; Students will learn about and an organization called e-NABLE which partners groups with 3D printers and individuals, primarily children, around the world who are in need of prosthetic hands.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview\">Overview and Background<\/h1>\n<p>Having viewed the eNABLE website the students will see that even though the Raptor Reloaded hand is a great prosthetic device, it can still be improved upon. As individuals or groups, students will be choosing an activity that the Raptor Hand, as it is right now, cannot do as best as it could. Students will be choosing an activity that a child using the Raptor Reloaded would like to do better. Then they will be researching an animal that can do that activity really well, and use the adaptation that has allowed that animal to do their chosen task well, and finally redesign the raptor hand with that animal's adaptation in mind.<\/p>\n<h1 class=\"thing-component-header plan\">Lesson Plan and Activity<\/h1>\n<p>Before students start creating their own prosthetic devices let them explore the e-NABLE website at enablingthefuture.org to learn about their mission. On this site, students can watch videos showing the process of creating the prosthetic hands for individuals and the can also see the various prosthetic hands that can be downloaded directly from the site. Later on, in the Mission challenge students will be using TinkerCAD to create, download and 3D print their prosthetic hands.<\/p>\n<p>See the TinkerCAD Guide on how to set up TinkerCAD for your class and the process students will use to design, create, and 3D print their prosthetic hands.  <\/p>\n<ol>\n<li>\n<p>Show students a complete Raptor Reloaded hand, or if time and materials allow, have them assemble a few hands in class.<br>\n<a rel=\"nofollow\" href=\"http:\/\/www.thingiverse.com\/thing:596966\">http:\/\/www.thingiverse.com\/thing:596966<\/a><\/p>\n<\/li>\n<li>\n<p>Have students discuss the following questions:<br>\nHow could this prosthetic hand impact the lives of people, especially children that have never had a prosthetic hand before?<br>\nWhat things can a child do with this prosthetic hand?<br>\nWhat activities would still be difficult to do with this prosthetic hand?<\/p>\n<\/li>\n<li>\n<p>Students will now be challenged with the idea that, even though the Raptor Reloaded hand is a great prosthetic device, it can still be improved upon. As individuals or groups, students will be choosing an activity that the Raptor Hand, as it is right now, cannot do as best as it could. Students will be choosing an activity, researching an animal that can do that activity really well, understand the adaptation that has allowed that animal to do their chosen task well, and redesign the raptor hand with that animals adaptation in mind.<br>\na.    To help guide students through this process they can work through the Raptor Re-imagined handouts found below.<\/p>\n<\/li>\n<li>The entire hand will not have to be redesigned by the students. They will still use all parts of the original Raptor Reloaded hand, but the will be recreating the fingertips. For this, they can choose between either the 4 fingertips, which fuse all of the 4 fingertips together into one large adaptation. Or, they can redesign each fingertip separately. Both of these redesigns are described in further detail in the TinkerCAD Guide for this mission, found below.<\/li>\n<\/ol>\n<p>Note: Depending on how many groups you have working at the same time you will want to print out as many full Raptor Reloaded hands so that students can attach, demonstrate, and present their redesigns at the end of this project.  <\/p>\n<p>Also, the groups that decide to work on the 4 Finger design will need to use the double knuckle pins. One knuckle pin will be inserted on each side since the two middle fingers cannot be accessed with a single knuckle pin during assembly. <\/p>\n<p>Extensions:<br>\nHave students watch and discuss the following TED talk. <a rel=\"nofollow\" href=\"https:\/\/www.ted.com\/talks\/aimee_mullins_prosthetic_aesthetics?language=en\">https:\/\/www.ted.com\/talks\/aimee_mullins_prosthetic_aesthetics?language=en<\/a><br>\nIn this TED talk, world record-breaker at the 1996 Paralympic games, discusses her use of 12 different prosthetic legs and the different powers that they each give her.  <\/p>\n<p>Sign up your class for the e-NABLE community. Get connected with individual around the world that are need of prosthetic hands and make a service-learning project out of it.<\/p>\n<p>You are now ready to send the STL files to your 3D printing. If time allows post back onto the original Thingiverse file with pictures of your student's designs.<\/p>\n<h1 class=\"thing-component-header materials\">Materials Needed<\/h1>\n<p>3D print a completed Raptor Reloaded hand which can be found at Thingiverse #596966.<\/p>\n<p>3D print Raptor Reloaded Knuckle Pins for single finger designs found at Thingiverse #596966<\/p>\n<p>3D print LB Raptor Reloaded Double Finger Pins. One set for each redesign using the 4 finger set.These pins will be inserted on opposite sides of the raptor hand so that all 4 fingers are attached to the Proximal Phalanges - See Example File image above)<\/p>\n<p>Download Single Finger and Combined 4 Finger .STL files for student redesigns or give them the links below to.<\/p>\n<p>You can also access the file with the follow links.<br>\nLB Raptor Hand 1 Finger<br>\n<a rel=\"nofollow\" href=\"https:\/\/www.tinkercad.com\/things\/4tXK68Wxg38-lb-raptor-hand-1-finger\/edit\">https:\/\/www.tinkercad.com\/things\/4tXK68Wxg38-lb-raptor-hand-1-finger\/edit<\/a><br>\nLB Raptor Hand 4 Finger Set<br>\n<a rel=\"nofollow\" href=\"https:\/\/www.tinkercad.com\/things\/gqoejxowVBS-lb-raptor-hand-4-fingers\">https:\/\/www.tinkercad.com\/things\/gqoejxowVBS-lb-raptor-hand-4-fingers<\/a><\/p>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "content": "Having viewed the eNABLE website the students will see that even though the Raptor Reloaded hand is a great prosthetic device, it can still be improved upon. As individuals or groups, students will be choosing an activity that the Raptor Hand, as it is right now, cannot do as best as it could. Students will be choosing an activity that a child using the Raptor Reloaded would like to do better. Then they will be researching an animal that can do that activity really well, and use the adaptation that has allowed that animal to do their chosen task well, and finally redesign the raptor hand with that animal's adaptation in mind."
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "content": "Before students start creating their own prosthetic devices let them explore the e-NABLE website at enablingthefuture.org to learn about their mission. On this site, students can watch videos showing the process of creating the prosthetic hands for individuals and the can also see the various prosthetic hands that can be downloaded directly from the site. Later on, in the Mission challenge students will be using TinkerCAD to create, download and 3D print their prosthetic hands.\r\n\r\nSee the TinkerCAD Guide on how to set up TinkerCAD for your class and the process students will use to design, create, and 3D print their prosthetic hands.  \r\n\r\n1.\tShow students a complete Raptor Reloaded hand, or if time and materials allow, have them assemble a few hands in class.\r\nhttp:\/\/www.thingiverse.com\/thing:596966\r\n\r\n\r\n\t\t\r\n\r\n\r\n\r\n\r\n2.\tHave students discuss the following questions:\r\nHow could this prosthetic hand impact the lives of people, especially children that have never had a prosthetic hand before? \r\nWhat things can a child do with this prosthetic hand?\r\nWhat activities would still be difficult to do with this prosthetic hand?\r\n\r\n3.\tStudents will now be challenged with the idea that, even though the Raptor Reloaded hand is a great prosthetic device, it can still be improved upon. As individuals or groups, students will be choosing an activity that the Raptor Hand, as it is right now, cannot do as best as it could. Students will be choosing an activity, researching an animal that can do that activity really well, understand the adaptation that has allowed that animal to do their chosen task well, and redesign the raptor hand with that animals adaptation in mind.\r\n      a.\tTo help guide students through this process they can work through the Raptor Re-imagined handouts found below.\r\n\r\n4.\tThe entire hand will not have to be redesigned by the students. They will still use all parts of the original Raptor Reloaded hand, but the will be recreating the fingertips. For this, they can choose between either the 4 fingertips, which fuse all of the 4 fingertips together into one large adaptation. Or, they can redesign each fingertip separately. Both of these redesigns are described in further detail in the TinkerCAD Guide for this mission, found below.\r\n\r\n\r\nNote: Depending on how many groups you have working at the same time you will want to print out as many full Raptor Reloaded hands so that students can attach, demonstrate, and present their redesigns at the end of this project.  \r\n\r\nAlso, the groups that decide to work on the 4 Finger design will need to use the double knuckle pins. One knuckle pin will be inserted on each side since the two middle fingers cannot be accessed with a single knuckle pin during assembly. \r\n\r\n\r\nExtensions:\r\nHave students watch and discuss the following TED talk. https:\/\/www.ted.com\/talks\/aimee_mullins_prosthetic_aesthetics?language=en\r\nIn this TED talk, world record-breaker at the 1996 Paralympic games, discusses her use of 12 different prosthetic legs and the different powers that they each give her.  \r\n\r\nSign up your class for the e-NABLE community. Get connected with individual around the world that are need of prosthetic hands and make a service-learning project out of it.\r\n\r\n\r\nYou are now ready to send the STL files to your 3D printing. If time allows post back onto the original Thingiverse file with pictures of your student's designs.\r\n"
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "content": "3D print a completed Raptor Reloaded hand which can be found at Thingiverse #596966.\r\n\r\n3D print Raptor Reloaded Knuckle Pins for single finger designs found at Thingiverse #596966\r\n\r\n3D print LB Raptor Reloaded Double Finger Pins. One set for each redesign using the 4 finger set.These pins will be inserted on opposite sides of the raptor hand so that all 4 fingers are attached to the Proximal Phalanges - See Example File image above)\r\n\r\nDownload Single Finger and Combined 4 Finger .STL files for student redesigns or give them the links below to.\r\n\r\nYou can also access the file with the follow links.\r\nLB Raptor Hand 1 Finger\r\nhttps:\/\/www.tinkercad.com\/things\/4tXK68Wxg38-lb-raptor-hand-1-finger\/edit\r\nLB Raptor Hand 4 Finger Set\r\nhttps:\/\/www.tinkercad.com\/things\/gqoejxowVBS-lb-raptor-hand-4-fingers\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1954875\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1954875\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1954875\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1954875\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1954875\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1954875\/tags",
+    "tags": [
+      {
+        "name": "Learning Blade",
+        "tag": "learning_blade",
+        "url": "https:\/\/api.thingiverse.com\/tags\/learning_blade",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/learning_blade\/things",
+        "absolute_url": "\/tag:Learning_Blade"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1954875\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 4170,
+    "view_count": 26593,
+    "education": {
+      "grades": {
+        "20": "5th Grade",
+        "21": "6th Grade",
+        "22": "7th Grade",
+        "23": "8th Grade",
+        "24": "9th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        },
+        {
+          "name": "Math",
+          "slug": "math",
+          "id": 12
+        },
+        {
+          "name": "Engineering",
+          "slug": "engineering",
+          "id": 13
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "id": 19
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 596966,
+        "name": "Raptor Reloaded by e-NABLE",
+        "url": "https:\/\/api.thingiverse.com\/things\/596966",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:596966",
+        "created_at": "2014-12-17T08:02:41+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f1\/78\/e1\/76\/d1\/IMG_5635_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/f1\/78\/e1\/76\/d1\/IMG_5635_preview_card.JPG",
+        "creator": {
+          "id": 292645,
+          "name": "e-NABLE",
+          "first_name": "e-NABLE",
+          "last_name": "Volunteer Community",
+          "url": "https:\/\/api.thingiverse.com\/users\/e-NABLE",
+          "public_url": "https:\/\/www.thingiverse.com\/e-NABLE",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/81\/4a\/97\/97\/c3\/e-NABLE-Logo_thumb_medium.jpg",
+          "count_of_followers": 491,
+          "count_of_following": 0,
+          "count_of_designs": 3,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 66,
+        "make_count": 94,
+        "like_count": 2471,
+        "tags": [
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "hand",
+            "tag": "hand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+            "count": 1940,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+            "absolute_url": "\/tag:hand"
+          },
+          {
+            "name": "prosthetic",
+            "tag": "prosthetic",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+            "count": 653,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+            "absolute_url": "\/tag:prosthetic"
+          },
+          {
+            "name": "prosthetics",
+            "tag": "prosthetics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+            "count": 99,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+            "absolute_url": "\/tag:prosthetics"
+          },
+          {
+            "name": "robohand",
+            "tag": "robohand",
+            "url": "https:\/\/api.thingiverse.com\/tags\/robohand",
+            "count": 66,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/robohand\/things",
+            "absolute_url": "\/tag:robohand"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 5248,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "LB_Double_Finger_Pins.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/44\/ac\/9a\/49\/LB_Double_Finger_Pins.stl"
+        },
+        {
+          "name": "LB_raptor_hand_4_finger_set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d3\/c4\/28\/77\/5b\/LB_raptor_hand_4_finger_set.stl"
+        },
+        {
+          "name": "LB_raptor_hand_1_finger.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/d6\/70\/e6\/ea\/LB_raptor_hand_1_finger.stl"
+        },
+        {
+          "name": "LB_Example_File.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/ea\/1e\/a9\/66\/LB_Example_File.stl"
+        },
+        {
+          "name": "Prosthetics_Engineering.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/5a\/ff\/67\/9b\/Prosthetics_Engineering.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_0354.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/e8\/81\/58\/ac\/IMG_0354.JPG"
+        },
+        {
+          "name": "IMG_0355.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/39\/4a\/0d\/81\/IMG_0355.JPG"
+        },
+        {
+          "name": "5eb58d10cdb7276e5ecd13c5852f1503.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/57\/10\/09\/79\/fe\/5eb58d10cdb7276e5ecd13c5852f1503.png"
+        },
+        {
+          "name": "0fc1be538692e7ada2752c1d2b07b012.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/e4\/70\/7a\/1d\/0fc1be538692e7ada2752c1d2b07b012.png"
+        },
+        {
+          "name": "2e5ace2ef424cd9f68fa652bf423e8e0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e7\/b7\/61\/10\/b6\/2e5ace2ef424cd9f68fa652bf423e8e0.png"
+        },
+        {
+          "name": "36f7723d7d6c1370a7dae5f076ea4d4f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/c7\/bd\/06\/24\/36f7723d7d6c1370a7dae5f076ea4d4f.png"
+        }
+      ]
+    }
+  }
+}

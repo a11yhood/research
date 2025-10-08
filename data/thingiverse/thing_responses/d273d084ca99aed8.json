@@ -1,0 +1,556 @@
+{
+  "created_at": "2025-04-09T19:45:55.918246+00:00",
+  "elapsed": 0.192932,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81f358fa1563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3044695?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3044695?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3044695,
+    "name": "Dementia Friendly Music Player (Hackaday Finalist)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3044695",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3044695",
+    "creator": {
+      "id": 2220809,
+      "name": "rosswesleyporter",
+      "first_name": "Ross",
+      "last_name": "Porter",
+      "url": "https:\/\/api.thingiverse.com\/users\/rosswesleyporter",
+      "public_url": "https:\/\/www.thingiverse.com\/rosswesleyporter",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c5\/b0\/36\/89\/fc\/4e9c0c7127c8898a3bdb7786ee6c68ff_thumb_medium.jpg",
+      "count_of_followers": 2,
+      "count_of_following": 0,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Seattle, WA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-08-11T17:18:23+00:00",
+    "modified": "2018-08-11T17:18:23+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 270,
+    "is_liked": false,
+    "collect_count": 582,
+    "is_collected": false,
+    "comment_count": 7,
+    "is_watched": false,
+    "default_image": {
+      "id": 8677591,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/64\/7c\/34\/60\/099a_box_only_15_degrees_DQMusicBoxPure3D.jpg",
+      "name": "099a_box_only_15_degrees_DQMusicBoxPure3D.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/4c\/12\/4c\/e9\/ca62c14b69208ccb77b0b4fe43599471_display_small.jpg"
+        }
+      ],
+      "added": "2018-08-11T17:18:22+00:00"
+    },
+    "description": "My dad could no longer operate a CD player or iPod. But he could use the music player that I designed and made for him. Because it operates like a familiar two-knob radio from his youth. The conventional wisdom is that for people with dementia, try to leverage memories that they made before the age of 21. \r\n\r\nI was inspired to make this by the documentary [Alive Inside](http:\/\/www.aliveinside.us\/#land) which shows the profound joy felt by some people with dementia when listening to their favorite music. There are about 50 million people with dementia. Other people expressed interest in project, so I refined the design and wrote clear step-by-step instructions.\r\n\r\nThis project started with a laser cut case. Thanks to Trey Bagley for creating a 3D printable case. If you prefer to laser cut, there are included files for laser cutting in your choice of 5.2mm thick cherry, 5.7mm cherry, or 6.7mm bamboo.\r\n\r\nFor step-by-step instructions with photos, see the included PDF files. Or visit [dqmusicbox.org](http:\/\/dqmusicbox.org).\r\n\r\nThis project was a finalist for the [2017 Hackaday Prize](https:\/\/hackaday.com\/2017\/09\/11\/these-twenty-assistive-technologies-projects-won-1000-in-the-hackaday-prize\/).\r\n\r\nIs it hard to make?\r\n==============\r\nIt doesn\u2019t require much technical skill. No soldering. It mostly requires following the instructions. Takes about 3 hours, not including printing time. Things you\u2019ll be doing: ordering parts, applying glue, screwing things in, plugging in wires, downloading software. An eight year old made one, and a sixty year old made one. Also, it\u2019s the kind of project that friends and family would be happy to help you with. You can do it!\r\n\r\nHow much do the parts cost?\r\n======================\r\nI don\u2019t sell anything \u2013 this is open source. The instructions have a list of parts e.g. Raspberry Pi. The parts usually cost about $60 in the US.\r\n\r\nHeartwarming feedback\r\n==================\r\n> I recently assembled a dqmusicbox per your instructions \u2013 and it just . worked. Yesterday I turned over my incarnation of the box to my father. It has been a long time since I saw such an emotional reaction from him. I let him at it without explanations at all, and he made it work without instructions. \u2026 Some of his favorites triggered immediate responses \u2013 I should have filmed it. \u2014 Ketil\r\n\r\nMore assistive technology\r\n====================\r\nIf you enjoy making assistive technology projects like this, you might enjoy some of the maker projects at [Makers Making Change](http:\/\/makersmakingchange.org). They \u201cconnect makers to people with disabilities who need assistive technology\u201d. They have a nice library of helpful projects.\r\n\r\nhttps:\/\/youtu.be\/sSrsag63noE",
+    "instructions": "",
+    "description_html": "<div><p>My dad could no longer operate a CD player or iPod. But he could use the music player that I designed and made for him. Because it operates like a familiar two-knob radio from his youth. The conventional wisdom is that for people with dementia, try to leverage memories that they made before the age of 21. <\/p><p>I was inspired to make this by the documentary <a rel=\"ugc nofollow\" href=\"http:\/\/www.aliveinside.us\/#land\">Alive Inside<\/a> which shows the profound joy felt by some people with dementia when listening to their favorite music. There are about 50 million people with dementia. Other people expressed interest in project, so I refined the design and wrote clear step-by-step instructions.<\/p><p>This project started with a laser cut case. Thanks to Trey Bagley for creating a 3D printable case. If you prefer to laser cut, there are included files for laser cutting in your choice of 5.2mm thick cherry, 5.7mm cherry, or 6.7mm bamboo.<\/p><p>For step-by-step instructions with photos, see the included PDF files. Or visit <a rel=\"ugc nofollow\" href=\"http:\/\/dqmusicbox.org\">dqmusicbox.org<\/a>.<\/p><p>This project was a finalist for the <a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.com\/2017\/09\/11\/these-twenty-assistive-technologies-projects-won-1000-in-the-hackaday-prize\/\">2017 Hackaday Prize<\/a>.<\/p><h1>Is it hard to make?<\/h1><p>It doesn&rsquo;t require much technical skill. No soldering. It mostly requires following the instructions. Takes about 3 hours, not including printing time. Things you&rsquo;ll be doing: ordering parts, applying glue, screwing things in, plugging in wires, downloading software. An eight year old made one, and a sixty year old made one. Also, it&rsquo;s the kind of project that friends and family would be happy to help you with. You can do it!<\/p><h1>How much do the parts cost?<\/h1><p>I don&rsquo;t sell anything &ndash; this is open source. The instructions have a list of parts e.g. Raspberry Pi. The parts usually cost about $60 in the US.<\/p><h1>Heartwarming feedback<\/h1><blockquote><p>I recently assembled a dqmusicbox per your instructions &ndash; and it just . worked. Yesterday I turned over my incarnation of the box to my father. It has been a long time since I saw such an emotional reaction from him. I let him at it without explanations at all, and he made it work without instructions. &hellip; Some of his favorites triggered immediate responses &ndash; I should have filmed it. &mdash; Ketil<\/p><\/blockquote><h1>More assistive technology<\/h1><p>If you enjoy making assistive technology projects like this, you might enjoy some of the maker projects at <a rel=\"ugc nofollow\" href=\"http:\/\/makersmakingchange.org\">Makers Making Change<\/a>. They &ldquo;connect makers to people with disabilities who need assistive technology&rdquo;. They have a nice library of helpful projects.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/sSrsag63noE\">https:\/\/youtu.be\/sSrsag63noE<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>My dad could no longer operate a CD player or iPod. But he could use the music player that I designed and made for him. Because it operates like a familiar two-knob radio from his youth. The conventional wisdom is that for people with dementia, try to leverage memories that they made before the age of 21. <\/p><p>I was inspired to make this by the documentary <a rel=\"ugc nofollow\" href=\"http:\/\/www.aliveinside.us\/#land\">Alive Inside<\/a> which shows the profound joy felt by some people with dementia when listening to their favorite music. There are about 50 million people with dementia. Other people expressed interest in project, so I refined the design and wrote clear step-by-step instructions.<\/p><p>This project started with a laser cut case. Thanks to Trey Bagley for creating a 3D printable case. If you prefer to laser cut, there are included files for laser cutting in your choice of 5.2mm thick cherry, 5.7mm cherry, or 6.7mm bamboo.<\/p><p>For step-by-step instructions with photos, see the included PDF files. Or visit <a rel=\"ugc nofollow\" href=\"http:\/\/dqmusicbox.org\">dqmusicbox.org<\/a>.<\/p><p>This project was a finalist for the <a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.com\/2017\/09\/11\/these-twenty-assistive-technologies-projects-won-1000-in-the-hackaday-prize\/\">2017 Hackaday Prize<\/a>.<\/p><h1>Is it hard to make?<\/h1><p>It doesn&rsquo;t require much technical skill. No soldering. It mostly requires following the instructions. Takes about 3 hours, not including printing time. Things you&rsquo;ll be doing: ordering parts, applying glue, screwing things in, plugging in wires, downloading software. An eight year old made one, and a sixty year old made one. Also, it&rsquo;s the kind of project that friends and family would be happy to help you with. You can do it!<\/p><h1>How much do the parts cost?<\/h1><p>I don&rsquo;t sell anything &ndash; this is open source. The instructions have a list of parts e.g. Raspberry Pi. The parts usually cost about $60 in the US.<\/p><h1>Heartwarming feedback<\/h1><blockquote><p>I recently assembled a dqmusicbox per your instructions &ndash; and it just . worked. Yesterday I turned over my incarnation of the box to my father. It has been a long time since I saw such an emotional reaction from him. I let him at it without explanations at all, and he made it work without instructions. &hellip; Some of his favorites triggered immediate responses &ndash; I should have filmed it. &mdash; Ketil<\/p><\/blockquote><h1>More assistive technology<\/h1><p>If you enjoy making assistive technology projects like this, you might enjoy some of the maker projects at <a rel=\"ugc nofollow\" href=\"http:\/\/makersmakingchange.org\">Makers Making Change<\/a>. They &ldquo;connect makers to people with disabilities who need assistive technology&rdquo;. They have a nice library of helpful projects.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/sSrsag63noE\">https:\/\/youtu.be\/sSrsag63noE<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Monoprice<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Maker Select Plus<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>10%<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>Nothing about this model is intended to be printer-specific. It should work just fine on a MakerBot. You'll see that I chose to use a wood filament PLA, so the print can be finished with regular wood stain. But regular PLA will be just fine.<\/p><p>You may encounter a scaling issue when you load the STL files into your slicer. The STL files are exports from Blender. I generally load the files into Cura. <em>Sometimes<\/em> a part will show as tiny in Cura, always off in size by 10x or 100x or 1,000x. Scaling the part in Cura solves the problem. The music player is about 150mm tall and about 130mm wide. The knobs are about 30mm in diameter.<\/p><p>My specific settings:<\/p><ul><li>Monoprice PLA wood filament<\/li><li>Layer height: 0.2mm<\/li><li>Initial layer height: 0.3mm<\/li><li>Wall thickness: 0.8mm<\/li><li>Top\/bottom thickness: 0.8mm<\/li><li>Infill: 10%<\/li><li>Print temp: 215C<\/li><li>Build plate temp: 60C<\/li><li>Diameter: 1.75mm<\/li><li>Flow: 100%<\/li><li>Enable retraction: yes<\/li><li>Retraction distance: 1.75mm<\/li><li>Retraction speed: 25mm\/sec<\/li><li>Print speed: 40mm\/sec<\/li><li>Infill speed: 50mm\/sec<\/li><li>Travel speed: 80mm\/sec<\/li><li>Initial layer speed: 10mm\/sec<\/li><li>Enable print cooling: yes<\/li><li>Fan speed: 100%<\/li><li>Minimum layer time: 10 sec<\/li><li>Print sequence: all at once<\/li><\/ul><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>See the <a rel=\"ugc nofollow\" href=\"http:\/\/dqmusicbox.org\">build instructions<\/a> for step-by-step instructions with photos. It's easy.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>For the laser cut models, I started from online generators. Specifically <a rel=\"ugc nofollow\" href=\"https:\/\/www.festi.info\/boxes.py\/index.html\">boxes.py<\/a> and <a rel=\"ugc nofollow\" href=\"http:\/\/www.makercase.com\/\">MakerCase<\/a>. Then modified by hand in Inkscape.<\/p><p>For the 3D printed model, Trey Bagley used <a rel=\"ugc nofollow\" href=\"https:\/\/www.blender.org\/\">Blender<\/a>.<\/p><p>For the electronic hardware, I evaluated a number of different options - Arduino, Raspberry Pi, various Pi-like single board computers, and audio-only boards. For key software, I never looked at anything other than VLC as it is a near perfect fit. The combination of Raspberry Pi &amp; VLC is both capable and easy. Capable in that it provided all the needed features, including supporting music in MP3, iTunes, FLAC, and Ogg Vorbis formats. Simple in that it's a no-solder build - all the component connect to the Pi with jumper wires.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>My dad could no longer operate a CD player or iPod. But he could use the music player that I designed and made for him. Because it operates like a familiar two-knob radio from his youth. The conventional wisdom is that for people with dementia, try to leverage memories that they made before the age of 21. <\/p><p>I was inspired to make this by the documentary <a rel=\"ugc nofollow\" href=\"http:\/\/www.aliveinside.us\/#land\">Alive Inside<\/a> which shows the profound joy felt by some people with dementia when listening to their favorite music. There are about 50 million people with dementia. Other people expressed interest in project, so I refined the design and wrote clear step-by-step instructions.<\/p><p>This project started with a laser cut case. Thanks to Trey Bagley for creating a 3D printable case. If you prefer to laser cut, there are included files for laser cutting in your choice of 5.2mm thick cherry, 5.7mm cherry, or 6.7mm bamboo.<\/p><p>For step-by-step instructions with photos, see the included PDF files. Or visit <a rel=\"ugc nofollow\" href=\"http:\/\/dqmusicbox.org\">dqmusicbox.org<\/a>.<\/p><p>This project was a finalist for the <a rel=\"ugc nofollow\" href=\"https:\/\/hackaday.com\/2017\/09\/11\/these-twenty-assistive-technologies-projects-won-1000-in-the-hackaday-prize\/\">2017 Hackaday Prize<\/a>.<\/p><h1>Is it hard to make?<\/h1><p>It doesn&rsquo;t require much technical skill. No soldering. It mostly requires following the instructions. Takes about 3 hours, not including printing time. Things you&rsquo;ll be doing: ordering parts, applying glue, screwing things in, plugging in wires, downloading software. An eight year old made one, and a sixty year old made one. Also, it&rsquo;s the kind of project that friends and family would be happy to help you with. You can do it!<\/p><h1>How much do the parts cost?<\/h1><p>I don&rsquo;t sell anything &ndash; this is open source. The instructions have a list of parts e.g. Raspberry Pi. The parts usually cost about $60 in the US.<\/p><h1>Heartwarming feedback<\/h1><blockquote><p>I recently assembled a dqmusicbox per your instructions &ndash; and it just . worked. Yesterday I turned over my incarnation of the box to my father. It has been a long time since I saw such an emotional reaction from him. I let him at it without explanations at all, and he made it work without instructions. &hellip; Some of his favorites triggered immediate responses &ndash; I should have filmed it. &mdash; Ketil<\/p><\/blockquote><h1>More assistive technology<\/h1><p>If you enjoy making assistive technology projects like this, you might enjoy some of the maker projects at <a rel=\"ugc nofollow\" href=\"http:\/\/makersmakingchange.org\">Makers Making Change<\/a>. They &ldquo;connect makers to people with disabilities who need assistive technology&rdquo;. They have a nice library of helpful projects.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/sSrsag63noE\">https:\/\/youtu.be\/sSrsag63noE<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Monoprice<\/p><\/div>\n",
+            "printer": "<div><p>Maker Select Plus<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "infill": "<div><p>10%<\/p><\/div>\n",
+            "notes": "<div><p>Nothing about this model is intended to be printer-specific. It should work just fine on a MakerBot. You'll see that I chose to use a wood filament PLA, so the print can be finished with regular wood stain. But regular PLA will be just fine.<\/p><p>You may encounter a scaling issue when you load the STL files into your slicer. The STL files are exports from Blender. I generally load the files into Cura. <em>Sometimes<\/em> a part will show as tiny in Cura, always off in size by 10x or 100x or 1,000x. Scaling the part in Cura solves the problem. The music player is about 150mm tall and about 130mm wide. The knobs are about 30mm in diameter.<\/p><p>My specific settings:<\/p><ul><li>Monoprice PLA wood filament<\/li><li>Layer height: 0.2mm<\/li><li>Initial layer height: 0.3mm<\/li><li>Wall thickness: 0.8mm<\/li><li>Top\/bottom thickness: 0.8mm<\/li><li>Infill: 10%<\/li><li>Print temp: 215C<\/li><li>Build plate temp: 60C<\/li><li>Diameter: 1.75mm<\/li><li>Flow: 100%<\/li><li>Enable retraction: yes<\/li><li>Retraction distance: 1.75mm<\/li><li>Retraction speed: 25mm\/sec<\/li><li>Print speed: 40mm\/sec<\/li><li>Infill speed: 50mm\/sec<\/li><li>Travel speed: 80mm\/sec<\/li><li>Initial layer speed: 10mm\/sec<\/li><li>Enable print cooling: yes<\/li><li>Fan speed: 100%<\/li><li>Minimum layer time: 10 sec<\/li><li>Print sequence: all at once<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>See the <a rel=\"ugc nofollow\" href=\"http:\/\/dqmusicbox.org\">build instructions<\/a> for step-by-step instructions with photos. It's easy.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>For the laser cut models, I started from online generators. Specifically <a rel=\"ugc nofollow\" href=\"https:\/\/www.festi.info\/boxes.py\/index.html\">boxes.py<\/a> and <a rel=\"ugc nofollow\" href=\"http:\/\/www.makercase.com\/\">MakerCase<\/a>. Then modified by hand in Inkscape.<\/p><p>For the 3D printed model, Trey Bagley used <a rel=\"ugc nofollow\" href=\"https:\/\/www.blender.org\/\">Blender<\/a>.<\/p><p>For the electronic hardware, I evaluated a number of different options - Arduino, Raspberry Pi, various Pi-like single board computers, and audio-only boards. For key software, I never looked at anything other than VLC as it is a near perfect fit. The combination of Raspberry Pi &amp; VLC is both capable and easy. Capable in that it provided all the needed features, including supporting music in MP3, iTunes, FLAC, and Ogg Vorbis formats. Simple in that it's a no-solder build - all the component connect to the Pi with jumper wires.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3044695\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3044695\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3044695\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3044695\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3044695\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3044695\/tags",
+    "tags": [
+      {
+        "name": "alzheimers",
+        "tag": "alzheimers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/alzheimers",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/alzheimers\/things",
+        "absolute_url": "\/tag:alzheimers"
+      },
+      {
+        "name": "cathedral radio",
+        "tag": "cathedral_radio",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cathedral_radio",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cathedral_radio\/things",
+        "absolute_url": "\/tag:cathedral_radio"
+      },
+      {
+        "name": "dementia",
+        "tag": "dementia",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dementia",
+        "count": 15,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dementia\/things",
+        "absolute_url": "\/tag:dementia"
+      },
+      {
+        "name": "lasercut",
+        "tag": "lasercut",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lasercut",
+        "count": 6963,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lasercut\/things",
+        "absolute_url": "\/tag:lasercut"
+      },
+      {
+        "name": "laser cut",
+        "tag": "laser_cut",
+        "url": "https:\/\/api.thingiverse.com\/tags\/laser_cut",
+        "count": 1692,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/laser_cut\/things",
+        "absolute_url": "\/tag:laser_cut"
+      },
+      {
+        "name": "laser cutting",
+        "tag": "laser_cutting",
+        "url": "https:\/\/api.thingiverse.com\/tags\/laser_cutting",
+        "count": 148,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/laser_cutting\/things",
+        "absolute_url": "\/tag:laser_cutting"
+      },
+      {
+        "name": "music",
+        "tag": "music",
+        "url": "https:\/\/api.thingiverse.com\/tags\/music",
+        "count": 4231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/music\/things",
+        "absolute_url": "\/tag:music"
+      },
+      {
+        "name": "Raspberry Pi",
+        "tag": "raspberry_pi",
+        "url": "https:\/\/api.thingiverse.com\/tags\/raspberry_pi",
+        "count": 11006,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/raspberry_pi\/things",
+        "absolute_url": "\/tag:Raspberry_Pi"
+      },
+      {
+        "name": "vintage radio",
+        "tag": "vintage_radio",
+        "url": "https:\/\/api.thingiverse.com\/tags\/vintage_radio",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/vintage_radio\/things",
+        "absolute_url": "\/tag:vintage_radio"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3044695\/categories",
+    "file_count": 9,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2468,
+    "view_count": 5774,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Body.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/b9\/a5\/bc\/f3\/Body.stl"
+        },
+        {
+          "name": "Back.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/21\/51\/1c\/0a\/Back.stl"
+        },
+        {
+          "name": "Dials.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/ae\/50\/a4\/4f\/Dials.stl"
+        },
+        {
+          "name": "Front.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/58\/21\/c2\/6a\/Front.stl"
+        },
+        {
+          "name": "DQMusicBox_cathedral_5point2mm_cherry.svg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/19\/7d\/e2\/51\/DQMusicBox_cathedral_5point2mm_cherry.svg"
+        },
+        {
+          "name": "DQMusicBox_cathedral_5point7mm_cherry.svg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/84\/64\/14\/55\/DQMusicBox_cathedral_5point7mm_cherry.svg"
+        },
+        {
+          "name": "DQMusicBox_cathedral_6point7mm_bamboo_amber.svg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/25\/f4\/30\/a4\/DQMusicBox_cathedral_6point7mm_bamboo_amber.svg"
+        },
+        {
+          "name": "build_instructions_cherry.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/f1\/f7\/a6\/11\/build_instructions_cherry.pdf"
+        },
+        {
+          "name": "build_instructions_3D_printed.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/b6\/52\/c0\/46\/build_instructions_3D_printed.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "099a_box_only_15_degrees_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/64\/7c\/34\/60\/099a_box_only_15_degrees_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "DQMusicBox_cherry_11_finished_low_angle.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/59\/e5\/2e\/e7\/DQMusicBox_cherry_11_finished_low_angle.jpg"
+        },
+        {
+          "name": "57e538a40e806a9cf4c0a8ff9c4c3d59.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/bd\/36\/6f\/c1\/57e538a40e806a9cf4c0a8ff9c4c3d59.png"
+        },
+        {
+          "name": "1cf25022bdda3a9b337aee2588914176.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/b8\/02\/68\/2b\/1cf25022bdda3a9b337aee2588914176.png"
+        },
+        {
+          "name": "02115d67e473e103dc873593dcadbf48.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/11\/7d\/5a\/9c\/9c\/02115d67e473e103dc873593dcadbf48.png"
+        },
+        {
+          "name": "8234e887675f3f4e89700949bdc55808.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/09\/7c\/84\/53\/8234e887675f3f4e89700949bdc55808.png"
+        },
+        {
+          "name": "001b_OrderParts_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/93\/61\/4f\/55\/001b_OrderParts_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "001d_PrintParts_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/dd\/5c\/3f\/b3\/001d_PrintParts_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "003_standoffs_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/d7\/74\/df\/dd\/003_standoffs_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "002_Pi_microSD_USB_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/37\/4b\/40\/3c\/002_Pi_microSD_USB_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "004_mount_Pi_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/37\/ea\/78\/cf\/004_mount_Pi_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "005_install_front_panel_items_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/79\/ba\/5b\/4a\/005_install_front_panel_items_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "006_apply_glue_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/52\/1b\/0b\/32\/006_apply_glue_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "007_glue_front_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/63\/aa\/9e\/24\/007_glue_front_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "008b_AudioCable_DQMusicBoxPure3D.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/65\/23\/76\/58\/59\/008b_AudioCable_DQMusicBoxPure3D.jpg"
+        },
+        {
+          "name": "59ce65e988f511eda3312f0dc24ff623.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/38\/e7\/e8\/e8\/31\/59ce65e988f511eda3312f0dc24ff623.png"
+        },
+        {
+          "name": "b8f891e423b7fc95d49e46a2098a8e75.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/96\/bd\/91\/b5\/4d\/b8f891e423b7fc95d49e46a2098a8e75.png"
+        },
+        {
+          "name": "1be56a36ec08a5c10c6e1acb38273223.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/ea\/69\/ad\/9c\/1be56a36ec08a5c10c6e1acb38273223.png"
+        }
+      ]
+    }
+  }
+}

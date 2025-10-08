@@ -1,0 +1,450 @@
+{
+  "created_at": "2025-10-08T03:28:04.851075+00:00",
+  "elapsed": 0.210217,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28bcd1ae83023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:04 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:04 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/5138488?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/5138488?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 5138488,
+    "name": "Card Holder",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/4c\/b3\/4f\/7b\/91\/large_display__MG_9858.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/5138488",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:5138488",
+    "creator": {
+      "id": 202209,
+      "name": "Nestor9dw",
+      "first_name": "Nestor",
+      "last_name": "Aparicio",
+      "url": "https:\/\/api.thingiverse.com\/users\/Nestor9dw",
+      "public_url": "https:\/\/www.thingiverse.com\/Nestor9dw",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/2d\/27\/57\/24\/d8\/5408904b-7b80-46fd-98f0-0bb935cc4117.jpg",
+      "count_of_followers": 103,
+      "count_of_following": 160,
+      "count_of_designs": 56,
+      "collection_count": 15,
+      "make_count": 5,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Barcelona",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-11_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-11-16T06:49:28+00:00",
+    "modified": "2021-11-16T06:49:28+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 47,
+    "is_liked": false,
+    "collect_count": 67,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 16297916,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/79\/95\/f9\/78\/_MG_9858.jpg",
+      "name": "_MG_9858.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/7b\/23\/4e\/76\/large_thumb__MG_9858.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/b1\/1b\/70\/4c\/medium_thumb__MG_9858.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/ec\/0e\/5f\/04\/small_thumb__MG_9858.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/cb\/96\/cb\/3f\/tiny_thumb__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/7f\/80\/25\/e8\/featured_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/14\/38\/a3\/6d\/card_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/99\/c9\/2f\/07\/large_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/dd\/c5\/9c\/d9\/medium_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/98\/61\/75\/5a\/small_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/1d\/9f\/23\/ff\/birdwing_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/20\/4e\/57\/d7\/tiny_preview__MG_9858.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/91\/a2\/8e\/7b\/tinycard_preview__MG_9858.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/b3\/4f\/7b\/91\/large_display__MG_9858.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/00\/43\/97\/81\/medium_display__MG_9858.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/7c\/96\/78\/10\/small_display__MG_9858.jpg"
+        }
+      ],
+      "added": "2021-11-16T06:49:26+00:00"
+    },
+    "description": "Este soporte de naipes tiene dos plantas para aprovechar mejor su dise\u00f1o compacto y que quepan m\u00e1s.\r\n\r\nTiene una forma curvada para ocultar las cartas y tambi\u00e9n ligeramente inclinadas para que resulte m\u00e1s f\u00e1cil verlas. \r\n\r\nHay dos versiones, la de 18cm de largo y la de 13cm.\r\n\r\n-----------------------------------------------ENG-------------------------------------------------------\r\n\r\n\r\nThis card holder has two floors to take better advantage of its compact design and fit more.\r\n\r\nIt is curved in shape to hide the cards and also slightly angled to make them easier to see.\r\n\r\nThere are two versions, the 18cm long and the 13cm.",
+    "instructions": "",
+    "description_html": "<div><p>Este soporte de naipes tiene dos plantas para aprovechar mejor su dise\u00f1o compacto y que quepan m\u00e1s.<\/p><p>Tiene una forma curvada para ocultar las cartas y tambi\u00e9n ligeramente inclinadas para que resulte m\u00e1s f\u00e1cil verlas. <\/p><p>Hay dos versiones, la de 18cm de largo y la de 13cm.<\/p><p>-----------------------------------------------ENG-------------------------------------------------------<\/p><p>This card holder has two floors to take better advantage of its compact design and fit more.<\/p><p>It is curved in shape to hide the cards and also slightly angled to make them easier to see.<\/p><p>There are two versions, the 18cm long and the 13cm.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Este soporte de naipes tiene dos plantas para aprovechar mejor su dise\u00f1o compacto y que quepan m\u00e1s.<\/p><p>Tiene una forma curvada para ocultar las cartas y tambi\u00e9n ligeramente inclinadas para que resulte m\u00e1s f\u00e1cil verlas. <\/p><p>Hay dos versiones, la de 18cm de largo y la de 13cm.<\/p><p>-----------------------------------------------ENG-------------------------------------------------------<\/p><p>This card holder has two floors to take better advantage of its compact design and fit more.<\/p><p>It is curved in shape to hide the cards and also slightly angled to make them easier to see.<\/p><p>There are two versions, the 18cm long and the 13cm.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;I3 MK3S&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;15%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Este soporte de naipes tiene dos plantas para aprovechar mejor su dise\u00f1o compacto y que quepan m\u00e1s.<\/p><p>Tiene una forma curvada para ocultar las cartas y tambi\u00e9n ligeramente inclinadas para que resulte m\u00e1s f\u00e1cil verlas. <\/p><p>Hay dos versiones, la de 18cm de largo y la de 13cm.<\/p><p>-----------------------------------------------ENG-------------------------------------------------------<\/p><p>This card holder has two floors to take better advantage of its compact design and fit more.<\/p><p>It is curved in shape to hide the cards and also slightly angled to make them easier to see.<\/p><p>There are two versions, the 18cm long and the 13cm.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>I3 MK3S<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.3<\/p><\/div>",
+            "infill": "<div><p>15%<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/5138488\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/5138488\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/5138488\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/5138488\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/5138488\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/5138488\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 195,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "card",
+        "tag": "card",
+        "url": "https:\/\/api.thingiverse.com\/tags\/card",
+        "count": 3601,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/card\/things",
+        "absolute_url": "\/tag:card"
+      },
+      {
+        "name": "card holder",
+        "tag": "card_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/card_holder",
+        "count": 1857,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/card_holder\/things",
+        "absolute_url": "\/tag:card_holder"
+      },
+      {
+        "name": "games",
+        "tag": "games",
+        "url": "https:\/\/api.thingiverse.com\/tags\/games",
+        "count": 4512,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/games\/things",
+        "absolute_url": "\/tag:games"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 448,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "terapia ocupacional",
+        "tag": "terapia_ocupacional",
+        "url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional",
+        "count": 131,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/terapia_ocupacional\/things",
+        "absolute_url": "\/tag:terapia_ocupacional"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/5138488\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 336,
+    "view_count": 857,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Card_holder_18cm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/6a\/61\/c4\/b4\/Card_holder_18cm.stl"
+        },
+        {
+          "name": "Card_holder_13cm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/98\/32\/92\/43\/Card_holder_13cm.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "_MG_9858.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/79\/95\/f9\/78\/_MG_9858.jpg"
+        },
+        {
+          "name": "_MG_9851.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/83\/ad\/59\/be\/_MG_9851.jpg"
+        },
+        {
+          "name": "_MG_9861.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ab\/29\/bb\/2a\/ce\/_MG_9861.jpg"
+        },
+        {
+          "name": "Card_holder_13cm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/4d\/4d\/d9\/da\/Card_holder_13cm.png"
+        },
+        {
+          "name": "Card_holder_18cm.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/bc\/00\/cf\/cc\/Card_holder_18cm.png"
+        }
+      ]
+    }
+  }
+}

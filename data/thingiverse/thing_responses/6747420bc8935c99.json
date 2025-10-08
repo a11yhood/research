@@ -1,0 +1,505 @@
+{
+  "created_at": "2025-10-08T03:26:50.330440+00:00",
+  "elapsed": 0.211195,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b289fb49583023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:26:50 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:56:50 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3506058?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3506058?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3506058,
+    "name": "Foot Pedal (Xbox Adaptive Controller)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3506058",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3506058",
+    "creator": {
+      "id": 2611930,
+      "name": "gripuf",
+      "first_name": "GRiP",
+      "last_name": "UF",
+      "url": "https:\/\/api.thingiverse.com\/users\/gripuf",
+      "public_url": "https:\/\/www.thingiverse.com\/gripuf",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/8d\/06\/9b\/00\/4f\/3701b368a14bc4289841ae3205bca436_thumb_medium.jpg",
+      "count_of_followers": 23,
+      "count_of_following": 0,
+      "count_of_designs": 36,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "University of Florida",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/4d\/6a\/60\/b7\/01\/cbbbd47463a87ec43a2d98d1d88d36e5_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-03-20T20:15:58+00:00",
+    "modified": "2019-03-20T20:15:58+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 57,
+    "is_liked": false,
+    "collect_count": 133,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 10314615,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/38\/20\/9f\/43\/IMG_6925.JPG",
+      "name": "IMG_6925.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/50\/7f\/30\/d6\/6b\/0692e8cee6c3cf5d39d3e09ec8cb8bb1_display_small.JPG"
+        }
+      ],
+      "added": "2019-03-20T20:15:52+00:00"
+    },
+    "description": "This is a foot pedal designed for use with the Xbox Adaptive Controller (XAC). The pedal is made up of 4 seperate components: the main body, the top piece which rotates as you push on it, a rod around which the top piece rotates, and two rod caps to keep the rod in place. All of those comoponents are available as stl files and SolidWorks files. Several variations on the main body piece are included as SolidWorks files as some people have a different preference on how they like the foot pedal to be angled. There are also a few variations on the top piece: the normal top that can open up wide enough so that the inner electronics can still be reached, and extended top so that is cannot be opened beyond a certain point, and two \"Monster_Top\" designs that function as the normal top but aesthetically make the assembly loop as if it has teeth. We like to add googly eyes for the full monster effect.\r\n\r\nOn the inside of the pedal, there is a square slot for a keyboard switch and two circular holes for small springs. We used Blue Cherry MX Keyswitches (https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&c=12) so those will fit best into the square slot. Any spring that is smaller than 9.5 mm in diameter should work in the circular holes.",
+    "instructions": "",
+    "description_html": "<div><p>This is a foot pedal designed for use with the Xbox Adaptive Controller (XAC). The pedal is made up of 4 seperate components: the main body, the top piece which rotates as you push on it, a rod around which the top piece rotates, and two rod caps to keep the rod in place. All of those comoponents are available as stl files and SolidWorks files. Several variations on the main body piece are included as SolidWorks files as some people have a different preference on how they like the foot pedal to be angled. There are also a few variations on the top piece: the normal top that can open up wide enough so that the inner electronics can still be reached, and extended top so that is cannot be opened beyond a certain point, and two \"Monster_Top\" designs that function as the normal top but aesthetically make the assembly loop as if it has teeth. We like to add googly eyes for the full monster effect.<\/p><p>On the inside of the pedal, there is a square slot for a keyboard switch and two circular holes for small springs. We used Blue Cherry MX Keyswitches (<a rel=\"nofollow\" href=\"https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12\">https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12<\/a>) so those will fit best into the square slot. Any spring that is smaller than 9.5 mm in diameter should work in the circular holes.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a foot pedal designed for use with the Xbox Adaptive Controller (XAC). The pedal is made up of 4 seperate components: the main body, the top piece which rotates as you push on it, a rod around which the top piece rotates, and two rod caps to keep the rod in place. All of those comoponents are available as stl files and SolidWorks files. Several variations on the main body piece are included as SolidWorks files as some people have a different preference on how they like the foot pedal to be angled. There are also a few variations on the top piece: the normal top that can open up wide enough so that the inner electronics can still be reached, and extended top so that is cannot be opened beyond a certain point, and two \"Monster_Top\" designs that function as the normal top but aesthetically make the assembly loop as if it has teeth. We like to add googly eyes for the full monster effect.<\/p><p>On the inside of the pedal, there is a square slot for a keyboard switch and two circular holes for small springs. We used Blue Cherry MX Keyswitches (<a rel=\"nofollow\" href=\"https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12\">https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12<\/a>) so those will fit best into the square slot. Any spring that is smaller than 9.5 mm in diameter should work in the circular holes.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Create aux cord to plug into XAC<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Solder an aux cord onto the keyboard switch so that it can be used with the Xbox Adaptive Controller.&lt;\/p&gt;&lt;\/div&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/96\/40\/c0\/46\/73\/IMG_6932.JPG\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/28\/95\/ef\/b3\/f5\/IMG_6931.JPG\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a foot pedal designed for use with the Xbox Adaptive Controller (XAC). The pedal is made up of 4 seperate components: the main body, the top piece which rotates as you push on it, a rod around which the top piece rotates, and two rod caps to keep the rod in place. All of those comoponents are available as stl files and SolidWorks files. Several variations on the main body piece are included as SolidWorks files as some people have a different preference on how they like the foot pedal to be angled. There are also a few variations on the top piece: the normal top that can open up wide enough so that the inner electronics can still be reached, and extended top so that is cannot be opened beyond a certain point, and two \"Monster_Top\" designs that function as the normal top but aesthetically make the assembly loop as if it has teeth. We like to add googly eyes for the full monster effect.<\/p><p>On the inside of the pedal, there is a square slot for a keyboard switch and two circular holes for small springs. We used Blue Cherry MX Keyswitches (<a rel=\"nofollow\" href=\"https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12\">https:\/\/mechanicalkeyboards.com\/shop\/index.php?l=product_list&amp;c=12<\/a>) so those will fit best into the square slot. Any spring that is smaller than 9.5 mm in diameter should work in the circular holes.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Create aux cord to plug into XAC",
+            "content": "<div><p>Solder an aux cord onto the keyboard switch so that it can be used with the Xbox Adaptive Controller.<\/p><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/96\/40\/c0\/46\/73\/IMG_6932.JPG",
+            "image_id": "148397"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/28\/95\/ef\/b3\/f5\/IMG_6931.JPG",
+            "image_id": "148398"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3506058\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3506058\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3506058\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3506058\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3506058\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3506058\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3506058\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1498,
+    "view_count": 2764,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "TOP.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/92\/25\/8a\/c1\/TOP.STL"
+        },
+        {
+          "name": "rod_cap.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/8a\/1c\/e0\/e5\/rod_cap.STL"
+        },
+        {
+          "name": "rod.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/fe\/78\/5e\/81\/rod.STL"
+        },
+        {
+          "name": "MAINBODY.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ba\/b4\/e3\/64\/22\/MAINBODY.STL"
+        },
+        {
+          "name": "rod_cap.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/ef\/0c\/ee\/4b\/rod_cap.SLDPRT"
+        },
+        {
+          "name": "rod.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/f2\/59\/17\/f9\/rod.SLDPRT"
+        },
+        {
+          "name": "TOP.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/5f\/f4\/69\/9c\/TOP.SLDPRT"
+        },
+        {
+          "name": "MAINBODY.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/31\/a2\/9d\/d4\/MAINBODY.SLDPRT"
+        },
+        {
+          "name": "MAINBODY10.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/d4\/27\/41\/8b\/MAINBODY10.SLDPRT"
+        },
+        {
+          "name": "MAINBODY20.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/b9\/5c\/a4\/f3\/MAINBODY20.SLDPRT"
+        },
+        {
+          "name": "MAINBODY25.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/c9\/cb\/73\/41\/MAINBODY25.SLDPRT"
+        },
+        {
+          "name": "TOP_extended.SLDPRT",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/98\/15\/64\/f4\/TOP_extended.SLDPRT"
+        },
+        {
+          "name": "TOP_extended.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/eb\/4c\/98\/b5\/TOP_extended.STL"
+        },
+        {
+          "name": "Monster_Top.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/61\/51\/a5\/25\/Monster_Top.STL"
+        },
+        {
+          "name": "Monster_Topribs.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/82\/5b\/5f\/27\/Monster_Topribs.STL"
+        },
+        {
+          "name": "MAINBODY20.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/36\/e4\/45\/1a\/MAINBODY20.STL"
+        },
+        {
+          "name": "MAINBODY25.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/54\/c4\/58\/ea\/MAINBODY25.STL"
+        },
+        {
+          "name": "MAINBODY10.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/2f\/38\/63\/54\/MAINBODY10.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_6925.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/38\/20\/9f\/43\/IMG_6925.JPG"
+        },
+        {
+          "name": "IMG_6924.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/5f\/94\/21\/29\/IMG_6924.JPG"
+        },
+        {
+          "name": "IMG_6923.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/a3\/3f\/b6\/e3\/IMG_6923.JPG"
+        },
+        {
+          "name": "IMG_6926.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/01\/5b\/9b\/83\/IMG_6926.JPG"
+        },
+        {
+          "name": "IMG_6927.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/ad\/f4\/eb\/0c\/IMG_6927.JPG"
+        },
+        {
+          "name": "IMG_6930.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/8c\/51\/1b\/af\/IMG_6930.JPG"
+        },
+        {
+          "name": "IMG_6929.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/c6\/32\/2f\/db\/IMG_6929.JPG"
+        },
+        {
+          "name": "IMG_6922.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/e5\/55\/0d\/ea\/IMG_6922.JPG"
+        },
+        {
+          "name": "70a967939c29fdc22450c6b076d1d83e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/64\/8b\/c0\/22\/70a967939c29fdc22450c6b076d1d83e.png"
+        },
+        {
+          "name": "c7462b6d6efacd4edfd91d1bf1491a54.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/dc\/ea\/cb\/ee\/c7462b6d6efacd4edfd91d1bf1491a54.png"
+        },
+        {
+          "name": "5f7f89bfdcf4e2373a40d737c6bcded5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/e6\/97\/bc\/4e\/5f7f89bfdcf4e2373a40d737c6bcded5.png"
+        },
+        {
+          "name": "928f51eacd86867829fc9d9f5c90599c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/31\/bb\/27\/4a\/928f51eacd86867829fc9d9f5c90599c.png"
+        },
+        {
+          "name": "IMG_8807.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/e9\/cb\/7f\/c3\/IMG_8807.jpg"
+        },
+        {
+          "name": "Monster_Topribs.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/22\/e1\/ab\/79\/Monster_Topribs.png"
+        },
+        {
+          "name": "Monster_Topribs.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/ee\/e2\/37\/c2\/Monster_Topribs.png"
+        },
+        {
+          "name": "Monster_Top.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/14\/55\/aa\/b3\/8a\/Monster_Top.png"
+        }
+      ]
+    }
+  }
+}

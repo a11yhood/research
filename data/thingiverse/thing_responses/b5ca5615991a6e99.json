@@ -1,0 +1,591 @@
+{
+  "created_at": "2025-04-13T04:27:41.114365+00:00",
+  "elapsed": 0.132348,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f8365d29dfd70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2868839?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2868839?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2868839,
+    "name": "Customizable, 3D-Printable Keyguard for Grid-based, Free-form, and Hybrid AAC Apps on Tablets",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2868839",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2868839",
+    "creator": {
+      "id": 2059375,
+      "name": "Volksswitch",
+      "first_name": "Volksswitch",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+      "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+      "count_of_followers": 60,
+      "count_of_following": 2,
+      "count_of_designs": 33,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Denver, Colorado, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-04-20T02:21:33+00:00",
+    "modified": "2018-04-20T02:21:33+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 119,
+    "is_liked": false,
+    "collect_count": 277,
+    "is_collected": false,
+    "comment_count": 14,
+    "is_watched": false,
+    "default_image": {
+      "id": 8400581,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/f3\/90\/7d\/32\/keyguard_options.png",
+      "name": "keyguard_options.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_display_small.jpg"
+        }
+      ],
+      "added": "2018-06-23T01:43:00+00:00"
+    },
+    "description": "This thing is now maintained at Printables.com: https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based-\r\n\r\nGo here for instructions on how to use this keyguard designer: https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\r\n\r\nKeyguards help individuals with limited ability to point reliably at regions of an app running on a tablet. They do this by physically separating access to specific regions of the tablet screen with rails that rise up from the surface of the tablet.  In this case, the apps are associated with Augmentative and Alternative Communication (AAC).\r\n\r\nSome AAC apps organize their content into grids with menus and message bars, above or below the grid.  Others are much more creative and unpredictable in their layouts.  Hybrid apps are largely grid-based but their keyguards can be enhanced by selectively exposing specific regions of the app.  \r\n\r\nThe number of possible choices for tablet, tablet case, and AAC app, make it impossible to design a few keyguards that will meet everyone's needs.  To complicate matters further, users have lots of flexibility for how they organize the content in their apps.  All of this is to say that users must be given control over the keyguard design.  I know of only one 3D modeling tool where that is possible - without requiring that each user become an expert in 3D modeling.  That tool is OpenSCAD.  OpenSCAD has a \"Customizer\" feature that allows users to provide input to an OpenSCAD design that can shape the design to meet their specific needs.\r\n\r\nWe have created an OpenSCAD designer that allows the user to  identify their tablet, describe how the AAC app is laid out, describe their case, and choose a mounting method to mount the keyguard directly to the tablet or to the case.  Once the keyguard is fully described you can generate and save an STL file that you can print on your 3D printer.\r\n\r\nA PDF form is provided as well for collecting and communicating the requirements for your keyguards.",
+    "instructions": "",
+    "description_html": "<div><p>This thing is now maintained at Printables.com: <a rel=\"ugc nofollow\" href=\"https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based\">https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based<\/a>-<\/p><p>Go here for instructions on how to use this keyguard designer: <a rel=\"ugc nofollow\" href=\"https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Keyguards help individuals with limited ability to point reliably at regions of an app running on a tablet. They do this by physically separating access to specific regions of the tablet screen with rails that rise up from the surface of the tablet.  In this case, the apps are associated with Augmentative and Alternative Communication (AAC).<\/p><p>Some AAC apps organize their content into grids with menus and message bars, above or below the grid.  Others are much more creative and unpredictable in their layouts.  Hybrid apps are largely grid-based but their keyguards can be enhanced by selectively exposing specific regions of the app.  <\/p><p>The number of possible choices for tablet, tablet case, and AAC app, make it impossible to design a few keyguards that will meet everyone's needs.  To complicate matters further, users have lots of flexibility for how they organize the content in their apps.  All of this is to say that users must be given control over the keyguard design.  I know of only one 3D modeling tool where that is possible - without requiring that each user become an expert in 3D modeling.  That tool is OpenSCAD.  OpenSCAD has a \"Customizer\" feature that allows users to provide input to an OpenSCAD design that can shape the design to meet their specific needs.<\/p><p>We have created an OpenSCAD designer that allows the user to  identify their tablet, describe how the AAC app is laid out, describe their case, and choose a mounting method to mount the keyguard directly to the tablet or to the case.  Once the keyguard is fully described you can generate and save an STL file that you can print on your 3D printer.<\/p><p>A PDF form is provided as well for collecting and communicating the requirements for your keyguards.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This thing is now maintained at Printables.com: <a rel=\"ugc nofollow\" href=\"https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based\">https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based<\/a>-<\/p><p>Go here for instructions on how to use this keyguard designer: <a rel=\"ugc nofollow\" href=\"https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Keyguards help individuals with limited ability to point reliably at regions of an app running on a tablet. They do this by physically separating access to specific regions of the tablet screen with rails that rise up from the surface of the tablet.  In this case, the apps are associated with Augmentative and Alternative Communication (AAC).<\/p><p>Some AAC apps organize their content into grids with menus and message bars, above or below the grid.  Others are much more creative and unpredictable in their layouts.  Hybrid apps are largely grid-based but their keyguards can be enhanced by selectively exposing specific regions of the app.  <\/p><p>The number of possible choices for tablet, tablet case, and AAC app, make it impossible to design a few keyguards that will meet everyone's needs.  To complicate matters further, users have lots of flexibility for how they organize the content in their apps.  All of this is to say that users must be given control over the keyguard design.  I know of only one 3D modeling tool where that is possible - without requiring that each user become an expert in 3D modeling.  That tool is OpenSCAD.  OpenSCAD has a \"Customizer\" feature that allows users to provide input to an OpenSCAD design that can shape the design to meet their specific needs.<\/p><p>We have created an OpenSCAD designer that allows the user to  identify their tablet, describe how the AAC app is laid out, describe their case, and choose a mounting method to mount the keyguard directly to the tablet or to the case.  Once the keyguard is fully described you can generate and save an STL file that you can print on your 3D printer.<\/p><p>A PDF form is provided as well for collecting and communicating the requirements for your keyguards.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;i3 MK3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.2 mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>15%<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;You generally don't need supports except when printing a keyguard with raised tabs.rnrnYou may need to use a brim to print clips.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>Designed entirely in OpenSCAD.  keyguard.scad can be edited with any text editor to extend its capabilities.  Contact me if you are interested in this.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This thing is now maintained at Printables.com: <a rel=\"ugc nofollow\" href=\"https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based\">https:\/\/www.printables.com\/model\/204046-customizable-3d-printable-keyguard-for-grid-based<\/a>-<\/p><p>Go here for instructions on how to use this keyguard designer: <a rel=\"ugc nofollow\" href=\"https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">https:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Keyguards help individuals with limited ability to point reliably at regions of an app running on a tablet. They do this by physically separating access to specific regions of the tablet screen with rails that rise up from the surface of the tablet.  In this case, the apps are associated with Augmentative and Alternative Communication (AAC).<\/p><p>Some AAC apps organize their content into grids with menus and message bars, above or below the grid.  Others are much more creative and unpredictable in their layouts.  Hybrid apps are largely grid-based but their keyguards can be enhanced by selectively exposing specific regions of the app.  <\/p><p>The number of possible choices for tablet, tablet case, and AAC app, make it impossible to design a few keyguards that will meet everyone's needs.  To complicate matters further, users have lots of flexibility for how they organize the content in their apps.  All of this is to say that users must be given control over the keyguard design.  I know of only one 3D modeling tool where that is possible - without requiring that each user become an expert in 3D modeling.  That tool is OpenSCAD.  OpenSCAD has a \"Customizer\" feature that allows users to provide input to an OpenSCAD design that can shape the design to meet their specific needs.<\/p><p>We have created an OpenSCAD designer that allows the user to  identify their tablet, describe how the AAC app is laid out, describe their case, and choose a mounting method to mount the keyguard directly to the tablet or to the case.  Once the keyguard is fully described you can generate and save an STL file that you can print on your 3D printer.<\/p><p>A PDF form is provided as well for collecting and communicating the requirements for your keyguards.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>i3 MK3<\/p><\/div>\n",
+            "rafts": "No",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>\n",
+            "infill": "<div><p>15%<\/p><\/div>\n",
+            "notes": "<div><p>You generally don't need supports except when printing a keyguard with raised tabs.rnrnYou may need to use a brim to print clips.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>Designed entirely in OpenSCAD.  keyguard.scad can be edited with any text editor to extend its capabilities.  Contact me if you are interested in this.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2868839\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2868839\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2868839\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2868839\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2868839\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2868839\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "keyguard",
+        "tag": "keyguard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyguard",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyguard\/things",
+        "absolute_url": "\/tag:keyguard"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2868839\/categories",
+    "file_count": 15,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 16500,
+    "view_count": 10715,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 253,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "iPad_2_keyguard_with_slots.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/62\/b8\/d6\/1e\/iPad_2_keyguard_with_slots.stl"
+        },
+        {
+          "name": "iPad_Mini_keyguard_for_straps.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/48\/e8\/79\/e9\/iPad_Mini_keyguard_for_straps.stl"
+        },
+        {
+          "name": "iPad_Mini_keyguard_for_raised_tabs_and_hard_case.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/4e\/7a\/b1\/c6\/iPad_Mini_keyguard_for_raised_tabs_and_hard_case.stl"
+        },
+        {
+          "name": "iPad_Mini_keyguard_for_slide_in_tabs.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/d2\/cb\/25\/d7\/iPad_Mini_keyguard_for_slide_in_tabs.stl"
+        },
+        {
+          "name": "iPad_Mini_keyguard_for_raised_tabs_and_soft_case.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/df\/48\/4b\/ea\/iPad_Mini_keyguard_for_raised_tabs_and_soft_case.stl"
+        },
+        {
+          "name": "iPad_Mini_keyguard_for_suction_cups.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/eb\/77\/2c\/41\/iPad_Mini_keyguard_for_suction_cups.stl"
+        },
+        {
+          "name": "circles.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/f7\/94\/9a\/c6\/circles.stl"
+        },
+        {
+          "name": "covers_and_merge.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/94\/21\/9f\/84\/covers_and_merge.stl"
+        },
+        {
+          "name": "cells_merged_horizontally_and_vertically.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/61\/39\/f9\/1d\/cells_merged_horizontally_and_vertically.stl"
+        },
+        {
+          "name": "Keyguard_for_AACORN_app_Word_Tree_iPad2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/8b\/41\/f4\/6d\/Keyguard_for_AACORN_app_Word_Tree_iPad2.stl"
+        },
+        {
+          "name": "Keyguard_for_AACORN_app_Favorites_screen_iPad_Mini.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/c0\/2f\/83\/a8\/Keyguard_for_AACORN_app_Favorites_screen_iPad_Mini.stl"
+        },
+        {
+          "name": "keyguard_grid_and_free_form.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/80\/3f\/af\/47\/keyguard_grid_and_free_form.stl"
+        },
+        {
+          "name": "Lifeproof_keyguard.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/71\/9f\/9e\/5c\/Lifeproof_keyguard.stl"
+        },
+        {
+          "name": "kennys_keyguard.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/0c\/f4\/75\/00\/kennys_keyguard.stl"
+        },
+        {
+          "name": "keyguard_frame.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/75\/3f\/5b\/85\/keyguard_frame.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "keyguard_options.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/f3\/90\/7d\/32\/keyguard_options.png"
+        },
+        {
+          "name": "keyguard_with_dovetail_joint.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/bb\/88\/a7\/f8\/keyguard_with_dovetail_joint.JPG"
+        },
+        {
+          "name": "a98dc1d43306ddb853d80980f55c05af_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/cd\/67\/b0\/ec\/a98dc1d43306ddb853d80980f55c05af_preview_featured.JPG"
+        },
+        {
+          "name": "325d96d1064d627f9e874b418904556f_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/51\/d2\/30\/d7\/325d96d1064d627f9e874b418904556f_preview_featured.JPG"
+        },
+        {
+          "name": "1ae21830736687f908f04781c5cd566d_preview_featured.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/eb\/8e\/08\/12\/1ae21830736687f908f04781c5cd566d_preview_featured.JPG"
+        },
+        {
+          "name": "IMG_0612.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/a8\/8e\/d1\/6c\/IMG_0612.JPG"
+        },
+        {
+          "name": "case_with_clips.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/34\/c6\/45\/47\/case_with_clips.JPG"
+        },
+        {
+          "name": "engraved_keyguard.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/10\/f7\/32\/7c\/engraved_keyguard.JPG"
+        },
+        {
+          "name": "embossed_keyguard.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/64\/2d\/4f\/f2\/embossed_keyguard.JPG"
+        },
+        {
+          "name": "VI_features.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/f3\/bc\/20\/74\/VI_features.jpg"
+        },
+        {
+          "name": "IMG_1073.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/be\/11\/d6\/e0\/IMG_1073.JPG"
+        },
+        {
+          "name": "surrounding_ridge.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/bb\/4c\/95\/30\/surrounding_ridge.png"
+        },
+        {
+          "name": "close_up.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/09\/cf\/4c\/cc\/close_up.png"
+        },
+        {
+          "name": "LWfL-VI_Touchguard.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/de\/de\/f6\/c5\/LWfL-VI_Touchguard.png"
+        },
+        {
+          "name": "Accent_1400.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/94\/4c\/af\/7e\/Accent_1400.png"
+        },
+        {
+          "name": "complete_keyguard.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/2f\/65\/b9\/07\/complete_keyguard.png"
+        },
+        {
+          "name": "Braille_cell_covers_thingiverse.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/fe\/3b\/b7\/fc\/Braille_cell_covers_thingiverse.jpg"
+        },
+        {
+          "name": "9d8c0f74e8c7c075cb16d705925bdd72.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f1\/86\/3f\/52\/8c\/9d8c0f74e8c7c075cb16d705925bdd72.png"
+        },
+        {
+          "name": "a3029e7221dfd577a43f720ec8d91d3c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/81\/a0\/7e\/61\/9f\/a3029e7221dfd577a43f720ec8d91d3c.png"
+        },
+        {
+          "name": "2ce4e2d7cfcd8f7822d042a0ece3a2de.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e9\/42\/60\/e7\/cf\/2ce4e2d7cfcd8f7822d042a0ece3a2de.png"
+        },
+        {
+          "name": "ff78bad611316ca6fe1f652026e0899b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/a5\/af\/68\/c1\/ff78bad611316ca6fe1f652026e0899b.png"
+        },
+        {
+          "name": "dfa73da56e731d80c5613f7b6dfa6521.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/2d\/ff\/8d\/25\/dfa73da56e731d80c5613f7b6dfa6521.png"
+        },
+        {
+          "name": "53d8774dfbc2a0bc428f82d53ccfda4f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/74\/9b\/0a\/0e\/1f\/53d8774dfbc2a0bc428f82d53ccfda4f.png"
+        },
+        {
+          "name": "c6df3108e74baf543f9dc802c2f371da.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/17\/d4\/93\/f4\/ad\/c6df3108e74baf543f9dc802c2f371da.png"
+        },
+        {
+          "name": "2a6936fddbbbe2888aa95cf2d50047fc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/24\/69\/a4\/3f\/f3\/2a6936fddbbbe2888aa95cf2d50047fc.png"
+        },
+        {
+          "name": "a3a63fbe4427af1a9aef27e70652744d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/40\/67\/51\/fb\/a3a63fbe4427af1a9aef27e70652744d.png"
+        },
+        {
+          "name": "e835bee8544aa3307de5c5f3cd9cf09b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9d\/19\/17\/02\/f2\/e835bee8544aa3307de5c5f3cd9cf09b.png"
+        },
+        {
+          "name": "5b5f470e7a69cb21b05fd7efb4f2b752.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/a8\/13\/4a\/98\/5b5f470e7a69cb21b05fd7efb4f2b752.png"
+        },
+        {
+          "name": "33e0f543440c800a31993f32f0db51eb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a0\/4e\/a6\/ad\/55\/33e0f543440c800a31993f32f0db51eb.png"
+        },
+        {
+          "name": "ae5d3fb33b99f30eca716a92651510e8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/50\/fa\/a2\/08\/ae5d3fb33b99f30eca716a92651510e8.png"
+        },
+        {
+          "name": "d0646dd94e0e7af4dcee3693cfc00bfb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/e6\/8c\/24\/a7\/d0646dd94e0e7af4dcee3693cfc00bfb.png"
+        },
+        {
+          "name": "keyguard_frame.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/7e\/4a\/88\/46\/keyguard_frame.png"
+        }
+      ]
+    }
+  }
+}

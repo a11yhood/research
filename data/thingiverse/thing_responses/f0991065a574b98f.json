@@ -1,0 +1,516 @@
+{
+  "created_at": "2025-07-10T03:52:22.417566+00:00",
+  "elapsed": 0.211688,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1ba2cefdcfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:22 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:22 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3714518?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3714518?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3714518,
+    "name": "Fingerf\u00fchrung (Keyguard) iPad Tastatur ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3714518",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3714518",
+    "creator": {
+      "id": 2827176,
+      "name": "MIX_Medienlabor",
+      "first_name": "Meko",
+      "last_name": "Mitte",
+      "url": "https:\/\/api.thingiverse.com\/users\/MIX_Medienlabor",
+      "public_url": "https:\/\/www.thingiverse.com\/MIX_Medienlabor",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/82\/22\/81\/29\/ea\/0c78adbe49813f567c92fb97e60b6b10_thumb_medium.jpg",
+      "count_of_followers": 0,
+      "count_of_following": 3,
+      "count_of_designs": 1,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/67\/04\/fe\/0a\/fe\/5bf1d1c2e210d258738614c704b57aba_preview_large.JPG",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-26T11:42:58+00:00",
+    "modified": "2019-06-26T11:42:58+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 2,
+    "is_liked": false,
+    "collect_count": 10,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 11047373,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/6f\/5d\/31\/aa\/Fingerf%C3%BChrung_iPad.jpeg",
+      "name": "Fingerf\u00fchrung_iPad.jpeg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_thumb_large.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_thumb_medium.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_thumb_small.jpeg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_thumb_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_featured.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_card.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_large.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_medium.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_small.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_birdwing.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_tiny.jpeg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_preview_tinycard.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_display_large.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_display_medium.jpeg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/54\/54\/26\/10\/0ecc4dd0d0d3821eafdad71ad86ab4f9_display_small.jpeg"
+        }
+      ],
+      "added": "2019-06-26T11:40:57+00:00"
+    },
+    "description": "Unsere erste selbst gedruckte assistive Technologie! Es handelt sich um eine Fingerf\u00fchrung f\u00fcr die Standard-Tastatur am iPad (2018, 9,7''), passend mit stm goods Dux H\u00fclle. Leider nur f\u00fcr schmale Finger geeignet...\r\n\r\nIm Download Ordner befindet sich die anpassbare Open SCAD Datei von Volksswitch zusammen mit den von uns angepassten Dateien screen_openings und case_openings. Diese enthalten die Ausschnitte f\u00fcr die iPad Tastatur.\r\n\r\nInformationen zum anpassen der Open SCAD Vorlage findet ihr hier: \r\n\r\nhttp:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\r\n\r\nAngepasste Version von: https:\/\/www.thingiverse.com\/thing:2868839\r\n\r\nBearbeitung mit Open SCAD.\r\n\r\nVielen Dank an Volksswitch f\u00fcr die tolle anpassbare Vorlage!\r\n\r\n\r\n________english version________\r\n\r\nThis is our first self printed assistive technology! It's a keyguard for the standard keyboard on the iPad (2018, 9,7'') and fits with the stm goods Dux case.\r\n\r\nDownload Folder includes the original Open SCAD file from Volksswitch as well as our customized screen_openings and case_openings files. These include the openings for the iPad Keyboard (in landscape mode).\r\n\r\nYou can find information on customizing the Open SCAD File here:\r\n\r\nhttp:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\r\n\r\nOriginal Thingiverse Projekt: https:\/\/www.thingiverse.com\/thing:2868839\r\n\r\n\r\nThanks to Volksswitch for the great work! ",
+    "instructions": "",
+    "description_html": "<div><p>Unsere erste selbst gedruckte assistive Technologie! Es handelt sich um eine Fingerf\u00fchrung f\u00fcr die Standard-Tastatur am iPad (2018, 9,7''), passend mit stm goods Dux H\u00fclle. Leider nur f\u00fcr schmale Finger geeignet...<\/p><p>Im Download Ordner befindet sich die anpassbare Open SCAD Datei von Volksswitch zusammen mit den von uns angepassten Dateien screen_openings und case_openings. Diese enthalten die Ausschnitte f\u00fcr die iPad Tastatur.<\/p><p>Informationen zum anpassen der Open SCAD Vorlage findet ihr hier: <\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Angepasste Version von: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Bearbeitung mit Open SCAD.<\/p><p>Vielen Dank an Volksswitch f\u00fcr die tolle anpassbare Vorlage!<\/p><p><strong>____<\/strong>english version<strong>____<\/strong><\/p><p>This is our first self printed assistive technology! It's a keyguard for the standard keyboard on the iPad (2018, 9,7'') and fits with the stm goods Dux case.<\/p><p>Download Folder includes the original Open SCAD file from Volksswitch as well as our customized screen_openings and case_openings files. These include the openings for the iPad Keyboard (in landscape mode).<\/p><p>You can find information on customizing the Open SCAD File here:<\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Original Thingiverse Projekt: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Thanks to Volksswitch for the great work! <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Unsere erste selbst gedruckte assistive Technologie! Es handelt sich um eine Fingerf\u00fchrung f\u00fcr die Standard-Tastatur am iPad (2018, 9,7''), passend mit stm goods Dux H\u00fclle. Leider nur f\u00fcr schmale Finger geeignet...<\/p><p>Im Download Ordner befindet sich die anpassbare Open SCAD Datei von Volksswitch zusammen mit den von uns angepassten Dateien screen_openings und case_openings. Diese enthalten die Ausschnitte f\u00fcr die iPad Tastatur.<\/p><p>Informationen zum anpassen der Open SCAD Vorlage findet ihr hier: <\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Angepasste Version von: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Bearbeitung mit Open SCAD.<\/p><p>Vielen Dank an Volksswitch f\u00fcr die tolle anpassbare Vorlage!<\/p><p><strong>____<\/strong>english version<strong>____<\/strong><\/p><p>This is our first self printed assistive technology! It's a keyguard for the standard keyboard on the iPad (2018, 9,7'') and fits with the stm goods Dux case.<\/p><p>Download Folder includes the original Open SCAD file from Volksswitch as well as our customized screen_openings and case_openings files. These include the openings for the iPad Keyboard (in landscape mode).<\/p><p>You can find information on customizing the Open SCAD File here:<\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Original Thingiverse Projekt: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Thanks to Volksswitch for the great work! <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Ultimaker<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;&lt;a rel=\"nofollow\" href=\"https:\/\/ultimaker.com\/\" target=\"_blank\"&gt;Ultimaker 2 Extended&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Ultimaker Material Generic PLA<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Unsere erste selbst gedruckte assistive Technologie! Es handelt sich um eine Fingerf\u00fchrung f\u00fcr die Standard-Tastatur am iPad (2018, 9,7''), passend mit stm goods Dux H\u00fclle. Leider nur f\u00fcr schmale Finger geeignet...<\/p><p>Im Download Ordner befindet sich die anpassbare Open SCAD Datei von Volksswitch zusammen mit den von uns angepassten Dateien screen_openings und case_openings. Diese enthalten die Ausschnitte f\u00fcr die iPad Tastatur.<\/p><p>Informationen zum anpassen der Open SCAD Vorlage findet ihr hier: <\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Angepasste Version von: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Bearbeitung mit Open SCAD.<\/p><p>Vielen Dank an Volksswitch f\u00fcr die tolle anpassbare Vorlage!<\/p><p><strong>____<\/strong>english version<strong>____<\/strong><\/p><p>This is our first self printed assistive technology! It's a keyguard for the standard keyboard on the iPad (2018, 9,7'') and fits with the stm goods Dux case.<\/p><p>Download Folder includes the original Open SCAD file from Volksswitch as well as our customized screen_openings and case_openings files. These include the openings for the iPad Keyboard (in landscape mode).<\/p><p>You can find information on customizing the Open SCAD File here:<\/p><p><a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/\">http:\/\/volksswitch.org\/index.php\/volks-devices\/fully-customizable-3d-printable-aac-keyguard-for-tablets\/<\/a><\/p><p>Original Thingiverse Projekt: <a rel=\"nofollow\" href=\"\/thing:2868839\">https:\/\/www.thingiverse.com\/thing:2868839<\/a><\/p><p>Thanks to Volksswitch for the great work! <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Ultimaker<\/p><\/div>",
+            "printer": "<div><p>Ultimaker 2 Extended<\/p><\/div>",
+            "resolution": "<div><p>0.1mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "filament_brand": "<div><p>Ultimaker Material<\/p><\/div>",
+            "filament_material": "<div><p>Generic PLA<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3714518\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3714518\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3714518\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3714518\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3714518\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3714518\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 611,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "keyguard",
+        "tag": "keyguard",
+        "url": "https:\/\/api.thingiverse.com\/tags\/keyguard",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/keyguard\/things",
+        "absolute_url": "\/tag:keyguard"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3714518\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 397,
+    "view_count": 700,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2868839,
+        "name": "Customizable, 3D-Printable Keyguard for Grid-based, Free-form, and Hybrid AAC Apps on Tablets",
+        "url": "https:\/\/api.thingiverse.com\/things\/2868839",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2868839",
+        "created_at": "2018-04-20T02:21:33+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/e6\/eb\/24\/e4\/0e\/e1684a9d4124ee0579e42ed50a267921_preview_card.jpg",
+        "creator": {
+          "id": 2059375,
+          "name": "Volksswitch",
+          "first_name": "Volksswitch",
+          "last_name": "",
+          "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+          "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+          "count_of_followers": 61,
+          "count_of_following": 2,
+          "count_of_designs": 33,
+          "collection_count": 7,
+          "make_count": 0,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Denver, Colorado, USA",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 10,
+        "make_count": 0,
+        "like_count": 122,
+        "tags": [
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 856,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 611,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 648,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "keyguard",
+            "tag": "keyguard",
+            "url": "https:\/\/api.thingiverse.com\/tags\/keyguard",
+            "count": 23,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/keyguard\/things",
+            "absolute_url": "\/tag:keyguard"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 277,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "iPad_Keyguard_Tastatur_Quer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/19\/1f\/ea\/6d\/iPad_Keyguard_Tastatur_Quer.stl"
+        },
+        {
+          "name": "keyguard_v19.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/9e\/f0\/c7\/65\/keyguard_v19.scad"
+        },
+        {
+          "name": "case_openings.info",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/47\/93\/42\/8b\/case_openings.info"
+        },
+        {
+          "name": "screen_openings.info",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/43\/d1\/51\/e2\/screen_openings.info"
+        },
+        {
+          "name": "keyguard_v19.json",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/b7\/dc\/f8\/a2\/keyguard_v19.json"
+        }
+      ],
+      "images": [
+        {
+          "name": "Fingerf\u00fchrung_iPad.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/6f\/5d\/31\/aa\/Fingerf\u00fchrung_iPad.jpeg"
+        },
+        {
+          "name": "keyguard_v19.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/3e\/69\/cd\/1a\/keyguard_v19.png"
+        },
+        {
+          "name": "4f4dd9075553a6470a514c0b9a0aad56.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/89\/41\/88\/19\/4f4dd9075553a6470a514c0b9a0aad56.png"
+        }
+      ]
+    }
+  }
+}

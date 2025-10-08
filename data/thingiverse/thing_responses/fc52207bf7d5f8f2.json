@@ -1,0 +1,508 @@
+{
+  "created_at": "2025-04-09T19:45:38.577363+00:00",
+  "elapsed": 0.198842,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92dc8186ed441563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6215045?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6215045?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6215045,
+    "name": "Mounts for Microsoft Adaptive Accessories",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/21\/f9\/55\/af\/db\/large_display_8eed39a1-5479-46f3-b2a3-d90de89a2db7.png",
+    "url": "https:\/\/api.thingiverse.com\/things\/6215045",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6215045",
+    "creator": {
+      "id": 950100,
+      "name": "skip1776",
+      "first_name": "Scott",
+      "last_name": "Dougherty",
+      "url": "https:\/\/api.thingiverse.com\/users\/skip1776",
+      "public_url": "https:\/\/www.thingiverse.com\/skip1776",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/bc\/81\/c1\/9e\/129ec689ba3d5aab8e0a7d3544eb46f7_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 11,
+      "count_of_designs": 18,
+      "collection_count": 11,
+      "make_count": 7,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pittsburgh, PA, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2023-09-13T00:21:49+00:00",
+    "modified": "2023-09-13T00:21:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 8,
+    "is_liked": false,
+    "collect_count": 13,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 19830774,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/ea\/a0\/09\/d1\/8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.stl",
+      "name": "8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/1d\/f5\/7f\/d8\/large_thumb_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/eb\/bd\/16\/41\/medium_thumb_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/6b\/67\/46\/22\/small_thumb_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/7c\/b4\/78\/a2\/tiny_thumb_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/cc\/f3\/10\/4c\/featured_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/fa\/8d\/e8\/0d\/card_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/99\/4a\/e2\/bd\/large_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/e1\/cf\/26\/b5\/medium_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/68\/b7\/3d\/f6\/small_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/1b\/ef\/4e\/2d\/birdwing_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/0c\/12\/00\/d2\/tiny_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/c8\/75\/0e\/ef\/tinycard_preview_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/38\/c9\/92\/e1\/large_display_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/f1\/ba\/f5\/d8\/medium_display_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/8b\/24\/be\/82\/small_display_8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        }
+      ],
+      "added": "2023-09-13T00:22:25+00:00"
+    },
+    "description": "These mounts are designed for use with the Microsoft Adaptive Accessories (https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories) that include the adaptive hub, joystick, D-pad button, and dual button. These mounts will hold the unit and allow it to be surface-mounted via two screw holes or connected to a standard 1\/4\"-20 mount with the use of a tee nut insert.\r\n\r\nAdditionally, a chin cup is included for use with the joystick stem. While Microsoft offers STLs for download or printing through its partners (https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca), this accessory allows for the chin cup to be affixed directly to the standard joystick stem, thus avoiding the need to print and clean 3D threads. ",
+    "instructions": "",
+    "description_html": "<div><p>These mounts are designed for use with the Microsoft Adaptive Accessories (<a rel=\"ugc nofollow\" href=\"https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories\">https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories<\/a>) that include the adaptive hub, joystick, D-pad button, and dual button. These mounts will hold the unit and allow it to be surface-mounted via two screw holes or connected to a standard 1\/4\"-20 mount with the use of a tee nut insert.<\/p><p>Additionally, a chin cup is included for use with the joystick stem. While Microsoft offers STLs for download or printing through its partners (<a rel=\"ugc nofollow\" href=\"https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca\">https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca<\/a>), this accessory allows for the chin cup to be affixed directly to the standard joystick stem, thus avoiding the need to print and clean 3D threads. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>These mounts are designed for use with the Microsoft Adaptive Accessories (<a rel=\"ugc nofollow\" href=\"https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories\">https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories<\/a>) that include the adaptive hub, joystick, D-pad button, and dual button. These mounts will hold the unit and allow it to be surface-mounted via two screw holes or connected to a standard 1\/4\"-20 mount with the use of a tee nut insert.<\/p><p>Additionally, a chin cup is included for use with the joystick stem. While Microsoft offers STLs for download or printing through its partners (<a rel=\"ugc nofollow\" href=\"https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca\">https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca<\/a>), this accessory allows for the chin cup to be affixed directly to the standard joystick stem, thus avoiding the need to print and clean 3D threads. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>MakerBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;MakerBot Replicator (5th Generation)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm <\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;10% minimum, 25% recommended&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Makerbot PLA<br>Green<h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Specialized Hardware<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;2.5mm x 0.45 mm x 2mm hex nuts&lt;br&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=7363\"&gt;https:\/\/www.boltdepot.com\/Product-Details.aspx?product=7363&lt;\/a&gt;&lt;\/p&gt;&lt;p&gt;2.5mm x 0.45mm x 20mm pan head machine screws&lt;br&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=6826\"&gt;https:\/\/www.boltdepot.com\/Product-Details.aspx?product=6826&lt;\/a&gt;&lt;\/p&gt;&lt;p&gt;1\/4\"-20 x 5\/16\" tee nut insert&lt;br&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/90975A025\/\"&gt;https:\/\/www.mcmaster.com\/90975A025\/&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>Downloads include access to the Fusion 360 files for further customization and STL files for slicing and printing with no additional design changes.<\/p><p>MS Adaptive Mount Set.stl includes the mount for the hub and two square mounts.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>These mounts are designed for use with the Microsoft Adaptive Accessories (<a rel=\"ugc nofollow\" href=\"https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories\">https:\/\/www.microsoft.com\/en-us\/store\/collections\/microsoft-accessible-accessories<\/a>) that include the adaptive hub, joystick, D-pad button, and dual button. These mounts will hold the unit and allow it to be surface-mounted via two screw holes or connected to a standard 1\/4\"-20 mount with the use of a tee nut insert.<\/p><p>Additionally, a chin cup is included for use with the joystick stem. While Microsoft offers STLs for download or printing through its partners (<a rel=\"ugc nofollow\" href=\"https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca\">https:\/\/support.microsoft.com\/en-us\/topic\/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca<\/a>), this accessory allows for the chin cup to be affixed directly to the standard joystick stem, thus avoiding the need to print and clean 3D threads. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>MakerBot<\/p><\/div>\n",
+            "printer": "<div><p>MakerBot Replicator (5th Generation)<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "No",
+            "resolution": "<div><p>0.2mm <\/p><\/div>\n",
+            "infill": "<div><p>10% minimum, 25% recommended<\/p><\/div>\n",
+            "filament_brand": "<div><p>Makerbot<\/p><\/div>\n",
+            "filament_color": "<div><p>Green<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Specialized Hardware",
+            "content": "<div><p>2.5mm x 0.45 mm x 2mm hex nuts<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=7363\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=7363<\/a><\/p><p>2.5mm x 0.45mm x 20mm pan head machine screws<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.boltdepot.com\/Product-Details.aspx?product=6826\">https:\/\/www.boltdepot.com\/Product-Details.aspx?product=6826<\/a><\/p><p>1\/4\"-20 x 5\/16\" tee nut insert<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/90975A025\/\">https:\/\/www.mcmaster.com\/90975A025\/<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>Downloads include access to the Fusion 360 files for further customization and STL files for slicing and printing with no additional design changes.<\/p><p>MS Adaptive Mount Set.stl includes the mount for the hub and two square mounts.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6215045\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6215045\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6215045\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6215045\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6215045\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6215045\/tags",
+    "tags": [
+      {
+        "name": "access",
+        "tag": "access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/access",
+        "count": 105,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/access\/things",
+        "absolute_url": "\/tag:access"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "adaptive hub",
+        "tag": "adaptive_hub",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_hub",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_hub\/things",
+        "absolute_url": "\/tag:adaptive_hub"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1358,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "microsoft",
+        "tag": "microsoft",
+        "url": "https:\/\/api.thingiverse.com\/tags\/microsoft",
+        "count": 425,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/microsoft\/things",
+        "absolute_url": "\/tag:microsoft"
+      },
+      {
+        "name": "mount",
+        "tag": "mount",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mount",
+        "count": 26839,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mount\/things",
+        "absolute_url": "\/tag:mount"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6215045\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 139,
+    "view_count": 470,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "MS_Adaptive_Hub_Mount.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/2e\/51\/29\/0a\/50357723-ab3c-42bd-b158-0c22a4fb785a.f3d"
+        },
+        {
+          "name": "MS_Adaptive_Hub_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/e1\/c9\/2f\/50\/8eed39a1-5479-46f3-b2a3-d90de89a2db7.stl"
+        },
+        {
+          "name": "MS_Adaptive_Square_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/fe\/2f\/a3\/f1\/67b01a08-1a6b-4fbf-bae8-ad781e3a57b6.stl"
+        },
+        {
+          "name": "MS_Adaptive_Square_Mount_v1.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/0f\/0e\/74\/e0\/e5eaf588-e8ca-4ca1-bd57-5a5b107c6371.f3d"
+        },
+        {
+          "name": "MS_Adaptive_Chin_Cup.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/a1\/a1\/12\/21\/806c833f-1e11-465d-8242-6424c3a9880b.f3d"
+        },
+        {
+          "name": "MS_Adaptive_Chin_Cup.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/75\/ea\/a0\/09\/d1\/8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.stl"
+        },
+        {
+          "name": "MS_Adaptive_Mount_Set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/11\/07\/8c\/fa\/6d203e0a-941b-4815-9694-656ba0d66dde.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/65\/a3\/13\/db\/8ac19e94-c5e2-4fbe-80b7-efadcf9a622a.png"
+        },
+        {
+          "name": "6d203e0a-941b-4815-9694-656ba0d66dde.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/25\/6c\/a8\/84\/6d203e0a-941b-4815-9694-656ba0d66dde.png"
+        },
+        {
+          "name": "67b01a08-1a6b-4fbf-bae8-ad781e3a57b6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/38\/f8\/e9\/c0\/67b01a08-1a6b-4fbf-bae8-ad781e3a57b6.png"
+        },
+        {
+          "name": "8eed39a1-5479-46f3-b2a3-d90de89a2db7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/7b\/2b\/d1\/3f\/8eed39a1-5479-46f3-b2a3-d90de89a2db7.png"
+        },
+        {
+          "name": "34ec6977-972d-4dfc-bf10-e4f4476fc7bc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/f0\/a5\/d6\/28\/34ec6977-972d-4dfc-bf10-e4f4476fc7bc.png"
+        },
+        {
+          "name": "539cbafe-9aa5-4159-ba23-4fb533e61f5e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/10\/0a\/60\/9e\/539cbafe-9aa5-4159-ba23-4fb533e61f5e.png"
+        },
+        {
+          "name": "a0fa88df-36b9-4e57-903a-7151f06714ba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/cb\/b4\/96\/0c\/a0fa88df-36b9-4e57-903a-7151f06714ba.png"
+        },
+        {
+          "name": "db985bcd-29e1-4b92-b480-702a2074fde1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/54\/1f\/63\/89\/db985bcd-29e1-4b92-b480-702a2074fde1.png"
+        },
+        {
+          "name": "acce6430-998b-4d0d-8b4e-1d2f62058b72.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fb\/9d\/56\/6d\/fc\/acce6430-998b-4d0d-8b4e-1d2f62058b72.png"
+        },
+        {
+          "name": "27c93c35-00db-47f2-add9-5c91efc7e4d9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/e2\/1d\/68\/13\/27c93c35-00db-47f2-add9-5c91efc7e4d9.png"
+        },
+        {
+          "name": "9d5893c9-bb1c-4ca0-ab87-80edcaf2e4f7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/6c\/0b\/12\/3b\/9d5893c9-bb1c-4ca0-ab87-80edcaf2e4f7.png"
+        }
+      ]
+    }
+  }
+}

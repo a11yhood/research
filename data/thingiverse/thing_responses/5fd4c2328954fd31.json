@@ -1,0 +1,719 @@
+{
+  "created_at": "2025-04-16T03:33:46.732623+00:00",
+  "elapsed": 0.169291,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109f860b9863d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:46 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:46 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3156378?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3156378?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3156378,
+    "name": "Textured Letters",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/00\/77\/0c\/69\/fc\/d572d25c445a995cbc29d3807a164a3c_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3156378",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3156378",
+    "creator": {
+      "id": 1708185,
+      "name": "dwdecant",
+      "first_name": "David",
+      "last_name": "DeCant",
+      "url": "https:\/\/api.thingiverse.com\/users\/dwdecant",
+      "public_url": "https:\/\/www.thingiverse.com\/dwdecant",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_teacher_thumb_medium.jpg",
+      "count_of_followers": 21,
+      "count_of_following": 2,
+      "count_of_designs": 19,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "North Carolina",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-10-15T13:30:17+00:00",
+    "modified": "2018-10-15T13:30:17+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 57,
+    "is_liked": false,
+    "collect_count": 101,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 9085658,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/98\/42\/0a\/ba\/N.stl",
+      "name": "40210f10d13e1f9e8c5b1bbe286bab4c.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c_display_small.jpg"
+        }
+      ],
+      "added": "2018-10-15T13:30:41+00:00"
+    },
+    "description": "A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. I added ctymms's Tactile textures to the letters.",
+    "instructions": "",
+    "description_html": "<div><p>A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. I added ctymms's Tactile textures to the letters.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. I added ctymms's Tactile textures to the letters.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. <\/strong><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. I added ctymms's Tactile textures to the letters.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "A teacher of the visually impaired asked if I could add texture to some letters to aid a student with low vision in recognizing letters. "
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3156378\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3156378\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3156378\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3156378\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3156378\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3156378\/tags",
+    "tags": [
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "visuallyimpaired",
+        "tag": "visuallyimpaired",
+        "url": "https:\/\/api.thingiverse.com\/tags\/visuallyimpaired",
+        "count": 27,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/visuallyimpaired\/things",
+        "absolute_url": "\/tag:visuallyimpaired"
+      },
+      {
+        "name": "visually challenged",
+        "tag": "visually_challenged",
+        "url": "https:\/\/api.thingiverse.com\/tags\/visually_challenged",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/visually_challenged\/things",
+        "absolute_url": "\/tag:visually_challenged"
+      },
+      {
+        "name": "visually impaired",
+        "tag": "visually_impaired",
+        "url": "https:\/\/api.thingiverse.com\/tags\/visually_impaired",
+        "count": 157,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/visually_impaired\/things",
+        "absolute_url": "\/tag:visually_impaired"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3156378\/categories",
+    "file_count": 27,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2470,
+    "view_count": 2007,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 3072212,
+        "name": "Tactile textures",
+        "url": "https:\/\/api.thingiverse.com\/things\/3072212",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:3072212",
+        "created_at": "2018-08-28T18:26:56+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/87\/f0\/e7\/cb\/1e\/0ea406331933cdd8740a01c8f7dc6c8f_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/87\/f0\/e7\/cb\/1e\/0ea406331933cdd8740a01c8f7dc6c8f_preview_card.jpg",
+        "creator": {
+          "id": 1896239,
+          "name": "ctymms",
+          "first_name": "C.",
+          "last_name": "T.",
+          "url": "https:\/\/api.thingiverse.com\/users\/ctymms",
+          "public_url": "https:\/\/www.thingiverse.com\/ctymms",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_engineer_thumb_medium.jpg",
+          "count_of_followers": 0,
+          "count_of_following": 0,
+          "count_of_designs": 1,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 1,
+        "make_count": 0,
+        "like_count": 25,
+        "tags": [
+          {
+            "name": "psychophysics",
+            "tag": "psychophysics",
+            "url": "https:\/\/api.thingiverse.com\/tags\/psychophysics",
+            "count": 4,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/psychophysics\/things",
+            "absolute_url": "\/tag:psychophysics"
+          },
+          {
+            "name": "rough",
+            "tag": "rough",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rough",
+            "count": 22,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rough\/things",
+            "absolute_url": "\/tag:rough"
+          },
+          {
+            "name": "surface roughness",
+            "tag": "surface_roughness",
+            "url": "https:\/\/api.thingiverse.com\/tags\/surface_roughness",
+            "count": 2,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/surface_roughness\/things",
+            "absolute_url": "\/tag:surface_roughness"
+          },
+          {
+            "name": "Surface Texture",
+            "tag": "surface_texture",
+            "url": "https:\/\/api.thingiverse.com\/tags\/surface_texture",
+            "count": 21,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/surface_texture\/things",
+            "absolute_url": "\/tag:Surface_Texture"
+          },
+          {
+            "name": "tactile",
+            "tag": "tactile",
+            "url": "https:\/\/api.thingiverse.com\/tags\/tactile",
+            "count": 268,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/tactile\/things",
+            "absolute_url": "\/tag:tactile"
+          },
+          {
+            "name": "texture",
+            "tag": "texture",
+            "url": "https:\/\/api.thingiverse.com\/tags\/texture",
+            "count": 251,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/texture\/things",
+            "absolute_url": "\/tag:texture"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 36,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Textured_Letters.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/f8\/a1\/59\/84\/Textured_Letters.stl"
+        },
+        {
+          "name": "Y.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/27\/b5\/83\/7c\/Y.stl"
+        },
+        {
+          "name": "T.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/55\/c2\/c5\/1b\/T.stl"
+        },
+        {
+          "name": "G.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/cd\/3c\/b2\/01\/G.stl"
+        },
+        {
+          "name": "A.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/03\/34\/0c\/b7\/A.stl"
+        },
+        {
+          "name": "X.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/36\/75\/92\/ab\/X.stl"
+        },
+        {
+          "name": "B.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/d5\/3a\/07\/20\/B.stl"
+        },
+        {
+          "name": "N.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/98\/42\/0a\/ba\/N.stl"
+        },
+        {
+          "name": "J.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/2d\/8b\/91\/a2\/J.stl"
+        },
+        {
+          "name": "O.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/01\/9f\/25\/5e\/O.stl"
+        },
+        {
+          "name": "U.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/b6\/ee\/a3\/98\/U.stl"
+        },
+        {
+          "name": "D.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/e6\/6f\/e9\/22\/D.stl"
+        },
+        {
+          "name": "Q.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/b5\/73\/b8\/f7\/Q.stl"
+        },
+        {
+          "name": "I.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/b2\/79\/aa\/4c\/I.stl"
+        },
+        {
+          "name": "H.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/ad\/97\/01\/8b\/H.stl"
+        },
+        {
+          "name": "L.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/87\/22\/82\/87\/L.stl"
+        },
+        {
+          "name": "R.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/1a\/f1\/72\/b9\/R.stl"
+        },
+        {
+          "name": "V.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/a0\/d5\/dd\/28\/V.stl"
+        },
+        {
+          "name": "C.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/c5\/40\/e4\/af\/C.stl"
+        },
+        {
+          "name": "P.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/de\/b9\/19\/eb\/P.stl"
+        },
+        {
+          "name": "E.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0d\/fa\/4e\/83\/32\/E.stl"
+        },
+        {
+          "name": "Z.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/aa\/1d\/0e\/fa\/Z.stl"
+        },
+        {
+          "name": "W.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8b\/04\/14\/c6\/4d\/W.stl"
+        },
+        {
+          "name": "F.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/dc\/cc\/d6\/c8\/F.stl"
+        },
+        {
+          "name": "S.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/37\/91\/37\/21\/S.stl"
+        },
+        {
+          "name": "K.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/38\/18\/b7\/91\/K.stl"
+        },
+        {
+          "name": "M.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/e6\/53\/de\/67\/M.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "40210f10d13e1f9e8c5b1bbe286bab4c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4f\/19\/f1\/c9\/04\/40210f10d13e1f9e8c5b1bbe286bab4c.png"
+        },
+        {
+          "name": "5eae5df6a9aad64fe5db4479ac5ccdbc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/43\/10\/e6\/69\/5eae5df6a9aad64fe5db4479ac5ccdbc.png"
+        },
+        {
+          "name": "a8c57201305f8df26937cc15df6656b0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/46\/38\/22\/84\/8f\/a8c57201305f8df26937cc15df6656b0.png"
+        },
+        {
+          "name": "4b5102b9f493d7580b6f42e539402e19.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/ee\/bd\/33\/8b\/4b5102b9f493d7580b6f42e539402e19.png"
+        },
+        {
+          "name": "9596740582619833358a6f035387ecd3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e9\/0d\/9a\/f3\/ee\/9596740582619833358a6f035387ecd3.png"
+        },
+        {
+          "name": "1814db537e88f6349463321a58eeee8d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/46\/78\/65\/54\/07\/1814db537e88f6349463321a58eeee8d.png"
+        },
+        {
+          "name": "ce07745159169c8d4c7e108fb86e7f7b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f7\/9d\/e0\/e9\/0b\/ce07745159169c8d4c7e108fb86e7f7b.png"
+        },
+        {
+          "name": "6098454568249985a75803fb2ef4cfde.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c4\/fb\/d2\/bd\/c8\/6098454568249985a75803fb2ef4cfde.png"
+        },
+        {
+          "name": "ca2d33ae318876767cb31871f81960d2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/43\/06\/50\/b2\/ca2d33ae318876767cb31871f81960d2.png"
+        },
+        {
+          "name": "78444bd62c44b9949fbb9804c84e64b4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/f1\/49\/b4\/bb\/78444bd62c44b9949fbb9804c84e64b4.png"
+        },
+        {
+          "name": "ae2902a9c6fb8b91cfe4bdc78d22f651.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/7d\/d2\/46\/18\/ae2902a9c6fb8b91cfe4bdc78d22f651.png"
+        },
+        {
+          "name": "6ea727f68a20dd51c44eb08688f3a52b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a8\/3c\/68\/b6\/dd\/6ea727f68a20dd51c44eb08688f3a52b.png"
+        },
+        {
+          "name": "1563d3c4fa0269ee8911df5622291403.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/11\/78\/86\/27\/fa\/1563d3c4fa0269ee8911df5622291403.png"
+        },
+        {
+          "name": "75f7cd0752d64c395da3ec2b39b3e9d8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/f7\/72\/93\/2f\/75f7cd0752d64c395da3ec2b39b3e9d8.png"
+        },
+        {
+          "name": "e20cb65a7347d2ee8ad8cddc1d687384.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/8c\/27\/8f\/64\/e20cb65a7347d2ee8ad8cddc1d687384.png"
+        },
+        {
+          "name": "50fbe7ff16776dca590d493cb20f4bab.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/1c\/b5\/6d\/50\/50fbe7ff16776dca590d493cb20f4bab.png"
+        },
+        {
+          "name": "b03333dbcc1902d299f2210d5f15f77f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/32\/cc\/1e\/ca\/bf\/b03333dbcc1902d299f2210d5f15f77f.png"
+        },
+        {
+          "name": "cae0bd9ea7bf8bdc144402dcc4f5b825.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/84\/bf\/72\/64\/cae0bd9ea7bf8bdc144402dcc4f5b825.png"
+        },
+        {
+          "name": "d572d25c445a995cbc29d3807a164a3c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/00\/77\/0c\/69\/fc\/d572d25c445a995cbc29d3807a164a3c.png"
+        },
+        {
+          "name": "62644a0655b428aa3a2eb653a03c6f3f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/5c\/42\/bc\/06\/62644a0655b428aa3a2eb653a03c6f3f.png"
+        },
+        {
+          "name": "bf2305e748718bcef05a45a5ea5495f2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f4\/84\/9c\/23\/ea\/bf2305e748718bcef05a45a5ea5495f2.png"
+        },
+        {
+          "name": "54b25e98c8dc40b205d82da68a758265.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f0\/6c\/7b\/77\/b4\/54b25e98c8dc40b205d82da68a758265.png"
+        },
+        {
+          "name": "540d5d97cb854f513dd12622cb07a280.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/03\/91\/21\/9a\/3a\/540d5d97cb854f513dd12622cb07a280.png"
+        },
+        {
+          "name": "cc21ae6c93a472a017593b873ebd0f5b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/9f\/2d\/ec\/56\/cc21ae6c93a472a017593b873ebd0f5b.png"
+        },
+        {
+          "name": "26d62eb504fddaa75646146f9c91a8b1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0f\/a1\/1d\/6c\/8d\/26d62eb504fddaa75646146f9c91a8b1.png"
+        },
+        {
+          "name": "5e36e02cfede56e43ff9c47115277f05.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0f\/0b\/f4\/de\/d2\/5e36e02cfede56e43ff9c47115277f05.png"
+        },
+        {
+          "name": "624659d601ece799fb6c7bc315864e53.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f3\/02\/e9\/35\/1a\/624659d601ece799fb6c7bc315864e53.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "created_at": "2025-04-14T03:39:43.914396+00:00",
+  "elapsed": 0.171768,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93002d7e7e22eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:43 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:43 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3698867?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3698867?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3698867,
+    "name": "Dandy",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3698867",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3698867",
+    "creator": {
+      "id": 186753,
+      "name": "piuLAB",
+      "first_name": "+",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/piuLAB",
+      "public_url": "https:\/\/www.thingiverse.com\/piuLAB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c1\/60\/98\/3c\/9f\/logo_Thingiverse_thumb_medium.jpg",
+      "count_of_followers": 639,
+      "count_of_following": 6,
+      "count_of_designs": 28,
+      "collection_count": 3,
+      "make_count": 13,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Milan, Italy",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d4\/c5\/d6\/8a\/b6\/A4_-_Copia_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-18T12:48:06+00:00",
+    "modified": "2019-06-18T12:48:06+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 21,
+    "is_liked": false,
+    "collect_count": 39,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10993895,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/af\/41\/b1\/16\/render1.png",
+      "name": "render1.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/30\/4a\/7d\/85\/208dc758fb0fe8a48fef7ea7a31fa2a8_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-18T13:27:42+00:00"
+    },
+    "description": "Dandy is part of Karim Master Degree Thesis in Design&Engineering. The project director (or Co-Designer) was Giulia, that worked with Karim, Stefano and Alessio in order to develop a custom Robotic Arm that allows to eat independently.\r\n\r\nCost reduction, economic scaling up and modularity were the main points considered through the whole design process. Now, Dandy has been developed in its beta version and it could be used and tested from Giulia during her daily routine.\r\n\r\n[Discover Karim and Giulia's story](http:\/\/piuability.it\/blog\/inizi\/abiliteam-percorso-giulia\/)",
+    "instructions": "",
+    "description_html": "<div><p>Dandy is part of Karim Master Degree Thesis in Design&amp;Engineering. The project director (or Co-Designer) was Giulia, that worked with Karim, Stefano and Alessio in order to develop a custom Robotic Arm that allows to eat independently.<\/p><p>Cost reduction, economic scaling up and modularity were the main points considered through the whole design process. Now, Dandy has been developed in its beta version and it could be used and tested from Giulia during her daily routine.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/piuability.it\/blog\/inizi\/abiliteam-percorso-giulia\/\">Discover Karim and Giulia's story<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Dandy is part of Karim Master Degree Thesis in Design&amp;Engineering. The project director (or Co-Designer) was Giulia, that worked with Karim, Stefano and Alessio in order to develop a custom Robotic Arm that allows to eat independently.<\/p><p>Cost reduction, economic scaling up and modularity were the main points considered through the whole design process. Now, Dandy has been developed in its beta version and it could be used and tested from Giulia during her daily routine.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/piuability.it\/blog\/inizi\/abiliteam-percorso-giulia\/\">Discover Karim and Giulia's story<\/a><\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Code<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;A firmware for Arduino Mega have been developed and is available in this &lt;a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/PIULAB\/DANDY\"&gt;repository&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom disclaimer\">Disclaimer<\/h1><div><p>+Lab remember that <strong>all the objects are to be considered prototypes<\/strong>. They must be <strong>used with attention<\/strong> and in safety condition, avoiding any improper use.<br><strong>+Lab declines any responsibility for any damage caused during the assembly or use of the objects<\/strong>.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Dandy is part of Karim Master Degree Thesis in Design&amp;Engineering. The project director (or Co-Designer) was Giulia, that worked with Karim, Stefano and Alessio in order to develop a custom Robotic Arm that allows to eat independently.<\/p><p>Cost reduction, economic scaling up and modularity were the main points considered through the whole design process. Now, Dandy has been developed in its beta version and it could be used and tested from Giulia during her daily routine.<\/p><p><a rel=\"ugc nofollow\" href=\"http:\/\/piuability.it\/blog\/inizi\/abiliteam-percorso-giulia\/\">Discover Karim and Giulia's story<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Code",
+            "content": "<div><p>A firmware for Arduino Mega have been developed and is available in this <a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/PIULAB\/DANDY\">repository<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Disclaimer",
+        "data": [
+          {
+            "content": "<div><p>+Lab remember that <strong>all the objects are to be considered prototypes<\/strong>. They must be <strong>used with attention<\/strong> and in safety condition, avoiding any improper use.<br><strong>+Lab declines any responsibility for any damage caused during the assembly or use of the objects<\/strong>.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3698867\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3698867\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3698867\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3698867\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3698867\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3698867\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3698867\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1216,
+    "view_count": 1151,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 2,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "back_spacer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/a2\/9d\/67\/e3\/back_spacer.stl"
+        },
+        {
+          "name": "elbow_spacer1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/fc\/ea\/c1\/47\/elbow_spacer1.stl"
+        },
+        {
+          "name": "front_spacer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/37\/c7\/87\/de\/front_spacer.stl"
+        },
+        {
+          "name": "elbow_spacer2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8f\/06\/8a\/3b\/8b\/elbow_spacer2.stl"
+        },
+        {
+          "name": "carter_wrist2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/3a\/38\/82\/a4\/carter_wrist2.stl"
+        },
+        {
+          "name": "elbow_sleeve.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/53\/ea\/3c\/32\/elbow_sleeve.stl"
+        },
+        {
+          "name": "carter_sleeve.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/2f\/7b\/0b\/33\/carter_sleeve.stl"
+        },
+        {
+          "name": "fork.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/8b\/4d\/ce\/9d\/fork.stl"
+        },
+        {
+          "name": "carter_wrist1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/41\/42\/32\/65\/carter_wrist1.stl"
+        },
+        {
+          "name": "Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/1b\/ff\/f2\/77\/Base.stl"
+        },
+        {
+          "name": "fork_spacer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/1b\/75\/a0\/1e\/fork_spacer.stl"
+        },
+        {
+          "name": "spoon_support.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/0d\/ca\/80\/46\/spoon_support.stl"
+        },
+        {
+          "name": "sup_rot_shoulder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/99\/71\/98\/80\/sup_rot_shoulder.stl"
+        },
+        {
+          "name": "sup_motor_shoulder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/2a\/a7\/73\/f3\/sup_motor_shoulder.stl"
+        },
+        {
+          "name": "carter_shoulder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/85\/87\/c4\/e1\/carter_shoulder.stl"
+        },
+        {
+          "name": "moving_shoulder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/c9\/a8\/4a\/cb\/moving_shoulder.stl"
+        },
+        {
+          "name": "motor_carter_elbow.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/94\/e7\/e8\/ce\/motor_carter_elbow.stl"
+        },
+        {
+          "name": "dandy_final_assembly.step",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/59\/a1\/c5\/5b\/dandy_final_assembly.step"
+        }
+      ],
+      "images": [
+        {
+          "name": "render1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/af\/41\/b1\/16\/render1.png"
+        },
+        {
+          "name": "Dettaglio_4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/b5\/74\/25\/1f\/Dettaglio_4.jpg"
+        },
+        {
+          "name": "5250b3a844eae600960f50be26fd2aca.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/ff\/eb\/fd\/97\/5250b3a844eae600960f50be26fd2aca.png"
+        },
+        {
+          "name": "e8779455ef3dedef4e7a0a7383a6ffd9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/f5\/a1\/e4\/e4\/e8779455ef3dedef4e7a0a7383a6ffd9.png"
+        },
+        {
+          "name": "d875ceaa0cfbbb6c0294f2de2beaff06.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/88\/d8\/a9\/29\/65\/d875ceaa0cfbbb6c0294f2de2beaff06.png"
+        },
+        {
+          "name": "4558a7306d6ec87fa800624272a007c7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/29\/ef\/76\/d7\/50\/4558a7306d6ec87fa800624272a007c7.png"
+        },
+        {
+          "name": "a16861c30b2fb5d787d5f7ad4760d357.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/91\/43\/f6\/15\/a16861c30b2fb5d787d5f7ad4760d357.png"
+        },
+        {
+          "name": "28eecb4265427a709c4fb66e630107a7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/d0\/e5\/1a\/d3\/28eecb4265427a709c4fb66e630107a7.png"
+        },
+        {
+          "name": "317199f14e2c64ddb297881deb4e2195.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7c\/11\/23\/73\/63\/317199f14e2c64ddb297881deb4e2195.png"
+        },
+        {
+          "name": "b1e22cad43c1f7503c7b23d5b3ef9bae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a0\/00\/cb\/a4\/96\/b1e22cad43c1f7503c7b23d5b3ef9bae.png"
+        },
+        {
+          "name": "7ce015896a4b6df8c5cfcf6245429204.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8a\/07\/53\/47\/88\/7ce015896a4b6df8c5cfcf6245429204.png"
+        },
+        {
+          "name": "293bffad4d821be0df3e2f8bab789508.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/11\/2f\/9d\/e5\/ab\/293bffad4d821be0df3e2f8bab789508.png"
+        },
+        {
+          "name": "041a55463a1f0d57122a0ebd7d753b0f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/56\/a9\/02\/2b\/e0\/041a55463a1f0d57122a0ebd7d753b0f.png"
+        },
+        {
+          "name": "e66bf6bb1c98f1f835b323fa91c83400.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/af\/14\/21\/9a\/00\/e66bf6bb1c98f1f835b323fa91c83400.png"
+        },
+        {
+          "name": "ce5866d33d7e24de8d976a2040f6c39a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/4b\/97\/ec\/e9\/ce5866d33d7e24de8d976a2040f6c39a.png"
+        },
+        {
+          "name": "9d3a28b9ae0dbc85b2d4992c45bf6528.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3b\/68\/71\/a5\/3e\/9d3a28b9ae0dbc85b2d4992c45bf6528.png"
+        },
+        {
+          "name": "d0e48d5f227ccc69fd3fb811d51cabcc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4e\/68\/b4\/18\/f3\/d0e48d5f227ccc69fd3fb811d51cabcc.png"
+        },
+        {
+          "name": "4e222c7720b41839935d35535a083fca.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d3\/04\/2f\/56\/6f\/4e222c7720b41839935d35535a083fca.png"
+        },
+        {
+          "name": "b1b34be564d7deabe484eddc1e0e1640.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/4b\/c5\/d9\/bd\/b1b34be564d7deabe484eddc1e0e1640.png"
+        }
+      ]
+    }
+  }
+}

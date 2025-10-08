@@ -1,0 +1,531 @@
+{
+  "created_at": "2025-10-08T03:27:05.789867+00:00",
+  "elapsed": 0.217011,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a5be9a03023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:05 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:05 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1109855?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1109855?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1109855,
+    "name": "Base con r\u00f3tula\/Ball joints",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1109855",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1109855",
+    "creator": {
+      "id": 625226,
+      "name": "ceapat",
+      "first_name": "Ceapat",
+      "last_name": "Imserso",
+      "url": "https:\/\/api.thingiverse.com\/users\/ceapat",
+      "public_url": "https:\/\/www.thingiverse.com\/ceapat",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/9a\/5a\/b1\/5e\/imgp0140-web_thumb_medium.jpg",
+      "count_of_followers": 267,
+      "count_of_following": 43,
+      "count_of_designs": 62,
+      "collection_count": 13,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Espa\u00f1a (Madrid)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/26\/d1\/4f\/d3\/IMG_1957_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-11-04T11:26:43+00:00",
+    "modified": "2015-11-04T11:26:43+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 40,
+    "is_liked": false,
+    "collect_count": 98,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 2827558,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/fc\/51\/9f\/ce\/IMG_2016.JPG",
+      "name": "IMG_2016.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/b0\/9b\/4b\/f5\/IMG_2016_display_small.JPG"
+        }
+      ],
+      "added": "2015-11-04T09:05:57+00:00"
+    },
+    "description": "Ball joints support that helps people to place a button, mobile phone and other products.\r\n\r\n[Spanish] Base con r\u00f3tula para colocar en el soporte articulado y poder situar los pulsadores, ratones, tel\u00e9fono movil, etc a una distancia adecuada dependiendo de las necesidades del usuario. ",
+    "instructions": "",
+    "description_html": "<div><p>Ball joints support that helps people to place a button, mobile phone and other products.<\/p><p>[Spanish] Base con r\u00f3tula para colocar en el soporte articulado y poder situar los pulsadores, ratones, tel\u00e9fono movil, etc a una distancia adecuada dependiendo de las necesidades del usuario. <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Ball joints support that helps people to place a button, mobile phone and other products.<\/p><p>[Spanish] Base con r\u00f3tula para colocar en el soporte articulado y poder situar los pulsadores, ratones, tel\u00e9fono movil, etc a una distancia adecuada dependiendo de las necesidades del usuario. <\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/8e\/49\/94\/e7\/cf\/IMG_2014.JPG\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Materials\/Material necesario&lt;\/strong&gt;&lt;\/p&gt;                &lt;div&gt;&lt;p&gt;Despu\u00e9s de imprimir la pieza, se coloca un tornillo m\u00e9trica 3x30mm y su tuerca. Con el tornillo se consigue hacer la pieza m\u00e1s s\u00f3lida.&lt;\/p&gt;&lt;\/div&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/08\/8f\/ba\/3d\/d2\/IMG_2013.JPG\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Materials\/Material necesario&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Ball joints support that helps people to place a button, mobile phone and other products.<\/p><p>[Spanish] Base con r\u00f3tula para colocar en el soporte articulado y poder situar los pulsadores, ratones, tel\u00e9fono movil, etc a una distancia adecuada dependiendo de las necesidades del usuario. <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/8e\/49\/94\/e7\/cf\/IMG_2014.JPG",
+            "caption": "Materials\/Material necesario",
+            "image_id": "2651"
+          },
+          {
+            "content": "<div><p>Despu\u00e9s de imprimir la pieza, se coloca un tornillo m\u00e9trica 3x30mm y su tuerca. Con el tornillo se consigue hacer la pieza m\u00e1s s\u00f3lida.<\/p><\/div>"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/08\/8f\/ba\/3d\/d2\/IMG_2013.JPG",
+            "caption": "Materials\/Material necesario",
+            "image_id": "2652"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1109855\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1109855\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1109855\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1109855\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1109855\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1109855\/tags",
+    "tags": [
+      {
+        "name": "Accesibility",
+        "tag": "accesibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibility",
+        "count": 75,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibility\/things",
+        "absolute_url": "\/tag:Accesibility"
+      },
+      {
+        "name": "assitive technology",
+        "tag": "assitive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology",
+        "count": 40,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assitive_technology\/things",
+        "absolute_url": "\/tag:assitive_technology"
+      },
+      {
+        "name": "ceapat",
+        "tag": "ceapat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ceapat",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ceapat\/things",
+        "absolute_url": "\/tag:ceapat"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 553,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 68,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 178,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 262,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "Imserso",
+        "tag": "imserso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/imserso",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/imserso\/things",
+        "absolute_url": "\/tag:Imserso"
+      },
+      {
+        "name": "mobile phone holder",
+        "tag": "mobile_phone_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mobile_phone_holder",
+        "count": 754,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mobile_phone_holder\/things",
+        "absolute_url": "\/tag:mobile_phone_holder"
+      },
+      {
+        "name": "movil",
+        "tag": "movil",
+        "url": "https:\/\/api.thingiverse.com\/tags\/movil",
+        "count": 81,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/movil\/things",
+        "absolute_url": "\/tag:movil"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 448,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "soporte",
+        "tag": "soporte",
+        "url": "https:\/\/api.thingiverse.com\/tags\/soporte",
+        "count": 1035,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/soporte\/things",
+        "absolute_url": "\/tag:soporte"
+      },
+      {
+        "name": "suport",
+        "tag": "suport",
+        "url": "https:\/\/api.thingiverse.com\/tags\/suport",
+        "count": 247,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/suport\/things",
+        "absolute_url": "\/tag:suport"
+      },
+      {
+        "name": "support tool holder",
+        "tag": "support_tool_holder",
+        "url": "https:\/\/api.thingiverse.com\/tags\/support_tool_holder",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/support_tool_holder\/things",
+        "absolute_url": "\/tag:support_tool_holder"
+      },
+      {
+        "name": "telfono",
+        "tag": "telfono",
+        "url": "https:\/\/api.thingiverse.com\/tags\/telfono",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/telfono\/things",
+        "absolute_url": "\/tag:telfono"
+      },
+      {
+        "name": "telephone",
+        "tag": "telephone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/telephone",
+        "count": 245,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/telephone\/things",
+        "absolute_url": "\/tag:telephone"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1109855\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 714,
+    "view_count": 2268,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "terminalbase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/59\/a0\/ec\/a2\/terminalbase.stl"
+        },
+        {
+          "name": "terminal_varilla.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/34\/f1\/43\/5a\/terminal_varilla.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2016.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/fc\/51\/9f\/ce\/IMG_2016.JPG"
+        },
+        {
+          "name": "IMG_2015.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/eb\/72\/b8\/ed\/IMG_2015.JPG"
+        },
+        {
+          "name": "IMG_2012.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/71\/aa\/9d\/07\/IMG_2012.JPG"
+        },
+        {
+          "name": "IMG_2010.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/08\/63\/bc\/ea\/a9\/IMG_2010.JPG"
+        },
+        {
+          "name": "terminal_varilla.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/58\/a8\/ea\/3d\/terminal_varilla.png"
+        },
+        {
+          "name": "terminalbase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a0\/f1\/23\/5f\/6d\/terminalbase.png"
+        }
+      ]
+    }
+  }
+}

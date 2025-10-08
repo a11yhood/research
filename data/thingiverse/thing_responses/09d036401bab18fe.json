@@ -1,0 +1,558 @@
+{
+  "created_at": "2025-04-13T04:27:59.571727+00:00",
+  "elapsed": 0.150167,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836d06ee3d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:59 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:59 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2507266?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2507266?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2507266,
+    "name": "Modified AT Switch Design",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2507266",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2507266",
+    "creator": {
+      "id": 851541,
+      "name": "khackbarth",
+      "first_name": "Ken",
+      "last_name": "Hackbarth",
+      "url": "https:\/\/api.thingiverse.com\/users\/khackbarth",
+      "public_url": "https:\/\/www.thingiverse.com\/khackbarth",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/37\/ae\/a6\/31\/0a\/42f98381fa613450716acdab0b4a3199_thumb_medium.jpg",
+      "count_of_followers": 24,
+      "count_of_following": 3,
+      "count_of_designs": 17,
+      "collection_count": 8,
+      "make_count": 15,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Westminster, Colorado",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2f\/36\/67\/f5\/15\/dc4ce934d1c5d1d53e12a42b2b2afa2d_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-08-30T00:02:49+00:00",
+    "modified": "2017-08-30T00:02:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 44,
+    "is_liked": false,
+    "collect_count": 108,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 6619151,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/cd\/c2\/41\/87\/IMG_0185.JPG",
+      "name": "IMG_0185.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/cd\/f2\/9e\/c6\/e9dadddd5bdbc766b7b85b6dd201ca6a_display_small.JPG"
+        }
+      ],
+      "added": "2017-08-30T00:02:43+00:00"
+    },
+    "description": "This is a remix of the AT Switch by atmakers.  This design has focused on a thicker and horizontally supported center post on the base to house the micro-switch as well as a sleeve built into the button that directs the button directly downward rather than allowing it to tip and get caught under the edge of the collar.  I've added a hole in the center bottom of the base for the insertion of a threaded insert.  I eliminated the mount for a headphone jack because it complicated the design and it's very hard to get the threaded collar of the jack to screw tightly enough to the plastic.  When looking at the video provided by atmakers they just stuck the cord through the hole anyway and didn't install a headphone jack.  I'm a big believer in putting a jack in the switch but I don't think this design lends itself to one.  I trialed multiple sleeve lengths and diameters in an attempt to find one that ensured that the button moved vertically with very little sway and thereby very little tendency to get caught under the collar.  The result is stable but comes with the washboard on washboard scraping sound and feel that is inherent in 3d printed sliding parts.  It might be possible to eliminate the rubbing by sanding down the surfaces.  I didn't bother.  I wish that I had experimented with swapping out filament colors when printing the base because it would have produced a nice \"bee\" look.\r\n\r\nI had a hard time finding a good spring for the switch.  It needs to be 1 inch in length with a 1\/2 inch outside diameter.  McMaster-Carr only had two springs that met this requirement and one of them was very hard to depress.  The spring I went with can be found here:\r\nZinc-Plated, Music-Wire, Closed & Flat End, 1\" Long, 0.418\" ID\r\nhttps:\/\/www.mcmaster.com\/#9657K312\r\n\r\nThe threaded insert can be ordered from McMaster-Carr via this URL:\r\nHeat-Set Inserts for Plastics 1\/4\"-20 Thread Size, 0.300\" Installed Length\r\nhttps:\/\/www.mcmaster.com\/#93365a160\/=1958fir\r\n\r\nFinally the micro-switch can be ordered from Adafruit via this URL:\r\nTactile Switch Buttons (12mm square, 6mm tall) x 10 pack\r\nhttps:\/\/www.adafruit.com\/product\/1119\r\n\r\nI took the recommendation from kurtschaefer for installing the threaded insert and printed his Soldering Iron Drill Press Adapter (and even purchased his recommended soldering iron for heating the insert) at this URL:\r\nhttps:\/\/www.thingiverse.com\/thing:1637284\r\n\r\nThere's a great Camera to GoPro mount design by tmorris9 that you can print to mount to the switch and can be found here:\r\nhttps:\/\/www.thingiverse.com\/thing:991531\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This is a remix of the AT Switch by atmakers.  This design has focused on a thicker and horizontally supported center post on the base to house the micro-switch as well as a sleeve built into the button that directs the button directly downward rather than allowing it to tip and get caught under the edge of the collar.  I've added a hole in the center bottom of the base for the insertion of a threaded insert.  I eliminated the mount for a headphone jack because it complicated the design and it's very hard to get the threaded collar of the jack to screw tightly enough to the plastic.  When looking at the video provided by atmakers they just stuck the cord through the hole anyway and didn't install a headphone jack.  I'm a big believer in putting a jack in the switch but I don't think this design lends itself to one.  I trialed multiple sleeve lengths and diameters in an attempt to find one that ensured that the button moved vertically with very little sway and thereby very little tendency to get caught under the collar.  The result is stable but comes with the washboard on washboard scraping sound and feel that is inherent in 3d printed sliding parts.  It might be possible to eliminate the rubbing by sanding down the surfaces.  I didn't bother.  I wish that I had experimented with swapping out filament colors when printing the base because it would have produced a nice \"bee\" look.<\/p><p>I had a hard time finding a good spring for the switch.  It needs to be 1 inch in length with a 1\/2 inch outside diameter.  McMaster-Carr only had two springs that met this requirement and one of them was very hard to depress.  The spring I went with can be found here:<br>Zinc-Plated, Music-Wire, Closed &amp; Flat End, 1\" Long, 0.418\" ID<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#9657K312\">https:\/\/www.mcmaster.com\/#9657K312<\/a><\/p><p>The threaded insert can be ordered from McMaster-Carr via this URL:<br>Heat-Set Inserts for Plastics 1\/4\"-20 Thread Size, 0.300\" Installed Length<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#93365a160\/=1958fir\">https:\/\/www.mcmaster.com\/#93365a160\/=1958fir<\/a><\/p><p>Finally the micro-switch can be ordered from Adafruit via this URL:<br>Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>I took the recommendation from kurtschaefer for installing the threaded insert and printed his Soldering Iron Drill Press Adapter (and even purchased his recommended soldering iron for heating the insert) at this URL:<br><a rel=\"ugc nofollow\" href=\"\/thing:1637284\">https:\/\/www.thingiverse.com\/thing:1637284<\/a><\/p><p>There's a great Camera to GoPro mount design by tmorris9 that you can print to mount to the switch and can be found here:<br><a rel=\"ugc nofollow\" href=\"\/thing:991531\">https:\/\/www.thingiverse.com\/thing:991531<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a remix of the AT Switch by atmakers.  This design has focused on a thicker and horizontally supported center post on the base to house the micro-switch as well as a sleeve built into the button that directs the button directly downward rather than allowing it to tip and get caught under the edge of the collar.  I've added a hole in the center bottom of the base for the insertion of a threaded insert.  I eliminated the mount for a headphone jack because it complicated the design and it's very hard to get the threaded collar of the jack to screw tightly enough to the plastic.  When looking at the video provided by atmakers they just stuck the cord through the hole anyway and didn't install a headphone jack.  I'm a big believer in putting a jack in the switch but I don't think this design lends itself to one.  I trialed multiple sleeve lengths and diameters in an attempt to find one that ensured that the button moved vertically with very little sway and thereby very little tendency to get caught under the collar.  The result is stable but comes with the washboard on washboard scraping sound and feel that is inherent in 3d printed sliding parts.  It might be possible to eliminate the rubbing by sanding down the surfaces.  I didn't bother.  I wish that I had experimented with swapping out filament colors when printing the base because it would have produced a nice \"bee\" look.<\/p><p>I had a hard time finding a good spring for the switch.  It needs to be 1 inch in length with a 1\/2 inch outside diameter.  McMaster-Carr only had two springs that met this requirement and one of them was very hard to depress.  The spring I went with can be found here:<br>Zinc-Plated, Music-Wire, Closed &amp; Flat End, 1\" Long, 0.418\" ID<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#9657K312\">https:\/\/www.mcmaster.com\/#9657K312<\/a><\/p><p>The threaded insert can be ordered from McMaster-Carr via this URL:<br>Heat-Set Inserts for Plastics 1\/4\"-20 Thread Size, 0.300\" Installed Length<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#93365a160\/=1958fir\">https:\/\/www.mcmaster.com\/#93365a160\/=1958fir<\/a><\/p><p>Finally the micro-switch can be ordered from Adafruit via this URL:<br>Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>I took the recommendation from kurtschaefer for installing the threaded insert and printed his Soldering Iron Drill Press Adapter (and even purchased his recommended soldering iron for heating the insert) at this URL:<br><a rel=\"ugc nofollow\" href=\"\/thing:1637284\">https:\/\/www.thingiverse.com\/thing:1637284<\/a><\/p><p>There's a great Camera to GoPro mount design by tmorris9 that you can print to mount to the switch and can be found here:<br><a rel=\"ugc nofollow\" href=\"\/thing:991531\">https:\/\/www.thingiverse.com\/thing:991531<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Monoprice Select Mini<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1 mm&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20%<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Print the button and the collar upside down.  Only the button needs supports and only from the print bed.  I printed the base with 3 shells (i.e., walls that are 1.2 mm thick using a 0.4 mm nozzle).  I chose to use thicker walls on the base so that the threaded insert would have a good amount of plastic to bite into.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/68\/00\/81\/54\/0a\/section.jpg\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;midline section showing all parts&lt;\/strong&gt;&lt;\/p&gt;                &lt;div&gt;&lt;p&gt;I used Fusion 360 as my CAD tool and have included the f3d file in case you need to make changes based on your filament and printer.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a remix of the AT Switch by atmakers.  This design has focused on a thicker and horizontally supported center post on the base to house the micro-switch as well as a sleeve built into the button that directs the button directly downward rather than allowing it to tip and get caught under the edge of the collar.  I've added a hole in the center bottom of the base for the insertion of a threaded insert.  I eliminated the mount for a headphone jack because it complicated the design and it's very hard to get the threaded collar of the jack to screw tightly enough to the plastic.  When looking at the video provided by atmakers they just stuck the cord through the hole anyway and didn't install a headphone jack.  I'm a big believer in putting a jack in the switch but I don't think this design lends itself to one.  I trialed multiple sleeve lengths and diameters in an attempt to find one that ensured that the button moved vertically with very little sway and thereby very little tendency to get caught under the collar.  The result is stable but comes with the washboard on washboard scraping sound and feel that is inherent in 3d printed sliding parts.  It might be possible to eliminate the rubbing by sanding down the surfaces.  I didn't bother.  I wish that I had experimented with swapping out filament colors when printing the base because it would have produced a nice \"bee\" look.<\/p><p>I had a hard time finding a good spring for the switch.  It needs to be 1 inch in length with a 1\/2 inch outside diameter.  McMaster-Carr only had two springs that met this requirement and one of them was very hard to depress.  The spring I went with can be found here:<br>Zinc-Plated, Music-Wire, Closed &amp; Flat End, 1\" Long, 0.418\" ID<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#9657K312\">https:\/\/www.mcmaster.com\/#9657K312<\/a><\/p><p>The threaded insert can be ordered from McMaster-Carr via this URL:<br>Heat-Set Inserts for Plastics 1\/4\"-20 Thread Size, 0.300\" Installed Length<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mcmaster.com\/#93365a160\/=1958fir\">https:\/\/www.mcmaster.com\/#93365a160\/=1958fir<\/a><\/p><p>Finally the micro-switch can be ordered from Adafruit via this URL:<br>Tactile Switch Buttons (12mm square, 6mm tall) x 10 pack<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>I took the recommendation from kurtschaefer for installing the threaded insert and printed his Soldering Iron Drill Press Adapter (and even purchased his recommended soldering iron for heating the insert) at this URL:<br><a rel=\"ugc nofollow\" href=\"\/thing:1637284\">https:\/\/www.thingiverse.com\/thing:1637284<\/a><\/p><p>There's a great Camera to GoPro mount design by tmorris9 that you can print to mount to the switch and can be found here:<br><a rel=\"ugc nofollow\" href=\"\/thing:991531\">https:\/\/www.thingiverse.com\/thing:991531<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Monoprice Select Mini<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.1 mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "notes": "<div><p>Print the button and the collar upside down.  Only the button needs supports and only from the print bed.  I printed the base with 3 shells (i.e., walls that are 1.2 mm thick using a 0.4 mm nozzle).  I chose to use thicker walls on the base so that the threaded insert would have a good amount of plastic to bite into.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/68\/00\/81\/54\/0a\/section.jpg",
+            "caption": "midline section showing all parts",
+            "image_id": "41536"
+          },
+          {
+            "content": "<div><p>I used Fusion 360 as my CAD tool and have included the f3d file in case you need to make changes based on your filament and printer.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2507266\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2507266\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2507266\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2507266\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2507266\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2507266\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2507266\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 839,
+    "view_count": 1798,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2180151,
+        "name": "AT Switch",
+        "url": "https:\/\/api.thingiverse.com\/things\/2180151",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2180151",
+        "created_at": "2017-03-15T23:34:02+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_card.jpg",
+        "creator": {
+          "id": 1276407,
+          "name": "atmakers",
+          "first_name": "Bill",
+          "last_name": "Binko",
+          "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+          "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+          "count_of_followers": 118,
+          "count_of_following": 9,
+          "count_of_designs": 30,
+          "collection_count": 4,
+          "make_count": 3,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Tarpon Springs, FL",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 5,
+        "make_count": 2,
+        "like_count": 78,
+        "tags": [
+          {
+            "name": "assistive",
+            "tag": "assistive",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+            "count": 184,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+            "absolute_url": "\/tag:assistive"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "at switch",
+            "tag": "at_switch",
+            "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+            "count": 24,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+            "absolute_url": "\/tag:at_switch"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 204,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/5a\/1e\/41\/83\/base.stl"
+        },
+        {
+          "name": "button.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/7c\/fe\/2a\/3c\/button.stl"
+        },
+        {
+          "name": "collar.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/89\/f4\/b3\/85\/collar.stl"
+        },
+        {
+          "name": "pressure_switch_remix.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/b0\/08\/1e\/7f\/pressure_switch_remix.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_0185.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/cd\/c2\/41\/87\/IMG_0185.JPG"
+        },
+        {
+          "name": "IMG_0190.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/ba\/ba\/c3\/bb\/IMG_0190.JPG"
+        },
+        {
+          "name": "IMG_0193.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/12\/73\/a7\/c1\/IMG_0193.JPG"
+        },
+        {
+          "name": "IMG_0189.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/5b\/bb\/e2\/ad\/IMG_0189.JPG"
+        },
+        {
+          "name": "IMG_0194.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/19\/d4\/3b\/23\/IMG_0194.JPG"
+        },
+        {
+          "name": "57f312213586f4db5ce062b65d8a6737.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/93\/ac\/36\/84\/c5\/57f312213586f4db5ce062b65d8a6737.png"
+        },
+        {
+          "name": "fd9e4b077ecdf45762ce9707d49869b7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/e1\/0c\/c7\/c7\/fd9e4b077ecdf45762ce9707d49869b7.png"
+        },
+        {
+          "name": "320979af08b27aef6b695a60599e2505.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ce\/3f\/e4\/d6\/46\/320979af08b27aef6b695a60599e2505.png"
+        }
+      ]
+    }
+  }
+}

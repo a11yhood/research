@@ -1,0 +1,597 @@
+{
+  "created_at": "2025-04-16T03:33:42.603909+00:00",
+  "elapsed": 0.15338,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109f6c49b063d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:42 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:42 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2596644?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2596644?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2596644,
+    "name": "DIY PUPPY MYOELECTRIC ARM",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2596644",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2596644",
+    "creator": {
+      "id": 930278,
+      "name": "materializacion3DColombia",
+      "first_name": "materializaci\u00f3n ",
+      "last_name": "3D",
+      "url": "https:\/\/api.thingiverse.com\/users\/materializacion3DColombia",
+      "public_url": "https:\/\/www.thingiverse.com\/materializacion3DColombia",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/28\/5b\/20\/fb\/af\/8cdf03d07f21995ee129f8ae1c0cebca_thumb_medium.jpg",
+      "count_of_followers": 172,
+      "count_of_following": 3,
+      "count_of_designs": 30,
+      "collection_count": 2,
+      "make_count": 4,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Bogot\u00e1 - Colombia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/3b\/50\/cf\/44\/f2\/59a432b70f79565f1e7314b8fa477bf4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-12-14T19:54:50+00:00",
+    "modified": "2017-12-14T19:54:50+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 44,
+    "is_liked": false,
+    "collect_count": 74,
+    "is_collected": false,
+    "comment_count": 4,
+    "is_watched": false,
+    "default_image": {
+      "id": 6904523,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/e9\/2d\/e0\/97\/Screen_Shot_2017-10-20_at_11.12.47_.png",
+      "name": "Screen_Shot_2017-10-20_at_11.12.47_.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1f\/9e\/67\/e9\/f1\/4c73cfc6fb0298242b1739119ecdfb86_display_small.jpg"
+        }
+      ],
+      "added": "2017-10-20T16:13:55+00:00"
+    },
+    "description": "Pr\u00f3tesis DIY MYOELECTRIC ARM es un proyecto dise\u00f1ado y elaborado por la fundaci\u00f3n materializaci\u00f3n 3D con la participaci\u00f3n de Andr\u00e9s Tolosa, Javier Garz\u00f3n, John Bejarano y Cristina Acevedo. Modelo a su vez basado en el brazo Flexy, el Flexy_Hand 2 de Steve Wood (Gyrobot), el brazo RIT (Rochester Institute of Technology) la MyPO de PO Paraguay https:\/\/www.thingiverse.com\/thing:2409406. Trabajo desarrollado por la familia del beneficiario y el equipo de la Fundaci\u00f3n Materializaci\u00f3n 3D http:\/\/materializacion3d.com\/ en Bogot\u00e1. Todos estos archivos est\u00e1n cubiertos por la licencia creativa atribuci\u00f3n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.\r\nTodos los padres y los ni\u00f1os fueron informados sobre el estudio e investigaci\u00f3n para el desarrollo de este trabajo. Para ni\u00f1os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmado por los ni\u00f1os y sus padres. El consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im\u00e1genes y v\u00eddeos que aparecen en el estudio de investigaci\u00f3n y la investigaci\u00f3n. Se les entregaron pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr\u00f3tesis de brazo.\r\npautas de seguridad detalladas enlace:\u2028http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\r\nLos dedos y las armellas est\u00e1n impresos en material Flexy, mano, antebrazo, brazo y dem\u00e1s partes en material PLA.\r\nPara mas informaci\u00f3n sobre la Fundaci\u00f3n Materializaci\u00f3n 3D, E-Nable Colombia:\u2028https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\r\nFundaci\u00f3n Materializaci\u00f3n 3D \/ Bogot\u00e1 - Colombia\r\n\r\nThis prosthetic solution can only be adapted in a patient over 3 years old or an adult under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology.\r\nPlease read the safety manual and use of this prosthetic solution carefully first.\r\nDIY MYOELECTRIC ARM is a project designed and developed by 3D materialization foundation with the participation of Andr\u00e9s Tolosa, Javier Garz\u00f3n, John Bejarano and Cristina Acevedo. Model in turn based on the Flexy arm, the Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group and the MyPO by PO Paraguay https:\/\/www.thingiverse.com\/thing:2409406. Work developed by the team e-Nable Colombia and 3D materialization foundation in Bogot\u00e1  http:\/\/materializacion3d.com\/. All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print.\r\nAll parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. Parents were given detailed safety guidelines about the use and care of prosthetic arm.\r\ndetailed safety guidelines link:\u2028http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\r\nThe fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA material.\r\nFor more information on 3D materialization and E-Nable Colombia:\r\nhttps:\/\/www.facebook.com\/materializacion3d\/?fref=ts\r\nColombia - materialization 3D \/ Bogota Foundation",
+    "instructions": "",
+    "description_html": "<div><p>Pr&oacute;tesis DIY MYOELECTRIC ARM es un proyecto dise&ntilde;ado y elaborado por la fundaci&oacute;n materializaci&oacute;n 3D con la participaci&oacute;n de Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano y Cristina Acevedo. Modelo a su vez basado en el brazo Flexy, el Flexy_Hand 2 de Steve Wood (Gyrobot), el brazo RIT (Rochester Institute of Technology) la MyPO de PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Trabajo desarrollado por la familia del beneficiario y el equipo de la Fundaci&oacute;n Materializaci&oacute;n 3D <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a> en Bogot&aacute;. Todos estos archivos est&aacute;n cubiertos por la licencia creativa atribuci&oacute;n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<br>Todos los padres y los ni&ntilde;os fueron informados sobre el estudio e investigaci&oacute;n para el desarrollo de este trabajo. Para ni&ntilde;os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmado por los ni&ntilde;os y sus padres. El consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im&aacute;genes y v&iacute;deos que aparecen en el estudio de investigaci&oacute;n y la investigaci&oacute;n. Se les entregaron pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr&oacute;tesis de brazo.<br>pautas de seguridad detalladas enlace:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>Los dedos y las armellas est&aacute;n impresos en material Flexy, mano, antebrazo, brazo y dem&aacute;s partes en material PLA.<br>Para mas informaci&oacute;n sobre la Fundaci&oacute;n Materializaci&oacute;n 3D, E-Nable Colombia:&#8232;<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Fundaci&oacute;n Materializaci&oacute;n 3D \/ Bogot&aacute; - Colombia<\/p><p>This prosthetic solution can only be adapted in a patient over 3 years old or an adult under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology.<br>Please read the safety manual and use of this prosthetic solution carefully first.<br>DIY MYOELECTRIC ARM is a project designed and developed by 3D materialization foundation with the participation of Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano and Cristina Acevedo. Model in turn based on the Flexy arm, the Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group and the MyPO by PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Work developed by the team e-Nable Colombia and 3D materialization foundation in Bogot&aacute;  <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a>. All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print.<br>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. Parents were given detailed safety guidelines about the use and care of prosthetic arm.<br>detailed safety guidelines link:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA material.<br>For more information on 3D materialization and E-Nable Colombia:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Colombia - materialization 3D \/ Bogota Foundation<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Pr&oacute;tesis DIY MYOELECTRIC ARM es un proyecto dise&ntilde;ado y elaborado por la fundaci&oacute;n materializaci&oacute;n 3D con la participaci&oacute;n de Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano y Cristina Acevedo. Modelo a su vez basado en el brazo Flexy, el Flexy_Hand 2 de Steve Wood (Gyrobot), el brazo RIT (Rochester Institute of Technology) la MyPO de PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Trabajo desarrollado por la familia del beneficiario y el equipo de la Fundaci&oacute;n Materializaci&oacute;n 3D <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a> en Bogot&aacute;. Todos estos archivos est&aacute;n cubiertos por la licencia creativa atribuci&oacute;n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<br>Todos los padres y los ni&ntilde;os fueron informados sobre el estudio e investigaci&oacute;n para el desarrollo de este trabajo. Para ni&ntilde;os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmado por los ni&ntilde;os y sus padres. El consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im&aacute;genes y v&iacute;deos que aparecen en el estudio de investigaci&oacute;n y la investigaci&oacute;n. Se les entregaron pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr&oacute;tesis de brazo.<br>pautas de seguridad detalladas enlace:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>Los dedos y las armellas est&aacute;n impresos en material Flexy, mano, antebrazo, brazo y dem&aacute;s partes en material PLA.<br>Para mas informaci&oacute;n sobre la Fundaci&oacute;n Materializaci&oacute;n 3D, E-Nable Colombia:&#8232;<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Fundaci&oacute;n Materializaci&oacute;n 3D \/ Bogot&aacute; - Colombia<\/p><p>This prosthetic solution can only be adapted in a patient over 3 years old or an adult under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology.<br>Please read the safety manual and use of this prosthetic solution carefully first.<br>DIY MYOELECTRIC ARM is a project designed and developed by 3D materialization foundation with the participation of Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano and Cristina Acevedo. Model in turn based on the Flexy arm, the Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group and the MyPO by PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Work developed by the team e-Nable Colombia and 3D materialization foundation in Bogot&aacute;  <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a>. All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print.<br>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. Parents were given detailed safety guidelines about the use and care of prosthetic arm.<br>detailed safety guidelines link:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA material.<br>For more information on 3D materialization and E-Nable Colombia:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Colombia - materialization 3D \/ Bogota Foundation<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Prusa I3<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2 mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>60<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Una vez fabricadas las impresiones, se requiere de un proceso de termo formado. Calentar las piezas con pistola de aire caliente para dar forma a las piezas planas correspondientes a los brazos.<\/p><\/div>                <p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/_tkmRT_E0hw\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p>                <p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/PC1x8jldbeI\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p>                <p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/MFXxnNLG89s\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><h1 class=\"thing-component-header custom be-aware-before-using-this-device-on-a-person-tenga-en-cuenta-antes-de-usar-este-dispositivo-en-una-persona\">be aware before using this device on a person\/ Tenga en cuenta antes de usar este dispositivo en una persona<\/h1><p class=\"detail-title\"><strong>To keep in mind !<\/strong><\/p>                <div><p>This prosthetic solution can only be adapted in a child older than 3 years or adult under the advice of a health professional, therapist, physiotherapist, physiatrist and with the collaboration of a professional in psychology.<br>Please read carefully first the manual of safety and use of this prosthetic solution. <\/p><p>Esta soluci&oacute;n prot&eacute;sica solo se podr&aacute; adaptar en un paciente ni&ntilde;o mayor a 3 a&ntilde;os o adulto bajo la asesor&iacute;a de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci&oacute;n de un profesional en psicolog&iacute;a .<br>Por favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci&oacute;n prot&eacute;sica.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/4b\/9d\/94\/bd\/c9\/Brochure_paso_a_paso.pdf\">https:\/\/cdn.thingiverse.com\/assets\/4b\/9d\/94\/bd\/c9\/Brochure_paso_a_paso.pdf<\/a><\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Pr&oacute;tesis DIY MYOELECTRIC ARM es un proyecto dise&ntilde;ado y elaborado por la fundaci&oacute;n materializaci&oacute;n 3D con la participaci&oacute;n de Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano y Cristina Acevedo. Modelo a su vez basado en el brazo Flexy, el Flexy_Hand 2 de Steve Wood (Gyrobot), el brazo RIT (Rochester Institute of Technology) la MyPO de PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Trabajo desarrollado por la familia del beneficiario y el equipo de la Fundaci&oacute;n Materializaci&oacute;n 3D <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a> en Bogot&aacute;. Todos estos archivos est&aacute;n cubiertos por la licencia creativa atribuci&oacute;n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<br>Todos los padres y los ni&ntilde;os fueron informados sobre el estudio e investigaci&oacute;n para el desarrollo de este trabajo. Para ni&ntilde;os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmado por los ni&ntilde;os y sus padres. El consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im&aacute;genes y v&iacute;deos que aparecen en el estudio de investigaci&oacute;n y la investigaci&oacute;n. Se les entregaron pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr&oacute;tesis de brazo.<br>pautas de seguridad detalladas enlace:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>Los dedos y las armellas est&aacute;n impresos en material Flexy, mano, antebrazo, brazo y dem&aacute;s partes en material PLA.<br>Para mas informaci&oacute;n sobre la Fundaci&oacute;n Materializaci&oacute;n 3D, E-Nable Colombia:&#8232;<a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Fundaci&oacute;n Materializaci&oacute;n 3D \/ Bogot&aacute; - Colombia<\/p><p>This prosthetic solution can only be adapted in a patient over 3 years old or an adult under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology.<br>Please read the safety manual and use of this prosthetic solution carefully first.<br>DIY MYOELECTRIC ARM is a project designed and developed by 3D materialization foundation with the participation of Andr&eacute;s Tolosa, Javier Garz&oacute;n, John Bejarano and Cristina Acevedo. Model in turn based on the Flexy arm, the Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group and the MyPO by PO Paraguay <a rel=\"ugc nofollow\" href=\"\/thing:2409406\">https:\/\/www.thingiverse.com\/thing:2409406<\/a>. Work developed by the team e-Nable Colombia and 3D materialization foundation in Bogot&aacute;  <a rel=\"ugc nofollow\" href=\"http:\/\/materializacion3d.com\/\">http:\/\/materializacion3d.com\/<\/a>. All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print.<br>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. Parents were given detailed safety guidelines about the use and care of prosthetic arm.<br>detailed safety guidelines link:&#8232;<a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><br>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA material.<br>For more information on 3D materialization and E-Nable Colombia:<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/materializacion3d\/?fref=ts\">https:\/\/www.facebook.com\/materializacion3d\/?fref=ts<\/a><br>Colombia - materialization 3D \/ Bogota Foundation<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Prusa I3<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>\n",
+            "infill": "<div><p>60<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Una vez fabricadas las impresiones, se requiere de un proceso de termo formado. Calentar las piezas con pistola de aire caliente para dar forma a las piezas planas correspondientes a los brazos.<\/p><\/div>\n"
+          },
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/_tkmRT_E0hw\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/PC1x8jldbeI\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/MFXxnNLG89s\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "be aware before using this device on a person\/ Tenga en cuenta antes de usar este dispositivo en una persona",
+        "data": [
+          {
+            "title": "To keep in mind !",
+            "content": "<div><p>This prosthetic solution can only be adapted in a child older than 3 years or adult under the advice of a health professional, therapist, physiotherapist, physiatrist and with the collaboration of a professional in psychology.<br>Please read carefully first the manual of safety and use of this prosthetic solution. <\/p><p>Esta soluci&oacute;n prot&eacute;sica solo se podr&aacute; adaptar en un paciente ni&ntilde;o mayor a 3 a&ntilde;os o adulto bajo la asesor&iacute;a de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci&oacute;n de un profesional en psicolog&iacute;a .<br>Por favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci&oacute;n prot&eacute;sica.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/cdn.thingiverse.com\/assets\/4b\/9d\/94\/bd\/c9\/Brochure_paso_a_paso.pdf\">https:\/\/cdn.thingiverse.com\/assets\/4b\/9d\/94\/bd\/c9\/Brochure_paso_a_paso.pdf<\/a><\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2596644\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2596644\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2596644\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2596644\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2596644\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2596644\/tags",
+    "tags": [
+      {
+        "name": "Electromyography",
+        "tag": "electromyography",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electromyography",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electromyography\/things",
+        "absolute_url": "\/tag:Electromyography"
+      },
+      {
+        "name": "electronics",
+        "tag": "electronics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electronics",
+        "count": 6425,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electronics\/things",
+        "absolute_url": "\/tag:electronics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2596644\/categories",
+    "file_count": 23,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2015,
+    "view_count": 2233,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "manual_toma_de_medidas.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/3f\/fb\/a0\/46\/manual_toma_de_medidas.pdf"
+        },
+        {
+          "name": "NORMAS-DE-SEGURIDAD_m3d_colombia.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/e4\/87\/34\/8a\/NORMAS-DE-SEGURIDAD_m3d_colombia.pdf"
+        },
+        {
+          "name": "NORMAS-DE-SEGURIDAD_m3d_colombia.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/e0\/4a\/63\/ab\/NORMAS-DE-SEGURIDAD_m3d_colombia.pdf"
+        },
+        {
+          "name": "NORMAS-DE-SEGURIDAD_m3d_colombia.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/c0\/0e\/5a\/40\/NORMAS-DE-SEGURIDAD_m3d_colombia.pdf"
+        },
+        {
+          "name": "NORMAS-DE-SEGURIDAD-Enable-Colombia_1.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/f1\/28\/1e\/af\/NORMAS-DE-SEGURIDAD-Enable-Colombia_1.pdf"
+        },
+        {
+          "name": "manual_toma_de_medidas.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/e9\/18\/66\/57\/manual_toma_de_medidas.pdf"
+        },
+        {
+          "name": "Brochure_paso_a_paso.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/9d\/94\/bd\/c9\/Brochure_paso_a_paso.pdf"
+        },
+        {
+          "name": "Documentacion.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/75\/8a\/a1\/c0\/Documentacion.pdf"
+        },
+        {
+          "name": "Dedos.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/a8\/b3\/c8\/96\/Dedos.stl"
+        },
+        {
+          "name": "Armellas_Flex.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/52\/15\/88\/88\/Armellas_Flex.stl"
+        },
+        {
+          "name": "Pines_Ensamble.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/a6\/ed\/4c\/c9\/Pines_Ensamble.stl"
+        },
+        {
+          "name": "Brazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/bd\/e3\/4d\/28\/Brazo.stl"
+        },
+        {
+          "name": "Antebrazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/bc\/ac\/ba\/84\/Antebrazo.stl"
+        },
+        {
+          "name": "Palma.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/73\/ea\/69\/bb\/Palma.stl"
+        },
+        {
+          "name": "Mano.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/85\/d8\/b6\/49\/Mano.stl"
+        },
+        {
+          "name": "Fondo_Cabeza.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/45\/27\/10\/8a\/Fondo_Cabeza.stl"
+        },
+        {
+          "name": "Tapa_brazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/5b\/e6\/24\/0f\/Tapa_brazo.stl"
+        },
+        {
+          "name": "Caja_Motores.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/c0\/2c\/65\/50\/Caja_Motores.stl"
+        },
+        {
+          "name": "Soporte_Motor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/72\/4e\/e4\/0b\/Soporte_Motor.stl"
+        },
+        {
+          "name": "Cara_de_Perro.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/e7\/cf\/58\/f0\/Cara_de_Perro.stl"
+        },
+        {
+          "name": "Huella_dog.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/0d\/01\/f4\/d4\/Huella_dog.stl"
+        },
+        {
+          "name": "Orejas_boca_ojos_nariz.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/cd\/41\/7b\/7d\/Orejas_boca_ojos_nariz.stl"
+        },
+        {
+          "name": "Dog.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1f\/0f\/54\/77\/79\/Dog.ino"
+        }
+      ],
+      "images": [
+        {
+          "name": "Screen_Shot_2017-10-20_at_11.12.47_.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/e9\/2d\/e0\/97\/Screen_Shot_2017-10-20_at_11.12.47_.png"
+        },
+        {
+          "name": "f2bcebf4d064145ca8211aa4d2795996.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/28\/dc\/94\/41\/01\/f2bcebf4d064145ca8211aa4d2795996.png"
+        },
+        {
+          "name": "ad7180edc1fb72e4b3830861c763ec36.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/d1\/86\/7f\/77\/ad7180edc1fb72e4b3830861c763ec36.png"
+        },
+        {
+          "name": "0599fd628f942ddb28e9f557c6bbcfdc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/50\/6d\/69\/91\/0599fd628f942ddb28e9f557c6bbcfdc.png"
+        },
+        {
+          "name": "f7d2f0ed66340d3ae2a357bff7e2e83d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/13\/12\/9d\/65\/2b\/f7d2f0ed66340d3ae2a357bff7e2e83d.png"
+        },
+        {
+          "name": "fd1452bc046ae6d3e93dd95a67138233.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/d8\/c9\/61\/d8\/fd1452bc046ae6d3e93dd95a67138233.png"
+        },
+        {
+          "name": "8711a2b70ff305ceb0ddf96466a5a25b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d0\/0a\/a3\/87\/ab\/8711a2b70ff305ceb0ddf96466a5a25b.png"
+        },
+        {
+          "name": "0e28c9e4b29137dc3277bc6b1cd1800d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/44\/77\/58\/12\/0e28c9e4b29137dc3277bc6b1cd1800d.png"
+        },
+        {
+          "name": "bedbc812fd75e9d4b3fc32f6f0299753.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fc\/8c\/a1\/0d\/31\/bedbc812fd75e9d4b3fc32f6f0299753.png"
+        },
+        {
+          "name": "2cc93601bea09fff16e624f71efd0f06.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/06\/a7\/4a\/37\/c0\/2cc93601bea09fff16e624f71efd0f06.png"
+        },
+        {
+          "name": "d516d701645e5e1da529b196ecd69ecd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7c\/52\/6b\/a5\/57\/d516d701645e5e1da529b196ecd69ecd.png"
+        },
+        {
+          "name": "7cb74dd21df7c8533e7770e0d7be9532.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e9\/21\/36\/42\/3c\/7cb74dd21df7c8533e7770e0d7be9532.png"
+        },
+        {
+          "name": "f9fecdf635a6fa918328a698780d8b0e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/04\/47\/7d\/99\/95\/f9fecdf635a6fa918328a698780d8b0e.png"
+        },
+        {
+          "name": "9a2a4ccfb80188376c9d065049c60666.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/83\/d1\/ac\/48\/9a2a4ccfb80188376c9d065049c60666.png"
+        },
+        {
+          "name": "indice.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/01\/7e\/29\/93\/indice.jpeg"
+        },
+        {
+          "name": "conexiones.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/99\/6c\/15\/30\/conexiones.jpg"
+        },
+        {
+          "name": "indice3.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/39\/48\/b1\/a5\/indice3.jpeg"
+        },
+        {
+          "name": "IMG-20171011-WA0029.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/98\/64\/84\/8f\/IMG-20171011-WA0029.jpg"
+        },
+        {
+          "name": "IMG-20170918-WA0036.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/cf\/e2\/9b\/4d\/IMG-20170918-WA0036.jpg"
+        }
+      ]
+    }
+  }
+}

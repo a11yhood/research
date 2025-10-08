@@ -1,0 +1,422 @@
+{
+  "created_at": "2025-04-09T19:45:59.462785+00:00",
+  "elapsed": 0.18519,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc82098e941563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:59 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:59 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3158492?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3158492?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3158492,
+    "name": "Battery Cover for BIGmack Communicator",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3158492",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3158492",
+    "creator": {
+      "id": 1656574,
+      "name": "SubSite",
+      "first_name": "Fredrik",
+      "last_name": "Welander",
+      "url": "https:\/\/api.thingiverse.com\/users\/SubSite",
+      "public_url": "https:\/\/www.thingiverse.com\/SubSite",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b8\/e9\/b2\/06\/75\/412ac04af1a6308f1891b7daf08e9559_thumb_medium.jpg",
+      "count_of_followers": 76,
+      "count_of_following": 5,
+      "count_of_designs": 68,
+      "collection_count": 8,
+      "make_count": 15,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Finland",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-10-16T17:28:10+00:00",
+    "modified": "2018-10-16T17:28:10+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 9,
+    "is_liked": false,
+    "collect_count": 30,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 9093984,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/7d\/90\/32\/5f\/image.png",
+      "name": "image.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d2\/2f\/e3\/77\/5a\/d2b5ca33bd970f64a6301fa75ae2eb22_display_small.jpg"
+        }
+      ],
+      "added": "2018-10-16T16:38:17+00:00"
+    },
+    "description": "A replacement battery cover for the BIGmack Communicator (Assistive Technology).",
+    "instructions": "",
+    "description_html": "<div><p>A replacement battery cover for the BIGmack Communicator (Assistive Technology).<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A replacement battery cover for the BIGmack Communicator (Assistive Technology).<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;i3 MK2.5&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.20&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Prusa PETG<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A replacement battery cover for the BIGmack Communicator (Assistive Technology).<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>i3 MK2.5<\/p><\/div>\n",
+            "supports": "Yes",
+            "resolution": "<div><p>0.20<\/p><\/div>\n",
+            "filament_brand": "<div><p>Prusa<\/p><\/div>\n",
+            "filament_material": "<div><p>PETG<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3158492\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3158492\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3158492\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3158492\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3158492\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3158492\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "BIG mack",
+        "tag": "big_mack",
+        "url": "https:\/\/api.thingiverse.com\/tags\/big_mack",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/big_mack\/things",
+        "absolute_url": "\/tag:BIG_mack"
+      },
+      {
+        "name": "BIGmack",
+        "tag": "bigmack",
+        "url": "https:\/\/api.thingiverse.com\/tags\/bigmack",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/bigmack\/things",
+        "absolute_url": "\/tag:BIGmack"
+      },
+      {
+        "name": "Communicator",
+        "tag": "communicator",
+        "url": "https:\/\/api.thingiverse.com\/tags\/communicator",
+        "count": 94,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/communicator\/things",
+        "absolute_url": "\/tag:Communicator"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3158492\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 235,
+    "view_count": 380,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "BIGmack_battery_cover_v6.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/2c\/f3\/26\/ff\/BIGmack_battery_cover_v6.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "image.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/7d\/90\/32\/5f\/image.png"
+        },
+        {
+          "name": "image.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/38\/64\/d5\/f2\/f7\/image.png"
+        },
+        {
+          "name": "4dad3c15cbac122b8dca361903dbfd1c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/33\/82\/c7\/c2\/fe\/4dad3c15cbac122b8dca361903dbfd1c.png"
+        }
+      ]
+    }
+  }
+}

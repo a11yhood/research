@@ -1,0 +1,828 @@
+{
+  "created_at": "2025-04-16T03:34:00.301467+00:00",
+  "elapsed": 0.188378,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109fdab89963d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:34:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:04:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3635274?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3635274?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3635274,
+    "name": "The Spidy Arm",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/3635274",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3635274",
+    "creator": {
+      "id": 757292,
+      "name": "J_Mitchell_888",
+      "first_name": "Jamie",
+      "last_name": "Mitchell",
+      "url": "https:\/\/api.thingiverse.com\/users\/J_Mitchell_888",
+      "public_url": "https:\/\/www.thingiverse.com\/J_Mitchell_888",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f2\/87\/84\/09\/68\/9f360c5ab7736510df54c882e9dbf188_thumb_medium.jpeg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 5,
+      "collection_count": 5,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Bloemfontein, South Africa",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/8b\/8d\/69\/3a\/0f\/9f360c5ab7736510df54c882e9dbf188_preview_large.jpeg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-05-16T19:36:31+00:00",
+    "modified": "2019-05-16T19:36:31+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 41,
+    "is_liked": false,
+    "collect_count": 84,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10764634,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/56\/b6\/88\/47\/IMG_0720.JPG",
+      "name": "IMG_0720.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4a\/1d\/fc\/1f\/0b\/919485cee786823f6228c1f268e8951c_display_small.JPG"
+        }
+      ],
+      "added": "2019-05-16T19:36:22+00:00"
+    },
+    "description": "Hey everyone! So working with Deloitte UK and Enabling the Future on the helping hands project is so awesome!\r\n\r\nthis is a remix of the team unlimbited arm that I redesigned into a spiderman arm, and I also enlarged the tube where the wire goes, to fit a teflon tube, making it work much much smoother!!!\r\n\r\nthis hand design is for Aphelele, the first kid in South Africa (where I'm based) that will receive one of these, it is really really exciting and him and his family cant wait!",
+    "instructions": "",
+    "description_html": "<div><p>Hey everyone! So working with Deloitte UK and Enabling the Future on the helping hands project is so awesome!<\/p><p>this is a remix of the team unlimbited arm that I redesigned into a spiderman arm, and I also enlarged the tube where the wire goes, to fit a teflon tube, making it work much much smoother!!!<\/p><p>this hand design is for Aphelele, the first kid in South Africa (where I'm based) that will receive one of these, it is really really exciting and him and his family cant wait!<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Hey everyone! So working with Deloitte UK and Enabling the Future on the helping hands project is so awesome!<\/p><p>this is a remix of the team unlimbited arm that I redesigned into a spiderman arm, and I also enlarged the tube where the wire goes, to fit a teflon tube, making it work much much smoother!!!<\/p><p>this hand design is for Aphelele, the first kid in South Africa (where I'm based) that will receive one of these, it is really really exciting and him and his family cant wait!<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;CR-10S&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.3<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;30&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Wanhao PLA<br>White and blue<pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;After the prints have finished, just take a craft knife and cut off the little brim the print bed creates at the bottom&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/c5\/b2\/96\/60\/2a\/IMG_0600.JPG\" alt=\"image\"><\/p><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-title\"><strong>Helping Hands<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Peeps this project is really awesome and if anyone is interested in getting more info, feel free to visit the Enabling the Future at &lt;a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\"&gt;http:\/\/enablingthefuture.org&lt;\/a&gt; if anyone could use help!&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Hey everyone! So working with Deloitte UK and Enabling the Future on the helping hands project is so awesome!<\/p><p>this is a remix of the team unlimbited arm that I redesigned into a spiderman arm, and I also enlarged the tube where the wire goes, to fit a teflon tube, making it work much much smoother!!!<\/p><p>this hand design is for Aphelele, the first kid in South Africa (where I'm based) that will receive one of these, it is really really exciting and him and his family cant wait!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>\n",
+            "printer": "<div><p>CR-10S<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.3<\/p><\/div>\n",
+            "infill": "<div><p>30<\/p><\/div>\n",
+            "filament_brand": "<div><p>Wanhao<\/p><\/div>\n",
+            "filament_color": "<div><p>White and blue<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n",
+            "notes": "<div><p>After the prints have finished, just take a craft knife and cut off the little brim the print bed creates at the bottom<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image_id": 163084,
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c5\/b2\/96\/60\/2a\/IMG_0600.JPG"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "title": "Helping Hands",
+            "content": "<div><p>Peeps this project is really awesome and if anyone is interested in getting more info, feel free to visit the Enabling the Future at <a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\">http:\/\/enablingthefuture.org<\/a> if anyone could use help!<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3635274\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3635274\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3635274\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3635274\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3635274\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3635274\/tags",
+    "tags": [
+      {
+        "name": "3D Prosthetic",
+        "tag": "3d_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic\/things",
+        "absolute_url": "\/tag:3D_Prosthetic"
+      },
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1720,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "Deloitte",
+        "tag": "deloitte",
+        "url": "https:\/\/api.thingiverse.com\/tags\/deloitte",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/deloitte\/things",
+        "absolute_url": "\/tag:Deloitte"
+      },
+      {
+        "name": "enablingthefuture",
+        "tag": "enablingthefuture",
+        "url": "https:\/\/api.thingiverse.com\/tags\/enablingthefuture",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/enablingthefuture\/things",
+        "absolute_url": "\/tag:enablingthefuture"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1942,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "helping-hands",
+        "tag": "helping-hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping-hands",
+        "count": 229,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping-hands\/things",
+        "absolute_url": "\/tag:helping-hands"
+      },
+      {
+        "name": "helping hand",
+        "tag": "helping_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping_hand",
+        "count": 124,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping_hand\/things",
+        "absolute_url": "\/tag:helping_hand"
+      },
+      {
+        "name": "Helping Hands",
+        "tag": "helping_hands",
+        "url": "https:\/\/api.thingiverse.com\/tags\/helping_hands",
+        "count": 78,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/helping_hands\/things",
+        "absolute_url": "\/tag:Helping_Hands"
+      },
+      {
+        "name": "kinetic",
+        "tag": "kinetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/kinetic",
+        "count": 124,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/kinetic\/things",
+        "absolute_url": "\/tag:kinetic"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 149,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 231,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "prosthetics",
+        "tag": "prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+        "count": 99,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+        "absolute_url": "\/tag:prosthetics"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 228,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "spiderman",
+        "tag": "spiderman",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spiderman",
+        "count": 1010,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spiderman\/things",
+        "absolute_url": "\/tag:spiderman"
+      },
+      {
+        "name": "Spider man",
+        "tag": "spider_man",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spider_man",
+        "count": 251,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spider_man\/things",
+        "absolute_url": "\/tag:Spider_man"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3635274\/categories",
+    "file_count": 22,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1531,
+    "view_count": 2116,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1672381,
+        "name": "The UnLimbited Arm v2.1 - Alfie Edition",
+        "url": "https:\/\/api.thingiverse.com\/things\/1672381",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1672381",
+        "created_at": "2016-07-14T17:57:55+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d3\/52\/2d\/3d\/3e\/f27ec0e2680c7294e34a30dde4f8a80e_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/d3\/52\/2d\/3d\/3e\/f27ec0e2680c7294e34a30dde4f8a80e_preview_card.jpg",
+        "creator": {
+          "id": 941738,
+          "name": "Team_UnLimbited",
+          "first_name": "Team",
+          "last_name": "UnLimbited",
+          "url": "https:\/\/api.thingiverse.com\/users\/Team_UnLimbited",
+          "public_url": "https:\/\/www.thingiverse.com\/Team_UnLimbited",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6f\/20\/9d\/09\/37\/f121d135f39f03e48da5fe5e8ced5b0a_thumb_medium.jpg",
+          "count_of_followers": 476,
+          "count_of_following": 1,
+          "count_of_designs": 4,
+          "collection_count": 1,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "UK",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/0d\/2b\/b8\/33\/f6\/6c20295458d787918e49b6cf161059ab_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": true,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 369,
+        "make_count": 51,
+        "like_count": 7696,
+        "tags": [
+          {
+            "name": "arm",
+            "tag": "arm",
+            "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+            "count": 1720,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+            "absolute_url": "\/tag:arm"
+          },
+          {
+            "name": "e-nable",
+            "tag": "e-nable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/e-nable",
+            "count": 233,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/e-nable\/things",
+            "absolute_url": "\/tag:e-nable"
+          },
+          {
+            "name": "enable",
+            "tag": "enable",
+            "url": "https:\/\/api.thingiverse.com\/tags\/enable",
+            "count": 166,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/enable\/things",
+            "absolute_url": "\/tag:enable"
+          },
+          {
+            "name": "team",
+            "tag": "team",
+            "url": "https:\/\/api.thingiverse.com\/tags\/team",
+            "count": 273,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/team\/things",
+            "absolute_url": "\/tag:team"
+          },
+          {
+            "name": "unlimbited",
+            "tag": "unlimbited",
+            "url": "https:\/\/api.thingiverse.com\/tags\/unlimbited",
+            "count": 22,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/unlimbited\/things",
+            "absolute_url": "\/tag:unlimbited"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 12736,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "palm_left_new_supports.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/93\/d3\/6d\/16\/palm_left_new_supports.stl"
+        },
+        {
+          "name": "thumb_knuckle_pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/ea\/cf\/46\/3a\/thumb_knuckle_pin.stl"
+        },
+        {
+          "name": "thumb_v2_tensioner_pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/a8\/90\/3b\/83\/thumb_v2_tensioner_pin.stl"
+        },
+        {
+          "name": "knuckle_pin_long.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/d4\/64\/41\/fc\/knuckle_pin_long.stl"
+        },
+        {
+          "name": "wrist_pin_thermo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/c5\/e6\/e2\/8f\/wrist_pin_thermo.stl"
+        },
+        {
+          "name": "thumbtip_pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b3\/ee\/f1\/d8\/1c\/thumbtip_pin.stl"
+        },
+        {
+          "name": "fingertip_pin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/ef\/d1\/39\/40\/fingertip_pin.stl"
+        },
+        {
+          "name": "knuckle_pin_short.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/c8\/57\/63\/2f\/knuckle_pin_short.stl"
+        },
+        {
+          "name": "fingertip_long_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/48\/2a\/84\/8a\/fingertip_long_v2.stl"
+        },
+        {
+          "name": "fingertip_short_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/86\/86\/4a\/27\/fingertip_short_v2.stl"
+        },
+        {
+          "name": "thumb_phalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/92\/29\/8c\/5f\/thumb_phalanx.stl"
+        },
+        {
+          "name": "finger_phalanx.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/06\/1d\/66\/07\/6a\/finger_phalanx.stl"
+        },
+        {
+          "name": "wrist_pin_cap.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/22\/78\/26\/a3\/wrist_pin_cap.stl"
+        },
+        {
+          "name": "thumbtip_v2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/b8\/8b\/58\/32\/thumbtip_v2.stl"
+        },
+        {
+          "name": "palm_left_new_supports.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/42\/5a\/44\/79\/palm_left_new_supports.stl"
+        },
+        {
+          "name": "Spidy_Arm_Teflon_Tube.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/4e\/e6\/6e\/f0\/Spidy_Arm_Teflon_Tube.stl"
+        },
+        {
+          "name": "Tensioner_Pin_x3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/5f\/c7\/63\/37\/Tensioner_Pin_x3.stl"
+        },
+        {
+          "name": "spidy_logo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/a1\/8e\/a9\/e9\/spidy_logo.stl"
+        },
+        {
+          "name": "Tensioner_Block.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/4e\/a8\/5a\/9f\/Tensioner_Block.stl"
+        },
+        {
+          "name": "Elbow_Cap_x2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/12\/bc\/de\/2b\/Elbow_Cap_x2.stl"
+        },
+        {
+          "name": "Elbow_Pin_x2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/96\/f2\/4f\/23\/Elbow_Pin_x2.stl"
+        },
+        {
+          "name": "Cuff.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/1f\/e2\/96\/23\/Cuff.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_0720.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/56\/b6\/88\/47\/IMG_0720.JPG"
+        },
+        {
+          "name": "IMG_0739.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/59\/b0\/0d\/3a\/IMG_0739.JPG"
+        },
+        {
+          "name": "IMG_0732.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/f1\/7e\/4e\/bf\/IMG_0732.JPG"
+        },
+        {
+          "name": "IMG_0734.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/22\/61\/11\/d7\/IMG_0734.JPG"
+        },
+        {
+          "name": "IMG_0718.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/7b\/af\/0c\/7d\/IMG_0718.JPG"
+        },
+        {
+          "name": "IMG_0735.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/90\/11\/a7\/b2\/IMG_0735.JPG"
+        },
+        {
+          "name": "IMG_0726.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/08\/3c\/98\/96\/IMG_0726.JPG"
+        },
+        {
+          "name": "IMG_0740.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/61\/a9\/fa\/5e\/IMG_0740.JPG"
+        },
+        {
+          "name": "IMG_0721.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/cb\/36\/86\/ae\/IMG_0721.JPG"
+        },
+        {
+          "name": "IMG_0738.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/72\/a6\/38\/35\/IMG_0738.JPG"
+        },
+        {
+          "name": "IMG_0737.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/96\/e2\/31\/3f\/IMG_0737.JPG"
+        },
+        {
+          "name": "c6db3d1c703c87ed338689a1d53849cb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/de\/bc\/46\/86\/c6db3d1c703c87ed338689a1d53849cb.png"
+        },
+        {
+          "name": "acb73a2aa5b01524b7c70f4523bcd7a6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/11\/c3\/82\/c4\/acb73a2aa5b01524b7c70f4523bcd7a6.png"
+        },
+        {
+          "name": "125afa4dc3d1025021b6538f7e0f78f0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/e1\/9f\/ab\/e7\/125afa4dc3d1025021b6538f7e0f78f0.png"
+        },
+        {
+          "name": "ac9d0b5737da2ecef44b231e46cbd636.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e6\/c2\/3d\/f7\/67\/ac9d0b5737da2ecef44b231e46cbd636.png"
+        },
+        {
+          "name": "b832970194fc93ca6bd8fe38a89b20a4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cb\/42\/05\/81\/10\/b832970194fc93ca6bd8fe38a89b20a4.png"
+        },
+        {
+          "name": "70c815dddb13e97dea7a70c9d75eadd1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/aa\/af\/46\/d9\/c6\/70c815dddb13e97dea7a70c9d75eadd1.png"
+        },
+        {
+          "name": "d60a251ee65b2c9cb8b781a39642421a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/51\/1e\/9a\/43\/d60a251ee65b2c9cb8b781a39642421a.png"
+        },
+        {
+          "name": "c436cbae63a304450a4d42024d507414.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/d5\/f6\/5a\/d7\/c436cbae63a304450a4d42024d507414.png"
+        },
+        {
+          "name": "641d8ace56b37088e8ed6caf58ae1bde.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/58\/ac\/d5\/b9\/80\/641d8ace56b37088e8ed6caf58ae1bde.png"
+        },
+        {
+          "name": "21fe7f17564fd4ff0c0b5ee17ef8d388.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/0f\/81\/87\/ac\/21fe7f17564fd4ff0c0b5ee17ef8d388.png"
+        },
+        {
+          "name": "c17bcf08bb219fb3a457289607dce270.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/06\/b6\/07\/28\/8c\/c17bcf08bb219fb3a457289607dce270.png"
+        },
+        {
+          "name": "d92b235555923ad29c90a6a030fe1018.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/4f\/c1\/02\/23\/d92b235555923ad29c90a6a030fe1018.png"
+        },
+        {
+          "name": "b2d09631b0a4a50bdb0c13551db1cb9f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/11\/c3\/0a\/2f\/48\/b2d09631b0a4a50bdb0c13551db1cb9f.png"
+        },
+        {
+          "name": "c6db3d1c703c87ed338689a1d53849cb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/8d\/92\/07\/b4\/c6db3d1c703c87ed338689a1d53849cb.png"
+        },
+        {
+          "name": "73e3e1d806422dbcb64afe796581face.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/62\/63\/6f\/c2\/73e3e1d806422dbcb64afe796581face.png"
+        },
+        {
+          "name": "a23fe168067a58b873430589e2e3a394.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4d\/a2\/50\/37\/70\/a23fe168067a58b873430589e2e3a394.png"
+        },
+        {
+          "name": "b0fc275d144ca307dc92e25b8c8f76e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ad\/db\/c4\/c3\/ac\/b0fc275d144ca307dc92e25b8c8f76e2.png"
+        },
+        {
+          "name": "357edaea72441876b573200b52d977fd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/97\/51\/10\/7c\/357edaea72441876b573200b52d977fd.png"
+        },
+        {
+          "name": "4614261e10d607b221b5e2ba5da04240.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/d4\/82\/8f\/43\/4614261e10d607b221b5e2ba5da04240.png"
+        },
+        {
+          "name": "7774731d87d5d4dbe6b673f5217972bd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ec\/66\/ec\/d8\/0d\/7774731d87d5d4dbe6b673f5217972bd.png"
+        },
+        {
+          "name": "229d459015bfa5ff5b6776c5ccc874cb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a6\/aa\/c3\/a0\/bb\/229d459015bfa5ff5b6776c5ccc874cb.png"
+        },
+        {
+          "name": "e8c9af85a21b6e51c6914402e062b34b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/db\/c7\/79\/aa\/20\/e8c9af85a21b6e51c6914402e062b34b.png"
+        }
+      ]
+    }
+  }
+}

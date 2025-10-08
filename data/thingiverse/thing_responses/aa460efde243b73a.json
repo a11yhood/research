@@ -1,0 +1,344 @@
+{
+  "created_at": "2025-04-16T03:34:14.056830+00:00",
+  "elapsed": 0.151426,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9310a030fd5263d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:34:14 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:04:14 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/441658?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/441658?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 441658,
+    "name": "Flexy-Knee\/Elbow",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e5\/e1\/1c\/49\/aa\/Flexy-Knee_-_2_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/441658",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:441658",
+    "creator": {
+      "id": 31099,
+      "name": "Gyrobot",
+      "first_name": "Steve",
+      "last_name": "Wood",
+      "url": "https:\/\/api.thingiverse.com\/users\/Gyrobot",
+      "public_url": "https:\/\/www.thingiverse.com\/Gyrobot",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/42\/95\/4c\/95\/06\/b24d2359e51185185672b37f6de2cb03_thumb_medium.jpg",
+      "count_of_followers": 3046,
+      "count_of_following": 35,
+      "count_of_designs": 91,
+      "collection_count": 7,
+      "make_count": 138,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Swindon, UK",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/e9\/cd\/2a\/da\/b8\/Render2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2014-08-27T08:34:31+00:00",
+    "modified": "2014-08-27T08:34:31+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 83,
+    "is_liked": false,
+    "collect_count": 179,
+    "is_collected": false,
+    "comment_count": 6,
+    "is_watched": false,
+    "default_image": {
+      "id": 1170753,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/6c\/11\/71\/ad\/Flexy-Knee_-_1.png",
+      "name": "Flexy-Knee_-_1.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1_display_small.jpg"
+        }
+      ],
+      "added": "2014-08-27T07:46:54+00:00"
+    },
+    "description": "An early concept for a prosthetic knee\/elbow joint with a printable flexible hinge using the elastic properties of Filaflex from [Recreus](http:\/\/recreus.com\/).  \n.  \nThis joint has the advantages of being self straightening, tough and durable with shock absorption properties built in.  \n.  \nThe socket takes the principles from the custom socket cups that I designed\/printed recently which are currently undergoing tests for [e-NABLE](http:\/\/enablingthefuture.org\/). Therefore we could have a printable or castable flexible liner that conforms to the users residual limb.  \n.  \nhttp:\/\/www.gyrobot.co.uk   \nhttp:\/\/www.facebook.com\/gyrobotuk",
+    "instructions": "To be printed soon.",
+    "description_html": "<div><p>An early concept for a prosthetic knee\/elbow joint with a printable flexible hinge using the elastic properties of Filaflex from <a rel=\"ugc nofollow\" href=\"http:\/\/recreus.com\/\">Recreus<\/a>.<br>.<br>This joint has the advantages of being self straightening, tough and durable with shock absorption properties built in.<br>.<br>The socket takes the principles from the custom socket cups that I designed\/printed recently which are currently undergoing tests for <a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/\">e-NABLE<\/a>. Therefore we could have a printable or castable flexible liner that conforms to the users residual limb.<br>.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.gyrobot.co.uk\">http:\/\/www.gyrobot.co.uk<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/gyrobotuk\">http:\/\/www.facebook.com\/gyrobotuk<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><p>To be printed soon.<\/p><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>An early concept for a prosthetic knee\/elbow joint with a printable flexible hinge using the elastic properties of Filaflex from <a rel=\"ugc nofollow\" href=\"http:\/\/recreus.com\/\">Recreus<\/a>.<br>.<br>This joint has the advantages of being self straightening, tough and durable with shock absorption properties built in.<br>.<br>The socket takes the principles from the custom socket cups that I designed\/printed recently which are currently undergoing tests for <a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/\">e-NABLE<\/a>. Therefore we could have a printable or castable flexible liner that conforms to the users residual limb.<br>.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.gyrobot.co.uk\">http:\/\/www.gyrobot.co.uk<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/gyrobotuk\">http:\/\/www.facebook.com\/gyrobotuk<\/a><\/p><\/div><h1 class=\"thing-component-header custom instructions\">Instructions<\/h1><div><p>To be printed soon.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>An early concept for a prosthetic knee\/elbow joint with a printable flexible hinge using the elastic properties of Filaflex from <a rel=\"ugc nofollow\" href=\"http:\/\/recreus.com\/\">Recreus<\/a>.<br>.<br>This joint has the advantages of being self straightening, tough and durable with shock absorption properties built in.<br>.<br>The socket takes the principles from the custom socket cups that I designed\/printed recently which are currently undergoing tests for <a rel=\"ugc nofollow\" href=\"http:\/\/enablingthefuture.org\/\">e-NABLE<\/a>. Therefore we could have a printable or castable flexible liner that conforms to the users residual limb.<br>.<br><a rel=\"ugc nofollow\" href=\"http:\/\/www.gyrobot.co.uk\">http:\/\/www.gyrobot.co.uk<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.facebook.com\/gyrobotuk\">http:\/\/www.facebook.com\/gyrobotuk<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Instructions",
+        "data": [
+          {
+            "content": "<div><p>To be printed soon.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/441658\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/441658\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/441658\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/441658\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/441658\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/441658\/tags",
+    "tags": [
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 61,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "hinge",
+        "tag": "hinge",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hinge",
+        "count": 2371,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hinge\/things",
+        "absolute_url": "\/tag:hinge"
+      },
+      {
+        "name": "knee",
+        "tag": "knee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/knee",
+        "count": 72,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/knee\/things",
+        "absolute_url": "\/tag:knee"
+      },
+      {
+        "name": "Leg",
+        "tag": "leg",
+        "url": "https:\/\/api.thingiverse.com\/tags\/leg",
+        "count": 585,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/leg\/things",
+        "absolute_url": "\/tag:Leg"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/441658\/categories",
+    "file_count": 3,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1597,
+    "view_count": 5808,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Flexy-Hinge_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/43\/6e\/fd\/a4\/Flexy-Hinge_V2.stl"
+        },
+        {
+          "name": "Calf_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/14\/75\/73\/3a\/Calf_V2.stl"
+        },
+        {
+          "name": "Thigh_Socket_V2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/df\/12\/3b\/33\/Thigh_Socket_V2.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Flexy-Knee_-_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/5b\/ea\/ad\/90\/Flexy-Knee_-_1.jpg"
+        },
+        {
+          "name": "Flexy-Knee_-_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e5\/e1\/1c\/49\/aa\/Flexy-Knee_-_2.jpg"
+        },
+        {
+          "name": "Flexy-Knee_-_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/5b\/dd\/f6\/09\/Flexy-Knee_-_3.jpg"
+        },
+        {
+          "name": "Calf_V2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ad\/ea\/36\/e4\/8f\/Calf_V2.jpg"
+        },
+        {
+          "name": "Flexy-Hinge_V2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c7\/1a\/8c\/e0\/8d\/Flexy-Hinge_V2.jpg"
+        },
+        {
+          "name": "Thigh_Socket_V2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f8\/22\/d0\/a1\/f4\/Thigh_Socket_V2.jpg"
+        },
+        {
+          "name": "IMG_20140907_210017.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d6\/ff\/97\/6c\/IMG_20140907_210017.jpg"
+        },
+        {
+          "name": "IMG_20140907_210132.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/44\/b9\/69\/88\/f1\/IMG_20140907_210132.jpg"
+        },
+        {
+          "name": "IMG_20140907_210313.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d1\/1c\/c4\/b4\/36\/IMG_20140907_210313.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "created_at": "2025-10-08T03:27:46.350573+00:00",
+  "elapsed": 0.200927,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28b598bf73023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:46 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:46 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1105106?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1105106?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1105106,
+    "name": "Remote Assistance",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/1105106",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1105106",
+    "creator": {
+      "id": 422115,
+      "name": "Steampunq",
+      "first_name": "Patrick",
+      "last_name": "Garrard",
+      "url": "https:\/\/api.thingiverse.com\/users\/Steampunq",
+      "public_url": "https:\/\/www.thingiverse.com\/Steampunq",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/69\/ef\/2b\/18\/6f\/a5039b2883b073e33d607b01672a4387_thumb_medium.jpg",
+      "count_of_followers": 11,
+      "count_of_following": 0,
+      "count_of_designs": 5,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Arizona",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/1c\/f7\/89\/56\/3a\/60fc78c763d69f07ae9f37514815392d_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-11-02T00:55:38+00:00",
+    "modified": "2015-11-02T00:55:38+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 50,
+    "is_liked": false,
+    "collect_count": 103,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 2816782,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/73\/74\/cb\/c0\/Image.jpg",
+      "name": "Image.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c6\/3b\/1f\/ef\/72\/Image_display_small.jpg"
+        }
+      ],
+      "added": "2015-11-01T23:17:32+00:00"
+    },
+    "description": "This device was designed for the assistive tech challenge. It is a remote medical alarm that will allow a person to alert those near by to an emergency. It can be placed with double adhesive tape on the out side of an apartment door, given to your next door neighbor or care taker. I have two methods of triggering the alarm. The first method is via the remote clicker for conscious assistance and the other is with micro controller that can monitor vitals like heart rate (similar to the setup found here> http:\/\/forum.arduino.cc\/index.php?topic=71386.0 <).\r\n\r\n This is not a new concept but having access to this without having to spend hundreds or thousands of dollars make it feasible for more people. And possibly save someones life. I must say though THIS IS NOT MEANT TO REPLACE CERTIFIED MEDICAL EQUIPMENT. I don't take any responsibility for the use or failure of this device. My friends room mate with a heart condition passed away because she didn't have access to something like this. So having this could have saved her life.",
+    "instructions": "",
+    "description_html": "<div><p>This device was designed for the assistive tech challenge. It is a remote medical alarm that will allow a person to alert those near by to an emergency. It can be placed with double adhesive tape on the out side of an apartment door, given to your next door neighbor or care taker. I have two methods of triggering the alarm. The first method is via the remote clicker for conscious assistance and the other is with micro controller that can monitor vitals like heart rate (similar to the setup found here&gt; <a rel=\"nofollow\" href=\"http:\/\/forum.arduino.cc\/index.php?topic=71386.0\">http:\/\/forum.arduino.cc\/index.php?topic=71386.0<\/a> &lt;).<\/p><p>This is not a new concept but having access to this without having to spend hundreds or thousands of dollars make it feasible for more people. And possibly save someones life. I must say though THIS IS NOT MEANT TO REPLACE CERTIFIED MEDICAL EQUIPMENT. I don't take any responsibility for the use or failure of this device. My friends room mate with a heart condition passed away because she didn't have access to something like this. So having this could have saved her life.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This device was designed for the assistive tech challenge. It is a remote medical alarm that will allow a person to alert those near by to an emergency. It can be placed with double adhesive tape on the out side of an apartment door, given to your next door neighbor or care taker. I have two methods of triggering the alarm. The first method is via the remote clicker for conscious assistance and the other is with micro controller that can monitor vitals like heart rate (similar to the setup found here&gt; <a rel=\"nofollow\" href=\"http:\/\/forum.arduino.cc\/index.php?topic=71386.0\">http:\/\/forum.arduino.cc\/index.php?topic=71386.0<\/a> &lt;).<\/p><p>This is not a new concept but having access to this without having to spend hundreds or thousands of dollars make it feasible for more people. And possibly save someones life. I must say though THIS IS NOT MEANT TO REPLACE CERTIFIED MEDICAL EQUIPMENT. I don't take any responsibility for the use or failure of this device. My friends room mate with a heart condition passed away because she didn't have access to something like this. So having this could have saved her life.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;The stl files are generated at 1\/10th scale by Inventor so they need to be resized at a 10 to 1 ratio to print as intended. The printing is pretty straight forward, all parts are designed to print with the flattest side facing down. Unless you know how to prevent warping it is best to print out of PLA. &lt;\/p&gt;&lt;p&gt;Just in case it isn't clear. The red cross should be printed with a transparent filament. You can color it with a red sharpie if you need to.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom electronic-components\">Electronic components<\/h1><p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/53\/81\/a6\/8b\/f8\/61cRzw2wnwL._SL1000_.jpg\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Remote relay can be found here: http:\/\/www.amazon.com\/Channel-Wireless-Learning-Control-Transmitter\/dp\/B00XY60SP4\/ref=sr_1_fkmr3_2?s=photo&amp;ie=UTF8&amp;qid=1446421833&amp;sr=8-2-fkmr3&amp;keywords=latching+relay+remote+rf+12v&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/8e\/73\/d6\/bb\/43\/20141121090247653.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Battery pack can be found here: http:\/\/www.ebay.com\/itm\/Mini-Portable-DC-168-12V-Rechargeable-Li-ion-Battery-Pack-for-CCTV-Camera-OK-\/272016950890?hash=item3f5579466a:g:PYcAAOSwI-BWH1Uu&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/d4\/8b\/04\/d5\/db\/s-l400.jpg\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;The light and siren are from this: http:\/\/www.ebay.com\/itm\/For-US-Mini-12V-Strobe-Flashing-Light-Lamp-Siren-Home-Security-Wired-Sound-Alarm-\/381452701060?hash=item58d05a4d84:g:rlMAAOSwm8VUyDgr&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header custom assembly\">Assembly<\/h1><div><p>The 3d printed parts are the housing to mount the following components. I currently don't have the parts but they are connected as follows. ( I would hope that the entry is judged for the intended purpose and not docked because I can't afford to purchase the components right now.)<\/p><p>First take the battery pack and strip back the wire to the male connector and tin them with a soldering iron.<br>Next take the light and siren out of the flasher and wire it up to the output on the relay module.<br>Next take the stripped end of the battery connector and connect the proper polarity of wire to the power input on the relay module.<br>Now take the clear red cross ( you can print it in clear then color the inside red with sharpie)  and glue it where it rests snugly to the out side of the case.<br>Then take all the electronics and hot glue them in place. (the switch on the battery fits in the rectangle on the bottom and the female end can fit in the circle cut out on the side.)<br>make sure the light is in the red cross.<br>Follow the instructions with the relay to make sure the button is set to one click on one click off.<br>Test it then if everything works screw or glue the back on and place it where every or with who every you can trust will help.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This device was designed for the assistive tech challenge. It is a remote medical alarm that will allow a person to alert those near by to an emergency. It can be placed with double adhesive tape on the out side of an apartment door, given to your next door neighbor or care taker. I have two methods of triggering the alarm. The first method is via the remote clicker for conscious assistance and the other is with micro controller that can monitor vitals like heart rate (similar to the setup found here&gt; <a rel=\"nofollow\" href=\"http:\/\/forum.arduino.cc\/index.php?topic=71386.0\">http:\/\/forum.arduino.cc\/index.php?topic=71386.0<\/a> &lt;).<\/p><p>This is not a new concept but having access to this without having to spend hundreds or thousands of dollars make it feasible for more people. And possibly save someones life. I must say though THIS IS NOT MEANT TO REPLACE CERTIFIED MEDICAL EQUIPMENT. I don't take any responsibility for the use or failure of this device. My friends room mate with a heart condition passed away because she didn't have access to something like this. So having this could have saved her life.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "No",
+            "notes": "<div><p>The stl files are generated at 1\/10th scale by Inventor so they need to be resized at a 10 to 1 ratio to print as intended. The printing is pretty straight forward, all parts are designed to print with the flattest side facing down. Unless you know how to prevent warping it is best to print out of PLA. <\/p><p>Just in case it isn't clear. The red cross should be printed with a transparent filament. You can color it with a red sharpie if you need to.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Electronic components",
+        "data": [
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/53\/81\/a6\/8b\/f8\/61cRzw2wnwL._SL1000_.jpg",
+            "caption": "Remote relay can be found here: http:\/\/www.amazon.com\/Channel-Wireless-Learning-Control-Transmitter\/dp\/B00XY60SP4\/ref=sr_1_fkmr3_2?s=photo&ie=UTF8&qid=1446421833&sr=8-2-fkmr3&keywords=latching+relay+remote+rf+12v",
+            "image_id": "2534"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/8e\/73\/d6\/bb\/43\/20141121090247653.jpg",
+            "caption": "Battery pack can be found here: http:\/\/www.ebay.com\/itm\/Mini-Portable-DC-168-12V-Rechargeable-Li-ion-Battery-Pack-for-CCTV-Camera-OK-\/272016950890?hash=item3f5579466a:g:PYcAAOSwI-BWH1Uu",
+            "image_id": "2531"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/d4\/8b\/04\/d5\/db\/s-l400.jpg",
+            "caption": "The light and siren are from this: http:\/\/www.ebay.com\/itm\/For-US-Mini-12V-Strobe-Flashing-Light-Lamp-Siren-Home-Security-Wired-Sound-Alarm-\/381452701060?hash=item58d05a4d84:g:rlMAAOSwm8VUyDgr",
+            "image_id": "2532"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Assembly",
+        "data": [
+          {
+            "content": "<div><p>The 3d printed parts are the housing to mount the following components. I currently don't have the parts but they are connected as follows. ( I would hope that the entry is judged for the intended purpose and not docked because I can't afford to purchase the components right now.)<\/p><p>First take the battery pack and strip back the wire to the male connector and tin them with a soldering iron.<br>Next take the light and siren out of the flasher and wire it up to the output on the relay module.<br>Next take the stripped end of the battery connector and connect the proper polarity of wire to the power input on the relay module.<br>Now take the clear red cross ( you can print it in clear then color the inside red with sharpie)  and glue it where it rests snugly to the out side of the case.<br>Then take all the electronics and hot glue them in place. (the switch on the battery fits in the rectangle on the bottom and the female end can fit in the circle cut out on the side.)<br>make sure the light is in the red cross.<br>Follow the instructions with the relay to make sure the button is set to one click on one click off.<br>Test it then if everything works screw or glue the back on and place it where every or with who every you can trust will help.<\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1105106\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1105106\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1105106\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1105106\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1105106\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1105106\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1105106\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 765,
+    "view_count": 1498,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Housing_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/b9\/b7\/33\/05\/Housing_2.stl"
+        },
+        {
+          "name": "Red_Cross.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/17\/16\/62\/ec\/Red_Cross.stl"
+        },
+        {
+          "name": "Cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/d0\/4d\/18\/be\/Cover.stl"
+        },
+        {
+          "name": "Finger_clip.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/17\/84\/2c\/38\/Finger_clip.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Image.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/71\/73\/74\/cb\/c0\/Image.jpg"
+        },
+        {
+          "name": "Image_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/24\/54\/27\/88\/Image_2.jpg"
+        },
+        {
+          "name": "Red_Cross.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f7\/9f\/f9\/2a\/40\/Red_Cross.png"
+        },
+        {
+          "name": "Cover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ae\/a9\/9d\/b6\/12\/Cover.png"
+        },
+        {
+          "name": "Housing_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/dd\/e8\/61\/f1\/Housing_2.png"
+        },
+        {
+          "name": "Finger_clip.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/02\/b3\/59\/fc\/b9\/Finger_clip.png"
+        }
+      ]
+    }
+  }
+}

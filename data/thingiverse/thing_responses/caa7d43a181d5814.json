@@ -1,0 +1,493 @@
+{
+  "created_at": "2025-10-08T03:27:28.332505+00:00",
+  "elapsed": 0.249599,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28ae888003023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:28 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:28 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2754338?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2754338?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2754338,
+    "name": "Promimetic Hand G1",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2754338",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2754338",
+    "creator": {
+      "id": 1592059,
+      "name": "Willart3d",
+      "first_name": "Wilmer",
+      "last_name": "Garc\u00eca",
+      "url": "https:\/\/api.thingiverse.com\/users\/Willart3d",
+      "public_url": "https:\/\/www.thingiverse.com\/Willart3d",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0e\/06\/69\/bd\/9a\/06a9c15baf2bf2ac403ed9aa050cc011_thumb_medium.jpg",
+      "count_of_followers": 7,
+      "count_of_following": 0,
+      "count_of_designs": 2,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Bogot\u00e1 Colombia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d1\/49\/94\/88\/3e\/9a31c40cfa8e01278ffc7098d39862a4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-01-11T23:32:07+00:00",
+    "modified": "2018-01-11T23:32:07+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 26,
+    "is_liked": false,
+    "collect_count": 52,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7430314,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/8f\/e5\/55\/64\/publicaci%C3%B3n_promimetic_hand_thingiverse.jpg",
+      "name": "publicaci\u00f3n_promimetic_hand_thingiverse.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/bb\/43\/03\/2a\/29f5a8c83e00449cf4c664e86c7c9b92_display_small.jpg"
+        }
+      ],
+      "added": "2018-01-11T23:29:54+00:00"
+    },
+    "description": "PROMIMETIC is based in Flexy Arm by Christian Silva, the Flexy_Hand 2 by Steve Wood (Gyrobot) and the work of the e_NABLE group ( http:\/\/enablingthefuture.org\/ ). all this files are covered by creative commons attribution license. Non-Commercial\r\n\r\nAll reproduction o derivatives from this model should be supervised by a certified professional in the handling of prostheses and orthoses.\r\n\r\nIt is no a model for comercial use and all kind of intention of sell and make business or take profit from it or any derivation remix etc will be punished by the law in exception to his developer Wilmer Garcia\r\n\r\nEsta soluci\u00f3n protesica solo se podr\u00e1 adaptar en un paciente ni\u00f1o mayor a 3 a\u00f1os o adulto bajo la accesoria de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci\u00f3n de un profesional en psicolog\u00eda\r\n\r\nPor favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci\u00f3n protesica\r\n\r\nDise\u00f1o del artista: Wilmer Garc\u00eda\r\nConcepto mec\u00e1nico del Ing. Mecatr\u00f3nico Christian Silva\r\nestudiantes de la Universidad Nacional de Colombia.\r\n\r\nPROMIMETIC es un proyecto dise\u00f1ado y elaborado por el artista pl\u00e1stico Wilmer A. Garc\u00eda P. estudiante de la Universidad Nacional de Colombia y dirigido por el Ingeniero Mecatr\u00f3nico Cristian Silva estudiante de Doctorado en la Universidad Nacional de Colombia. Modelo a su vez basado en el Flexy arm de Christian Silva, El Flexy_Hand 2 de Steve Wood (Gyrobot) y el trabajo del grupo e_NABLE Trabajo desarrollado por el equipo e-Nable Colombia- Give me five, Fabrilab en Bogot\u00e1, con la participaci\u00f3n y el apoyo de Recreartech en el proceso de escaneo 3d y de Realiza 3D en la impresi\u00f3n 3D. Todos estos archivos est\u00e1n cubiertos por la licencia creativa atribuci\u00f3n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.\r\n\r\nTodos los padres y los ni\u00f1os fueron informados sobre el estudio e investigaci\u00f3n para el desarrollo de este trabajo. Para ni\u00f1os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmada por los ni\u00f1os y sus padres. el consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im\u00e1genes y v\u00eddeos que aparecen en el estudio de investigaci\u00f3n y la investigaci\u00f3n. Se le entrego Pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr\u00f3tesis de brazo.\r\n\r\npautas de seguridad detalladas enlace:\r\nhttp:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\r\n\r\nLos dedos est\u00e1n impresos en material Flexy, mano, antebrazo, brazo y dem\u00e1s partes en material PLA o PET\r\n\r\nFabrilab www.fabrilab.com.co\r\n\r\nThis prosthetic solution can only be adapted in a patient older child or adult to 3 years under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology\r\n\r\nPlease read the safety manual and use of this prosthetic solution carefully first\r\n\r\nDesign Artist: Wilmer Garcia\r\nMechanical concept of Ing. Mecatr\u00f3nico Christian Silva\r\nstudents from the National University of Colombia.\r\n\r\nBIONIC FLEXY ARM II is a project designed and developed by artist Wilmer A. Garcia P. student at the National University of Colombia and directed by Cristian Silva Mechatronic Engineering PhD student at the National University of Colombia. Model in turn based on the Flexy arm of Christian Silva, The Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group. Work developed by the team e-Nable Colombia and Fabrilab www.fabrilab.com.co with the participation and support of Recreartech in the process of 3D scanning and Realiza3D participation in the 3D printing process . All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print it.\r\n\r\nAll parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. I was given detailed safety guidelines for parents about the use and care of prosthetic arm.\r\n\r\ndetailed safety guidelines link:\r\nhttp:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\r\n\r\nThe fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA and PET material.\r\n\r\nFor more information www.fabrilab.com.co",
+    "instructions": "",
+    "description_html": "<div><p>PROMIMETIC is based in Flexy Arm by Christian Silva, the Flexy_Hand 2 by Steve Wood (Gyrobot) and the work of the e_NABLE group ( <a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/\">http:\/\/enablingthefuture.org\/<\/a> ). all this files are covered by creative commons attribution license. Non-Commercial<\/p><p>All reproduction o derivatives from this model should be supervised by a certified professional in the handling of prostheses and orthoses.<\/p><p>It is no a model for comercial use and all kind of intention of sell and make business or take profit from it or any derivation remix etc will be punished by the law in exception to his developer Wilmer Garcia<\/p><p>Esta soluci\u00f3n protesica solo se podr\u00e1 adaptar en un paciente ni\u00f1o mayor a 3 a\u00f1os o adulto bajo la accesoria de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci\u00f3n de un profesional en psicolog\u00eda<\/p><p>Por favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci\u00f3n protesica<\/p><p>Dise\u00f1o del artista: Wilmer Garc\u00eda<br>Concepto mec\u00e1nico del Ing. Mecatr\u00f3nico Christian Silva<br>estudiantes de la Universidad Nacional de Colombia.<\/p><p>PROMIMETIC es un proyecto dise\u00f1ado y elaborado por el artista pl\u00e1stico Wilmer A. Garc\u00eda P. estudiante de la Universidad Nacional de Colombia y dirigido por el Ingeniero Mecatr\u00f3nico Cristian Silva estudiante de Doctorado en la Universidad Nacional de Colombia. Modelo a su vez basado en el Flexy arm de Christian Silva, El Flexy_Hand 2 de Steve Wood (Gyrobot) y el trabajo del grupo e_NABLE Trabajo desarrollado por el equipo e-Nable Colombia- Give me five, Fabrilab en Bogot\u00e1, con la participaci\u00f3n y el apoyo de Recreartech en el proceso de escaneo 3d y de Realiza 3D en la impresi\u00f3n 3D. Todos estos archivos est\u00e1n cubiertos por la licencia creativa atribuci\u00f3n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<\/p><p>Todos los padres y los ni\u00f1os fueron informados sobre el estudio e investigaci\u00f3n para el desarrollo de este trabajo. Para ni\u00f1os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmada por los ni\u00f1os y sus padres. el consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im\u00e1genes y v\u00eddeos que aparecen en el estudio de investigaci\u00f3n y la investigaci\u00f3n. Se le entrego Pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr\u00f3tesis de brazo.<\/p><p>pautas de seguridad detalladas enlace:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>Los dedos est\u00e1n impresos en material Flexy, mano, antebrazo, brazo y dem\u00e1s partes en material PLA o PET<\/p><p>Fabrilab www.fabrilab.com.co<\/p><p>This prosthetic solution can only be adapted in a patient older child or adult to 3 years under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology<\/p><p>Please read the safety manual and use of this prosthetic solution carefully first<\/p><p>Design Artist: Wilmer Garcia<br>Mechanical concept of Ing. Mecatr\u00f3nico Christian Silva<br>students from the National University of Colombia.<\/p><p>BIONIC FLEXY ARM II is a project designed and developed by artist Wilmer A. Garcia P. student at the National University of Colombia and directed by Cristian Silva Mechatronic Engineering PhD student at the National University of Colombia. Model in turn based on the Flexy arm of Christian Silva, The Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group. Work developed by the team e-Nable Colombia and Fabrilab www.fabrilab.com.co with the participation and support of Recreartech in the process of 3D scanning and Realiza3D participation in the 3D printing process . All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print it.<\/p><p>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. I was given detailed safety guidelines for parents about the use and care of prosthetic arm.<\/p><p>detailed safety guidelines link:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA and PET material.<\/p><p>For more information www.fabrilab.com.co<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>PROMIMETIC is based in Flexy Arm by Christian Silva, the Flexy_Hand 2 by Steve Wood (Gyrobot) and the work of the e_NABLE group ( <a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/\">http:\/\/enablingthefuture.org\/<\/a> ). all this files are covered by creative commons attribution license. Non-Commercial<\/p><p>All reproduction o derivatives from this model should be supervised by a certified professional in the handling of prostheses and orthoses.<\/p><p>It is no a model for comercial use and all kind of intention of sell and make business or take profit from it or any derivation remix etc will be punished by the law in exception to his developer Wilmer Garcia<\/p><p>Esta soluci\u00f3n protesica solo se podr\u00e1 adaptar en un paciente ni\u00f1o mayor a 3 a\u00f1os o adulto bajo la accesoria de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci\u00f3n de un profesional en psicolog\u00eda<\/p><p>Por favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci\u00f3n protesica<\/p><p>Dise\u00f1o del artista: Wilmer Garc\u00eda<br>Concepto mec\u00e1nico del Ing. Mecatr\u00f3nico Christian Silva<br>estudiantes de la Universidad Nacional de Colombia.<\/p><p>PROMIMETIC es un proyecto dise\u00f1ado y elaborado por el artista pl\u00e1stico Wilmer A. Garc\u00eda P. estudiante de la Universidad Nacional de Colombia y dirigido por el Ingeniero Mecatr\u00f3nico Cristian Silva estudiante de Doctorado en la Universidad Nacional de Colombia. Modelo a su vez basado en el Flexy arm de Christian Silva, El Flexy_Hand 2 de Steve Wood (Gyrobot) y el trabajo del grupo e_NABLE Trabajo desarrollado por el equipo e-Nable Colombia- Give me five, Fabrilab en Bogot\u00e1, con la participaci\u00f3n y el apoyo de Recreartech en el proceso de escaneo 3d y de Realiza 3D en la impresi\u00f3n 3D. Todos estos archivos est\u00e1n cubiertos por la licencia creativa atribuci\u00f3n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<\/p><p>Todos los padres y los ni\u00f1os fueron informados sobre el estudio e investigaci\u00f3n para el desarrollo de este trabajo. Para ni\u00f1os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmada por los ni\u00f1os y sus padres. el consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im\u00e1genes y v\u00eddeos que aparecen en el estudio de investigaci\u00f3n y la investigaci\u00f3n. Se le entrego Pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr\u00f3tesis de brazo.<\/p><p>pautas de seguridad detalladas enlace:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>Los dedos est\u00e1n impresos en material Flexy, mano, antebrazo, brazo y dem\u00e1s partes en material PLA o PET<\/p><p>Fabrilab www.fabrilab.com.co<\/p><p>This prosthetic solution can only be adapted in a patient older child or adult to 3 years under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology<\/p><p>Please read the safety manual and use of this prosthetic solution carefully first<\/p><p>Design Artist: Wilmer Garcia<br>Mechanical concept of Ing. Mecatr\u00f3nico Christian Silva<br>students from the National University of Colombia.<\/p><p>BIONIC FLEXY ARM II is a project designed and developed by artist Wilmer A. Garcia P. student at the National University of Colombia and directed by Cristian Silva Mechatronic Engineering PhD student at the National University of Colombia. Model in turn based on the Flexy arm of Christian Silva, The Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group. Work developed by the team e-Nable Colombia and Fabrilab www.fabrilab.com.co with the participation and support of Recreartech in the process of 3D scanning and Realiza3D participation in the 3D printing process . All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print it.<\/p><p>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. I was given detailed safety guidelines for parents about the use and care of prosthetic arm.<\/p><p>detailed safety guidelines link:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA and PET material.<\/p><p>For more information www.fabrilab.com.co<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>i3 MK2S<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.15 mm - 0.1 mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>70 %<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/v364_L9ryz8\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>PROMIMETIC is based in Flexy Arm by Christian Silva, the Flexy_Hand 2 by Steve Wood (Gyrobot) and the work of the e_NABLE group ( <a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/\">http:\/\/enablingthefuture.org\/<\/a> ). all this files are covered by creative commons attribution license. Non-Commercial<\/p><p>All reproduction o derivatives from this model should be supervised by a certified professional in the handling of prostheses and orthoses.<\/p><p>It is no a model for comercial use and all kind of intention of sell and make business or take profit from it or any derivation remix etc will be punished by the law in exception to his developer Wilmer Garcia<\/p><p>Esta soluci\u00f3n protesica solo se podr\u00e1 adaptar en un paciente ni\u00f1o mayor a 3 a\u00f1os o adulto bajo la accesoria de una profesional de la salud, terapeuta, fisioterapeuta, fisiatra y con la colaboraci\u00f3n de un profesional en psicolog\u00eda<\/p><p>Por favor lea cuidadosamente primero el manual de seguridad y uso de esta soluci\u00f3n protesica<\/p><p>Dise\u00f1o del artista: Wilmer Garc\u00eda<br>Concepto mec\u00e1nico del Ing. Mecatr\u00f3nico Christian Silva<br>estudiantes de la Universidad Nacional de Colombia.<\/p><p>PROMIMETIC es un proyecto dise\u00f1ado y elaborado por el artista pl\u00e1stico Wilmer A. Garc\u00eda P. estudiante de la Universidad Nacional de Colombia y dirigido por el Ingeniero Mecatr\u00f3nico Cristian Silva estudiante de Doctorado en la Universidad Nacional de Colombia. Modelo a su vez basado en el Flexy arm de Christian Silva, El Flexy_Hand 2 de Steve Wood (Gyrobot) y el trabajo del grupo e_NABLE Trabajo desarrollado por el equipo e-Nable Colombia- Give me five, Fabrilab en Bogot\u00e1, con la participaci\u00f3n y el apoyo de Recreartech en el proceso de escaneo 3d y de Realiza 3D en la impresi\u00f3n 3D. Todos estos archivos est\u00e1n cubiertos por la licencia creativa atribuci\u00f3n bienes comunes. No comercial, por favor utilice la referencia de nosotros si desea imprimirlo.<\/p><p>Todos los padres y los ni\u00f1os fueron informados sobre el estudio e investigaci\u00f3n para el desarrollo de este trabajo. Para ni\u00f1os de 3 a 16, el consentimiento fue explicado por el investigador principal y firmada por los ni\u00f1os y sus padres. el consentimiento informado por escrito de los padres se obtuvo con el fin de publicar las im\u00e1genes y v\u00eddeos que aparecen en el estudio de investigaci\u00f3n y la investigaci\u00f3n. Se le entrego Pautas de seguridad detalladas a los padres sobre el uso y cuidado de la pr\u00f3tesis de brazo.<\/p><p>pautas de seguridad detalladas enlace:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>Los dedos est\u00e1n impresos en material Flexy, mano, antebrazo, brazo y dem\u00e1s partes en material PLA o PET<\/p><p>Fabrilab www.fabrilab.com.co<\/p><p>This prosthetic solution can only be adapted in a patient older child or adult to 3 years under ancillary to a health professional, therapist, physical therapist, physiatrist and with the help of a professional in psychology<\/p><p>Please read the safety manual and use of this prosthetic solution carefully first<\/p><p>Design Artist: Wilmer Garcia<br>Mechanical concept of Ing. Mecatr\u00f3nico Christian Silva<br>students from the National University of Colombia.<\/p><p>BIONIC FLEXY ARM II is a project designed and developed by artist Wilmer A. Garcia P. student at the National University of Colombia and directed by Cristian Silva Mechatronic Engineering PhD student at the National University of Colombia. Model in turn based on the Flexy arm of Christian Silva, The Flexy_Hand 2 Steve Wood (Gyrobot), arm RIT (Rochester Institute of Technology) e_NABLE work group. Work developed by the team e-Nable Colombia and Fabrilab www.fabrilab.com.co with the participation and support of Recreartech in the process of 3D scanning and Realiza3D participation in the 3D printing process . All these files are covered by the common creative license attribution goods. Non-commercial, please use the reference to us if you want to print it.<\/p><p>All parents and children were informed about the study and research for the development of this work. For children 3-16, consent was explained by the principal investigator and signed by the children and their parents. Written informed parental consent was obtained in order to publish the pictures and videos that appear in the research study and research. I was given detailed safety guidelines for parents about the use and care of prosthetic arm.<\/p><p>detailed safety guidelines link:<br><a rel=\"nofollow\" href=\"http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/\">http:\/\/enablingthefuture.org\/build-a-hand\/safety-guidelines\/<\/a><\/p><p>The fingers are printed on Flexy materials, hand, forearm, arm and other parts of PLA and PET material.<\/p><p>For more information www.fabrilab.com.co<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>",
+            "printer": "<div><p>i3 MK2S<\/p><\/div>",
+            "resolution": "<div><p>0.15 mm - 0.1 mm<\/p><\/div>",
+            "infill": "<div><p>70 %<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/v364_L9ryz8\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2754338\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2754338\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2754338\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2754338\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2754338\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2754338\/tags",
+    "tags": [
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1796,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "cosplay",
+        "tag": "cosplay",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cosplay",
+        "count": 9886,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cosplay\/things",
+        "absolute_url": "\/tag:cosplay"
+      },
+      {
+        "name": "costume",
+        "tag": "costume",
+        "url": "https:\/\/api.thingiverse.com\/tags\/costume",
+        "count": 2604,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/costume\/things",
+        "absolute_url": "\/tag:costume"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 2042,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 165,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 254,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 690,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 241,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2754338\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 681,
+    "view_count": 2127,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "antebrazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/43\/1d\/47\/ad\/antebrazo.stl"
+        },
+        {
+          "name": "pulgar.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/7d\/53\/84\/a8\/pulgar.stl"
+        },
+        {
+          "name": "refuerzo_cintas.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/51\/38\/01\/cf\/refuerzo_cintas.stl"
+        },
+        {
+          "name": "mano.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e9\/a7\/1f\/fa\/13\/mano.stl"
+        },
+        {
+          "name": "4_dedos.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/3a\/c3\/0c\/df\/4_dedos.stl"
+        },
+        {
+          "name": "tensor_x5.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/51\/06\/98\/88\/98\/tensor_x5.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "publicaci\u00f3n_promimetic_hand_thingiverse.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/8f\/e5\/55\/64\/publicaci\u00f3n_promimetic_hand_thingiverse.jpg"
+        },
+        {
+          "name": "publicaci\u00f3n_Promimetic_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/a7\/27\/64\/9a\/publicaci\u00f3n_Promimetic_1.png"
+        },
+        {
+          "name": "publicaci\u00f3n_Promimetic_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/a5\/47\/b1\/aa\/publicaci\u00f3n_Promimetic_2.png"
+        },
+        {
+          "name": "1f04240a1bb83547b90c86a62888c201.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/64\/85\/27\/f6\/34\/1f04240a1bb83547b90c86a62888c201.png"
+        },
+        {
+          "name": "3df599deb54e07151bfd751fcd8d7279.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/08\/00\/45\/e1\/1c\/3df599deb54e07151bfd751fcd8d7279.png"
+        },
+        {
+          "name": "99d613c444f9ff4003a83bb3958a13fd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/39\/09\/70\/a6\/03\/99d613c444f9ff4003a83bb3958a13fd.png"
+        },
+        {
+          "name": "82bcd338a5958d67f165e827eb32cb3e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d4\/d3\/9c\/10\/c5\/82bcd338a5958d67f165e827eb32cb3e.png"
+        },
+        {
+          "name": "3cfaf22d1cc7772be66ce0f05bcf7517.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/e3\/9a\/d2\/7a\/3cfaf22d1cc7772be66ce0f05bcf7517.png"
+        },
+        {
+          "name": "034ace4ad2ee7bc04dab238029ee8b12.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5a\/5b\/9d\/8c\/a7\/034ace4ad2ee7bc04dab238029ee8b12.png"
+        }
+      ]
+    }
+  }
+}

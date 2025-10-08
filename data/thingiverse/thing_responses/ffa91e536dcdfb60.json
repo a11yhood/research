@@ -1,0 +1,417 @@
+{
+  "created_at": "2025-10-08T03:28:22.359219+00:00",
+  "elapsed": 0.217785,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28c3a7ba93023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:22 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:22 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3265022?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3265022?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3265022,
+    "name": "Blind Person's Assistant",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3265022",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3265022",
+    "creator": {
+      "id": 2315363,
+      "name": "apetsiuk",
+      "first_name": "Aliaksei",
+      "last_name": "Petsiuk",
+      "url": "https:\/\/api.thingiverse.com\/users\/apetsiuk",
+      "public_url": "https:\/\/www.thingiverse.com\/apetsiuk",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/10\/4e\/e7\/fd\/d0\/6a98d6ca336be12f1a3bd15795dde5b9_thumb_medium.jpg",
+      "count_of_followers": 5,
+      "count_of_following": 3,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Houghton, MI",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/5a\/f5\/bf\/43\/54\/a91570fe7bcadbd654bf33f72294a12b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-12-06T22:12:33+00:00",
+    "modified": "2018-12-06T22:12:33+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 45,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 9464192,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/8d\/cc\/00\/6d\/blnd_asst_1_apetsiuk.jpg",
+      "name": "blnd_asst_1_apetsiuk.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/37\/8a\/b0\/03\/8c\/14b1847841e79213e06f56051d11ed46_display_small.jpg"
+        }
+      ],
+      "added": "2018-12-06T22:12:30+00:00"
+    },
+    "description": "The given project is a part of Open Source Appropriate Technologies (http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT) assignment, and it is designed to support visually-impaired people.\r\n\r\nAs per World Health Organization, there are about 300 million visually-impaired people in the world, 40 millions of them are totally blind. Scientists and engineers are working on systems which would be able to improve the quality of lives of people with the lost vision. A number of modern projects and achievements in this field has been listed in the Reference section.\r\n\r\nThe complete manual and description are available at http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant",
+    "instructions": "",
+    "description_html": "<div><p>The given project is a part of Open Source Appropriate Technologies (<a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT\">http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT<\/a>) assignment, and it is designed to support visually-impaired people.<\/p><p>As per World Health Organization, there are about 300 million visually-impaired people in the world, 40 millions of them are totally blind. Scientists and engineers are working on systems which would be able to improve the quality of lives of people with the lost vision. A number of modern projects and achievements in this field has been listed in the Reference section.<\/p><p>The complete manual and description are available at <a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant\">http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The given project is a part of Open Source Appropriate Technologies (<a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT\">http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT<\/a>) assignment, and it is designed to support visually-impaired people.<\/p><p>As per World Health Organization, there are about 300 million visually-impaired people in the world, 40 millions of them are totally blind. Scientists and engineers are working on systems which would be able to improve the quality of lives of people with the lost vision. A number of modern projects and achievements in this field has been listed in the Reference section.<\/p><p>The complete manual and description are available at <a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant\">http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>RepRap Delta AthenaII<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;40&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Hatchbox PLA<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The given project is a part of Open Source Appropriate Technologies (<a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT\">http:\/\/www.appropedia.org\/Open_source_3-D_printing_of_OSAT<\/a>) assignment, and it is designed to support visually-impaired people.<\/p><p>As per World Health Organization, there are about 300 million visually-impaired people in the world, 40 millions of them are totally blind. Scientists and engineers are working on systems which would be able to improve the quality of lives of people with the lost vision. A number of modern projects and achievements in this field has been listed in the Reference section.<\/p><p>The complete manual and description are available at <a rel=\"nofollow\" href=\"http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant\">http:\/\/www.appropedia.org\/Blind_Person%27s_Assistant<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>RepRap Delta AthenaII<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "infill": "<div><p>40<\/p><\/div>",
+            "filament_brand": "<div><p>Hatchbox<\/p><\/div>",
+            "filament_material": "<div><p>PLA<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3265022\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3265022\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3265022\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3265022\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3265022\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3265022\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3265022\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 540,
+    "view_count": 884,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "health_bracelet2_CAD.FCStd",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/fd\/61\/fb\/02\/health_bracelet2_CAD.FCStd"
+        },
+        {
+          "name": "health_top2_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/0e\/e1\/12\/c3\/health_top2_STL.stl"
+        },
+        {
+          "name": "health_case_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/21\/91\/22\/99\/health_case_STL.stl"
+        },
+        {
+          "name": "health_bracelet2_STL.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/1d\/95\/25\/e6\/health_bracelet2_STL.stl"
+        },
+        {
+          "name": "health_top2_CAD.FCStd",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/59\/cd\/55\/0a\/health_top2_CAD.FCStd"
+        },
+        {
+          "name": "health_case_CAD.FCStd",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/c5\/66\/f5\/59\/health_case_CAD.FCStd"
+        }
+      ],
+      "images": [
+        {
+          "name": "blnd_asst_1_apetsiuk.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/8d\/cc\/00\/6d\/blnd_asst_1_apetsiuk.jpg"
+        },
+        {
+          "name": "4d3620ff9fea644020dc2bcb45e0d738.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9f\/3a\/4d\/14\/c4\/4d3620ff9fea644020dc2bcb45e0d738.png"
+        },
+        {
+          "name": "70412a1c69840b8c11f4532a798d8068.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/6b\/c0\/68\/6a\/70412a1c69840b8c11f4532a798d8068.png"
+        },
+        {
+          "name": "92fcb04ee2e0b96f05dcd703885b85b9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3d\/64\/dd\/7e\/67\/92fcb04ee2e0b96f05dcd703885b85b9.png"
+        },
+        {
+          "name": "blnd_asst_03_apetsiuk.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/fc\/18\/07\/37\/blnd_asst_03_apetsiuk.jpg"
+        },
+        {
+          "name": "blnd_asst_02_apetsiuk.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/ed\/de\/01\/b5\/blnd_asst_02_apetsiuk.jpg"
+        },
+        {
+          "name": "blnd_asst_04_apetsiuk.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/be\/50\/60\/44\/blnd_asst_04_apetsiuk.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "created_at": "2025-04-12T03:32:35.474503+00:00",
+  "elapsed": 0.189588,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92efa8489beaeb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:35 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:35 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2800937?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2800937?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2800937,
+    "name": "LipSync",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2800937",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2800937",
+    "creator": {
+      "id": 1297674,
+      "name": "makersmakingchange",
+      "first_name": "Makers Making Change",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/makersmakingchange",
+      "public_url": "https:\/\/www.thingiverse.com\/makersmakingchange",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/65\/39\/09\/3d\/f8\/MakersMakingChange_Icon_thigniveser-05.png",
+      "count_of_followers": 580,
+      "count_of_following": 15,
+      "count_of_designs": 30,
+      "collection_count": 7,
+      "make_count": 2,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Canada",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/12\/e1\/40\/ab\/23\/0e5eb2f94c4d1fd3b0091c2b69246deb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-02-28T18:20:49+00:00",
+    "modified": "2018-02-28T18:20:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 43,
+    "is_liked": false,
+    "collect_count": 96,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 7671498,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/d6\/02\/c2\/c1\/LipSync-Shot-1005x5802.jpg",
+      "name": "LipSync-Shot-1005x5802.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6d\/d6\/bf\/5a\/1c\/41e202300a34cc0a9f3bad9513874eef_display_small.jpg"
+        }
+      ],
+      "added": "2018-02-20T22:29:16+00:00"
+    },
+    "description": "The LipSync is an assistive technology that allows quadriplegics and other people with limited hand mobility to use touchscreen devices by manipulating a mouth-operated sip-and-puff joystick.\r\n\r\nThe unit allows users to control an on-screen cursor with minimal head movement, enabling them to independently send text messages, make phone calls, and browse the web. It can be used with most Android and Windows phones & tablets, and all laptops\/desktops. \r\n\r\nWe are releasing this device open-source to make the Lipsync a solution that can be made at the community level for less than $300 (including electronic components). \r\n\r\nUsing different firmware, it is also possible to use the Lipsync as a joystick for gaming with a computer or the Xbox Adaptive Controller.\r\n\r\n2019-10-01 Update: As of Oct 2019, iOS13 supports an on-screen cursor, so the LipSync can be used with iPhones and iPads.\r\n2019-11-07 Update: Revised rear housing and buttons to accommodate wider range of USB cables.\r\n\r\nThe LipSync project is funded by Google.org, Vancouver Foundation, and the Government of Canada.\r\n<hr>\r\n<table><tr><td><a rel=\"nofollow\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>\r\n        <td><a rel=\"nofollow\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>\r\n    <\/tr><\/table><br>\r\n<font color=\"#404041\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/font><Br>\r\n<font color=\"#404041\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/font><br><br>\r\n\r\n<font color=\"#404041\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/font>\r\n\r\n<div><p><a rel=\"nofollow\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a>",
+    "instructions": "",
+    "description_html": "<div><p>The LipSync is an assistive technology that allows quadriplegics and other people with limited hand mobility to use touchscreen devices by manipulating a mouth-operated sip-and-puff joystick.<\/p><p>The unit allows users to control an on-screen cursor with minimal head movement, enabling them to independently send text messages, make phone calls, and browse the web. It can be used with most Android and Windows phones &amp; tablets, and all laptops\/desktops. <\/p><p>We are releasing this device open-source to make the Lipsync a solution that can be made at the community level for less than $300 (including electronic components). <\/p><p>Using different firmware, it is also possible to use the Lipsync as a joystick for gaming with a computer or the Xbox Adaptive Controller.<\/p><p>2019-10-01 Update: As of Oct 2019, iOS13 supports an on-screen cursor, so the LipSync can be used with iPhones and iPads.<br>2019-11-07 Update: Revised rear housing and buttons to accommodate wider range of USB cables.<\/p><p>The LipSync project is funded by Google.org, Vancouver Foundation, and the Government of Canada.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>The LipSync is an assistive technology that allows quadriplegics and other people with limited hand mobility to use touchscreen devices by manipulating a mouth-operated sip-and-puff joystick.<\/p><p>The unit allows users to control an on-screen cursor with minimal head movement, enabling them to independently send text messages, make phone calls, and browse the web. It can be used with most Android and Windows phones &amp; tablets, and all laptops\/desktops. <\/p><p>We are releasing this device open-source to make the Lipsync a solution that can be made at the community level for less than $300 (including electronic components). <\/p><p>Using different firmware, it is also possible to use the Lipsync as a joystick for gaming with a computer or the Xbox Adaptive Controller.<\/p><p>2019-10-01 Update: As of Oct 2019, iOS13 supports an on-screen cursor, so the LipSync can be used with iPhones and iPads.<br>2019-11-07 Update: Revised rear housing and buttons to accommodate wider range of USB cables.<\/p><p>The LipSync project is funded by Google.org, Vancouver Foundation, and the Government of Canada.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span>Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span>We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>Print all components in orientation of STL file. See Read_me.txt for print instructions.<\/p><\/div><h1 class=\"thing-component-header custom part-a-obtain-parts-files\">Part A: Obtain Parts &amp; Files<\/h1><div><p>Download all the parts list, equipments required, assembly manual, firmware, and other files to assemble a LipSync:<br><a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/makersmakingchange\/LipSync\/blob\/master\/README.md\">https:\/\/github.com\/makersmakingchange\/LipSync\/blob\/master\/README.md<\/a><\/p><\/div><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/f5\/ca\/a8\/52\/7b\/LipSync_-_Part_A.png\"&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header custom part-b-assemble-the-lipsync\">Part B: Assemble the LipSync<\/h1><div><p>Assemble the components to build a LipSync. <\/p><p>Beginner to intermediate solderers may take 3-5 hours; advance solderers may spend 1-2 hours to assemble a unit.<\/p><\/div><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/c1\/ef\/25\/f5\/9d\/LipSync_-_Part_B.png\"&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header custom part-c-use\">Part C: Use<\/h1><div><p>Makers who build the LipSync can give the device to someone they know or donate it to a someone in their community who may need it. <\/p><p>To find a person in your community who can benefit from using the LipSync, search your city or postal code on <a rel=\"ugc nofollow\" href=\"http:\/\/www.makersmakingchange.com\/\">http:\/\/www.makersmakingchange.com\/<\/a><\/p><\/div><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b0\/3d\/6f\/99\/40\/Julie-Using-a-.jpg\"&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header custom about-the-lipsync\">About the LipSync<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/Aswl6QrCb7w\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>The LipSync is an assistive technology that allows quadriplegics and other people with limited hand mobility to use touchscreen devices by manipulating a mouth-operated sip-and-puff joystick.<\/p><p>The unit allows users to control an on-screen cursor with minimal head movement, enabling them to independently send text messages, make phone calls, and browse the web. It can be used with most Android and Windows phones &amp; tablets, and all laptops\/desktops. <\/p><p>We are releasing this device open-source to make the Lipsync a solution that can be made at the community level for less than $300 (including electronic components). <\/p><p>Using different firmware, it is also possible to use the Lipsync as a joystick for gaming with a computer or the Xbox Adaptive Controller.<\/p><p>2019-10-01 Update: As of Oct 2019, iOS13 supports an on-screen cursor, so the LipSync can be used with iPhones and iPads.<br>2019-11-07 Update: Revised rear housing and buttons to accommodate wider range of USB cables.<\/p><p>The LipSync project is funded by Google.org, Vancouver Foundation, and the Government of Canada.<\/p><hr><table><tr><td><a rel=\"nofollow ugc\" href=\"http:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/nlAliFa.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/www.instagram.com\/makersmakingchange\"><img src=\"https:\/\/i.imgur.com\/3UuGDa7.png\" alt=\"image\"><\/a><\/td>        <td><a rel=\"nofollow ugc\" href=\"https:\/\/twitter.com\/makermakechange\"><img src=\"https:\/\/i.imgur.com\/GZmeImw.png\" alt=\"image\"><\/a><\/td>    <\/tr><\/table><br><span style=\"color: #404041;\"><b>Volunteer your 3D printing skills to help people with disabilities in your community!<\/b><br><\/span><br><span style=\"color: #404041;\">Makers Making Change is an initiative of the Neil Squire Society, a Canadian non-profit that helps people with disabilities.<\/span><br><br><span style=\"color: #404041;\">We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.<\/span><div><p><a rel=\"nofollow ugc\" href=\"https:\/\/www.makersmakingchange.com\"><img src=\"https:\/\/i.imgur.com\/QCafg8l.png\" alt=\"makers making change\"><\/a><\/p><\/div><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "notes": "<div><p>Print all components in orientation of STL file. See Read_me.txt for print instructions.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Part A: Obtain Parts & Files",
+        "data": [
+          {
+            "content": "<div><p>Download all the parts list, equipments required, assembly manual, firmware, and other files to assemble a LipSync:<br><a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/makersmakingchange\/LipSync\/blob\/master\/README.md\">https:\/\/github.com\/makersmakingchange\/LipSync\/blob\/master\/README.md<\/a><\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/f5\/ca\/a8\/52\/7b\/LipSync_-_Part_A.png",
+            "image_id": "69883"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Part B: Assemble the LipSync",
+        "data": [
+          {
+            "content": "<div><p>Assemble the components to build a LipSync. <\/p><p>Beginner to intermediate solderers may take 3-5 hours; advance solderers may spend 1-2 hours to assemble a unit.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c1\/ef\/25\/f5\/9d\/LipSync_-_Part_B.png",
+            "image_id": "69884"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Part C: Use",
+        "data": [
+          {
+            "content": "<div><p>Makers who build the LipSync can give the device to someone they know or donate it to a someone in their community who may need it. <\/p><p>To find a person in your community who can benefit from using the LipSync, search your city or postal code on <a rel=\"ugc nofollow\" href=\"http:\/\/www.makersmakingchange.com\/\">http:\/\/www.makersmakingchange.com\/<\/a><\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b0\/3d\/6f\/99\/40\/Julie-Using-a-.jpg",
+            "image_id": "69885"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "About the LipSync",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/Aswl6QrCb7w\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2800937\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2800937\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2800937\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2800937\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2800937\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2800937\/tags",
+    "tags": [
+      {
+        "name": "3dprintable",
+        "tag": "3dprintable",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprintable",
+        "count": 3404,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprintable\/things",
+        "absolute_url": "\/tag:3dprintable"
+      },
+      {
+        "name": "3dprinting",
+        "tag": "3dprinting",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dprinting",
+        "count": 2298,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dprinting\/things",
+        "absolute_url": "\/tag:3dprinting"
+      },
+      {
+        "name": "access",
+        "tag": "access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/access",
+        "count": 105,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/access\/things",
+        "absolute_url": "\/tag:access"
+      },
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "android",
+        "tag": "android",
+        "url": "https:\/\/api.thingiverse.com\/tags\/android",
+        "count": 1556,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/android\/things",
+        "absolute_url": "\/tag:android"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "computer",
+        "tag": "computer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/computer",
+        "count": 4224,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/computer\/things",
+        "absolute_url": "\/tag:computer"
+      },
+      {
+        "name": "cursor",
+        "tag": "cursor",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cursor",
+        "count": 21,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cursor\/things",
+        "absolute_url": "\/tag:cursor"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1360,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "laptop",
+        "tag": "laptop",
+        "url": "https:\/\/api.thingiverse.com\/tags\/laptop",
+        "count": 2099,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/laptop\/things",
+        "absolute_url": "\/tag:laptop"
+      },
+      {
+        "name": "phone",
+        "tag": "phone",
+        "url": "https:\/\/api.thingiverse.com\/tags\/phone",
+        "count": 6841,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/phone\/things",
+        "absolute_url": "\/tag:phone"
+      },
+      {
+        "name": "quadraplegia",
+        "tag": "quadraplegia",
+        "url": "https:\/\/api.thingiverse.com\/tags\/quadraplegia",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/quadraplegia\/things",
+        "absolute_url": "\/tag:quadraplegia"
+      },
+      {
+        "name": "sippuff",
+        "tag": "sippuff",
+        "url": "https:\/\/api.thingiverse.com\/tags\/sippuff",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/sippuff\/things",
+        "absolute_url": "\/tag:sippuff"
+      },
+      {
+        "name": "tablet",
+        "tag": "tablet",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tablet",
+        "count": 2436,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tablet\/things",
+        "absolute_url": "\/tag:tablet"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      },
+      {
+        "name": "XboxAdaptive",
+        "tag": "xboxadaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/xboxadaptive",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/xboxadaptive\/things",
+        "absolute_url": "\/tag:XboxAdaptive"
+      },
+      {
+        "name": "xbox adaptive",
+        "tag": "xbox_adaptive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive",
+        "count": 11,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/xbox_adaptive\/things",
+        "absolute_url": "\/tag:xbox_adaptive"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2800937\/categories",
+    "file_count": 8,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 823,
+    "view_count": 2409,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "LipSync_Joystick_Rocker.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/d3\/16\/72\/8e\/LipSync_Joystick_Rocker.STL"
+        },
+        {
+          "name": "LipSync_Joystick_Stand.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/cb\/1e\/c6\/8f\/LipSync_Joystick_Stand.STL"
+        },
+        {
+          "name": "LipSync_Joystick_Base.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/aa\/a0\/d9\/4b\/LipSync_Joystick_Base.STL"
+        },
+        {
+          "name": "LipSync_Front_Housing.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/66\/5e\/f8\/41\/LipSync_Front_Housing.STL"
+        },
+        {
+          "name": "LipSync_Joystick_Front.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/e8\/74\/e2\/6a\/LipSync_Joystick_Front.STL"
+        },
+        {
+          "name": "Read_me.txt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/31\/6f\/0f\/16\/Read_me.txt"
+        },
+        {
+          "name": "LipSync_Button.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/ee\/ae\/f7\/51\/LipSync_Button.STL"
+        },
+        {
+          "name": "LipSync_Rear_Housing.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/3b\/89\/3a\/1b\/LipSync_Rear_Housing.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "LipSync-Shot-1005x5802.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/d6\/02\/c2\/c1\/LipSync-Shot-1005x5802.jpg"
+        },
+        {
+          "name": "Omar-1024x576.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/38\/23\/7c\/4b\/Omar-1024x576.jpg"
+        },
+        {
+          "name": "Exploded_view.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/cf\/d2\/e8\/b6\/Exploded_view.jpg"
+        },
+        {
+          "name": "da6fa369ae53b09b8ac64074320ef3b5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a6\/85\/89\/6a\/29\/da6fa369ae53b09b8ac64074320ef3b5.png"
+        },
+        {
+          "name": "b64331050a05ea2915de0de3f50c23f6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/90\/ca\/d7\/2e\/76\/b64331050a05ea2915de0de3f50c23f6.png"
+        },
+        {
+          "name": "12cb5f9f86b218914e6f4cc68613b329.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/75\/89\/5c\/95\/8b\/12cb5f9f86b218914e6f4cc68613b329.png"
+        },
+        {
+          "name": "8cbced48efcf80b9f7c45acf061fb2ce.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/17\/57\/5a\/cc\/5e\/8cbced48efcf80b9f7c45acf061fb2ce.png"
+        },
+        {
+          "name": "86d7572013840ca115630c4a901a5513.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/32\/30\/38\/55\/1e\/86d7572013840ca115630c4a901a5513.png"
+        },
+        {
+          "name": "LipSync_Button.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/74\/1a\/f5\/2e\/LipSync_Button.png"
+        },
+        {
+          "name": "LipSync_Rear_Housing.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/8a\/01\/84\/a4\/LipSync_Rear_Housing.png"
+        },
+        {
+          "name": "LipSync_Rear_Housing.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/fb\/56\/94\/8c\/LipSync_Rear_Housing.png"
+        }
+      ]
+    }
+  }
+}

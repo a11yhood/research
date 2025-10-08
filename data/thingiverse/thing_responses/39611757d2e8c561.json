@@ -1,0 +1,801 @@
+{
+  "created_at": "2025-07-18T03:59:24.255187+00:00",
+  "elapsed": 0.183035,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "960f10ef7e7967d7-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 18 Jul 2025 03:59:24 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 18 Jul 2025 04:29:24 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "3X4UYvh.AOj.den11MQBq6hdXWMz0WVuEjxjmWV1rk0-1752811066-1.0.1.1-TznNUWgFouKU9AgAildLP98fWAzQWNV16CQwAEii3kbIxa.QJxsgiUk7rS2Dlpyd4OIbEj1IUpqY3Bs33fNkGt8Wa0kjgPWVWO9yjXAsQYg",
+      "_cfuvid": "1oawrjfi5UI7ZWRlr04QvJzgOWcUSEzhZsufdrTZFk0-1752811066319-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=3X4UYvh.AOj.den11MQBq6hdXWMz0WVuEjxjmWV1rk0-1752811066-1.0.1.1-TznNUWgFouKU9AgAildLP98fWAzQWNV16CQwAEii3kbIxa.QJxsgiUk7rS2Dlpyd4OIbEj1IUpqY3Bs33fNkGt8Wa0kjgPWVWO9yjXAsQYg; _cfuvid=1oawrjfi5UI7ZWRlr04QvJzgOWcUSEzhZsufdrTZFk0-1752811066319-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6422941?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6422941?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6422941,
+    "name": "Prosthetic arm with EMG or Audio control. Includes code.",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/30\/13\/6d\/4e\/ba\/large_display_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6422941",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6422941",
+    "creator": {
+      "id": 7123917,
+      "name": "jerzku",
+      "first_name": "jere",
+      "last_name": "hiiri",
+      "url": "https:\/\/api.thingiverse.com\/users\/jerzku",
+      "public_url": "https:\/\/www.thingiverse.com\/jerzku",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_artist_thumb_medium.jpg",
+      "count_of_followers": 1,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-01-08T01:11:17+00:00",
+    "modified": "2025-04-02T16:22:35+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 31,
+    "is_liked": false,
+    "collect_count": 28,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 20487347,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/1f\/15\/ac\/47\/f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg",
+      "name": "f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/cc\/c2\/48\/87\/large_thumb_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/2a\/cc\/02\/c0\/medium_thumb_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/ff\/6a\/f0\/dc\/small_thumb_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/4d\/b0\/02\/a4\/tiny_thumb_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/61\/5f\/a9\/27\/featured_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/e9\/0b\/41\/f9\/card_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/4c\/1c\/75\/36\/large_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/62\/65\/da\/60\/51\/medium_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/0e\/23\/72\/f4\/small_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/ed\/f6\/cb\/7e\/birdwing_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/9c\/06\/85\/4b\/tiny_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/15\/48\/03\/3a\/tinycard_preview_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/13\/6d\/4e\/ba\/large_display_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/c6\/32\/b8\/ec\/medium_display_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/dc\/71\/82\/c4\/small_display_f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        }
+      ],
+      "added": "2024-01-08T00:30:30+00:00"
+    },
+    "description": "In use videos:\r\nhttps:\/\/youtu.be\/uizsDvPhH_s\r\nhttps:\/\/youtu.be\/FPpW6IeLPjg\r\n\r\nThis is a long-time project that I've been working on, designing and modeling, printing, failing, and succeeding. I will try to note everything about making of this project here as simple as possible. The idea of this has been ease of access, ease of building, and access to components anywhere. Hope this is an item you can build for anyone you know who is in need of them with basic ready-to-print 3D printers, such as Flashforge Finder and Adventurer. Cheap, strong, and fast to build. Code will be included so the best scenario is that you don't need to code the Arduino Nano at all yourself and just upload the code there with Arduino IDE software that is free on Arduino site.\r\n\r\nEMG sensor is probably the most expensive and hardest one to find cheap, but you can use your own judgment on that. In Ali Express and other Chinese stores, you can get a hold of these dry EMG sensors for about 40-50 euros\/dollars.\r\n\r\nItem's you will need to make this project are:\r\n\r\n-printed files, some sanding might be needed for all joints to be loose.\r\n-thin metal wire that goes through the finger joints and palm joint, I've used 1-2mm thick myself.\r\n-fishing line or fishing rope. I ended up using 90KG fishing rope as the 20KG servo motor ended up breaking 60KG fishing rope for some reason. I assume fish and motors are not the same. This is used to connect tip of the fingers to the servo arm.\r\n-elastic band, stronger is better if you can get your hands on it, but double or triple layer weak is enough also. This will be used to re-bounce fingers open when hold is toggled off.\r\n-15-20KG servo motor with metal arm and full metal gears. Plastic ones will break. I've used 20KG waterproof servos from Miuzei. These are cheap, strong and quiet. With 15KG motors I ended up having the servo struggle to hold grip on heavy objects.\r\n-batteries, I used battery packs made for RC cars as these come with usb chargers and are easy to hook up and charge. I used 2 x 6V 2400mAh soldered in Parallel so the voltage is 6V and mAh is 4800\r\n-rocker switch and 3 micro buttons. Rocker switch for power and micro buttons for locking feature and muscle reading value changing.\r\n-I2C led monitor is not necessary, but I decided to use one for convinience of knowing the value of muscle reading threshold and if the lock or open status in on. I used extremely cheap 0,9inch monitors or about 2cm x 1cm monitor.\r\n-EMG sensor with hopefully a dry sensor. Dry sensor is the small piece with 3 metallic sensors instead of needing the attachable medical ones. These can be found cheap on AliExpress. These have certain limitations, but for this project they work and are extremely affordable.\r\n-Arduino Nano. Official one is needed or third party that has exactly same power deliveries. I found my code and whole system running on third party Arduino Nano's or Arduino Nano clones not to function properly and having a lot of power dropping problems. Then I read about the power delivery differences in official and clone's data sheet. Included code in the .INO file is designed for the sensor that looks like the one in the pictures. This can be found easily in AliExpress and other online stores.\r\n-shunt resistor 1 ohm 5 watt. This will get a bit warm so get a good metalfilm one. You can also go higher, but code will be need a bit a of change as the analog read this is used to get signal of electricity will change.\r\n-jumper wires, small wires overall.\r\n-garden glove or work glove with a rubber\/antislide inside of palm that fits over the finger\/palm size you print.\r\n-wide velcro type strap, or you can use thin ones also and scale the model of 10cm wide velcro strap to your need. I found better thing to be luggage strap, but if you get to the point of this being decision, you for sure can make artistic decision.\r\n-electrical tape\r\n-hot glue\r\nIf when imported to slicing software, imported STL files are small, normal size is achieved by scaling 10x the stl in the slicing software. There are cubes as measurements in some of the STL files for 1cm scaling check inside the slicer. FPP files are Flashprint slicer files that you can print or export as STL or Gcode with free software called Flashprint. Flashprint lets you cut and slice objects to separate so you can separate printing pieces or item pieces to print. Flashprint is also used on Flashforge printers natively.\r\n\r\nBut let's start the project, I try to cover everything in here in a simple matter and add pictures to the item that will help you follow. Though in most parts there's quite little room for error as I've tried to simplify the project and add angles that will make placing items wrong way hard.\r\n\r\nFirst you'll have to print all the version 5 files and strap loops for velcro connections. I personally found best to use 10cm velcro strap and company it with 7,5cm velcro as there's two points of scale for the arm.\r\n\r\nGreat job printing those pieces. You will be now getting your first other tools. Take metal wire and connect fingers to the palm and all fingers to each others. These should be so loose that it looks like a marionette and all fingers loosely shook everywhere when shaken. Now you can cut the elastic piece to a appropriate size so it goes over the joints of fingers. Position the hand palm down. This way fingers are loosely dragging on table. Drops of hot glue on finger joint and palm. Put the piece of elastic band in such a way that it's tight enough that it carries the finger up in the air straight. Repeat this until you have all fingers pointing straight when hand palm is pointing down, but the elastic bands are tight enough so fingers are not loose to that direction anymore.\r\n\r\nYou are now going to follow the wiring picture and wire everything as written and drawn down. If you decide to change connections places, remember to change them in the code also. Combine batteries in a line that you can drop inside the arm shield. After you have wired everything and power on the system, servo will rotate to it's default place, which would be close to open palm position. You can now disrupt the signal in the EMG sensor to get the servo move from A to B and then B to A. Also you can test your dry sensor out, remember that finding a position can be hard at first. Try it out and change the values of stiffness kovuus. What I often did before I knew my muscles and values, I put the muscle sensor on my arm where a muscle can be felt easily when flexed, IE bicep. When you keep your arm relaxed and hold the button to put kovuus to 0, servo will turn constantly from other end to other. Then add some value until it stops moving, this is your baseline movement in that muscle. Now the servo will probably move instantly when you move your arm as it's put on the very limit of flexing. Add more value until you are comfortable with the tension required.\r\n\r\nServo can be placed in couple different ways, to the top or to the side as in pictures shown.\r\n\r\nNow to the aligning of the metal arm on the servo. When you move the servo back and forth with your muscle. Look at the positioning and screw the servo arm in place when servo is on it's side and arm pointing down. This way the arm pulls towards your body when muscle is read to close the fist. You will get a good idea of this in the pictures about the servo positioning.\r\n\r\nWhen building the palm and wrist together, drill holes to both parts and put some metal rods if possible to the joint, this will give strength to the palm's and wrist's joint when Servo pulls the ropes through it.\r\n\r\nHot glue the servo in it's place and check that the arm moves properly before adding glue. Do the same for buttons and monitor which are in the top cover. Though depending if you have finalized the wiring and wires are already attached, you might first want to do the fishing rope stuff before attaching the cover shield to the wrist part.\r\n\r\nSlide rope through fingers to the servo arm. I found best way to calculate the fist and open hand length of rope to make a loop from rope to the servo arm. Then tie finger ropes to that loop. Tell the servo to move to the closed fist position and then tighten the ropes while holding the fingers in a closed fist which would be last position of them. Tie the ropes ends to the fingertips. This can be extremely frustrating process, helping hand from anyone is great here.\r\n\r\nEverything should now be in pretty much at place. You can hot glue the battery cover to the wrist part and slide the dual battery inside, leaving power wire to the end for easy charging and putting power to the arm. Hot glue the arm cover on and velcro to the wrist and everything is starting to look pretty good.\r\n\r\nFor putting the glove. Cut the thumb separate from the glove and pull the glove on the 4 fingers first. Hot glue to the palm stopper and wrist shield and this will keep the glove tight on the fingers. Do the same for thumb.\r\n\r\n-------------------------------------------------------------------------------------------------------------\r\n\r\nFor audio readings it is pretty much the same approach, but with different code. Code will be included here. Main thing is to get the voice recognition module 3 and use it's own manual to record what ever commands you want there.",
+    "instructions": "",
+    "description_html": "<div><p>In use videos:<br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/uizsDvPhH_s\">https:\/\/youtu.be\/uizsDvPhH_s<\/a><br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/FPpW6IeLPjg\">https:\/\/youtu.be\/FPpW6IeLPjg<\/a><\/p><p>This is a long-time project that I've been working on, designing and modeling, printing, failing, and succeeding. I will try to note everything about making of this project here as simple as possible. The idea of this has been ease of access, ease of building, and access to components anywhere. Hope this is an item you can build for anyone you know who is in need of them with basic ready-to-print 3D printers, such as Flashforge Finder and Adventurer. Cheap, strong, and fast to build. Code will be included so the best scenario is that you don't need to code the Arduino Nano at all yourself and just upload the code there with Arduino IDE software that is free on Arduino site.<\/p><p>EMG sensor is probably the most expensive and hardest one to find cheap, but you can use your own judgment on that. In Ali Express and other Chinese stores, you can get a hold of these dry EMG sensors for about 40-50 euros\/dollars.<\/p><p>Item's you will need to make this project are:<\/p><p>-printed files, some sanding might be needed for all joints to be loose.<br>-thin metal wire that goes through the finger joints and palm joint, I've used 1-2mm thick myself.<br>-fishing line or fishing rope. I ended up using 90KG fishing rope as the 20KG servo motor ended up breaking 60KG fishing rope for some reason. I assume fish and motors are not the same. This is used to connect tip of the fingers to the servo arm.<br>-elastic band, stronger is better if you can get your hands on it, but double or triple layer weak is enough also. This will be used to re-bounce fingers open when hold is toggled off.<br>-15-20KG servo motor with metal arm and full metal gears. Plastic ones will break. I've used 20KG waterproof servos from Miuzei. These are cheap, strong and quiet. With 15KG motors I ended up having the servo struggle to hold grip on heavy objects.<br>-batteries, I used battery packs made for RC cars as these come with usb chargers and are easy to hook up and charge. I used 2 x 6V 2400mAh soldered in Parallel so the voltage is 6V and mAh is 4800<br>-rocker switch and 3 micro buttons. Rocker switch for power and micro buttons for locking feature and muscle reading value changing.<br>-I2C led monitor is not necessary, but I decided to use one for convinience of knowing the value of muscle reading threshold and if the lock or open status in on. I used extremely cheap 0,9inch monitors or about 2cm x 1cm monitor.<br>-EMG sensor with hopefully a dry sensor. Dry sensor is the small piece with 3 metallic sensors instead of needing the attachable medical ones. These can be found cheap on AliExpress. These have certain limitations, but for this project they work and are extremely affordable.<br>-Arduino Nano. Official one is needed or third party that has exactly same power deliveries. I found my code and whole system running on third party Arduino Nano's or Arduino Nano clones not to function properly and having a lot of power dropping problems. Then I read about the power delivery differences in official and clone's data sheet. Included code in the .INO file is designed for the sensor that looks like the one in the pictures. This can be found easily in AliExpress and other online stores.<br>-shunt resistor 1 ohm 5 watt. This will get a bit warm so get a good metalfilm one. You can also go higher, but code will be need a bit a of change as the analog read this is used to get signal of electricity will change.<br>-jumper wires, small wires overall.<br>-garden glove or work glove with a rubber\/antislide inside of palm that fits over the finger\/palm size you print.<br>-wide velcro type strap, or you can use thin ones also and scale the model of 10cm wide velcro strap to your need. I found better thing to be luggage strap, but if you get to the point of this being decision, you for sure can make artistic decision.<br>-electrical tape<br>-hot glue<br>If when imported to slicing software, imported STL files are small, normal size is achieved by scaling 10x the stl in the slicing software. There are cubes as measurements in some of the STL files for 1cm scaling check inside the slicer. FPP files are Flashprint slicer files that you can print or export as STL or Gcode with free software called Flashprint. Flashprint lets you cut and slice objects to separate so you can separate printing pieces or item pieces to print. Flashprint is also used on Flashforge printers natively.<\/p><p>But let's start the project, I try to cover everything in here in a simple matter and add pictures to the item that will help you follow. Though in most parts there's quite little room for error as I've tried to simplify the project and add angles that will make placing items wrong way hard.<\/p><p>First you'll have to print all the version 5 files and strap loops for velcro connections. I personally found best to use 10cm velcro strap and company it with 7,5cm velcro as there's two points of scale for the arm.<\/p><p>Great job printing those pieces. You will be now getting your first other tools. Take metal wire and connect fingers to the palm and all fingers to each others. These should be so loose that it looks like a marionette and all fingers loosely shook everywhere when shaken. Now you can cut the elastic piece to a appropriate size so it goes over the joints of fingers. Position the hand palm down. This way fingers are loosely dragging on table. Drops of hot glue on finger joint and palm. Put the piece of elastic band in such a way that it's tight enough that it carries the finger up in the air straight. Repeat this until you have all fingers pointing straight when hand palm is pointing down, but the elastic bands are tight enough so fingers are not loose to that direction anymore.<\/p><p>You are now going to follow the wiring picture and wire everything as written and drawn down. If you decide to change connections places, remember to change them in the code also. Combine batteries in a line that you can drop inside the arm shield. After you have wired everything and power on the system, servo will rotate to it's default place, which would be close to open palm position. You can now disrupt the signal in the EMG sensor to get the servo move from A to B and then B to A. Also you can test your dry sensor out, remember that finding a position can be hard at first. Try it out and change the values of stiffness kovuus. What I often did before I knew my muscles and values, I put the muscle sensor on my arm where a muscle can be felt easily when flexed, IE bicep. When you keep your arm relaxed and hold the button to put kovuus to 0, servo will turn constantly from other end to other. Then add some value until it stops moving, this is your baseline movement in that muscle. Now the servo will probably move instantly when you move your arm as it's put on the very limit of flexing. Add more value until you are comfortable with the tension required.<\/p><p>Servo can be placed in couple different ways, to the top or to the side as in pictures shown.<\/p><p>Now to the aligning of the metal arm on the servo. When you move the servo back and forth with your muscle. Look at the positioning and screw the servo arm in place when servo is on it's side and arm pointing down. This way the arm pulls towards your body when muscle is read to close the fist. You will get a good idea of this in the pictures about the servo positioning.<\/p><p>When building the palm and wrist together, drill holes to both parts and put some metal rods if possible to the joint, this will give strength to the palm's and wrist's joint when Servo pulls the ropes through it.<\/p><p>Hot glue the servo in it's place and check that the arm moves properly before adding glue. Do the same for buttons and monitor which are in the top cover. Though depending if you have finalized the wiring and wires are already attached, you might first want to do the fishing rope stuff before attaching the cover shield to the wrist part.<\/p><p>Slide rope through fingers to the servo arm. I found best way to calculate the fist and open hand length of rope to make a loop from rope to the servo arm. Then tie finger ropes to that loop. Tell the servo to move to the closed fist position and then tighten the ropes while holding the fingers in a closed fist which would be last position of them. Tie the ropes ends to the fingertips. This can be extremely frustrating process, helping hand from anyone is great here.<\/p><p>Everything should now be in pretty much at place. You can hot glue the battery cover to the wrist part and slide the dual battery inside, leaving power wire to the end for easy charging and putting power to the arm. Hot glue the arm cover on and velcro to the wrist and everything is starting to look pretty good.<\/p><p>For putting the glove. Cut the thumb separate from the glove and pull the glove on the 4 fingers first. Hot glue to the palm stopper and wrist shield and this will keep the glove tight on the fingers. Do the same for thumb.<\/p><hr><p>For audio readings it is pretty much the same approach, but with different code. Code will be included here. Main thing is to get the voice recognition module 3 and use it's own manual to record what ever commands you want there.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>In use videos:<br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/uizsDvPhH_s\">https:\/\/youtu.be\/uizsDvPhH_s<\/a><br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/FPpW6IeLPjg\">https:\/\/youtu.be\/FPpW6IeLPjg<\/a><\/p><p>This is a long-time project that I've been working on, designing and modeling, printing, failing, and succeeding. I will try to note everything about making of this project here as simple as possible. The idea of this has been ease of access, ease of building, and access to components anywhere. Hope this is an item you can build for anyone you know who is in need of them with basic ready-to-print 3D printers, such as Flashforge Finder and Adventurer. Cheap, strong, and fast to build. Code will be included so the best scenario is that you don't need to code the Arduino Nano at all yourself and just upload the code there with Arduino IDE software that is free on Arduino site.<\/p><p>EMG sensor is probably the most expensive and hardest one to find cheap, but you can use your own judgment on that. In Ali Express and other Chinese stores, you can get a hold of these dry EMG sensors for about 40-50 euros\/dollars.<\/p><p>Item's you will need to make this project are:<\/p><p>-printed files, some sanding might be needed for all joints to be loose.<br>-thin metal wire that goes through the finger joints and palm joint, I've used 1-2mm thick myself.<br>-fishing line or fishing rope. I ended up using 90KG fishing rope as the 20KG servo motor ended up breaking 60KG fishing rope for some reason. I assume fish and motors are not the same. This is used to connect tip of the fingers to the servo arm.<br>-elastic band, stronger is better if you can get your hands on it, but double or triple layer weak is enough also. This will be used to re-bounce fingers open when hold is toggled off.<br>-15-20KG servo motor with metal arm and full metal gears. Plastic ones will break. I've used 20KG waterproof servos from Miuzei. These are cheap, strong and quiet. With 15KG motors I ended up having the servo struggle to hold grip on heavy objects.<br>-batteries, I used battery packs made for RC cars as these come with usb chargers and are easy to hook up and charge. I used 2 x 6V 2400mAh soldered in Parallel so the voltage is 6V and mAh is 4800<br>-rocker switch and 3 micro buttons. Rocker switch for power and micro buttons for locking feature and muscle reading value changing.<br>-I2C led monitor is not necessary, but I decided to use one for convinience of knowing the value of muscle reading threshold and if the lock or open status in on. I used extremely cheap 0,9inch monitors or about 2cm x 1cm monitor.<br>-EMG sensor with hopefully a dry sensor. Dry sensor is the small piece with 3 metallic sensors instead of needing the attachable medical ones. These can be found cheap on AliExpress. These have certain limitations, but for this project they work and are extremely affordable.<br>-Arduino Nano. Official one is needed or third party that has exactly same power deliveries. I found my code and whole system running on third party Arduino Nano's or Arduino Nano clones not to function properly and having a lot of power dropping problems. Then I read about the power delivery differences in official and clone's data sheet. Included code in the .INO file is designed for the sensor that looks like the one in the pictures. This can be found easily in AliExpress and other online stores.<br>-shunt resistor 1 ohm 5 watt. This will get a bit warm so get a good metalfilm one. You can also go higher, but code will be need a bit a of change as the analog read this is used to get signal of electricity will change.<br>-jumper wires, small wires overall.<br>-garden glove or work glove with a rubber\/antislide inside of palm that fits over the finger\/palm size you print.<br>-wide velcro type strap, or you can use thin ones also and scale the model of 10cm wide velcro strap to your need. I found better thing to be luggage strap, but if you get to the point of this being decision, you for sure can make artistic decision.<br>-electrical tape<br>-hot glue<br>If when imported to slicing software, imported STL files are small, normal size is achieved by scaling 10x the stl in the slicing software. There are cubes as measurements in some of the STL files for 1cm scaling check inside the slicer. FPP files are Flashprint slicer files that you can print or export as STL or Gcode with free software called Flashprint. Flashprint lets you cut and slice objects to separate so you can separate printing pieces or item pieces to print. Flashprint is also used on Flashforge printers natively.<\/p><p>But let's start the project, I try to cover everything in here in a simple matter and add pictures to the item that will help you follow. Though in most parts there's quite little room for error as I've tried to simplify the project and add angles that will make placing items wrong way hard.<\/p><p>First you'll have to print all the version 5 files and strap loops for velcro connections. I personally found best to use 10cm velcro strap and company it with 7,5cm velcro as there's two points of scale for the arm.<\/p><p>Great job printing those pieces. You will be now getting your first other tools. Take metal wire and connect fingers to the palm and all fingers to each others. These should be so loose that it looks like a marionette and all fingers loosely shook everywhere when shaken. Now you can cut the elastic piece to a appropriate size so it goes over the joints of fingers. Position the hand palm down. This way fingers are loosely dragging on table. Drops of hot glue on finger joint and palm. Put the piece of elastic band in such a way that it's tight enough that it carries the finger up in the air straight. Repeat this until you have all fingers pointing straight when hand palm is pointing down, but the elastic bands are tight enough so fingers are not loose to that direction anymore.<\/p><p>You are now going to follow the wiring picture and wire everything as written and drawn down. If you decide to change connections places, remember to change them in the code also. Combine batteries in a line that you can drop inside the arm shield. After you have wired everything and power on the system, servo will rotate to it's default place, which would be close to open palm position. You can now disrupt the signal in the EMG sensor to get the servo move from A to B and then B to A. Also you can test your dry sensor out, remember that finding a position can be hard at first. Try it out and change the values of stiffness kovuus. What I often did before I knew my muscles and values, I put the muscle sensor on my arm where a muscle can be felt easily when flexed, IE bicep. When you keep your arm relaxed and hold the button to put kovuus to 0, servo will turn constantly from other end to other. Then add some value until it stops moving, this is your baseline movement in that muscle. Now the servo will probably move instantly when you move your arm as it's put on the very limit of flexing. Add more value until you are comfortable with the tension required.<\/p><p>Servo can be placed in couple different ways, to the top or to the side as in pictures shown.<\/p><p>Now to the aligning of the metal arm on the servo. When you move the servo back and forth with your muscle. Look at the positioning and screw the servo arm in place when servo is on it's side and arm pointing down. This way the arm pulls towards your body when muscle is read to close the fist. You will get a good idea of this in the pictures about the servo positioning.<\/p><p>When building the palm and wrist together, drill holes to both parts and put some metal rods if possible to the joint, this will give strength to the palm's and wrist's joint when Servo pulls the ropes through it.<\/p><p>Hot glue the servo in it's place and check that the arm moves properly before adding glue. Do the same for buttons and monitor which are in the top cover. Though depending if you have finalized the wiring and wires are already attached, you might first want to do the fishing rope stuff before attaching the cover shield to the wrist part.<\/p><p>Slide rope through fingers to the servo arm. I found best way to calculate the fist and open hand length of rope to make a loop from rope to the servo arm. Then tie finger ropes to that loop. Tell the servo to move to the closed fist position and then tighten the ropes while holding the fingers in a closed fist which would be last position of them. Tie the ropes ends to the fingertips. This can be extremely frustrating process, helping hand from anyone is great here.<\/p><p>Everything should now be in pretty much at place. You can hot glue the battery cover to the wrist part and slide the dual battery inside, leaving power wire to the end for easy charging and putting power to the arm. Hot glue the arm cover on and velcro to the wrist and everything is starting to look pretty good.<\/p><p>For putting the glove. Cut the thumb separate from the glove and pull the glove on the 4 fingers first. Hot glue to the palm stopper and wrist shield and this will keep the glove tight on the fingers. Do the same for thumb.<\/p><hr><p>For audio readings it is pretty much the same approach, but with different code. Code will be included here. Main thing is to get the voice recognition module 3 and use it's own manual to record what ever commands you want there.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Finder<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                                                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.18mm<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20%<\/p><\/div>                                                        <strong>Filament:<\/strong> Any PLA or ABS PLA or ABS                    Any color<h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Sanding fingers and re-drilling holes if needed<\/strong><\/p>                <div><p>Depending on printing settings, you might need to make holes in fingers and hand for strings to larger. All fingers should be as loose as possible before connecting rubberbands.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-title\"><strong>Design progress.<\/strong><\/p>                <div><p>This was designed based on human anatomy and inspired\/combined from many different styles of prosthetics there are. Human anatomy was a great inspiration to this as it gave me the ways to bend fingers how they would be controlled by our \"motors\" muscles.<\/p><p>All pieces were printed and modified hundred times in the design parts over a year.<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>In use videos:<br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/uizsDvPhH_s\">https:\/\/youtu.be\/uizsDvPhH_s<\/a><br><a rel=\"nofollow\" href=\"https:\/\/youtu.be\/FPpW6IeLPjg\">https:\/\/youtu.be\/FPpW6IeLPjg<\/a><\/p><p>This is a long-time project that I've been working on, designing and modeling, printing, failing, and succeeding. I will try to note everything about making of this project here as simple as possible. The idea of this has been ease of access, ease of building, and access to components anywhere. Hope this is an item you can build for anyone you know who is in need of them with basic ready-to-print 3D printers, such as Flashforge Finder and Adventurer. Cheap, strong, and fast to build. Code will be included so the best scenario is that you don't need to code the Arduino Nano at all yourself and just upload the code there with Arduino IDE software that is free on Arduino site.<\/p><p>EMG sensor is probably the most expensive and hardest one to find cheap, but you can use your own judgment on that. In Ali Express and other Chinese stores, you can get a hold of these dry EMG sensors for about 40-50 euros\/dollars.<\/p><p>Item's you will need to make this project are:<\/p><p>-printed files, some sanding might be needed for all joints to be loose.<br>-thin metal wire that goes through the finger joints and palm joint, I've used 1-2mm thick myself.<br>-fishing line or fishing rope. I ended up using 90KG fishing rope as the 20KG servo motor ended up breaking 60KG fishing rope for some reason. I assume fish and motors are not the same. This is used to connect tip of the fingers to the servo arm.<br>-elastic band, stronger is better if you can get your hands on it, but double or triple layer weak is enough also. This will be used to re-bounce fingers open when hold is toggled off.<br>-15-20KG servo motor with metal arm and full metal gears. Plastic ones will break. I've used 20KG waterproof servos from Miuzei. These are cheap, strong and quiet. With 15KG motors I ended up having the servo struggle to hold grip on heavy objects.<br>-batteries, I used battery packs made for RC cars as these come with usb chargers and are easy to hook up and charge. I used 2 x 6V 2400mAh soldered in Parallel so the voltage is 6V and mAh is 4800<br>-rocker switch and 3 micro buttons. Rocker switch for power and micro buttons for locking feature and muscle reading value changing.<br>-I2C led monitor is not necessary, but I decided to use one for convinience of knowing the value of muscle reading threshold and if the lock or open status in on. I used extremely cheap 0,9inch monitors or about 2cm x 1cm monitor.<br>-EMG sensor with hopefully a dry sensor. Dry sensor is the small piece with 3 metallic sensors instead of needing the attachable medical ones. These can be found cheap on AliExpress. These have certain limitations, but for this project they work and are extremely affordable.<br>-Arduino Nano. Official one is needed or third party that has exactly same power deliveries. I found my code and whole system running on third party Arduino Nano's or Arduino Nano clones not to function properly and having a lot of power dropping problems. Then I read about the power delivery differences in official and clone's data sheet. Included code in the .INO file is designed for the sensor that looks like the one in the pictures. This can be found easily in AliExpress and other online stores.<br>-shunt resistor 1 ohm 5 watt. This will get a bit warm so get a good metalfilm one. You can also go higher, but code will be need a bit a of change as the analog read this is used to get signal of electricity will change.<br>-jumper wires, small wires overall.<br>-garden glove or work glove with a rubber\/antislide inside of palm that fits over the finger\/palm size you print.<br>-wide velcro type strap, or you can use thin ones also and scale the model of 10cm wide velcro strap to your need. I found better thing to be luggage strap, but if you get to the point of this being decision, you for sure can make artistic decision.<br>-electrical tape<br>-hot glue<br>If when imported to slicing software, imported STL files are small, normal size is achieved by scaling 10x the stl in the slicing software. There are cubes as measurements in some of the STL files for 1cm scaling check inside the slicer. FPP files are Flashprint slicer files that you can print or export as STL or Gcode with free software called Flashprint. Flashprint lets you cut and slice objects to separate so you can separate printing pieces or item pieces to print. Flashprint is also used on Flashforge printers natively.<\/p><p>But let's start the project, I try to cover everything in here in a simple matter and add pictures to the item that will help you follow. Though in most parts there's quite little room for error as I've tried to simplify the project and add angles that will make placing items wrong way hard.<\/p><p>First you'll have to print all the version 5 files and strap loops for velcro connections. I personally found best to use 10cm velcro strap and company it with 7,5cm velcro as there's two points of scale for the arm.<\/p><p>Great job printing those pieces. You will be now getting your first other tools. Take metal wire and connect fingers to the palm and all fingers to each others. These should be so loose that it looks like a marionette and all fingers loosely shook everywhere when shaken. Now you can cut the elastic piece to a appropriate size so it goes over the joints of fingers. Position the hand palm down. This way fingers are loosely dragging on table. Drops of hot glue on finger joint and palm. Put the piece of elastic band in such a way that it's tight enough that it carries the finger up in the air straight. Repeat this until you have all fingers pointing straight when hand palm is pointing down, but the elastic bands are tight enough so fingers are not loose to that direction anymore.<\/p><p>You are now going to follow the wiring picture and wire everything as written and drawn down. If you decide to change connections places, remember to change them in the code also. Combine batteries in a line that you can drop inside the arm shield. After you have wired everything and power on the system, servo will rotate to it's default place, which would be close to open palm position. You can now disrupt the signal in the EMG sensor to get the servo move from A to B and then B to A. Also you can test your dry sensor out, remember that finding a position can be hard at first. Try it out and change the values of stiffness kovuus. What I often did before I knew my muscles and values, I put the muscle sensor on my arm where a muscle can be felt easily when flexed, IE bicep. When you keep your arm relaxed and hold the button to put kovuus to 0, servo will turn constantly from other end to other. Then add some value until it stops moving, this is your baseline movement in that muscle. Now the servo will probably move instantly when you move your arm as it's put on the very limit of flexing. Add more value until you are comfortable with the tension required.<\/p><p>Servo can be placed in couple different ways, to the top or to the side as in pictures shown.<\/p><p>Now to the aligning of the metal arm on the servo. When you move the servo back and forth with your muscle. Look at the positioning and screw the servo arm in place when servo is on it's side and arm pointing down. This way the arm pulls towards your body when muscle is read to close the fist. You will get a good idea of this in the pictures about the servo positioning.<\/p><p>When building the palm and wrist together, drill holes to both parts and put some metal rods if possible to the joint, this will give strength to the palm's and wrist's joint when Servo pulls the ropes through it.<\/p><p>Hot glue the servo in it's place and check that the arm moves properly before adding glue. Do the same for buttons and monitor which are in the top cover. Though depending if you have finalized the wiring and wires are already attached, you might first want to do the fishing rope stuff before attaching the cover shield to the wrist part.<\/p><p>Slide rope through fingers to the servo arm. I found best way to calculate the fist and open hand length of rope to make a loop from rope to the servo arm. Then tie finger ropes to that loop. Tell the servo to move to the closed fist position and then tighten the ropes while holding the fingers in a closed fist which would be last position of them. Tie the ropes ends to the fingertips. This can be extremely frustrating process, helping hand from anyone is great here.<\/p><p>Everything should now be in pretty much at place. You can hot glue the battery cover to the wrist part and slide the dual battery inside, leaving power wire to the end for easy charging and putting power to the arm. Hot glue the arm cover on and velcro to the wrist and everything is starting to look pretty good.<\/p><p>For putting the glove. Cut the thumb separate from the glove and pull the glove on the 4 fingers first. Hot glue to the palm stopper and wrist shield and this will keep the glove tight on the fingers. Do the same for thumb.<\/p><hr><p>For audio readings it is pretty much the same approach, but with different code. Code will be included here. Main thing is to get the voice recognition module 3 and use it's own manual to record what ever commands you want there.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>Finder<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.18mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "filament_material": "<div><p>PLA or ABS<\/p><\/div>",
+            "filament_brand": "<div><p>Any PLA or ABS<\/p><\/div>",
+            "filament_color": "<div><p>Any color<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Sanding fingers and re-drilling holes if needed",
+            "content": "<div><p>Depending on printing settings, you might need to make holes in fingers and hand for strings to larger. All fingers should be as loose as possible before connecting rubberbands.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "title": "Design progress.",
+            "content": "<div><p>This was designed based on human anatomy and inspired\/combined from many different styles of prosthetics there are. Human anatomy was a great inspiration to this as it gave me the ways to bend fingers how they would be controlled by our \"motors\" muscles.<\/p><p>All pieces were printed and modified hundred times in the design parts over a year.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "<h1 class=\"thing-component-header overview overview-and-background\">Overview and Background<\/h1>\n<div><p>This prosthetic arm is developed to help people who have lost their hand, audio control is for people who don't have muscles left due how the amputation is made.<br>\nMy background is a long time 3D modeler, and this was my self taught process to electronics and development over a year.<\/p><\/div>\n<h1 class=\"thing-component-header plan lesson-plan-and-activity\">Lesson Plan and Activity<\/h1>\n<div><p>First gather all necessary parts.<br>\nStudy the wiring etc and build the machine on breadboard, while printing pieces.<br>\nWhen you have everything working and 3D printed parts assembled, then play around with fitting the items to the cover.<\/p><\/div>\n<h1 class=\"thing-component-header materials materials-needed\">Materials Needed<\/h1>\n<p class=\"detail-title\"><strong>Materials, parts used.<\/strong><\/p>\n                <div><p>-3D printing material for all pieces.<br>\n-small drill.<br>\n-thin metal wire to connect finger pieces and wrist. 1-2mm.<br>\n-fishing line or fishing rope, I used 100-150kg strength.<br>\n-elastic bands.<br>\n-15-20kg servo motors. 15kg worked already, but I went with 20kg for quieter operation.<br>\n-RC car battery packs. For long version 10x AA cells, for short 5xAA cells size. 6V operating power.<br>\n-Rocker switches and micro buttons for power and changing EMG sensitivity.<br>\n-Led monitor if wanted to see values in use.<br>\n-EMG sensor, dry electrode is best option.<br>\n-Arduino Nano.<br>\n-1ohm 5watt resistor for shunt resistor use.<br>\n-jumper wires.<br>\n-garden glove or any glove you want for the hand cover.<br>\n-wide velcro or luggage straps for holding on.<br>\n-electrical tape.<br>\n-hot glue.<\/p><\/div>\n",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required",
+        "data": [
+          {
+            "content": "This prosthetic arm is developed to help people who have lost their hand, audio control is for people who don't have muscles left due how the amputation is made.\r\nMy background is a long time 3D modeler, and this was my self taught process to electronics and development over a year.\r\n"
+          }
+        ]
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required",
+        "data": [
+          {
+            "content": "First gather all necessary parts.\r\nStudy the wiring etc and build the machine on breadboard, while printing pieces.\r\nWhen you have everything working and 3D printed parts assembled, then play around with fitting the items to the cover."
+          }
+        ]
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended",
+        "data": [
+          {
+            "title": "Materials, parts used.",
+            "content": "-3D printing material for all pieces.\r\n-small drill.\r\n-thin metal wire to connect finger pieces and wrist. 1-2mm.\r\n-fishing line or fishing rope, I used 100-150kg strength.\r\n-elastic bands.\r\n-15-20kg servo motors. 15kg worked already, but I went with 20kg for quieter operation.\r\n-RC car battery packs. For long version 10x AA cells, for short 5xAA cells size. 6V operating power.\r\n-Rocker switches and micro buttons for power and changing EMG sensitivity.\r\n-Led monitor if wanted to see values in use.\r\n-EMG sensor, dry electrode is best option.\r\n-Arduino Nano.\r\n-1ohm 5watt resistor for shunt resistor use.\r\n-jumper wires.\r\n-garden glove or any glove you want for the hand cover.\r\n-wide velcro or luggage straps for holding on.\r\n-electrical tape.\r\n-hot glue.\r\n"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6422941\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6422941\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6422941\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6422941\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6422941\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6422941\/tags",
+    "tags": [
+      {
+        "name": "3D Prosthetic",
+        "tag": "3d_prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic",
+        "count": 82,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3d_prosthetic\/things",
+        "absolute_url": "\/tag:3D_Prosthetic"
+      },
+      {
+        "name": "ampute",
+        "tag": "ampute",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ampute",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ampute\/things",
+        "absolute_url": "\/tag:ampute"
+      },
+      {
+        "name": "amputee",
+        "tag": "amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputee",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputee\/things",
+        "absolute_url": "\/tag:amputee"
+      },
+      {
+        "name": "Amputees",
+        "tag": "amputees",
+        "url": "https:\/\/api.thingiverse.com\/tags\/amputees",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/amputees\/things",
+        "absolute_url": "\/tag:Amputees"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10441,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "arm",
+        "tag": "arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm",
+        "count": 1771,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm\/things",
+        "absolute_url": "\/tag:arm"
+      },
+      {
+        "name": "Arm Amputee",
+        "tag": "arm_amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arm_amputee",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arm_amputee\/things",
+        "absolute_url": "\/tag:Arm_Amputee"
+      },
+      {
+        "name": "audio",
+        "tag": "audio",
+        "url": "https:\/\/api.thingiverse.com\/tags\/audio",
+        "count": 2278,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/audio\/things",
+        "absolute_url": "\/tag:audio"
+      },
+      {
+        "name": "controller",
+        "tag": "controller",
+        "url": "https:\/\/api.thingiverse.com\/tags\/controller",
+        "count": 3784,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/controller\/things",
+        "absolute_url": "\/tag:controller"
+      },
+      {
+        "name": "EMG",
+        "tag": "emg",
+        "url": "https:\/\/api.thingiverse.com\/tags\/emg",
+        "count": 38,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/emg\/things",
+        "absolute_url": "\/tag:EMG"
+      },
+      {
+        "name": "endoskeleton",
+        "tag": "endoskeleton",
+        "url": "https:\/\/api.thingiverse.com\/tags\/endoskeleton",
+        "count": 17,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/endoskeleton\/things",
+        "absolute_url": "\/tag:endoskeleton"
+      },
+      {
+        "name": "Hand Amputee",
+        "tag": "hand_amputee",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee",
+        "count": 33,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_amputee\/things",
+        "absolute_url": "\/tag:Hand_Amputee"
+      },
+      {
+        "name": "printable prosthetics",
+        "tag": "printable_prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics",
+        "count": 164,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/printable_prosthetics\/things",
+        "absolute_url": "\/tag:printable_prosthetics"
+      },
+      {
+        "name": "prosthesis",
+        "tag": "prosthesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthesis",
+        "count": 246,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthesis\/things",
+        "absolute_url": "\/tag:prosthesis"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 689,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "prosthetics",
+        "tag": "prosthetics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetics",
+        "count": 117,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetics\/things",
+        "absolute_url": "\/tag:prosthetics"
+      },
+      {
+        "name": "prosthetic arm",
+        "tag": "prosthetic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm",
+        "count": 52,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_arm\/things",
+        "absolute_url": "\/tag:prosthetic_arm"
+      },
+      {
+        "name": "Prosthetic hand",
+        "tag": "prosthetic_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand",
+        "count": 241,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic_hand\/things",
+        "absolute_url": "\/tag:Prosthetic_hand"
+      },
+      {
+        "name": "Robotic Arm",
+        "tag": "robotic_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/robotic_arm",
+        "count": 131,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/robotic_arm\/things",
+        "absolute_url": "\/tag:Robotic_Arm"
+      },
+      {
+        "name": "Servo Arm",
+        "tag": "servo_arm",
+        "url": "https:\/\/api.thingiverse.com\/tags\/servo_arm",
+        "count": 169,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/servo_arm\/things",
+        "absolute_url": "\/tag:Servo_Arm"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6422941\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 130,
+    "view_count": 2654,
+    "education": {
+      "grades": {
+        "28": "Higher Education"
+      },
+      "subjects": [
+        {
+          "name": "Engineering",
+          "slug": "engineering",
+          "id": 13
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "short_battery_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/76\/5a\/ed\/ff\/24\/c88f05b1-97bc-4a24-88be-19a981c52783.stl"
+        },
+        {
+          "name": "long_battery_holder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/75\/ec\/e0\/07\/6dc775c4-42af-4f67-970f-5db0de0fdc8d.stl"
+        },
+        {
+          "name": "thumb_second_joint.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/42\/65\/d3\/96\/bb916347-cdbb-474e-a114-7f17381067f4.stl"
+        },
+        {
+          "name": "finger_third_joint.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/b9\/54\/34\/40\/35f4d391-0479-4943-ad2c-e858748d6b8e.stl"
+        },
+        {
+          "name": "finger_second_joint.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/82\/78\/c6\/5b\/37fe0bd5-9bfc-4293-acf6-18e5ce96b117.stl"
+        },
+        {
+          "name": "finger_first_joint.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/9f\/f8\/ec\/e3\/1d36c540-0601-4fbe-a4d7-f0f6deedc345.stl"
+        },
+        {
+          "name": "fingers.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/7f\/76\/34\/58\/e3ab22d1-77c7-4a96-8ec7-7fb67dc893e2.stl"
+        },
+        {
+          "name": "front_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/89\/75\/57\/38\/d1ef12da-2f60-45e7-b1db-620b02383a11.stl"
+        },
+        {
+          "name": "front_cover_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d7\/03\/8c\/be\/49\/87c41508-5e9f-4ab1-b5e3-b7a44bd73bee.stl"
+        },
+        {
+          "name": "short_wrist_shield.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/a8\/ed\/ee\/7a\/de0d80b8-d392-42be-92c8-2b98db17e3b8.stl"
+        },
+        {
+          "name": "long_wrist_shield.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/b6\/ba\/23\/30\/361cc0d1-667d-44e4-80f2-234cc4047c64.stl"
+        },
+        {
+          "name": "long_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/53\/e4\/f3\/05\/6155fb98-40ef-43e1-be28-13d68dd701fb.stl"
+        },
+        {
+          "name": "short_cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/a3\/98\/f6\/a0\/2a9856a0-8e48-461a-b10d-cc025335b7d9.stl"
+        },
+        {
+          "name": "hand.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/70\/23\/83\/3e\/fd38b85b-f866-4226-b497-bdf0cfc697b2.stl"
+        },
+        {
+          "name": "left_hand_all_pieces.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/9a\/cb\/6f\/94\/ecc97194-068c-4351-aaba-58c4361f2030.stl"
+        },
+        {
+          "name": "LeftArmEMG.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c7\/8b\/69\/8a\/00\/70fa6119-c90a-44b5-878d-e0f0f9ce4a67.ino"
+        },
+        {
+          "name": "LeftArmPiezo.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/7a\/f1\/a8\/51\/7b31b30e-f118-4576-af2b-3f3a73c28213.ino"
+        },
+        {
+          "name": "LeftArmAudio.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/0d\/d6\/24\/7b\/41528e09-0066-4732-bc2e-6fc537afc90c.ino"
+        }
+      ],
+      "images": [
+        {
+          "name": "f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/1f\/15\/ac\/47\/f3a19042-862f-4201-8ae5-796eeb28d7d6.jpg"
+        },
+        {
+          "name": "3df768f2-7ce3-48aa-91c3-366be71895b0.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/6f\/69\/01\/81\/3df768f2-7ce3-48aa-91c3-366be71895b0.jpg"
+        },
+        {
+          "name": "96391c8e-ee06-4747-ad59-1f220f319096.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/36\/e0\/64\/64\/96391c8e-ee06-4747-ad59-1f220f319096.jpg"
+        },
+        {
+          "name": "2a9856a0-8e48-461a-b10d-cc025335b7d9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/5d\/90\/6c\/3c\/2a9856a0-8e48-461a-b10d-cc025335b7d9.png"
+        },
+        {
+          "name": "de0d80b8-d392-42be-92c8-2b98db17e3b8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/31\/c4\/7d\/16\/de0d80b8-d392-42be-92c8-2b98db17e3b8.png"
+        },
+        {
+          "name": "6155fb98-40ef-43e1-be28-13d68dd701fb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/3b\/c8\/b0\/cd\/6155fb98-40ef-43e1-be28-13d68dd701fb.png"
+        },
+        {
+          "name": "d1ef12da-2f60-45e7-b1db-620b02383a11.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/5d\/36\/d0\/7f\/d1ef12da-2f60-45e7-b1db-620b02383a11.png"
+        },
+        {
+          "name": "87c41508-5e9f-4ab1-b5e3-b7a44bd73bee.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/67\/b5\/c9\/37\/87c41508-5e9f-4ab1-b5e3-b7a44bd73bee.png"
+        },
+        {
+          "name": "1d36c540-0601-4fbe-a4d7-f0f6deedc345.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/79\/b8\/c7\/05\/a1\/1d36c540-0601-4fbe-a4d7-f0f6deedc345.png"
+        },
+        {
+          "name": "361cc0d1-667d-44e4-80f2-234cc4047c64.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/70\/c9\/de\/85\/361cc0d1-667d-44e4-80f2-234cc4047c64.png"
+        },
+        {
+          "name": "37fe0bd5-9bfc-4293-acf6-18e5ce96b117.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cd\/47\/ff\/4e\/44\/37fe0bd5-9bfc-4293-acf6-18e5ce96b117.png"
+        },
+        {
+          "name": "e3ab22d1-77c7-4a96-8ec7-7fb67dc893e2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/0a\/00\/23\/0c\/e3ab22d1-77c7-4a96-8ec7-7fb67dc893e2.png"
+        },
+        {
+          "name": "bb916347-cdbb-474e-a114-7f17381067f4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/3c\/e1\/4b\/ef\/bb916347-cdbb-474e-a114-7f17381067f4.png"
+        },
+        {
+          "name": "c88f05b1-97bc-4a24-88be-19a981c52783.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/a3\/fd\/06\/da\/c88f05b1-97bc-4a24-88be-19a981c52783.png"
+        },
+        {
+          "name": "35f4d391-0479-4943-ad2c-e858748d6b8e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/84\/b0\/40\/02\/16\/35f4d391-0479-4943-ad2c-e858748d6b8e.png"
+        },
+        {
+          "name": "6dc775c4-42af-4f67-970f-5db0de0fdc8d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/1a\/75\/1b\/30\/6dc775c4-42af-4f67-970f-5db0de0fdc8d.png"
+        },
+        {
+          "name": "fd38b85b-f866-4226-b497-bdf0cfc697b2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/24\/0a\/73\/c7\/fd38b85b-f866-4226-b497-bdf0cfc697b2.png"
+        },
+        {
+          "name": "ecc97194-068c-4351-aaba-58c4361f2030.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ed\/e3\/14\/68\/24\/ecc97194-068c-4351-aaba-58c4361f2030.png"
+        },
+        {
+          "name": "0b6e3bfe-740d-47c2-9f64-76d1393da694.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/f1\/25\/99\/ac\/0b6e3bfe-740d-47c2-9f64-76d1393da694.png"
+        },
+        {
+          "name": "40e313f1-1324-4b68-8de8-8bf272efb4fe.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/63\/48\/b6\/21\/40e313f1-1324-4b68-8de8-8bf272efb4fe.png"
+        },
+        {
+          "name": "464b7d3d-8545-4f60-a880-50f1a8c0bba4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/11\/a4\/45\/da\/464b7d3d-8545-4f60-a880-50f1a8c0bba4.png"
+        },
+        {
+          "name": "c64522cc-c46e-4718-87e5-3a633ec72f5d.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/4a\/83\/9a\/d7\/c64522cc-c46e-4718-87e5-3a633ec72f5d.jpg"
+        },
+        {
+          "name": "1c7c2e81-318e-4d74-80f3-6861fc004766.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/02\/cb\/6b\/94\/1c7c2e81-318e-4d74-80f3-6861fc004766.jpg"
+        },
+        {
+          "name": "9f9bfe45-c5ea-4b8c-b8d3-aaee45338866.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/51\/07\/e2\/f3\/9f9bfe45-c5ea-4b8c-b8d3-aaee45338866.png"
+        },
+        {
+          "name": "33dca4c5-7d87-47f7-826b-9ffa4929ce52.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/de\/de\/a8\/1c\/33dca4c5-7d87-47f7-826b-9ffa4929ce52.png"
+        },
+        {
+          "name": "6bf3cad8-456e-48e0-b927-1bcfe8f44f0d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/a0\/1d\/97\/25\/6bf3cad8-456e-48e0-b927-1bcfe8f44f0d.png"
+        },
+        {
+          "name": "9fdcd826-292a-43f9-8b92-0ae8348ea39a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/04\/b2\/e8\/86\/64\/9fdcd826-292a-43f9-8b92-0ae8348ea39a.png"
+        },
+        {
+          "name": "716aba48-d8e3-414b-852f-9621536eb4dc.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/02\/ff\/98\/68\/716aba48-d8e3-414b-852f-9621536eb4dc.jpg"
+        },
+        {
+          "name": "f666b398-442d-4c1d-876a-1ff324d9ba36.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/d2\/b9\/8a\/3c\/f666b398-442d-4c1d-876a-1ff324d9ba36.jpg"
+        },
+        {
+          "name": "760f941d-d6b2-4318-a8f4-4bcaae1583f5.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/6e\/ac\/ed\/46\/760f941d-d6b2-4318-a8f4-4bcaae1583f5.jpg"
+        },
+        {
+          "name": "4f63de45-4146-44b4-8a1c-15de2ee64822.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/66\/4c\/e7\/19\/4f63de45-4146-44b4-8a1c-15de2ee64822.jpg"
+        },
+        {
+          "name": "a9826500-40c0-4c16-b564-ccf26a19a4db.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/92\/7c\/2e\/41\/b1\/a9826500-40c0-4c16-b564-ccf26a19a4db.jpg"
+        },
+        {
+          "name": "b39bb48a-b0d5-4e7a-9358-055865d268ca.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/1a\/d0\/03\/45\/b39bb48a-b0d5-4e7a-9358-055865d268ca.jpg"
+        },
+        {
+          "name": "db3eb1f1-67f1-4daf-92c1-1b5d6b818435.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/9b\/c7\/15\/c4\/db3eb1f1-67f1-4daf-92c1-1b5d6b818435.jpg"
+        },
+        {
+          "name": "0db85e5e-605e-4bf6-a493-61a2a960eb2f.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/06\/74\/de\/06\/0db85e5e-605e-4bf6-a493-61a2a960eb2f.jpg"
+        },
+        {
+          "name": "e81934ad-82e7-4d19-80ce-ae313c4b54fb.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/5a\/b5\/ea\/e0\/e81934ad-82e7-4d19-80ce-ae313c4b54fb.jpg"
+        },
+        {
+          "name": "7bbf0d82-67b7-48a6-96f3-040c655ac9e6.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/0d\/c7\/b8\/75\/7bbf0d82-67b7-48a6-96f3-040c655ac9e6.jpg"
+        },
+        {
+          "name": "d8dffa98-9c11-4f69-9048-d39b8e96b20c.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/40\/af\/93\/62\/d8dffa98-9c11-4f69-9048-d39b8e96b20c.jpg"
+        },
+        {
+          "name": "0cb4db63-bde3-4381-8c88-53a086a1ed6b.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/db\/e2\/87\/7a\/0cb4db63-bde3-4381-8c88-53a086a1ed6b.jpeg"
+        },
+        {
+          "name": "294da63a-14c1-499f-98ca-414a231608cc.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/a3\/db\/6a\/d0\/294da63a-14c1-499f-98ca-414a231608cc.jpeg"
+        },
+        {
+          "name": "fc257cec-cc25-4709-b1ce-caf221a762ae.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/8f\/2b\/cb\/d0\/fc257cec-cc25-4709-b1ce-caf221a762ae.jpeg"
+        }
+      ]
+    }
+  }
+}

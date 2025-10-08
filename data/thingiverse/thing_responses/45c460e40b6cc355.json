@@ -1,0 +1,509 @@
+{
+  "created_at": "2025-04-10T03:34:38.340286+00:00",
+  "elapsed": 0.1485,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df3088b8ef2a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2180151?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2180151?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2180151,
+    "name": "AT Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2180151",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2180151",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 118,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-03-15T23:34:02+00:00",
+    "modified": "2017-03-15T23:34:02+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 78,
+    "is_liked": false,
+    "collect_count": 204,
+    "is_collected": false,
+    "comment_count": 5,
+    "is_watched": false,
+    "default_image": {
+      "id": 5627035,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/46\/d0\/e5\/95\/IMG_00065.jpg",
+      "name": "IMG_00065.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_display_small.jpg"
+        }
+      ],
+      "added": "2017-03-15T23:31:36+00:00"
+    },
+    "description": "This is a DIY AT Switch that provides a large activation area and a customizable activation force using various springs.\r\n\r\nSwitch \"throw distance\" can be controlled by shortening the stem on the button (either in the model or after printing via sanding).  Activation Force can be changed by adding a variety of commonly available springs (from Ace Hardware or Home Depot) or by removing the spring altogether.\r\n\r\n3 \"keyhole\" mounts are available to mount the switch to a flat surface.  Other mounting options include using a 1\/4\"-20 adapter like this one: http:\/\/www.thingiverse.com\/thing:2061248\r\n\r\nAdditional mounts including the Go Pro style mount shown in the pictures are under development and will be posted as separate Things.  This file will be updated when they are available.\r\n\r\nFollow the full guide here: http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/\r\n\r\nUPDATE: I have added the F3D file for those who want to work on this.",
+    "instructions": "",
+    "description_html": "<div><p>This is a DIY AT Switch that provides a large activation area and a customizable activation force using various springs.<\/p><p>Switch \"throw distance\" can be controlled by shortening the stem on the button (either in the model or after printing via sanding).  Activation Force can be changed by adding a variety of commonly available springs (from Ace Hardware or Home Depot) or by removing the spring altogether.<\/p><p>3 \"keyhole\" mounts are available to mount the switch to a flat surface.  Other mounting options include using a 1\/4\"-20 adapter like this one: <a rel=\"ugc nofollow\" href=\"\/thing:2061248\">http:\/\/www.thingiverse.com\/thing:2061248<\/a><\/p><p>Additional mounts including the Go Pro style mount shown in the pictures are under development and will be posted as separate Things.  This file will be updated when they are available.<\/p><p>Follow the full guide here: <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/\">http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/<\/a><\/p><p>UPDATE: I have added the F3D file for those who want to work on this.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a DIY AT Switch that provides a large activation area and a customizable activation force using various springs.<\/p><p>Switch \"throw distance\" can be controlled by shortening the stem on the button (either in the model or after printing via sanding).  Activation Force can be changed by adding a variety of commonly available springs (from Ace Hardware or Home Depot) or by removing the spring altogether.<\/p><p>3 \"keyhole\" mounts are available to mount the switch to a flat surface.  Other mounting options include using a 1\/4\"-20 adapter like this one: <a rel=\"ugc nofollow\" href=\"\/thing:2061248\">http:\/\/www.thingiverse.com\/thing:2061248<\/a><\/p><p>Additional mounts including the Go Pro style mount shown in the pictures are under development and will be posted as separate Things.  This file will be updated when they are available.<\/p><p>Follow the full guide here: <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/\">http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/<\/a><\/p><p>UPDATE: I have added the F3D file for those who want to work on this.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>.20 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>Supports are recommended for the Jack mounting hole.  Supports on the threads are optional (if your slicer supports removing them).  There were no supports on the threads shown - notice there are some stray layers that will break off, but they will work themselves out when screwed into the bevel.rnrnThis prints fine in ABS and PLA, and should print in PETG (not yet tested) just fine.  Mating parts of different types works fine.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>This requires a small button switch attached to a 3.5mm jack.  Full instructions will be posted at atmakers.org and this Thing will be updated.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>Designed in Fusion 360. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a DIY AT Switch that provides a large activation area and a customizable activation force using various springs.<\/p><p>Switch \"throw distance\" can be controlled by shortening the stem on the button (either in the model or after printing via sanding).  Activation Force can be changed by adding a variety of commonly available springs (from Ace Hardware or Home Depot) or by removing the spring altogether.<\/p><p>3 \"keyhole\" mounts are available to mount the switch to a flat surface.  Other mounting options include using a 1\/4\"-20 adapter like this one: <a rel=\"ugc nofollow\" href=\"\/thing:2061248\">http:\/\/www.thingiverse.com\/thing:2061248<\/a><\/p><p>Additional mounts including the Go Pro style mount shown in the pictures are under development and will be posted as separate Things.  This file will be updated when they are available.<\/p><p>Follow the full guide here: <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/\">http:\/\/atmakers.org\/2017\/03\/3d-printed-at-switches-mark-i\/<\/a><\/p><p>UPDATE: I have added the F3D file for those who want to work on this.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>\n",
+            "printer": "<div><p>Creator Pro<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>.20 mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "notes": "<div><p>Supports are recommended for the Jack mounting hole.  Supports on the threads are optional (if your slicer supports removing them).  There were no supports on the threads shown - notice there are some stray layers that will break off, but they will work themselves out when screwed into the bevel.rnrnThis prints fine in ABS and PLA, and should print in PETG (not yet tested) just fine.  Mating parts of different types works fine.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>This requires a small button switch attached to a 3.5mm jack.  Full instructions will be posted at atmakers.org and this Thing will be updated.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>Designed in Fusion 360. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2180151\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2180151\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2180151\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2180151\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2180151\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2180151\/tags",
+    "tags": [
+      {
+        "name": "assistive",
+        "tag": "assistive",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+        "count": 184,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+        "absolute_url": "\/tag:assistive"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 591,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2180151\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2212,
+    "view_count": 4662,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 2,
+    "make_count": 2,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "AT_Switch_Bevel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1c\/ed\/ae\/7e\/60\/AT_Switch_Bevel.stl"
+        },
+        {
+          "name": "AT_Switch_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4f\/4e\/62\/71\/8d\/AT_Switch_Top.stl"
+        },
+        {
+          "name": "AT_Switch_Body.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/b7\/90\/2a\/5a\/AT_Switch_Body.stl"
+        },
+        {
+          "name": "AT_Switch_Body_With_Logo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/2c\/47\/b3\/8f\/AT_Switch_Body_With_Logo.stl"
+        },
+        {
+          "name": "Button_With_Screw_v27.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/37\/b9\/b5\/6e\/Button_With_Screw_v27.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_00065.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/46\/d0\/e5\/95\/IMG_00065.jpg"
+        },
+        {
+          "name": "IMG_00055.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/c4\/75\/b8\/b3\/IMG_00055.jpg"
+        },
+        {
+          "name": "IMG_00047.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/61\/7b\/95\/23\/IMG_00047.jpg"
+        },
+        {
+          "name": "IMG_00049.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/41\/e5\/6c\/a3\/22\/IMG_00049.jpg"
+        },
+        {
+          "name": "IMG_00048.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/2d\/ff\/fc\/d5\/IMG_00048.jpg"
+        },
+        {
+          "name": "IMG_00053.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/10\/19\/14\/be\/IMG_00053.jpg"
+        },
+        {
+          "name": "IMG_00054.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/ea\/01\/d6\/0f\/IMG_00054.jpg"
+        },
+        {
+          "name": "IMG_00064.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/fb\/15\/0c\/d9\/IMG_00064.jpg"
+        },
+        {
+          "name": "IMG_00062.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/61\/39\/02\/3a\/IMG_00062.jpg"
+        },
+        {
+          "name": "IMG_00057.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/35\/5b\/5a\/1c\/IMG_00057.jpg"
+        },
+        {
+          "name": "IMG_00058.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/4e\/cb\/b8\/a2\/IMG_00058.jpg"
+        },
+        {
+          "name": "IMG_00056.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/f9\/cc\/af\/b6\/IMG_00056.jpg"
+        },
+        {
+          "name": "AT_Switch_Render.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/4d\/69\/c0\/22\/AT_Switch_Render.png"
+        },
+        {
+          "name": "IMG_00059.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/72\/f1\/9d\/2c\/IMG_00059.jpg"
+        },
+        {
+          "name": "3c7e4303ac7579f69743aa6e9194cfef.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/90\/8b\/52\/73\/3c7e4303ac7579f69743aa6e9194cfef.png"
+        },
+        {
+          "name": "b8496d84affd676fff9948da8fa7dab5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/1a\/ea\/63\/b8\/b8496d84affd676fff9948da8fa7dab5.png"
+        },
+        {
+          "name": "751fa68d15107815953479e5aa0d0479.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/81\/2d\/c1\/77\/751fa68d15107815953479e5aa0d0479.png"
+        },
+        {
+          "name": "89b28f92ba0eefe4018d6c27e1ab9ea9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ba\/d0\/34\/19\/a6\/89b28f92ba0eefe4018d6c27e1ab9ea9.png"
+        }
+      ]
+    }
+  }
+}

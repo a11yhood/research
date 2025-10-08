@@ -1,0 +1,432 @@
+{
+  "created_at": "2025-10-08T03:26:49.446912+00:00",
+  "elapsed": 0.208391,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b289f5ca233023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:26:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:56:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3718895?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3718895?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3718895,
+    "name": "Echo Button Mount with Lever Arm",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/23\/4b\/50\/18\/87\/07de4f948398dcd52026c61b0544af37_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3718895",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3718895",
+    "creator": {
+      "id": 2059375,
+      "name": "Volksswitch",
+      "first_name": "Volksswitch",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Volksswitch",
+      "public_url": "https:\/\/www.thingiverse.com\/Volksswitch",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2d\/08\/f4\/c2\/4c\/c8f7360f46baebafdf0411d94c544001_thumb_medium.jpg",
+      "count_of_followers": 64,
+      "count_of_following": 2,
+      "count_of_designs": 33,
+      "collection_count": 7,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Denver, Colorado, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/2c\/ad\/bc\/4b\/05\/c994528b13c6d5971eb8c825889953bb_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-28T20:08:58+00:00",
+    "modified": "2019-06-28T20:08:58+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 35,
+    "is_liked": false,
+    "collect_count": 60,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 11062631,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/bf\/d9\/38\/4c\/bumper.stl",
+      "name": "b61d8846dd3ad56fdd4bdd7608b15ac0.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-28T20:16:24+00:00"
+    },
+    "description": "Echo Buttons are much more useful than you might think.\u00a0 They can be used to play games but they can also be used to control your environment and make announcements.\u00a0 In one facility serving people with disabilities, echo buttons are used to initiate Amazon Alexa routines that vary from turning on and setting the temperature of a smart oven to announcing that a client needs help in one of the bathrooms.\u00a0 There's already a design for an Echo Button mount on Thingiverse (https:\/\/www.thingiverse.com\/thing:3440580).\u00a0 All we did was to extend the housing for stability, add a lever arm and a fulcrum for the arm to attach to.\r\n\r\nThe final print is comprised of five pieces.\u00a0 A housing that serves as the base that sits on a horizontal surface or screws onto a wall, a screw-on retention ring, a lever arm, a small bumper, and two semi-circular posts.\u00a0 The two semi-circular posts can be glued together to create a cylinder or can just be left as is and inserted into the arm assembly hole together.\u00a0 They're designed and printed as halves of a cylinder to make them as strong as possible without requiring the use of supports.\u00a0 The bumper should (optionally) be printed using a flexible filament to protect the plastic face of the button.\r\n\r\nThe arm provides an approximate 3.5:1 mechanical advantage.\u00a0 Normally, it takes about 700 grams of \"force\" to activate the button.\u00a0 With the lever arm, it takes only 200 grams of force.\r\n\r\nYou can learn more about the device here: http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Echo Buttons are much more useful than you might think.\u00a0 They can be used to play games but they can also be used to control your environment and make announcements.\u00a0 In one facility serving people with disabilities, echo buttons are used to initiate Amazon Alexa routines that vary from turning on and setting the temperature of a smart oven to announcing that a client needs help in one of the bathrooms.\u00a0 There's already a design for an Echo Button mount on Thingiverse (<a rel=\"nofollow\" href=\"\/thing:3440580\">https:\/\/www.thingiverse.com\/thing:3440580<\/a>).\u00a0 All we did was to extend the housing for stability, add a lever arm and a fulcrum for the arm to attach to.<\/p><p>The final print is comprised of five pieces.\u00a0 A housing that serves as the base that sits on a horizontal surface or screws onto a wall, a screw-on retention ring, a lever arm, a small bumper, and two semi-circular posts.\u00a0 The two semi-circular posts can be glued together to create a cylinder or can just be left as is and inserted into the arm assembly hole together.\u00a0 They're designed and printed as halves of a cylinder to make them as strong as possible without requiring the use of supports.\u00a0 The bumper should (optionally) be printed using a flexible filament to protect the plastic face of the button.<\/p><p>The arm provides an approximate 3.5:1 mechanical advantage.\u00a0 Normally, it takes about 700 grams of \"force\" to activate the button.\u00a0 With the lever arm, it takes only 200 grams of force.<\/p><p>You can learn more about the device here: <a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/\">http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/<\/a><\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Echo Buttons are much more useful than you might think.\u00a0 They can be used to play games but they can also be used to control your environment and make announcements.\u00a0 In one facility serving people with disabilities, echo buttons are used to initiate Amazon Alexa routines that vary from turning on and setting the temperature of a smart oven to announcing that a client needs help in one of the bathrooms.\u00a0 There's already a design for an Echo Button mount on Thingiverse (<a rel=\"nofollow\" href=\"\/thing:3440580\">https:\/\/www.thingiverse.com\/thing:3440580<\/a>).\u00a0 All we did was to extend the housing for stability, add a lever arm and a fulcrum for the arm to attach to.<\/p><p>The final print is comprised of five pieces.\u00a0 A housing that serves as the base that sits on a horizontal surface or screws onto a wall, a screw-on retention ring, a lever arm, a small bumper, and two semi-circular posts.\u00a0 The two semi-circular posts can be glued together to create a cylinder or can just be left as is and inserted into the arm assembly hole together.\u00a0 They're designed and printed as halves of a cylinder to make them as strong as possible without requiring the use of supports.\u00a0 The bumper should (optionally) be printed using a flexible filament to protect the plastic face of the button.<\/p><p>The arm provides an approximate 3.5:1 mechanical advantage.\u00a0 Normally, it takes about 700 grams of \"force\" to activate the button.\u00a0 With the lever arm, it takes only 200 grams of force.<\/p><p>You can learn more about the device here: <a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/\">http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/<\/a><\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Echo Buttons are much more useful than you might think.\u00a0 They can be used to play games but they can also be used to control your environment and make announcements.\u00a0 In one facility serving people with disabilities, echo buttons are used to initiate Amazon Alexa routines that vary from turning on and setting the temperature of a smart oven to announcing that a client needs help in one of the bathrooms.\u00a0 There's already a design for an Echo Button mount on Thingiverse (<a rel=\"nofollow\" href=\"\/thing:3440580\">https:\/\/www.thingiverse.com\/thing:3440580<\/a>).\u00a0 All we did was to extend the housing for stability, add a lever arm and a fulcrum for the arm to attach to.<\/p><p>The final print is comprised of five pieces.\u00a0 A housing that serves as the base that sits on a horizontal surface or screws onto a wall, a screw-on retention ring, a lever arm, a small bumper, and two semi-circular posts.\u00a0 The two semi-circular posts can be glued together to create a cylinder or can just be left as is and inserted into the arm assembly hole together.\u00a0 They're designed and printed as halves of a cylinder to make them as strong as possible without requiring the use of supports.\u00a0 The bumper should (optionally) be printed using a flexible filament to protect the plastic face of the button.<\/p><p>The arm provides an approximate 3.5:1 mechanical advantage.\u00a0 Normally, it takes about 700 grams of \"force\" to activate the button.\u00a0 With the lever arm, it takes only 200 grams of force.<\/p><p>You can learn more about the device here: <a rel=\"nofollow\" href=\"http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/\">http:\/\/volksswitch.org\/index.php\/echo-button-mount-with-lever-arm\/<\/a><\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3718895\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3718895\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3718895\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3718895\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3718895\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3718895\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 634,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3718895\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 680,
+    "view_count": 865,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "halved_post.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/2a\/b1\/46\/b8\/halved_post.stl"
+        },
+        {
+          "name": "retention_ring.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/79\/3e\/ba\/bc\/retention_ring.stl"
+        },
+        {
+          "name": "housing.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/57\/2d\/e7\/20\/housing.stl"
+        },
+        {
+          "name": "lever_arm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/08\/21\/62\/93\/lever_arm.stl"
+        },
+        {
+          "name": "bumper.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/bf\/d9\/38\/4c\/bumper.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "b61d8846dd3ad56fdd4bdd7608b15ac0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/cf\/e1\/8f\/70\/8b\/b61d8846dd3ad56fdd4bdd7608b15ac0.png"
+        },
+        {
+          "name": "echo_button_mount_with_levered_arm_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/6f\/9d\/85\/ac\/echo_button_mount_with_levered_arm_1.png"
+        },
+        {
+          "name": "42f392145693b6ea154a0ec3acd2124a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/ea\/ff\/78\/7a\/42f392145693b6ea154a0ec3acd2124a.png"
+        },
+        {
+          "name": "c55bf340cdd7ecf187fff710e0f0e6e3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/58\/10\/20\/cb\/07\/c55bf340cdd7ecf187fff710e0f0e6e3.png"
+        },
+        {
+          "name": "eeca24a26312a618a4d17664cb8aa68d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/76\/f6\/2a\/21\/fd\/eeca24a26312a618a4d17664cb8aa68d.png"
+        },
+        {
+          "name": "d18cf1592b6597c30b97d0f6cc2f9c4e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/00\/5c\/07\/96\/d0\/d18cf1592b6597c30b97d0f6cc2f9c4e.png"
+        },
+        {
+          "name": "echo_button_mount_with_levered_arm_exploded_view.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/fa\/69\/07\/0f\/echo_button_mount_with_levered_arm_exploded_view.png"
+        },
+        {
+          "name": "echo_button_mount_with_levered_arm_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/ff\/0f\/5b\/20\/echo_button_mount_with_levered_arm_2.png"
+        }
+      ]
+    }
+  }
+}

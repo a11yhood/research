@@ -1,0 +1,540 @@
+{
+  "created_at": "2025-04-11T03:34:38.225622+00:00",
+  "elapsed": 0.187091,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "92e76de7c92c2350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2841496?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2841496?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2841496,
+    "name": "Braille embosser (Laser cut)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2841496",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2841496",
+    "creator": {
+      "id": 228772,
+      "name": "iapafoto",
+      "first_name": "Sebastien",
+      "last_name": "Durand",
+      "url": "https:\/\/api.thingiverse.com\/users\/iapafoto",
+      "public_url": "https:\/\/www.thingiverse.com\/iapafoto",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/59\/e4\/be\/86\/b6\/ebcd036a0db50db993ae98ce380f6419_thumb_medium.jpg",
+      "count_of_followers": 6,
+      "count_of_following": 1,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Toulouse",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/0c\/1c\/49\/9c\/63\/16328da7af1f10371fc2cb3775b0f709_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-03-27T11:26:29+00:00",
+    "modified": "2018-03-27T11:26:29+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 103,
+    "is_liked": false,
+    "collect_count": 207,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 8172780,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/a4\/3d\/fe\/15\/Etape_07a.png",
+      "name": "Etape_07a.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/36\/ce\/92\/c3\/63ad0985d06a56c8cb1231f1ee0012a7_display_small.jpg"
+        }
+      ],
+      "added": "2018-05-14T12:25:00+00:00"
+    },
+    "description": "Project in progress of Braille embosser with laser cutting\r\n\r\nCan easily be converted to Plotter.\r\n\r\nFull buid Instructions\r\nhttps:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse\r\n\r\n--------------------------------\r\n100W laser cutting machine\r\n\r\n6mm - 13 m\/s - 80% power\r\n3mm - 30 m\/s - 80% power",
+    "instructions": "",
+    "description_html": "<div><p>Project in progress of Braille embosser with laser cutting<\/p><p>Can easily be converted to Plotter.<\/p><p>Full buid Instructions<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse\">https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse<\/a><\/p><hr><p>100W laser cutting machine<\/p><p>6mm - 13 m\/s - 80% power<br>3mm - 30 m\/s - 80% power<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Project in progress of Braille embosser with laser cutting<\/p><p>Can easily be converted to Plotter.<\/p><p>Full buid Instructions<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse\">https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse<\/a><\/p><hr><p>100W laser cutting machine<\/p><p>6mm - 13 m\/s - 80% power<br>3mm - 30 m\/s - 80% power<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/xycg4nxUUws\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><pre><code>            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/3b\/56\/e2\/5f\/9c\/Etape_00.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt; Embed the inner parts in the left inner board&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/74\/87\/0e\/7f\/b1\/Etape_01.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Embed the inner board right&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/c5\/59\/51\/d2\/1c\/Etape_02bis.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Glide the bottom board so that it blocks both sides&lt;\/strong&gt;&lt;\/p&gt;                &lt;div&gt;&lt;p&gt;Add the end-of-race sensors&lt;br&gt;Add the arduio and remove the motor leads from each side&lt;br&gt;Add the right outside plate&lt;\/p&gt;&lt;\/div&gt;            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b1\/50\/4d\/8c\/82\/Etape_03.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Insert the X and Y axes without forgetting the carriage&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/de\/0b\/45\/6a\/dd\/Etape_04a.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Add the left outer plate and the Y axis motor&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b4\/5a\/49\/21\/fe\/Etape_05a.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Insert the hat piece and the X-axis holder&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b4\/4a\/6d\/bd\/80\/Etape_06.png\"&gt;&lt;\/p&gt;            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Mount the engine and the pulleys on the X axis&lt;\/strong&gt;&lt;\/p&gt;                &lt;p class=\"detail-title\"&gt;&lt;strong&gt;Set up the belt&lt;\/strong&gt;&lt;\/p&gt;            &lt;div&gt;&lt;p&gt;Note that if the belt has already been adjusted to the correct length, it is easier to attach it to the truck before placing the \"hat part\" and then insert the X motor at an angle when the time comes.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom arduino-java-code\">Arduino + Java code<\/h1><p class=\"detail-title\"><strong>Github project<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Code is a work in progress, it is not complet or packaged for the moment&lt;\/p&gt;&lt;p&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/iapafoto\/BraillePrinter\"&gt;https:\/\/github.com\/iapafoto\/BraillePrinter&lt;\/a&gt;&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><div><p>3D exploded view uses<\/p><p>Arduino OpenSCAD Model Library by jestin<br><a rel=\"ugc nofollow\" href=\"\/thing:18139\">https:\/\/www.thingiverse.com\/thing:18139<\/a><\/p><p>Braille Writer by polymaker<br><a rel=\"ugc nofollow\" href=\"\/thing:8000\">https:\/\/www.thingiverse.com\/thing:8000<\/a><\/p><p>13-tooth T5 pulley by tadrow<br><a rel=\"ugc nofollow\" href=\"\/thing:26347\">https:\/\/www.thingiverse.com\/thing:26347<\/a><\/p><p>28BYJ-48 Stepper Motor Model by Mark Benson (not use but referenced)<br><a rel=\"ugc nofollow\" href=\"\/thing:122070\">https:\/\/www.thingiverse.com\/thing:122070<\/a><\/p><\/div><h1 class=\"thing-component-header custom electronic\">Electronic<\/h1><p class=\"detail-title\"><strong>Furnitures<\/strong><\/p><pre><code>            &lt;div&gt;&lt;ul&gt;&lt;li&gt;Arduino UNO&lt;\/li&gt;&lt;li&gt;L293D Motor Drive Shield&lt;\/li&gt;&lt;li&gt;Nema 17  [x2]&lt;\/li&gt;&lt;li&gt;Interruptor&lt;\/li&gt;&lt;li&gt;Solenoid &lt;\/li&gt;&lt;li&gt;Tip120&lt;\/li&gt;&lt;li&gt;Resistor 2.2k&lt;\/li&gt;&lt;li&gt;1N4004&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;            &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/3d\/b6\/86\/e4\/28\/PrinterBrailleSketch_bb.png\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Project in progress of Braille embosser with laser cutting<\/p><p>Can easily be converted to Plotter.<\/p><p>Full buid Instructions<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse\">https:\/\/www.instructables.com\/id\/Cheap-Braille-Embosser-La-Picoreuse<\/a><\/p><hr><p>100W laser cutting machine<\/p><p>6mm - 13 m\/s - 80% power<br>3mm - 30 m\/s - 80% power<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/xycg4nxUUws\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/3b\/56\/e2\/5f\/9c\/Etape_00.png",
+            "caption": " Embed the inner parts in the left inner board",
+            "image_id": "84103"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/74\/87\/0e\/7f\/b1\/Etape_01.png",
+            "caption": "Embed the inner board right",
+            "image_id": "84104"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/c5\/59\/51\/d2\/1c\/Etape_02bis.png",
+            "caption": "Glide the bottom board so that it blocks both sides",
+            "image_id": "84105"
+          },
+          {
+            "content": "<div><p>Add the end-of-race sensors<br>Add the arduio and remove the motor leads from each side<br>Add the right outside plate<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b1\/50\/4d\/8c\/82\/Etape_03.png",
+            "caption": "Insert the X and Y axes without forgetting the carriage",
+            "image_id": "84118"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/de\/0b\/45\/6a\/dd\/Etape_04a.png",
+            "caption": "Add the left outer plate and the Y axis motor",
+            "image_id": "84117"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b4\/5a\/49\/21\/fe\/Etape_05a.png",
+            "caption": "Insert the hat piece and the X-axis holder",
+            "image_id": "84108"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b4\/4a\/6d\/bd\/80\/Etape_06.png",
+            "caption": "Mount the engine and the pulleys on the X axis",
+            "image_id": "84109"
+          },
+          {
+            "title": "Set up the belt",
+            "content": "<div><p>Note that if the belt has already been adjusted to the correct length, it is easier to attach it to the truck before placing the \"hat part\" and then insert the X motor at an angle when the time comes.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Arduino + Java code",
+        "data": [
+          {
+            "title": "Github project",
+            "content": "<div><p>Code is a work in progress, it is not complet or packaged for the moment<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/iapafoto\/BraillePrinter\">https:\/\/github.com\/iapafoto\/BraillePrinter<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "content": "<div><p>3D exploded view uses<\/p><p>Arduino OpenSCAD Model Library by jestin<br><a rel=\"ugc nofollow\" href=\"\/thing:18139\">https:\/\/www.thingiverse.com\/thing:18139<\/a><\/p><p>Braille Writer by polymaker<br><a rel=\"ugc nofollow\" href=\"\/thing:8000\">https:\/\/www.thingiverse.com\/thing:8000<\/a><\/p><p>13-tooth T5 pulley by tadrow<br><a rel=\"ugc nofollow\" href=\"\/thing:26347\">https:\/\/www.thingiverse.com\/thing:26347<\/a><\/p><p>28BYJ-48 Stepper Motor Model by Mark Benson (not use but referenced)<br><a rel=\"ugc nofollow\" href=\"\/thing:122070\">https:\/\/www.thingiverse.com\/thing:122070<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Electronic",
+        "data": [
+          {
+            "title": "Furnitures",
+            "content": "<div><ul><li>Arduino UNO<\/li><li>L293D Motor Drive Shield<\/li><li>Nema 17  [x2]<\/li><li>Interruptor<\/li><li>Solenoid <\/li><li>Tip120<\/li><li>Resistor 2.2k<\/li><li>1N4004<\/li><\/ul><\/div>\n"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/3d\/b6\/86\/e4\/28\/PrinterBrailleSketch_bb.png",
+            "image_id": "84273"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2841496\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2841496\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2841496\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2841496\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2841496\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2841496\/tags",
+    "tags": [
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 512,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "embosser",
+        "tag": "embosser",
+        "url": "https:\/\/api.thingiverse.com\/tags\/embosser",
+        "count": 21,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/embosser\/things",
+        "absolute_url": "\/tag:embosser"
+      },
+      {
+        "name": "lasercut",
+        "tag": "lasercut",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lasercut",
+        "count": 6965,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lasercut\/things",
+        "absolute_url": "\/tag:lasercut"
+      },
+      {
+        "name": "openscad",
+        "tag": "openscad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/openscad",
+        "count": 15330,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/openscad\/things",
+        "absolute_url": "\/tag:openscad"
+      },
+      {
+        "name": "Plotter",
+        "tag": "plotter",
+        "url": "https:\/\/api.thingiverse.com\/tags\/plotter",
+        "count": 565,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/plotter\/things",
+        "absolute_url": "\/tag:Plotter"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2841496\/categories",
+    "file_count": 11,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2072,
+    "view_count": 5635,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "printerBrailleV4.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bb\/90\/17\/b3\/ae\/printerBrailleV4.scad"
+        },
+        {
+          "name": "printerBrailleV3.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/91\/33\/90\/43\/printerBrailleV3.scad"
+        },
+        {
+          "name": "printerBrailleV4_6mm.dxf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/b9\/70\/b7\/0f\/printerBrailleV4_6mm.dxf"
+        },
+        {
+          "name": "printerBrailleV4_3mm.dxf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/c1\/75\/02\/03\/printerBrailleV4_3mm.dxf"
+        },
+        {
+          "name": "nema17.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/23\/55\/50\/65\/nema17.scad"
+        },
+        {
+          "name": "arduino.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c3\/b9\/68\/52\/7a\/arduino.scad"
+        },
+        {
+          "name": "braille.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/54\/67\/4b\/67\/braille.scad"
+        },
+        {
+          "name": "Pulley-T5-XL-13_tooth-hd.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/69\/f2\/c1\/db\/1a\/Pulley-T5-XL-13_tooth-hd.scad"
+        },
+        {
+          "name": "printerBrailleV4_Flat6mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/d7\/78\/e9\/33\/printerBrailleV4_Flat6mm.stl"
+        },
+        {
+          "name": "printerBrailleV4_Flat3mm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/43\/aa\/5f\/e9\/printerBrailleV4_Flat3mm.stl"
+        },
+        {
+          "name": "printerBrailleV4_Exploded_Full.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cc\/99\/39\/2f\/7b\/printerBrailleV4_Exploded_Full.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Etape_07a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2a\/a4\/3d\/fe\/15\/Etape_07a.png"
+        },
+        {
+          "name": "Etape_07b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/ff\/ea\/50\/f2\/Etape_07b.png"
+        },
+        {
+          "name": "c91ea4640c319d563ea331abdb89cf93.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/84\/18\/e1\/9f\/11\/c91ea4640c319d563ea331abdb89cf93.png"
+        },
+        {
+          "name": "c3e6c1b07fd641abe5ffd32583167a68.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/e0\/44\/e7\/db\/c3e6c1b07fd641abe5ffd32583167a68.png"
+        },
+        {
+          "name": "a2c51d2b95327ff5e9ebc94df4bcf9c1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c3\/92\/91\/c0\/1d\/a2c51d2b95327ff5e9ebc94df4bcf9c1.png"
+        }
+      ]
+    }
+  }
+}

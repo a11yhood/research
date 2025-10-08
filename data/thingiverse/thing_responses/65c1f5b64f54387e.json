@@ -1,0 +1,566 @@
+{
+  "created_at": "2025-04-14T03:39:38.175810+00:00",
+  "elapsed": 0.175085,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "93002d5a9ffbeb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4270938?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4270938?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4270938,
+    "name": "Accessibility Gaming Mouse",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/4270938",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4270938",
+    "creator": {
+      "id": 2522325,
+      "name": "Benjijart",
+      "first_name": "Ben",
+      "last_name": "",
+      "url": "https:\/\/api.thingiverse.com\/users\/Benjijart",
+      "public_url": "https:\/\/www.thingiverse.com\/Benjijart",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/28\/ab\/15\/56\/31\/efb5a872a25a5e47a3c814b9d69ee7e2_thumb_medium.jpg",
+      "count_of_followers": 68,
+      "count_of_following": 3,
+      "count_of_designs": 18,
+      "collection_count": 2,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/9c\/a3\/f2\/f0\/95c4298da5e5c8a9374197b5a368716b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2020-04-08T19:38:43+00:00",
+    "modified": "2020-04-08T19:38:43+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 69,
+    "is_liked": false,
+    "collect_count": 149,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 12968636,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg",
+      "name": "Mouse_2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        }
+      ],
+      "added": "2020-04-08T19:38:32+00:00"
+    },
+    "description": "A little over a year ago on YouTube I posted a video on how to make a DIY game controller from scratch with arduino. The video has done very well and opened up some unique opportunities for me including working with my local library to build controllers with kids to teach about electronics and coding. Recently I was emailed by a viewer who explained that he is unable to use his right hand due to a stroke. He expressed interest in developing a one-handed mouse system such that one could control WASD and other buttons in addition to normal mouse actions. I quickly began working during quarantine to develop this controller. Very simply it uses an arduino pro micro board, a joystick, and a few buttons to act as a usb game controller. With https:\/\/joytokey.net\/en\/ software the control inputs are mapped to specific keys. To create the code for this project one must download the arduino joystick library by Matthew Heironimus at https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary. Originally the base of the controller had a thin platform on which the mouse rested. However, I found that some mice needed to make full contact with the table surface to function properly. As a result, I created a base version without this thin raised platform. If your mouse only works when making full contact with your mouse pad or desk, use this bottomless version. If you are interested in this project please watch my tutorial video on YouTube: https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&t=10s&ab_channel=Benjijart",
+    "instructions": "",
+    "description_html": "<div><p>A little over a year ago on YouTube I posted a video on how to make a DIY game controller from scratch with arduino. The video has done very well and opened up some unique opportunities for me including working with my local library to build controllers with kids to teach about electronics and coding. Recently I was emailed by a viewer who explained that he is unable to use his right hand due to a stroke. He expressed interest in developing a one-handed mouse system such that one could control WASD and other buttons in addition to normal mouse actions. I quickly began working during quarantine to develop this controller. Very simply it uses an arduino pro micro board, a joystick, and a few buttons to act as a usb game controller. With <a rel=\"ugc nofollow\" href=\"https:\/\/joytokey.net\/en\/\">https:\/\/joytokey.net\/en\/<\/a> software the control inputs are mapped to specific keys. To create the code for this project one must download the arduino joystick library by Matthew Heironimus at <a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary\">https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary<\/a>. Originally the base of the controller had a thin platform on which the mouse rested. However, I found that some mice needed to make full contact with the table surface to function properly. As a result, I created a base version without this thin raised platform. If your mouse only works when making full contact with your mouse pad or desk, use this bottomless version. If you are interested in this project please watch my tutorial video on YouTube: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart\">https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A little over a year ago on YouTube I posted a video on how to make a DIY game controller from scratch with arduino. The video has done very well and opened up some unique opportunities for me including working with my local library to build controllers with kids to teach about electronics and coding. Recently I was emailed by a viewer who explained that he is unable to use his right hand due to a stroke. He expressed interest in developing a one-handed mouse system such that one could control WASD and other buttons in addition to normal mouse actions. I quickly began working during quarantine to develop this controller. Very simply it uses an arduino pro micro board, a joystick, and a few buttons to act as a usb game controller. With <a rel=\"ugc nofollow\" href=\"https:\/\/joytokey.net\/en\/\">https:\/\/joytokey.net\/en\/<\/a> software the control inputs are mapped to specific keys. To create the code for this project one must download the arduino joystick library by Matthew Heironimus at <a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary\">https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary<\/a>. Originally the base of the controller had a thin platform on which the mouse rested. However, I found that some mice needed to make full contact with the table surface to function properly. As a result, I created a base version without this thin raised platform. If your mouse only works when making full contact with your mouse pad or desk, use this bottomless version. If you are interested in this project please watch my tutorial video on YouTube: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart\">https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart<\/a><\/p><\/div><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-title\"><strong>Arduino Code<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;(#)include \/\/includes the joystick library by Matthew Heironimus&lt;br&gt;\\\\get rid of the parentheses around the hashtag above thingiverse was just being weird&lt;br&gt;Joystick_ Joystick;\/\/creates the joystick&lt;\/p&gt;&lt;p&gt;int xaxis = 0; \/\/creates axis values&lt;br&gt;int yaxis = 0;&lt;\/p&gt;&lt;p&gt;const bool initAutoSendState = true; &lt;\/p&gt;&lt;p&gt;void setup() {&lt;br&gt;Joystick.begin(); \/\/starts joystick&lt;br&gt;pinMode(9,INPUT_PULLUP); \/\/sets up our buttons&lt;br&gt;pinMode(8,INPUT_PULLUP);&lt;br&gt;pinMode(7,INPUT_PULLUP);&lt;br&gt;}&lt;\/p&gt;&lt;p&gt;void loop() {&lt;br&gt;\/\/ put your main code here, to run repeatedly:&lt;br&gt;xaxis = analogRead(A1); \/\/sets xaxis value equal to the analog input from the real stick&lt;br&gt;xaxis = map(xaxis,0,1023,0,255); \/\/maps xaxis from 0-1023 to new range of 0-255&lt;br&gt;Joystick.setXAxis(xaxis); \/\/links our xaxis value to the xaxis of the virtual joystick created by the mheironimus library&lt;\/p&gt;&lt;p&gt;yaxis = analogRead(A0);&lt;br&gt;yaxis = map(yaxis,0,1023,255,0);&lt;br&gt;Joystick.setYAxis(yaxis);&lt;\/p&gt;&lt;p&gt;if (digitalRead(9)== LOW) \/\/if the button connected to pin 9 is pressed&lt;br&gt;{Joystick.pressButton(0);} \/\/button 0 is pressed&lt;br&gt;else&lt;br&gt;{Joystick.releaseButton(0);} \/\/otherwise button 0 is not pressed&lt;\/p&gt;&lt;p&gt;if (digitalRead(8)== LOW)&lt;br&gt;{Joystick.pressButton(1);}&lt;br&gt;else&lt;br&gt;{Joystick.releaseButton(1);} &lt;\/p&gt;&lt;p&gt;if (digitalRead(7)== LOW)&lt;br&gt;{Joystick.pressButton(2);}&lt;br&gt;else&lt;br&gt;{Joystick.releaseButton(2);}&lt;br&gt;}&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/d9\/f6\/cf\/7f\/81\/Untitled_Sketch_2_bb.png\" alt=\"image\"><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;&lt;strong&gt;Wiring Diagram&lt;\/strong&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A little over a year ago on YouTube I posted a video on how to make a DIY game controller from scratch with arduino. The video has done very well and opened up some unique opportunities for me including working with my local library to build controllers with kids to teach about electronics and coding. Recently I was emailed by a viewer who explained that he is unable to use his right hand due to a stroke. He expressed interest in developing a one-handed mouse system such that one could control WASD and other buttons in addition to normal mouse actions. I quickly began working during quarantine to develop this controller. Very simply it uses an arduino pro micro board, a joystick, and a few buttons to act as a usb game controller. With <a rel=\"ugc nofollow\" href=\"https:\/\/joytokey.net\/en\/\">https:\/\/joytokey.net\/en\/<\/a> software the control inputs are mapped to specific keys. To create the code for this project one must download the arduino joystick library by Matthew Heironimus at <a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary\">https:\/\/github.com\/MHeironimus\/ArduinoJoystickLibrary<\/a>. Originally the base of the controller had a thin platform on which the mouse rested. However, I found that some mice needed to make full contact with the table surface to function properly. As a result, I created a base version without this thin raised platform. If your mouse only works when making full contact with your mouse pad or desk, use this bottomless version. If you are interested in this project please watch my tutorial video on YouTube: <a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart\">https:\/\/www.youtube.com\/watch?v=gHSD-KqGbn0&amp;t=10s&amp;ab_channel=Benjijart<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "title": "Arduino Code",
+            "content": "<div><p>(#)include \/\/includes the joystick library by Matthew Heironimus<br>\\\\get rid of the parentheses around the hashtag above thingiverse was just being weird<br>Joystick_ Joystick;\/\/creates the joystick<\/p><p>int xaxis = 0; \/\/creates axis values<br>int yaxis = 0;<\/p><p>const bool initAutoSendState = true; <\/p><p>void setup() {<br>Joystick.begin(); \/\/starts joystick<br>pinMode(9,INPUT_PULLUP); \/\/sets up our buttons<br>pinMode(8,INPUT_PULLUP);<br>pinMode(7,INPUT_PULLUP);<br>}<\/p><p>void loop() {<br>\/\/ put your main code here, to run repeatedly:<br>xaxis = analogRead(A1); \/\/sets xaxis value equal to the analog input from the real stick<br>xaxis = map(xaxis,0,1023,0,255); \/\/maps xaxis from 0-1023 to new range of 0-255<br>Joystick.setXAxis(xaxis); \/\/links our xaxis value to the xaxis of the virtual joystick created by the mheironimus library<\/p><p>yaxis = analogRead(A0);<br>yaxis = map(yaxis,0,1023,255,0);<br>Joystick.setYAxis(yaxis);<\/p><p>if (digitalRead(9)== LOW) \/\/if the button connected to pin 9 is pressed<br>{Joystick.pressButton(0);} \/\/button 0 is pressed<br>else<br>{Joystick.releaseButton(0);} \/\/otherwise button 0 is not pressed<\/p><p>if (digitalRead(8)== LOW)<br>{Joystick.pressButton(1);}<br>else<br>{Joystick.releaseButton(1);} <\/p><p>if (digitalRead(7)== LOW)<br>{Joystick.pressButton(2);}<br>else<br>{Joystick.releaseButton(2);}<br>}<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/d9\/f6\/cf\/7f\/81\/Untitled_Sketch_2_bb.png",
+            "caption": "Wiring Diagram",
+            "image_id": "242005"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/gHSD-KqGbn0&t=10s&ab_channel=Benjijart\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4270938\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4270938\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4270938\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4270938\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4270938\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4270938\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "accessibility-aid",
+        "tag": "accessibility-aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility-aid\/things",
+        "absolute_url": "\/tag:accessibility-aid"
+      },
+      {
+        "name": "adafruit",
+        "tag": "adafruit",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adafruit",
+        "count": 1395,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adafruit\/things",
+        "absolute_url": "\/tag:adafruit"
+      },
+      {
+        "name": "arcade",
+        "tag": "arcade",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arcade",
+        "count": 1443,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arcade\/things",
+        "absolute_url": "\/tag:arcade"
+      },
+      {
+        "name": "arduino",
+        "tag": "arduino",
+        "url": "https:\/\/api.thingiverse.com\/tags\/arduino",
+        "count": 10223,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/arduino\/things",
+        "absolute_url": "\/tag:arduino"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "disabled",
+        "tag": "disabled",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+        "count": 274,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+        "absolute_url": "\/tag:disabled"
+      },
+      {
+        "name": "electronics",
+        "tag": "electronics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/electronics",
+        "count": 6422,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/electronics\/things",
+        "absolute_url": "\/tag:electronics"
+      },
+      {
+        "name": "game",
+        "tag": "game",
+        "url": "https:\/\/api.thingiverse.com\/tags\/game",
+        "count": 11717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/game\/things",
+        "absolute_url": "\/tag:game"
+      },
+      {
+        "name": "gaming",
+        "tag": "gaming",
+        "url": "https:\/\/api.thingiverse.com\/tags\/gaming",
+        "count": 5448,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/gaming\/things",
+        "absolute_url": "\/tag:gaming"
+      },
+      {
+        "name": "Joystick",
+        "tag": "joystick",
+        "url": "https:\/\/api.thingiverse.com\/tags\/joystick",
+        "count": 1362,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/joystick\/things",
+        "absolute_url": "\/tag:Joystick"
+      },
+      {
+        "name": "mouse",
+        "tag": "mouse",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mouse",
+        "count": 1717,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mouse\/things",
+        "absolute_url": "\/tag:mouse"
+      },
+      {
+        "name": "one hand",
+        "tag": "one_hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/one_hand",
+        "count": 28,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/one_hand\/things",
+        "absolute_url": "\/tag:one_hand"
+      },
+      {
+        "name": "prosthetic",
+        "tag": "prosthetic",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prosthetic",
+        "count": 653,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prosthetic\/things",
+        "absolute_url": "\/tag:prosthetic"
+      },
+      {
+        "name": "video game",
+        "tag": "video_game",
+        "url": "https:\/\/api.thingiverse.com\/tags\/video_game",
+        "count": 5232,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/video_game\/things",
+        "absolute_url": "\/tag:video_game"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4270938\/categories",
+    "file_count": 6,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 451,
+    "view_count": 1913,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "LeftHandCover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5c\/3f\/24\/77\/81\/LeftHandCover.stl"
+        },
+        {
+          "name": "RightHandBottomlessBase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/51\/85\/a1\/da\/RightHandBottomlessBase.stl"
+        },
+        {
+          "name": "LeftHandNormalBase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/67\/b3\/a5\/d8\/LeftHandNormalBase.stl"
+        },
+        {
+          "name": "RightHandCover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/61\/99\/29\/cd\/RightHandCover.stl"
+        },
+        {
+          "name": "LeftHandBottomlessBase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/13\/c0\/97\/1f\/9a\/LeftHandBottomlessBase.stl"
+        },
+        {
+          "name": "RightHandNormalBase.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/8e\/bb\/8d\/44\/RightHandNormalBase.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Mouse_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/14\/74\/24\/9b\/Mouse_2.jpg"
+        },
+        {
+          "name": "20200408_140552_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/a6\/ac\/d3\/96\/20200408_140552_2.jpg"
+        },
+        {
+          "name": "20200408_140353_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/c2\/46\/9d\/c9\/20200408_140353_2.jpg"
+        },
+        {
+          "name": "RightHandNormalBase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/dd\/4f\/fe\/9d\/RightHandNormalBase.png"
+        },
+        {
+          "name": "RightHandCover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/be\/ba\/6c\/09\/RightHandCover.png"
+        },
+        {
+          "name": "LeftHandCover.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/65\/77\/a6\/ba\/86\/LeftHandCover.png"
+        },
+        {
+          "name": "LeftHandNormalBase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/d6\/16\/2b\/f5\/LeftHandNormalBase.png"
+        },
+        {
+          "name": "LeftHandBottomlessBase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/40\/9f\/d5\/6b\/LeftHandBottomlessBase.png"
+        },
+        {
+          "name": "RightHandBottomlessBase.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bd\/35\/3a\/e6\/60\/RightHandBottomlessBase.png"
+        }
+      ]
+    }
+  }
+}

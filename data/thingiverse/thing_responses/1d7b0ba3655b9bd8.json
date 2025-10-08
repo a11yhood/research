@@ -1,0 +1,973 @@
+{
+  "created_at": "2025-04-14T03:39:41.012629+00:00",
+  "elapsed": 0.199283,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-Cache-Status": "DYNAMIC",
+    "CF-RAY": "93002d6c2d65eb2d-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Mon, 14 Apr 2025 03:39:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Mon, 14 Apr 2025 04:09:40 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0",
+      "_cfuvid": "o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=iXE6q.odfMk4QFH6firKghkbw5qlOZo3qtwy7sQpAp4-1744601708-1.0.1.1-CQ_C._uewfWAGYmlKHnoJPsq9fUInSfRebCCB1i6IV9csXsvoQ.xt5SPkBRzF6MHjOTYNNKQWS9aLFpFyGOgCRyVvDfJGSsoHyeLUPfDwY0; _cfuvid=o1_JFhaxubaOjACUxf8GfRqazQF4aMVs.Y2ZEcly_7w-1744601708040-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2799056?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2799056?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2799056,
+    "name": "Prosthetic servo glove ver 0.2",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2799056",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2799056",
+    "creator": {
+      "id": 986660,
+      "name": "max09ru",
+      "first_name": "Max",
+      "last_name": "Russia",
+      "url": "https:\/\/api.thingiverse.com\/users\/max09ru",
+      "public_url": "https:\/\/www.thingiverse.com\/max09ru",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/19\/64\/e1\/97\/71\/32477b9e4abfddc67181f46bb401285a_thumb_medium.jpg",
+      "count_of_followers": 9,
+      "count_of_following": 3,
+      "count_of_designs": 6,
+      "collection_count": 2,
+      "make_count": 1,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "Russia",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/14\/3b\/d9\/fd\/b6\/32477b9e4abfddc67181f46bb401285a_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-02-19T08:59:50+00:00",
+    "modified": "2018-02-19T08:59:50+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 160,
+    "is_liked": false,
+    "collect_count": 304,
+    "is_collected": false,
+    "comment_count": 19,
+    "is_watched": false,
+    "default_image": {
+      "id": 7661530,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/61\/aa\/83\/0d\/fggf.jpg",
+      "name": "fggf.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/f7\/16\/77\/9b\/102c8e6a3ff989926c6b0bb740d3de11_display_small.jpg"
+        }
+      ],
+      "added": "2018-02-19T08:59:47+00:00"
+    },
+    "description": "Prosthetic servo glove. i made it for my friend. big thanks to  Nick_Iacobbo https:\/\/www.thingiverse.com\/thing:1090096. The glove is a rough prototype and mechanical layout for future better designed exo gloves. My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible. \r\nhttps:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA\r\nhttps:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A\r\nhttps:\/\/youtu.be\/gnZylZApyKw\r\n\r\n\r\nnew version hand v0.3 designed in Fusion 360 for nema 17 stepper motor\r\nhttps:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q\r\nhttps:\/\/youtu.be\/BgNpE0LJN5g\r\nhttps:\/\/a360.co\/2Lac7aI\r\n\r\n\r\n06\/14\/19 Added sketches files for ARDUINO and printed circuit board layout\r\n\r\nBOM:\r\narduino uno\r\nmyo sensor \r\nnema17\r\n2 x limit switches\r\ngt2 belt\r\ngt2 pulley 16 teeth\r\nsome wires \r\n3 x resistors\r\n\r\n07\/08\/19  3dsmax file added\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Prosthetic servo glove. i made it for my friend. big thanks to  Nick_Iacobbo <a rel=\"ugc nofollow\" href=\"\/thing:1090096\">https:\/\/www.thingiverse.com\/thing:1090096<\/a>. The glove is a rough prototype and mechanical layout for future better designed exo gloves. My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA\">https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A\">https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/gnZylZApyKw\">https:\/\/youtu.be\/gnZylZApyKw<\/a><\/p><p>new version hand v0.3 designed in Fusion 360 for nema 17 stepper motor<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q\">https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/BgNpE0LJN5g\">https:\/\/youtu.be\/BgNpE0LJN5g<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2Lac7aI\">https:\/\/a360.co\/2Lac7aI<\/a><\/p><p>06\/14\/19 Added sketches files for ARDUINO and printed circuit board layout<\/p><p>BOM:<br>arduino uno<br>myo sensor<br>nema17<br>2 x limit switches<br>gt2 belt<br>gt2 pulley 16 teeth<br>some wires<br>3 x resistors<\/p><p>07\/08\/19  3dsmax file added<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Prosthetic servo glove. i made it for my friend. big thanks to  Nick_Iacobbo <a rel=\"ugc nofollow\" href=\"\/thing:1090096\">https:\/\/www.thingiverse.com\/thing:1090096<\/a>. The glove is a rough prototype and mechanical layout for future better designed exo gloves. My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA\">https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A\">https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/gnZylZApyKw\">https:\/\/youtu.be\/gnZylZApyKw<\/a><\/p><p>new version hand v0.3 designed in Fusion 360 for nema 17 stepper motor<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q\">https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/BgNpE0LJN5g\">https:\/\/youtu.be\/BgNpE0LJN5g<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2Lac7aI\">https:\/\/a360.co\/2Lac7aI<\/a><\/p><p>06\/14\/19 Added sketches files for ARDUINO and printed circuit board layout<\/p><p>BOM:<br>arduino uno<br>myo sensor<br>nema17<br>2 x limit switches<br>gt2 belt<br>gt2 pulley 16 teeth<br>some wires<br>3 x resistors<\/p><p>07\/08\/19  3dsmax file added<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Prusa<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Prusa Clone&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;55&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Prosthetic servo glove. i made it for my friend. big thanks to  Nick_Iacobbo <a rel=\"ugc nofollow\" href=\"\/thing:1090096\">https:\/\/www.thingiverse.com\/thing:1090096<\/a>. The glove is a rough prototype and mechanical layout for future better designed exo gloves. My wish is that the community will take this open sourced design and add all the necessary things to make this exo hand dream possible.<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA\">https:\/\/www.youtube.com\/watch?v=TUPKdgMZGaA<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A\">https:\/\/www.youtube.com\/watch?v=Yf8U5ZeBa3A<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/gnZylZApyKw\">https:\/\/youtu.be\/gnZylZApyKw<\/a><\/p><p>new version hand v0.3 designed in Fusion 360 for nema 17 stepper motor<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q\">https:\/\/www.youtube.com\/watch?v=1vDSxJnGK1Q<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/youtu.be\/BgNpE0LJN5g\">https:\/\/youtu.be\/BgNpE0LJN5g<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/a360.co\/2Lac7aI\">https:\/\/a360.co\/2Lac7aI<\/a><\/p><p>06\/14\/19 Added sketches files for ARDUINO and printed circuit board layout<\/p><p>BOM:<br>arduino uno<br>myo sensor<br>nema17<br>2 x limit switches<br>gt2 belt<br>gt2 pulley 16 teeth<br>some wires<br>3 x resistors<\/p><p>07\/08\/19  3dsmax file added<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Prusa<\/p><\/div>\n",
+            "printer": "<div><p>Prusa Clone<\/p><\/div>\n",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>0.2<\/p><\/div>\n",
+            "infill": "<div><p>55<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2799056\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2799056\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2799056\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2799056\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2799056\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2799056\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2799056\/categories",
+    "file_count": 75,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 9385,
+    "view_count": 10048,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 7,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "hand.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/ed\/d2\/aa\/f9\/hand.STL"
+        },
+        {
+          "name": "12.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/66\/c2\/b3\/ae\/d1\/12.stl"
+        },
+        {
+          "name": "19.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/2b\/56\/76\/2e\/19.stl"
+        },
+        {
+          "name": "17.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/ab\/26\/7d\/e6\/17.stl"
+        },
+        {
+          "name": "15.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/d4\/61\/a9\/c2\/15.stl"
+        },
+        {
+          "name": "18.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/b7\/88\/ec\/21\/18.stl"
+        },
+        {
+          "name": "112.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/42\/8d\/df\/0c\/112.stl"
+        },
+        {
+          "name": "113.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/d4\/9b\/e2\/e7\/113.stl"
+        },
+        {
+          "name": "110.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/4e\/58\/4a\/17\/110.stl"
+        },
+        {
+          "name": "111.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/e2\/bc\/34\/74\/111.stl"
+        },
+        {
+          "name": "13.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/f1\/3b\/6c\/d8\/13.stl"
+        },
+        {
+          "name": "14.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/76\/25\/31\/4e\/14.stl"
+        },
+        {
+          "name": "10.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/a9\/b1\/b7\/67\/10.stl"
+        },
+        {
+          "name": "16.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/58\/6f\/39\/9a\/16.stl"
+        },
+        {
+          "name": "1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/3a\/2f\/a8\/e4\/1.stl"
+        },
+        {
+          "name": "142.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/61\/d0\/76\/b0\/142.stl"
+        },
+        {
+          "name": "148.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/07\/b1\/3b\/e1\/148.stl"
+        },
+        {
+          "name": "147.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/e1\/da\/4c\/b6\/147.stl"
+        },
+        {
+          "name": "144.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/f0\/a2\/af\/72\/144.stl"
+        },
+        {
+          "name": "143.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/18\/2d\/96\/6a\/143.stl"
+        },
+        {
+          "name": "1411.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/42\/ae\/2f\/67\/1411.stl"
+        },
+        {
+          "name": "149.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/64\/20\/4f\/c1\/149.stl"
+        },
+        {
+          "name": "146.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/51\/33\/3b\/39\/146.stl"
+        },
+        {
+          "name": "145.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/d5\/d0\/c7\/0b\/145.stl"
+        },
+        {
+          "name": "140.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/76\/5a\/81\/34\/140.stl"
+        },
+        {
+          "name": "1413.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/8c\/50\/9f\/cb\/1413.stl"
+        },
+        {
+          "name": "1410.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/c1\/0a\/f3\/67\/1410.stl"
+        },
+        {
+          "name": "1412.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/95\/87\/22\/aa\/1412.stl"
+        },
+        {
+          "name": "14.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/6a\/3c\/f6\/5b\/14.stl"
+        },
+        {
+          "name": "272.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/3b\/f4\/e1\/e8\/272.stl"
+        },
+        {
+          "name": "2711.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/d7\/c6\/42\/0a\/2711.stl"
+        },
+        {
+          "name": "2713.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/7d\/45\/36\/d0\/2713.stl"
+        },
+        {
+          "name": "279.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/4f\/02\/21\/d0\/279.stl"
+        },
+        {
+          "name": "274.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/04\/3f\/52\/d3\/274.stl"
+        },
+        {
+          "name": "273.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/1d\/84\/96\/03\/273.stl"
+        },
+        {
+          "name": "2712.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/ba\/77\/ee\/a9\/2712.stl"
+        },
+        {
+          "name": "277.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/a7\/bb\/c6\/27\/277.stl"
+        },
+        {
+          "name": "278.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/8e\/ae\/64\/46\/278.stl"
+        },
+        {
+          "name": "276.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/8a\/ec\/0f\/8e\/276.stl"
+        },
+        {
+          "name": "2710.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/29\/bb\/c0\/50\/2710.stl"
+        },
+        {
+          "name": "275.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/fc\/28\/2b\/a0\/275.stl"
+        },
+        {
+          "name": "270.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/61\/e1\/87\/f3\/270.stl"
+        },
+        {
+          "name": "27.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/db\/47\/98\/7b\/27.stl"
+        },
+        {
+          "name": "402.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2c\/79\/89\/25\/21\/402.stl"
+        },
+        {
+          "name": "4010.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/a0\/ec\/71\/b8\/4010.stl"
+        },
+        {
+          "name": "407.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/66\/f9\/83\/e9\/407.stl"
+        },
+        {
+          "name": "409.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a0\/0c\/59\/38\/ab\/409.stl"
+        },
+        {
+          "name": "405.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/96\/9d\/a9\/1a\/b4\/405.stl"
+        },
+        {
+          "name": "4013.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/29\/c3\/f1\/f8\/4013.stl"
+        },
+        {
+          "name": "406.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/81\/c3\/50\/1d\/71\/406.stl"
+        },
+        {
+          "name": "408.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/86\/8c\/2c\/5c\/408.stl"
+        },
+        {
+          "name": "4011.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/6b\/fa\/ba\/7f\/4011.stl"
+        },
+        {
+          "name": "404.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/b5\/b3\/c7\/03\/404.stl"
+        },
+        {
+          "name": "4012.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/7e\/0a\/f1\/25\/4012.stl"
+        },
+        {
+          "name": "403.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a9\/07\/06\/87\/fe\/403.stl"
+        },
+        {
+          "name": "400.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/bd\/2f\/d0\/5a\/400.stl"
+        },
+        {
+          "name": "40.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/96\/2c\/74\/9e\/40.stl"
+        },
+        {
+          "name": "533.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/95\/61\/1a\/3c\/fe\/533.stl"
+        },
+        {
+          "name": "538.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/17\/b4\/49\/8f\/538.stl"
+        },
+        {
+          "name": "532.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8e\/b0\/5d\/0f\/c2\/532.stl"
+        },
+        {
+          "name": "5310.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ee\/22\/d4\/b7\/c8\/5310.stl"
+        },
+        {
+          "name": "535.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/9b\/f6\/2a\/00\/535.stl"
+        },
+        {
+          "name": "534.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/12\/c6\/8f\/08\/534.stl"
+        },
+        {
+          "name": "539.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/fe\/5e\/df\/2a\/539.stl"
+        },
+        {
+          "name": "537.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/68\/3d\/b0\/00\/537.stl"
+        },
+        {
+          "name": "536.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/ee\/b7\/4b\/2f\/536.stl"
+        },
+        {
+          "name": "530.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/06\/4c\/5f\/bd\/530.stl"
+        },
+        {
+          "name": "53.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/f6\/92\/2b\/5d\/53.stl"
+        },
+        {
+          "name": "63_\u0438\u0441\u043f\u0440._\u0438\u0441\u043f\u0440..stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3a\/d7\/39\/2e\/87\/63_%D0%B8%D1%81%D0%BF%D1%80._%D0%B8%D1%81%D0%BF%D1%80..stl"
+        },
+        {
+          "name": "650.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/67\/ea\/88\/a2\/10\/650.stl"
+        },
+        {
+          "name": "652.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/4c\/25\/58\/13\/652.stl"
+        },
+        {
+          "name": "653.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/59\/a6\/a1\/d5\/653.stl"
+        },
+        {
+          "name": "65.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/1e\/24\/45\/a1\/65.stl"
+        },
+        {
+          "name": "pcb_hand_and_arduino_sketch.rar",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/10\/0c\/a8\/a2\/pcb_hand_and_arduino_sketch.rar"
+        },
+        {
+          "name": "5v5.rar",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/93\/83\/a9\/0b\/b2\/5v5.rar"
+        }
+      ],
+      "images": [
+        {
+          "name": "fggf.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/61\/aa\/83\/0d\/fggf.jpg"
+        },
+        {
+          "name": "222.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/30\/72\/fd\/19\/49\/222.jpg"
+        },
+        {
+          "name": "fff.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/d7\/4a\/dc\/39\/fff.jpg"
+        },
+        {
+          "name": "fing.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/64\/bb\/43\/59\/d4\/fing.JPG"
+        },
+        {
+          "name": "12.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/db\/82\/13\/1c\/12.jpg"
+        },
+        {
+          "name": "083cf48267d385e4c4147b544aaaf8e1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/9c\/5f\/f4\/fa\/083cf48267d385e4c4147b544aaaf8e1.png"
+        },
+        {
+          "name": "353db36b7f62c2c5bcd4935b0eebb17a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/c1\/7a\/2f\/93\/353db36b7f62c2c5bcd4935b0eebb17a.png"
+        },
+        {
+          "name": "31fbfbf1bf67afba0f2d6baf71ee2ea8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/23\/de\/51\/da\/93\/31fbfbf1bf67afba0f2d6baf71ee2ea8.png"
+        },
+        {
+          "name": "5dd7d66979b02fa72932fdcb0b9c2238.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/bf\/91\/31\/2e\/5dd7d66979b02fa72932fdcb0b9c2238.png"
+        },
+        {
+          "name": "ec8c4cba0067653d553dac3e1ad97eaf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/be\/a5\/c7\/5d\/08\/ec8c4cba0067653d553dac3e1ad97eaf.png"
+        },
+        {
+          "name": "a919ed0d8e83fbe6e8efe08416eaf68e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/84\/cf\/67\/7d\/a919ed0d8e83fbe6e8efe08416eaf68e.png"
+        },
+        {
+          "name": "29ce2b53233db2d4f661c8d38dbba60a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4c\/ab\/d1\/db\/e8\/29ce2b53233db2d4f661c8d38dbba60a.png"
+        },
+        {
+          "name": "a5c9e626a13cbd3044046870070c399c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/1a\/f9\/57\/e6\/a5c9e626a13cbd3044046870070c399c.png"
+        },
+        {
+          "name": "d6b3168dd90fd955932d549cb2762924.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/48\/a8\/4d\/61\/d6b3168dd90fd955932d549cb2762924.png"
+        },
+        {
+          "name": "8bafb89c459408785b677699b73243d2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/27\/89\/3a\/5a\/8bafb89c459408785b677699b73243d2.png"
+        },
+        {
+          "name": "c9d6444bae5b7d3f72e48a269f8ccd53.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/66\/39\/42\/fb\/c9d6444bae5b7d3f72e48a269f8ccd53.png"
+        },
+        {
+          "name": "452f0e49ba4b86982e150ba7af283769.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/49\/e0\/76\/0b\/42\/452f0e49ba4b86982e150ba7af283769.png"
+        },
+        {
+          "name": "d8a4baf7eac91883f3ca02b0ae05b58e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/7d\/fb\/d0\/49\/d8a4baf7eac91883f3ca02b0ae05b58e.png"
+        },
+        {
+          "name": "83b642c8f3bf6cd9de25548a86777bdf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9c\/61\/23\/bc\/ea\/83b642c8f3bf6cd9de25548a86777bdf.png"
+        },
+        {
+          "name": "57a7e46288c72985891af04b36cbd95b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/79\/af\/36\/0e\/57a7e46288c72985891af04b36cbd95b.png"
+        },
+        {
+          "name": "18cc5e0f0e969a3ab2efabeaf541faf3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/76\/0b\/d2\/68\/03\/18cc5e0f0e969a3ab2efabeaf541faf3.png"
+        },
+        {
+          "name": "7919e3a6cff6485c0876a0bc61ae1305.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/e7\/8d\/09\/91\/7919e3a6cff6485c0876a0bc61ae1305.png"
+        },
+        {
+          "name": "950bbed2e0b0d6f20b19ccee50617fba.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a9\/be\/f1\/12\/32\/950bbed2e0b0d6f20b19ccee50617fba.png"
+        },
+        {
+          "name": "cd300a555f6e81a4ae32b2d08430ca06.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/3e\/26\/cb\/52\/cd300a555f6e81a4ae32b2d08430ca06.png"
+        },
+        {
+          "name": "d502174bf7984d588a6f8695e93e3a65.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/65\/34\/58\/c2\/44\/d502174bf7984d588a6f8695e93e3a65.png"
+        },
+        {
+          "name": "cabf7e77234603401d51149b958b4c16.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/d8\/49\/14\/ef\/cabf7e77234603401d51149b958b4c16.png"
+        },
+        {
+          "name": "2f377627af18e9f46f12741cd79a3e1c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6f\/3a\/bd\/d4\/82\/2f377627af18e9f46f12741cd79a3e1c.png"
+        },
+        {
+          "name": "b8fd9bead43b255d3cf3ecca2814950b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b2\/3e\/3d\/ea\/72\/b8fd9bead43b255d3cf3ecca2814950b.png"
+        },
+        {
+          "name": "657f90859b9a190a34218604a75f69ca.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2b\/61\/58\/c5\/04\/657f90859b9a190a34218604a75f69ca.png"
+        },
+        {
+          "name": "d20f389f5281ee2ff6ed3648fc9053e0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b0\/4b\/2a\/7f\/9a\/d20f389f5281ee2ff6ed3648fc9053e0.png"
+        },
+        {
+          "name": "8b3fb76a512d3b84bcd5ae745adcd450.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/69\/c8\/97\/d4\/a1\/8b3fb76a512d3b84bcd5ae745adcd450.png"
+        },
+        {
+          "name": "0f297c88c74d5bacc35086feee264f0f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3f\/8a\/42\/86\/b9\/0f297c88c74d5bacc35086feee264f0f.png"
+        },
+        {
+          "name": "356296d611b898b7e383940eacec12ea.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/21\/47\/54\/5c\/356296d611b898b7e383940eacec12ea.png"
+        },
+        {
+          "name": "34292d37cdc2427cff11cfa16a154990.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/80\/8a\/36\/16\/b7\/34292d37cdc2427cff11cfa16a154990.png"
+        },
+        {
+          "name": "d0cf85fa99dc90da3317a7cd7bd717ce.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/0e\/af\/95\/26\/d0cf85fa99dc90da3317a7cd7bd717ce.png"
+        },
+        {
+          "name": "93aff4d2f1673326df58139b4665547b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bf\/54\/bf\/7d\/c8\/93aff4d2f1673326df58139b4665547b.png"
+        },
+        {
+          "name": "b501a49ce926fb354b1922da45eec139.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a7\/62\/83\/a0\/2e\/b501a49ce926fb354b1922da45eec139.png"
+        },
+        {
+          "name": "486f5eb95c8f6fcc7e1bf333a204cc0c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/4b\/2d\/03\/ac\/4b\/486f5eb95c8f6fcc7e1bf333a204cc0c.png"
+        },
+        {
+          "name": "173f3c8b5437171a01701894e6772f96.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/6a\/78\/7e\/ce\/173f3c8b5437171a01701894e6772f96.png"
+        },
+        {
+          "name": "f7c60b78f22130c06dae6b7ceab1cec0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/dc\/ef\/e5\/e1\/47\/f7c60b78f22130c06dae6b7ceab1cec0.png"
+        },
+        {
+          "name": "0fa9a628295332bf8a8e1da94ba72fe8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3b\/e3\/bf\/a7\/a1\/0fa9a628295332bf8a8e1da94ba72fe8.png"
+        },
+        {
+          "name": "a768e72bbb9788d912648666ce3485ab.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6e\/a6\/e5\/df\/d2\/a768e72bbb9788d912648666ce3485ab.png"
+        },
+        {
+          "name": "a8d8dc35764346236b80ce2552323b5f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b8\/dd\/f5\/fd\/ab\/a8d8dc35764346236b80ce2552323b5f.png"
+        },
+        {
+          "name": "ffd419c6eb9d955839931cf725622aad.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/83\/96\/ed\/ce\/47\/ffd419c6eb9d955839931cf725622aad.png"
+        },
+        {
+          "name": "b724d48a037d44974bff8465d31d83e6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/7e\/e6\/cc\/9c\/b724d48a037d44974bff8465d31d83e6.png"
+        },
+        {
+          "name": "10fd5c90fb518a6af6a8ceddf9c2f94c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c4\/dd\/a8\/2e\/e3\/10fd5c90fb518a6af6a8ceddf9c2f94c.png"
+        },
+        {
+          "name": "9da1d2c9f9a5abf065eaa324ee455c6b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7c\/be\/a1\/2d\/87\/9da1d2c9f9a5abf065eaa324ee455c6b.png"
+        },
+        {
+          "name": "fcba30665a9ba02ebf931958a12fd0cb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6a\/a7\/7f\/a3\/31\/fcba30665a9ba02ebf931958a12fd0cb.png"
+        },
+        {
+          "name": "032fe477271bc9f6942e81265e6aca55.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e8\/66\/f1\/20\/79\/032fe477271bc9f6942e81265e6aca55.png"
+        },
+        {
+          "name": "e2b4fe2f553a3f1f358cc9fdeacbdf99.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6e\/9c\/df\/a0\/4e\/e2b4fe2f553a3f1f358cc9fdeacbdf99.png"
+        },
+        {
+          "name": "5c672b3ff5c5f33d0a3443275c6523c0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/0f\/2b\/fe\/0d\/5c672b3ff5c5f33d0a3443275c6523c0.png"
+        },
+        {
+          "name": "3ba43ee38620ae3e623a9a25bc76e393.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c9\/ff\/9f\/21\/db\/3ba43ee38620ae3e623a9a25bc76e393.png"
+        },
+        {
+          "name": "2128d9e7beefea0c783654d05c74275e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1e\/4f\/32\/57\/72\/2128d9e7beefea0c783654d05c74275e.png"
+        },
+        {
+          "name": "a8e742ea1354a7a5ff7c51cb529d4b01.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/06\/25\/32\/35\/a8e742ea1354a7a5ff7c51cb529d4b01.png"
+        },
+        {
+          "name": "99e489e2df758554fa30320e82bcda3d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/d4\/89\/c9\/f3\/99e489e2df758554fa30320e82bcda3d.png"
+        },
+        {
+          "name": "9e4fa54ceac280da64da5d9f0bd94247.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/14\/6c\/ff\/6e\/cf\/9e4fa54ceac280da64da5d9f0bd94247.png"
+        },
+        {
+          "name": "d9e88258307f032ed5db87fa422a13f6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/07\/5b\/de\/1a\/38\/d9e88258307f032ed5db87fa422a13f6.png"
+        },
+        {
+          "name": "2a3ce999bdc8713f8c15184c2f7d95aa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/82\/8f\/29\/dc\/2a3ce999bdc8713f8c15184c2f7d95aa.png"
+        },
+        {
+          "name": "025d8eaa75d03caa95599fa77b59eeb1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/87\/6f\/45\/a0\/c3\/025d8eaa75d03caa95599fa77b59eeb1.png"
+        },
+        {
+          "name": "37e6b735422d8402dda23e0845291313.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/01\/04\/be\/05\/d5\/37e6b735422d8402dda23e0845291313.png"
+        },
+        {
+          "name": "e32ff35336b22bb7dad6f49be438522d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/6a\/6d\/b0\/3f\/e32ff35336b22bb7dad6f49be438522d.png"
+        },
+        {
+          "name": "caa3e8e4644485e13963d5b657805320.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/3f\/99\/32\/10\/caa3e8e4644485e13963d5b657805320.png"
+        },
+        {
+          "name": "c05f968543dd57b56ea8f0aadb44e507.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/54\/78\/f2\/96\/cf\/c05f968543dd57b56ea8f0aadb44e507.png"
+        },
+        {
+          "name": "14a3c6b81f64a4563a825b2de1f1c129.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ef\/4a\/71\/36\/b2\/14a3c6b81f64a4563a825b2de1f1c129.png"
+        },
+        {
+          "name": "0591ae7b72a4aa469df4bf37e1c6b462.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/0f\/59\/bb\/e3\/0591ae7b72a4aa469df4bf37e1c6b462.png"
+        },
+        {
+          "name": "be8077d5536215abb1c980e5bf67230f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/e6\/be\/e6\/be\/be8077d5536215abb1c980e5bf67230f.png"
+        },
+        {
+          "name": "db511adc65b6cc79da24f3af64821b04.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/53\/8e\/78\/72\/12\/db511adc65b6cc79da24f3af64821b04.png"
+        },
+        {
+          "name": "9da1d2c9f9a5abf065eaa324ee455c6b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/98\/c7\/9d\/a2\/51\/9da1d2c9f9a5abf065eaa324ee455c6b.png"
+        },
+        {
+          "name": "3773b3b9451fecfe7d710637e9336115.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/99\/9c\/95\/70\/98\/3773b3b9451fecfe7d710637e9336115.png"
+        },
+        {
+          "name": "d630c11521679d89d793eba534a143e6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8f\/e7\/0a\/cb\/95\/d630c11521679d89d793eba534a143e6.png"
+        },
+        {
+          "name": "07dea795689f5359335161791dacfa46.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/15\/8b\/de\/46\/05\/07dea795689f5359335161791dacfa46.png"
+        },
+        {
+          "name": "7a5290cd6faf3e064ab9c8d5ec06044e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0c\/48\/3b\/c9\/9d\/7a5290cd6faf3e064ab9c8d5ec06044e.png"
+        },
+        {
+          "name": "f7aac9602f827bafe4ae046ab65d26f4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1c\/df\/5a\/a4\/cd\/f7aac9602f827bafe4ae046ab65d26f4.png"
+        },
+        {
+          "name": "5df97d7e69143c61edc5b13b5d872503.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2d\/77\/03\/0e\/37\/5df97d7e69143c61edc5b13b5d872503.png"
+        },
+        {
+          "name": "5c1cc17485ef9163c0addf6bf2997a10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9b\/1e\/3f\/11\/0c\/5c1cc17485ef9163c0addf6bf2997a10.png"
+        },
+        {
+          "name": "30ba0bd74272012d2ea15e0b8d32cf83.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a6\/f2\/f9\/46\/3f\/30ba0bd74272012d2ea15e0b8d32cf83.png"
+        },
+        {
+          "name": "72b5cf84c6b0d3b11d7cd9ab987fe430.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/34\/77\/e3\/07\/94\/72b5cf84c6b0d3b11d7cd9ab987fe430.png"
+        }
+      ]
+    }
+  }
+}

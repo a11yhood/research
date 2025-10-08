@@ -1,0 +1,472 @@
+{
+  "created_at": "2025-10-08T03:27:25.579576+00:00",
+  "elapsed": 0.231094,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28ad77ec73023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:27:25 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:57:25 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2142926?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2142926?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2142926,
+    "name": "Mini Braille Notetaker Model",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/2142926",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2142926",
+    "creator": {
+      "id": 648543,
+      "name": "ATNeal",
+      "first_name": "Neal",
+      "last_name": "Mckenzie",
+      "url": "https:\/\/api.thingiverse.com\/users\/ATNeal",
+      "public_url": "https:\/\/www.thingiverse.com\/ATNeal",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/27\/08\/59\/4e\/63\/TL.png",
+      "count_of_followers": 41,
+      "count_of_following": 108,
+      "count_of_designs": 7,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sonoma County",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/dc\/36\/0c\/f5\/db\/TL.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-02-28T23:01:45+00:00",
+    "modified": "2017-02-28T23:01:45+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 26,
+    "is_liked": false,
+    "collect_count": 44,
+    "is_collected": false,
+    "comment_count": 3,
+    "is_watched": false,
+    "default_image": {
+      "id": 5520899,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/ee\/03\/06\/5f\/IMG_1879.JPG",
+      "name": "IMG_1879.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/b6\/f5\/4a\/e6\/85c986d9410089d545fbbfb2cf01039e_display_small.JPG"
+        }
+      ],
+      "added": "2017-02-28T22:59:55+00:00"
+    },
+    "description": "A blind student was going to present his Braille Sense U2 notetaker to his class and asked me if there was anyway to make a small model of it using the 3D printer. I at first told him I couldn't but then realized how proud just that idea made him and took my best shot. He loved it and and requested about 6-10 to pass around. He was so happy to have a model of something that was a representation of a real tool in his life. Enjoy",
+    "instructions": "",
+    "description_html": "<div><p>A blind student was going to present his Braille Sense U2 notetaker to his class and asked me if there was anyway to make a small model of it using the 3D printer. I at first told him I couldn't but then realized how proud just that idea made him and took my best shot. He loved it and and requested about 6-10 to pass around. He was so happy to have a model of something that was a representation of a real tool in his life. Enjoy<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A blind student was going to present his Braille Sense U2 notetaker to his class and asked me if there was anyway to make a small model of it using the 3D printer. I at first told him I couldn't but then realized how proud just that idea made him and took my best shot. He loved it and and requested about 6-10 to pass around. He was so happy to have a model of something that was a representation of a real tool in his life. Enjoy<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>LulzBot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;TAZ 5&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A blind student was going to present his Braille Sense U2 notetaker to his class and asked me if there was anyway to make a small model of it using the 3D printer. I at first told him I couldn't but then realized how proud just that idea made him and took my best shot. He loved it and and requested about 6-10 to pass around. He was so happy to have a model of something that was a representation of a real tool in his life. Enjoy<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>LulzBot<\/p><\/div>",
+            "printer": "<div><p>TAZ 5<\/p><\/div>",
+            "rafts": "No",
+            "supports": "No"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2142926\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2142926\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2142926\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2142926\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2142926\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2142926\/tags",
+    "tags": [
+      {
+        "name": "3Dmodel",
+        "tag": "3dmodel",
+        "url": "https:\/\/api.thingiverse.com\/tags\/3dmodel",
+        "count": 2389,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/3dmodel\/things",
+        "absolute_url": "\/tag:3Dmodel"
+      },
+      {
+        "name": "a11y",
+        "tag": "a11y",
+        "url": "https:\/\/api.thingiverse.com\/tags\/a11y",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/a11y\/things",
+        "absolute_url": "\/tag:a11y"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 926,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 715,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "blind",
+        "tag": "blind",
+        "url": "https:\/\/api.thingiverse.com\/tags\/blind",
+        "count": 515,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/blind\/things",
+        "absolute_url": "\/tag:blind"
+      },
+      {
+        "name": "braille",
+        "tag": "braille",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braille",
+        "count": 536,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braille\/things",
+        "absolute_url": "\/tag:braille"
+      },
+      {
+        "name": "braillesense",
+        "tag": "braillesense",
+        "url": "https:\/\/api.thingiverse.com\/tags\/braillesense",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/braillesense\/things",
+        "absolute_url": "\/tag:braillesense"
+      },
+      {
+        "name": "inclusion",
+        "tag": "inclusion",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inclusion",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inclusion\/things",
+        "absolute_url": "\/tag:inclusion"
+      },
+      {
+        "name": "notetaker",
+        "tag": "notetaker",
+        "url": "https:\/\/api.thingiverse.com\/tags\/notetaker",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/notetaker\/things",
+        "absolute_url": "\/tag:notetaker"
+      },
+      {
+        "name": "TVI",
+        "tag": "tvi",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tvi",
+        "count": 6,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tvi\/things",
+        "absolute_url": "\/tag:TVI"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2142926\/categories",
+    "file_count": 1,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 324,
+    "view_count": 698,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "braille_Sense.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/dc\/75\/8b\/3c\/braille_Sense.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_1879.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/10\/ee\/03\/06\/5f\/IMG_1879.JPG"
+        },
+        {
+          "name": "IMG_1881.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/a3\/eb\/c7\/a1\/IMG_1881.JPG"
+        },
+        {
+          "name": "IMG_1878.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/07\/36\/20\/ab\/IMG_1878.JPG"
+        },
+        {
+          "name": "IMG_1880.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/47\/05\/f9\/6e\/IMG_1880.JPG"
+        },
+        {
+          "name": "braille-notetakers-500x500.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/9d\/86\/5c\/55\/braille-notetakers-500x500.jpg"
+        },
+        {
+          "name": "f20b502fcf7e37a0b01ea0816143c896.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/43\/d8\/7b\/4e\/e7\/f20b502fcf7e37a0b01ea0816143c896.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "created_at": "2025-10-08T03:28:00.401098+00:00",
+  "elapsed": 0.23173,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28bb10fed3023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:00 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:00 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1696944?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1696944?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1696944,
+    "name": "Prosthetic: Project Prostheducate",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1696944",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1696944",
+    "creator": {
+      "id": 734980,
+      "name": "Sophia1329",
+      "first_name": "Sophia",
+      "last_name": "Steblay",
+      "url": "https:\/\/api.thingiverse.com\/users\/Sophia1329",
+      "public_url": "https:\/\/www.thingiverse.com\/Sophia1329",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/03\/13\/74\/8c\/e2\/54578611656798245210940077c32ced_thumb_medium.jpg",
+      "count_of_followers": 6,
+      "count_of_following": 2,
+      "count_of_designs": 5,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/31\/02\/6d\/e1\/66\/54578611656798245210940077c32ced_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2016-08-01T17:48:01+00:00",
+    "modified": "2016-08-01T17:48:01+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 23,
+    "is_liked": false,
+    "collect_count": 65,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 4206785,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/fa\/9f\/e3\/bb\/Project_Prostheducate_Cover.JPG",
+      "name": "Project_Prostheducate_Cover.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c1\/6f\/bd\/ef\/f1\/ce6195c7172992925f88e06e54fc9806_display_small.JPG"
+        }
+      ],
+      "added": "2016-08-01T17:29:31+00:00"
+    },
+    "description": "     Project Prostheducate was created to bring prosthetics and 3D modeling into the classroom. It gives students the chance to design and 3D print their own prosthetic attachments. Students will develop engineering skills, 3D modeling skills, and problem solving skills while participating in Project Prostheducate. This project is an easy and affordable way to introduce students to the world of 3D printing and 3D modeling.\r\n",
+    "instructions": "",
+    "description_html": "<div><pre><code> Project Prostheducate was created to bring prosthetics and 3D modeling into the classroom. It gives students the chance to design and 3D print their own prosthetic attachments. Students will develop engineering skills, 3D modeling skills, and problem solving skills while participating in Project Prostheducate. This project is an easy and affordable way to introduce students to the world of 3D printing and 3D modeling.<\/code><\/pre><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><pre><code> Project Prostheducate was created to bring prosthetics and 3D modeling into the classroom. It gives students the chance to design and 3D print their own prosthetic attachments. Students will develop engineering skills, 3D modeling skills, and problem solving skills while participating in Project Prostheducate. This project is an easy and affordable way to introduce students to the world of 3D printing and 3D modeling.<\/code><\/pre><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Printrbot<\/p><\/div>                                                                                    <p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Simple White<\/p><\/div>                                                                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                                                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                                                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>15% Infill<\/p><\/div>                                                            <br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong>                        <\/p><div><p>The Project Prostheducate Prosthetic was printed on a Printrbot Play. Since it was not an option for \"Printer Model\", I selected \"Simple White\" because the Printrbot Simple is very similar to the Printrbot Play. Rafts and supports are not needed to print the Project Prostheducate Prosthetic.|<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><pre><code> I designed the Project Prostheducate Prosthetic and its attachments  with its simplicity in mind. I wanted to keep things simple and easy to understand, while maintaining complete functionality. I used 123D Design to create the Project Prostheducate Prosthetic. To make the prosthetic a reality, I first started with sketches of the attachments and the prosthetic. Then I began to design everything using basic shapes and simple measurements. After several prototypes, I was able to create working attachments for the Project Prostheducate prosthetic.<\/code><\/pre><\/div><h1 class=\"thing-component-header custom project-project-prostheducate\">Project: Project Prostheducate<\/h1><p class=\"detail-title\"><strong>Project Name<\/strong><\/p>                <div><pre><code> Project Prostheducate is an appropriate name for this project because the project was created to educate students about prosthetics and their impact on the lives of amputees.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Overview and Background<\/strong><\/p>                <div><pre><code> Project Prostheducate was created as an easy and affordable way to bring prosthetics into the classroom. Students participating in Project Prostheducate have the opportunity to design and 3D print their own attachments to add on to the prosthetic. Students are introduced to the world of 3D modeling and 3D printing, while developing problem solving skills. Project Prostheducate is ideal for students in grades three through ten because of its easy-to-understand concept, yet challenging curriculum. Students participating in Project Prostheducate will have lots of fun while creating prosthetic attachments for the Project Prostheducate prosthetic.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Objectives<\/strong><\/p>                <div><p>By the end of Project Prostheducate, students would be expected to have learned:<\/p><ol><li>How to design 3D models<\/li><li>How a 3D printer works<\/li><li>How important hands are in everyday tasks<\/li><li>How to turn sketches and measurements into a physical object<\/li><\/ol><\/div>                <p class=\"detail-title\"><strong>Audiences<\/strong><\/p>                <div><pre><code> Project Prostheducate is perfect for students in grades three through ten. This project is basic enough for younger students to comprehend, yet complex enough to challenge older students. The lesson plans created by the teachers should be based off of their students\u2019 ages and skill levels.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Subjects<\/strong><\/p>                <div><pre><code> Project Prostheducate would be a great learning experience for students in math or science class. Math or science would be the ideal subjects for this project because it teaches kids engineering skills, which help students use and strengthen their math and science skills.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Skills Learned<\/strong><\/p>                <div><pre><code> The students participating in Project Prostheducate would gain engineering skills, 3D modeling skills, and problem solving skills.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Lesson\/Activity<\/strong><\/p>                <div><p>How to participate in Project Prostheducate:<\/p><ol><li><p>To begin Project Prostheducate, review the resources found on the Project Prostheducate Thingiverse page. These resources will help prepare you for designing and 3D printing your own attachments. The resources will also help you understand how 3D printing works.<\/p><\/li><li><p>Once you have completed Step 1, go to the Project Prostheducate Thingiverse Page and download all of the files. Print each file as many times as follows:<br>Attachment Base- 1<br>Wrist- 1<br>Long Hinge Pins- 2<br>Computer Keyboard Typing Attachment- 1<br>iPhone Holder- 1<br>Pencil Holder- 1<br>Shoe Tying Helper- 1<br>Snack Cup Holder- 1<br>Spoon and Fork Holder- 1<br>Toothbrush Holder- 1<br>Violin Bow Holder- 1<\/p><\/li><li><p>Assemble the Project Prostheducate Prosthetic using the instructions below.<br>A. Once you have printed every part of the prosthetic, you can start assembling. Lay everything out on a flat surface so it is easy to find the parts.assembling. Lay everything out on a flat surface so it is easy to find the parts.<\/p><pre><code>            B. The first thing you will assemble is the wrist. The wrist part of the prosthetic comes in two sections so it can fit on smaller printers. Glue the two pieces together using super glue or hot glue. The pieces should fit perfectly together. Then, use pliers or other tools to remove the six support structures. There are gaps in the wrist for Velcro straps. Using Velcro is optional. The Velcro should go through the top gap and out through the other top. Then down through the one bottom one and out the other end. The Velcro straps are used to secure the amputee's wrist to the prosthetic.            C. Now that the wrist is assembled, you can start assembling the prosthetic. Grab the wrist, attachment base, and the two hinge pins included in the wrist file. Then, line up the holes on the wrist and attachment base. Insert the two hinge pins into the holes. This secures the wrist and attachment base together.            D. The prosthetic is now complete, but the attachments still need to be assembled. See Step 5 for individual instructions on each attachment. To insert an attachment into the Project Prostheducate Prosthetic, you will need the two long hinge pins, the prosthetic, and an attachment. Insert the attachment into the prosthetic at the front. The holes will automatically line up as long as the attachment is fully inserted. Push the two long hinge pins all the way into the wrist through the holes. This secures the attachment to the prosthetic. This process works for every attachment. You can now use the prosthetic and its attachment.            E. Individual Instructions on Each Attachment:<\/code><\/pre><p>Computer Keyboard Typing Attachment- This attachment does not need to be assembled.<br>iPhone Holder- To assemble the iphone holder, you need all of the parts included in the iPhone Holder file found on the Project Prostheducate Thingiverse Page. (See the pictures below for the names of the parts.) Line up the holes on the arm and the stand, then insert the hinge pins into the holes. This secures the arm and the stand together. The iPhone Holder is designed to fit both the iPhone 6 and the iPhone 6 Plus. Look at the pictures below for instructions on how to change the attachment to fit the different iPhones.<br>Pencil Holder- This attachment does not need to be assembled, but it requires a rubber band. In order for the pencil not to slide through the attachment, you need to wrap a rubber band around it. The height at which you wrap it is up to you. Push the pencil through the attachment until it doesn\u2019t fall out when turned upside down. The attachment can also hold pens, some highlighters, and some markers.<br>Shoe Tying Helper- This attachment does not need to be assembled.<br>Spoon and Fork Holder- This attachment does not need to be assembled, but it requires a rubber band. In order for the spoon or fork to stay in the attachment and not fall out, it needs to be secured with a rubber band. The rubber band should be wrapped around the pegs sticking out of the attachment.<br>Snack Cup Holder- To assemble the Snack Cup Holder, you will need super glue\/hot glue. Glue the bottom of the holder part of the attachment to the insert part of the attachment.<br>Toothbrush Holder- To assemble the Toothbrush Holder, you will need super glue or hot glue. Make sure you have all of the parts from the Toothbrush Holder file. Take the slider part and stick it through the base part. Glue the plate part onto the bottom of the slider part. This secures the Slider to the Base, while still allowing it to move around. To secure the toothbrush in the holder, use a rubber band. Wrap the rubber band around the pegs and around the Plate Part on the bottom of the holder. (See pictures for help with rubber band.)<br>Violin Bow Holder- To assemble the Violin Bow Holder, glue the Bow Holder part to the insert part. Make sure the skinnier pegs are on the sides and the thicker pegs are on the top and bottom. (See pictures for help with this.) You can add a rubber band to secure the violin bow in the holder.<\/p><\/li><li><p>Once you have printed and assembled the Project Prostheducate Prosthetic, your next task is to play around with it! Study how it works and try to understand how it was designed.<\/p><\/li><li><p>If you understand how the prosthetic works and how it was designed, you are ready to start designing your own prosthetic attachment. Design your attachment on 123d Design. Import the Attachment Insert file into a new design plane in 123d Design. Then, create your attachment coming off of that model. Be patient, you will go through many prototypes before finalizing your prosthetic attachment.<\/p><\/li><li><p>Once you have designed an attachment, you can download that file and 3D print it. If your attachment doesn\u2019t work like it should, just keep trying. You will succeed eventually.<\/p><\/li><li>When your attachment is perfect and doesn\u2019t need any editing, you are then ready to upload your attachment. You will need a Thingiverse account for this, so make an account if you don\u2019t have one. Log in to your Thingiverse account and upload your attachment to the \u201cMade\u201d section of the Project Prostheducate Thingiverse page. We would love to see the wonderful and useful attachments you create!<\/li><\/ol><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a9\/19\/d2\/1e\/f9\/Prototypes_Photo.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Examples of prototypes for the Project Prostheducate Prosthetic<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/b4\/d9\/b6\/55\/3b\/Wrist_for_the_Project_Prostheducate_Prosthetic.stl.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The two wrist pieces should fit perfectly together.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/36\/1c\/3e\/8a\/98\/Wrist_and_Attachment_Base_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Labeled parts for the Wrist and Attachment Base.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/63\/9f\/88\/af\/a8\/Prosthetic_and_Attachment_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Labeled parts for the prosthetic and attachment.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a1\/07\/64\/2c\/a0\/iPhone_Holder-_LABELED_-for_the_Project_Prostheducate_Prosthetic.stl_2.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Labeled parts for the iPhone Holder Attachment.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a6\/7c\/2e\/3f\/7e\/iPhone_6_Holder_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Two Hinge Pins are in the Arm. This setting is the iPhone 6 setting.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/fd\/dc\/8d\/56\/6c\/iPhone_6_Plus_Holder_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>One Hinge Pin is in the Arm. This setting is the iPhone 6 Plus setting.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/e1\/b3\/28\/ed\/da\/Pencil_Holder_with_Rubber_Band_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The rubber band is wrapped around the pencil so the pencil does not slip through the attachment.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/93\/fd\/34\/6d\/d7\/Spoon_and_Fork_Holder_with_rubber_band_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The rubber band is wrapped around the Spoon\/Fork Holder Attachment so the spoon does not fall out when tipped upside down.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/a7\/28\/80\/11\/89\/Snack_Cup_Holder-_GLUE_-_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The Snack Cup Holder is printed in two parts. Those parts are glued together like the picture above shows.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/88\/c7\/ff\/3b\/a4\/Violin_Bow_Holder_-_GLUE_-_for_the_Project_Prostheducate_Prosthetic.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The Violin Bow Holder Attachment is printed in two parts. The parts are glued as shown in the picture above.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/9f\/4b\/27\/a5\/22\/Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>The rubber band is wrapped around the Toothbrush Holder Attachment so the toothbrush won't fall out.<\/strong><\/p>                    <p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/9a\/5d\/3d\/93\/7c\/Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Duration<\/strong><\/p>                <div><pre><code> Project Prostheducate should take approximately 2-4 weeks to complete. It could take longer if the students and the teacher continue to make attachments past the four week mark.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Preparation<\/strong><\/p>                <div><pre><code> Before beginning Project Prostheducate, students should make sure they have access to a 3D printer and a computer. Students don\u2019t need to know anything about 3D printers or 3D modeling before beginning this project. Project Prostheducate gives students an opportunity to develop and strengthen their 3D modeling skills and to learn how 3D printing works.        Materials\/Technologies needed for Project Prostheuducate:                          1. 3D printer\/s                          2. Computer\/s                          3. 3D printing filament                          4. Rubber bands                          5. Super glue\/ hot glue (Teacher\u2019s choice)                          6. 7\/8\" Velcro Straps (Optional)                          7. Pliers or other tools for removing support structures<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>References<\/strong><\/p>                <div><ol><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ZVGXcqVHCaw\">https:\/\/www.youtube.com\/watch?v=ZVGXcqVHCaw<\/a><br>Creating Basic Objects<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=bdrm47ZWkBA\">https:\/\/www.youtube.com\/watch?v=bdrm47ZWkBA<\/a><br>Moving and Snapping<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=3VwUSOrNSEA\">https:\/\/www.youtube.com\/watch?v=3VwUSOrNSEA<\/a><br>Grouping Objects<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=P7vbOcASm6c\">https:\/\/www.youtube.com\/watch?v=P7vbOcASm6c<\/a><br>Edges, Faces, and Points<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Lc-JCJ82UxI\">https:\/\/www.youtube.com\/watch?v=Lc-JCJ82UxI<\/a><br>Adding, Subtracting, and Intersecting Objects<\/li><li><a rel=\"nofollow\" href=\"http:\/\/cdn.123dapp.com\/wp\/wp-content\/uploads\/2016\/03\/123d-design-manual.pdf\">http:\/\/cdn.123dapp.com\/wp\/wp-content\/uploads\/2016\/03\/123d-design-manual.pdf<\/a><br>123d Design Manual<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Vx0Z6LplaMU\">https:\/\/www.youtube.com\/watch?v=Vx0Z6LplaMU<\/a><br>What is 3D Printing and How Does it Work?<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Llgko_GpXbI\">https:\/\/www.youtube.com\/watch?v=Llgko_GpXbI<\/a><br>What is 3D Printing and How Does it Work? (Cartoon Version)<\/li><li><a rel=\"nofollow\" href=\"http:\/\/3dprinting.com\/what-is-3d-printing\/\">http:\/\/3dprinting.com\/what-is-3d-printing\/<\/a><br>Information on 3D Printing<\/li><\/ol><\/div>                <p class=\"detail-title\"><strong>Rubric and Assessment<\/strong><\/p>                <div><pre><code> By the end of the project, the class should have printed the Project Prostheducate Prosthetic, printed at least three of the attachments, and each student should have attempted to design their own attachment. The achievements expected from the students should be based off of their ages and skill levels. A 10th grader should be expected to accomplish greater tasks than a 3rd grader. How the students are graded is entirely up to the teacher.<\/code><\/pre><\/div>                <p class=\"detail-title\"><strong>Handouts and Assets<\/strong><\/p>                <div><p><a rel=\"nofollow\" href=\"https:\/\/docs.google.com\/document\/d\/1F__JwDFBgi8031ftAiLsbvGhqGToETzN9xkL2EB_btA\/edit?usp=sharing\">https:\/\/docs.google.com\/document\/d\/1F__JwDFBgi8031ftAiLsbvGhqGToETzN9xkL2EB_btA\/edit?usp=sharing<\/a><br>Design Your Own Attachment Worksheet<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><pre><code> Project Prostheducate was created to bring prosthetics and 3D modeling into the classroom. It gives students the chance to design and 3D print their own prosthetic attachments. Students will develop engineering skills, 3D modeling skills, and problem solving skills while participating in Project Prostheducate. This project is an easy and affordable way to introduce students to the world of 3D printing and 3D modeling.<\/code><\/pre><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Printrbot<\/p><\/div>",
+            "printer": "<div><p>Simple White<\/p><\/div>",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "infill": "<div><p>15% Infill<\/p><\/div>",
+            "notes": "<div><p>The Project Prostheducate Prosthetic was printed on a Printrbot Play. Since it was not an option for \"Printer Model\", I selected \"Simple White\" because the Printrbot Simple is very similar to the Printrbot Play. Rafts and supports are not needed to print the Project Prostheducate Prosthetic.|<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><pre><code> I designed the Project Prostheducate Prosthetic and its attachments  with its simplicity in mind. I wanted to keep things simple and easy to understand, while maintaining complete functionality. I used 123D Design to create the Project Prostheducate Prosthetic. To make the prosthetic a reality, I first started with sketches of the attachments and the prosthetic. Then I began to design everything using basic shapes and simple measurements. After several prototypes, I was able to create working attachments for the Project Prostheducate prosthetic.<\/code><\/pre><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Project: Project Prostheducate",
+        "data": [
+          {
+            "title": "Project Name",
+            "content": "<div><pre><code> Project Prostheducate is an appropriate name for this project because the project was created to educate students about prosthetics and their impact on the lives of amputees.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Overview and Background",
+            "content": "<div><pre><code> Project Prostheducate was created as an easy and affordable way to bring prosthetics into the classroom. Students participating in Project Prostheducate have the opportunity to design and 3D print their own attachments to add on to the prosthetic. Students are introduced to the world of 3D modeling and 3D printing, while developing problem solving skills. Project Prostheducate is ideal for students in grades three through ten because of its easy-to-understand concept, yet challenging curriculum. Students participating in Project Prostheducate will have lots of fun while creating prosthetic attachments for the Project Prostheducate prosthetic.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Objectives",
+            "content": "<div><p>By the end of Project Prostheducate, students would be expected to have learned:<\/p><ol><li>How to design 3D models<\/li><li>How a 3D printer works<\/li><li>How important hands are in everyday tasks<\/li><li>How to turn sketches and measurements into a physical object<\/li><\/ol><\/div>"
+          },
+          {
+            "title": "Audiences",
+            "content": "<div><pre><code> Project Prostheducate is perfect for students in grades three through ten. This project is basic enough for younger students to comprehend, yet complex enough to challenge older students. The lesson plans created by the teachers should be based off of their students\u2019 ages and skill levels.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Subjects",
+            "content": "<div><pre><code> Project Prostheducate would be a great learning experience for students in math or science class. Math or science would be the ideal subjects for this project because it teaches kids engineering skills, which help students use and strengthen their math and science skills.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Skills Learned",
+            "content": "<div><pre><code> The students participating in Project Prostheducate would gain engineering skills, 3D modeling skills, and problem solving skills.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Lesson\/Activity",
+            "content": "<div><p>How to participate in Project Prostheducate:<\/p><ol><li><p>To begin Project Prostheducate, review the resources found on the Project Prostheducate Thingiverse page. These resources will help prepare you for designing and 3D printing your own attachments. The resources will also help you understand how 3D printing works.<\/p><\/li><li><p>Once you have completed Step 1, go to the Project Prostheducate Thingiverse Page and download all of the files. Print each file as many times as follows:<br>Attachment Base- 1<br>Wrist- 1<br>Long Hinge Pins- 2<br>Computer Keyboard Typing Attachment- 1<br>iPhone Holder- 1<br>Pencil Holder- 1<br>Shoe Tying Helper- 1<br>Snack Cup Holder- 1<br>Spoon and Fork Holder- 1<br>Toothbrush Holder- 1<br>Violin Bow Holder- 1<\/p><\/li><li><p>Assemble the Project Prostheducate Prosthetic using the instructions below.<br>A. Once you have printed every part of the prosthetic, you can start assembling. Lay everything out on a flat surface so it is easy to find the parts.assembling. Lay everything out on a flat surface so it is easy to find the parts.<\/p><pre><code>            B. The first thing you will assemble is the wrist. The wrist part of the prosthetic comes in two sections so it can fit on smaller printers. Glue the two pieces together using super glue or hot glue. The pieces should fit perfectly together. Then, use pliers or other tools to remove the six support structures. There are gaps in the wrist for Velcro straps. Using Velcro is optional. The Velcro should go through the top gap and out through the other top. Then down through the one bottom one and out the other end. The Velcro straps are used to secure the amputee's wrist to the prosthetic.            C. Now that the wrist is assembled, you can start assembling the prosthetic. Grab the wrist, attachment base, and the two hinge pins included in the wrist file. Then, line up the holes on the wrist and attachment base. Insert the two hinge pins into the holes. This secures the wrist and attachment base together.            D. The prosthetic is now complete, but the attachments still need to be assembled. See Step 5 for individual instructions on each attachment. To insert an attachment into the Project Prostheducate Prosthetic, you will need the two long hinge pins, the prosthetic, and an attachment. Insert the attachment into the prosthetic at the front. The holes will automatically line up as long as the attachment is fully inserted. Push the two long hinge pins all the way into the wrist through the holes. This secures the attachment to the prosthetic. This process works for every attachment. You can now use the prosthetic and its attachment.            E. Individual Instructions on Each Attachment:<\/code><\/pre><p>Computer Keyboard Typing Attachment- This attachment does not need to be assembled.<br>iPhone Holder- To assemble the iphone holder, you need all of the parts included in the iPhone Holder file found on the Project Prostheducate Thingiverse Page. (See the pictures below for the names of the parts.) Line up the holes on the arm and the stand, then insert the hinge pins into the holes. This secures the arm and the stand together. The iPhone Holder is designed to fit both the iPhone 6 and the iPhone 6 Plus. Look at the pictures below for instructions on how to change the attachment to fit the different iPhones.<br>Pencil Holder- This attachment does not need to be assembled, but it requires a rubber band. In order for the pencil not to slide through the attachment, you need to wrap a rubber band around it. The height at which you wrap it is up to you. Push the pencil through the attachment until it doesn\u2019t fall out when turned upside down. The attachment can also hold pens, some highlighters, and some markers.<br>Shoe Tying Helper- This attachment does not need to be assembled.<br>Spoon and Fork Holder- This attachment does not need to be assembled, but it requires a rubber band. In order for the spoon or fork to stay in the attachment and not fall out, it needs to be secured with a rubber band. The rubber band should be wrapped around the pegs sticking out of the attachment.<br>Snack Cup Holder- To assemble the Snack Cup Holder, you will need super glue\/hot glue. Glue the bottom of the holder part of the attachment to the insert part of the attachment.<br>Toothbrush Holder- To assemble the Toothbrush Holder, you will need super glue or hot glue. Make sure you have all of the parts from the Toothbrush Holder file. Take the slider part and stick it through the base part. Glue the plate part onto the bottom of the slider part. This secures the Slider to the Base, while still allowing it to move around. To secure the toothbrush in the holder, use a rubber band. Wrap the rubber band around the pegs and around the Plate Part on the bottom of the holder. (See pictures for help with rubber band.)<br>Violin Bow Holder- To assemble the Violin Bow Holder, glue the Bow Holder part to the insert part. Make sure the skinnier pegs are on the sides and the thicker pegs are on the top and bottom. (See pictures for help with this.) You can add a rubber band to secure the violin bow in the holder.<\/p><\/li><li><p>Once you have printed and assembled the Project Prostheducate Prosthetic, your next task is to play around with it! Study how it works and try to understand how it was designed.<\/p><\/li><li><p>If you understand how the prosthetic works and how it was designed, you are ready to start designing your own prosthetic attachment. Design your attachment on 123d Design. Import the Attachment Insert file into a new design plane in 123d Design. Then, create your attachment coming off of that model. Be patient, you will go through many prototypes before finalizing your prosthetic attachment.<\/p><\/li><li><p>Once you have designed an attachment, you can download that file and 3D print it. If your attachment doesn\u2019t work like it should, just keep trying. You will succeed eventually.<\/p><\/li><li>When your attachment is perfect and doesn\u2019t need any editing, you are then ready to upload your attachment. You will need a Thingiverse account for this, so make an account if you don\u2019t have one. Log in to your Thingiverse account and upload your attachment to the \u201cMade\u201d section of the Project Prostheducate Thingiverse page. We would love to see the wonderful and useful attachments you create!<\/li><\/ol><\/div>"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a9\/19\/d2\/1e\/f9\/Prototypes_Photo.JPG",
+            "caption": "Examples of prototypes for the Project Prostheducate Prosthetic",
+            "image_id": "16486"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b4\/d9\/b6\/55\/3b\/Wrist_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+            "caption": "The two wrist pieces should fit perfectly together.",
+            "image_id": "16604"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/36\/1c\/3e\/8a\/98\/Wrist_and_Attachment_Base_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "Labeled parts for the Wrist and Attachment Base.",
+            "image_id": "16605"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/63\/9f\/88\/af\/a8\/Prosthetic_and_Attachment_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "Labeled parts for the prosthetic and attachment.",
+            "image_id": "16610"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a1\/07\/64\/2c\/a0\/iPhone_Holder-_LABELED_-for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+            "caption": "Labeled parts for the iPhone Holder Attachment.",
+            "image_id": "16608"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a6\/7c\/2e\/3f\/7e\/iPhone_6_Holder_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "Two Hinge Pins are in the Arm. This setting is the iPhone 6 setting.",
+            "image_id": "16611"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/fd\/dc\/8d\/56\/6c\/iPhone_6_Plus_Holder_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "One Hinge Pin is in the Arm. This setting is the iPhone 6 Plus setting.",
+            "image_id": "16612"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/e1\/b3\/28\/ed\/da\/Pencil_Holder_with_Rubber_Band_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "The rubber band is wrapped around the pencil so the pencil does not slip through the attachment.",
+            "image_id": "16614"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/93\/fd\/34\/6d\/d7\/Spoon_and_Fork_Holder_with_rubber_band_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "The rubber band is wrapped around the Spoon\/Fork Holder Attachment so the spoon does not fall out when tipped upside down.",
+            "image_id": "16615"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/a7\/28\/80\/11\/89\/Snack_Cup_Holder-_GLUE_-_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "The Snack Cup Holder is printed in two parts. Those parts are glued together like the picture above shows.",
+            "image_id": "16616"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/88\/c7\/ff\/3b\/a4\/Violin_Bow_Holder_-_GLUE_-_for_the_Project_Prostheducate_Prosthetic.JPG",
+            "caption": "The Violin Bow Holder Attachment is printed in two parts. The parts are glued as shown in the picture above.",
+            "image_id": "16617"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9f\/4b\/27\/a5\/22\/Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+            "caption": "The rubber band is wrapped around the Toothbrush Holder Attachment so the toothbrush won't fall out.",
+            "image_id": "16625"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/9a\/5d\/3d\/93\/7c\/Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+            "image_id": "16626"
+          },
+          {
+            "title": "Duration",
+            "content": "<div><pre><code> Project Prostheducate should take approximately 2-4 weeks to complete. It could take longer if the students and the teacher continue to make attachments past the four week mark.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Preparation",
+            "content": "<div><pre><code> Before beginning Project Prostheducate, students should make sure they have access to a 3D printer and a computer. Students don\u2019t need to know anything about 3D printers or 3D modeling before beginning this project. Project Prostheducate gives students an opportunity to develop and strengthen their 3D modeling skills and to learn how 3D printing works.        Materials\/Technologies needed for Project Prostheuducate:                          1. 3D printer\/s                          2. Computer\/s                          3. 3D printing filament                          4. Rubber bands                          5. Super glue\/ hot glue (Teacher\u2019s choice)                          6. 7\/8\" Velcro Straps (Optional)                          7. Pliers or other tools for removing support structures<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "References",
+            "content": "<div><ol><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=ZVGXcqVHCaw\">https:\/\/www.youtube.com\/watch?v=ZVGXcqVHCaw<\/a><br>Creating Basic Objects<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=bdrm47ZWkBA\">https:\/\/www.youtube.com\/watch?v=bdrm47ZWkBA<\/a><br>Moving and Snapping<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=3VwUSOrNSEA\">https:\/\/www.youtube.com\/watch?v=3VwUSOrNSEA<\/a><br>Grouping Objects<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=P7vbOcASm6c\">https:\/\/www.youtube.com\/watch?v=P7vbOcASm6c<\/a><br>Edges, Faces, and Points<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Lc-JCJ82UxI\">https:\/\/www.youtube.com\/watch?v=Lc-JCJ82UxI<\/a><br>Adding, Subtracting, and Intersecting Objects<\/li><li><a rel=\"nofollow\" href=\"http:\/\/cdn.123dapp.com\/wp\/wp-content\/uploads\/2016\/03\/123d-design-manual.pdf\">http:\/\/cdn.123dapp.com\/wp\/wp-content\/uploads\/2016\/03\/123d-design-manual.pdf<\/a><br>123d Design Manual<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Vx0Z6LplaMU\">https:\/\/www.youtube.com\/watch?v=Vx0Z6LplaMU<\/a><br>What is 3D Printing and How Does it Work?<\/li><li><a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=Llgko_GpXbI\">https:\/\/www.youtube.com\/watch?v=Llgko_GpXbI<\/a><br>What is 3D Printing and How Does it Work? (Cartoon Version)<\/li><li><a rel=\"nofollow\" href=\"http:\/\/3dprinting.com\/what-is-3d-printing\/\">http:\/\/3dprinting.com\/what-is-3d-printing\/<\/a><br>Information on 3D Printing<\/li><\/ol><\/div>"
+          },
+          {
+            "title": "Rubric and Assessment",
+            "content": "<div><pre><code> By the end of the project, the class should have printed the Project Prostheducate Prosthetic, printed at least three of the attachments, and each student should have attempted to design their own attachment. The achievements expected from the students should be based off of their ages and skill levels. A 10th grader should be expected to accomplish greater tasks than a 3rd grader. How the students are graded is entirely up to the teacher.<\/code><\/pre><\/div>"
+          },
+          {
+            "title": "Handouts and Assets",
+            "content": "<div><p><a rel=\"nofollow\" href=\"https:\/\/docs.google.com\/document\/d\/1F__JwDFBgi8031ftAiLsbvGhqGToETzN9xkL2EB_btA\/edit?usp=sharing\">https:\/\/docs.google.com\/document\/d\/1F__JwDFBgi8031ftAiLsbvGhqGToETzN9xkL2EB_btA\/edit?usp=sharing<\/a><br>Design Your Own Attachment Worksheet<\/p><\/div>"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": null,
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1696944\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1696944\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1696944\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1696944\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1696944\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1696944\/tags",
+    "tags": [
+      {
+        "name": "123D Design",
+        "tag": "123d_design",
+        "url": "https:\/\/api.thingiverse.com\/tags\/123d_design",
+        "count": 221,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/123d_design\/things",
+        "absolute_url": "\/tag:123D_Design"
+      },
+      {
+        "name": "DesignProject",
+        "tag": "designproject",
+        "url": "https:\/\/api.thingiverse.com\/tags\/designproject",
+        "count": 859,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/designproject\/things",
+        "absolute_url": "\/tag:DesignProject"
+      },
+      {
+        "name": "engineeringproject",
+        "tag": "engineeringproject",
+        "url": "https:\/\/api.thingiverse.com\/tags\/engineeringproject",
+        "count": 584,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/engineeringproject\/things",
+        "absolute_url": "\/tag:engineeringproject"
+      },
+      {
+        "name": "MakerEdChallenge2",
+        "tag": "makeredchallenge2",
+        "url": "https:\/\/api.thingiverse.com\/tags\/makeredchallenge2",
+        "count": 416,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/makeredchallenge2\/things",
+        "absolute_url": "\/tag:MakerEdChallenge2"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1696944\/categories",
+    "file_count": 12,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1666,
+    "view_count": 3124,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 2,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Attachment_Base_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/6f\/5b\/8a\/c4\/Attachment_Base_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Wrist_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/f5\/bd\/9d\/cd\/Wrist_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Long_Hinge_Pins_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/43\/15\/3f\/44\/Long_Hinge_Pins_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e1\/9d\/fe\/b2\/c8\/Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/73\/ba\/42\/87\/iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Pencil_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/63\/97\/eb\/f5\/Pencil_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Shoe_Tying_Helper_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/27\/49\/bc\/95\/Shoe_Tying_Helper_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Spoon_and_Fork_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/73\/2b\/fe\/9f\/Spoon_and_Fork_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/e5\/7a\/9a\/a9\/Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/80\/cd\/96\/c9\/08\/Toothbrush_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/61\/95\/60\/a7\/8f\/Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl"
+        },
+        {
+          "name": "Attachment_Insert_for_the_Project_Prostheducate_Prosthetic.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/50\/98\/c0\/8e\/Attachment_Insert_for_the_Project_Prostheducate_Prosthetic.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Project_Prostheducate_Cover.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/fa\/9f\/e3\/bb\/Project_Prostheducate_Cover.JPG"
+        },
+        {
+          "name": "iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_4.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/2e\/9c\/fe\/d0\/iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_4.JPG"
+        },
+        {
+          "name": "iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/d5\/6f\/ec\/6f\/iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0a\/e6\/b1\/e9\/18\/iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG"
+        },
+        {
+          "name": "iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_3.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/91\/7f\/d2\/6c\/01\/iPhone_Holder_for_the_Project_Prostheducate_Prosthetic.stl_3.JPG"
+        },
+        {
+          "name": "Spoon_and_Fork_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/ed\/9f\/07\/17\/Spoon_and_Fork_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0f\/35\/d0\/aa\/d3\/Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/3c\/67\/87\/0c\/Violin_Bow_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG"
+        },
+        {
+          "name": "Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/af\/43\/fa\/f0\/Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/79\/f7\/98\/89\/Computer_Keyboard_Typing_Attachment_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG"
+        },
+        {
+          "name": "Pencil_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/77\/ea\/ee\/e8\/Pencil_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/0b\/7f\/cb\/b5\/Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl_2.JPG"
+        },
+        {
+          "name": "Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/61\/42\/15\/98\/Snack_Cup_Holder_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "Shoe_Tying_Helper_for_the_Project_Prostheducate_Prosthetic.stl.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/4d\/a2\/0b\/bf\/Shoe_Tying_Helper_for_the_Project_Prostheducate_Prosthetic.stl.JPG"
+        },
+        {
+          "name": "d5c9156e866507a4c0c9ec483f86cdd9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fb\/d7\/ed\/ff\/a6\/d5c9156e866507a4c0c9ec483f86cdd9.png"
+        },
+        {
+          "name": "cb946dabd26f04532217f1c681305289.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e5\/86\/66\/b8\/27\/cb946dabd26f04532217f1c681305289.png"
+        },
+        {
+          "name": "7f6e4ca7b041b9346e4ee7d26dc9cb68.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b3\/b0\/68\/6f\/39\/7f6e4ca7b041b9346e4ee7d26dc9cb68.png"
+        },
+        {
+          "name": "adb12cd3511035be6a38ce6e9c53a4fb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7e\/82\/8d\/c1\/67\/adb12cd3511035be6a38ce6e9c53a4fb.png"
+        },
+        {
+          "name": "f2c355c4ea6d9a0a93785eaa9a343ec1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bb\/43\/d7\/bf\/51\/f2c355c4ea6d9a0a93785eaa9a343ec1.png"
+        },
+        {
+          "name": "913e7a53fa465a0d4ded31070828d3b8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/9d\/c3\/04\/c3\/913e7a53fa465a0d4ded31070828d3b8.png"
+        },
+        {
+          "name": "960ae4a81d2fee0f9920fc7a59f0d53a.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/bc\/28\/79\/50\/26\/960ae4a81d2fee0f9920fc7a59f0d53a.png"
+        },
+        {
+          "name": "bc18e993e73ea53381e736515725a0df.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/82\/09\/d3\/61\/37\/bc18e993e73ea53381e736515725a0df.png"
+        },
+        {
+          "name": "5e6483d4b60c92932679f95e3ac53610.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/35\/c9\/31\/5e\/ff\/5e6483d4b60c92932679f95e3ac53610.png"
+        },
+        {
+          "name": "f6cfeaeeba74986924d231c550e1acbc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/94\/b2\/85\/5e\/80\/f6cfeaeeba74986924d231c550e1acbc.png"
+        },
+        {
+          "name": "a02a6d992c791500fd94bc3fdec41e23.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/7c\/18\/6c\/11\/a02a6d992c791500fd94bc3fdec41e23.png"
+        },
+        {
+          "name": "48f539e2fc09e607431ccb07f5b525cb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/72\/71\/e0\/83\/91\/48f539e2fc09e607431ccb07f5b525cb.png"
+        }
+      ]
+    }
+  }
+}

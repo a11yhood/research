@@ -1,0 +1,488 @@
+{
+  "created_at": "2025-04-16T03:33:49.562840+00:00",
+  "elapsed": 0.152703,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "93109f97ccd763d0-DFW",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 16 Apr 2025 03:33:49 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 16 Apr 2025 04:03:49 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ",
+      "_cfuvid": "kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=4WrlEZLt0qNzTdN00kOKq2QUGLV2EaYunc2ildqBHfg-1744774420-1.0.1.1-zsza9I7hhbrSLiaa05hd_5ynB9YQNrR.IyBqfN4uOXinbb1_rxkr4eC20RsJvcDc1bPH_TPAO8XUm3DVLMvqCH_u.e_Ef2_PJZz3jdiCVgQ; _cfuvid=kWb2WSpkiShblc7FbuMfCNUJA9OhN2EZd4PmDsm0ZHY-1744774420608-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3717730?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3717730?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3717730,
+    "name": "Ultrasound-sensing based navigational support for visually impaired",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3717730",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3717730",
+    "creator": {
+      "id": 2315363,
+      "name": "apetsiuk",
+      "first_name": "Aliaksei",
+      "last_name": "Petsiuk",
+      "url": "https:\/\/api.thingiverse.com\/users\/apetsiuk",
+      "public_url": "https:\/\/www.thingiverse.com\/apetsiuk",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/10\/4e\/e7\/fd\/d0\/6a98d6ca336be12f1a3bd15795dde5b9_thumb_medium.jpg",
+      "count_of_followers": 5,
+      "count_of_following": 3,
+      "count_of_designs": 6,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Houghton, MI",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/5a\/f5\/bf\/43\/54\/a91570fe7bcadbd654bf33f72294a12b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-28T05:25:43+00:00",
+    "modified": "2019-06-28T05:25:43+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 26,
+    "is_liked": false,
+    "collect_count": 53,
+    "is_collected": false,
+    "comment_count": 8,
+    "is_watched": false,
+    "default_image": {
+      "id": 11058364,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/4f\/9d\/6d\/c8\/IMG_20190625_145829_3.jpg",
+      "name": "IMG_20190625_145829_3.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/da\/b9\/b9\/c9\/8b\/9c9c44d746866d1688821cb331a1363f_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-28T05:25:34+00:00"
+    },
+    "description": "An open-source navigational support with 3-D printable case components was developed to help visually impaired people in distance measurement and obstacle avoidance.\r\n\r\nThe system is based on a 5-volt HC-SR04 ultrasonic sensor, which uses SONAR to determine the distance to an object in the range of 0.02-4 meters with a measuring angle of 30 degrees. It detects obstacles in front of the user\u2019s body from the ground to the head and above, and provides haptic feedback using a 10 mm flat vibration motor, which generates oscillations with a variable amplitude depending on the distance to the obstacle.\r\n\r\nThe device can be placed on the right or left hand, and it does not prevent the use of the hand for other tasks. It conveys point-distance information and could be used as a part of an assembly of assistive devices or as an augmentation to a regular white cane. In that way, the active sensing approach was utilized, in which a person constantly scans the ambient environment. This method allows a user to achieve better spatial perception and accuracy due to the similarity to natural sensory processes.\r\n\r\n<b>Published in MDPI Sensors Journal (open access):<\/b>\r\n<i>Aliaksei L. Petsiuk and Joshua M. Pearce.<\/i> Low-cost open source ultrasound-sensing based navigational support for visually impaired. Sensors 2019, 19(17), 3783; doi.org\/10.3390\/s19173783\r\nhttps:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783\r\n\r\n<b>Supplementary video regarding assembly and testing:<\/b>\r\nhttps:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY\r\n\r\n<b>Customizable flexible bracelet<\/b>\r\nhttps:\/\/www.thingiverse.com\/thing:3733136\r\n",
+    "instructions": "",
+    "description_html": "<div><p>An open-source navigational support with 3-D printable case components was developed to help visually impaired people in distance measurement and obstacle avoidance.<\/p><p>The system is based on a 5-volt HC-SR04 ultrasonic sensor, which uses SONAR to determine the distance to an object in the range of 0.02-4 meters with a measuring angle of 30 degrees. It detects obstacles in front of the user&rsquo;s body from the ground to the head and above, and provides haptic feedback using a 10 mm flat vibration motor, which generates oscillations with a variable amplitude depending on the distance to the obstacle.<\/p><p>The device can be placed on the right or left hand, and it does not prevent the use of the hand for other tasks. It conveys point-distance information and could be used as a part of an assembly of assistive devices or as an augmentation to a regular white cane. In that way, the active sensing approach was utilized, in which a person constantly scans the ambient environment. This method allows a user to achieve better spatial perception and accuracy due to the similarity to natural sensory processes.<\/p><p><b>Published in MDPI Sensors Journal (open access):<\/b><br><i>Aliaksei L. Petsiuk and Joshua M. Pearce.<\/i> Low-cost open source ultrasound-sensing based navigational support for visually impaired. Sensors 2019, 19(17), 3783; doi.org\/10.3390\/s19173783<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783\">https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783<\/a><\/p><p><b>Supplementary video regarding assembly and testing:<\/b><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY\">https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY<\/a><\/p><p><b>Customizable flexible bracelet<\/b><br><a rel=\"ugc nofollow\" href=\"\/thing:3733136\">https:\/\/www.thingiverse.com\/thing:3733136<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>An open-source navigational support with 3-D printable case components was developed to help visually impaired people in distance measurement and obstacle avoidance.<\/p><p>The system is based on a 5-volt HC-SR04 ultrasonic sensor, which uses SONAR to determine the distance to an object in the range of 0.02-4 meters with a measuring angle of 30 degrees. It detects obstacles in front of the user&rsquo;s body from the ground to the head and above, and provides haptic feedback using a 10 mm flat vibration motor, which generates oscillations with a variable amplitude depending on the distance to the obstacle.<\/p><p>The device can be placed on the right or left hand, and it does not prevent the use of the hand for other tasks. It conveys point-distance information and could be used as a part of an assembly of assistive devices or as an augmentation to a regular white cane. In that way, the active sensing approach was utilized, in which a person constantly scans the ambient environment. This method allows a user to achieve better spatial perception and accuracy due to the similarity to natural sensory processes.<\/p><p><b>Published in MDPI Sensors Journal (open access):<\/b><br><i>Aliaksei L. Petsiuk and Joshua M. Pearce.<\/i> Low-cost open source ultrasound-sensing based navigational support for visually impaired. Sensors 2019, 19(17), 3783; doi.org\/10.3390\/s19173783<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783\">https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783<\/a><\/p><p><b>Supplementary video regarding assembly and testing:<\/b><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY\">https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY<\/a><\/p><p><b>Customizable flexible bracelet<\/b><br><a rel=\"ugc nofollow\" href=\"\/thing:3733136\">https:\/\/www.thingiverse.com\/thing:3733136<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Lulzbot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Mini 2&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>Doesn't Matter<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.2 mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;40%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> NinjaTek NinjaFlex<br>White, Blue<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>An open-source navigational support with 3-D printable case components was developed to help visually impaired people in distance measurement and obstacle avoidance.<\/p><p>The system is based on a 5-volt HC-SR04 ultrasonic sensor, which uses SONAR to determine the distance to an object in the range of 0.02-4 meters with a measuring angle of 30 degrees. It detects obstacles in front of the user&rsquo;s body from the ground to the head and above, and provides haptic feedback using a 10 mm flat vibration motor, which generates oscillations with a variable amplitude depending on the distance to the obstacle.<\/p><p>The device can be placed on the right or left hand, and it does not prevent the use of the hand for other tasks. It conveys point-distance information and could be used as a part of an assembly of assistive devices or as an augmentation to a regular white cane. In that way, the active sensing approach was utilized, in which a person constantly scans the ambient environment. This method allows a user to achieve better spatial perception and accuracy due to the similarity to natural sensory processes.<\/p><p><b>Published in MDPI Sensors Journal (open access):<\/b><br><i>Aliaksei L. Petsiuk and Joshua M. Pearce.<\/i> Low-cost open source ultrasound-sensing based navigational support for visually impaired. Sensors 2019, 19(17), 3783; doi.org\/10.3390\/s19173783<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783\">https:\/\/www.mdpi.com\/1424-8220\/19\/17\/3783<\/a><\/p><p><b>Supplementary video regarding assembly and testing:<\/b><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY\">https:\/\/www.youtube.com\/watch?v=FA9r2Y27qvY<\/a><\/p><p><b>Customizable flexible bracelet<\/b><br><a rel=\"ugc nofollow\" href=\"\/thing:3733136\">https:\/\/www.thingiverse.com\/thing:3733136<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Lulzbot<\/p><\/div>\n",
+            "printer": "<div><p>Mini 2<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "No",
+            "resolution": "<div><p>0.2 mm<\/p><\/div>\n",
+            "infill": "<div><p>40%<\/p><\/div>\n",
+            "filament_brand": "<div><p>NinjaTek<\/p><\/div>\n",
+            "filament_color": "<div><p>White, Blue<\/p><\/div>\n",
+            "filament_material": "<div><p>NinjaFlex<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3717730\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3717730\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3717730\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3717730\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3717730\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3717730\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3717730\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1849,
+    "view_count": 1486,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "BACK_CAP_BLUE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/6b\/bd\/a9\/53\/BACK_CAP_BLUE.stl"
+        },
+        {
+          "name": "BRACELET_WHITE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/00\/f5\/6f\/f1\/BRACELET_WHITE.stl"
+        },
+        {
+          "name": "BRACELET_BLUE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/27\/7a\/5e\/ba\/BRACELET_BLUE.stl"
+        },
+        {
+          "name": "BRACELET_WHITE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/7c\/c7\/19\/f8\/BRACELET_WHITE.prt"
+        },
+        {
+          "name": "CASE_BLUE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2d\/9a\/36\/04\/bb\/CASE_BLUE.stl"
+        },
+        {
+          "name": "CASE_BLUE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/50\/1f\/81\/2a\/CASE_BLUE.prt"
+        },
+        {
+          "name": "LOCKING_RING.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9e\/04\/3d\/ea\/a3\/LOCKING_RING.stl"
+        },
+        {
+          "name": "CASE_WHITE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/a5\/f3\/9a\/96\/CASE_WHITE.stl"
+        },
+        {
+          "name": "BRACELET_BLUE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/54\/d6\/d0\/9c\/BRACELET_BLUE.prt"
+        },
+        {
+          "name": "VIBRATION_PAD_BLUE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/94\/74\/7b\/0a\/VIBRATION_PAD_BLUE.stl"
+        },
+        {
+          "name": "VIBRATION_PAD_WHITE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1a\/f3\/fa\/24\/95\/VIBRATION_PAD_WHITE.stl"
+        },
+        {
+          "name": "BACK_CAP_WHITE.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/b5\/ad\/a5\/85\/BACK_CAP_WHITE.stl"
+        },
+        {
+          "name": "CASE_WHITE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/b5\/8a\/1a\/ed\/CASE_WHITE.prt"
+        },
+        {
+          "name": "BACK_CAP_WHITE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c4\/e1\/69\/5c\/33\/BACK_CAP_WHITE.prt"
+        },
+        {
+          "name": "LOCKING_RING.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/72\/63\/ba\/9d\/LOCKING_RING.prt"
+        },
+        {
+          "name": "BACK_CAP_BLUE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/7d\/e1\/9b\/5c\/BACK_CAP_BLUE.prt"
+        },
+        {
+          "name": "VIBRATION_PAD_WHITE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/9d\/82\/32\/a6\/VIBRATION_PAD_WHITE.prt"
+        },
+        {
+          "name": "VIBRATION_PAD_BLUE.prt",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/17\/ca\/14\/59\/VIBRATION_PAD_BLUE.prt"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_20190625_145829_3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/4f\/9d\/6d\/c8\/IMG_20190625_145829_3.jpg"
+        },
+        {
+          "name": "be52d6a8daacf1ddb945c2cc266b3baf.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/3e\/7a\/59\/f1\/be52d6a8daacf1ddb945c2cc266b3baf.png"
+        },
+        {
+          "name": "718d36b59e0b9b742fb5c1ab39b3702f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/10\/24\/95\/2f\/718d36b59e0b9b742fb5c1ab39b3702f.png"
+        },
+        {
+          "name": "6c387b532fc858701f4a861f7aa6c588.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/70\/01\/0e\/03\/6c387b532fc858701f4a861f7aa6c588.png"
+        },
+        {
+          "name": "e474d07b5f2b2ac65262c7c36f67d21d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/40\/a7\/ff\/06\/c0\/e474d07b5f2b2ac65262c7c36f67d21d.png"
+        },
+        {
+          "name": "76912ccc73c0515b4f78dcf4df91b321.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ed\/1a\/0a\/15\/be\/76912ccc73c0515b4f78dcf4df91b321.png"
+        },
+        {
+          "name": "996324dc454e49d6ec802e7126b2529d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/13\/82\/8f\/10\/e5\/996324dc454e49d6ec802e7126b2529d.png"
+        },
+        {
+          "name": "02ca5cfdcad0cb015b3e4d1227c32727.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/1b\/e3\/b9\/a5\/02ca5cfdcad0cb015b3e4d1227c32727.png"
+        },
+        {
+          "name": "2ff8067f5cc83c3249055833aab7198d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b1\/c5\/8f\/96\/c0\/2ff8067f5cc83c3249055833aab7198d.png"
+        },
+        {
+          "name": "23bd5970f153ede8904d9e1b76db03b6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/85\/de\/27\/4b\/d2\/23bd5970f153ede8904d9e1b76db03b6.png"
+        },
+        {
+          "name": "fig_2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/e7\/b8\/23\/43\/fig_2.jpg"
+        },
+        {
+          "name": "fig_1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/ab\/ae\/e6\/bd\/fig_1.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "created_at": "2025-04-11T03:34:48.155566+00:00",
+  "elapsed": 0.230281,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92e76e25986e2350-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Fri, 11 Apr 2025 03:34:48 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Fri, 11 Apr 2025 04:04:48 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs",
+      "_cfuvid": ".lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8Ygq6Av1.6Vpy_.Z2_CN16NQ29QTlZ2xAAktzjsxj.Y-1744342215-1.0.1.1-YQiRFoLzpdVShbB_hoMAYf7oVff4MmrtEJb6Q5DK04VSzliXb26fgp_hGT3G62cwrKrr1pXwHCGuHzT9FdPMotI9nIt9gNASl0eoqrfdPQs; _cfuvid=.lUHBlD1LDeydfhS8v32YC63pIHf.I8xPzqLDcBDcKQ-1744342215498-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2409406?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2409406?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2409406,
+    "name": "MyPO (Myo & PO) 2.0",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2409406",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2409406",
+    "creator": {
+      "id": 671008,
+      "name": "poparaguay",
+      "first_name": "Po",
+      "last_name": "Paraguay",
+      "url": "https:\/\/api.thingiverse.com\/users\/poparaguay",
+      "public_url": "https:\/\/www.thingiverse.com\/poparaguay",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e1\/da\/37\/0a\/c6\/images_thumb_medium.jpg",
+      "count_of_followers": 92,
+      "count_of_following": 0,
+      "count_of_designs": 16,
+      "collection_count": 3,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Paraguay",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/c3\/63\/70\/32\/787369b600de197e1e25d5603887293b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-06-30T21:47:01+00:00",
+    "modified": "2017-06-30T21:47:01+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 181,
+    "is_liked": false,
+    "collect_count": 338,
+    "is_collected": false,
+    "comment_count": 7,
+    "is_watched": false,
+    "default_image": {
+      "id": 6299808,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/89\/b5\/a3\/33\/4744926446.png",
+      "name": "4744926446.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/f2\/8f\/b6\/e3\/4e\/fc0187d21be18efe4759f20259b0bc8c_display_small.jpg"
+        }
+      ],
+      "added": "2017-06-28T19:46:21+00:00"
+    },
+    "description": "A Myo armband user can perform several hand movements and effortlessly and wirelessly control a PC. We have implemented this technology into our prosthesis to create a **new myoelectric-controlled arm prosthetic**, the **Mypo 2.0**, based on our previous Mypo (Myo + Po).\r\n\r\nCheck out the GitHub project page for more detailed instructions on the electronics.\r\n\r\n[GitHub](https:\/\/www.github.com\/poparaguay\/mypo) (WIP)\r\n[Facebook Page](https:\/\/www.facebook.com\/poparaguay\/)\r\n[Our Webpage](http:\/\/www.po.com.py\/)\r\n\r\n\r\nThis is ultimately a prototype. Although we have successfully tested it with a few users, size and measurements for different users haven\u2019t been taken into account yet. The files and images posted correspond to a right arm. Files can be mirrored and sized to fit a specific user.",
+    "instructions": "",
+    "description_html": "<div><p>A Myo armband user can perform several hand movements and effortlessly and wirelessly control a PC. We have implemented this technology into our prosthesis to create a <strong>new myoelectric-controlled arm prosthetic<\/strong>, the <strong>Mypo 2.0<\/strong>, based on our previous Mypo (Myo + Po).<\/p><p>Check out the GitHub project page for more detailed instructions on the electronics.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.github.com\/poparaguay\/mypo\">GitHub<\/a> (WIP)<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/poparaguay\/\">Facebook Page<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.po.com.py\/\">Our Webpage<\/a><\/p><p>This is ultimately a prototype. Although we have successfully tested it with a few users, size and measurements for different users haven&rsquo;t been taken into account yet. The files and images posted correspond to a right arm. Files can be mirrored and sized to fit a specific user.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A Myo armband user can perform several hand movements and effortlessly and wirelessly control a PC. We have implemented this technology into our prosthesis to create a <strong>new myoelectric-controlled arm prosthetic<\/strong>, the <strong>Mypo 2.0<\/strong>, based on our previous Mypo (Myo + Po).<\/p><p>Check out the GitHub project page for more detailed instructions on the electronics.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.github.com\/poparaguay\/mypo\">GitHub<\/a> (WIP)<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/poparaguay\/\">Facebook Page<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.po.com.py\/\">Our Webpage<\/a><\/p><p>This is ultimately a prototype. Although we have successfully tested it with a few users, size and measurements for different users haven&rsquo;t been taken into account yet. The files and images posted correspond to a right arm. Files can be mirrored and sized to fit a specific user.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>FlashForge Creator and Reprap Prusa i3<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Sliced in Simplify3D and printed on a FlashForge Creator and a custom 20x40cm reprap. All parts printed in PLA with regular settings. Automatically generated support is added where needed. The palm and fingers have the same settings as the regular Flexy-Hand from gyrobot. Filaflex filament was used for the flexible hinges.&lt;br&gt;The base, cover, and tricep are thermoformed (heated and reshaped).&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Components<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Refer to the project&amp;rsquo;s &lt;a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/poparaguay\/mypo\"&gt;Github repository&lt;\/a&gt; (WIP) for more detailed intructions.&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel=\"ugc nofollow\" href=\"https:\/\/www.myo.com\/\"&gt;Myo gesture control armband.&lt;\/a&gt; &lt;\/li&gt;&lt;li&gt;Custom-made MyPo board.&lt;\/li&gt;&lt;li&gt;Bluetooth BLE HM-11 CC2541 SoC.&lt;\/li&gt;&lt;li&gt;Arduino Pro Mini 328 5V\/16Mhz.&lt;\/li&gt;&lt;li&gt;3 x TowerPro MG92B.&lt;\/li&gt;&lt;li&gt;Li-Ion 1S 2600mAh Battery.&lt;\/li&gt;&lt;li&gt;Micro USB 1A Li-ion Battery Charging Board.&lt;\/li&gt;&lt;li&gt;3.3V Regulator.&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom contact-us\">Contact Us<\/h1><p class=\"detail-title\"><strong>Contact Us<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;Feel free to throw us any questions at&lt;br&gt;&lt;em&gt;macosta@po.com.py&lt;\/em&gt; (Project lead developer)&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header custom custom-section\">Custom Section<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/4AafoIWG96E\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><pre><code>            &lt;p class=\"detail-caption\"&gt;Short video showcasing the development of MyPo 2.0.&lt;\/p&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A Myo armband user can perform several hand movements and effortlessly and wirelessly control a PC. We have implemented this technology into our prosthesis to create a <strong>new myoelectric-controlled arm prosthetic<\/strong>, the <strong>Mypo 2.0<\/strong>, based on our previous Mypo (Myo + Po).<\/p><p>Check out the GitHub project page for more detailed instructions on the electronics.<\/p><p><a rel=\"ugc nofollow\" href=\"https:\/\/www.github.com\/poparaguay\/mypo\">GitHub<\/a> (WIP)<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/poparaguay\/\">Facebook Page<\/a><br><a rel=\"ugc nofollow\" href=\"http:\/\/www.po.com.py\/\">Our Webpage<\/a><\/p><p>This is ultimately a prototype. Although we have successfully tested it with a few users, size and measurements for different users haven&rsquo;t been taken into account yet. The files and images posted correspond to a right arm. Files can be mirrored and sized to fit a specific user.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>FlashForge Creator and Reprap Prusa i3<\/p><\/div>\n",
+            "rafts": "Doesn't Matter",
+            "supports": "Yes",
+            "notes": "<div><p>Sliced in Simplify3D and printed on a FlashForge Creator and a custom 20x40cm reprap. All parts printed in PLA with regular settings. Automatically generated support is added where needed. The palm and fingers have the same settings as the regular Flexy-Hand from gyrobot. Filaflex filament was used for the flexible hinges.<br>The base, cover, and tricep are thermoformed (heated and reshaped).<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Components",
+            "content": "<div><p>Refer to the project&rsquo;s <a rel=\"ugc nofollow\" href=\"https:\/\/github.com\/poparaguay\/mypo\">Github repository<\/a> (WIP) for more detailed intructions.<\/p><ul><li><a rel=\"ugc nofollow\" href=\"https:\/\/www.myo.com\/\">Myo gesture control armband.<\/a> <\/li><li>Custom-made MyPo board.<\/li><li>Bluetooth BLE HM-11 CC2541 SoC.<\/li><li>Arduino Pro Mini 328 5V\/16Mhz.<\/li><li>3 x TowerPro MG92B.<\/li><li>Li-Ion 1S 2600mAh Battery.<\/li><li>Micro USB 1A Li-ion Battery Charging Board.<\/li><li>3.3V Regulator.<\/li><\/ul><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Contact Us",
+        "data": [
+          {
+            "title": "Contact Us",
+            "content": "<div><p>Feel free to throw us any questions at<br><em>macosta@po.com.py<\/em> (Project lead developer)<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/4AafoIWG96E\" frameborder=\"0\" allowfullscreen><\/iframe>",
+            "caption": "Short video showcasing the development of MyPo 2.0."
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2409406\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2409406\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2409406\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2409406\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2409406\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2409406\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2409406\/categories",
+    "file_count": 11,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2571,
+    "view_count": 9648,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 4,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1675356,
+        "name": "MyPo (Myo  & PO)",
+        "url": "https:\/\/api.thingiverse.com\/things\/1675356",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1675356",
+        "created_at": "2016-09-06T19:58:09+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b8\/d1\/e8\/d8\/17\/512c4d04094a74c6726dab79eedf8b05_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/b8\/d1\/e8\/d8\/17\/512c4d04094a74c6726dab79eedf8b05_preview_card.jpg",
+        "creator": {
+          "id": 671008,
+          "name": "poparaguay",
+          "first_name": "Po",
+          "last_name": "Paraguay",
+          "url": "https:\/\/api.thingiverse.com\/users\/poparaguay",
+          "public_url": "https:\/\/www.thingiverse.com\/poparaguay",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e1\/da\/37\/0a\/c6\/images_thumb_medium.jpg",
+          "count_of_followers": 92,
+          "count_of_following": 0,
+          "count_of_designs": 16,
+          "collection_count": 3,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Paraguay",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/c3\/63\/70\/32\/787369b600de197e1e25d5603887293b_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 14,
+        "make_count": 1,
+        "like_count": 108,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 186,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      },
+      {
+        "id": 2112768,
+        "name": "ArmPO V2",
+        "url": "https:\/\/api.thingiverse.com\/things\/2112768",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2112768",
+        "created_at": "2017-03-14T14:33:17+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d8\/87\/8e\/d0\/ce\/b9d393719f95505b459724069bb501d1_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/d8\/87\/8e\/d0\/ce\/b9d393719f95505b459724069bb501d1_preview_card.JPG",
+        "creator": {
+          "id": 671008,
+          "name": "poparaguay",
+          "first_name": "Po",
+          "last_name": "Paraguay",
+          "url": "https:\/\/api.thingiverse.com\/users\/poparaguay",
+          "public_url": "https:\/\/www.thingiverse.com\/poparaguay",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/e1\/da\/37\/0a\/c6\/images_thumb_medium.jpg",
+          "count_of_followers": 92,
+          "count_of_following": 0,
+          "count_of_designs": 16,
+          "collection_count": 3,
+          "make_count": 0,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Paraguay",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/d7\/c3\/63\/70\/32\/787369b600de197e1e25d5603887293b_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 1,
+        "like_count": 298,
+        "tags": [],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 485,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/eb\/4d\/92\/b3\/base.stl"
+        },
+        {
+          "name": "cover.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/96\/fd\/35\/d7\/cover.stl"
+        },
+        {
+          "name": "tricep.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/eb\/c9\/ab\/0a\/tricep.stl"
+        },
+        {
+          "name": "palm.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/f5\/b6\/ec\/63\/palm.stl"
+        },
+        {
+          "name": "palm_piece.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2f\/1f\/76\/66\/0f\/palm_piece.stl"
+        },
+        {
+          "name": "engine_entrapment_set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/66\/a5\/62\/9f\/engine_entrapment_set.stl"
+        },
+        {
+          "name": "electronics_box.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/b1\/2d\/90\/d5\/electronics_box.stl"
+        },
+        {
+          "name": "pulley.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/12\/bd\/36\/41\/pulley.stl"
+        },
+        {
+          "name": "flexibles_set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/49\/b1\/dd\/2e\/flexibles_set.stl"
+        },
+        {
+          "name": "rings_set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/c1\/96\/5c\/e8\/rings_set.stl"
+        },
+        {
+          "name": "fingers_set.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/eb\/e9\/17\/79\/80\/fingers_set.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "4744926446.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/89\/b5\/a3\/33\/4744926446.png"
+        },
+        {
+          "name": "ss_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/8f\/66\/e5\/13\/ss_1.png"
+        },
+        {
+          "name": "ss_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/b7\/20\/88\/98\/ss_2.png"
+        },
+        {
+          "name": "ss_3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/e3\/82\/4f\/2a\/ss_3.png"
+        },
+        {
+          "name": "mypo_partes_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5f\/e0\/93\/82\/ae\/mypo_partes_1.png"
+        },
+        {
+          "name": "Diagrama_General_de_Conexi\u00f3n_MyPO.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/ab\/74\/e1\/d0\/Diagrama_General_de_Conexi\u00f3n_MyPO.jpg"
+        },
+        {
+          "name": "4771431986.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/99\/f4\/79\/e9\/4771431986.png"
+        },
+        {
+          "name": "4752423840.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/1f\/da\/26\/65\/4752423840.png"
+        },
+        {
+          "name": "4752423569.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/fc\/42\/a0\/ca\/4752423569.png"
+        },
+        {
+          "name": "untitled.21.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/0b\/bc\/d0\/61\/untitled.21.png"
+        },
+        {
+          "name": "untitled.4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/de\/54\/35\/07\/aa\/untitled.4.jpg"
+        },
+        {
+          "name": "untitled.15.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/f1\/ca\/a2\/29\/untitled.15.png"
+        },
+        {
+          "name": "untitled.10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/b1\/cc\/f6\/81\/untitled.10.png"
+        },
+        {
+          "name": "untitled.16.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/04\/4d\/bf\/68\/untitled.16.png"
+        },
+        {
+          "name": "untitled.19.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/25\/71\/3d\/e2\/untitled.19.png"
+        },
+        {
+          "name": "57f312213586f4db5ce062b65d8a6737.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/90\/81\/f8\/ef\/fd\/57f312213586f4db5ce062b65d8a6737.png"
+        },
+        {
+          "name": "28f046effea293050f0cdabce47c510c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/78\/67\/52\/fd\/1a\/28f046effea293050f0cdabce47c510c.png"
+        },
+        {
+          "name": "1e58982f258c69882b8b12919aa8dbb2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d6\/04\/fe\/4f\/3b\/1e58982f258c69882b8b12919aa8dbb2.png"
+        },
+        {
+          "name": "020f90da736b50b0663a77e1f69fc6dd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/d2\/81\/22\/5f\/020f90da736b50b0663a77e1f69fc6dd.png"
+        },
+        {
+          "name": "28ad7a40a982f06f575d6acf82f7693c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/0b\/07\/a2\/4f\/28ad7a40a982f06f575d6acf82f7693c.png"
+        },
+        {
+          "name": "00e856b7cc7614fde5d5418a9b708341.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/b5\/b5\/06\/91\/00e856b7cc7614fde5d5418a9b708341.png"
+        },
+        {
+          "name": "5004ee481bef59ba4afeb2494d5b63b9.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7f\/80\/69\/d3\/a7\/5004ee481bef59ba4afeb2494d5b63b9.png"
+        },
+        {
+          "name": "2d9115f0dcbcf931acf21c7130bf8144.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/6c\/4e\/a6\/9b\/2d9115f0dcbcf931acf21c7130bf8144.png"
+        },
+        {
+          "name": "0646713a8d701cd89d386d41f5dcd8a8.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/10\/95\/88\/43\/14\/0646713a8d701cd89d386d41f5dcd8a8.png"
+        },
+        {
+          "name": "d5d8653f54ec5eb3c4f9ae9a532d47e3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5d\/dd\/44\/20\/0b\/d5d8653f54ec5eb3c4f9ae9a532d47e3.png"
+        },
+        {
+          "name": "baa6972eaf7f124e2c908e7c43f79b93.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/45\/0a\/74\/b0\/53\/baa6972eaf7f124e2c908e7c43f79b93.png"
+        }
+      ]
+    }
+  }
+}

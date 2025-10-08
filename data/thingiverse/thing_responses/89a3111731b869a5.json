@@ -1,0 +1,462 @@
+{
+  "created_at": "2025-04-10T03:34:41.109100+00:00",
+  "elapsed": 0.133835,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92df309a1fc22a21-ORD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Apr 2025 03:34:41 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Apr 2025 04:04:41 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g",
+      "_cfuvid": "u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=SoihpvFH0wTUQtZEx3N82TZTnvYxxlvYaNi.s7dbO3s-1744255829-1.0.1.1-eCm3Elix6_zbC1A0CvmP.YDpxkWJbIYDKioQIINQdmO1Rpewrzk.IGUjOSFl24351CZ1KDXAxBWAgD0QCbBuRPWJZK7ecNfGHFatnnB2r0g; _cfuvid=u4gMHfeQEOqM9eTM.mGAM4IQ1Z.8jZtQXYCbjlUIvMY-1744255829433-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2566778?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2566778?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2566778,
+    "name": "Bigmax- Simple voice recorder\/player device",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d7\/5d\/ec\/f9\/b7\/6161a042f994ea69f6990a3377e8616f_display_large.jpeg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2566778",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2566778",
+    "creator": {
+      "id": 583402,
+      "name": "cirujadigital",
+      "first_name": "Ciruja",
+      "last_name": "Digital",
+      "url": "https:\/\/api.thingiverse.com\/users\/cirujadigital",
+      "public_url": "https:\/\/www.thingiverse.com\/cirujadigital",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/06\/30\/6e\/12\/67\/550e957a87a998f9dbb4ee31f468a9c5_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 0,
+      "count_of_designs": 21,
+      "collection_count": 1,
+      "make_count": 2,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Unknown",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d6\/41\/09\/bf\/12\/5ebe0cd721c6c5ca8a8c33e11a74ebd6_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-10-03T19:52:42+00:00",
+    "modified": "2017-10-03T19:52:42+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 40,
+    "is_liked": false,
+    "collect_count": 69,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 6824893,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/03\/01\/fd\/2c\/BigMax-pulsador-touch1.stl",
+      "name": "82779930fcd61cc667d38035c0ee4935.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935_display_small.jpg"
+        }
+      ],
+      "added": "2017-10-06T17:07:47+00:00"
+    },
+    "description": "Se trata de un simple dispositivo insiprado en el Big Mack, pero a bajo costo y facil ensamblado (Inspirado en http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109 ) destinado a servir como herramienta para m\u00faltiples programas que requieran alg\u00fan tipo de tecnolog\u00eda asistiva en lo referente a la comunicaci\u00f3n.\r\n\r\nPueden verlo funcionar aqu\u00ed: https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/\r\n\r\nEl dispositivo en s\u00ed consta de un m\u00f3dulo ISD1820 adaptado para ser utilizado con pulsadores adicionales, y comandado externamente (jacks de audio de 3.5). La versi\u00f3n actual est\u00e1 pensada para ser usada con el m\u00f3dulo de la foto (disponible a muy bajo costo en Aliexpress), pero puede adaptarse para ser usado con otras versiones. Por defecto, el m\u00f3dulo graba hasta 10 segundos, pero cambiando la resistencia que forma parte del oscilador del mismo(R4, 100K por 200K), es posible llegar a 20segundos, aunque a menor calidad. Como elementos adicionales se requieren:\r\nPortapilas AAA (dos pilas) AR$15 \r\nLed indicador 5mm AR$1\r\nCable(scrap) $0\r\nPulsadores normal abierto $scrap\r\n2 Jacks de 3.5mm para panel\r\n(viene con el modulo) Parlante de 8ohm 40mm di\u00e1metro (suele venderse junto con el m\u00f3dulo).\r\nTornillos M3 con tuercas x2\r\nTornillos para roscar peque\u00f1os (2mm aprox)\r\n\r\nEl m\u00f3dulo puede conseguirse en valores entre los $150 a $220 pesos argentinos a la fecha actual (10\/2017). O bien adquirirse en Aliexpress por menos de dos d\u00f3lares la unidad.\r\n\r\nHerramientas necesarias: soldador, esta\u00f1o, chupa esta\u00f1o, destornilladores.\r\n\r\n\r\n-------------------------------------------\r\nIt is a simple device insiprado in the Big Mack, but at low cost and easy assembled (Inspired in http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109) to serve as a tool for multiple programs that require some kind of assistive technology in terms of communication.\r\n\r\nThe device itself consists of an ISD1820 voice recorder module adapted to be used with additional pushbuttons, and externally controlled (3.5 audio jacks). The current version is intended to be used with the photo module (available at very low cost on Aliexpress), but can be adapted to be used with other versions. Changing R4 (default 100K, 10sec)  you can get more time of recording (maximum of 20s, with a 200K resistor). As additional elements are required:\r\nAAA battery holder (two batteries) US $ 15\r\nLed indicator 5mm AR $ 1\r\nCable (scrap) $ 0\r\nTwo 3.5mm audio panel jacks\r\nPushbuttons normal $ scrap\r\n(comes with the module) Speaker of 8ohm 40mm diameter (usually sold together with the module).\r\nScrews M3 with nuts x2\r\nScrews for small threading (approx 2mm)\r\n\r\nThe module can be obtained in values \u200b\u200bbetween $ 150 to $ 220 Argentine pesos to the current date (10\/2017)\r\n\r\nTools needed: soldering iron, tin, tin sucker, screwdrivers.",
+    "instructions": "",
+    "description_html": "<div><p>Se trata de un simple dispositivo insiprado en el Big Mack, pero a bajo costo y facil ensamblado (Inspirado en <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a> ) destinado a servir como herramienta para m&uacute;ltiples programas que requieran alg&uacute;n tipo de tecnolog&iacute;a asistiva en lo referente a la comunicaci&oacute;n.<\/p><p>Pueden verlo funcionar aqu&iacute;: <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/<\/a><\/p><p>El dispositivo en s&iacute; consta de un m&oacute;dulo ISD1820 adaptado para ser utilizado con pulsadores adicionales, y comandado externamente (jacks de audio de 3.5). La versi&oacute;n actual est&aacute; pensada para ser usada con el m&oacute;dulo de la foto (disponible a muy bajo costo en Aliexpress), pero puede adaptarse para ser usado con otras versiones. Por defecto, el m&oacute;dulo graba hasta 10 segundos, pero cambiando la resistencia que forma parte del oscilador del mismo(R4, 100K por 200K), es posible llegar a 20segundos, aunque a menor calidad. Como elementos adicionales se requieren:<br>Portapilas AAA (dos pilas) AR$15<br>Led indicador 5mm AR$1<br>Cable(scrap) $0<br>Pulsadores normal abierto $scrap<br>2 Jacks de 3.5mm para panel<br>(viene con el modulo) Parlante de 8ohm 40mm di&aacute;metro (suele venderse junto con el m&oacute;dulo).<br>Tornillos M3 con tuercas x2<br>Tornillos para roscar peque&ntilde;os (2mm aprox)<\/p><p>El m&oacute;dulo puede conseguirse en valores entre los $150 a $220 pesos argentinos a la fecha actual (10\/2017). O bien adquirirse en Aliexpress por menos de dos d&oacute;lares la unidad.<\/p><p>Herramientas necesarias: soldador, esta&ntilde;o, chupa esta&ntilde;o, destornilladores.<\/p><hr><p>It is a simple device insiprado in the Big Mack, but at low cost and easy assembled (Inspired in <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a>) to serve as a tool for multiple programs that require some kind of assistive technology in terms of communication.<\/p><p>The device itself consists of an ISD1820 voice recorder module adapted to be used with additional pushbuttons, and externally controlled (3.5 audio jacks). The current version is intended to be used with the photo module (available at very low cost on Aliexpress), but can be adapted to be used with other versions. Changing R4 (default 100K, 10sec)  you can get more time of recording (maximum of 20s, with a 200K resistor). As additional elements are required:<br>AAA battery holder (two batteries) US $ 15<br>Led indicator 5mm AR $ 1<br>Cable (scrap) $ 0<br>Two 3.5mm audio panel jacks<br>Pushbuttons normal $ scrap<br>(comes with the module) Speaker of 8ohm 40mm diameter (usually sold together with the module).<br>Screws M3 with nuts x2<br>Screws for small threading (approx 2mm)<\/p><p>The module can be obtained in values &#8203;&#8203;between $ 150 to $ 220 Argentine pesos to the current date (10\/2017)<\/p><p>Tools needed: soldering iron, tin, tin sucker, screwdrivers.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Se trata de un simple dispositivo insiprado en el Big Mack, pero a bajo costo y facil ensamblado (Inspirado en <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a> ) destinado a servir como herramienta para m&uacute;ltiples programas que requieran alg&uacute;n tipo de tecnolog&iacute;a asistiva en lo referente a la comunicaci&oacute;n.<\/p><p>Pueden verlo funcionar aqu&iacute;: <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/<\/a><\/p><p>El dispositivo en s&iacute; consta de un m&oacute;dulo ISD1820 adaptado para ser utilizado con pulsadores adicionales, y comandado externamente (jacks de audio de 3.5). La versi&oacute;n actual est&aacute; pensada para ser usada con el m&oacute;dulo de la foto (disponible a muy bajo costo en Aliexpress), pero puede adaptarse para ser usado con otras versiones. Por defecto, el m&oacute;dulo graba hasta 10 segundos, pero cambiando la resistencia que forma parte del oscilador del mismo(R4, 100K por 200K), es posible llegar a 20segundos, aunque a menor calidad. Como elementos adicionales se requieren:<br>Portapilas AAA (dos pilas) AR$15<br>Led indicador 5mm AR$1<br>Cable(scrap) $0<br>Pulsadores normal abierto $scrap<br>2 Jacks de 3.5mm para panel<br>(viene con el modulo) Parlante de 8ohm 40mm di&aacute;metro (suele venderse junto con el m&oacute;dulo).<br>Tornillos M3 con tuercas x2<br>Tornillos para roscar peque&ntilde;os (2mm aprox)<\/p><p>El m&oacute;dulo puede conseguirse en valores entre los $150 a $220 pesos argentinos a la fecha actual (10\/2017). O bien adquirirse en Aliexpress por menos de dos d&oacute;lares la unidad.<\/p><p>Herramientas necesarias: soldador, esta&ntilde;o, chupa esta&ntilde;o, destornilladores.<\/p><hr><p>It is a simple device insiprado in the Big Mack, but at low cost and easy assembled (Inspired in <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a>) to serve as a tool for multiple programs that require some kind of assistive technology in terms of communication.<\/p><p>The device itself consists of an ISD1820 voice recorder module adapted to be used with additional pushbuttons, and externally controlled (3.5 audio jacks). The current version is intended to be used with the photo module (available at very low cost on Aliexpress), but can be adapted to be used with other versions. Changing R4 (default 100K, 10sec)  you can get more time of recording (maximum of 20s, with a 200K resistor). As additional elements are required:<br>AAA battery holder (two batteries) US $ 15<br>Led indicator 5mm AR $ 1<br>Cable (scrap) $ 0<br>Two 3.5mm audio panel jacks<br>Pushbuttons normal $ scrap<br>(comes with the module) Speaker of 8ohm 40mm diameter (usually sold together with the module).<br>Screws M3 with nuts x2<br>Screws for small threading (approx 2mm)<\/p><p>The module can be obtained in values &#8203;&#8203;between $ 150 to $ 220 Argentine pesos to the current date (10\/2017)<\/p><p>Tools needed: soldering iron, tin, tin sucker, screwdrivers.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Flyingbear P902<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>Yes<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20-30<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Recomended to add some supports with Simplify 3D, but it can be printed without them&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Se trata de un simple dispositivo insiprado en el Big Mack, pero a bajo costo y facil ensamblado (Inspirado en <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a> ) destinado a servir como herramienta para m&uacute;ltiples programas que requieran alg&uacute;n tipo de tecnolog&iacute;a asistiva en lo referente a la comunicaci&oacute;n.<\/p><p>Pueden verlo funcionar aqu&iacute;: <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213034003698114\/<\/a><\/p><p>El dispositivo en s&iacute; consta de un m&oacute;dulo ISD1820 adaptado para ser utilizado con pulsadores adicionales, y comandado externamente (jacks de audio de 3.5). La versi&oacute;n actual est&aacute; pensada para ser usada con el m&oacute;dulo de la foto (disponible a muy bajo costo en Aliexpress), pero puede adaptarse para ser usado con otras versiones. Por defecto, el m&oacute;dulo graba hasta 10 segundos, pero cambiando la resistencia que forma parte del oscilador del mismo(R4, 100K por 200K), es posible llegar a 20segundos, aunque a menor calidad. Como elementos adicionales se requieren:<br>Portapilas AAA (dos pilas) AR$15<br>Led indicador 5mm AR$1<br>Cable(scrap) $0<br>Pulsadores normal abierto $scrap<br>2 Jacks de 3.5mm para panel<br>(viene con el modulo) Parlante de 8ohm 40mm di&aacute;metro (suele venderse junto con el m&oacute;dulo).<br>Tornillos M3 con tuercas x2<br>Tornillos para roscar peque&ntilde;os (2mm aprox)<\/p><p>El m&oacute;dulo puede conseguirse en valores entre los $150 a $220 pesos argentinos a la fecha actual (10\/2017). O bien adquirirse en Aliexpress por menos de dos d&oacute;lares la unidad.<\/p><p>Herramientas necesarias: soldador, esta&ntilde;o, chupa esta&ntilde;o, destornilladores.<\/p><hr><p>It is a simple device insiprado in the Big Mack, but at low cost and easy assembled (Inspired in <a rel=\"ugc nofollow\" href=\"http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109\">http:\/\/www.redmundoingenio.com\/component\/hikashop\/producto\/18-big-mack-comunicador?Itemid=109<\/a>) to serve as a tool for multiple programs that require some kind of assistive technology in terms of communication.<\/p><p>The device itself consists of an ISD1820 voice recorder module adapted to be used with additional pushbuttons, and externally controlled (3.5 audio jacks). The current version is intended to be used with the photo module (available at very low cost on Aliexpress), but can be adapted to be used with other versions. Changing R4 (default 100K, 10sec)  you can get more time of recording (maximum of 20s, with a 200K resistor). As additional elements are required:<br>AAA battery holder (two batteries) US $ 15<br>Led indicator 5mm AR $ 1<br>Cable (scrap) $ 0<br>Two 3.5mm audio panel jacks<br>Pushbuttons normal $ scrap<br>(comes with the module) Speaker of 8ohm 40mm diameter (usually sold together with the module).<br>Screws M3 with nuts x2<br>Screws for small threading (approx 2mm)<\/p><p>The module can be obtained in values &#8203;&#8203;between $ 150 to $ 220 Argentine pesos to the current date (10\/2017)<\/p><p>Tools needed: soldering iron, tin, tin sucker, screwdrivers.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Flyingbear P902<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3<\/p><\/div>\n",
+            "infill": "<div><p>20-30<\/p><\/div>\n",
+            "notes": "<div><p>Recomended to add some supports with Simplify 3D, but it can be printed without them<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2566778\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2566778\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2566778\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2566778\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2566778\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2566778\/tags",
+    "tags": [
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "isd1820",
+        "tag": "isd1820",
+        "url": "https:\/\/api.thingiverse.com\/tags\/isd1820",
+        "count": 7,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/isd1820\/things",
+        "absolute_url": "\/tag:isd1820"
+      },
+      {
+        "name": "Voice",
+        "tag": "voice",
+        "url": "https:\/\/api.thingiverse.com\/tags\/voice",
+        "count": 35,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/voice\/things",
+        "absolute_url": "\/tag:Voice"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2566778\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 672,
+    "view_count": 1158,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Bigmax-sound-player-recorderv1.01-botonrec_simple_sc98.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f6\/9d\/21\/5e\/fc\/Bigmax-sound-player-recorderv1.01-botonrec_simple_sc98.stl"
+        },
+        {
+          "name": "Bigmax-sound-player-recorderv1.01-botonplay_simple_sc98.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/0d\/e3\/32\/b5\/Bigmax-sound-player-recorderv1.01-botonplay_simple_sc98.stl"
+        },
+        {
+          "name": "Bigmax-sound-player-recorderv1.01-tapa_simple.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/32\/26\/ee\/48\/Bigmax-sound-player-recorderv1.01-tapa_simple.stl"
+        },
+        {
+          "name": "Bigmax-sound-player-recorderv1.01-caja_simple.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cf\/ed\/7f\/7c\/eb\/Bigmax-sound-player-recorderv1.01-caja_simple.stl"
+        },
+        {
+          "name": "BigMax-pulsador-touch1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/03\/01\/fd\/2c\/BigMax-pulsador-touch1.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "82779930fcd61cc667d38035c0ee4935.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/05\/71\/94\/c1\/4d\/82779930fcd61cc667d38035c0ee4935.png"
+        },
+        {
+          "name": "IMG-20171002-WA0039.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/7d\/f6\/85\/26\/IMG-20171002-WA0039.jpeg"
+        },
+        {
+          "name": "IMG-20171002-WA0036.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6e\/7e\/87\/e3\/e1\/IMG-20171002-WA0036.jpeg"
+        },
+        {
+          "name": "20171002_153824.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/cc\/7c\/39\/c4\/20171002_153824.jpg"
+        },
+        {
+          "name": "20171003_021441.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/ad\/7d\/ec\/b9\/20171003_021441.jpg"
+        },
+        {
+          "name": "20171003_021427.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fc\/c7\/48\/0c\/09\/20171003_021427.jpg"
+        },
+        {
+          "name": "IMG-20171002-WA0007.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/2a\/15\/5a\/a1\/IMG-20171002-WA0007.jpeg"
+        },
+        {
+          "name": "20171003_021533.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/db\/5e\/87\/bd\/4f\/20171003_021533.jpg"
+        },
+        {
+          "name": "IMG-20171002-WA0009.jpeg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b1\/cb\/b9\/18\/76\/IMG-20171002-WA0009.jpeg"
+        },
+        {
+          "name": "f32ac92a951b62f70ae0586358a5aeeb.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d7\/7d\/25\/4b\/42\/f32ac92a951b62f70ae0586358a5aeeb.png"
+        },
+        {
+          "name": "07f57c04cf66dae689aec738e394499d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ab\/46\/9f\/28\/2a\/07f57c04cf66dae689aec738e394499d.png"
+        },
+        {
+          "name": "f59be6fdec256a606b7826e8ab4d8a9c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1a\/1e\/9a\/d8\/b0\/f59be6fdec256a606b7826e8ab4d8a9c.png"
+        },
+        {
+          "name": "a48fbac028d79a8ab71357f355792b61.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/73\/17\/08\/3d\/6f\/a48fbac028d79a8ab71357f355792b61.png"
+        }
+      ]
+    }
+  }
+}

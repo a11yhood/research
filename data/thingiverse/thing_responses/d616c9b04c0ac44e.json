@@ -1,0 +1,620 @@
+{
+  "created_at": "2025-06-01T03:57:54.564595+00:00",
+  "elapsed": 0.149807,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "948bca1f0db2c593-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 01 Jun 2025 03:57:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 01 Jun 2025 04:27:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "s_WzGVzJ57R.07d9DBVtwFaivho5Jk.ILkLb_hOhH4s-1748750181-1.0.1.1-UGEDTBHLPgrFBKTUwyKp0u0rjmKmO.rwdNtCc9aTYTbsg3hVn8lv4yEb7Mt0utca95QM_ZPoWH5NhRNBAWgNv4IgZBZXJBtiQgai1ssxd38",
+      "_cfuvid": "2LDpJg6qRY6Sqdmbb5d00FJERQwyaoUxvucqOTChQmM-1748750181897-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=s_WzGVzJ57R.07d9DBVtwFaivho5Jk.ILkLb_hOhH4s-1748750181-1.0.1.1-UGEDTBHLPgrFBKTUwyKp0u0rjmKmO.rwdNtCc9aTYTbsg3hVn8lv4yEb7Mt0utca95QM_ZPoWH5NhRNBAWgNv4IgZBZXJBtiQgai1ssxd38; _cfuvid=2LDpJg6qRY6Sqdmbb5d00FJERQwyaoUxvucqOTChQmM-1748750181897-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3908282?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3908282?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3908282,
+    "name": "animal head collection (For CNC and Remixes, any use)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/1e\/f4\/92\/e9\/c5\/large_display_Heads.58.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3908282",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3908282",
+    "creator": {
+      "id": 3072851,
+      "name": "cncmodels4you",
+      "first_name": "CNC",
+      "last_name": "Models",
+      "url": "https:\/\/api.thingiverse.com\/users\/cncmodels4you",
+      "public_url": "https:\/\/www.thingiverse.com\/cncmodels4you",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/2a\/e3\/4a\/25\/37\/15604950073470s.jpg",
+      "count_of_followers": 3494,
+      "count_of_following": 0,
+      "count_of_designs": 91,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/2e\/27\/b8\/1f\/75\/8e01a7b421380e565d98457f2915890d.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-10-10T15:39:49+00:00",
+    "modified": "2019-10-10T15:39:49+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 311,
+    "is_liked": false,
+    "collect_count": 742,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 11794660,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/e5\/91\/57\/e6\/Heads.58.jpg",
+      "name": "Heads.58.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/27\/a2\/3a\/76\/large_thumb_Heads.58.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/9d\/70\/cb\/42\/medium_thumb_Heads.58.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b2\/ea\/a4\/80\/0b\/small_thumb_Heads.58.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b4\/56\/37\/02\/74\/tiny_thumb_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/ec\/ea\/a6\/f1\/featured_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/ed\/df\/c6\/f3\/card_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8a\/58\/17\/73\/f7\/large_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/40\/6b\/54\/1a\/68\/medium_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/2c\/dc\/05\/e9\/small_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/ea\/f5\/68\/d9\/birdwing_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/f6\/cf\/71\/4b\/tiny_preview_Heads.58.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/11\/b8\/ef\/26\/tinycard_preview_Heads.58.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/f4\/92\/e9\/c5\/large_display_Heads.58.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/16\/c8\/cc\/e8\/b8\/medium_display_Heads.58.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/d4\/3e\/45\/e8\/small_display_Heads.58.jpg"
+        }
+      ],
+      "added": "2019-10-10T15:34:08+00:00"
+    },
+    "description": "Ornament (art)\r\nFrom Wikipedia, the free encyclopedia\r\nJump to navigationJump to search\r\n\r\n\r\n\r\n\r\n\r\n\r\nExamples of ornament in various styles\r\nFor other uses, see Ornament.\r\nIn architecture and decorative art, ornament is a decoration used to embellish parts of a building or object. Large figurative elements such as monumental sculpture and their equivalents in decorative art are excluded from the term; most ornament does not include human figures, and if present they are small compared to the overall scale. Architectural ornament can be carved from stone, wood or precious metals, formed with plaster or clay, or painted or impressed onto a surface as applied ornament; in other applied arts the main material of the object, or a different one such as paint or vitreous enamel may be used.\r\n\r\n\r\n18th-century Rococo balcony, Bavaria. The form is itself ornamental, and further decorated in painted plasterwork.\r\n\r\nArabesque ornament on a Turkish dagger hilt\r\nA wide variety of decorative styles and motifs have been developed for architecture and the applied arts, including pottery, furniture, metalwork. In textiles, wallpaper and other objects where the decoration may be the main justification for its existence, the terms pattern or design are more likely to be used. The vast range of motifs used in ornament draw from geometrical shapes and patterns, plants, and human and animal figures. Across Eurasia and the Mediterranean world there has been a rich and linked tradition of plant-based ornament for over three thousand years; traditional ornament from other parts of the world typically relies more on geometrical and animal motifs.\r\n\r\nIn a 1941 essay,[1] the architectural historian Sir John Summerson called it \"surface modulation\". The earliest decoration and ornament often survives from prehistoric cultures in simple markings on pottery, where decoration in other materials (including tattoos) has been lost. Where the potter's wheel was used, the technology made some kinds of decoration very easy; weaving is another technology which also lends itself very easily to decoration or pattern, and to some extent dictates its form. Ornament has been evident in civilizations since the beginning of recorded history, ranging from Ancient Egyptian architecture to the assertive lack of ornament of 20th century Modernist architecture.\r\n\r\nOrnament implies that the ornamented object has a function that an unornamented equivalent might also fulfill. Where the object has no such function, but exists only to be a work of art such as a sculpture or painting, the term is less likely to be used, except for peripheral elements. In recent centuries a distinction between the fine arts and applied or decorative arts has been applied (except for architecture), with ornament mainly seen as a feature of the latter class.\r\n\r\n\r\nContents\r\n1\tHistory\r\n2\tOrnament prints and pattern books\r\n3\tModern ornament\r\n4\tSee also\r\n5\tNotes\r\n6\t19th-century compendiums of ornament\r\n7\tReferences\r\nHistory\r\n\r\nMing dynasty Jingdezhen porcelain dish with dragon\r\n\r\nNorthern Mannerist architectural pattern book by Wendel Dietterlin, 1598\r\n\r\nIslamic geometrical ornament on an Egyptian door\r\n\r\nKhmer lintel in Preah Ko style, late 9th century, reminiscent of later European scrollwork styles\r\n\r\nDecorative patterns on a tower of the Karim Khan Citadel, Iran\r\nThe history of art in many cultures shows a series of wave-like trends where the level of ornament used increases over a period, before a sharp reaction returns to plainer forms, after which ornamentation gradually increases again. The pattern is especially clear in post-Roman European art, where the highly ornamented Insular art of the Book of Kells and other manuscripts influenced continental Europe, but the classically inspired Carolingian and Ottonian art largely replaced it. Ornament increased over the Romanesque and Gothic periods, but was greatly reduced in Early Renaissance styles, again under classical influence. Another period of increase, in Northern Mannerism, the Baroque and Rococo, was checked by Neoclassicism and the Romantic period, before resuming in the later 19th century Victorian decorative arts and their continental equivalents, to be decisively reduced by the Arts and Crafts movement and then Modernism.\r\n\r\nThe detailed study of Eurasian ornamental forms was begun by Alois Riegl in his formalist study Stilfragen: Grundlegungen zu einer Geschichte der Ornamentik (Problems of style: foundations for a history of ornament) of 1893, who in the process developed his influential concept of the Kunstwollen.[2] Riegl traced formalistic continuity and development in decorative plant forms from Ancient Egyptian art and other ancient Near Eastern civilizations through the classical world to the arabesque of Islamic art. While the concept of the Kunstwollen has few followers today, his basic analysis of the development of forms has been confirmed and refined by the wider corpus of examples known today.[3] Jessica Rawson has recently extended the analysis to cover Chinese art, which Riegl did not cover, tracing many elements of Chinese decoration back to the same tradition; the shared background helping to make the assimilation of Chinese motifs into Persian art after the Mongol invasion harmonious and productive.[4]\r\n\r\nStyles of ornamentation can be studied in reference to the specific culture which developed unique forms of decoration, or modified ornament from other cultures. The Ancient Egyptian culture is arguably the first civilization to add pure decoration to their buildings. Their ornament takes the forms of the natural world in that climate, decorating the capitals of columns and walls with images of papyrus and palm trees. Assyrian culture produced ornament which shows influence from Egyptian sources and a number of original themes, including figures of plants and animals of the region.\r\n\r\nAncient Greek civilization created many new forms of ornament, with regional variations from Doric, Ionic, and Corinthian groups. The Romans Latinized the pure forms of the Greek ornament and adapted the forms to every purpose.\r\n\r\nOrnament prints and pattern books\r\n\r\nOrnament print by Sebald Beham, Centaurs fighting with mounted men.\r\n\r\nElaborated versions of Greco-Roman classical architectural ornaments in Meyer's Ornament\r\n\r\nA detail from the margin of a page of a Late Gothic manuscript\r\nA few medieval notebooks survive, most famously that of Villard de Honnecourt (13th century) showing how artists and craftsmen recorded designs they saw for future use. With the arrival of the print ornament prints became an important part of the output of printmakers, especially in Germany, and played a vital role in the rapid diffusion of new Renaissance styles to makers of all sorts of object. As well as revived classical ornament, both architectural and the grotesque style derived from Roman interior decoration, these included new styles such as the moresque, a European adaptation of the Islamic arabesque (a distinction not always clear at the time).\r\n\r\nAs printing became cheaper, the single ornament print turned into sets, and then finally books. From the 16th to the 19th century, pattern books were published in Europe which gave access to decorative elements, eventually including those recorded from cultures all over the world. Andrea Palladio's I quattro libri dell'architettura (Four Books on Architecture) (Venice, 1570),[5] which included both drawings of classical Roman buildings and renderings of Palladio's own designs utilizing those motifs, became the most influential book ever written on architecture. Napoleon had the great pyramids and temples of Egypt documented in the Description de l'Egypte (1809). Owen Jones published The Grammar of Ornament in 1856 with colored illustrations of decoration from Egypt, Turkey, Sicily and Spain. He took residence in the Alhambra Palace to make drawings and plaster castings of the ornate details of the Islamic ornaments there, including arabesques, calligraphy, and geometric patterns. Interest in classical architecture was also fueled by the tradition of traveling on The Grand Tour, and by translation of early literature about architecture in the work of Vitruvius and Michelangelo.\r\n\r\nDuring the 19th century, the acceptable use of ornament, and its precise definition became the source of aesthetic controversy in academic Western architecture, as architects and their critics searched for a suitable style. \"The great question is,\" Thomas Leverton Donaldson asked in 1847, \"are we to have an architecture of our period, a distinct, individual, palpable style of the 19th century?\".[6] In 1849, when Matthew Digby Wyatt viewed the French Industrial Exposition set up on the Champs-Elys\u00e9es in Paris, he disapproved in recognizably modern terms of the plaster ornaments in faux-bronze and faux woodgrain:[7]\r\n\r\nBoth internally and externally there is a good deal of tasteless and unprofitable ornament... If each simple material had been allowed to tell its own tale, and the lines of the construction so arranged as to conduce to a sentiment of grandeur, the qualities of \"power\" and \"truth,\" which its enormous extent must have necessarily ensured, could have scarcely fail to excite admiration, and that at a very considerable saving of expense.\r\n\r\nContacts with other cultures through colonialism and the new discoveries of archaeology expanded the repertory of ornament available to revivalists. After about 1880, photography made details of ornament even more widely available than prints had done.\r\n\r\nModern ornament\r\nModern millwork ornaments are made of wood, plastics, composites, etc. They come in many different colours and shapes. Modern architecture, conceived of as the elimination of ornament in favor of purely functional structures, left architects the problem of how to properly adorn modern structures.[8] There were two available routes from this perceived crisis. One was to attempt to devise an ornamental vocabulary that was new and essentially contemporary. This was the route taken by architects like Louis Sullivan and his pupil Frank Lloyd Wright, or by the unique Antoni Gaud\u00ed. Art Nouveau, for all its excesses, was a conscious effort to evolve such a \"natural\" vocabulary of ornament.\r\n\r\nA more radical route abandoned the use of ornament altogether, as in some designs for objects by Christopher Dresser. At the time, such unornamented objects could have been found in many unpretending workaday items of industrial design, ceramics produced at the Arabia manufactory in Finland, for instance, or the glass insulators of electric lines.\r\n\r\nThis latter approach was described by architect Adolf Loos in his 1908 manifesto, translated into English in 1913 and polemically titled Ornament and Crime, in which he declared that lack of decoration is the sign of an advanced society. His argument was that ornament is economically inefficient and \"morally degenerate\", and that reducing ornament was a sign of progress.[9] Modernists were eager to point to American architect Louis Sullivan as their godfather in the cause of aesthetic simplification, dismissing the knots of intricately patterned ornament that articulated the skin of his structures.\r\n\r\nWith the work of Le Corbusier and the Bauhaus through the 1920s and 1930s, lack of decorative detail became a hallmark of modern architecture and equated with the moral virtues of honesty, simplicity, and purity. In 1932 Philip Johnson and Henry-Russell Hitchcock dubbed this the \"International Style\". What began as a matter of taste was transformed into an aesthetic mandate. Modernists declared their way as the only acceptable way to build. As the style hit its stride in the highly developed postwar work of Mies van der Rohe, the tenets of 1950s modernism became so strict that even accomplished architects like Edward Durrell Stone and Eero Saarinen could be ridiculed and effectively ostracized for departing from the aesthetic rules.[citation needed]\r\n\r\nAt the same time, the unwritten laws against ornament began to come into serious question. \"Architecture has, with some difficulty, liberated itself from ornament, but it has not liberated itself from the fear of ornament,\" John Summerson observed in 1941. [10]\r\n\r\nThe very difference between ornament and structure is subtle and perhaps arbitrary. The pointed arches and flying buttresses of Gothic architecture are ornamental but structurally necessary; the colorful rhythmic bands of a Pietro Belluschi International Style skyscraper are integral, not applied, but certainly have ornamental effect. Furthermore, architectural ornament can serve the practical purpose of establishing scale, signaling entries, and aiding wayfinding, and these useful design tactics had been outlawed. And by the mid-1950s, modernist figureheads Le Corbusier and Marcel Breuer had been breaking their own rules by producing highly expressive, sculptural concrete work.\r\n\r\nThe argument against ornament peaked in 1959 over discussions of the Seagram Building, where Mies van der Rohe installed a series of structurally unnecessary vertical I-beams on the outside of the building, and by 1984, when Philip Johnson produced his AT&T Building in Manhattan with an ornamental pink granite neo-Georgian pediment, the argument was effectively over. In retrospect, critics have seen the AT&T Building as the first Postmodernist building.[citation needed]\r\n\r\nSee also\r\nBronze and brass ornamental work\r\nBrocade\r\nNotes\r\n\tWikimedia Commons has media related to Ornaments.\r\n\r\n Summerson, John (1941) printed in Heavenly Mansions 1963, p. 217\r\n Tabbaa, 74-75\r\n Rawson, 24-25; see also \"\u201cStyle\u201d\u2014or whatever\", J. Duncan Berry, A review of Problems of Style by Alois Riegl, The New Criterion, April 1993\r\n Rawson, the subject of her book, see Preface, and Chapter 5 on Chinese influences on Persian art.\r\n The Center for Palladian Studies in America, Inc.,\"Palladio and his Books.\"\r\n quoted by Summerson\r\n Second Republic Exposition Archived 2006-02-12 at the Wayback Machine\r\n Sankovitch, Anne-Marie (12\/1\/1998). \"Structure\/ornament and the modern figuration of architecture\". The Art Bulletin. Archived from the original on November 7, 2007. Retrieved 2007-11-13. Check date values in: |date= (help)\r\n James, Trilling. \"The Language of Ornament\". p. 186-210. ISBN 0-500-20343-1.\r\n \"Slogans and Battlecries | Paul Shepheard | Architect | Writer\". www.paulshepheard.com. Retrieved 2018-05-12.\r\n19th-century compendiums of ornament\r\nDolmetsch, Heinrich (1898). The Treasury of Ornament. (s:de:Heinrich Dolmetsch)\r\nOwen Jones (1856) The Grammar of Ornament.\r\nMeyer, Franz Sales, (1898), A Handbook of Ornament\r\nSpeltz, Alexander (1915). The Coloured Ornament of All Historical Styles.\r\nReferences\r\nLewis, Philippa; G. Darley (1986). Dictionary of Ornament. New York: Pantheon. ISBN 0-394-50931-5.\r\nRawson, Jessica, Chinese Ornament: The lotus and the dragon, 1984, British Museum Publications, ISBN 0-7141-1431-6\r\nTabbaa, Yasser, The transformation of Islamic art during the Sunni revival, I.B.Tauris, 2002, ISBN 1-85043-392-5, ISBN 978-1-85043-392-7, google books\r\nJames Trilling The Language of Ornament\r\nPeterson, Sara, Ornament and Pattern in Western Art: Renaissance and Mannerist; Baroque; Rococo; Neoclassical; Historicist and Traditional Historicism; 19th century Reform Movement; 20th century, Grove's Dictionary of Art, edited Jane Turner, 1996\r\nvte\r\nOrnaments\r\nvte\r\nRooms and spaces of a house\r\nAuthority control Edit this at Wikidata\t\r\nBNF: cb13602689b (data)GND: 4043886-7\r\n\r\n\r\nEvolution of the cell: architecture for animals. Part 1\r\n15 August 2015\r\nZero\r\nZero\r\nWhile the queues to the aquarium are not running out at the Moscow VDNH and the cultural and educational center \"city farm\" is preparing to open, Archspeech decided to study the existing ways of human interaction with the animal world in the city. And found out that the cells \u2014 it's yesterday: today, animals are satisfied with parks and build a house. Sometimes-directly next door to people.\r\n\r\nEvolution of the cell: architecture for animals. Part 1\r\nFriendly: environmentally friendly, friendly to children, the elderly, people with disabilities and disabilities. What about animal friendliness?\r\n\r\nUntil recently, it was believed that the \"friends of man\" are dogs and cats. For them \u2014 shops, hotels, restaurants, veterinary clinics, spas. More recently, John F. Kennedy airport in new York announced plans to open a special terminal for animals \u2014 with a bone-shaped pool and a Playground for dogs, a jungle of real trees for cats and hay stalls for horses.\r\n\r\nSpecial animal terminal at JFK airport in new York \r\n Special animal terminal at JFK airport in new York\r\n\r\nThis is all fine, but has to do mostly with social aspects-the hotel or restaurant is ready to host guests with animals and properly organize their leisure time. But a comfortable city to live in is still something more than when you can have a Cup of coffee with a poodle in your arms.\r\n\r\nSpecial animal terminal at JFK airport in new York \r\n Special animal terminal at JFK airport in new York\r\n\r\nIt's not just how comfortable we are when we raise our Pets that matters \u2014 it's also how comfortable they are. That is why the ideas of urban farming \u2014 the development of agriculture within the city-flourish in all major cities of Europe and America. After all, if where we live, flowers bloom luxuriously, vegetables ripen and chickens lay eggs-then this is a healthy environment in which it is not terrible to raise children and exist yourself.\r\n\r\nAfter the first urban farms began to open in England, Scandinavia and America, there came a realization that it is necessary to look at our cities from a different point of view. For the cultivation of edible fruits and plants need bees (one-third of all agricultural products of the planet is produced by pollination), for the destruction of harmful insects-bats: one individual eats up to 10 million parasites per year-a highly environmentally friendly replacement for harmful pesticides.\r\n\r\nSpecial conditions are also required for chickens, which in a sense are ideal companions for us: the chicken destroys food waste, and in return carries eggs, one daily-just the daily rate of one person.\r\n\r\nWooden bee hives on the roofs of city buildings. Snohetta \r\n Wooden bee hives on the roofs of city buildings. Snohetta\r\n\r\nIn this regard, an order was formed for a new kind of architecture, attractive for\" useful \" animals and insects. SN Sn\u00f8hetta designed wooden bee hives that are installed directly on the roofs of city buildings. The source of inspiration for their shape is obvious: it is honeycomb. As for the size of the interconnected hexagons, painted in a honey shade, they were selected taking into account the convenience for the beekeeper. One such hive holds 160,000 bees.\r\n\r\nWooden bee hives on the roofs of city buildings. Snohetta \r\n Wooden bee hives on the roofs of city buildings. Snohetta wooden bee hives on the roofs of city buildings. Snohetta \r\n Wooden bee hives on the roofs of city buildings. Snohetta\r\n\r\nIn Buffalo, local University students built a skyscraper for bees. Towering in the middle of an abandoned industrial area, it is lined again with hexagonal panels \u2014 metal plates with perforations through which the bees get inside, as well as sunlight.\r\n\r\nThere used to be an Elevator factory in the area. In part, this inspired the students to a special design of the skyscraper, which later gave it its name-Elevator B. the hive itself is made of wood and is suspended at the top of the tower. At the bottom there is an entrance for the curious: everyone can go to the \"bee house\" and watch the life of insects, raising his head up. But the hive can be lowered \u2014 it is fixed on the lifting \"lift\" mechanism, which is actively used by beekeepers serving these bees.\r\n\r\nElevator Elevator B\r\n Skyscraper for bees Elevator Skyscraper for bees Elevator B\r\n Skyscraper for bees Elevator Skyscraper for bees Elevator B\r\n Elevator Elevator B\r\n\r\nOn bees now in a whole are pinned very big hopes. In England-the land of natural gardeners-people on their own arrange on the sites of bee \"hotels\". Even its pavilion at the EXPO in Milan, the UK presented in the form of a giant beehive. And writer Joff Mano and his designer friend John Baker are working on a project of genetically modified bees that will produce concrete instead of honey.\r\n\r\nExperts plan to use insects as \"heads\" for a 3D printer and expect that bees can be \"trained\" to make the most elaborate architectural concrete. While it is, however, rather from the field of science fiction.\r\n\r\nProject of genetically modified bees that will produce concrete instead of honey\r\n Project of genetically modified bees that will produce concrete instead of honey\r\n\r\nAnd here is a very real story: sheep in Paris work \" live lawnmowers.\" Before that, two goats tended the Tuileries gardens, and now dwarf sheep took to the streets of the French capital. According to the President of the company \"Eco-Terra\", which is engaged in the project of ecological pastures in Paris, it is not only cheap, but also contributes to biological diversity: animal droppings attract insects, and those, in turn, birds.\r\n\r\nSheep lawn mower like. Paris\r\n Sheep as lawnmowers. Paris\r\n\r\nSpeaking of insects and birds. Cardiff Bay has a 50-metre wall with 1,000 nests for birds and bats. Right behind it-1000 \"human nests\": STR strata. The wall stands exactly between it and the river.\r\n\r\n50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner\r\n 50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner\r\n 50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner\r\n\r\nTogether with scientists, artist gitta Gschwendtner developed \"boxes\" of four sizes \u2014 for different species of birds and mice. The wall, at the same time, is a real work of art, which makes the appearance of the typical quarter unique.\r\n\r\nNests for bats are also provided in the design of the bridge, which is being completed this summer in the Dutch city of monster. According to the authors of the project from the Bureau of architects, there are a lot of mice here, and they hide in bunkers left after the Second world war. Now there is a chance that there will be even more bats in this area-analogues of bunkers are built into the bearing concrete frame of the bridge. While the outer part of the structure-wooden slats with gaps for viewing river scenery.\r\n\r\nBridge with slots for the bats. Next architects \r\n Bridge with nests for bats. The next architectsmost With nests for bats. Next architects \r\n Bridge with nests for bats. Next architects\r\n\r\nFor chickens, too, are designed similarity \"bunkers\" - for impregnable any predators, including those same cats, and in the same time comfortable. For example, the study of architecture architects of the Bureau, having received an order for a chicken coop for 8 chickens in the suburbs of new York, created an unapproachable exterior, lined with metal construction with wooden filling and Underfloor heating.\r\n\r\nAccess to natural light and clean air is provided through two doors at the ends of the chicken coop: one for people, the second for chickens. To properly plan the interior space, the authors of the project for some time observed the behavior of several chickens on a real farm. As a result, the roosts are located at a convenient height, and the nests are made precisely so that the hens can comfortably hatch eggs.\r\n\r\nA chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n Chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n\r\nA chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n Chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n\r\nHowever, in addition to the utilitarian aspect of such a close proximity of man and the animal world has another side. To stay human, we need to care \u2014 not about our own appearance or having the most fashionable gadget in your pocket, but about a living creature, whether it's a green salad or a Guinea pig. To feel involved in something bigger. That's why contact zoos and city farms are so popular. And in the next part of this article we will talk about how the architecture of zoos evolves.\r\n\r\nTo be continued\r\n\r\nA chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n Chicken coop in the suburbs of new York. Bureau Of Architectural Research\r\n\r\n Dezeen Images, Snehetta \"Huffington Post\", designboom, Architizer, 2modern.com",
+    "instructions": "",
+    "description_html": "<div><p>Ornament (art)<br>From Wikipedia, the free encyclopedia<br>Jump to navigationJump to search<\/p><p>Examples of ornament in various styles<br>For other uses, see Ornament.<br>In architecture and decorative art, ornament is a decoration used to embellish parts of a building or object. Large figurative elements such as monumental sculpture and their equivalents in decorative art are excluded from the term; most ornament does not include human figures, and if present they are small compared to the overall scale. Architectural ornament can be carved from stone, wood or precious metals, formed with plaster or clay, or painted or impressed onto a surface as applied ornament; in other applied arts the main material of the object, or a different one such as paint or vitreous enamel may be used.<\/p><p>18th-century Rococo balcony, Bavaria. The form is itself ornamental, and further decorated in painted plasterwork.<\/p><p>Arabesque ornament on a Turkish dagger hilt<br>A wide variety of decorative styles and motifs have been developed for architecture and the applied arts, including pottery, furniture, metalwork. In textiles, wallpaper and other objects where the decoration may be the main justification for its existence, the terms pattern or design are more likely to be used. The vast range of motifs used in ornament draw from geometrical shapes and patterns, plants, and human and animal figures. Across Eurasia and the Mediterranean world there has been a rich and linked tradition of plant-based ornament for over three thousand years; traditional ornament from other parts of the world typically relies more on geometrical and animal motifs.<\/p><p>In a 1941 essay,[1] the architectural historian Sir John Summerson called it \"surface modulation\". The earliest decoration and ornament often survives from prehistoric cultures in simple markings on pottery, where decoration in other materials (including tattoos) has been lost. Where the potter's wheel was used, the technology made some kinds of decoration very easy; weaving is another technology which also lends itself very easily to decoration or pattern, and to some extent dictates its form. Ornament has been evident in civilizations since the beginning of recorded history, ranging from Ancient Egyptian architecture to the assertive lack of ornament of 20th century Modernist architecture.<\/p><p>Ornament implies that the ornamented object has a function that an unornamented equivalent might also fulfill. Where the object has no such function, but exists only to be a work of art such as a sculpture or painting, the term is less likely to be used, except for peripheral elements. In recent centuries a distinction between the fine arts and applied or decorative arts has been applied (except for architecture), with ornament mainly seen as a feature of the latter class.<\/p><p>Contents<br>1   History<br>2   Ornament prints and pattern books<br>3   Modern ornament<br>4   See also<br>5   Notes<br>6   19th-century compendiums of ornament<br>7   References<br>History<\/p><p>Ming dynasty Jingdezhen porcelain dish with dragon<\/p><p>Northern Mannerist architectural pattern book by Wendel Dietterlin, 1598<\/p><p>Islamic geometrical ornament on an Egyptian door<\/p><p>Khmer lintel in Preah Ko style, late 9th century, reminiscent of later European scrollwork styles<\/p><p>Decorative patterns on a tower of the Karim Khan Citadel, Iran<br>The history of art in many cultures shows a series of wave-like trends where the level of ornament used increases over a period, before a sharp reaction returns to plainer forms, after which ornamentation gradually increases again. The pattern is especially clear in post-Roman European art, where the highly ornamented Insular art of the Book of Kells and other manuscripts influenced continental Europe, but the classically inspired Carolingian and Ottonian art largely replaced it. Ornament increased over the Romanesque and Gothic periods, but was greatly reduced in Early Renaissance styles, again under classical influence. Another period of increase, in Northern Mannerism, the Baroque and Rococo, was checked by Neoclassicism and the Romantic period, before resuming in the later 19th century Victorian decorative arts and their continental equivalents, to be decisively reduced by the Arts and Crafts movement and then Modernism.<\/p><p>The detailed study of Eurasian ornamental forms was begun by Alois Riegl in his formalist study Stilfragen: Grundlegungen zu einer Geschichte der Ornamentik (Problems of style: foundations for a history of ornament) of 1893, who in the process developed his influential concept of the Kunstwollen.[2] Riegl traced formalistic continuity and development in decorative plant forms from Ancient Egyptian art and other ancient Near Eastern civilizations through the classical world to the arabesque of Islamic art. While the concept of the Kunstwollen has few followers today, his basic analysis of the development of forms has been confirmed and refined by the wider corpus of examples known today.[3] Jessica Rawson has recently extended the analysis to cover Chinese art, which Riegl did not cover, tracing many elements of Chinese decoration back to the same tradition; the shared background helping to make the assimilation of Chinese motifs into Persian art after the Mongol invasion harmonious and productive.[4]<\/p><p>Styles of ornamentation can be studied in reference to the specific culture which developed unique forms of decoration, or modified ornament from other cultures. The Ancient Egyptian culture is arguably the first civilization to add pure decoration to their buildings. Their ornament takes the forms of the natural world in that climate, decorating the capitals of columns and walls with images of papyrus and palm trees. Assyrian culture produced ornament which shows influence from Egyptian sources and a number of original themes, including figures of plants and animals of the region.<\/p><p>Ancient Greek civilization created many new forms of ornament, with regional variations from Doric, Ionic, and Corinthian groups. The Romans Latinized the pure forms of the Greek ornament and adapted the forms to every purpose.<\/p><p>Ornament prints and pattern books<\/p><p>Ornament print by Sebald Beham, Centaurs fighting with mounted men.<\/p><p>Elaborated versions of Greco-Roman classical architectural ornaments in Meyer's Ornament<\/p><p>A detail from the margin of a page of a Late Gothic manuscript<br>A few medieval notebooks survive, most famously that of Villard de Honnecourt (13th century) showing how artists and craftsmen recorded designs they saw for future use. With the arrival of the print ornament prints became an important part of the output of printmakers, especially in Germany, and played a vital role in the rapid diffusion of new Renaissance styles to makers of all sorts of object. As well as revived classical ornament, both architectural and the grotesque style derived from Roman interior decoration, these included new styles such as the moresque, a European adaptation of the Islamic arabesque (a distinction not always clear at the time).<\/p><p>As printing became cheaper, the single ornament print turned into sets, and then finally books. From the 16th to the 19th century, pattern books were published in Europe which gave access to decorative elements, eventually including those recorded from cultures all over the world. Andrea Palladio's I quattro libri dell'architettura (Four Books on Architecture) (Venice, 1570),[5] which included both drawings of classical Roman buildings and renderings of Palladio's own designs utilizing those motifs, became the most influential book ever written on architecture. Napoleon had the great pyramids and temples of Egypt documented in the Description de l'Egypte (1809). Owen Jones published The Grammar of Ornament in 1856 with colored illustrations of decoration from Egypt, Turkey, Sicily and Spain. He took residence in the Alhambra Palace to make drawings and plaster castings of the ornate details of the Islamic ornaments there, including arabesques, calligraphy, and geometric patterns. Interest in classical architecture was also fueled by the tradition of traveling on The Grand Tour, and by translation of early literature about architecture in the work of Vitruvius and Michelangelo.<\/p><p>During the 19th century, the acceptable use of ornament, and its precise definition became the source of aesthetic controversy in academic Western architecture, as architects and their critics searched for a suitable style. \"The great question is,\" Thomas Leverton Donaldson asked in 1847, \"are we to have an architecture of our period, a distinct, individual, palpable style of the 19th century?\".[6] In 1849, when Matthew Digby Wyatt viewed the French Industrial Exposition set up on the Champs-Elys&eacute;es in Paris, he disapproved in recognizably modern terms of the plaster ornaments in faux-bronze and faux woodgrain:[7]<\/p><p>Both internally and externally there is a good deal of tasteless and unprofitable ornament... If each simple material had been allowed to tell its own tale, and the lines of the construction so arranged as to conduce to a sentiment of grandeur, the qualities of \"power\" and \"truth,\" which its enormous extent must have necessarily ensured, could have scarcely fail to excite admiration, and that at a very considerable saving of expense.<\/p><p>Contacts with other cultures through colonialism and the new discoveries of archaeology expanded the repertory of ornament available to revivalists. After about 1880, photography made details of ornament even more widely available than prints had done.<\/p><p>Modern ornament<br>Modern millwork ornaments are made of wood, plastics, composites, etc. They come in many different colours and shapes. Modern architecture, conceived of as the elimination of ornament in favor of purely functional structures, left architects the problem of how to properly adorn modern structures.[8] There were two available routes from this perceived crisis. One was to attempt to devise an ornamental vocabulary that was new and essentially contemporary. This was the route taken by architects like Louis Sullivan and his pupil Frank Lloyd Wright, or by the unique Antoni Gaud&iacute;. Art Nouveau, for all its excesses, was a conscious effort to evolve such a \"natural\" vocabulary of ornament.<\/p><p>A more radical route abandoned the use of ornament altogether, as in some designs for objects by Christopher Dresser. At the time, such unornamented objects could have been found in many unpretending workaday items of industrial design, ceramics produced at the Arabia manufactory in Finland, for instance, or the glass insulators of electric lines.<\/p><p>This latter approach was described by architect Adolf Loos in his 1908 manifesto, translated into English in 1913 and polemically titled Ornament and Crime, in which he declared that lack of decoration is the sign of an advanced society. His argument was that ornament is economically inefficient and \"morally degenerate\", and that reducing ornament was a sign of progress.[9] Modernists were eager to point to American architect Louis Sullivan as their godfather in the cause of aesthetic simplification, dismissing the knots of intricately patterned ornament that articulated the skin of his structures.<\/p><p>With the work of Le Corbusier and the Bauhaus through the 1920s and 1930s, lack of decorative detail became a hallmark of modern architecture and equated with the moral virtues of honesty, simplicity, and purity. In 1932 Philip Johnson and Henry-Russell Hitchcock dubbed this the \"International Style\". What began as a matter of taste was transformed into an aesthetic mandate. Modernists declared their way as the only acceptable way to build. As the style hit its stride in the highly developed postwar work of Mies van der Rohe, the tenets of 1950s modernism became so strict that even accomplished architects like Edward Durrell Stone and Eero Saarinen could be ridiculed and effectively ostracized for departing from the aesthetic rules.[citation needed]<\/p><p>At the same time, the unwritten laws against ornament began to come into serious question. \"Architecture has, with some difficulty, liberated itself from ornament, but it has not liberated itself from the fear of ornament,\" John Summerson observed in 1941. [10]<\/p><p>The very difference between ornament and structure is subtle and perhaps arbitrary. The pointed arches and flying buttresses of Gothic architecture are ornamental but structurally necessary; the colorful rhythmic bands of a Pietro Belluschi International Style skyscraper are integral, not applied, but certainly have ornamental effect. Furthermore, architectural ornament can serve the practical purpose of establishing scale, signaling entries, and aiding wayfinding, and these useful design tactics had been outlawed. And by the mid-1950s, modernist figureheads Le Corbusier and Marcel Breuer had been breaking their own rules by producing highly expressive, sculptural concrete work.<\/p><p>The argument against ornament peaked in 1959 over discussions of the Seagram Building, where Mies van der Rohe installed a series of structurally unnecessary vertical I-beams on the outside of the building, and by 1984, when Philip Johnson produced his AT&amp;T Building in Manhattan with an ornamental pink granite neo-Georgian pediment, the argument was effectively over. In retrospect, critics have seen the AT&amp;T Building as the first Postmodernist building.[citation needed]<\/p><p>See also<br>Bronze and brass ornamental work<br>Brocade<br>Notes<br>Wikimedia Commons has media related to Ornaments.<\/p><p>Summerson, John (1941) printed in Heavenly Mansions 1963, p. 217<br>Tabbaa, 74-75<br>Rawson, 24-25; see also \"&ldquo;Style&rdquo;&mdash;or whatever\", J. Duncan Berry, A review of Problems of Style by Alois Riegl, The New Criterion, April 1993<br>Rawson, the subject of her book, see Preface, and Chapter 5 on Chinese influences on Persian art.<br>The Center for Palladian Studies in America, Inc.,\"Palladio and his Books.\"<br>quoted by Summerson<br>Second Republic Exposition Archived 2006-02-12 at the Wayback Machine<br>Sankovitch, Anne-Marie (12\/1\/1998). \"Structure\/ornament and the modern figuration of architecture\". The Art Bulletin. Archived from the original on November 7, 2007. Retrieved 2007-11-13. Check date values in: |date= (help)<br>James, Trilling. \"The Language of Ornament\". p. 186-210. ISBN 0-500-20343-1.<br>\"Slogans and Battlecries | Paul Shepheard | Architect | Writer\". www.paulshepheard.com. Retrieved 2018-05-12.<br>19th-century compendiums of ornament<br>Dolmetsch, Heinrich (1898). The Treasury of Ornament. (s:de:Heinrich Dolmetsch)<br>Owen Jones (1856) The Grammar of Ornament.<br>Meyer, Franz Sales, (1898), A Handbook of Ornament<br>Speltz, Alexander (1915). The Coloured Ornament of All Historical Styles.<br>References<br>Lewis, Philippa; G. Darley (1986). Dictionary of Ornament. New York: Pantheon. ISBN 0-394-50931-5.<br>Rawson, Jessica, Chinese Ornament: The lotus and the dragon, 1984, British Museum Publications, ISBN 0-7141-1431-6<br>Tabbaa, Yasser, The transformation of Islamic art during the Sunni revival, I.B.Tauris, 2002, ISBN 1-85043-392-5, ISBN 978-1-85043-392-7, google books<br>James Trilling The Language of Ornament<br>Peterson, Sara, Ornament and Pattern in Western Art: Renaissance and Mannerist; Baroque; Rococo; Neoclassical; Historicist and Traditional Historicism; 19th century Reform Movement; 20th century, Grove's Dictionary of Art, edited Jane Turner, 1996<br>vte<br>Ornaments<br>vte<br>Rooms and spaces of a house<br>Authority control Edit this at Wikidata<br>BNF: cb13602689b (data)GND: 4043886-7<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>15 August 2015<br>Zero<br>Zero<br>While the queues to the aquarium are not running out at the Moscow VDNH and the cultural and educational center \"city farm\" is preparing to open, Archspeech decided to study the existing ways of human interaction with the animal world in the city. And found out that the cells &mdash; it's yesterday: today, animals are satisfied with parks and build a house. Sometimes-directly next door to people.<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>Friendly: environmentally friendly, friendly to children, the elderly, people with disabilities and disabilities. What about animal friendliness?<\/p><p>Until recently, it was believed that the \"friends of man\" are dogs and cats. For them &mdash; shops, hotels, restaurants, veterinary clinics, spas. More recently, John F. Kennedy airport in new York announced plans to open a special terminal for animals &mdash; with a bone-shaped pool and a Playground for dogs, a jungle of real trees for cats and hay stalls for horses.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>This is all fine, but has to do mostly with social aspects-the hotel or restaurant is ready to host guests with animals and properly organize their leisure time. But a comfortable city to live in is still something more than when you can have a Cup of coffee with a poodle in your arms.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>It's not just how comfortable we are when we raise our Pets that matters &mdash; it's also how comfortable they are. That is why the ideas of urban farming &mdash; the development of agriculture within the city-flourish in all major cities of Europe and America. After all, if where we live, flowers bloom luxuriously, vegetables ripen and chickens lay eggs-then this is a healthy environment in which it is not terrible to raise children and exist yourself.<\/p><p>After the first urban farms began to open in England, Scandinavia and America, there came a realization that it is necessary to look at our cities from a different point of view. For the cultivation of edible fruits and plants need bees (one-third of all agricultural products of the planet is produced by pollination), for the destruction of harmful insects-bats: one individual eats up to 10 million parasites per year-a highly environmentally friendly replacement for harmful pesticides.<\/p><p>Special conditions are also required for chickens, which in a sense are ideal companions for us: the chicken destroys food waste, and in return carries eggs, one daily-just the daily rate of one person.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In this regard, an order was formed for a new kind of architecture, attractive for\" useful \" animals and insects. SN Sn&oslash;hetta designed wooden bee hives that are installed directly on the roofs of city buildings. The source of inspiration for their shape is obvious: it is honeycomb. As for the size of the interconnected hexagons, painted in a honey shade, they were selected taking into account the convenience for the beekeeper. One such hive holds 160,000 bees.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In Buffalo, local University students built a skyscraper for bees. Towering in the middle of an abandoned industrial area, it is lined again with hexagonal panels &mdash; metal plates with perforations through which the bees get inside, as well as sunlight.<\/p><p>There used to be an Elevator factory in the area. In part, this inspired the students to a special design of the skyscraper, which later gave it its name-Elevator B. the hive itself is made of wood and is suspended at the top of the tower. At the bottom there is an entrance for the curious: everyone can go to the \"bee house\" and watch the life of insects, raising his head up. But the hive can be lowered &mdash; it is fixed on the lifting \"lift\" mechanism, which is actively used by beekeepers serving these bees.<\/p><p>Elevator Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Elevator Elevator B<\/p><p>On bees now in a whole are pinned very big hopes. In England-the land of natural gardeners-people on their own arrange on the sites of bee \"hotels\". Even its pavilion at the EXPO in Milan, the UK presented in the form of a giant beehive. And writer Joff Mano and his designer friend John Baker are working on a project of genetically modified bees that will produce concrete instead of honey.<\/p><p>Experts plan to use insects as \"heads\" for a 3D printer and expect that bees can be \"trained\" to make the most elaborate architectural concrete. While it is, however, rather from the field of science fiction.<\/p><p>Project of genetically modified bees that will produce concrete instead of honey<br>Project of genetically modified bees that will produce concrete instead of honey<\/p><p>And here is a very real story: sheep in Paris work \" live lawnmowers.\" Before that, two goats tended the Tuileries gardens, and now dwarf sheep took to the streets of the French capital. According to the President of the company \"Eco-Terra\", which is engaged in the project of ecological pastures in Paris, it is not only cheap, but also contributes to biological diversity: animal droppings attract insects, and those, in turn, birds.<\/p><p>Sheep lawn mower like. Paris<br>Sheep as lawnmowers. Paris<\/p><p>Speaking of insects and birds. Cardiff Bay has a 50-metre wall with 1,000 nests for birds and bats. Right behind it-1000 \"human nests\": STR strata. The wall stands exactly between it and the river.<\/p><p>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<\/p><p>Together with scientists, artist gitta Gschwendtner developed \"boxes\" of four sizes &mdash; for different species of birds and mice. The wall, at the same time, is a real work of art, which makes the appearance of the typical quarter unique.<\/p><p>Nests for bats are also provided in the design of the bridge, which is being completed this summer in the Dutch city of monster. According to the authors of the project from the Bureau of architects, there are a lot of mice here, and they hide in bunkers left after the Second world war. Now there is a chance that there will be even more bats in this area-analogues of bunkers are built into the bearing concrete frame of the bridge. While the outer part of the structure-wooden slats with gaps for viewing river scenery.<\/p><p>Bridge with slots for the bats. Next architects<br>Bridge with nests for bats. The next architectsmost With nests for bats. Next architects<br>Bridge with nests for bats. Next architects<\/p><p>For chickens, too, are designed similarity \"bunkers\" - for impregnable any predators, including those same cats, and in the same time comfortable. For example, the study of architecture architects of the Bureau, having received an order for a chicken coop for 8 chickens in the suburbs of new York, created an unapproachable exterior, lined with metal construction with wooden filling and Underfloor heating.<\/p><p>Access to natural light and clean air is provided through two doors at the ends of the chicken coop: one for people, the second for chickens. To properly plan the interior space, the authors of the project for some time observed the behavior of several chickens on a real farm. As a result, the roosts are located at a convenient height, and the nests are made precisely so that the hens can comfortably hatch eggs.<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>However, in addition to the utilitarian aspect of such a close proximity of man and the animal world has another side. To stay human, we need to care &mdash; not about our own appearance or having the most fashionable gadget in your pocket, but about a living creature, whether it's a green salad or a Guinea pig. To feel involved in something bigger. That's why contact zoos and city farms are so popular. And in the next part of this article we will talk about how the architecture of zoos evolves.<\/p><p>To be continued<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>Dezeen Images, Snehetta \"Huffington Post\", designboom, Architizer, 2modern.com<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Ornament (art)<br>From Wikipedia, the free encyclopedia<br>Jump to navigationJump to search<\/p><p>Examples of ornament in various styles<br>For other uses, see Ornament.<br>In architecture and decorative art, ornament is a decoration used to embellish parts of a building or object. Large figurative elements such as monumental sculpture and their equivalents in decorative art are excluded from the term; most ornament does not include human figures, and if present they are small compared to the overall scale. Architectural ornament can be carved from stone, wood or precious metals, formed with plaster or clay, or painted or impressed onto a surface as applied ornament; in other applied arts the main material of the object, or a different one such as paint or vitreous enamel may be used.<\/p><p>18th-century Rococo balcony, Bavaria. The form is itself ornamental, and further decorated in painted plasterwork.<\/p><p>Arabesque ornament on a Turkish dagger hilt<br>A wide variety of decorative styles and motifs have been developed for architecture and the applied arts, including pottery, furniture, metalwork. In textiles, wallpaper and other objects where the decoration may be the main justification for its existence, the terms pattern or design are more likely to be used. The vast range of motifs used in ornament draw from geometrical shapes and patterns, plants, and human and animal figures. Across Eurasia and the Mediterranean world there has been a rich and linked tradition of plant-based ornament for over three thousand years; traditional ornament from other parts of the world typically relies more on geometrical and animal motifs.<\/p><p>In a 1941 essay,[1] the architectural historian Sir John Summerson called it \"surface modulation\". The earliest decoration and ornament often survives from prehistoric cultures in simple markings on pottery, where decoration in other materials (including tattoos) has been lost. Where the potter's wheel was used, the technology made some kinds of decoration very easy; weaving is another technology which also lends itself very easily to decoration or pattern, and to some extent dictates its form. Ornament has been evident in civilizations since the beginning of recorded history, ranging from Ancient Egyptian architecture to the assertive lack of ornament of 20th century Modernist architecture.<\/p><p>Ornament implies that the ornamented object has a function that an unornamented equivalent might also fulfill. Where the object has no such function, but exists only to be a work of art such as a sculpture or painting, the term is less likely to be used, except for peripheral elements. In recent centuries a distinction between the fine arts and applied or decorative arts has been applied (except for architecture), with ornament mainly seen as a feature of the latter class.<\/p><p>Contents<br>1   History<br>2   Ornament prints and pattern books<br>3   Modern ornament<br>4   See also<br>5   Notes<br>6   19th-century compendiums of ornament<br>7   References<br>History<\/p><p>Ming dynasty Jingdezhen porcelain dish with dragon<\/p><p>Northern Mannerist architectural pattern book by Wendel Dietterlin, 1598<\/p><p>Islamic geometrical ornament on an Egyptian door<\/p><p>Khmer lintel in Preah Ko style, late 9th century, reminiscent of later European scrollwork styles<\/p><p>Decorative patterns on a tower of the Karim Khan Citadel, Iran<br>The history of art in many cultures shows a series of wave-like trends where the level of ornament used increases over a period, before a sharp reaction returns to plainer forms, after which ornamentation gradually increases again. The pattern is especially clear in post-Roman European art, where the highly ornamented Insular art of the Book of Kells and other manuscripts influenced continental Europe, but the classically inspired Carolingian and Ottonian art largely replaced it. Ornament increased over the Romanesque and Gothic periods, but was greatly reduced in Early Renaissance styles, again under classical influence. Another period of increase, in Northern Mannerism, the Baroque and Rococo, was checked by Neoclassicism and the Romantic period, before resuming in the later 19th century Victorian decorative arts and their continental equivalents, to be decisively reduced by the Arts and Crafts movement and then Modernism.<\/p><p>The detailed study of Eurasian ornamental forms was begun by Alois Riegl in his formalist study Stilfragen: Grundlegungen zu einer Geschichte der Ornamentik (Problems of style: foundations for a history of ornament) of 1893, who in the process developed his influential concept of the Kunstwollen.[2] Riegl traced formalistic continuity and development in decorative plant forms from Ancient Egyptian art and other ancient Near Eastern civilizations through the classical world to the arabesque of Islamic art. While the concept of the Kunstwollen has few followers today, his basic analysis of the development of forms has been confirmed and refined by the wider corpus of examples known today.[3] Jessica Rawson has recently extended the analysis to cover Chinese art, which Riegl did not cover, tracing many elements of Chinese decoration back to the same tradition; the shared background helping to make the assimilation of Chinese motifs into Persian art after the Mongol invasion harmonious and productive.[4]<\/p><p>Styles of ornamentation can be studied in reference to the specific culture which developed unique forms of decoration, or modified ornament from other cultures. The Ancient Egyptian culture is arguably the first civilization to add pure decoration to their buildings. Their ornament takes the forms of the natural world in that climate, decorating the capitals of columns and walls with images of papyrus and palm trees. Assyrian culture produced ornament which shows influence from Egyptian sources and a number of original themes, including figures of plants and animals of the region.<\/p><p>Ancient Greek civilization created many new forms of ornament, with regional variations from Doric, Ionic, and Corinthian groups. The Romans Latinized the pure forms of the Greek ornament and adapted the forms to every purpose.<\/p><p>Ornament prints and pattern books<\/p><p>Ornament print by Sebald Beham, Centaurs fighting with mounted men.<\/p><p>Elaborated versions of Greco-Roman classical architectural ornaments in Meyer's Ornament<\/p><p>A detail from the margin of a page of a Late Gothic manuscript<br>A few medieval notebooks survive, most famously that of Villard de Honnecourt (13th century) showing how artists and craftsmen recorded designs they saw for future use. With the arrival of the print ornament prints became an important part of the output of printmakers, especially in Germany, and played a vital role in the rapid diffusion of new Renaissance styles to makers of all sorts of object. As well as revived classical ornament, both architectural and the grotesque style derived from Roman interior decoration, these included new styles such as the moresque, a European adaptation of the Islamic arabesque (a distinction not always clear at the time).<\/p><p>As printing became cheaper, the single ornament print turned into sets, and then finally books. From the 16th to the 19th century, pattern books were published in Europe which gave access to decorative elements, eventually including those recorded from cultures all over the world. Andrea Palladio's I quattro libri dell'architettura (Four Books on Architecture) (Venice, 1570),[5] which included both drawings of classical Roman buildings and renderings of Palladio's own designs utilizing those motifs, became the most influential book ever written on architecture. Napoleon had the great pyramids and temples of Egypt documented in the Description de l'Egypte (1809). Owen Jones published The Grammar of Ornament in 1856 with colored illustrations of decoration from Egypt, Turkey, Sicily and Spain. He took residence in the Alhambra Palace to make drawings and plaster castings of the ornate details of the Islamic ornaments there, including arabesques, calligraphy, and geometric patterns. Interest in classical architecture was also fueled by the tradition of traveling on The Grand Tour, and by translation of early literature about architecture in the work of Vitruvius and Michelangelo.<\/p><p>During the 19th century, the acceptable use of ornament, and its precise definition became the source of aesthetic controversy in academic Western architecture, as architects and their critics searched for a suitable style. \"The great question is,\" Thomas Leverton Donaldson asked in 1847, \"are we to have an architecture of our period, a distinct, individual, palpable style of the 19th century?\".[6] In 1849, when Matthew Digby Wyatt viewed the French Industrial Exposition set up on the Champs-Elys&eacute;es in Paris, he disapproved in recognizably modern terms of the plaster ornaments in faux-bronze and faux woodgrain:[7]<\/p><p>Both internally and externally there is a good deal of tasteless and unprofitable ornament... If each simple material had been allowed to tell its own tale, and the lines of the construction so arranged as to conduce to a sentiment of grandeur, the qualities of \"power\" and \"truth,\" which its enormous extent must have necessarily ensured, could have scarcely fail to excite admiration, and that at a very considerable saving of expense.<\/p><p>Contacts with other cultures through colonialism and the new discoveries of archaeology expanded the repertory of ornament available to revivalists. After about 1880, photography made details of ornament even more widely available than prints had done.<\/p><p>Modern ornament<br>Modern millwork ornaments are made of wood, plastics, composites, etc. They come in many different colours and shapes. Modern architecture, conceived of as the elimination of ornament in favor of purely functional structures, left architects the problem of how to properly adorn modern structures.[8] There were two available routes from this perceived crisis. One was to attempt to devise an ornamental vocabulary that was new and essentially contemporary. This was the route taken by architects like Louis Sullivan and his pupil Frank Lloyd Wright, or by the unique Antoni Gaud&iacute;. Art Nouveau, for all its excesses, was a conscious effort to evolve such a \"natural\" vocabulary of ornament.<\/p><p>A more radical route abandoned the use of ornament altogether, as in some designs for objects by Christopher Dresser. At the time, such unornamented objects could have been found in many unpretending workaday items of industrial design, ceramics produced at the Arabia manufactory in Finland, for instance, or the glass insulators of electric lines.<\/p><p>This latter approach was described by architect Adolf Loos in his 1908 manifesto, translated into English in 1913 and polemically titled Ornament and Crime, in which he declared that lack of decoration is the sign of an advanced society. His argument was that ornament is economically inefficient and \"morally degenerate\", and that reducing ornament was a sign of progress.[9] Modernists were eager to point to American architect Louis Sullivan as their godfather in the cause of aesthetic simplification, dismissing the knots of intricately patterned ornament that articulated the skin of his structures.<\/p><p>With the work of Le Corbusier and the Bauhaus through the 1920s and 1930s, lack of decorative detail became a hallmark of modern architecture and equated with the moral virtues of honesty, simplicity, and purity. In 1932 Philip Johnson and Henry-Russell Hitchcock dubbed this the \"International Style\". What began as a matter of taste was transformed into an aesthetic mandate. Modernists declared their way as the only acceptable way to build. As the style hit its stride in the highly developed postwar work of Mies van der Rohe, the tenets of 1950s modernism became so strict that even accomplished architects like Edward Durrell Stone and Eero Saarinen could be ridiculed and effectively ostracized for departing from the aesthetic rules.[citation needed]<\/p><p>At the same time, the unwritten laws against ornament began to come into serious question. \"Architecture has, with some difficulty, liberated itself from ornament, but it has not liberated itself from the fear of ornament,\" John Summerson observed in 1941. [10]<\/p><p>The very difference between ornament and structure is subtle and perhaps arbitrary. The pointed arches and flying buttresses of Gothic architecture are ornamental but structurally necessary; the colorful rhythmic bands of a Pietro Belluschi International Style skyscraper are integral, not applied, but certainly have ornamental effect. Furthermore, architectural ornament can serve the practical purpose of establishing scale, signaling entries, and aiding wayfinding, and these useful design tactics had been outlawed. And by the mid-1950s, modernist figureheads Le Corbusier and Marcel Breuer had been breaking their own rules by producing highly expressive, sculptural concrete work.<\/p><p>The argument against ornament peaked in 1959 over discussions of the Seagram Building, where Mies van der Rohe installed a series of structurally unnecessary vertical I-beams on the outside of the building, and by 1984, when Philip Johnson produced his AT&amp;T Building in Manhattan with an ornamental pink granite neo-Georgian pediment, the argument was effectively over. In retrospect, critics have seen the AT&amp;T Building as the first Postmodernist building.[citation needed]<\/p><p>See also<br>Bronze and brass ornamental work<br>Brocade<br>Notes<br>Wikimedia Commons has media related to Ornaments.<\/p><p>Summerson, John (1941) printed in Heavenly Mansions 1963, p. 217<br>Tabbaa, 74-75<br>Rawson, 24-25; see also \"&ldquo;Style&rdquo;&mdash;or whatever\", J. Duncan Berry, A review of Problems of Style by Alois Riegl, The New Criterion, April 1993<br>Rawson, the subject of her book, see Preface, and Chapter 5 on Chinese influences on Persian art.<br>The Center for Palladian Studies in America, Inc.,\"Palladio and his Books.\"<br>quoted by Summerson<br>Second Republic Exposition Archived 2006-02-12 at the Wayback Machine<br>Sankovitch, Anne-Marie (12\/1\/1998). \"Structure\/ornament and the modern figuration of architecture\". The Art Bulletin. Archived from the original on November 7, 2007. Retrieved 2007-11-13. Check date values in: |date= (help)<br>James, Trilling. \"The Language of Ornament\". p. 186-210. ISBN 0-500-20343-1.<br>\"Slogans and Battlecries | Paul Shepheard | Architect | Writer\". www.paulshepheard.com. Retrieved 2018-05-12.<br>19th-century compendiums of ornament<br>Dolmetsch, Heinrich (1898). The Treasury of Ornament. (s:de:Heinrich Dolmetsch)<br>Owen Jones (1856) The Grammar of Ornament.<br>Meyer, Franz Sales, (1898), A Handbook of Ornament<br>Speltz, Alexander (1915). The Coloured Ornament of All Historical Styles.<br>References<br>Lewis, Philippa; G. Darley (1986). Dictionary of Ornament. New York: Pantheon. ISBN 0-394-50931-5.<br>Rawson, Jessica, Chinese Ornament: The lotus and the dragon, 1984, British Museum Publications, ISBN 0-7141-1431-6<br>Tabbaa, Yasser, The transformation of Islamic art during the Sunni revival, I.B.Tauris, 2002, ISBN 1-85043-392-5, ISBN 978-1-85043-392-7, google books<br>James Trilling The Language of Ornament<br>Peterson, Sara, Ornament and Pattern in Western Art: Renaissance and Mannerist; Baroque; Rococo; Neoclassical; Historicist and Traditional Historicism; 19th century Reform Movement; 20th century, Grove's Dictionary of Art, edited Jane Turner, 1996<br>vte<br>Ornaments<br>vte<br>Rooms and spaces of a house<br>Authority control Edit this at Wikidata<br>BNF: cb13602689b (data)GND: 4043886-7<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>15 August 2015<br>Zero<br>Zero<br>While the queues to the aquarium are not running out at the Moscow VDNH and the cultural and educational center \"city farm\" is preparing to open, Archspeech decided to study the existing ways of human interaction with the animal world in the city. And found out that the cells &mdash; it's yesterday: today, animals are satisfied with parks and build a house. Sometimes-directly next door to people.<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>Friendly: environmentally friendly, friendly to children, the elderly, people with disabilities and disabilities. What about animal friendliness?<\/p><p>Until recently, it was believed that the \"friends of man\" are dogs and cats. For them &mdash; shops, hotels, restaurants, veterinary clinics, spas. More recently, John F. Kennedy airport in new York announced plans to open a special terminal for animals &mdash; with a bone-shaped pool and a Playground for dogs, a jungle of real trees for cats and hay stalls for horses.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>This is all fine, but has to do mostly with social aspects-the hotel or restaurant is ready to host guests with animals and properly organize their leisure time. But a comfortable city to live in is still something more than when you can have a Cup of coffee with a poodle in your arms.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>It's not just how comfortable we are when we raise our Pets that matters &mdash; it's also how comfortable they are. That is why the ideas of urban farming &mdash; the development of agriculture within the city-flourish in all major cities of Europe and America. After all, if where we live, flowers bloom luxuriously, vegetables ripen and chickens lay eggs-then this is a healthy environment in which it is not terrible to raise children and exist yourself.<\/p><p>After the first urban farms began to open in England, Scandinavia and America, there came a realization that it is necessary to look at our cities from a different point of view. For the cultivation of edible fruits and plants need bees (one-third of all agricultural products of the planet is produced by pollination), for the destruction of harmful insects-bats: one individual eats up to 10 million parasites per year-a highly environmentally friendly replacement for harmful pesticides.<\/p><p>Special conditions are also required for chickens, which in a sense are ideal companions for us: the chicken destroys food waste, and in return carries eggs, one daily-just the daily rate of one person.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In this regard, an order was formed for a new kind of architecture, attractive for\" useful \" animals and insects. SN Sn&oslash;hetta designed wooden bee hives that are installed directly on the roofs of city buildings. The source of inspiration for their shape is obvious: it is honeycomb. As for the size of the interconnected hexagons, painted in a honey shade, they were selected taking into account the convenience for the beekeeper. One such hive holds 160,000 bees.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In Buffalo, local University students built a skyscraper for bees. Towering in the middle of an abandoned industrial area, it is lined again with hexagonal panels &mdash; metal plates with perforations through which the bees get inside, as well as sunlight.<\/p><p>There used to be an Elevator factory in the area. In part, this inspired the students to a special design of the skyscraper, which later gave it its name-Elevator B. the hive itself is made of wood and is suspended at the top of the tower. At the bottom there is an entrance for the curious: everyone can go to the \"bee house\" and watch the life of insects, raising his head up. But the hive can be lowered &mdash; it is fixed on the lifting \"lift\" mechanism, which is actively used by beekeepers serving these bees.<\/p><p>Elevator Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Elevator Elevator B<\/p><p>On bees now in a whole are pinned very big hopes. In England-the land of natural gardeners-people on their own arrange on the sites of bee \"hotels\". Even its pavilion at the EXPO in Milan, the UK presented in the form of a giant beehive. And writer Joff Mano and his designer friend John Baker are working on a project of genetically modified bees that will produce concrete instead of honey.<\/p><p>Experts plan to use insects as \"heads\" for a 3D printer and expect that bees can be \"trained\" to make the most elaborate architectural concrete. While it is, however, rather from the field of science fiction.<\/p><p>Project of genetically modified bees that will produce concrete instead of honey<br>Project of genetically modified bees that will produce concrete instead of honey<\/p><p>And here is a very real story: sheep in Paris work \" live lawnmowers.\" Before that, two goats tended the Tuileries gardens, and now dwarf sheep took to the streets of the French capital. According to the President of the company \"Eco-Terra\", which is engaged in the project of ecological pastures in Paris, it is not only cheap, but also contributes to biological diversity: animal droppings attract insects, and those, in turn, birds.<\/p><p>Sheep lawn mower like. Paris<br>Sheep as lawnmowers. Paris<\/p><p>Speaking of insects and birds. Cardiff Bay has a 50-metre wall with 1,000 nests for birds and bats. Right behind it-1000 \"human nests\": STR strata. The wall stands exactly between it and the river.<\/p><p>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<\/p><p>Together with scientists, artist gitta Gschwendtner developed \"boxes\" of four sizes &mdash; for different species of birds and mice. The wall, at the same time, is a real work of art, which makes the appearance of the typical quarter unique.<\/p><p>Nests for bats are also provided in the design of the bridge, which is being completed this summer in the Dutch city of monster. According to the authors of the project from the Bureau of architects, there are a lot of mice here, and they hide in bunkers left after the Second world war. Now there is a chance that there will be even more bats in this area-analogues of bunkers are built into the bearing concrete frame of the bridge. While the outer part of the structure-wooden slats with gaps for viewing river scenery.<\/p><p>Bridge with slots for the bats. Next architects<br>Bridge with nests for bats. The next architectsmost With nests for bats. Next architects<br>Bridge with nests for bats. Next architects<\/p><p>For chickens, too, are designed similarity \"bunkers\" - for impregnable any predators, including those same cats, and in the same time comfortable. For example, the study of architecture architects of the Bureau, having received an order for a chicken coop for 8 chickens in the suburbs of new York, created an unapproachable exterior, lined with metal construction with wooden filling and Underfloor heating.<\/p><p>Access to natural light and clean air is provided through two doors at the ends of the chicken coop: one for people, the second for chickens. To properly plan the interior space, the authors of the project for some time observed the behavior of several chickens on a real farm. As a result, the roosts are located at a convenient height, and the nests are made precisely so that the hens can comfortably hatch eggs.<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>However, in addition to the utilitarian aspect of such a close proximity of man and the animal world has another side. To stay human, we need to care &mdash; not about our own appearance or having the most fashionable gadget in your pocket, but about a living creature, whether it's a green salad or a Guinea pig. To feel involved in something bigger. That's why contact zoos and city farms are so popular. And in the next part of this article we will talk about how the architecture of zoos evolves.<\/p><p>To be continued<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>Dezeen Images, Snehetta \"Huffington Post\", designboom, Architizer, 2modern.com<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Ornament (art)<br>From Wikipedia, the free encyclopedia<br>Jump to navigationJump to search<\/p><p>Examples of ornament in various styles<br>For other uses, see Ornament.<br>In architecture and decorative art, ornament is a decoration used to embellish parts of a building or object. Large figurative elements such as monumental sculpture and their equivalents in decorative art are excluded from the term; most ornament does not include human figures, and if present they are small compared to the overall scale. Architectural ornament can be carved from stone, wood or precious metals, formed with plaster or clay, or painted or impressed onto a surface as applied ornament; in other applied arts the main material of the object, or a different one such as paint or vitreous enamel may be used.<\/p><p>18th-century Rococo balcony, Bavaria. The form is itself ornamental, and further decorated in painted plasterwork.<\/p><p>Arabesque ornament on a Turkish dagger hilt<br>A wide variety of decorative styles and motifs have been developed for architecture and the applied arts, including pottery, furniture, metalwork. In textiles, wallpaper and other objects where the decoration may be the main justification for its existence, the terms pattern or design are more likely to be used. The vast range of motifs used in ornament draw from geometrical shapes and patterns, plants, and human and animal figures. Across Eurasia and the Mediterranean world there has been a rich and linked tradition of plant-based ornament for over three thousand years; traditional ornament from other parts of the world typically relies more on geometrical and animal motifs.<\/p><p>In a 1941 essay,[1] the architectural historian Sir John Summerson called it \"surface modulation\". The earliest decoration and ornament often survives from prehistoric cultures in simple markings on pottery, where decoration in other materials (including tattoos) has been lost. Where the potter's wheel was used, the technology made some kinds of decoration very easy; weaving is another technology which also lends itself very easily to decoration or pattern, and to some extent dictates its form. Ornament has been evident in civilizations since the beginning of recorded history, ranging from Ancient Egyptian architecture to the assertive lack of ornament of 20th century Modernist architecture.<\/p><p>Ornament implies that the ornamented object has a function that an unornamented equivalent might also fulfill. Where the object has no such function, but exists only to be a work of art such as a sculpture or painting, the term is less likely to be used, except for peripheral elements. In recent centuries a distinction between the fine arts and applied or decorative arts has been applied (except for architecture), with ornament mainly seen as a feature of the latter class.<\/p><p>Contents<br>1   History<br>2   Ornament prints and pattern books<br>3   Modern ornament<br>4   See also<br>5   Notes<br>6   19th-century compendiums of ornament<br>7   References<br>History<\/p><p>Ming dynasty Jingdezhen porcelain dish with dragon<\/p><p>Northern Mannerist architectural pattern book by Wendel Dietterlin, 1598<\/p><p>Islamic geometrical ornament on an Egyptian door<\/p><p>Khmer lintel in Preah Ko style, late 9th century, reminiscent of later European scrollwork styles<\/p><p>Decorative patterns on a tower of the Karim Khan Citadel, Iran<br>The history of art in many cultures shows a series of wave-like trends where the level of ornament used increases over a period, before a sharp reaction returns to plainer forms, after which ornamentation gradually increases again. The pattern is especially clear in post-Roman European art, where the highly ornamented Insular art of the Book of Kells and other manuscripts influenced continental Europe, but the classically inspired Carolingian and Ottonian art largely replaced it. Ornament increased over the Romanesque and Gothic periods, but was greatly reduced in Early Renaissance styles, again under classical influence. Another period of increase, in Northern Mannerism, the Baroque and Rococo, was checked by Neoclassicism and the Romantic period, before resuming in the later 19th century Victorian decorative arts and their continental equivalents, to be decisively reduced by the Arts and Crafts movement and then Modernism.<\/p><p>The detailed study of Eurasian ornamental forms was begun by Alois Riegl in his formalist study Stilfragen: Grundlegungen zu einer Geschichte der Ornamentik (Problems of style: foundations for a history of ornament) of 1893, who in the process developed his influential concept of the Kunstwollen.[2] Riegl traced formalistic continuity and development in decorative plant forms from Ancient Egyptian art and other ancient Near Eastern civilizations through the classical world to the arabesque of Islamic art. While the concept of the Kunstwollen has few followers today, his basic analysis of the development of forms has been confirmed and refined by the wider corpus of examples known today.[3] Jessica Rawson has recently extended the analysis to cover Chinese art, which Riegl did not cover, tracing many elements of Chinese decoration back to the same tradition; the shared background helping to make the assimilation of Chinese motifs into Persian art after the Mongol invasion harmonious and productive.[4]<\/p><p>Styles of ornamentation can be studied in reference to the specific culture which developed unique forms of decoration, or modified ornament from other cultures. The Ancient Egyptian culture is arguably the first civilization to add pure decoration to their buildings. Their ornament takes the forms of the natural world in that climate, decorating the capitals of columns and walls with images of papyrus and palm trees. Assyrian culture produced ornament which shows influence from Egyptian sources and a number of original themes, including figures of plants and animals of the region.<\/p><p>Ancient Greek civilization created many new forms of ornament, with regional variations from Doric, Ionic, and Corinthian groups. The Romans Latinized the pure forms of the Greek ornament and adapted the forms to every purpose.<\/p><p>Ornament prints and pattern books<\/p><p>Ornament print by Sebald Beham, Centaurs fighting with mounted men.<\/p><p>Elaborated versions of Greco-Roman classical architectural ornaments in Meyer's Ornament<\/p><p>A detail from the margin of a page of a Late Gothic manuscript<br>A few medieval notebooks survive, most famously that of Villard de Honnecourt (13th century) showing how artists and craftsmen recorded designs they saw for future use. With the arrival of the print ornament prints became an important part of the output of printmakers, especially in Germany, and played a vital role in the rapid diffusion of new Renaissance styles to makers of all sorts of object. As well as revived classical ornament, both architectural and the grotesque style derived from Roman interior decoration, these included new styles such as the moresque, a European adaptation of the Islamic arabesque (a distinction not always clear at the time).<\/p><p>As printing became cheaper, the single ornament print turned into sets, and then finally books. From the 16th to the 19th century, pattern books were published in Europe which gave access to decorative elements, eventually including those recorded from cultures all over the world. Andrea Palladio's I quattro libri dell'architettura (Four Books on Architecture) (Venice, 1570),[5] which included both drawings of classical Roman buildings and renderings of Palladio's own designs utilizing those motifs, became the most influential book ever written on architecture. Napoleon had the great pyramids and temples of Egypt documented in the Description de l'Egypte (1809). Owen Jones published The Grammar of Ornament in 1856 with colored illustrations of decoration from Egypt, Turkey, Sicily and Spain. He took residence in the Alhambra Palace to make drawings and plaster castings of the ornate details of the Islamic ornaments there, including arabesques, calligraphy, and geometric patterns. Interest in classical architecture was also fueled by the tradition of traveling on The Grand Tour, and by translation of early literature about architecture in the work of Vitruvius and Michelangelo.<\/p><p>During the 19th century, the acceptable use of ornament, and its precise definition became the source of aesthetic controversy in academic Western architecture, as architects and their critics searched for a suitable style. \"The great question is,\" Thomas Leverton Donaldson asked in 1847, \"are we to have an architecture of our period, a distinct, individual, palpable style of the 19th century?\".[6] In 1849, when Matthew Digby Wyatt viewed the French Industrial Exposition set up on the Champs-Elys&eacute;es in Paris, he disapproved in recognizably modern terms of the plaster ornaments in faux-bronze and faux woodgrain:[7]<\/p><p>Both internally and externally there is a good deal of tasteless and unprofitable ornament... If each simple material had been allowed to tell its own tale, and the lines of the construction so arranged as to conduce to a sentiment of grandeur, the qualities of \"power\" and \"truth,\" which its enormous extent must have necessarily ensured, could have scarcely fail to excite admiration, and that at a very considerable saving of expense.<\/p><p>Contacts with other cultures through colonialism and the new discoveries of archaeology expanded the repertory of ornament available to revivalists. After about 1880, photography made details of ornament even more widely available than prints had done.<\/p><p>Modern ornament<br>Modern millwork ornaments are made of wood, plastics, composites, etc. They come in many different colours and shapes. Modern architecture, conceived of as the elimination of ornament in favor of purely functional structures, left architects the problem of how to properly adorn modern structures.[8] There were two available routes from this perceived crisis. One was to attempt to devise an ornamental vocabulary that was new and essentially contemporary. This was the route taken by architects like Louis Sullivan and his pupil Frank Lloyd Wright, or by the unique Antoni Gaud&iacute;. Art Nouveau, for all its excesses, was a conscious effort to evolve such a \"natural\" vocabulary of ornament.<\/p><p>A more radical route abandoned the use of ornament altogether, as in some designs for objects by Christopher Dresser. At the time, such unornamented objects could have been found in many unpretending workaday items of industrial design, ceramics produced at the Arabia manufactory in Finland, for instance, or the glass insulators of electric lines.<\/p><p>This latter approach was described by architect Adolf Loos in his 1908 manifesto, translated into English in 1913 and polemically titled Ornament and Crime, in which he declared that lack of decoration is the sign of an advanced society. His argument was that ornament is economically inefficient and \"morally degenerate\", and that reducing ornament was a sign of progress.[9] Modernists were eager to point to American architect Louis Sullivan as their godfather in the cause of aesthetic simplification, dismissing the knots of intricately patterned ornament that articulated the skin of his structures.<\/p><p>With the work of Le Corbusier and the Bauhaus through the 1920s and 1930s, lack of decorative detail became a hallmark of modern architecture and equated with the moral virtues of honesty, simplicity, and purity. In 1932 Philip Johnson and Henry-Russell Hitchcock dubbed this the \"International Style\". What began as a matter of taste was transformed into an aesthetic mandate. Modernists declared their way as the only acceptable way to build. As the style hit its stride in the highly developed postwar work of Mies van der Rohe, the tenets of 1950s modernism became so strict that even accomplished architects like Edward Durrell Stone and Eero Saarinen could be ridiculed and effectively ostracized for departing from the aesthetic rules.[citation needed]<\/p><p>At the same time, the unwritten laws against ornament began to come into serious question. \"Architecture has, with some difficulty, liberated itself from ornament, but it has not liberated itself from the fear of ornament,\" John Summerson observed in 1941. [10]<\/p><p>The very difference between ornament and structure is subtle and perhaps arbitrary. The pointed arches and flying buttresses of Gothic architecture are ornamental but structurally necessary; the colorful rhythmic bands of a Pietro Belluschi International Style skyscraper are integral, not applied, but certainly have ornamental effect. Furthermore, architectural ornament can serve the practical purpose of establishing scale, signaling entries, and aiding wayfinding, and these useful design tactics had been outlawed. And by the mid-1950s, modernist figureheads Le Corbusier and Marcel Breuer had been breaking their own rules by producing highly expressive, sculptural concrete work.<\/p><p>The argument against ornament peaked in 1959 over discussions of the Seagram Building, where Mies van der Rohe installed a series of structurally unnecessary vertical I-beams on the outside of the building, and by 1984, when Philip Johnson produced his AT&amp;T Building in Manhattan with an ornamental pink granite neo-Georgian pediment, the argument was effectively over. In retrospect, critics have seen the AT&amp;T Building as the first Postmodernist building.[citation needed]<\/p><p>See also<br>Bronze and brass ornamental work<br>Brocade<br>Notes<br>Wikimedia Commons has media related to Ornaments.<\/p><p>Summerson, John (1941) printed in Heavenly Mansions 1963, p. 217<br>Tabbaa, 74-75<br>Rawson, 24-25; see also \"&ldquo;Style&rdquo;&mdash;or whatever\", J. Duncan Berry, A review of Problems of Style by Alois Riegl, The New Criterion, April 1993<br>Rawson, the subject of her book, see Preface, and Chapter 5 on Chinese influences on Persian art.<br>The Center for Palladian Studies in America, Inc.,\"Palladio and his Books.\"<br>quoted by Summerson<br>Second Republic Exposition Archived 2006-02-12 at the Wayback Machine<br>Sankovitch, Anne-Marie (12\/1\/1998). \"Structure\/ornament and the modern figuration of architecture\". The Art Bulletin. Archived from the original on November 7, 2007. Retrieved 2007-11-13. Check date values in: |date= (help)<br>James, Trilling. \"The Language of Ornament\". p. 186-210. ISBN 0-500-20343-1.<br>\"Slogans and Battlecries | Paul Shepheard | Architect | Writer\". www.paulshepheard.com. Retrieved 2018-05-12.<br>19th-century compendiums of ornament<br>Dolmetsch, Heinrich (1898). The Treasury of Ornament. (s:de:Heinrich Dolmetsch)<br>Owen Jones (1856) The Grammar of Ornament.<br>Meyer, Franz Sales, (1898), A Handbook of Ornament<br>Speltz, Alexander (1915). The Coloured Ornament of All Historical Styles.<br>References<br>Lewis, Philippa; G. Darley (1986). Dictionary of Ornament. New York: Pantheon. ISBN 0-394-50931-5.<br>Rawson, Jessica, Chinese Ornament: The lotus and the dragon, 1984, British Museum Publications, ISBN 0-7141-1431-6<br>Tabbaa, Yasser, The transformation of Islamic art during the Sunni revival, I.B.Tauris, 2002, ISBN 1-85043-392-5, ISBN 978-1-85043-392-7, google books<br>James Trilling The Language of Ornament<br>Peterson, Sara, Ornament and Pattern in Western Art: Renaissance and Mannerist; Baroque; Rococo; Neoclassical; Historicist and Traditional Historicism; 19th century Reform Movement; 20th century, Grove's Dictionary of Art, edited Jane Turner, 1996<br>vte<br>Ornaments<br>vte<br>Rooms and spaces of a house<br>Authority control Edit this at Wikidata<br>BNF: cb13602689b (data)GND: 4043886-7<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>15 August 2015<br>Zero<br>Zero<br>While the queues to the aquarium are not running out at the Moscow VDNH and the cultural and educational center \"city farm\" is preparing to open, Archspeech decided to study the existing ways of human interaction with the animal world in the city. And found out that the cells &mdash; it's yesterday: today, animals are satisfied with parks and build a house. Sometimes-directly next door to people.<\/p><p>Evolution of the cell: architecture for animals. Part 1<br>Friendly: environmentally friendly, friendly to children, the elderly, people with disabilities and disabilities. What about animal friendliness?<\/p><p>Until recently, it was believed that the \"friends of man\" are dogs and cats. For them &mdash; shops, hotels, restaurants, veterinary clinics, spas. More recently, John F. Kennedy airport in new York announced plans to open a special terminal for animals &mdash; with a bone-shaped pool and a Playground for dogs, a jungle of real trees for cats and hay stalls for horses.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>This is all fine, but has to do mostly with social aspects-the hotel or restaurant is ready to host guests with animals and properly organize their leisure time. But a comfortable city to live in is still something more than when you can have a Cup of coffee with a poodle in your arms.<\/p><p>Special animal terminal at JFK airport in new York<br>Special animal terminal at JFK airport in new York<\/p><p>It's not just how comfortable we are when we raise our Pets that matters &mdash; it's also how comfortable they are. That is why the ideas of urban farming &mdash; the development of agriculture within the city-flourish in all major cities of Europe and America. After all, if where we live, flowers bloom luxuriously, vegetables ripen and chickens lay eggs-then this is a healthy environment in which it is not terrible to raise children and exist yourself.<\/p><p>After the first urban farms began to open in England, Scandinavia and America, there came a realization that it is necessary to look at our cities from a different point of view. For the cultivation of edible fruits and plants need bees (one-third of all agricultural products of the planet is produced by pollination), for the destruction of harmful insects-bats: one individual eats up to 10 million parasites per year-a highly environmentally friendly replacement for harmful pesticides.<\/p><p>Special conditions are also required for chickens, which in a sense are ideal companions for us: the chicken destroys food waste, and in return carries eggs, one daily-just the daily rate of one person.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In this regard, an order was formed for a new kind of architecture, attractive for\" useful \" animals and insects. SN Sn&oslash;hetta designed wooden bee hives that are installed directly on the roofs of city buildings. The source of inspiration for their shape is obvious: it is honeycomb. As for the size of the interconnected hexagons, painted in a honey shade, they were selected taking into account the convenience for the beekeeper. One such hive holds 160,000 bees.<\/p><p>Wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta wooden bee hives on the roofs of city buildings. Snohetta<br>Wooden bee hives on the roofs of city buildings. Snohetta<\/p><p>In Buffalo, local University students built a skyscraper for bees. Towering in the middle of an abandoned industrial area, it is lined again with hexagonal panels &mdash; metal plates with perforations through which the bees get inside, as well as sunlight.<\/p><p>There used to be an Elevator factory in the area. In part, this inspired the students to a special design of the skyscraper, which later gave it its name-Elevator B. the hive itself is made of wood and is suspended at the top of the tower. At the bottom there is an entrance for the curious: everyone can go to the \"bee house\" and watch the life of insects, raising his head up. But the hive can be lowered &mdash; it is fixed on the lifting \"lift\" mechanism, which is actively used by beekeepers serving these bees.<\/p><p>Elevator Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Skyscraper for bees Elevator Skyscraper for bees Elevator B<br>Elevator Elevator B<\/p><p>On bees now in a whole are pinned very big hopes. In England-the land of natural gardeners-people on their own arrange on the sites of bee \"hotels\". Even its pavilion at the EXPO in Milan, the UK presented in the form of a giant beehive. And writer Joff Mano and his designer friend John Baker are working on a project of genetically modified bees that will produce concrete instead of honey.<\/p><p>Experts plan to use insects as \"heads\" for a 3D printer and expect that bees can be \"trained\" to make the most elaborate architectural concrete. While it is, however, rather from the field of science fiction.<\/p><p>Project of genetically modified bees that will produce concrete instead of honey<br>Project of genetically modified bees that will produce concrete instead of honey<\/p><p>And here is a very real story: sheep in Paris work \" live lawnmowers.\" Before that, two goats tended the Tuileries gardens, and now dwarf sheep took to the streets of the French capital. According to the President of the company \"Eco-Terra\", which is engaged in the project of ecological pastures in Paris, it is not only cheap, but also contributes to biological diversity: animal droppings attract insects, and those, in turn, birds.<\/p><p>Sheep lawn mower like. Paris<br>Sheep as lawnmowers. Paris<\/p><p>Speaking of insects and birds. Cardiff Bay has a 50-metre wall with 1,000 nests for birds and bats. Right behind it-1000 \"human nests\": STR strata. The wall stands exactly between it and the river.<\/p><p>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<br>50-meter wall with 1000 nests for birds and bats. Gitta Gschwendtner<\/p><p>Together with scientists, artist gitta Gschwendtner developed \"boxes\" of four sizes &mdash; for different species of birds and mice. The wall, at the same time, is a real work of art, which makes the appearance of the typical quarter unique.<\/p><p>Nests for bats are also provided in the design of the bridge, which is being completed this summer in the Dutch city of monster. According to the authors of the project from the Bureau of architects, there are a lot of mice here, and they hide in bunkers left after the Second world war. Now there is a chance that there will be even more bats in this area-analogues of bunkers are built into the bearing concrete frame of the bridge. While the outer part of the structure-wooden slats with gaps for viewing river scenery.<\/p><p>Bridge with slots for the bats. Next architects<br>Bridge with nests for bats. The next architectsmost With nests for bats. Next architects<br>Bridge with nests for bats. Next architects<\/p><p>For chickens, too, are designed similarity \"bunkers\" - for impregnable any predators, including those same cats, and in the same time comfortable. For example, the study of architecture architects of the Bureau, having received an order for a chicken coop for 8 chickens in the suburbs of new York, created an unapproachable exterior, lined with metal construction with wooden filling and Underfloor heating.<\/p><p>Access to natural light and clean air is provided through two doors at the ends of the chicken coop: one for people, the second for chickens. To properly plan the interior space, the authors of the project for some time observed the behavior of several chickens on a real farm. As a result, the roosts are located at a convenient height, and the nests are made precisely so that the hens can comfortably hatch eggs.<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>However, in addition to the utilitarian aspect of such a close proximity of man and the animal world has another side. To stay human, we need to care &mdash; not about our own appearance or having the most fashionable gadget in your pocket, but about a living creature, whether it's a green salad or a Guinea pig. To feel involved in something bigger. That's why contact zoos and city farms are so popular. And in the next part of this article we will talk about how the architecture of zoos evolves.<\/p><p>To be continued<\/p><p>A chicken coop in the suburbs of new York. Bureau Of Architectural Research<br>Chicken coop in the suburbs of new York. Bureau Of Architectural Research<\/p><p>Dezeen Images, Snehetta \"Huffington Post\", designboom, Architizer, 2modern.com<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3908282\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3908282\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3908282\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3908282\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3908282\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3908282\/tags",
+    "tags": [
+      {
+        "name": "cnc",
+        "tag": "cnc",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cnc",
+        "count": 6212,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cnc\/things",
+        "absolute_url": "\/tag:cnc"
+      },
+      {
+        "name": "for CNC",
+        "tag": "for_cnc",
+        "url": "https:\/\/api.thingiverse.com\/tags\/for_cnc",
+        "count": 38,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/for_cnc\/things",
+        "absolute_url": "\/tag:for_CNC"
+      },
+      {
+        "name": "Model for cnc",
+        "tag": "model_for_cnc",
+        "url": "https:\/\/api.thingiverse.com\/tags\/model_for_cnc",
+        "count": 3,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/model_for_cnc\/things",
+        "absolute_url": "\/tag:Model_for_cnc"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3908282\/categories",
+    "file_count": 36,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 23491,
+    "view_count": 8930,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 6,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 2,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Golova_orla.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/7b\/06\/23\/4f\/Golova_orla.stl"
+        },
+        {
+          "name": "Golova_kabana_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/b0\/b2\/71\/51\/Golova_kabana_1.stl"
+        },
+        {
+          "name": "golova_loshadi2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a3\/48\/70\/9b\/a7\/golova_loshadi2.stl"
+        },
+        {
+          "name": "Golova_kabana.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/b5\/20\/23\/60\/Golova_kabana.stl"
+        },
+        {
+          "name": "model_relyefa_golovy_lva_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/3b\/f5\/bd\/13\/model_relyefa_golovy_lva_2.stl"
+        },
+        {
+          "name": "golova_loshadi2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/3b\/3b\/e8\/0a\/golova_loshadi2.stl"
+        },
+        {
+          "name": "nozh_s_golovoy_leoparda_100kh120kh10.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/54\/06\/1a\/db\/9d\/nozh_s_golovoy_leoparda_100kh120kh10.stl"
+        },
+        {
+          "name": "05_037_barelyef_golova_tigra.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/e3\/04\/5d\/a1\/05_037_barelyef_golova_tigra.stl"
+        },
+        {
+          "name": "Golova_orla.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c5\/64\/68\/c0\/d9\/Golova_orla.stl"
+        },
+        {
+          "name": "golova_sobaki_kolli.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/da\/fc\/96\/d3\/golova_sobaki_kolli.stl"
+        },
+        {
+          "name": "05_065_golova_lva.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/03\/f6\/a7\/72\/1d\/05_065_golova_lva.stl"
+        },
+        {
+          "name": "05_028_golova_lva_barelyef.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/e9\/32\/91\/8b\/05_028_golova_lva_barelyef.stl"
+        },
+        {
+          "name": "Golova_lva_3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/85\/f1\/ac\/54\/c4\/Golova_lva_3.stl"
+        },
+        {
+          "name": "3d_model_golova_yastreba.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c1\/b2\/8b\/73\/b6\/3d_model_golova_yastreba.stl"
+        },
+        {
+          "name": "Golova_volk.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3d\/3c\/28\/ba\/ca\/Golova_volk.stl"
+        },
+        {
+          "name": "Golova_Lva_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/02\/24\/84\/28\/d1\/Golova_Lva_1.stl"
+        },
+        {
+          "name": "model_relyefa_golovy_tigra.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/52\/45\/01\/f7\/model_relyefa_golovy_tigra.stl"
+        },
+        {
+          "name": "Golova_kabana.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/4d\/16\/1a\/a4\/Golova_kabana.stl"
+        },
+        {
+          "name": "golova_konya.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/34\/a9\/e6\/32\/ca\/golova_konya.stl"
+        },
+        {
+          "name": "Golova_kabana_1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/22\/d9\/68\/7c\/94\/Golova_kabana_1.stl"
+        },
+        {
+          "name": "05_055_golova_yastreba_BAREL_EF.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/be\/83\/ad\/44\/10\/05_055_golova_yastreba_BAREL_EF.stl"
+        },
+        {
+          "name": "Golova_olenya.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a7\/56\/c4\/04\/80\/Golova_olenya.stl"
+        },
+        {
+          "name": "05_043_golova_orla.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d1\/75\/59\/fd\/30\/05_043_golova_orla.stl"
+        },
+        {
+          "name": "05_054_golova_buyvola.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/c4\/96\/b8\/d1\/05_054_golova_buyvola.stl"
+        },
+        {
+          "name": "golova_volka.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/f6\/bc\/bb\/9a\/golova_volka.stl"
+        },
+        {
+          "name": "golova_lva.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/21\/2f\/85\/4a\/96\/golova_lva.stl"
+        },
+        {
+          "name": "05_105_golova_konya.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/2a\/92\/ba\/96\/05_105_golova_konya.stl"
+        },
+        {
+          "name": "Golova_slona.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6c\/7e\/42\/99\/f4\/Golova_slona.stl"
+        },
+        {
+          "name": "01_014_golova_volka.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/aa\/9c\/4f\/a8\/cf\/01_014_golova_volka.stl"
+        },
+        {
+          "name": "golova_meduzy.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1d\/9e\/ca\/82\/25\/golova_meduzy.stl"
+        },
+        {
+          "name": "krovat_golova_s_nozhkami.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/17\/df\/46\/6c\/krovat_golova_s_nozhkami.stl"
+        },
+        {
+          "name": "19_028_golova_Versache.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/72\/d5\/a8\/19\/19_028_golova_Versache.stl"
+        },
+        {
+          "name": "05_062_loshadinaya_golova.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/0e\/7c\/e0\/05\/05_062_loshadinaya_golova.stl"
+        },
+        {
+          "name": "model_relyefa_golovy_lva_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/ff\/dd\/6e\/bb\/model_relyefa_golovy_lva_2.stl"
+        },
+        {
+          "name": "Lisa_golova.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/67\/3e\/44\/39\/Lisa_golova.stl"
+        },
+        {
+          "name": "Golova_grizli.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/27\/64\/43\/43\/b5\/Golova_grizli.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Heads.58.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/12\/e5\/91\/57\/e6\/Heads.58.jpg"
+        },
+        {
+          "name": "Heads.57.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/3e\/2c\/57\/31\/Heads.57.jpg"
+        },
+        {
+          "name": "Heads.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/fa\/ed\/ae\/b1\/Heads.jpg"
+        },
+        {
+          "name": "Heads.56.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/d3\/5b\/a7\/a7\/Heads.56.jpg"
+        },
+        {
+          "name": "Golova_kabana.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/da\/3e\/73\/e8\/Golova_kabana.png"
+        },
+        {
+          "name": "Golova_kabana_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/6f\/ec\/46\/59\/Golova_kabana_1.png"
+        },
+        {
+          "name": "Golova_volk.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ce\/be\/de\/a1\/b2\/Golova_volk.png"
+        },
+        {
+          "name": "Golova_slona.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4d\/86\/1a\/d5\/86\/Golova_slona.png"
+        },
+        {
+          "name": "Golova_grizli.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/bc\/d5\/5f\/0f\/Golova_grizli.png"
+        },
+        {
+          "name": "golova_loshadi2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/bb\/bd\/ce\/a3\/golova_loshadi2.png"
+        },
+        {
+          "name": "Golova_orla.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/50\/42\/60\/0b\/17\/Golova_orla.png"
+        },
+        {
+          "name": "nozh_s_golovoy_leoparda_100kh120kh10.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/40\/b0\/26\/f6\/nozh_s_golovoy_leoparda_100kh120kh10.png"
+        },
+        {
+          "name": "05_065_golova_lva.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/f5\/95\/a1\/43\/05_065_golova_lva.png"
+        },
+        {
+          "name": "05_037_barelyef_golova_tigra.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/40\/a7\/75\/18\/05_037_barelyef_golova_tigra.png"
+        },
+        {
+          "name": "Golova_orla.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/e0\/36\/50\/ec\/Golova_orla.png"
+        },
+        {
+          "name": "19_028_golova_Versache.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ff\/11\/04\/bc\/0e\/19_028_golova_Versache.png"
+        },
+        {
+          "name": "golova_lva.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/cf\/c9\/dd\/66\/golova_lva.png"
+        },
+        {
+          "name": "golova_meduzy.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ea\/11\/26\/a2\/d1\/golova_meduzy.png"
+        },
+        {
+          "name": "golova_volka.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/3e\/60\/42\/c0\/golova_volka.png"
+        },
+        {
+          "name": "05_043_golova_orla.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/c0\/7b\/e5\/7b\/05_043_golova_orla.png"
+        },
+        {
+          "name": "golova_konya.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/3d\/c4\/b8\/91\/golova_konya.png"
+        },
+        {
+          "name": "Golova_kabana_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/ba\/64\/17\/3a\/Golova_kabana_1.png"
+        },
+        {
+          "name": "Golova_kabana.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/d0\/45\/00\/27\/Golova_kabana.png"
+        },
+        {
+          "name": "Golova_Lva_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/4f\/c4\/ac\/69\/Golova_Lva_1.png"
+        }
+      ]
+    }
+  }
+}

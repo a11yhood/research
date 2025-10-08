@@ -1,0 +1,476 @@
+{
+  "created_at": "2025-07-10T03:52:20.275899+00:00",
+  "elapsed": 0.180286,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b959e99cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:20 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:20 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/4814288?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/4814288?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 4814288,
+    "name": "Maker Vikings Assistive Tech (Make:able Challenge) ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/83\/17\/6e\/b2\/f2\/large_display_assemblypicture.PNG",
+    "url": "https:\/\/api.thingiverse.com\/things\/4814288",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:4814288",
+    "creator": {
+      "id": 3914167,
+      "name": "LuisArizmendi02",
+      "first_name": "Luis",
+      "last_name": "Arizmendi",
+      "url": "https:\/\/api.thingiverse.com\/users\/LuisArizmendi02",
+      "public_url": "https:\/\/www.thingiverse.com\/LuisArizmendi02",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 2,
+      "count_of_following": 0,
+      "count_of_designs": 3,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-4_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2021-04-02T04:02:57+00:00",
+    "modified": "2021-04-02T04:02:57+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 2,
+    "is_liked": false,
+    "collect_count": 6,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 15192692,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/f4\/a4\/73\/89\/assemblypicture.PNG",
+      "name": "assemblypicture.PNG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7a\/df\/42\/00\/b5\/large_thumb_assemblypicture.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/df\/0b\/a3\/60\/medium_thumb_assemblypicture.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/06\/7e\/14\/d8\/small_thumb_assemblypicture.PNG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/61\/b0\/94\/eb\/tiny_thumb_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/71\/6b\/94\/41\/featured_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/2f\/50\/29\/51\/card_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/e5\/45\/3b\/5a\/large_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/44\/a7\/bf\/39\/98\/medium_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/ea\/3a\/6e\/a8\/small_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/c3\/57\/4e\/ff\/birdwing_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/c3\/df\/91\/05\/tiny_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/b3\/b0\/96\/68\/tinycard_preview_assemblypicture.PNG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/83\/17\/6e\/b2\/f2\/large_display_assemblypicture.PNG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/3f\/09\/a0\/16\/medium_display_assemblypicture.PNG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/89\/85\/26\/70\/2f\/small_display_assemblypicture.PNG"
+        }
+      ],
+      "added": "2021-04-02T04:33:34+00:00"
+    },
+    "description": "A prototype for an assistive technology for those with mobility issues in their hands, particularly in the fingers. \r\n\r\nIncludes several parts \r\n\r\nThe typical settings used for Thermoplastic polyurethane (95A TPU) was: Infill: 35%, Bed Temperature: 40, Nozzle Temperature: 214, Adhesion & Support, Layer Height: 0.2mm. \r\n  \r\nFor Polylactic Acid (PLA): Infill (45%), Bed Temperature: 60, Nozzle Temperature: 210, Adhesion & Support, Layer Height: 0.12mm  \r\n\r\nWrap: Use TPU \r\nstylus: Use PLA \r\nslider: Use TPU \r\nExoskeleton: Use PLA \r\nLoops: (x2) Use TPU  \r\nWrist piece: Use PLA \r\nExoskeleton no cut: Use PLA \r\nSpring: cut from spring of a pen \r\nslider with puller: Use PLA \r\nInsert: Use PLA; edit to attach tool end (EX: fork, spoon, ect.) \r\n\r\n\r\n ",
+    "instructions": "",
+    "description_html": "<div><p>A prototype for an assistive technology for those with mobility issues in their hands, particularly in the fingers. <\/p><p>Includes several parts <\/p><p>The typical settings used for Thermoplastic polyurethane (95A TPU) was: Infill: 35%, Bed Temperature: 40, Nozzle Temperature: 214, Adhesion &amp; Support, Layer Height: 0.2mm. <\/p><p>For Polylactic Acid (PLA): Infill (45%), Bed Temperature: 60, Nozzle Temperature: 210, Adhesion &amp; Support, Layer Height: 0.12mm  <\/p><p>Wrap: Use TPU<br>stylus: Use PLA<br>slider: Use TPU<br>Exoskeleton: Use PLA<br>Loops: (x2) Use TPU<br>Wrist piece: Use PLA<br>Exoskeleton no cut: Use PLA<br>Spring: cut from spring of a pen<br>slider with puller: Use PLA<br>Insert: Use PLA; edit to attach tool end (EX: fork, spoon, ect.) <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>A prototype for an assistive technology for those with mobility issues in their hands, particularly in the fingers. <\/p><p>Includes several parts <\/p><p>The typical settings used for Thermoplastic polyurethane (95A TPU) was: Infill: 35%, Bed Temperature: 40, Nozzle Temperature: 214, Adhesion &amp; Support, Layer Height: 0.2mm. <\/p><p>For Polylactic Acid (PLA): Infill (45%), Bed Temperature: 60, Nozzle Temperature: 210, Adhesion &amp; Support, Layer Height: 0.12mm  <\/p><p>Wrap: Use TPU<br>stylus: Use PLA<br>slider: Use TPU<br>Exoskeleton: Use PLA<br>Loops: (x2) Use TPU<br>Wrist piece: Use PLA<br>Exoskeleton no cut: Use PLA<br>Spring: cut from spring of a pen<br>slider with puller: Use PLA<br>Insert: Use PLA; edit to attach tool end (EX: fork, spoon, ect.) <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Ender 3 Pro<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; Mika3D and Sainnsmart PLA and TPU 95A<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>A prototype for an assistive technology for those with mobility issues in their hands, particularly in the fingers. <\/p><p>Includes several parts <\/p><p>The typical settings used for Thermoplastic polyurethane (95A TPU) was: Infill: 35%, Bed Temperature: 40, Nozzle Temperature: 214, Adhesion &amp; Support, Layer Height: 0.2mm. <\/p><p>For Polylactic Acid (PLA): Infill (45%), Bed Temperature: 60, Nozzle Temperature: 210, Adhesion &amp; Support, Layer Height: 0.12mm  <\/p><p>Wrap: Use TPU<br>stylus: Use PLA<br>slider: Use TPU<br>Exoskeleton: Use PLA<br>Loops: (x2) Use TPU<br>Wrist piece: Use PLA<br>Exoskeleton no cut: Use PLA<br>Spring: cut from spring of a pen<br>slider with puller: Use PLA<br>Insert: Use PLA; edit to attach tool end (EX: fork, spoon, ect.) <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Ender 3 Pro<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "filament_brand": "<div><p>Mika3D and Sainnsmart<\/p><\/div>",
+            "filament_material": "<div><p>PLA and TPU 95A<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/4814288\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/4814288\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/4814288\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/4814288\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/4814288\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/4814288\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/4814288\/categories",
+    "file_count": 13,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 704,
+    "view_count": 154,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "TheFinalDesign.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/87\/01\/4f\/40\/TheFinalDesign.stl"
+        },
+        {
+          "name": "wrap.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ad\/dc\/9b\/63\/74\/wrap.stl"
+        },
+        {
+          "name": "stylus.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/62\/d6\/cf\/e7\/stylus.stl"
+        },
+        {
+          "name": "slider_2.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/89\/9b\/bb\/15\/slider_2.0.stl"
+        },
+        {
+          "name": "Exoskeleton_2.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/60\/9f\/4a\/35\/e7\/Exoskeleton_2.stl"
+        },
+        {
+          "name": "loops.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5b\/01\/00\/1d\/8d\/loops.stl"
+        },
+        {
+          "name": "wristpiece.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/07\/b0\/91\/2b\/wristpiece.stl"
+        },
+        {
+          "name": "Exoskeleton_2_nocut.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/21\/92\/45\/99\/Exoskeleton_2_nocut.stl"
+        },
+        {
+          "name": "spring_pen.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/81\/b2\/05\/6f\/spring_pen.stl"
+        },
+        {
+          "name": "slider_2.0_with_puller.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/52\/71\/75\/be\/slider_2.0_with_puller.stl"
+        },
+        {
+          "name": "insert.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f8\/74\/36\/ea\/f4\/insert.stl"
+        },
+        {
+          "name": "AttachFork.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fd\/24\/5f\/b5\/76\/AttachFork.stl"
+        },
+        {
+          "name": "AttachFork.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e6\/ed\/ac\/73\/b3\/AttachFork.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "assemblypicture.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ae\/f4\/a4\/73\/89\/assemblypicture.PNG"
+        },
+        {
+          "name": "AttachFork.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/66\/7a\/bc\/70\/AttachFork.png"
+        },
+        {
+          "name": "TheFinalDesign.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/48\/fb\/c1\/6c\/22\/TheFinalDesign.png"
+        },
+        {
+          "name": "Exoskeleton_2_nocut.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c8\/5b\/14\/16\/42\/Exoskeleton_2_nocut.png"
+        },
+        {
+          "name": "wristpiece.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/4e\/77\/23\/60\/wristpiece.png"
+        },
+        {
+          "name": "loops.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/69\/4b\/a5\/01\/loops.png"
+        },
+        {
+          "name": "spring_pen.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/09\/a4\/73\/c5\/d6\/spring_pen.png"
+        },
+        {
+          "name": "slider_2.0_with_puller.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/e8\/cc\/a4\/01\/slider_2.0_with_puller.png"
+        },
+        {
+          "name": "insert.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/c0\/97\/51\/22\/insert.png"
+        },
+        {
+          "name": "slider_2.0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b8\/f7\/33\/26\/a4\/slider_2.0.png"
+        },
+        {
+          "name": "Exoskeleton_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a8\/9e\/d0\/7b\/82\/Exoskeleton_2.png"
+        },
+        {
+          "name": "wrap.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/97\/a6\/e1\/bd\/86\/wrap.png"
+        },
+        {
+          "name": "stylus.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/4c\/e4\/3e\/46\/stylus.png"
+        },
+        {
+          "name": "AttachFork.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/45\/2d\/ad\/37\/8b\/AttachFork.png"
+        },
+        {
+          "name": "picturesphysical.PNG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3b\/2e\/84\/31\/01\/picturesphysical.PNG"
+        }
+      ]
+    }
+  }
+}

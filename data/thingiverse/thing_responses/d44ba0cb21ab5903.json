@@ -1,0 +1,452 @@
+{
+  "created_at": "2025-04-12T03:32:45.284074+00:00",
+  "elapsed": 0.181078,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa885fdc5eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:45 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:45 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2366390?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2366390?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2366390,
+    "name": "Pocket Braille Finder ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2366390",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2366390",
+    "creator": {
+      "id": 616315,
+      "name": "daveyclk",
+      "first_name": "Dave",
+      "last_name": "Clarke",
+      "url": "https:\/\/api.thingiverse.com\/users\/daveyclk",
+      "public_url": "https:\/\/www.thingiverse.com\/daveyclk",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/23\/1d\/bc\/04\/4d\/5ca5d9363445a39e79a235418d8522e9_thumb_medium.jpg",
+      "count_of_followers": 692,
+      "count_of_following": 1,
+      "count_of_designs": 16,
+      "collection_count": 1,
+      "make_count": 7,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "UK",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d6\/02\/a6\/d1\/37\/228073b946153d5a075a2dce66a5007b_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-06-05T11:09:10+00:00",
+    "modified": "2017-06-05T11:09:10+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 99,
+    "is_liked": false,
+    "collect_count": 173,
+    "is_collected": false,
+    "comment_count": 7,
+    "is_watched": false,
+    "default_image": {
+      "id": 6167426,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/e2\/25\/66\/b1\/Braille_Finder_2017-Apr-11_02-52-54PM-000_CustomizedView22801193338.png",
+      "name": "Braille_Finder_2017-Apr-11_02-52-54PM-000_CustomizedView22801193338.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/19\/2b\/a2\/34\/53\/14bcde58a37669db717743f9245b6f02_display_small.jpg"
+        }
+      ],
+      "added": "2017-06-05T11:09:01+00:00"
+    },
+    "description": "This is a cool pocket Braille finder that has a neat internal mechanicsm and tactile feel\r\nBy turning the wheel, the Braille pins will either lower or raise representing the correct Alpha - Braille Translation\r\nThis is truely pocket sized, measuring in at only 70mm x 63mm x 8mm\r\nIt has been designed to be carried around for quicke reference, it could also be used by schools to teach the alphabet\r\nI'm currently printing this on my Formlabs Form\u00a02, and this has specifically been designed for SLA printing due to small size and tight tolerances\r\nThe Braille on this device follows the standard hole spacing used the world over \r\nIf you are going to attempt to FDM print this, you may want to scale it up for better results (your hole spacing wont be correct however) ",
+    "instructions": "",
+    "description_html": "<div><p>This is a cool pocket Braille finder that has a neat internal mechanicsm and tactile feel<br>By turning the wheel, the Braille pins will either lower or raise representing the correct Alpha - Braille Translation<br>This is truely pocket sized, measuring in at only 70mm x 63mm x 8mm<br>It has been designed to be carried around for quicke reference, it could also be used by schools to teach the alphabet<br>I'm currently printing this on my Formlabs Form&nbsp;2, and this has specifically been designed for SLA printing due to small size and tight tolerances<br>The Braille on this device follows the standard hole spacing used the world over<br>If you are going to attempt to FDM print this, you may want to scale it up for better results (your hole spacing wont be correct however) <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a cool pocket Braille finder that has a neat internal mechanicsm and tactile feel<br>By turning the wheel, the Braille pins will either lower or raise representing the correct Alpha - Braille Translation<br>This is truely pocket sized, measuring in at only 70mm x 63mm x 8mm<br>It has been designed to be carried around for quicke reference, it could also be used by schools to teach the alphabet<br>I'm currently printing this on my Formlabs Form&nbsp;2, and this has specifically been designed for SLA printing due to small size and tight tolerances<br>The Braille on this device follows the standard hole spacing used the world over<br>If you are going to attempt to FDM print this, you may want to scale it up for better results (your hole spacing wont be correct however) <\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><p class=\"detail-video\"><iframe src=\"\/\/www.youtube.com\/embed\/dC_E9Wb-Z_E\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe><\/p><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a cool pocket Braille finder that has a neat internal mechanicsm and tactile feel<br>By turning the wheel, the Braille pins will either lower or raise representing the correct Alpha - Braille Translation<br>This is truely pocket sized, measuring in at only 70mm x 63mm x 8mm<br>It has been designed to be carried around for quicke reference, it could also be used by schools to teach the alphabet<br>I'm currently printing this on my Formlabs Form&nbsp;2, and this has specifically been designed for SLA printing due to small size and tight tolerances<br>The Braille on this device follows the standard hole spacing used the world over<br>If you are going to attempt to FDM print this, you may want to scale it up for better results (your hole spacing wont be correct however) <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "video": "<iframe src=\"\/\/www.youtube.com\/embed\/dC_E9Wb-Z_E\" frameborder=\"0\" allowfullscreen><\/iframe>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2366390\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2366390\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2366390\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2366390\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2366390\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2366390\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2366390\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 866,
+    "view_count": 2117,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 3,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Braille_pin_v3.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/2d\/70\/2b\/53\/Braille_pin_v3.stl"
+        },
+        {
+          "name": "Braille_Finder_Case_bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/33\/e8\/14\/48\/Braille_Finder_Case_bottom.stl"
+        },
+        {
+          "name": "Braille_Finder_Case_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/b6\/c9\/87\/ac\/Braille_Finder_Case_Top.stl"
+        },
+        {
+          "name": "BrailLe_Wheel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/78\/dd\/24\/37\/8b\/BrailLe_Wheel.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-52-54PM-000_CustomizedView22801193338.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2b\/e2\/25\/66\/b1\/Braille_Finder_2017-Apr-11_02-52-54PM-000_CustomizedView22801193338.png"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-13_01-23-29PM-000_CustomizedView10721477006.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/2f\/78\/15\/d7\/Braille_Finder_2017-Apr-13_01-23-29PM-000_CustomizedView10721477006.png"
+        },
+        {
+          "name": "IMG_5578.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/55\/03\/32\/40\/ed\/IMG_5578.JPG"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-56-01PM-000_CustomizedView10832153811.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/60\/29\/d8\/f4\/Braille_Finder_2017-Apr-11_02-56-01PM-000_CustomizedView10832153811.png"
+        },
+        {
+          "name": "IMG_5577.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d5\/ae\/5e\/9f\/02\/IMG_5577.JPG"
+        },
+        {
+          "name": "IMG_5576.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/6a\/24\/c5\/ff\/IMG_5576.JPG"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-55-18PM-000_CustomizedView2004832132.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d4\/26\/c4\/a0\/4e\/Braille_Finder_2017-Apr-11_02-55-18PM-000_CustomizedView2004832132.png"
+        },
+        {
+          "name": "IMG_5580.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/de\/27\/96\/ad\/IMG_5580.JPG"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-53-58PM-000_NamedView.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/ba\/3c\/a3\/0c\/Braille_Finder_2017-Apr-11_02-53-58PM-000_NamedView.png"
+        },
+        {
+          "name": "IMG_5575.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/99\/4b\/bf\/8e\/IMG_5575.JPG"
+        },
+        {
+          "name": "IMG_5579.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/49\/b6\/36\/4e\/IMG_5579.JPG"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-53-30PM-000_CustomizedView23228306581.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/d4\/ff\/44\/c2\/Braille_Finder_2017-Apr-11_02-53-30PM-000_CustomizedView23228306581.png"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-55-01PM-000_NamedView_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/90\/1c\/04\/81\/cc\/Braille_Finder_2017-Apr-11_02-55-01PM-000_NamedView_1.png"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-53-58PM-000_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/57\/26\/96\/96\/b4\/Braille_Finder_2017-Apr-11_02-53-58PM-000_1.png"
+        },
+        {
+          "name": "Braille_Finder_2017-Apr-11_02-55-34PM-000_CustomizedView1040041842.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5d\/d3\/b6\/f7\/8a\/Braille_Finder_2017-Apr-11_02-55-34PM-000_CustomizedView1040041842.png"
+        },
+        {
+          "name": "30f7a1b830b0c0f3085ed190c6aedfcc.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d5\/3e\/08\/a4\/f9\/30f7a1b830b0c0f3085ed190c6aedfcc.png"
+        },
+        {
+          "name": "a91328d3027c3c7d6dd9222ea5bdb914.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1d\/64\/e6\/34\/c7\/a91328d3027c3c7d6dd9222ea5bdb914.png"
+        },
+        {
+          "name": "30638726e689ed8675c62d5ba4efe523.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/00\/cc\/5b\/fe\/80\/30638726e689ed8675c62d5ba4efe523.png"
+        },
+        {
+          "name": "71f6989846d5d1242d3686394c75e8d3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d9\/ce\/b4\/e2\/96\/71f6989846d5d1242d3686394c75e8d3.png"
+        }
+      ]
+    }
+  }
+}

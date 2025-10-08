@@ -1,0 +1,554 @@
+{
+  "created_at": "2025-07-15T03:58:38.792713+00:00",
+  "elapsed": 0.106952,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95f657b3ce2ef90b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Tue, 15 Jul 2025 03:58:38 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Tue, 15 Jul 2025 04:28:38 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY",
+      "_cfuvid": "ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=C6d7xNwwq7sBO5J_9hXn4Ld0sAH_clfmlxEHKXBVlIg-1752551835-1.0.1.1-Sn19ic6bhHFvJIAG1LRWGIrdh3aKdDHtsftZtsg45raQ5ri2V_GWAkOIOXkHsXKCUcVCMsHdXuLUVHbJ6oxPSnHVGLtXV9XFEoyHoGTgduY; _cfuvid=ZrYLdU1w26gBvI7viSR416mVTtfUPGW_C6GkRu0AEXw-1752551835746-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2266941?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2266941?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2266941,
+    "name": "Modular \"Watch Band\" EyeX Mount (for VESA & More)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/c9\/41\/d7\/4e\/d1\/cf1b9439530c4c41d0fe0ba08684a60f_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2266941",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2266941",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 120,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-04-22T22:19:43+00:00",
+    "modified": "2017-04-22T22:19:43+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 20,
+    "is_liked": false,
+    "collect_count": 43,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 10853913,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/12\/77\/06\/28\/Strap_On_Monitor_Mount.stl",
+      "name": "d7ad37b57808c4d87f989c7c602b4830.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830_display_small.jpg"
+        }
+      ],
+      "added": "2019-05-28T22:30:59+00:00"
+    },
+    "description": "IMPORTANT: This mount is now obsolete - you're welcome to use it, but we have a better one at https:\/\/www.thingiverse.com\/thing:3060014\r\n\r\nThis mount holds a Tobii EyeX Eye Gaze camera directly under the monitor and maintains its orientation.\r\n\r\nWalk-through here: https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&feature=youtu.be\r\n\r\nMounting an eye gaze device correctly is critical for those who use it to control their computer and to communicate.  One challenge is that the monitor sometimes must be rotated to match the user's orientation (in a bed, power chair, etc.).  Many mounts for eye gaze cameras will fail when rotated, or will remain parallel to the ground (which doesn't work).\r\n\r\nThis mount uses a \"Watch Band\" linkage to allow the user to move the device while maintaining the critical orientations.  The holes are 4mm in diameter, and a metric M4 x 70mm pan-head screw will work perfectly.  You can follow our progress on this project at the ATMakers Facebook Group:\r\nhttps:\/\/www.facebook.com\/groups\/ATMakers\/\r\n\r\nHere's a walk-through of it mounted.\r\nhttps:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1\r\n\r\nThis will be part of a larger Guide at the main ATMakers.org site and we will update this when it's ready.",
+    "instructions": "",
+    "description_html": "<div><p>IMPORTANT: This mount is now obsolete - you're welcome to use it, but we have a better one at <a rel=\"nofollow\" href=\"\/thing:3060014\">https:\/\/www.thingiverse.com\/thing:3060014<\/a><\/p><p>This mount holds a Tobii EyeX Eye Gaze camera directly under the monitor and maintains its orientation.<\/p><p>Walk-through here: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be<\/a><\/p><p>Mounting an eye gaze device correctly is critical for those who use it to control their computer and to communicate.  One challenge is that the monitor sometimes must be rotated to match the user's orientation (in a bed, power chair, etc.).  Many mounts for eye gaze cameras will fail when rotated, or will remain parallel to the ground (which doesn't work).<\/p><p>This mount uses a \"Watch Band\" linkage to allow the user to move the device while maintaining the critical orientations.  The holes are 4mm in diameter, and a metric M4 x 70mm pan-head screw will work perfectly.  You can follow our progress on this project at the ATMakers Facebook Group:<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a><\/p><p>Here's a walk-through of it mounted.<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1\">https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1<\/a><\/p><p>This will be part of a larger Guide at the main ATMakers.org site and we will update this when it's ready.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>IMPORTANT: This mount is now obsolete - you're welcome to use it, but we have a better one at <a rel=\"nofollow\" href=\"\/thing:3060014\">https:\/\/www.thingiverse.com\/thing:3060014<\/a><\/p><p>This mount holds a Tobii EyeX Eye Gaze camera directly under the monitor and maintains its orientation.<\/p><p>Walk-through here: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be<\/a><\/p><p>Mounting an eye gaze device correctly is critical for those who use it to control their computer and to communicate.  One challenge is that the monitor sometimes must be rotated to match the user's orientation (in a bed, power chair, etc.).  Many mounts for eye gaze cameras will fail when rotated, or will remain parallel to the ground (which doesn't work).<\/p><p>This mount uses a \"Watch Band\" linkage to allow the user to move the device while maintaining the critical orientations.  The holes are 4mm in diameter, and a metric M4 x 70mm pan-head screw will work perfectly.  You can follow our progress on this project at the ATMakers Facebook Group:<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a><\/p><p>Here's a walk-through of it mounted.<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1\">https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1<\/a><\/p><p>This will be part of a larger Guide at the main ATMakers.org site and we will update this when it's ready.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Doesn't Matter&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;.30 mm&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                        &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Printing is pretty simple.  Flat orientation w\/supports for the screw holes is what I ended up with (we tried several with varying degrees of success - look at the pix).  Whatever setup you have for flat parts w\/holes will work.rnrnWe printed in PLA, but I intend to use PETG for the ones I'm sending to a user just to get the most strength.  I will update when that's done.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-title\"><strong>Assembly<\/strong><\/p><pre><code>            &lt;div&gt;&lt;p&gt;I used M4 x 70mm machine screws (Pan-Head - tapered heads will crack the PLA - see photos).  Here's a link to the ones I bought at Lowes:rnhttps:\/\/www.lowes.com\/pd\/The-Hillman-Group-4-Count-4mm-to-0-7-x-60mm-Pan-Head-Zinc-Plated-Metric-Machine-Screws\/999994912rnrnI used one washer inside the joint, but you may not need it.  Friction of the threads should hold the weight of the device.&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>You can watch the ideation &amp; initial prototype in this video.  If you like it, join the group!rnrnhttps:\/\/www.facebook.com\/groups\/ATMakers\/permalink\/286819688396144\/<\/p><\/div><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>IMPORTANT: This mount is now obsolete - you're welcome to use it, but we have a better one at <a rel=\"nofollow\" href=\"\/thing:3060014\">https:\/\/www.thingiverse.com\/thing:3060014<\/a><\/p><p>This mount holds a Tobii EyeX Eye Gaze camera directly under the monitor and maintains its orientation.<\/p><p>Walk-through here: <a rel=\"nofollow\" href=\"https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be\">https:\/\/www.youtube.com\/watch?v=lR-zV6_k1IM&amp;feature=youtu.be<\/a><\/p><p>Mounting an eye gaze device correctly is critical for those who use it to control their computer and to communicate.  One challenge is that the monitor sometimes must be rotated to match the user's orientation (in a bed, power chair, etc.).  Many mounts for eye gaze cameras will fail when rotated, or will remain parallel to the ground (which doesn't work).<\/p><p>This mount uses a \"Watch Band\" linkage to allow the user to move the device while maintaining the critical orientations.  The holes are 4mm in diameter, and a metric M4 x 70mm pan-head screw will work perfectly.  You can follow our progress on this project at the ATMakers Facebook Group:<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a><\/p><p>Here's a walk-through of it mounted.<br><a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1\">https:\/\/www.facebook.com\/bill.binko\/videos\/1377778868931833\/?permPage=1<\/a><\/p><p>This will be part of a larger Guide at the main ATMakers.org site and we will update this when it's ready.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>",
+            "printer": "<div><p>Creator Pro<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Doesn't Matter",
+            "resolution": "<div><p>.30 mm<\/p><\/div>",
+            "infill": "<div><p>20%<\/p><\/div>",
+            "notes": "<div><p>Printing is pretty simple.  Flat orientation w\/supports for the screw holes is what I ended up with (we tried several with varying degrees of success - look at the pix).  Whatever setup you have for flat parts w\/holes will work.rnrnWe printed in PLA, but I intend to use PETG for the ones I'm sending to a user just to get the most strength.  I will update when that's done.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "title": "Assembly",
+            "content": "<div><p>I used M4 x 70mm machine screws (Pan-Head - tapered heads will crack the PLA - see photos).  Here's a link to the ones I bought at Lowes:rnhttps:\/\/www.lowes.com\/pd\/The-Hillman-Group-4-Count-4mm-to-0-7-x-60mm-Pan-Head-Zinc-Plated-Metric-Machine-Screws\/999994912rnrnI used one washer inside the joint, but you may not need it.  Friction of the threads should hold the weight of the device.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>You can watch the ideation &amp; initial prototype in this video.  If you like it, join the group!rnrnhttps:\/\/www.facebook.com\/groups\/ATMakers\/permalink\/286819688396144\/<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2266941\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2266941\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2266941\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2266941\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2266941\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2266941\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 893,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 682,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "atmakers",
+        "tag": "atmakers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/atmakers",
+        "count": 8,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/atmakers\/things",
+        "absolute_url": "\/tag:atmakers"
+      },
+      {
+        "name": "eyes",
+        "tag": "eyes",
+        "url": "https:\/\/api.thingiverse.com\/tags\/eyes",
+        "count": 315,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/eyes\/things",
+        "absolute_url": "\/tag:eyes"
+      },
+      {
+        "name": "gaming",
+        "tag": "gaming",
+        "url": "https:\/\/api.thingiverse.com\/tags\/gaming",
+        "count": 5921,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/gaming\/things",
+        "absolute_url": "\/tag:gaming"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2266941\/categories",
+    "file_count": 7,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1025,
+    "view_count": 2861,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 3,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Large_Buckle.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/4a\/ef\/91\/40\/Large_Buckle.stl"
+        },
+        {
+          "name": "EyeGaze_VESA_Mount.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/37\/78\/8d\/da\/EyeGaze_VESA_Mount.f3d"
+        },
+        {
+          "name": "EyeGaze_Piano_Hinge.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d6\/93\/71\/c7\/e2\/EyeGaze_Piano_Hinge.f3d"
+        },
+        {
+          "name": "EyeX_Connection.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/6a\/62\/35\/85\/EyeX_Connection.stl"
+        },
+        {
+          "name": "Small_Buckle.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/3d\/ab\/73\/26\/Small_Buckle.stl"
+        },
+        {
+          "name": "VESA_Connection.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/32\/1a\/d1\/0e\/5f\/VESA_Connection.stl"
+        },
+        {
+          "name": "Strap_On_Monitor_Mount.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/25\/12\/77\/06\/28\/Strap_On_Monitor_Mount.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "d7ad37b57808c4d87f989c7c602b4830.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/55\/35\/ab\/e4\/d7ad37b57808c4d87f989c7c602b4830.png"
+        },
+        {
+          "name": "WIN_20170422_16_58_21_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/c6\/02\/d6\/a3\/WIN_20170422_16_58_21_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_59_20_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f4\/15\/08\/92\/c3\/WIN_20170422_16_59_20_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_59_02_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4b\/5a\/a0\/f5\/08\/WIN_20170422_16_59_02_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_59_47_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/e8\/55\/ba\/3c\/WIN_20170422_16_59_47_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_59_37_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/07\/96\/5e\/e9\/WIN_20170422_16_59_37_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_08_43_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/f0\/73\/77\/ba\/WIN_20170422_17_08_43_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_08_31_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/f3\/b2\/f7\/c7\/WIN_20170422_17_08_31_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_07_31_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3c\/8e\/9c\/b1\/75\/WIN_20170422_17_07_31_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_06_36_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/52\/3e\/f9\/c2\/9a\/WIN_20170422_17_06_36_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_04_46_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/f8\/3a\/ae\/34\/WIN_20170422_17_04_46_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_58_32_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7f\/81\/db\/bf\/fb\/WIN_20170422_16_58_32_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_58_39_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d0\/79\/99\/2b\/32\/WIN_20170422_16_58_39_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_16_58_47_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4e\/f6\/d8\/37\/c7\/WIN_20170422_16_58_47_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_03_04_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/9f\/ff\/f7\/fa\/WIN_20170422_17_03_04_Pro.jpg"
+        },
+        {
+          "name": "WIN_20170422_17_00_41_Pro.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/72\/ba\/8c\/c7\/25\/WIN_20170422_17_00_41_Pro.jpg"
+        },
+        {
+          "name": "IMG_5707.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/6f\/f6\/7d\/75\/IMG_5707.JPG"
+        },
+        {
+          "name": "IMG_5723.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dc\/9d\/90\/e8\/95\/IMG_5723.JPG"
+        },
+        {
+          "name": "IMG_5710.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/db\/c5\/5e\/ca\/IMG_5710.JPG"
+        },
+        {
+          "name": "IMG_5728.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/1b\/12\/1d\/c9\/IMG_5728.JPG"
+        },
+        {
+          "name": "IMG_5713.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/24\/02\/91\/07\/e0\/IMG_5713.JPG"
+        },
+        {
+          "name": "IMG_5719.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/1b\/99\/85\/cc\/IMG_5719.JPG"
+        },
+        {
+          "name": "IMG_5705.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/80\/70\/28\/e0\/IMG_5705.JPG"
+        },
+        {
+          "name": "ad3cbc6b74aad760e35de3bf170619b4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/71\/a2\/e3\/1d\/5b\/ad3cbc6b74aad760e35de3bf170619b4.png"
+        },
+        {
+          "name": "ef40c5be79f40d80f3716a2bbd3ed135.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/8e\/6f\/d1\/c6\/ef40c5be79f40d80f3716a2bbd3ed135.png"
+        },
+        {
+          "name": "0f86d0c308014439fdfafb7c98989df7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/86\/af\/83\/dc\/83\/0f86d0c308014439fdfafb7c98989df7.png"
+        },
+        {
+          "name": "c321f2063d06f73245b198579d41c5c6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e1\/c7\/ed\/5c\/79\/c321f2063d06f73245b198579d41c5c6.png"
+        }
+      ]
+    }
+  }
+}

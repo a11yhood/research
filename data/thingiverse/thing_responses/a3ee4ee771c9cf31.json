@@ -1,0 +1,469 @@
+{
+  "created_at": "2025-04-12T03:32:22.456066+00:00",
+  "elapsed": 0.201009,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa7f72c64eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:22 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:22 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3230906?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3230906?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3230906,
+    "name": "ATMakers MX Switch",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7f\/56\/55\/ea\/8c\/d95b584aeb4d1d1d31e77b8c53118b55_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3230906",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3230906",
+    "creator": {
+      "id": 1276407,
+      "name": "atmakers",
+      "first_name": "Bill",
+      "last_name": "Binko",
+      "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+      "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+      "count_of_followers": 118,
+      "count_of_following": 9,
+      "count_of_designs": 30,
+      "collection_count": 4,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Tarpon Springs, FL",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2018-11-21T18:48:01+00:00",
+    "modified": "2018-11-21T18:48:01+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 29,
+    "is_liked": false,
+    "collect_count": 55,
+    "is_collected": false,
+    "comment_count": 14,
+    "is_watched": false,
+    "default_image": {
+      "id": 11262505,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/4f\/12\/dd\/98\/ATMakers_MX_Switch_Bottom_Oriented.stl",
+      "name": "2603db6e0725c296377aa9d85da81602.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602_display_small.jpg"
+        }
+      ],
+      "added": "2019-07-28T23:14:00+00:00"
+    },
+    "description": "This is a Beta version of a light-touch Assistive Technology switch based on the popular Cherry MX keyboard switches (and compatibles).  It has a built-in 1\/4\"-20 threaded insert to allow for mounting on camera mounts and is a quick print with standard materials.\r\n\r\nOngoing work is to perfect tolerances and make getting the snap-tabs a bit easier to align.  Remixes and suggestions are appreciated.\r\n\r\nFor more information, join us at https:\/\/www.facebook.com\/groups\/ATMakers\/ or http:\/\/atmakers.org",
+    "instructions": "",
+    "description_html": "<div><p>This is a Beta version of a light-touch Assistive Technology switch based on the popular Cherry MX keyboard switches (and compatibles).  It has a built-in 1\/4\"-20 threaded insert to allow for mounting on camera mounts and is a quick print with standard materials.<\/p><p>Ongoing work is to perfect tolerances and make getting the snap-tabs a bit easier to align.  Remixes and suggestions are appreciated.<\/p><p>For more information, join us at <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a> or <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\">http:\/\/atmakers.org<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a Beta version of a light-touch Assistive Technology switch based on the popular Cherry MX keyboard switches (and compatibles).  It has a built-in 1\/4\"-20 threaded insert to allow for mounting on camera mounts and is a quick print with standard materials.<\/p><p>Ongoing work is to perfect tolerances and make getting the snap-tabs a bit easier to align.  Remixes and suggestions are appreciated.<\/p><p>For more information, join us at <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a> or <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\">http:\/\/atmakers.org<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>FlashForge<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creator Pro&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>.2mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Hathbox PLA<br>Green<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a Beta version of a light-touch Assistive Technology switch based on the popular Cherry MX keyboard switches (and compatibles).  It has a built-in 1\/4\"-20 threaded insert to allow for mounting on camera mounts and is a quick print with standard materials.<\/p><p>Ongoing work is to perfect tolerances and make getting the snap-tabs a bit easier to align.  Remixes and suggestions are appreciated.<\/p><p>For more information, join us at <a rel=\"ugc nofollow\" href=\"https:\/\/www.facebook.com\/groups\/ATMakers\/\">https:\/\/www.facebook.com\/groups\/ATMakers\/<\/a> or <a rel=\"ugc nofollow\" href=\"http:\/\/atmakers.org\">http:\/\/atmakers.org<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>FlashForge<\/p><\/div>\n",
+            "printer": "<div><p>Creator Pro<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>.2mm<\/p><\/div>\n",
+            "infill": "<div><p>20%<\/p><\/div>\n",
+            "filament_brand": "<div><p>Hathbox<\/p><\/div>\n",
+            "filament_color": "<div><p>Green<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3230906\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3230906\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3230906\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3230906\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3230906\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3230906\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "atmakers",
+        "tag": "atmakers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/atmakers",
+        "count": 8,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/atmakers\/things",
+        "absolute_url": "\/tag:atmakers"
+      },
+      {
+        "name": "cherry MX",
+        "tag": "cherry_mx",
+        "url": "https:\/\/api.thingiverse.com\/tags\/cherry_mx",
+        "count": 885,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/cherry_mx\/things",
+        "absolute_url": "\/tag:cherry_MX"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3230906\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 561,
+    "view_count": 1012,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "ATMakers_MX_Switch_Top_Oriented.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6d\/15\/34\/5f\/c3\/ATMakers_MX_Switch_Top_Oriented.stl"
+        },
+        {
+          "name": "ATMakers_MX_Switch_Bottom_Oriented.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/4f\/12\/dd\/98\/ATMakers_MX_Switch_Bottom_Oriented.stl"
+        },
+        {
+          "name": "ATMakers_MX_Switch_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9f\/3a\/7d\/dd\/30\/ATMakers_MX_Switch_Top.stl"
+        },
+        {
+          "name": "ATMakers_MX_Switch_Bottom.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7b\/f2\/31\/97\/01\/ATMakers_MX_Switch_Bottom.stl"
+        },
+        {
+          "name": "ATMakers_MX_Switch_v5.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/29\/c6\/ee\/b8\/ATMakers_MX_Switch_v5.f3d"
+        }
+      ],
+      "images": [
+        {
+          "name": "2603db6e0725c296377aa9d85da81602.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/21\/13\/87\/91\/5f\/2603db6e0725c296377aa9d85da81602.png"
+        },
+        {
+          "name": "70db6b33da773ba8234daa091ad5ca81.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b4\/61\/d7\/b4\/48\/70db6b33da773ba8234daa091ad5ca81.png"
+        },
+        {
+          "name": "IMG_00112.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/36\/2f\/ff\/3f\/31\/IMG_00112.jpg"
+        },
+        {
+          "name": "IMG_00114.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/3c\/c3\/f8\/ea\/IMG_00114.jpg"
+        },
+        {
+          "name": "IMG_00115.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6b\/6b\/e2\/3d\/8a\/IMG_00115.jpg"
+        },
+        {
+          "name": "5b03586ba393c8ebad330d98bb745dc7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/01\/f1\/f2\/0a\/fc\/5b03586ba393c8ebad330d98bb745dc7.png"
+        },
+        {
+          "name": "9cde78ea2321b148a8fca822c1384181.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0a\/ba\/88\/92\/c2\/9cde78ea2321b148a8fca822c1384181.png"
+        },
+        {
+          "name": "IMG_00118.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/11\/15\/d3\/fb\/IMG_00118.jpg"
+        },
+        {
+          "name": "IMG_00116.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f2\/45\/f3\/07\/64\/IMG_00116.jpg"
+        },
+        {
+          "name": "IMG_00113.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/19\/3f\/ae\/d3\/a3\/IMG_00113.jpg"
+        },
+        {
+          "name": "IMG_00110.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/cb\/89\/7f\/a8\/ab\/IMG_00110.jpg"
+        },
+        {
+          "name": "IMG_00111.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/23\/08\/5b\/67\/90\/IMG_00111.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "created_at": "2025-04-17T03:32:44.035528+00:00",
+  "elapsed": 0.146652,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318db5e4d2d81d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:44 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:44 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2513492?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2513492?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2513492,
+    "name": "I8-module_open\u00b0lights",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2513492",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2513492",
+    "creator": {
+      "id": 126601,
+      "name": "FabLab-Berlin",
+      "first_name": "Fab Lab",
+      "last_name": "Berlin",
+      "url": "https:\/\/api.thingiverse.com\/users\/FabLab-Berlin",
+      "public_url": "https:\/\/www.thingiverse.com\/FabLab-Berlin",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b8\/00\/78\/76\/27\/Logo_parts-01_thumb_medium.jpg",
+      "count_of_followers": 44,
+      "count_of_following": 16,
+      "count_of_designs": 16,
+      "collection_count": 2,
+      "make_count": 3,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Berlin",
+      "cover": "https:\/\/cdn.thingiverse.com\/assets\/3a\/34\/56\/44\/bb\/FablabBerlin_Logo1-01.png",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-09-02T17:33:01+00:00",
+    "modified": "2017-09-02T17:33:01+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 39,
+    "is_liked": false,
+    "collect_count": 72,
+    "is_collected": false,
+    "comment_count": 2,
+    "is_watched": false,
+    "default_image": {
+      "id": 6638437,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/02\/78\/73\/71\/Hannah_Module_I.jpg",
+      "name": "Hannah_Module_I.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ac\/5a\/41\/76\/b9\/d498649805c68dc3435dcd52c2f1d464_display_small.jpg"
+        }
+      ],
+      "added": "2017-09-02T16:25:03+00:00"
+    },
+    "description": "How can the everyday life of wheelchair users be facilitated and enriched? A team of wheelchair users, technicians and designers has worked together on need analysis, idea development, prototyping and testing for solutions for wheelchair add ons. Not only the usability, but also the aesthetic side was taken into account: \"We want the wheelchair not to look like old school medical equipment and but to look cool and contemporary\" says Raul Krauthausen a project participant. The lighting set open\u00b0lights is one of our designs that we developed and improved with several testing rounds. There are two common shapes that we call the I and the O. The I is used for  front lights and the floor light. The O is used for a backlighting. The interface of the lights is easy to handle.\r\n\r\nWith the help of open source instructions and maker technologies in Fab Labs our products can be build and customized by the users. \r\nTo get started please download the Thing Files and open the Open Lights DIY Manual.\r\n\r\nThe \"Made for my Wheelchair\" project is funded by the Federal Ministry of Education and Research. Project partners are Makea Industries GmbH, beable e. V. the Otto Bock Mobility Solutions GmbH and the Sozialhelden e.V.\r\n\r\nVisit http:\/\/www.madeformywheelchair.de\/ and learn more about the project.",
+    "instructions": "",
+    "description_html": "<div><p>How can the everyday life of wheelchair users be facilitated and enriched? A team of wheelchair users, technicians and designers has worked together on need analysis, idea development, prototyping and testing for solutions for wheelchair add ons. Not only the usability, but also the aesthetic side was taken into account: \"We want the wheelchair not to look like old school medical equipment and but to look cool and contemporary\" says Raul Krauthausen a project participant. The lighting set open&deg;lights is one of our designs that we developed and improved with several testing rounds. There are two common shapes that we call the I and the O. The I is used for  front lights and the floor light. The O is used for a backlighting. The interface of the lights is easy to handle.<\/p><p>With the help of open source instructions and maker technologies in Fab Labs our products can be build and customized by the users.<br>To get started please download the Thing Files and open the Open Lights DIY Manual.<\/p><p>The \"Made for my Wheelchair\" project is funded by the Federal Ministry of Education and Research. Project partners are Makea Industries GmbH, beable e. V. the Otto Bock Mobility Solutions GmbH and the Sozialhelden e.V.<\/p><p>Visit <a rel=\"ugc nofollow\" href=\"http:\/\/www.madeformywheelchair.de\/\">http:\/\/www.madeformywheelchair.de\/<\/a> and learn more about the project.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>How can the everyday life of wheelchair users be facilitated and enriched? A team of wheelchair users, technicians and designers has worked together on need analysis, idea development, prototyping and testing for solutions for wheelchair add ons. Not only the usability, but also the aesthetic side was taken into account: \"We want the wheelchair not to look like old school medical equipment and but to look cool and contemporary\" says Raul Krauthausen a project participant. The lighting set open&deg;lights is one of our designs that we developed and improved with several testing rounds. There are two common shapes that we call the I and the O. The I is used for  front lights and the floor light. The O is used for a backlighting. The interface of the lights is easy to handle.<\/p><p>With the help of open source instructions and maker technologies in Fab Labs our products can be build and customized by the users.<br>To get started please download the Thing Files and open the Open Lights DIY Manual.<\/p><p>The \"Made for my Wheelchair\" project is funded by the Federal Ministry of Education and Research. Project partners are Makea Industries GmbH, beable e. V. the Otto Bock Mobility Solutions GmbH and the Sozialhelden e.V.<\/p><p>Visit <a rel=\"ugc nofollow\" href=\"http:\/\/www.madeformywheelchair.de\/\">http:\/\/www.madeformywheelchair.de\/<\/a> and learn more about the project.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Craftbot<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting supports\"><strong>Supports: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.1&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting infill\"><strong>Infill: <\/strong>                         <\/p><div><p>20<\/p><\/div>                                    <pre><code>                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;\/strong&gt;                    &lt;\/p&gt;&lt;div&gt;&lt;p&gt;Easy prey for your printer.&lt;br&gt;Raft and support are not welcome.&lt;br&gt;Best results with heated bed and kapton tape.&lt;br&gt;The bottom gets nice and smooth to stick on the double sided tape or velcro.&lt;br&gt;Happy printing!&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>How can the everyday life of wheelchair users be facilitated and enriched? A team of wheelchair users, technicians and designers has worked together on need analysis, idea development, prototyping and testing for solutions for wheelchair add ons. Not only the usability, but also the aesthetic side was taken into account: \"We want the wheelchair not to look like old school medical equipment and but to look cool and contemporary\" says Raul Krauthausen a project participant. The lighting set open&deg;lights is one of our designs that we developed and improved with several testing rounds. There are two common shapes that we call the I and the O. The I is used for  front lights and the floor light. The O is used for a backlighting. The interface of the lights is easy to handle.<\/p><p>With the help of open source instructions and maker technologies in Fab Labs our products can be build and customized by the users.<br>To get started please download the Thing Files and open the Open Lights DIY Manual.<\/p><p>The \"Made for my Wheelchair\" project is funded by the Federal Ministry of Education and Research. Project partners are Makea Industries GmbH, beable e. V. the Otto Bock Mobility Solutions GmbH and the Sozialhelden e.V.<\/p><p>Visit <a rel=\"ugc nofollow\" href=\"http:\/\/www.madeformywheelchair.de\/\">http:\/\/www.madeformywheelchair.de\/<\/a> and learn more about the project.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Craftbot<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.1<\/p><\/div>\n",
+            "infill": "<div><p>20<\/p><\/div>\n",
+            "notes": "<div><p>Easy prey for your printer.<br>Raft and support are not welcome.<br>Best results with heated bed and kapton tape.<br>The bottom gets nice and smooth to stick on the double sided tape or velcro.<br>Happy printing!<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2513492\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2513492\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2513492\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2513492\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2513492\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2513492\/tags",
+    "tags": [
+      {
+        "name": "Fab Lab Berlin",
+        "tag": "fab_lab_berlin",
+        "url": "https:\/\/api.thingiverse.com\/tags\/fab_lab_berlin",
+        "count": 5,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/fab_lab_berlin\/things",
+        "absolute_url": "\/tag:Fab_Lab_Berlin"
+      },
+      {
+        "name": "Lights",
+        "tag": "lights",
+        "url": "https:\/\/api.thingiverse.com\/tags\/lights",
+        "count": 590,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/lights\/things",
+        "absolute_url": "\/tag:Lights"
+      },
+      {
+        "name": "Madeformywheelchair",
+        "tag": "madeformywheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/madeformywheelchair",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/madeformywheelchair\/things",
+        "absolute_url": "\/tag:Madeformywheelchair"
+      },
+      {
+        "name": "Open Lights",
+        "tag": "open_lights",
+        "url": "https:\/\/api.thingiverse.com\/tags\/open_lights",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/open_lights\/things",
+        "absolute_url": "\/tag:Open_Lights"
+      },
+      {
+        "name": "Suguru",
+        "tag": "suguru",
+        "url": "https:\/\/api.thingiverse.com\/tags\/suguru",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/suguru\/things",
+        "absolute_url": "\/tag:Suguru"
+      },
+      {
+        "name": "trinket",
+        "tag": "trinket",
+        "url": "https:\/\/api.thingiverse.com\/tags\/trinket",
+        "count": 311,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/trinket\/things",
+        "absolute_url": "\/tag:trinket"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2513492\/categories",
+    "file_count": 5,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1057,
+    "view_count": 1976,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Circuit_Diagram_Module_I.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8c\/de\/31\/68\/6e\/Circuit_Diagram_Module_I.pdf"
+        },
+        {
+          "name": "I8_Lid.svg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4c\/45\/d8\/1e\/5a\/I8_Lid.svg"
+        },
+        {
+          "name": "I8_Open_Light.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/41\/ae\/9c\/8c\/I8_Open_Light.stl"
+        },
+        {
+          "name": "MfmW_LEDs.ino",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/74\/54\/75\/8b\/cb\/MfmW_LEDs.ino"
+        },
+        {
+          "name": "DIY_Instructions_OPENLIGHTS.pdf",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/ca\/4e\/25\/92\/DIY_Instructions_OPENLIGHTS.pdf"
+        }
+      ],
+      "images": [
+        {
+          "name": "Hannah_Module_I.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/02\/78\/73\/71\/Hannah_Module_I.jpg"
+        },
+        {
+          "name": "IMG_0783.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a2\/2c\/8f\/85\/e8\/IMG_0783.jpg"
+        },
+        {
+          "name": "d4a9b2bfcc83de2ca95be015c49322be.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b7\/c7\/9e\/f1\/4d\/d4a9b2bfcc83de2ca95be015c49322be.png"
+        },
+        {
+          "name": "d573bc207dc4e698b56d03da34f61284.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/3c\/a2\/7e\/cd\/d573bc207dc4e698b56d03da34f61284.png"
+        },
+        {
+          "name": "eb49dec273773f6c2e34e723ae96a3ca.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/68\/40\/8c\/82\/59\/eb49dec273773f6c2e34e723ae96a3ca.png"
+        },
+        {
+          "name": "IMG_0785.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/82\/82\/f5\/f9\/IMG_0785.jpg"
+        },
+        {
+          "name": "IMG_0041.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/18\/16\/40\/8a\/f6\/IMG_0041.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "created_at": "2025-10-08T03:26:55.315849+00:00",
+  "elapsed": 0.234586,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28a1a59133023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:26:55 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:56:55 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2652899?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2652899?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2652899,
+    "name": "Decilo! - Customizable intercommunicator\/ Speech device",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2652899",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2652899",
+    "creator": {
+      "id": 583402,
+      "name": "cirujadigital",
+      "first_name": "Ciruja",
+      "last_name": "Digital",
+      "url": "https:\/\/api.thingiverse.com\/users\/cirujadigital",
+      "public_url": "https:\/\/www.thingiverse.com\/cirujadigital",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/06\/30\/6e\/12\/67\/550e957a87a998f9dbb4ee31f468a9c5_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 0,
+      "count_of_designs": 21,
+      "collection_count": 1,
+      "make_count": 2,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Unknown",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/d6\/41\/09\/bf\/12\/5ebe0cd721c6c5ca8a8c33e11a74ebd6_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-11-17T18:17:59+00:00",
+    "modified": "2017-11-17T18:17:59+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 33,
+    "is_liked": false,
+    "collect_count": 52,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 7083016,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/ba\/23\/be\/88\/decilo2.jpg",
+      "name": "decilo2.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/e8\/ae\/e5\/04\/6a10d1795b7f1ab2807a69d2324e8b8d_display_small.jpg"
+        }
+      ],
+      "added": "2017-11-17T18:17:51+00:00"
+    },
+    "description": "Decilo! es un dispositivo pensado para ser usado como herramienta comunicacional, ya sea en terapias de estimulaci\u00f3n del habla \u00f3 como dispositivo intercomunicador para personas con dificultad para comunicarse. Pueden verlo andando aqu\u00ed: https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\r\n\r\nEl dispositivo opera a partir de un m\u00f3dulo dfplayer en m\u00f3do aut\u00f3nomo\r\n (ver secci\u00f3n AD KEY MODE en https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299)\r\n\r\n Se adjunta el PCB para ser realizado en formato gcode con una impresora, utilizando el m\u00e9todo propuesto en www.lamja.com\/?p=635 (entre mis objetos publicados hay un soporte para grabar los pcbs si tienes una Flyingbear P902). Tambi\u00e9n adjunto el archivo en Fritzing.\r\n\r\nEl ensamblado es relativamente sencillo, y como partes adicionales se requiere:\r\n\r\nM\u00f3dulo DFplayer Mini\r\nPCB simple faz 5x5cm\r\nResistencias y capacitores varios (ver archivo Fritzing y esquem\u00e1tico)\r\nTornillos M3 de 1,5cm de largo x 6\r\nTornillos autoperforantes peque\u00f1os x 5\r\nPulsadores soft touch 12mm x8\r\nCable multipar 4 hilos (recomendado) 30cm\r\nParlante 40-60mm de di\u00e1metro.\r\nSwitch inversor interruptor tama\u00f1o mediano.\r\nOpcional: Jacks 3,5mm para salidas auxiliares.\r\nPortapilas AA para 4 pilas.\r\nPegamento La Gotita o similar.\r\n\r\nSoldador, destornilladores, cutter, etc.\r\n\r\nSi te gust\u00f3 este dise\u00f1o, y quer\u00e9s ayudarme para que siga investigando y desarrollando, pod\u00e9s dejarme un \"tip\" (ver bot\u00f3n correspondiente)\r\n-------------------------\r\n\r\n\r\nDecilo! (Say it!) is a device designed to be used as a communication tool, either in speech stimulation therapies or as an intercom device for people with difficulty communicating. You can see it walking here: https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\r\n\r\nThe device operates from a dfplayer module in autonomous mode\r\n\u00a0(see section AD KEY MODE at https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299)\r\n\r\n\u00a0The PCB is attached to be made in gcode format with a printer, using the method proposed in www.lamja.com\/?p=635 (among my published objects there is a support to record the pcbs if you have a Flyingbear P902). I also attach the file in Fritzing format.\r\n\r\nThe assembly is relatively simple, and as additional parts are required:\r\n\r\nDFplayer Mini module\r\nPCB simple face 5x5cm\r\nResistances and few capacitors (see Fritzing and schematic file in the link below)\r\nM3 screws 1.5cm long x 6\r\nSmall self-drilling screws x 5\r\nSoft touch push buttons 12mm\r\nInverter switch key\r\nOptional: 3.5mm jacks for auxiliar outputs.\r\n4-wire multipair cable (recommended) 30cm\r\nSpeaker 40-60mm in diameter.\r\nAA battery holder for 4 batteries.\r\nGlue The Droplet or similar.\r\n\r\nSoldering gun, screwdrivers, cutter, etc.\r\n\r\nIf you like this design and want to help me to research and develop more gadgets, you can give me a tip.",
+    "instructions": "",
+    "description_html": "<div><p>Decilo! es un dispositivo pensado para ser usado como herramienta comunicacional, ya sea en terapias de estimulaci\u00f3n del habla \u00f3 como dispositivo intercomunicador para personas con dificultad para comunicarse. Pueden verlo andando aqu\u00ed: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>El dispositivo opera a partir de un m\u00f3dulo dfplayer en m\u00f3do aut\u00f3nomo<br>(ver secci\u00f3n AD KEY MODE en <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>Se adjunta el PCB para ser realizado en formato gcode con una impresora, utilizando el m\u00e9todo propuesto en www.lamja.com\/?p=635 (entre mis objetos publicados hay un soporte para grabar los pcbs si tienes una Flyingbear P902). Tambi\u00e9n adjunto el archivo en Fritzing.<\/p><p>El ensamblado es relativamente sencillo, y como partes adicionales se requiere:<\/p><p>M\u00f3dulo DFplayer Mini<br>PCB simple faz 5x5cm<br>Resistencias y capacitores varios (ver archivo Fritzing y esquem\u00e1tico)<br>Tornillos M3 de 1,5cm de largo x 6<br>Tornillos autoperforantes peque\u00f1os x 5<br>Pulsadores soft touch 12mm x8<br>Cable multipar 4 hilos (recomendado) 30cm<br>Parlante 40-60mm de di\u00e1metro.<br>Switch inversor interruptor tama\u00f1o mediano.<br>Opcional: Jacks 3,5mm para salidas auxiliares.<br>Portapilas AA para 4 pilas.<br>Pegamento La Gotita o similar.<\/p><p>Soldador, destornilladores, cutter, etc.<\/p><h2>Si te gust\u00f3 este dise\u00f1o, y quer\u00e9s ayudarme para que siga investigando y desarrollando, pod\u00e9s dejarme un \"tip\" (ver bot\u00f3n correspondiente)<\/h2><p>Decilo! (Say it!) is a device designed to be used as a communication tool, either in speech stimulation therapies or as an intercom device for people with difficulty communicating. You can see it walking here: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>The device operates from a dfplayer module in autonomous mode<br>\u00a0(see section AD KEY MODE at <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>\u00a0The PCB is attached to be made in gcode format with a printer, using the method proposed in www.lamja.com\/?p=635 (among my published objects there is a support to record the pcbs if you have a Flyingbear P902). I also attach the file in Fritzing format.<\/p><p>The assembly is relatively simple, and as additional parts are required:<\/p><p>DFplayer Mini module<br>PCB simple face 5x5cm<br>Resistances and few capacitors (see Fritzing and schematic file in the link below)<br>M3 screws 1.5cm long x 6<br>Small self-drilling screws x 5<br>Soft touch push buttons 12mm<br>Inverter switch key<br>Optional: 3.5mm jacks for auxiliar outputs.<br>4-wire multipair cable (recommended) 30cm<br>Speaker 40-60mm in diameter.<br>AA battery holder for 4 batteries.<br>Glue The Droplet or similar.<\/p><p>Soldering gun, screwdrivers, cutter, etc.<\/p><p>If you like this design and want to help me to research and develop more gadgets, you can give me a tip.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Decilo! es un dispositivo pensado para ser usado como herramienta comunicacional, ya sea en terapias de estimulaci\u00f3n del habla \u00f3 como dispositivo intercomunicador para personas con dificultad para comunicarse. Pueden verlo andando aqu\u00ed: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>El dispositivo opera a partir de un m\u00f3dulo dfplayer en m\u00f3do aut\u00f3nomo<br>(ver secci\u00f3n AD KEY MODE en <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>Se adjunta el PCB para ser realizado en formato gcode con una impresora, utilizando el m\u00e9todo propuesto en www.lamja.com\/?p=635 (entre mis objetos publicados hay un soporte para grabar los pcbs si tienes una Flyingbear P902). Tambi\u00e9n adjunto el archivo en Fritzing.<\/p><p>El ensamblado es relativamente sencillo, y como partes adicionales se requiere:<\/p><p>M\u00f3dulo DFplayer Mini<br>PCB simple faz 5x5cm<br>Resistencias y capacitores varios (ver archivo Fritzing y esquem\u00e1tico)<br>Tornillos M3 de 1,5cm de largo x 6<br>Tornillos autoperforantes peque\u00f1os x 5<br>Pulsadores soft touch 12mm x8<br>Cable multipar 4 hilos (recomendado) 30cm<br>Parlante 40-60mm de di\u00e1metro.<br>Switch inversor interruptor tama\u00f1o mediano.<br>Opcional: Jacks 3,5mm para salidas auxiliares.<br>Portapilas AA para 4 pilas.<br>Pegamento La Gotita o similar.<\/p><p>Soldador, destornilladores, cutter, etc.<\/p><h2>Si te gust\u00f3 este dise\u00f1o, y quer\u00e9s ayudarme para que siga investigando y desarrollando, pod\u00e9s dejarme un \"tip\" (ver bot\u00f3n correspondiente)<\/h2><p>Decilo! (Say it!) is a device designed to be used as a communication tool, either in speech stimulation therapies or as an intercom device for people with difficulty communicating. You can see it walking here: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>The device operates from a dfplayer module in autonomous mode<br>\u00a0(see section AD KEY MODE at <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>\u00a0The PCB is attached to be made in gcode format with a printer, using the method proposed in www.lamja.com\/?p=635 (among my published objects there is a support to record the pcbs if you have a Flyingbear P902). I also attach the file in Fritzing format.<\/p><p>The assembly is relatively simple, and as additional parts are required:<\/p><p>DFplayer Mini module<br>PCB simple face 5x5cm<br>Resistances and few capacitors (see Fritzing and schematic file in the link below)<br>M3 screws 1.5cm long x 6<br>Small self-drilling screws x 5<br>Soft touch push buttons 12mm<br>Inverter switch key<br>Optional: 3.5mm jacks for auxiliar outputs.<br>4-wire multipair cable (recommended) 30cm<br>Speaker 40-60mm in diameter.<br>AA battery holder for 4 batteries.<br>Glue The Droplet or similar.<\/p><p>Soldering gun, screwdrivers, cutter, etc.<\/p><p>If you like this design and want to help me to research and develop more gadgets, you can give me a tip.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Flyingbear P902<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;0.3&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;20&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Decilo! es un dispositivo pensado para ser usado como herramienta comunicacional, ya sea en terapias de estimulaci\u00f3n del habla \u00f3 como dispositivo intercomunicador para personas con dificultad para comunicarse. Pueden verlo andando aqu\u00ed: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>El dispositivo opera a partir de un m\u00f3dulo dfplayer en m\u00f3do aut\u00f3nomo<br>(ver secci\u00f3n AD KEY MODE en <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>Se adjunta el PCB para ser realizado en formato gcode con una impresora, utilizando el m\u00e9todo propuesto en www.lamja.com\/?p=635 (entre mis objetos publicados hay un soporte para grabar los pcbs si tienes una Flyingbear P902). Tambi\u00e9n adjunto el archivo en Fritzing.<\/p><p>El ensamblado es relativamente sencillo, y como partes adicionales se requiere:<\/p><p>M\u00f3dulo DFplayer Mini<br>PCB simple faz 5x5cm<br>Resistencias y capacitores varios (ver archivo Fritzing y esquem\u00e1tico)<br>Tornillos M3 de 1,5cm de largo x 6<br>Tornillos autoperforantes peque\u00f1os x 5<br>Pulsadores soft touch 12mm x8<br>Cable multipar 4 hilos (recomendado) 30cm<br>Parlante 40-60mm de di\u00e1metro.<br>Switch inversor interruptor tama\u00f1o mediano.<br>Opcional: Jacks 3,5mm para salidas auxiliares.<br>Portapilas AA para 4 pilas.<br>Pegamento La Gotita o similar.<\/p><p>Soldador, destornilladores, cutter, etc.<\/p><h2>Si te gust\u00f3 este dise\u00f1o, y quer\u00e9s ayudarme para que siga investigando y desarrollando, pod\u00e9s dejarme un \"tip\" (ver bot\u00f3n correspondiente)<\/h2><p>Decilo! (Say it!) is a device designed to be used as a communication tool, either in speech stimulation therapies or as an intercom device for people with difficulty communicating. You can see it walking here: <a rel=\"nofollow\" href=\"https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/\">https:\/\/www.facebook.com\/hipatetik\/videos\/10213369402802882\/<\/a><\/p><p>The device operates from a dfplayer module in autonomous mode<br>\u00a0(see section AD KEY MODE at <a rel=\"nofollow\" href=\"https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299\">https:\/\/www.dfrobot.com\/wiki\/index.php\/DFPlayer_Mini_SKU:DFR0299<\/a>)<\/p><p>\u00a0The PCB is attached to be made in gcode format with a printer, using the method proposed in www.lamja.com\/?p=635 (among my published objects there is a support to record the pcbs if you have a Flyingbear P902). I also attach the file in Fritzing format.<\/p><p>The assembly is relatively simple, and as additional parts are required:<\/p><p>DFplayer Mini module<br>PCB simple face 5x5cm<br>Resistances and few capacitors (see Fritzing and schematic file in the link below)<br>M3 screws 1.5cm long x 6<br>Small self-drilling screws x 5<br>Soft touch push buttons 12mm<br>Inverter switch key<br>Optional: 3.5mm jacks for auxiliar outputs.<br>4-wire multipair cable (recommended) 30cm<br>Speaker 40-60mm in diameter.<br>AA battery holder for 4 batteries.<br>Glue The Droplet or similar.<\/p><p>Soldering gun, screwdrivers, cutter, etc.<\/p><p>If you like this design and want to help me to research and develop more gadgets, you can give me a tip.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Flyingbear P902<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes",
+            "resolution": "<div><p>0.3<\/p><\/div>",
+            "infill": "<div><p>20<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2652899\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2652899\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2652899\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2652899\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2652899\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2652899\/tags",
+    "tags": [],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2652899\/categories",
+    "file_count": 16,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1607,
+    "view_count": 1752,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 5,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Tapa_portapilas.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c6\/06\/1f\/e7\/b9\/Tapa_portapilas.stl"
+        },
+        {
+          "name": "Plantilla_boton_personalizable.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d2\/0f\/47\/ce\/b9\/Plantilla_boton_personalizable.stl"
+        },
+        {
+          "name": "Comer.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/37\/bf\/81\/21\/6e\/Comer.stl"
+        },
+        {
+          "name": "Boton_generic1.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/54\/b2\/4a\/4d\/Boton_generic1.stl"
+        },
+        {
+          "name": "ba\u00f1o.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f1\/1d\/7b\/33\/f2\/ba%C3%B1o.stl"
+        },
+        {
+          "name": "Soporte_botones.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/28\/64\/bf\/36\/0f\/Soporte_botones.stl"
+        },
+        {
+          "name": "Abrazo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/8e\/9b\/a7\/64\/Abrazo.stl"
+        },
+        {
+          "name": "sed.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c2\/eb\/27\/f2\/04\/sed.stl"
+        },
+        {
+          "name": "frio.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/39\/58\/34\/5c\/89\/frio.stl"
+        },
+        {
+          "name": "Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/02\/28\/31\/c8\/Base.stl"
+        },
+        {
+          "name": "Dormir.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/93\/47\/23\/da\/Dormir.stl"
+        },
+        {
+          "name": "Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/58\/55\/0b\/48\/85\/Top.stl"
+        },
+        {
+          "name": "Calor.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3e\/c7\/13\/55\/b9\/Calor.stl"
+        },
+        {
+          "name": "jugar.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/56\/54\/47\/27\/jugar.stl"
+        },
+        {
+          "name": "DFPLAYER_Generica_standalone.fzz",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/be\/8b\/06\/d0\/DFPLAYER_Generica_standalone.fzz"
+        },
+        {
+          "name": "dfplayer_pcb.gcode",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ca\/64\/ba\/7a\/bd\/dfplayer_pcb.gcode"
+        }
+      ],
+      "images": [
+        {
+          "name": "decilo2.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/53\/ba\/23\/be\/88\/decilo2.jpg"
+        },
+        {
+          "name": "3842fe86eb7e20d2258b854ca2f48fb2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fd\/45\/6f\/60\/2a\/3842fe86eb7e20d2258b854ca2f48fb2.png"
+        },
+        {
+          "name": "ea432b0456b920dc2e3b55fcd6915804.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9e\/d5\/d6\/de\/9e\/ea432b0456b920dc2e3b55fcd6915804.png"
+        },
+        {
+          "name": "b1e22cad43c1f7503c7b23d5b3ef9bae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c4\/d7\/33\/89\/66\/b1e22cad43c1f7503c7b23d5b3ef9bae.png"
+        },
+        {
+          "name": "71615cbf48b0e146ad8e07aeef74ce57.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/5d\/e4\/a9\/29\/71615cbf48b0e146ad8e07aeef74ce57.png"
+        },
+        {
+          "name": "c7eac49a58fba8bb814af2732d0d2cfa.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/14\/1b\/b0\/1a\/c7eac49a58fba8bb814af2732d0d2cfa.png"
+        },
+        {
+          "name": "3cd1b608c90395fbf3f36c0d7f470755.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/de\/d4\/42\/53\/40\/3cd1b608c90395fbf3f36c0d7f470755.png"
+        },
+        {
+          "name": "386260dc76842ec5c13804833cbced2b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/b6\/13\/32\/e7\/f5\/386260dc76842ec5c13804833cbced2b.png"
+        },
+        {
+          "name": "bc3a7cbdcae23cdda3b3ff543f1b7b50.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2f\/2b\/88\/92\/a8\/bc3a7cbdcae23cdda3b3ff543f1b7b50.png"
+        },
+        {
+          "name": "7f84b31df9b71e7dfe407197315489d4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5c\/29\/d6\/bc\/ec\/7f84b31df9b71e7dfe407197315489d4.png"
+        },
+        {
+          "name": "edfdcbd8e72957cd497cb2b4f94b08f3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/63\/86\/ab\/c6\/d3\/edfdcbd8e72957cd497cb2b4f94b08f3.png"
+        },
+        {
+          "name": "8230225da40f884839b55fa7d0000ba7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/56\/f3\/5c\/bd\/ec\/8230225da40f884839b55fa7d0000ba7.png"
+        },
+        {
+          "name": "2cb0c7dc2e86f89cd95092abfd007bff.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/30\/5b\/3d\/c7\/f4\/2cb0c7dc2e86f89cd95092abfd007bff.png"
+        },
+        {
+          "name": "1d4008103c69ab79b6e6d15d05cbcfbd.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3e\/ea\/18\/55\/b9\/1d4008103c69ab79b6e6d15d05cbcfbd.png"
+        },
+        {
+          "name": "048136379eb0e0265912fb88338303b0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/61\/7f\/c5\/1a\/8d\/048136379eb0e0265912fb88338303b0.png"
+        },
+        {
+          "name": "Decilo3.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/8a\/ee\/17\/27\/Decilo3.jpg"
+        },
+        {
+          "name": "Decilo4.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/15\/3b\/0a\/27\/2b\/Decilo4.jpg"
+        },
+        {
+          "name": "Decilo1.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/59\/1d\/21\/b1\/Decilo1.jpg"
+        }
+      ]
+    }
+  }
+}

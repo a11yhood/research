@@ -1,0 +1,576 @@
+{
+  "created_at": "2025-10-08T03:28:09.932086+00:00",
+  "elapsed": 0.218924,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "98b28becce423023-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 08 Oct 2025 03:28:09 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 08 Oct 2025 03:58:09 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI",
+      "_cfuvid": "UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=MhlZ6cvBJxG8GzEi7AN7bdHb8Ij9s7sYi1tSWtC9cKg-1759894001-1.0.1.1-kAs29vIadw89WbSiM2azIkGN3o1qUuuLgs7iZJKMUrI_oOveXe1kFPy_HXDj4Iy1hJ40dScOS3FyoGAUgySF41_bf0Ic5EfJLh.of4Ie.TI; _cfuvid=UX1wOJNDtFxtuNbzhrgmm7lJWpOX4F4Tl.nlgyMQN7Q-1759894001214-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699526?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3699526?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3699526,
+    "name": "Tactile Trigonometric Circle",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3699526",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3699526",
+    "creator": {
+      "id": 2652477,
+      "name": "ntaufscar",
+      "first_name": "NTA",
+      "last_name": "UFSCar Campus Sorocaba",
+      "url": "https:\/\/api.thingiverse.com\/users\/ntaufscar",
+      "public_url": "https:\/\/www.thingiverse.com\/ntaufscar",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/9e\/78\/64\/6b\/10\/0677fe0ca2f244ce0c2264d6557c3057_thumb_medium.jpg",
+      "count_of_followers": 8,
+      "count_of_following": 0,
+      "count_of_designs": 10,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Sorocaba, S\u00e3o Paulo, Brazil",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/fb\/1e\/a8\/f6\/84\/d62608f0b1b91c7c29beb0b93c3a3ba8_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-06-18T19:36:05+00:00",
+    "modified": "2019-06-18T19:36:05+00:00",
+    "is_published": 1,
+    "is_wip": 1,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 14,
+    "is_liked": false,
+    "collect_count": 32,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10995994,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/88\/50\/bd\/f8\/Prancha_Trigonometrica.png",
+      "name": "Prancha_Trigonometrica.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/1b\/fd\/3b\/38\/5c\/28df75b46982dcdce2a6c106ece906aa_display_small.jpg"
+        }
+      ],
+      "added": "2019-06-18T19:41:17+00:00"
+    },
+    "description": "In order to use the device it is necessary to employ a rubber string linking the ending and start pins passing through in the central rotative pin. It will be necessary a metalic stem at well. The metalic stem (can use a piec of wire) is used to indicate the tangent value from the circular marker when it is positioned considering one of the possible angles on the disk.\r\n\r\nThis assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.\r\n\r\nThe research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.",
+    "instructions": "",
+    "description_html": "<div><p>In order to use the device it is necessary to employ a rubber string linking the ending and start pins passing through in the central rotative pin. It will be necessary a metalic stem at well. The metalic stem (can use a piec of wire) is used to indicate the tangent value from the circular marker when it is positioned considering one of the possible angles on the disk.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>In order to use the device it is necessary to employ a rubber string linking the ending and start pins passing through in the central rotative pin. It will be necessary a metalic stem at well. The metalic stem (can use a piec of wire) is used to indicate the tangent value from the circular marker when it is positioned considering one of the possible angles on the disk.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer\"><strong>Printer: <\/strong>                         <\/p><div><p>Raise 3D N2<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting resolution\"&gt;&lt;strong&gt;Resolution: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Normal&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;50%&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                    &lt;strong&gt;Filament:&lt;\/strong&gt; 3D Fila ABS<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>In order to use the device it is necessary to employ a rubber string linking the ending and start pins passing through in the central rotative pin. It will be necessary a metalic stem at well. The metalic stem (can use a piec of wire) is used to indicate the tangent value from the circular marker when it is positioned considering one of the possible angles on the disk.<\/p><p>This assistive technology was developed by the Research and Development Group of Assistive Technology of the Federal University of S\u00e3o Carlos (NTA\/UFSCar\/Sorocaba), Brazil.<\/p><p>The research group thanks the National Council for Scientific and Technological Development (CNPq) for the funding of the Vert\u00e1til Project (Process No. 442261\/2016-0), the research collaborators and the State Education Network of Sorocaba.<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer": "<div><p>Raise 3D N2<\/p><\/div>",
+            "rafts": "Yes",
+            "supports": "Yes",
+            "resolution": "<div><p>Normal<\/p><\/div>",
+            "infill": "<div><p>50%<\/p><\/div>",
+            "filament_brand": "<div><p>3D Fila<\/p><\/div>",
+            "filament_material": "<div><p>ABS<\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3699526\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3699526\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3699526\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3699526\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3699526\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3699526\/tags",
+    "tags": [
+      {
+        "name": "degree",
+        "tag": "degree",
+        "url": "https:\/\/api.thingiverse.com\/tags\/degree",
+        "count": 87,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/degree\/things",
+        "absolute_url": "\/tag:degree"
+      },
+      {
+        "name": "Radian",
+        "tag": "radian",
+        "url": "https:\/\/api.thingiverse.com\/tags\/radian",
+        "count": 19,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/radian\/things",
+        "absolute_url": "\/tag:Radian"
+      },
+      {
+        "name": "tactile",
+        "tag": "tactile",
+        "url": "https:\/\/api.thingiverse.com\/tags\/tactile",
+        "count": 280,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/tactile\/things",
+        "absolute_url": "\/tag:tactile"
+      },
+      {
+        "name": "trigonometric circle",
+        "tag": "trigonometric_circle",
+        "url": "https:\/\/api.thingiverse.com\/tags\/trigonometric_circle",
+        "count": 1,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/trigonometric_circle\/things",
+        "absolute_url": "\/tag:trigonometric_circle"
+      },
+      {
+        "name": "trigonometry",
+        "tag": "trigonometry",
+        "url": "https:\/\/api.thingiverse.com\/tags\/trigonometry",
+        "count": 58,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/trigonometry\/things",
+        "absolute_url": "\/tag:trigonometry"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3699526\/categories",
+    "file_count": 18,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1177,
+    "view_count": 1088,
+    "education": {
+      "grades": {
+        "24": "9th Grade",
+        "25": "10th Grade",
+        "26": "11th Grade",
+        "27": "12th Grade"
+      },
+      "subjects": [
+        {
+          "name": "Science",
+          "slug": "science",
+          "id": 11
+        },
+        {
+          "name": "Math",
+          "slug": "math",
+          "id": 12
+        },
+        {
+          "name": "Special Ed",
+          "slug": "special-ed",
+          "id": 20
+        }
+      ]
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "CentralPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fe\/cf\/cf\/65\/72\/CentralPin.stl"
+        },
+        {
+          "name": "Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/33\/02\/92\/c8\/4a\/Base.stl"
+        },
+        {
+          "name": "CentralRotativePin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e5\/00\/10\/bc\/a8\/CentralRotativePin.stl"
+        },
+        {
+          "name": "TgStemHolder.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/b8\/34\/2b\/46\/TgStemHolder.stl"
+        },
+        {
+          "name": "EndingStartPin.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0e\/8f\/34\/c7\/73\/EndingStartPin.stl"
+        },
+        {
+          "name": "TgStraight.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/f8\/79\/7d\/f8\/TgStraight.stl"
+        },
+        {
+          "name": "TgPinStem.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/c3\/1e\/a9\/ac\/TgPinStem.stl"
+        },
+        {
+          "name": "Disk.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/4a\/c9\/63\/17\/Disk.stl"
+        },
+        {
+          "name": "DegBoard_2ndQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9d\/c5\/f2\/ee\/96\/DegBoard_2ndQuartile.stl"
+        },
+        {
+          "name": "DegBoard_1stQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ef\/1a\/a5\/25\/51\/DegBoard_1stQuartile.stl"
+        },
+        {
+          "name": "DegBoard_3rdQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b6\/34\/f4\/4c\/ee\/DegBoard_3rdQuartile.stl"
+        },
+        {
+          "name": "RadBoard_1stQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9c\/fe\/29\/9b\/76\/RadBoard_1stQuartile.stl"
+        },
+        {
+          "name": "DegBoard_4thQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/94\/57\/be\/27\/2d\/DegBoard_4thQuartile.stl"
+        },
+        {
+          "name": "TgBlocks.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/63\/7e\/95\/01\/97\/TgBlocks.stl"
+        },
+        {
+          "name": "RadBoard_4thQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/c3\/52\/1e\/66\/RadBoard_4thQuartile.stl"
+        },
+        {
+          "name": "RadBoard_2ndQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d8\/36\/c6\/19\/10\/RadBoard_2ndQuartile.stl"
+        },
+        {
+          "name": "RadBoard_3rdQuartile.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/07\/ad\/82\/f7\/5c\/RadBoard_3rdQuartile.stl"
+        },
+        {
+          "name": "CircularMarker.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b7\/aa\/98\/d7\/ef\/CircularMarker.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Prancha_Trigonometrica.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/88\/50\/bd\/f8\/Prancha_Trigonometrica.png"
+        },
+        {
+          "name": "b1e22cad43c1f7503c7b23d5b3ef9bae.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8c\/04\/e9\/72\/74\/b1e22cad43c1f7503c7b23d5b3ef9bae.png"
+        },
+        {
+          "name": "fe6511351aa44d7a75052bc48703cec7.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/0d\/be\/54\/a3\/fb\/fe6511351aa44d7a75052bc48703cec7.png"
+        },
+        {
+          "name": "14099888c88a281a406e7445a788348c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5f\/9a\/99\/5e\/83\/14099888c88a281a406e7445a788348c.png"
+        },
+        {
+          "name": "5e0147dca14cc11e6975afca56669bd2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/92\/eb\/74\/0f\/97\/5e0147dca14cc11e6975afca56669bd2.png"
+        },
+        {
+          "name": "40dedde470496d8bd222088ede9b9754.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/77\/14\/fd\/b4\/40dedde470496d8bd222088ede9b9754.png"
+        },
+        {
+          "name": "de91753839238aee8c82592c7795db05.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c0\/27\/4a\/74\/90\/de91753839238aee8c82592c7795db05.png"
+        },
+        {
+          "name": "4ad31e2c40c88ce668f67a90c9286f76.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/62\/04\/f8\/d0\/98\/4ad31e2c40c88ce668f67a90c9286f76.png"
+        },
+        {
+          "name": "0557028cf3a32b67cf14a5e1584e0f92.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/6b\/7a\/3f\/37\/86\/0557028cf3a32b67cf14a5e1584e0f92.png"
+        },
+        {
+          "name": "7744d1d249686a20fdd7aa2ca8e63dad.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/c2\/a5\/35\/59\/d7\/7744d1d249686a20fdd7aa2ca8e63dad.png"
+        },
+        {
+          "name": "57678f6d6da2870a506f0eff306e61a0.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/23\/f4\/08\/42\/27\/57678f6d6da2870a506f0eff306e61a0.png"
+        },
+        {
+          "name": "b84b7b33665c20163dda978e0e57ded3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/20\/a9\/4b\/73\/a9\/b84b7b33665c20163dda978e0e57ded3.png"
+        },
+        {
+          "name": "38f072bc3ee3c656fe1787841e72fa7e.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/9a\/71\/71\/99\/59\/38f072bc3ee3c656fe1787841e72fa7e.png"
+        },
+        {
+          "name": "4dcaaabda57fbc89829105c636b89353.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/8b\/be\/91\/16\/9b\/4dcaaabda57fbc89829105c636b89353.png"
+        },
+        {
+          "name": "452e44f7839b14aeb2191ea0004d77a3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/3a\/a7\/a3\/74\/b3\/452e44f7839b14aeb2191ea0004d77a3.png"
+        },
+        {
+          "name": "69cf11e4d143b5514eff1b1e04ad5f5f.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/25\/27\/29\/7b\/03\/69cf11e4d143b5514eff1b1e04ad5f5f.png"
+        },
+        {
+          "name": "378877057c5f77d34b2746652925bbef.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ff\/73\/2b\/83\/4d\/378877057c5f77d34b2746652925bbef.png"
+        },
+        {
+          "name": "4d7d87c37a727841aa829ff57ba0f62b.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/81\/1c\/d1\/67\/24\/4d7d87c37a727841aa829ff57ba0f62b.png"
+        },
+        {
+          "name": "508c79bb9c5b9fdbc36e7ae9d036d68c.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/fe\/51\/a1\/f7\/dc\/508c79bb9c5b9fdbc36e7ae9d036d68c.png"
+        }
+      ]
+    }
+  }
+}

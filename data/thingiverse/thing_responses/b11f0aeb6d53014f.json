@@ -1,0 +1,458 @@
+{
+  "created_at": "2025-07-10T03:52:10.274670+00:00",
+  "elapsed": 0.180462,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "95cd1b571fe3cfcc-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 10 Jul 2025 03:52:10 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 10 Jul 2025 04:22:10 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE",
+      "_cfuvid": "pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=Y6uz0lJnHN37KUOjV7M5H03DXdq2jJ4bDDMvvOWy9Kc-1752119449-1.0.1.1-LiR4KODtbiny1gXGtVl8BPB5YFrjVvaQZYc9MK_I0qnHTTPzjxm6gDasfTqDpGVoTWt4a_DnEkWj1kEDYptCzZydtNXOu_FDp_Tk0x3e.yE; _cfuvid=pN3C97M_8vSqcjB6kIV_lImHFD8Hr6YkhzdIjcDrJ1U-1752119449086-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6652479?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6652479?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6652479,
+    "name": "Plug Puller V4 - [PETG Only!]",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/3f\/a7\/a3\/d2\/2c\/large_display_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/6652479",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6652479",
+    "creator": {
+      "id": 6191842,
+      "name": "Brennen_WATAP",
+      "first_name": "Brennen",
+      "last_name": "Johnston",
+      "url": "https:\/\/api.thingiverse.com\/users\/Brennen_WATAP",
+      "public_url": "https:\/\/www.thingiverse.com\/Brennen_WATAP",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/93\/ca\/a1\/92\/65\/d0a77991-a251-4ea4-917b-951342f1e8bb.jpg",
+      "count_of_followers": 4,
+      "count_of_following": 2,
+      "count_of_designs": 9,
+      "collection_count": 1,
+      "make_count": 1,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-06-07T06:32:08+00:00",
+    "modified": "2024-06-07T06:32:08+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 4,
+    "is_liked": false,
+    "collect_count": 1,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21235388,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/db\/69\/69\/ce\/07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg",
+      "name": "07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5a\/f7\/a6\/dd\/ed\/large_thumb_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6f\/10\/85\/7c\/be\/medium_thumb_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/74\/75\/8e\/b3\/small_thumb_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/6a\/48\/0c\/34\/9f\/tiny_thumb_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/56\/fd\/f0\/a9\/30\/featured_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e2\/ec\/88\/75\/95\/card_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f9\/2b\/99\/87\/2e\/large_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/65\/f1\/33\/87\/medium_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/df\/67\/c4\/1d\/62\/small_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/59\/34\/a5\/ee\/db\/birdwing_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b0\/5f\/64\/46\/34\/tiny_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/11\/8f\/9f\/3d\/b3\/tinycard_preview_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/3f\/a7\/a3\/d2\/2c\/large_display_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bf\/c0\/f5\/6d\/b6\/medium_display_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7d\/dd\/45\/83\/6c\/small_display_07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        }
+      ],
+      "added": "2024-06-07T06:32:03+00:00"
+    },
+    "description": "[Safety Warning!]\r\n\r\n    {Under no circumstances should anyone use this model with PLA! PLA is flammable and can be a fire hazard if placed next to high temperature objects. For this model I recommend using PETG filaments that list fire resistance in the description. Prusament PETG V0 is an example a safe filament to use}\r\n\r\nLooking for an easy and efficient way to remove plugs from electrical outlets? Do you have have a mobility issue that makes using outlets difficult? This 3D Printed Plug Puller V4, created by (WATAP), could be a solution for you! This model's file is now available for 3D printing at no cost.\r\n\r\nThe Plug Puller V4 is an assistive technology solution designed to meet the needs of individuals with disabilities. While it was made to aid in accessibility, it can also be useful to anyone.\r\n\r\nThis model is designed to fit in-between most standard plugs and an outlet. This device allows you to safely and easily remove plugs without any damage to the cable, outlet, or yourself.\r\n\r\nThe Plug Puller V4 doesn't require any additional supplies. The optional handle provides a comfortable grip, and the compact size makes it easy to keep multiple on hand.\r\n\r\nWhether you're a DIY enthusiast, a professional, or someone with a disability, our 3D Printed Plug Puller V4 is a great solution for anyone looking to make plug removal easier.\r\n\r\nAbout us:\r\n\r\nA part of WATAP [Washington Accessible Technology Access Program] works to educate the public on assistive technology and 3D printing devices like the Plug Puller. ",
+    "instructions": "",
+    "description_html": "<div><p>[Safety Warning!]<\/p><pre><code>{Under no circumstances should anyone use this model with PLA! PLA is flammable and can be a fire hazard if placed next to high temperature objects. For this model I recommend using PETG filaments that list fire resistance in the description. Prusament PETG V0 is an example a safe filament to use}<\/code><\/pre><p>Looking for an easy and efficient way to remove plugs from electrical outlets? Do you have have a mobility issue that makes using outlets difficult? This 3D Printed Plug Puller V4, created by (WATAP), could be a solution for you! This model's file is now available for 3D printing at no cost.<\/p><p>The Plug Puller V4 is an assistive technology solution designed to meet the needs of individuals with disabilities. While it was made to aid in accessibility, it can also be useful to anyone.<\/p><p>This model is designed to fit in-between most standard plugs and an outlet. This device allows you to safely and easily remove plugs without any damage to the cable, outlet, or yourself.<\/p><p>The Plug Puller V4 doesn't require any additional supplies. The optional handle provides a comfortable grip, and the compact size makes it easy to keep multiple on hand.<\/p><p>Whether you're a DIY enthusiast, a professional, or someone with a disability, our 3D Printed Plug Puller V4 is a great solution for anyone looking to make plug removal easier.<\/p><p>About us:<\/p><p>A part of WATAP [Washington Accessible Technology Access Program] works to educate the public on assistive technology and 3D printing devices like the Plug Puller. <\/p><\/div>",
+    "instructions_html": "<div><\/div>",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>[Safety Warning!]<\/p><pre><code>{Under no circumstances should anyone use this model with PLA! PLA is flammable and can be a fire hazard if placed next to high temperature objects. For this model I recommend using PETG filaments that list fire resistance in the description. Prusament PETG V0 is an example a safe filament to use}<\/code><\/pre><p>Looking for an easy and efficient way to remove plugs from electrical outlets? Do you have have a mobility issue that makes using outlets difficult? This 3D Printed Plug Puller V4, created by (WATAP), could be a solution for you! This model's file is now available for 3D printing at no cost.<\/p><p>The Plug Puller V4 is an assistive technology solution designed to meet the needs of individuals with disabilities. While it was made to aid in accessibility, it can also be useful to anyone.<\/p><p>This model is designed to fit in-between most standard plugs and an outlet. This device allows you to safely and easily remove plugs without any damage to the cable, outlet, or yourself.<\/p><p>The Plug Puller V4 doesn't require any additional supplies. The optional handle provides a comfortable grip, and the compact size makes it easy to keep multiple on hand.<\/p><p>Whether you're a DIY enthusiast, a professional, or someone with a disability, our 3D Printed Plug Puller V4 is a great solution for anyone looking to make plug removal easier.<\/p><p>About us:<\/p><p>A part of WATAP [Washington Accessible Technology Access Program] works to educate the public on assistive technology and 3D printing devices like the Plug Puller. <\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Bambulabs<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Bambu X1C&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting rafts\"&gt;&lt;strong&gt;Rafts: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;                                                                                &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Yes&lt;\/p&gt;&lt;\/div&gt;&lt;\/p&gt;<\/code><\/pre><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/14\/62\/b1\/a8\/b9\/bd4c1d33-58f2-43c8-9294-0b939eb9013b.jpg\" alt=\"image\"><\/p><pre><code>                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b7\/66\/41\/07\/f4\/0994f57e-8706-405a-8ca5-6d82db72b5ab.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/eb\/85\/97\/a7\/01\/bacd8c0c-91a2-4ac5-99f9-ca53e43b7c99.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/2b\/65\/b6\/a7\/69\/ee64dc99-64fd-4c7e-a1ff-3a5302e6fba5.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/47\/63\/70\/b5\/b2\/89a29515-7f23-4b96-b27d-5aa4a88b7037.jpg\"&gt;&lt;\/p&gt;                &lt;p class=\"detail-image\"&gt;&lt;img src=\"https:\/\/cdn.thingiverse.com\/assets\/b7\/b5\/2a\/1b\/cc\/c659b98a-61ab-4cc9-b950-4f9acadbcb16.jpg\"&gt;&lt;\/p&gt;<\/code><\/pre><\/div>",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>[Safety Warning!]<\/p><pre><code>{Under no circumstances should anyone use this model with PLA! PLA is flammable and can be a fire hazard if placed next to high temperature objects. For this model I recommend using PETG filaments that list fire resistance in the description. Prusament PETG V0 is an example a safe filament to use}<\/code><\/pre><p>Looking for an easy and efficient way to remove plugs from electrical outlets? Do you have have a mobility issue that makes using outlets difficult? This 3D Printed Plug Puller V4, created by (WATAP), could be a solution for you! This model's file is now available for 3D printing at no cost.<\/p><p>The Plug Puller V4 is an assistive technology solution designed to meet the needs of individuals with disabilities. While it was made to aid in accessibility, it can also be useful to anyone.<\/p><p>This model is designed to fit in-between most standard plugs and an outlet. This device allows you to safely and easily remove plugs without any damage to the cable, outlet, or yourself.<\/p><p>The Plug Puller V4 doesn't require any additional supplies. The optional handle provides a comfortable grip, and the compact size makes it easy to keep multiple on hand.<\/p><p>Whether you're a DIY enthusiast, a professional, or someone with a disability, our 3D Printed Plug Puller V4 is a great solution for anyone looking to make plug removal easier.<\/p><p>About us:<\/p><p>A part of WATAP [Washington Accessible Technology Access Program] works to educate the public on assistive technology and 3D printing devices like the Plug Puller. <\/p><\/div>"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Bambulabs<\/p><\/div>",
+            "printer": "<div><p>Bambu X1C<\/p><\/div>",
+            "rafts": "No",
+            "supports": "Yes"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/14\/62\/b1\/a8\/b9\/bd4c1d33-58f2-43c8-9294-0b939eb9013b.jpg",
+            "image_id": "929159"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b7\/66\/41\/07\/f4\/0994f57e-8706-405a-8ca5-6d82db72b5ab.jpg",
+            "image_id": "929160"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/eb\/85\/97\/a7\/01\/bacd8c0c-91a2-4ac5-99f9-ca53e43b7c99.jpg",
+            "image_id": "929161"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/2b\/65\/b6\/a7\/69\/ee64dc99-64fd-4c7e-a1ff-3a5302e6fba5.jpg",
+            "image_id": "929162"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/47\/63\/70\/b5\/b2\/89a29515-7f23-4b96-b27d-5aa4a88b7037.jpg",
+            "image_id": "929163"
+          },
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/b7\/b5\/2a\/1b\/cc\/c659b98a-61ab-4cc9-b950-4f9acadbcb16.jpg",
+            "image_id": "929164"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6652479\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6652479\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6652479\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6652479\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6652479\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6652479\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 856,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive device",
+        "tag": "assistive_device",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+        "count": 611,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+        "absolute_url": "\/tag:assistive_device"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 51,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 648,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "plugpuller",
+        "tag": "plugpuller",
+        "url": "https:\/\/api.thingiverse.com\/tags\/plugpuller",
+        "count": 4,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/plugpuller\/things",
+        "absolute_url": "\/tag:plugpuller"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6652479\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 24,
+    "view_count": 300,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Plug_Puller_4.0.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/47\/a2\/b2\/fa\/6e\/583cd880-90a8-413b-8d31-6659c26e9b88.stl"
+        },
+        {
+          "name": "Plug_Puller_4.0_-_Handle.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ec\/72\/eb\/a0\/84\/e74f3aef-51c5-4c52-9400-bff2a1113e53.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/db\/69\/69\/ce\/07a1040d-77d9-48f1-a8b9-cf41efda5a33.jpg"
+        },
+        {
+          "name": "160f5aca-7a65-4f7c-ac45-3e2100b16e71.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b5\/bc\/08\/bf\/6d\/160f5aca-7a65-4f7c-ac45-3e2100b16e71.jpg"
+        },
+        {
+          "name": "2a4f4cdc-6100-48ac-88d3-f949b2242ce0.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/47\/d6\/71\/18\/2a4f4cdc-6100-48ac-88d3-f949b2242ce0.jpg"
+        },
+        {
+          "name": "583cd880-90a8-413b-8d31-6659c26e9b88.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0c\/59\/e1\/2e\/ee\/583cd880-90a8-413b-8d31-6659c26e9b88.png"
+        },
+        {
+          "name": "e74f3aef-51c5-4c52-9400-bff2a1113e53.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9b\/ff\/59\/f8\/60\/e74f3aef-51c5-4c52-9400-bff2a1113e53.png"
+        }
+      ]
+    }
+  }
+}

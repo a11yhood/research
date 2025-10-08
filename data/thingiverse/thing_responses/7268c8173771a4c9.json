@@ -1,0 +1,548 @@
+{
+  "created_at": "2025-04-09T19:45:54.267159+00:00",
+  "elapsed": 0.189048,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc81e90b091563-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:45:54 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 20:15:54 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk",
+      "_cfuvid": "hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=8yosQAtGDs3sV4eX1GnfgW9J73rwsw_OluAdCLlF2E4-1744227660-1.0.1.1-Dm4GnA8_JBlZHKXeOUC6_VVDj9Hd0sws7NOPzrnYyFlTcypn1RM2xyDSCSZJPBnZBSxjxpbOQXmO2G40PDmj3OWeqseWdDdZ13mDAXStOIk; _cfuvid=hKN8Ajx4XjXgOEdQg2tDT2RW5cO8lCRw9NBCI46sDx0-1744227660199-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/6794716?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/6794716?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 6794716,
+    "name": "Slide on Phone Mount for Permobil Wheelchair Joystick",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/20\/6e\/38\/10\/a2\/large_display_all_3_versions.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/6794716",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:6794716",
+    "creator": {
+      "id": 7259113,
+      "name": "CourageKenny",
+      "first_name": "AT",
+      "last_name": "LAB",
+      "url": "https:\/\/api.thingiverse.com\/users\/CourageKenny",
+      "public_url": "https:\/\/www.thingiverse.com\/CourageKenny",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/avatar\/avatar_default_thumb_medium.jpg",
+      "count_of_followers": 19,
+      "count_of_following": 4,
+      "count_of_designs": 40,
+      "collection_count": 1,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-2_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2024-10-21T22:33:18+00:00",
+    "modified": "2024-10-21T22:33:18+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 7,
+    "is_liked": false,
+    "collect_count": 9,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 21746209,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/4c\/53\/56\/26\/all_3_versions.JPG",
+      "name": "all_3_versions.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/0b\/43\/e9\/27\/e4\/large_thumb_all_3_versions.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a1\/9c\/26\/8e\/b7\/medium_thumb_all_3_versions.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/68\/1d\/6f\/1d\/96\/small_thumb_all_3_versions.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/94\/15\/1d\/9f\/tiny_thumb_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/30\/ce\/c0\/c5\/featured_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/88\/1b\/ee\/7c\/card_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f0\/8f\/b3\/f7\/cb\/large_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f7\/8e\/b0\/e0\/11\/medium_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/42\/2a\/bc\/ec\/small_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/4c\/ad\/c4\/fe\/birdwing_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/a7\/9e\/e0\/aa\/tiny_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/14\/f0\/1b\/a8\/tinycard_preview_all_3_versions.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/20\/6e\/38\/10\/a2\/large_display_all_3_versions.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/26\/1c\/81\/d6\/7b\/medium_display_all_3_versions.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/dd\/2d\/6a\/64\/d7\/small_display_all_3_versions.JPG"
+        }
+      ],
+      "added": "2024-10-11T22:04:19+00:00"
+    },
+    "description": "Phone mount that slides over the joystick of the wheelchair, allowing for a quick setup. Permobil uses two different joystick modules (PJSM and CJSM2).  The main difference is the CJSM2 version has 2 extra buttons and larger screen compared to the PJSM. One of the pictures shows the difference. \r\n\r\nPJSM 3 Versions (CJSM2 does not currently have a \"fixed\" version) \r\n\r\n1) Fixed Position (* Please note this may increase your w\/c width turning tight turns, i.e. door ways)  \r\n\r\n2) Side Mounted - (Right or Left)\r\n\r\n3) Height and Angle Adjustable (Picture shows one link of loc-line, but additional loc-line can be used for desired height) - \r\n                 Parts required: \r\n                 - (1) 3\/4\" Double Socket (61514 orange 4 pack), black available in larger \r\n                 quantities\r\n                 -(1) 3\/4\" Elbow (61515 orange 2 pack), black available in larger quantities\r\n                 -(2) 3\/4\" Fixed Mount (60533 orange 2 pack), black available in larger quantities\r\n             **Optional 3D part that prevents phone clamp from Spinning**\r\n\r\nPrint Settings:\r\nPrinted on Bambu Lap X1C\/P1S\r\nRecommend PETG for extra strength - print as oriented\r\nIf using support - should only fill in the bottom indentations for the 3\/4\" fixed loc-line mount\r\nGyroid Infill pattern will provide the best appearance and better strength if using PETG\r\n75-80% infill\r\n\r\nAbove settings work well with Bambu Lab X1C and P1S. Tolerances should be allow the phone mount to slip on\/loff easily, but not too loose that it rattles. \r\n\r\nParts Required:\r\n1) Plastic Tripod Cell Phone Holder Adapter - One brand on Amazon is call \"Vastar\", but there are many similar generic versions - The anti spinner 3D printed adapter tested on this version specifically. Threadlocker can also be used instead. \r\n2) 1\/4\"x20 x 5\/8\" Screw Pan Head Phillips (**side mounted requires shorter 3\/8\" 1\/4x20)\r\n\r\nTools - Phillips Screwdriver, Right angle Phillips Screwdriver will make it easier for the side mounted version (but not necessary)\r\n\r\nPlease note this is not a remix of another model. The slide on Joystick concept is not new. There are other similar styles of phone mounts that can be found online. \r\n\r\n\r\n\r\n",
+    "instructions": "",
+    "description_html": "<div><p>Phone mount that slides over the joystick of the wheelchair, allowing for a quick setup. Permobil uses two different joystick modules (PJSM and CJSM2).  The main difference is the CJSM2 version has 2 extra buttons and larger screen compared to the PJSM. One of the pictures shows the difference. <\/p><p>PJSM 3 Versions (CJSM2 does not currently have a \"fixed\" version) <\/p><p>1) Fixed Position (* Please note this may increase your w\/c width turning tight turns, i.e. door ways)  <\/p><p>2) Side Mounted - (Right or Left)<\/p><p>3) Height and Angle Adjustable (Picture shows one link of loc-line, but additional loc-line can be used for desired height) -<br>Parts required: <\/p><ul><li>(1) 3\/4\" Double Socket (61514 orange 4 pack), black available in larger<br>quantities<br>-(1) 3\/4\" Elbow (61515 orange 2 pack), black available in larger quantities<br>-(2) 3\/4\" Fixed Mount (60533 orange 2 pack), black available in larger quantities<br><strong>Optional 3D part that prevents phone clamp from Spinning<\/strong><\/li><\/ul><p>Print Settings:<br>Printed on Bambu Lap X1C\/P1S<br>Recommend PETG for extra strength - print as oriented<br>If using support - should only fill in the bottom indentations for the 3\/4\" fixed loc-line mount<br>Gyroid Infill pattern will provide the best appearance and better strength if using PETG<br>75-80% infill<\/p><p>Above settings work well with Bambu Lab X1C and P1S. Tolerances should be allow the phone mount to slip on\/loff easily, but not too loose that it rattles. <\/p><p>Parts Required:<br>1) Plastic Tripod Cell Phone Holder Adapter - One brand on Amazon is call \"Vastar\", but there are many similar generic versions - The anti spinner 3D printed adapter tested on this version specifically. Threadlocker can also be used instead.<br>2) 1\/4\"x20 x 5\/8\" Screw Pan Head Phillips (**side mounted requires shorter 3\/8\" 1\/4x20)<\/p><p>Tools - Phillips Screwdriver, Right angle Phillips Screwdriver will make it easier for the side mounted version (but not necessary)<\/p><p>Please note this is not a remix of another model. The slide on Joystick concept is not new. There are other similar styles of phone mounts that can be found online. <\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Phone mount that slides over the joystick of the wheelchair, allowing for a quick setup. Permobil uses two different joystick modules (PJSM and CJSM2).  The main difference is the CJSM2 version has 2 extra buttons and larger screen compared to the PJSM. One of the pictures shows the difference. <\/p><p>PJSM 3 Versions (CJSM2 does not currently have a \"fixed\" version) <\/p><p>1) Fixed Position (* Please note this may increase your w\/c width turning tight turns, i.e. door ways)  <\/p><p>2) Side Mounted - (Right or Left)<\/p><p>3) Height and Angle Adjustable (Picture shows one link of loc-line, but additional loc-line can be used for desired height) -<br>Parts required: <\/p><ul><li>(1) 3\/4\" Double Socket (61514 orange 4 pack), black available in larger<br>quantities<br>-(1) 3\/4\" Elbow (61515 orange 2 pack), black available in larger quantities<br>-(2) 3\/4\" Fixed Mount (60533 orange 2 pack), black available in larger quantities<br><strong>Optional 3D part that prevents phone clamp from Spinning<\/strong><\/li><\/ul><p>Print Settings:<br>Printed on Bambu Lap X1C\/P1S<br>Recommend PETG for extra strength - print as oriented<br>If using support - should only fill in the bottom indentations for the 3\/4\" fixed loc-line mount<br>Gyroid Infill pattern will provide the best appearance and better strength if using PETG<br>75-80% infill<\/p><p>Above settings work well with Bambu Lab X1C and P1S. Tolerances should be allow the phone mount to slip on\/loff easily, but not too loose that it rattles. <\/p><p>Parts Required:<br>1) Plastic Tripod Cell Phone Holder Adapter - One brand on Amazon is call \"Vastar\", but there are many similar generic versions - The anti spinner 3D printed adapter tested on this version specifically. Threadlocker can also be used instead.<br>2) 1\/4\"x20 x 5\/8\" Screw Pan Head Phillips (**side mounted requires shorter 3\/8\" 1\/4x20)<\/p><p>Tools - Phillips Screwdriver, Right angle Phillips Screwdriver will make it easier for the side mounted version (but not necessary)<\/p><p>Please note this is not a remix of another model. The slide on Joystick concept is not new. There are other similar styles of phone mounts that can be found online. <\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Phone mount that slides over the joystick of the wheelchair, allowing for a quick setup. Permobil uses two different joystick modules (PJSM and CJSM2).  The main difference is the CJSM2 version has 2 extra buttons and larger screen compared to the PJSM. One of the pictures shows the difference. <\/p><p>PJSM 3 Versions (CJSM2 does not currently have a \"fixed\" version) <\/p><p>1) Fixed Position (* Please note this may increase your w\/c width turning tight turns, i.e. door ways)  <\/p><p>2) Side Mounted - (Right or Left)<\/p><p>3) Height and Angle Adjustable (Picture shows one link of loc-line, but additional loc-line can be used for desired height) -<br>Parts required: <\/p><ul><li>(1) 3\/4\" Double Socket (61514 orange 4 pack), black available in larger<br>quantities<br>-(1) 3\/4\" Elbow (61515 orange 2 pack), black available in larger quantities<br>-(2) 3\/4\" Fixed Mount (60533 orange 2 pack), black available in larger quantities<br><strong>Optional 3D part that prevents phone clamp from Spinning<\/strong><\/li><\/ul><p>Print Settings:<br>Printed on Bambu Lap X1C\/P1S<br>Recommend PETG for extra strength - print as oriented<br>If using support - should only fill in the bottom indentations for the 3\/4\" fixed loc-line mount<br>Gyroid Infill pattern will provide the best appearance and better strength if using PETG<br>75-80% infill<\/p><p>Above settings work well with Bambu Lab X1C and P1S. Tolerances should be allow the phone mount to slip on\/loff easily, but not too loose that it rattles. <\/p><p>Parts Required:<br>1) Plastic Tripod Cell Phone Holder Adapter - One brand on Amazon is call \"Vastar\", but there are many similar generic versions - The anti spinner 3D printed adapter tested on this version specifically. Threadlocker can also be used instead.<br>2) 1\/4\"x20 x 5\/8\" Screw Pan Head Phillips (**side mounted requires shorter 3\/8\" 1\/4x20)<\/p><p>Tools - Phillips Screwdriver, Right angle Phillips Screwdriver will make it easier for the side mounted version (but not necessary)<\/p><p>Please note this is not a remix of another model. The slide on Joystick concept is not new. There are other similar styles of phone mounts that can be found online. <\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "allows_derivatives": false,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/6794716\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/6794716\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/6794716\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/6794716\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/6794716\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/6794716\/tags",
+    "tags": [
+      {
+        "name": "accessibility",
+        "tag": "accessibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+        "count": 568,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+        "absolute_url": "\/tag:accessibility"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "limited mobility",
+        "tag": "limited_mobility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/limited_mobility\/things",
+        "absolute_url": "\/tag:limited_mobility"
+      },
+      {
+        "name": "occupational",
+        "tag": "occupational",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational\/things",
+        "absolute_url": "\/tag:occupational"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "permobil",
+        "tag": "permobil",
+        "url": "https:\/\/api.thingiverse.com\/tags\/permobil",
+        "count": 31,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/permobil\/things",
+        "absolute_url": "\/tag:permobil"
+      },
+      {
+        "name": "rehabilitation",
+        "tag": "rehabilitation",
+        "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+        "count": 123,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+        "absolute_url": "\/tag:rehabilitation"
+      },
+      {
+        "name": "spinal cord injury",
+        "tag": "spinal_cord_injury",
+        "url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury",
+        "count": 36,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/spinal_cord_injury\/things",
+        "absolute_url": "\/tag:spinal_cord_injury"
+      },
+      {
+        "name": "therapy",
+        "tag": "therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/therapy",
+        "count": 121,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/therapy\/things",
+        "absolute_url": "\/tag:therapy"
+      },
+      {
+        "name": "wheelchair",
+        "tag": "wheelchair",
+        "url": "https:\/\/api.thingiverse.com\/tags\/wheelchair",
+        "count": 400,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/wheelchair\/things",
+        "absolute_url": "\/tag:wheelchair"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/6794716\/categories",
+    "file_count": 8,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 30,
+    "view_count": 336,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 3,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "PSJM_Right.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a6\/ff\/91\/78\/8e\/PSJM_Right.stl"
+        },
+        {
+          "name": "PJSM_Left.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/70\/69\/22\/0b\/c5\/PJSM_Left.stl"
+        },
+        {
+          "name": "PJSM_Fixed.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/f2\/e7\/45\/1c\/PJSM_Fixed.stl"
+        },
+        {
+          "name": "PJSM_adjustable.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/1e\/59\/ee\/09\/72\/PJSM_adjustable.stl"
+        },
+        {
+          "name": "CJSM2_Right_Joy.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e3\/d8\/1d\/a4\/0b\/CJSM2_Right_Joy.stl"
+        },
+        {
+          "name": "CJSM2_Left_Joy.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/4a\/1b\/d6\/49\/45\/CJSM2_Left_Joy.stl"
+        },
+        {
+          "name": "CJSM2_adjustable.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/87\/1c\/d7\/52\/38\/CJSM2_adjustable.stl"
+        },
+        {
+          "name": "Anti_Spinning.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7c\/71\/32\/83\/16\/Anti_Spinning.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "all_3_versions.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/49\/4c\/53\/56\/26\/all_3_versions.JPG"
+        },
+        {
+          "name": "showing_how_it_slides_on.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/bc\/30\/8c\/c3\/2d\/showing_how_it_slides_on.JPG"
+        },
+        {
+          "name": "difference_between_the_two.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/8d\/31\/f0\/b9\/35\/difference_between_the_two.JPG"
+        },
+        {
+          "name": "assembly.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/46\/aa\/78\/f6\/3b\/assembly.JPG"
+        },
+        {
+          "name": "Anti_Spinner_adapter.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/9a\/36\/15\/54\/8f\/Anti_Spinner_adapter.JPG"
+        },
+        {
+          "name": "parts_required_explained.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/82\/d0\/cb\/9a\/57\/parts_required_explained.JPG"
+        },
+        {
+          "name": "CJSM2S2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/dc\/21\/74\/0a\/CJSM2S2.png"
+        },
+        {
+          "name": "CJSM2S1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/0c\/33\/9c\/70\/CJSM2S1.png"
+        },
+        {
+          "name": "PJSM_Fixed.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/77\/71\/35\/28\/ca\/PJSM_Fixed.png"
+        },
+        {
+          "name": "PSJM_Right.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/7e\/7a\/62\/f7\/8f\/PSJM_Right.png"
+        },
+        {
+          "name": "PJSM_Left.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/da\/5b\/42\/a0\/73\/PJSM_Left.png"
+        },
+        {
+          "name": "Anti_Spinning.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c0\/6f\/08\/a3\/72\/Anti_Spinning.png"
+        },
+        {
+          "name": "CJSM2_Right_Joy.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/73\/48\/38\/25\/51\/CJSM2_Right_Joy.png"
+        },
+        {
+          "name": "CJSM2_adjustable.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/00\/e7\/43\/b7\/CJSM2_adjustable.png"
+        },
+        {
+          "name": "PJSM_adjustable.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/7e\/4a\/fe\/60\/PJSM_adjustable.png"
+        },
+        {
+          "name": "CJSM2_Left_Joy.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/c1\/67\/0f\/09\/CJSM2_Left_Joy.png"
+        }
+      ]
+    }
+  }
+}

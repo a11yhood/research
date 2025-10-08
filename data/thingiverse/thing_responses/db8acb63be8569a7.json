@@ -1,0 +1,571 @@
+{
+  "created_at": "2025-04-09T19:17:57.825674+00:00",
+  "elapsed": 0.238206,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92dc58faed43f95f-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Wed, 09 Apr 2025 19:17:57 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Wed, 09 Apr 2025 19:47:57 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw",
+      "_cfuvid": "Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=hlpcctQ5LVShaMmR00ZAI4ZhR0cBV6usMOoFSfnF8AM-1744225998-1.0.1.1-Mau35E2VvezMMnIxHWeGpnmaKEnr3BMXsYLxkpRWMZr3JaZ6Exp9LuPn9XCnaSLUnHM1MGRmosXvLcPwlqQjCgK9yZJhc2w26gmCyFEueEw; _cfuvid=Y018NPN8m.FHJAa34ydfrMq.8Ti8QvPEeLBrklFCXcs-1744225998947-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/3583410?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/3583410?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 3583410,
+    "name": "AT Switch Remix",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/3583410",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:3583410",
+    "creator": {
+      "id": 950100,
+      "name": "skip1776",
+      "first_name": "Scott",
+      "last_name": "Dougherty",
+      "url": "https:\/\/api.thingiverse.com\/users\/skip1776",
+      "public_url": "https:\/\/www.thingiverse.com\/skip1776",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/5a\/bc\/81\/c1\/9e\/129ec689ba3d5aab8e0a7d3544eb46f7_thumb_medium.jpg",
+      "count_of_followers": 15,
+      "count_of_following": 11,
+      "count_of_designs": 18,
+      "collection_count": 11,
+      "make_count": 7,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Pittsburgh, PA, USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2019-04-23T16:22:39+00:00",
+    "modified": "2019-04-23T16:22:39+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 11,
+    "is_liked": false,
+    "collect_count": 31,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 10582654,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/7c\/46\/05\/fb\/Print_with_Large_Spring.jpg",
+      "name": "Print_with_Large_Spring.jpg",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/a4\/d3\/8e\/4a\/5c\/6fd8c716ead6c091bc79e7b90d575488_display_small.jpg"
+        }
+      ],
+      "added": "2019-04-23T16:20:18+00:00"
+    },
+    "description": "This is a remix of the AT Switch by ATMakers. This has been adapted to accommodate a larger-diameter spring along the outside of the center post. Wire recesses are located on both sides of the post to prevent the cable from interfering with the spring function. This provides more options to change the response of the switch activation or to allow for use of a wider variety of springs.\r\n\r\n3.5mm headphone plug\r\nhttps:\/\/www.digikey.com\/short\/p3fb5m\r\n\r\n12mm tactile switch\r\nhttps:\/\/www.digikey.com\/short\/p32z7t\r\nhttps:\/\/www.adafruit.com\/product\/1119\r\n\r\n22 AWG stranded wire\r\n\r\nINTERIOR SPRING OPTIONS\r\nHillman 94 Compression Spring #540281\r\nhttps:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281 \r\n\r\n3\/8\" OD, 0.026\" Wire, 1-1\/2\" Free Length, Compression Spring\r\nhttps:\/\/www.mscdirect.com\/product\/details\/05368139 \r\n\r\n0.6 x 9 x 5mm Stainless Steel Compression Springs\r\nhttps:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/\r\n\r\nEXTERIOR SPRING OPTIONS\r\nHillman 156 Compression Spring #540467\r\nhttps:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467\r\n",
+    "instructions": "",
+    "description_html": "<div><p>This is a remix of the AT Switch by ATMakers. This has been adapted to accommodate a larger-diameter spring along the outside of the center post. Wire recesses are located on both sides of the post to prevent the cable from interfering with the spring function. This provides more options to change the response of the switch activation or to allow for use of a wider variety of springs.<\/p><p>3.5mm headphone plug<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p3fb5m\">https:\/\/www.digikey.com\/short\/p3fb5m<\/a><\/p><p>12mm tactile switch<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p32z7t\">https:\/\/www.digikey.com\/short\/p32z7t<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>22 AWG stranded wire<\/p><p>INTERIOR SPRING OPTIONS<br>Hillman 94 Compression Spring #540281<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281<\/a> <\/p><p>3\/8\" OD, 0.026\" Wire, 1-1\/2\" Free Length, Compression Spring<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mscdirect.com\/product\/details\/05368139\">https:\/\/www.mscdirect.com\/product\/details\/05368139<\/a> <\/p><p>0.6 x 9 x 5mm Stainless Steel Compression Springs<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/\">https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/<\/a><\/p><p>EXTERIOR SPRING OPTIONS<br>Hillman 156 Compression Spring #540467<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467<\/a><\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is a remix of the AT Switch by ATMakers. This has been adapted to accommodate a larger-diameter spring along the outside of the center post. Wire recesses are located on both sides of the post to prevent the cable from interfering with the spring function. This provides more options to change the response of the switch activation or to allow for use of a wider variety of springs.<\/p><p>3.5mm headphone plug<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p3fb5m\">https:\/\/www.digikey.com\/short\/p3fb5m<\/a><\/p><p>12mm tactile switch<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p32z7t\">https:\/\/www.digikey.com\/short\/p32z7t<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>22 AWG stranded wire<\/p><p>INTERIOR SPRING OPTIONS<br>Hillman 94 Compression Spring #540281<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281<\/a> <\/p><p>3\/8\" OD, 0.026\" Wire, 1-1\/2\" Free Length, Compression Spring<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mscdirect.com\/product\/details\/05368139\">https:\/\/www.mscdirect.com\/product\/details\/05368139<\/a> <\/p><p>0.6 x 9 x 5mm Stainless Steel Compression Springs<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/\">https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/<\/a><\/p><p>EXTERIOR SPRING OPTIONS<br>Hillman 156 Compression Spring #540467<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467<\/a><\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Creality<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Ender 3&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.15mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;10%&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><strong>Filament:<\/strong> Amazon Basics PLA<br>Red<\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is a remix of the AT Switch by ATMakers. This has been adapted to accommodate a larger-diameter spring along the outside of the center post. Wire recesses are located on both sides of the post to prevent the cable from interfering with the spring function. This provides more options to change the response of the switch activation or to allow for use of a wider variety of springs.<\/p><p>3.5mm headphone plug<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p3fb5m\">https:\/\/www.digikey.com\/short\/p3fb5m<\/a><\/p><p>12mm tactile switch<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.digikey.com\/short\/p32z7t\">https:\/\/www.digikey.com\/short\/p32z7t<\/a><br><a rel=\"ugc nofollow\" href=\"https:\/\/www.adafruit.com\/product\/1119\">https:\/\/www.adafruit.com\/product\/1119<\/a><\/p><p>22 AWG stranded wire<\/p><p>INTERIOR SPRING OPTIONS<br>Hillman 94 Compression Spring #540281<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540281<\/a> <\/p><p>3\/8\" OD, 0.026\" Wire, 1-1\/2\" Free Length, Compression Spring<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.mscdirect.com\/product\/details\/05368139\">https:\/\/www.mscdirect.com\/product\/details\/05368139<\/a> <\/p><p>0.6 x 9 x 5mm Stainless Steel Compression Springs<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/\">https:\/\/www.amazon.com\/gp\/product\/B07HCQ279X\/<\/a><\/p><p>EXTERIOR SPRING OPTIONS<br>Hillman 156 Compression Spring #540467<br><a rel=\"ugc nofollow\" href=\"https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467\">https:\/\/www.hillmangroup.com\/us\/en\/Home-Solutions\/Home-Accessories\/Springs\/Compression-Springs\/Hillman-Compression-Spring\/p\/540467<\/a><\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Creality<\/p><\/div>\n",
+            "printer": "<div><p>Ender 3<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.15mm<\/p><\/div>\n",
+            "infill": "<div><p>10%<\/p><\/div>\n",
+            "filament_brand": "<div><p>Amazon Basics<\/p><\/div>\n",
+            "filament_color": "<div><p>Red<\/p><\/div>\n",
+            "filament_material": "<div><p>PLA<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Share Alike",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/3583410\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/3583410\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/3583410\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/3583410\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/3583410\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/3583410\/tags",
+    "tags": [
+      {
+        "name": "adaptive technology",
+        "tag": "adaptive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology",
+        "count": 70,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/adaptive_technology\/things",
+        "absolute_url": "\/tag:adaptive_technology"
+      },
+      {
+        "name": "assistive tech",
+        "tag": "assistive_tech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_tech\/things",
+        "absolute_url": "\/tag:assistive_tech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "at switch",
+        "tag": "at_switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+        "count": 24,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+        "absolute_url": "\/tag:at_switch"
+      },
+      {
+        "name": "switch",
+        "tag": "switch",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch",
+        "count": 4910,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch\/things",
+        "absolute_url": "\/tag:switch"
+      },
+      {
+        "name": "switch access",
+        "tag": "switch_access",
+        "url": "https:\/\/api.thingiverse.com\/tags\/switch_access",
+        "count": 26,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/switch_access\/things",
+        "absolute_url": "\/tag:switch_access"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/3583410\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 412,
+    "view_count": 557,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 2180151,
+        "name": "AT Switch",
+        "url": "https:\/\/api.thingiverse.com\/things\/2180151",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:2180151",
+        "created_at": "2017-03-15T23:34:02+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_thumb_medium.jpg",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/1d\/7b\/04\/d0\/18\/a386e84b095ec7c364816ee51961de67_preview_card.jpg",
+        "creator": {
+          "id": 1276407,
+          "name": "atmakers",
+          "first_name": "Bill",
+          "last_name": "Binko",
+          "url": "https:\/\/api.thingiverse.com\/users\/atmakers",
+          "public_url": "https:\/\/www.thingiverse.com\/atmakers",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/b4\/81\/c0\/93\/d0\/373899e1f2d932cf1d2235809a3c8947_thumb_medium.jpg",
+          "count_of_followers": 118,
+          "count_of_following": 9,
+          "count_of_designs": 30,
+          "collection_count": 4,
+          "make_count": 3,
+          "accepts_tips": false,
+          "is_following": false,
+          "location": "Tarpon Springs, FL",
+          "cover": "https:\/\/cdn.thingiverse.com\/renders\/fc\/9d\/f2\/10\/9a\/8afd69d7ec8048729260433ea842cb23_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 5,
+        "make_count": 2,
+        "like_count": 78,
+        "tags": [
+          {
+            "name": "assistive",
+            "tag": "assistive",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive",
+            "count": 184,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive\/things",
+            "absolute_url": "\/tag:assistive"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "at switch",
+            "tag": "at_switch",
+            "url": "https:\/\/api.thingiverse.com\/tags\/at_switch",
+            "count": 24,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/at_switch\/things",
+            "absolute_url": "\/tag:at_switch"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 204,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "AT_Switch_with_Spring_Platform.f3d",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a4\/b6\/f3\/b1\/eb\/AT_Switch_with_Spring_Platform.f3d"
+        },
+        {
+          "name": "AT_Switch_Bevel.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/99\/a9\/53\/d5\/e8\/AT_Switch_Bevel.stl"
+        },
+        {
+          "name": "AT_Switch_Top.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/86\/2f\/8d\/a2\/28\/AT_Switch_Top.stl"
+        },
+        {
+          "name": "AT_Switch_Base.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/88\/25\/44\/89\/f4\/AT_Switch_Base.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "Print_with_Large_Spring.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/00\/7c\/46\/05\/fb\/Print_with_Large_Spring.jpg"
+        },
+        {
+          "name": "Print_Assembled.jpg",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e7\/89\/13\/79\/18\/Print_Assembled.jpg"
+        },
+        {
+          "name": "ATMakers_Switch.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/e0\/7d\/d0\/50\/cd\/ATMakers_Switch.png"
+        },
+        {
+          "name": "AT_Switch_with_Spring_Platform.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/31\/e4\/49\/af\/a0\/AT_Switch_with_Spring_Platform.png"
+        },
+        {
+          "name": "AT_Switch_Bevel.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/c9\/fd\/62\/38\/52\/AT_Switch_Bevel.png"
+        },
+        {
+          "name": "AT_Switch_Top.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/d9\/10\/27\/8d\/9a\/AT_Switch_Top.png"
+        },
+        {
+          "name": "4b1e7e3ad50bf7a2cd8d33c45ddfe249.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2e\/03\/34\/02\/33\/4b1e7e3ad50bf7a2cd8d33c45ddfe249.png"
+        },
+        {
+          "name": "b8496d84affd676fff9948da8fa7dab5.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/5c\/e6\/61\/a0\/ee\/b8496d84affd676fff9948da8fa7dab5.png"
+        },
+        {
+          "name": "751fa68d15107815953479e5aa0d0479.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/79\/9f\/d1\/df\/83\/751fa68d15107815953479e5aa0d0479.png"
+        }
+      ]
+    }
+  }
+}

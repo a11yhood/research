@@ -1,0 +1,599 @@
+{
+  "created_at": "2025-04-12T03:32:23.305986+00:00",
+  "elapsed": 0.224932,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92efa7fc5d89eb26-SJC",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sat, 12 Apr 2025 03:32:23 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sat, 12 Apr 2025 04:02:23 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0",
+      "_cfuvid": "YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=cLVxCSlSg2kdEU4nWoG_.8Mtj67xBWBC2h9FOwZNH5w-1744428457-1.0.1.1-2BfKXEVE.PgJcIKQqq0CnylJiraz4p2wGjb1Vzfkek8xUWdm0HTRREl43yLHPX9qRAseqekEU1BXx_CFJ_5Nc9Za4xjKRNJCYz0mhGJi2U0; _cfuvid=YC4C7RlONErHuAUFnjbUaZD0_5GOYwMfyMXCaaLxPYw-1744428457578-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1097538?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1097538?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1097538,
+    "name": "Assistive Rotating Pill Container (version 2.3)",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1097538",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1097538",
+    "creator": {
+      "id": 648095,
+      "name": "StevenBorck",
+      "first_name": "Steven",
+      "last_name": "Borck",
+      "url": "https:\/\/api.thingiverse.com\/users\/StevenBorck",
+      "public_url": "https:\/\/www.thingiverse.com\/StevenBorck",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/95\/2b\/a1\/de\/25\/ProfilePicture_thumb_medium.jpg",
+      "count_of_followers": 12,
+      "count_of_following": 1,
+      "count_of_designs": 14,
+      "collection_count": 1,
+      "make_count": 18,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "USA",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/53\/b2\/e8\/f1\/ef\/technology-background-26396249_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-10-29T15:51:38+00:00",
+    "modified": "2015-10-29T15:51:38+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 238,
+    "is_liked": false,
+    "collect_count": 524,
+    "is_collected": false,
+    "comment_count": 1,
+    "is_watched": false,
+    "default_image": {
+      "id": 2963706,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/81\/b2\/13\/11\/Version_2.3_Assembly_Picture.JPG",
+      "name": "Version_2.3_Assembly_Picture.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/7b\/9b\/1f\/28\/da\/Version_2.3_Assembly_Picture_display_small.JPG"
+        }
+      ],
+      "added": "2015-12-03T16:56:52+00:00"
+    },
+    "description": "Note: This has been recently updated so if you have downloaded a previous part prior to 12\/3\/15, please delete it and re-download the parts so you can have to updated version.\r\n\r\n\r\nThe Assistive Rotating Pill Container was specific designed to allow many different people with different kinds of disabilities to be able to easily use the pill container. It's also an improvement to the pill containers that have snap-on covers that may be hard to remove for some people as well as being hard to get the pills out. The container is shaped as a heptagon for each day of the week and as you rotate the pill container, the pills in the slot for the next day will fall out onto a plate that can easily be grabbed. The container is simply rotated by spinning the top or sides of the design clockwise. This allows people with limited hand or wrist mobility to easily rotate it to get the pills that they may need for the day. The top of the container, which is the part that allows you to spin it, has openings to allow you to easily put pills in by dropping it in the day of the week that you need it. The pill container consists of four parts which are individually 3D printed and assembled. The only thing that you need is a few drops of glue or adhesive to hold a couple of the parts together in a very simple and explained 5 step process. It's also designed so that the parts already interlock with each other so you can even use plain Elmer glue to do the job. Not only can people with disabilities use this product. Any can print it out and use it as a pill container. Not only is it functional but it also looks really neat as well. The Assistive Pill Container is very compact, yet extremely functional. Since it's so compact it doesn't require much plastic filament (3.63 cubic inches) in order to print out making it very cheap as well. There are absolutely no pill container that can compare to this one, especially for the disabled.",
+    "instructions": "",
+    "description_html": "<div><p>Note: This has been recently updated so if you have downloaded a previous part prior to 12\/3\/15, please delete it and re-download the parts so you can have to updated version.<\/p><p>The Assistive Rotating Pill Container was specific designed to allow many different people with different kinds of disabilities to be able to easily use the pill container. It's also an improvement to the pill containers that have snap-on covers that may be hard to remove for some people as well as being hard to get the pills out. The container is shaped as a heptagon for each day of the week and as you rotate the pill container, the pills in the slot for the next day will fall out onto a plate that can easily be grabbed. The container is simply rotated by spinning the top or sides of the design clockwise. This allows people with limited hand or wrist mobility to easily rotate it to get the pills that they may need for the day. The top of the container, which is the part that allows you to spin it, has openings to allow you to easily put pills in by dropping it in the day of the week that you need it. The pill container consists of four parts which are individually 3D printed and assembled. The only thing that you need is a few drops of glue or adhesive to hold a couple of the parts together in a very simple and explained 5 step process. It's also designed so that the parts already interlock with each other so you can even use plain Elmer glue to do the job. Not only can people with disabilities use this product. Any can print it out and use it as a pill container. Not only is it functional but it also looks really neat as well. The Assistive Pill Container is very compact, yet extremely functional. Since it's so compact it doesn't require much plastic filament (3.63 cubic inches) in order to print out making it very cheap as well. There are absolutely no pill container that can compare to this one, especially for the disabled.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Note: This has been recently updated so if you have downloaded a previous part prior to 12\/3\/15, please delete it and re-download the parts so you can have to updated version.<\/p><p>The Assistive Rotating Pill Container was specific designed to allow many different people with different kinds of disabilities to be able to easily use the pill container. It's also an improvement to the pill containers that have snap-on covers that may be hard to remove for some people as well as being hard to get the pills out. The container is shaped as a heptagon for each day of the week and as you rotate the pill container, the pills in the slot for the next day will fall out onto a plate that can easily be grabbed. The container is simply rotated by spinning the top or sides of the design clockwise. This allows people with limited hand or wrist mobility to easily rotate it to get the pills that they may need for the day. The top of the container, which is the part that allows you to spin it, has openings to allow you to easily put pills in by dropping it in the day of the week that you need it. The pill container consists of four parts which are individually 3D printed and assembled. The only thing that you need is a few drops of glue or adhesive to hold a couple of the parts together in a very simple and explained 5 step process. It's also designed so that the parts already interlock with each other so you can even use plain Elmer glue to do the job. Not only can people with disabilities use this product. Any can print it out and use it as a pill container. Not only is it functional but it also looks really neat as well. The Assistive Pill Container is very compact, yet extremely functional. Since it's so compact it doesn't require much plastic filament (3.63 cubic inches) in order to print out making it very cheap as well. There are absolutely no pill container that can compare to this one, especially for the disabled.<\/p><\/div><h1 class=\"thing-component-header design how-i-designed-this\">How I Designed This<\/h1><div><p>I designed this at my school in my Engineering II and Tech Ninja classes as an assignment. Every student in the Engineering II class was given time to research and come up with a design to make. I also was allowed to work on the design in my Tech Ninja class. The Tech Ninja class is a new class that a teacher in my middle school ran that invited kids that were motivated to go beyond any other class with technology and learn much more about different technologies. The first year I have moved to high school they didn't have a Tech Ninja class but this year my Engineering II teacher took up the job to run the class. In my design I chose to start with Part 2 before I moved onto any of the other parts. I worked off of Part 2 went on to design Part 1, Part 3, and then Part 4. While working on the different parts I had to make many various changes to the design to improve the design and make it work better meaning that the parts fit together better and the have a less chance at breaking. While making the design I also wanted to make it small and compact so that it didn't take much space and so that it was cheaper to print. I was originally planning on having lids on top of the container but the idea was scrapped for a couple of reasons. One of the reasons is that it would be difficult for the disabled to remove it and put it back on to put pills into the container, defeating one of the major points of the pill case. Also, due to the container's shape I was having some issues making a good cover and if I were to make one it probably wouldn't have worked too well. The program I used in the whole process of designing and making the pill container was Solidworks. The cover photos of the pill container was made using the render tool in Solidworks as well as all of the other photos under the Assembly Instructions.<\/p><\/div>                <p class=\"detail-title\"><strong>Version 1.0<\/strong><\/p>                <div><p>Version 1.0 was my first design on the pill case and was really successful. When I got it 3D printed there were some flaws however. One of the main flaws was that when I was making it in Solidworks I was using exact measurements for when I had to connect parts. Therefore, many of the parts did not go together because they were too tight or just too big. Another flaw was that the bottom of Part 2 was very thin and looked as if you could easily break it. Finally, a minor flaw was that the plate that the pill falls onto wouldn't have done a good job with holding the pills. The pills would have likely just fell out of it.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/04\/02\/a6\/f8\/2b\/Version_1_Assembly.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 1.0 Assistive Rotating Pill Container<\/strong><\/p>                    <p class=\"detail-title\"><strong>Version 1.1<\/strong><\/p>                <div><p>Version 1.1 has the same features of Version 1.1 but added a neat option on how to print it out. The option is printing Part 3 with clear plastic to make it see through. This allows you to see the pills easier and it makes it look better in my opinion. Please note that this is completely optional.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/39\/b1\/2d\/69\/c6\/Version_1_Assembly_-_Clear.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 1.1 Assistive Rotating Pill Container<\/strong><\/p>                    <p class=\"detail-title\"><strong>Version 2.0<\/strong><\/p>                <div><p>In version 2 I fixed a lot of issues that I have found after printing version 1. All of the places that parts go together are now fixed so they will fit correctly now when printed out. While correcting that flaw I also made it easier to assemble Parts 1 &amp; 2. I also tried to do my best to make sure the pill case can easily spin with no problem. Another issue that was fixed is that I added more material to the bottom of Part 2 so it won't break. Finally, I increased the wall size of the plate so when pills land on it, they won't just fall out. I also added a few fillets where I saw fit while fixing the problems of version 1. Please note that version 2 does not change the look of the pill case much but changes up the mechanics tremendously. If you want access to the files of version 1 for some reason please add a comment or send me an email (email address located under the \"Contact Me\" section).<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ad\/11\/c4\/67\/12\/Version_2_Assembly_-_Clear.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 2.0 Assistive Rotating Pill Container<\/strong><\/p>                    <p class=\"detail-title\"><strong>Version 2.1<\/strong><\/p>                <div><p>After making Version 2.0 I noticed that some fillets were missing that were in Version 1.0 and 1.1. In Version 2.1 I added the fillets back located on the top and sides of Part 4 and on the side of Part 2.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c6\/27\/70\/aa\/b1\/Version_2_Assembly_-_Clear_fixed.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 2.1 Assistive Rotating Pill Container<\/strong><\/p>                    <p class=\"detail-title\"><strong>Version 2.2<\/strong><\/p>                <div><p>In Version 2.2 I made the ramp on Part 2 (Where the pills rest on) steeper so the pills can fall out of the pill case easier. Besides that I also added some minor fillets to make some parts of it more smooth.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/eb\/4f\/1e\/8d\/90\/Version_2.2_Assembly_Picture_-_Clear.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 2.2 Assistive Rotating Pill Container<\/strong><\/p>                    <p class=\"detail-title\"><strong>Version 2.3<\/strong><\/p>                <div><p>In version 2.3 two small details were changed. The first one is the the front wall in front of the plate on Part 1 was made taller. This was made taller in a previous version also. The first reason why it was made taller was so it was harder for pills to fall out of. The second reason was so that the text on the front of it would be more visible. Going off of the second reason, the second change that I made was to add \"AT\" on the front of it as well as a heart. The \"AT\" stands for Assistive Technology which is the purpose of making this design.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b1\/ad\/bb\/df\/2d\/Version_2.3_Assembly_Picture_-_Clear.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 2.3 Assistive Rotating Pill Container<\/strong><\/p><h1 class=\"thing-component-header custom assembly-instructions\">Assembly Instructions<\/h1><p class=\"detail-title\"><strong>Pre-Assembly Notes<\/strong><\/p>                <div><p>The only tools or supplies that you need is some sort of glue or adhesive. Even Elmer's Glue can be used although I would recommend Super Glue if you have any because it will be easier to use. Hot glue is also another decent choice but make sure to not use too much of it.<\/p><\/div>                <p class=\"detail-title\"><strong>Step 1<\/strong><\/p>                <div><p>For Step 1, have Part 1 set down onto your work table. Take Part 2 and place it on top of Part 1 so that the extrusion go into the hole in the middle of Part 2 as seen in the picture below. You should notice that Part 2 can spin around on top of Part 1. Make sure to NOT add any glue in this first part of the assembly.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/1c\/6f\/ab\/3f\/28\/Step_1.JPG\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Step 2<\/strong><\/p>                <div><p>With Part 2 already on Part 1 you are now going to do the same with Part 3. Part 3 should go right into Part 2. The bottom extrusion on Part 3 should fit nicely into the hole on the top extrusion of Part 1. The outside circular walls of Part 3 should go in between the inner walls of Part 2 and the outer posts of Part 2. The top of Part 3 should not extend further than the top of Part 2. Once you have it in place you can remove it so you can apply glue or adhesive in Step 3.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/57\/5f\/4f\/d8\/6c\/Step_2.JPG\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Step 3<\/strong><\/p>                <div><p>After taking out Part 3, apply a small amount of glue or adhesive on the bottom extrusion of Part 3. Refer to the picture below. You do not want to add to much glue, otherwise it will also stick to Part 2. No glue should get onto Part 2 because it must be able to rotate freely. Once the glue or adhesive is applied, you can place Part 3 back into Part 2 making sure it fits nicely back into place. If you have chosen to use hot glue make sure Part 3 goes all the way down because like I said earlier, the top of Part 3 should not extend further than the top of Part 2.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/38\/6d\/17\/2f\/80\/Step_3.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Note: The face of Part 3 that is colored red indicates the spot that glue or adhesive must be applied.<\/strong><\/p>                    <p class=\"detail-title\"><strong>Step 4<\/strong><\/p>                <div><p>Now, take Part 4 (the only remaining one) and place it onto Part 2. It doesn't matter which way the part is facing because all of its seven extrusions are the same. The bottom extrusions of Part 4 should fit into the indents on the top posts of Part 2. Please note that it may be a little loose and that it is okay for it to be. Once you have it in place you can remove it so you can apply glue or adhesive in the final step (Step 5).<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/03\/4e\/05\/f8\/b1\/Step_4.JPG\" alt=\"image\"><\/p>                    <p class=\"detail-title\"><strong>Step 5<\/strong><\/p>                <div><p>After removing Part 4, you will be using your glue or adhesive on Part 4 to make it stick to Part 2. You will be applying it to the very bottom of the extrusions and the insides part of it on Part 4. Please refer to the picture below. You can apply a decent amount of glue or adhesive on the inside part of the extrusion but don't use too much on the bottom of it to avoid it from oozing out. If you chose to use hot glue than not much glue will be needed for the bottom or side of the extrusion.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/d1\/9d\/f2\/6f\/3a\/Step_5.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Note: The faces of Part 4 that is colored red indicates the spots that glue or adhesive must be applied.<\/strong><\/p>                    <p class=\"detail-title\"><strong>Manual<\/strong><\/p>                <div><p>Using the Assistive Rotating Pill Container is very simple. Simply rotating the pill container by moving Part 2 or Part 4 clockwise until the next day of the week comes up in the gap. Once the pills fall out onto the extruded plate you can grab and take them. To refill all you have to do is drop the pills into the top of the day's container.<\/p><p>Note: If you have any questions or concerns with the assembly please refer to the \"Contact Me\" section in the description.<\/p><\/div><h1 class=\"thing-component-header custom material\">Material<\/h1><div><p>Any material that you use on this should be perfectly fine although I wouldn't recommend the use of super flexible plastics because some parts may be bent out of shape over time. One suggestion I have for the material is to make Part 3 out  of clear plastic. This will allow you to easily see into the pill case and it makes it look a lot better than the just plain plastic color. If you are considering using clear plastic please take a look at the picture below to take a look at how it would look with the clear plastic.<\/p><\/div>                <p class=\"detail-image\"><img src=\"https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ca\/f1\/89\/9b\/26\/Version_2.2_Assembly_Picture_-_Clear.JPG\" alt=\"image\"><\/p>                <p class=\"detail-caption\"><strong>Picture of Version 2.2 Assistive Rotating Pill Container<\/strong><\/p><h1 class=\"thing-component-header custom contributions\">Contributions<\/h1><div><p>My first contribution will of course have to be my Engineering II teacher. He's the one who introduced the class to use as well as have us enter the contest and make our own designs. He also printed out my first design (Version 1.0) which turned out to have some major design flaws to it. He then helped me out with giving me tips on certain things which is when I began to redesign a lot of the flaws. My second contribution is my school because they have been continuing to support the engineering classes as well as the new Tech Ninja class. Finally, my last contribution is to Solidworks. Solidworks is an amazing software that allows you to build unbelievable designs. I would have never been able to create anything like this without Solidworks.<\/p><\/div><h1 class=\"thing-component-header custom contact-me\">Contact Me<\/h1><div><p>If you have any ideas on how the design could be improved, questions on anything, or anything else please contact me. You can leave a comment or if you need a quick response send me an email at: StevenLBorck@gmail.com.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Note: This has been recently updated so if you have downloaded a previous part prior to 12\/3\/15, please delete it and re-download the parts so you can have to updated version.<\/p><p>The Assistive Rotating Pill Container was specific designed to allow many different people with different kinds of disabilities to be able to easily use the pill container. It's also an improvement to the pill containers that have snap-on covers that may be hard to remove for some people as well as being hard to get the pills out. The container is shaped as a heptagon for each day of the week and as you rotate the pill container, the pills in the slot for the next day will fall out onto a plate that can easily be grabbed. The container is simply rotated by spinning the top or sides of the design clockwise. This allows people with limited hand or wrist mobility to easily rotate it to get the pills that they may need for the day. The top of the container, which is the part that allows you to spin it, has openings to allow you to easily put pills in by dropping it in the day of the week that you need it. The pill container consists of four parts which are individually 3D printed and assembled. The only thing that you need is a few drops of glue or adhesive to hold a couple of the parts together in a very simple and explained 5 step process. It's also designed so that the parts already interlock with each other so you can even use plain Elmer glue to do the job. Not only can people with disabilities use this product. Any can print it out and use it as a pill container. Not only is it functional but it also looks really neat as well. The Assistive Pill Container is very compact, yet extremely functional. Since it's so compact it doesn't require much plastic filament (3.63 cubic inches) in order to print out making it very cheap as well. There are absolutely no pill container that can compare to this one, especially for the disabled.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing"
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This",
+        "data": [
+          {
+            "content": "<div><p>I designed this at my school in my Engineering II and Tech Ninja classes as an assignment. Every student in the Engineering II class was given time to research and come up with a design to make. I also was allowed to work on the design in my Tech Ninja class. The Tech Ninja class is a new class that a teacher in my middle school ran that invited kids that were motivated to go beyond any other class with technology and learn much more about different technologies. The first year I have moved to high school they didn't have a Tech Ninja class but this year my Engineering II teacher took up the job to run the class. In my design I chose to start with Part 2 before I moved onto any of the other parts. I worked off of Part 2 went on to design Part 1, Part 3, and then Part 4. While working on the different parts I had to make many various changes to the design to improve the design and make it work better meaning that the parts fit together better and the have a less chance at breaking. While making the design I also wanted to make it small and compact so that it didn't take much space and so that it was cheaper to print. I was originally planning on having lids on top of the container but the idea was scrapped for a couple of reasons. One of the reasons is that it would be difficult for the disabled to remove it and put it back on to put pills into the container, defeating one of the major points of the pill case. Also, due to the container's shape I was having some issues making a good cover and if I were to make one it probably wouldn't have worked too well. The program I used in the whole process of designing and making the pill container was Solidworks. The cover photos of the pill container was made using the render tool in Solidworks as well as all of the other photos under the Assembly Instructions.<\/p><\/div>\n"
+          },
+          {
+            "title": "Version 1.0",
+            "content": "<div><p>Version 1.0 was my first design on the pill case and was really successful. When I got it 3D printed there were some flaws however. One of the main flaws was that when I was making it in Solidworks I was using exact measurements for when I had to connect parts. Therefore, many of the parts did not go together because they were too tight or just too big. Another flaw was that the bottom of Part 2 was very thin and looked as if you could easily break it. Finally, a minor flaw was that the plate that the pill falls onto wouldn't have done a good job with holding the pills. The pills would have likely just fell out of it.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/04\/02\/a6\/f8\/2b\/Version_1_Assembly.JPG",
+            "caption": "Picture of Version 1.0 Assistive Rotating Pill Container",
+            "image_id": "3100"
+          },
+          {
+            "title": "Version 1.1",
+            "content": "<div><p>Version 1.1 has the same features of Version 1.1 but added a neat option on how to print it out. The option is printing Part 3 with clear plastic to make it see through. This allows you to see the pills easier and it makes it look better in my opinion. Please note that this is completely optional.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/39\/b1\/2d\/69\/c6\/Version_1_Assembly_-_Clear.JPG",
+            "caption": "Picture of Version 1.1 Assistive Rotating Pill Container",
+            "image_id": "3101"
+          },
+          {
+            "title": "Version 2.0",
+            "content": "<div><p>In version 2 I fixed a lot of issues that I have found after printing version 1. All of the places that parts go together are now fixed so they will fit correctly now when printed out. While correcting that flaw I also made it easier to assemble Parts 1 &amp; 2. I also tried to do my best to make sure the pill case can easily spin with no problem. Another issue that was fixed is that I added more material to the bottom of Part 2 so it won't break. Finally, I increased the wall size of the plate so when pills land on it, they won't just fall out. I also added a few fillets where I saw fit while fixing the problems of version 1. Please note that version 2 does not change the look of the pill case much but changes up the mechanics tremendously. If you want access to the files of version 1 for some reason please add a comment or send me an email (email address located under the \"Contact Me\" section).<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ad\/11\/c4\/67\/12\/Version_2_Assembly_-_Clear.JPG",
+            "caption": "Picture of Version 2.0 Assistive Rotating Pill Container",
+            "image_id": "3102"
+          },
+          {
+            "title": "Version 2.1",
+            "content": "<div><p>After making Version 2.0 I noticed that some fillets were missing that were in Version 1.0 and 1.1. In Version 2.1 I added the fillets back located on the top and sides of Part 4 and on the side of Part 2.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/c6\/27\/70\/aa\/b1\/Version_2_Assembly_-_Clear_fixed.JPG",
+            "caption": "Picture of Version 2.1 Assistive Rotating Pill Container",
+            "image_id": "3099"
+          },
+          {
+            "title": "Version 2.2",
+            "content": "<div><p>In Version 2.2 I made the ramp on Part 2 (Where the pills rest on) steeper so the pills can fall out of the pill case easier. Besides that I also added some minor fillets to make some parts of it more smooth.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/eb\/4f\/1e\/8d\/90\/Version_2.2_Assembly_Picture_-_Clear.JPG",
+            "caption": "Picture of Version 2.2 Assistive Rotating Pill Container",
+            "image_id": "3104"
+          },
+          {
+            "title": "Version 2.3",
+            "content": "<div><p>In version 2.3 two small details were changed. The first one is the the front wall in front of the plate on Part 1 was made taller. This was made taller in a previous version also. The first reason why it was made taller was so it was harder for pills to fall out of. The second reason was so that the text on the front of it would be more visible. Going off of the second reason, the second change that I made was to add \"AT\" on the front of it as well as a heart. The \"AT\" stands for Assistive Technology which is the purpose of making this design.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/b1\/ad\/bb\/df\/2d\/Version_2.3_Assembly_Picture_-_Clear.JPG",
+            "caption": "Picture of Version 2.3 Assistive Rotating Pill Container",
+            "image_id": "3698"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      },
+      {
+        "type": "custom",
+        "name": "Assembly Instructions",
+        "data": [
+          {
+            "title": "Pre-Assembly Notes",
+            "content": "<div><p>The only tools or supplies that you need is some sort of glue or adhesive. Even Elmer's Glue can be used although I would recommend Super Glue if you have any because it will be easier to use. Hot glue is also another decent choice but make sure to not use too much of it.<\/p><\/div>\n"
+          },
+          {
+            "title": "Step 1",
+            "content": "<div><p>For Step 1, have Part 1 set down onto your work table. Take Part 2 and place it on top of Part 1 so that the extrusion go into the hole in the middle of Part 2 as seen in the picture below. You should notice that Part 2 can spin around on top of Part 1. Make sure to NOT add any glue in this first part of the assembly.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/1c\/6f\/ab\/3f\/28\/Step_1.JPG",
+            "image_id": "3702"
+          },
+          {
+            "title": "Step 2",
+            "content": "<div><p>With Part 2 already on Part 1 you are now going to do the same with Part 3. Part 3 should go right into Part 2. The bottom extrusion on Part 3 should fit nicely into the hole on the top extrusion of Part 1. The outside circular walls of Part 3 should go in between the inner walls of Part 2 and the outer posts of Part 2. The top of Part 3 should not extend further than the top of Part 2. Once you have it in place you can remove it so you can apply glue or adhesive in Step 3.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/57\/5f\/4f\/d8\/6c\/Step_2.JPG",
+            "image_id": "3703"
+          },
+          {
+            "title": "Step 3",
+            "content": "<div><p>After taking out Part 3, apply a small amount of glue or adhesive on the bottom extrusion of Part 3. Refer to the picture below. You do not want to add to much glue, otherwise it will also stick to Part 2. No glue should get onto Part 2 because it must be able to rotate freely. Once the glue or adhesive is applied, you can place Part 3 back into Part 2 making sure it fits nicely back into place. If you have chosen to use hot glue make sure Part 3 goes all the way down because like I said earlier, the top of Part 3 should not extend further than the top of Part 2.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/38\/6d\/17\/2f\/80\/Step_3.JPG",
+            "caption": "Note: The face of Part 3 that is colored red indicates the spot that glue or adhesive must be applied.",
+            "image_id": "3161"
+          },
+          {
+            "title": "Step 4",
+            "content": "<div><p>Now, take Part 4 (the only remaining one) and place it onto Part 2. It doesn't matter which way the part is facing because all of its seven extrusions are the same. The bottom extrusions of Part 4 should fit into the indents on the top posts of Part 2. Please note that it may be a little loose and that it is okay for it to be. Once you have it in place you can remove it so you can apply glue or adhesive in the final step (Step 5).<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/03\/4e\/05\/f8\/b1\/Step_4.JPG",
+            "image_id": "3704"
+          },
+          {
+            "title": "Step 5",
+            "content": "<div><p>After removing Part 4, you will be using your glue or adhesive on Part 4 to make it stick to Part 2. You will be applying it to the very bottom of the extrusions and the insides part of it on Part 4. Please refer to the picture below. You can apply a decent amount of glue or adhesive on the inside part of the extrusion but don't use too much on the bottom of it to avoid it from oozing out. If you chose to use hot glue than not much glue will be needed for the bottom or side of the extrusion.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/d1\/9d\/f2\/6f\/3a\/Step_5.JPG",
+            "caption": "Note: The faces of Part 4 that is colored red indicates the spots that glue or adhesive must be applied.",
+            "image_id": "3163"
+          },
+          {
+            "title": "Manual",
+            "content": "<div><p>Using the Assistive Rotating Pill Container is very simple. Simply rotating the pill container by moving Part 2 or Part 4 clockwise until the next day of the week comes up in the gap. Once the pills fall out onto the extruded plate you can grab and take them. To refill all you have to do is drop the pills into the top of the day's container.<\/p><p>Note: If you have any questions or concerns with the assembly please refer to the \"Contact Me\" section in the description.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Material",
+        "data": [
+          {
+            "content": "<div><p>Any material that you use on this should be perfectly fine although I wouldn't recommend the use of super flexible plastics because some parts may be bent out of shape over time. One suggestion I have for the material is to make Part 3 out  of clear plastic. This will allow you to easily see into the pill case and it makes it look a lot better than the just plain plastic color. If you are considering using clear plastic please take a look at the picture below to take a look at how it would look with the clear plastic.<\/p><\/div>\n"
+          },
+          {
+            "image": "https:\/\/thingiverse-production-new.s3.amazonaws.com\/assets\/ca\/f1\/89\/9b\/26\/Version_2.2_Assembly_Picture_-_Clear.JPG",
+            "caption": "Picture of Version 2.2 Assistive Rotating Pill Container",
+            "image_id": "3106"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Contributions",
+        "data": [
+          {
+            "content": "<div><p>My first contribution will of course have to be my Engineering II teacher. He's the one who introduced the class to use as well as have us enter the contest and make our own designs. He also printed out my first design (Version 1.0) which turned out to have some major design flaws to it. He then helped me out with giving me tips on certain things which is when I began to redesign a lot of the flaws. My second contribution is my school because they have been continuing to support the engineering classes as well as the new Tech Ninja class. Finally, my last contribution is to Solidworks. Solidworks is an amazing software that allows you to build unbelievable designs. I would have never been able to create anything like this without Solidworks.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "custom",
+        "name": "Contact Me",
+        "data": [
+          {
+            "content": "<div><p>If you have any ideas on how the design could be improved, questions on anything, or anything else please contact me. You can leave a comment or if you need a quick response send me an email at: StevenLBorck@gmail.com.<\/p><\/div>\n"
+          }
+        ]
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1097538\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1097538\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1097538\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1097538\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1097538\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1097538\/tags",
+    "tags": [
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "container",
+        "tag": "container",
+        "url": "https:\/\/api.thingiverse.com\/tags\/container",
+        "count": 9239,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/container\/things",
+        "absolute_url": "\/tag:container"
+      },
+      {
+        "name": "containers",
+        "tag": "containers",
+        "url": "https:\/\/api.thingiverse.com\/tags\/containers",
+        "count": 436,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/containers\/things",
+        "absolute_url": "\/tag:containers"
+      },
+      {
+        "name": "moving parts",
+        "tag": "moving_parts",
+        "url": "https:\/\/api.thingiverse.com\/tags\/moving_parts",
+        "count": 229,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/moving_parts\/things",
+        "absolute_url": "\/tag:moving_parts"
+      },
+      {
+        "name": "multiple parts",
+        "tag": "multiple_parts",
+        "url": "https:\/\/api.thingiverse.com\/tags\/multiple_parts",
+        "count": 73,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/multiple_parts\/things",
+        "absolute_url": "\/tag:multiple_parts"
+      },
+      {
+        "name": "organizer",
+        "tag": "organizer",
+        "url": "https:\/\/api.thingiverse.com\/tags\/organizer",
+        "count": 11833,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/organizer\/things",
+        "absolute_url": "\/tag:organizer"
+      },
+      {
+        "name": "pill container",
+        "tag": "pill_container",
+        "url": "https:\/\/api.thingiverse.com\/tags\/pill_container",
+        "count": 700,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/pill_container\/things",
+        "absolute_url": "\/tag:pill_container"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1097538\/categories",
+    "file_count": 4,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 2030,
+    "view_count": 7548,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 1,
+    "make_count": 0,
+    "app_count": 4,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Version_2.3_-_Part_1.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/b9\/a4\/2f\/49\/2f\/Version_2.3_-_Part_1.STL"
+        },
+        {
+          "name": "Version_2.3_-_Part_2.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f5\/e5\/4b\/72\/bb\/Version_2.3_-_Part_2.STL"
+        },
+        {
+          "name": "Version_2.3_-_Part_3.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/05\/ae\/c7\/17\/c2\/Version_2.3_-_Part_3.STL"
+        },
+        {
+          "name": "Version_2.3_-_Part_4.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/ac\/cb\/a5\/e4\/ca\/Version_2.3_-_Part_4.STL"
+        }
+      ],
+      "images": [
+        {
+          "name": "Version_2.3_Assembly_Picture.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/2e\/81\/b2\/13\/11\/Version_2.3_Assembly_Picture.JPG"
+        },
+        {
+          "name": "Version_2.3_-_Part_1.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/95\/10\/9f\/46\/70\/Version_2.3_-_Part_1.png"
+        },
+        {
+          "name": "Version_2.3_-_Part_2.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/58\/84\/ca\/17\/50\/Version_2.3_-_Part_2.png"
+        },
+        {
+          "name": "Version_2.3_-_Part_3.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/2b\/3c\/d3\/b6\/7e\/Version_2.3_-_Part_3.png"
+        },
+        {
+          "name": "Version_2.3_-_Part_4.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/13\/b4\/68\/e4\/5c\/Version_2.3_-_Part_4.png"
+        },
+        {
+          "name": "Version_2.3_Assembly_Picture_-_Clear.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/f8\/d9\/ab\/80\/Version_2.3_Assembly_Picture_-_Clear.JPG"
+        }
+      ]
+    }
+  }
+}

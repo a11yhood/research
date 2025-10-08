@@ -1,0 +1,509 @@
+{
+  "created_at": "2025-04-17T03:32:50.899235+00:00",
+  "elapsed": 0.121889,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "9318db89590881d5-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Thu, 17 Apr 2025 03:32:50 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Thu, 17 Apr 2025 04:02:50 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM",
+      "_cfuvid": "Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=LMfwBDzq.lE59dCIEJYhH260.HGmryWCBs8LuBCv2Ag-1744860738-1.0.1.1-NMBGtj5kTEoWJeBkvdgBgmmWR2067ysIwa7F2OjKrMrNcz3N3q830LV7WwyAzGO1ZStKGU5QswKCdp4f5Ek40ZKr946RepgSRlfDDduF4gM; _cfuvid=Kp909BwxZkZm2TV1CFMndYe_pPumoS3r5QfnLh.E9Bk-1744860738847-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/1163224?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/1163224?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 1163224,
+    "name": "F\u00e9rula de dedo\/Finger Splints ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_display_large.JPG",
+    "url": "https:\/\/api.thingiverse.com\/things\/1163224",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:1163224",
+    "creator": {
+      "id": 625226,
+      "name": "ceapat",
+      "first_name": "Ceapat",
+      "last_name": "Imserso",
+      "url": "https:\/\/api.thingiverse.com\/users\/ceapat",
+      "public_url": "https:\/\/www.thingiverse.com\/ceapat",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/71\/9a\/5a\/b1\/5e\/imgp0140-web_thumb_medium.jpg",
+      "count_of_followers": 256,
+      "count_of_following": 42,
+      "count_of_designs": 62,
+      "collection_count": 13,
+      "make_count": 0,
+      "accepts_tips": false,
+      "is_following": false,
+      "location": "Espa\u00f1a (Madrid)",
+      "cover": "https:\/\/cdn.thingiverse.com\/renders\/c3\/26\/d1\/4f\/d3\/IMG_1957_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2015-11-30T08:56:04+00:00",
+    "modified": "2015-11-30T08:56:04+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 50,
+    "is_liked": false,
+    "collect_count": 101,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 2946137,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/44\/28\/48\/b9\/IMG_2018.JPG",
+      "name": "IMG_2018.JPG",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_thumb_large.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_thumb_medium.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_thumb_small.JPG"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_thumb_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_featured.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_card.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_large.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_medium.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_small.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_birdwing.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_tiny.JPG"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_preview_tinycard.JPG"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_display_large.JPG"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_display_medium.JPG"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d8\/ba\/80\/27\/3c\/IMG_2018_display_small.JPG"
+        }
+      ],
+      "added": "2015-11-30T08:37:36+00:00"
+    },
+    "description": "Finger Splints to keep in place and protect an injured part.\r\n\r\n[Spanish] F\u00e9rula de dedo para mantener inmovilizada y protegida una parte lesionada.",
+    "instructions": "",
+    "description_html": "<div><p>Finger Splints to keep in place and protect an injured part.<\/p><p>[Spanish] F&eacute;rula de dedo para mantener inmovilizada y protegida una parte lesionada.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>Finger Splints to keep in place and protect an injured part.<\/p><p>[Spanish] F&eacute;rula de dedo para mantener inmovilizada y protegida una parte lesionada.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><div><p>Despu&eacute;s de imprimir la pieza necesitaremos velcro para asegurar la f&eacute;rula.<\/p><\/div><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>Finger Splints to keep in place and protect an injured part.<\/p><p>[Spanish] F&eacute;rula de dedo para mantener inmovilizada y protegida una parte lesionada.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings"
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "content": "<div><p>Despu&eacute;s de imprimir la pieza necesitaremos velcro para asegurar la f&eacute;rula.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution - Non-Commercial",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/1163224\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/1163224\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/1163224\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/1163224\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/1163224\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/1163224\/tags",
+    "tags": [
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "ceapat",
+        "tag": "ceapat",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ceapat",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ceapat\/things",
+        "absolute_url": "\/tag:ceapat"
+      },
+      {
+        "name": "dedo",
+        "tag": "dedo",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dedo",
+        "count": 10,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dedo\/things",
+        "absolute_url": "\/tag:dedo"
+      },
+      {
+        "name": "dedos",
+        "tag": "dedos",
+        "url": "https:\/\/api.thingiverse.com\/tags\/dedos",
+        "count": 18,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/dedos\/things",
+        "absolute_url": "\/tag:dedos"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "discapacidad",
+        "tag": "discapacidad",
+        "url": "https:\/\/api.thingiverse.com\/tags\/discapacidad",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/discapacidad\/things",
+        "absolute_url": "\/tag:discapacidad"
+      },
+      {
+        "name": "ergotherapie",
+        "tag": "ergotherapie",
+        "url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie",
+        "count": 174,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/ergotherapie\/things",
+        "absolute_url": "\/tag:ergotherapie"
+      },
+      {
+        "name": "finger",
+        "tag": "finger",
+        "url": "https:\/\/api.thingiverse.com\/tags\/finger",
+        "count": 792,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/finger\/things",
+        "absolute_url": "\/tag:finger"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1942,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "immobilize",
+        "tag": "immobilize",
+        "url": "https:\/\/api.thingiverse.com\/tags\/immobilize",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/immobilize\/things",
+        "absolute_url": "\/tag:immobilize"
+      },
+      {
+        "name": "Imserso",
+        "tag": "imserso",
+        "url": "https:\/\/api.thingiverse.com\/tags\/imserso",
+        "count": 62,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/imserso\/things",
+        "absolute_url": "\/tag:Imserso"
+      },
+      {
+        "name": "inmovilizar",
+        "tag": "inmovilizar",
+        "url": "https:\/\/api.thingiverse.com\/tags\/inmovilizar",
+        "count": 2,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/inmovilizar\/things",
+        "absolute_url": "\/tag:inmovilizar"
+      },
+      {
+        "name": "mano",
+        "tag": "mano",
+        "url": "https:\/\/api.thingiverse.com\/tags\/mano",
+        "count": 76,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/mano\/things",
+        "absolute_url": "\/tag:mano"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/1163224\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 823,
+    "view_count": 2532,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 4,
+    "root_comment_count": 0,
+    "moderation": "",
+    "is_derivative": false,
+    "ancestors": [],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "feruladedo_larga.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/42\/81\/d4\/a5\/43\/feruladedo_larga.stl"
+        },
+        {
+          "name": "ferula_dedo.stl",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/5e\/65\/76\/50\/da\/ferula_dedo.stl"
+        }
+      ],
+      "images": [
+        {
+          "name": "IMG_2018.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/f3\/44\/28\/48\/b9\/IMG_2018.JPG"
+        },
+        {
+          "name": "IMG_2019.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/fa\/1f\/90\/73\/6c\/IMG_2019.JPG"
+        },
+        {
+          "name": "IMG_2020.JPG",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/17\/3e\/ef\/f5\/56\/IMG_2020.JPG"
+        },
+        {
+          "name": "feruladedo_larga.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/e5\/c9\/3d\/82\/4d\/feruladedo_larga.png"
+        },
+        {
+          "name": "ferula_dedo.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/34\/7f\/3c\/01\/54\/ferula_dedo.png"
+        }
+      ]
+    }
+  }
+}

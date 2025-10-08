@@ -1,0 +1,698 @@
+{
+  "created_at": "2025-04-13T04:27:47.399065+00:00",
+  "elapsed": 0.146901,
+  "encoding": "utf-8",
+  "headers": {
+    "CF-RAY": "92f836845994d70b-IAD",
+    "Cache-Control": "max-age=1800",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application\/json; charset=utf-8",
+    "Date": "Sun, 13 Apr 2025 04:27:47 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Authorization, Referer, Content-Type, User-Agent, Accept",
+    "access-control-allow-methods": "GET, POST, PATCH, DELETE",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "604800",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "content-security-policy": "frame-ancestors *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com *.makerbot.local *.thingiverse.local;",
+    "expires": "Sun, 13 Apr 2025 04:57:47 +0000",
+    "speculation-rules": "\"\/cdn-cgi\/speculation\"",
+    "vary": "Accept-Encoding, Authorization,Cookie"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__cf_bm": "r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs",
+      "_cfuvid": "nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000"
+    },
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__cf_bm=r2BrRsjSjMz8XBrXo2EBw9zUK..FIERq.D9MSZFf._A-1744518197-1.0.1.1-jVDZR2zSECKNoXVpNv_Asxi4mMIbf8kwIShROH6zxaJM.V7Q.d7Je4FAStU5iBRA9yef.P5HG5JlCXIGxZPsLpm_u05kGSXVOvPQyq9ulWs; _cfuvid=nNCow5sx6X_e00sh3ROTaHj1AqlSSIrwljWUp63X71g-1744518197357-0.0.1.1-604800000",
+      "User-Agent": "python-requests\/2.32.3"
+    },
+    "method": "GET",
+    "url": "https:\/\/api.thingiverse.com\/things\/2200674?access_token=REDACTED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/api.thingiverse.com\/things\/2200674?access_token=REDACTED",
+  "_decoded_content": {
+    "id": 2200674,
+    "name": "Orthosis for Typing and touchscreen ",
+    "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_display_large.jpg",
+    "url": "https:\/\/api.thingiverse.com\/things\/2200674",
+    "public_url": "https:\/\/www.thingiverse.com\/thing:2200674",
+    "creator": {
+      "id": 765168,
+      "name": "GabrielaB",
+      "first_name": "Gabriela",
+      "last_name": "Bravo",
+      "url": "https:\/\/api.thingiverse.com\/users\/GabrielaB",
+      "public_url": "https:\/\/www.thingiverse.com\/GabrielaB",
+      "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/fd\/48\/70\/5c\/84\/1a0241e97792275b95bf71efb9a87d03_thumb_medium.jpg",
+      "count_of_followers": 125,
+      "count_of_following": 15,
+      "count_of_designs": 19,
+      "collection_count": 6,
+      "make_count": 0,
+      "accepts_tips": true,
+      "is_following": false,
+      "location": "California",
+      "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-1_preview_large.jpg",
+      "is_admin": false,
+      "is_moderator": false,
+      "is_featured": false,
+      "is_verified": false
+    },
+    "added": "2017-03-24T13:24:16+00:00",
+    "modified": "2017-03-24T13:24:16+00:00",
+    "is_published": 1,
+    "is_wip": 0,
+    "is_featured": false,
+    "is_nsfw": false,
+    "is_ai": false,
+    "is_winner": false,
+    "is_edu_approved": false,
+    "is_printable": false,
+    "like_count": 112,
+    "is_liked": false,
+    "collect_count": 221,
+    "is_collected": false,
+    "comment_count": 0,
+    "is_watched": false,
+    "default_image": {
+      "id": 5684065,
+      "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/f0\/64\/a1\/9d\/user.png",
+      "name": "user.png",
+      "sizes": [
+        {
+          "type": "thumb",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_thumb_large.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_thumb_medium.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_thumb_small.jpg"
+        },
+        {
+          "type": "thumb",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_thumb_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "featured",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_featured.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "card",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_card.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_large.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_medium.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_small.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "birdwing",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_birdwing.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tiny",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_tiny.jpg"
+        },
+        {
+          "type": "preview",
+          "size": "tinycard",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_preview_tinycard.jpg"
+        },
+        {
+          "type": "display",
+          "size": "large",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_display_large.jpg"
+        },
+        {
+          "type": "display",
+          "size": "medium",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_display_medium.jpg"
+        },
+        {
+          "type": "display",
+          "size": "small",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ea\/0d\/67\/81\/40\/779b7513263ef185b6d094af290ef540_display_small.jpg"
+        }
+      ],
+      "added": "2017-03-24T13:21:30+00:00"
+    },
+    "description": "This is an orthosis designed for people who have lost their hand control (reduced or complete lack of movement of their fingers). It allows the use of keyboard and touchscreen.\r\n\r\nThis object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.",
+    "instructions": "",
+    "description_html": "<div><p>This is an orthosis designed for people who have lost their hand control (reduced or complete lack of movement of their fingers). It allows the use of keyboard and touchscreen.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n",
+    "instructions_html": "<div><\/div>\n",
+    "details": "<div><h1 class=\"thing-component-header summary summary\">Summary<\/h1><div><p>This is an orthosis designed for people who have lost their hand control (reduced or complete lack of movement of their fingers). It allows the use of keyboard and touchscreen.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div><h1 class=\"thing-component-header settings print-settings\">Print Settings<\/h1><p class=\"detail-setting printer brand\"><strong>Printer Brand: <\/strong>                         <\/p><div><p>Leapfrog<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;Creatr XL&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting rafts\"><strong>Rafts: <\/strong>                         <\/p><div><p>No<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;No&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p>                                    <p class=\"detail-setting resolution\"><strong>Resolution: <\/strong>                         <\/p><div><p>0.3mm<\/p><\/div>                                    <pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;\/strong&gt;                     &lt;div&gt;&lt;p&gt;100&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><p><\/p><br><br>                        <p class=\"detail-setting notes\"><strong>Notes: <\/strong><br><\/p><div><p>it should have 100% of infill because it's shaped by heat. infill pattern could complicate that process.<\/p><\/div><h1 class=\"thing-component-header tips post-printing\">Post-Printing<\/h1><p class=\"detail-image\"><img src=\"https:\/\/cdn.thingiverse.com\/assets\/f0\/fe\/b0\/5f\/e1\/Imagen1.png\" alt=\"image\"><\/p><pre><code>                &lt;div&gt;&lt;p&gt;After printing you should shape it to the hand of the user by heating it with hot water or a heat gun (be careful with no burn the patient). Use as example the picture above&lt;\/p&gt;&lt;\/div&gt;<\/code><\/pre><\/div>\n",
+    "details_parts": [
+      {
+        "type": "summary",
+        "name": "Summary",
+        "required": "required",
+        "data": [
+          {
+            "content": "<div><p>This is an orthosis designed for people who have lost their hand control (reduced or complete lack of movement of their fingers). It allows the use of keyboard and touchscreen.<\/p><p>This object was made for the \"Mutual de Seguridad C.Ch.C\" from Chile. In a project of the Direction of innovation and development, and the Neuro rehabilitation institute.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "settings",
+        "name": "Print Settings",
+        "data": [
+          {
+            "printer brand": "<div><p>Leapfrog<\/p><\/div>\n",
+            "printer": "<div><p>Creatr XL<\/p><\/div>\n",
+            "rafts": "No",
+            "supports": "No",
+            "resolution": "<div><p>0.3mm<\/p><\/div>\n",
+            "infill": "<div><p>100<\/p><\/div>\n",
+            "notes": "<div><p>it should have 100% of infill because it's shaped by heat. infill pattern could complicate that process.<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "tips",
+        "name": "Post-Printing",
+        "data": [
+          {
+            "image": "https:\/\/cdn.thingiverse.com\/assets\/f0\/fe\/b0\/5f\/e1\/Imagen1.png",
+            "image_id": "32945"
+          },
+          {
+            "content": "<div><p>After printing you should shape it to the hand of the user by heating it with hot water or a heat gun (be careful with no burn the patient). Use as example the picture above<\/p><\/div>\n"
+          }
+        ]
+      },
+      {
+        "type": "design",
+        "name": "How I Designed This"
+      },
+      {
+        "type": "custom",
+        "name": "Custom Section"
+      }
+    ],
+    "edu_details": "",
+    "edu_details_parts": [
+      {
+        "type": "grades",
+        "name": "Grade",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "grades",
+        "default": "Choose a range, help teachers see if this is a fit for their class",
+        "opts": {
+          "15": "Kindergarten",
+          "16": "1st Grade",
+          "17": "2nd Grade",
+          "18": "3rd Grade",
+          "19": "4th Grade",
+          "20": "5th Grade",
+          "21": "6th Grade",
+          "22": "7th Grade",
+          "23": "8th Grade",
+          "24": "9th Grade",
+          "25": "10th Grade",
+          "26": "11th Grade",
+          "27": "12th Grade",
+          "28": "Higher Education"
+        }
+      },
+      {
+        "type": "subjects",
+        "name": "Subject",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "subjects",
+        "default": "Choose a Subject, Make your project more findable",
+        "opts": {
+          "11": "Science",
+          "12": "Math",
+          "13": "Engineering",
+          "14": "History",
+          "15": "Geography",
+          "16": "Art",
+          "17": "Languages",
+          "18": "Music",
+          "19": "Technology",
+          "20": "Special Ed"
+        }
+      },
+      {
+        "type": "standards",
+        "name": "Standards",
+        "required": "recommended",
+        "save_as_component": false,
+        "template": "taglist_select",
+        "fieldname": "standards",
+        "default": "Choose a Requirement this lesson meets",
+        "opts": {
+          "3": "NGSS",
+          "4": "CCSS"
+        }
+      },
+      {
+        "type": "overview",
+        "name": "Overview and Background",
+        "required": "required"
+      },
+      {
+        "type": "plan",
+        "name": "Lesson Plan and Activity",
+        "required": "required"
+      },
+      {
+        "type": "materials",
+        "name": "Materials Needed",
+        "required": "recommended"
+      },
+      {
+        "type": "skills",
+        "name": "Skills Learned",
+        "label": "Enter each skill and press enter to add it as a tagged skill",
+        "required": false,
+        "template": "taglist",
+        "fieldname": "skills",
+        "default": "Choose Skills",
+        "opts": []
+      },
+      {
+        "type": "duration",
+        "name": "Duration of Lesson",
+        "template": "textfield"
+      },
+      {
+        "type": "prep",
+        "name": "Preparation"
+      },
+      {
+        "type": "assets",
+        "name": "Handouts and Assets",
+        "save_as_component": false,
+        "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+        "template": "upload"
+      },
+      {
+        "type": "assessment",
+        "name": "Rubric and Assessment"
+      },
+      {
+        "type": "references",
+        "name": "References"
+      }
+    ],
+    "license": "Creative Commons - Attribution",
+    "allows_derivatives": true,
+    "files_url": "https:\/\/api.thingiverse.com\/things\/2200674\/files",
+    "images_url": "https:\/\/api.thingiverse.com\/things\/2200674\/images",
+    "likes_url": "https:\/\/api.thingiverse.com\/things\/2200674\/likes",
+    "ancestors_url": "https:\/\/api.thingiverse.com\/things\/2200674\/ancestors",
+    "derivatives_url": "https:\/\/api.thingiverse.com\/things\/2200674\/derivatives",
+    "tags_url": "https:\/\/api.thingiverse.com\/things\/2200674\/tags",
+    "tags": [
+      {
+        "name": "Accesibility",
+        "tag": "accesibility",
+        "url": "https:\/\/api.thingiverse.com\/tags\/accesibility",
+        "count": 74,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/accesibility\/things",
+        "absolute_url": "\/tag:Accesibility"
+      },
+      {
+        "name": "aid",
+        "tag": "aid",
+        "url": "https:\/\/api.thingiverse.com\/tags\/aid",
+        "count": 292,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/aid\/things",
+        "absolute_url": "\/tag:aid"
+      },
+      {
+        "name": "AssistiveTech",
+        "tag": "assistivetech",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+        "count": 836,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+        "absolute_url": "\/tag:AssistiveTech"
+      },
+      {
+        "name": "assistive technology",
+        "tag": "assistive_technology",
+        "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+        "count": 620,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+        "absolute_url": "\/tag:assistive_technology"
+      },
+      {
+        "name": "disability",
+        "tag": "disability",
+        "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+        "count": 533,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+        "absolute_url": "\/tag:disability"
+      },
+      {
+        "name": "hand",
+        "tag": "hand",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand",
+        "count": 1940,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand\/things",
+        "absolute_url": "\/tag:hand"
+      },
+      {
+        "name": "handicap",
+        "tag": "handicap",
+        "url": "https:\/\/api.thingiverse.com\/tags\/handicap",
+        "count": 258,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/handicap\/things",
+        "absolute_url": "\/tag:handicap"
+      },
+      {
+        "name": "hand tools",
+        "tag": "hand_tools",
+        "url": "https:\/\/api.thingiverse.com\/tags\/hand_tools",
+        "count": 2140,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/hand_tools\/things",
+        "absolute_url": "\/tag:hand_tools"
+      },
+      {
+        "name": "occupational therapy",
+        "tag": "occupational_therapy",
+        "url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy",
+        "count": 431,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/occupational_therapy\/things",
+        "absolute_url": "\/tag:occupational_therapy"
+      },
+      {
+        "name": "orthosis",
+        "tag": "orthosis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/orthosis",
+        "count": 21,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/orthosis\/things",
+        "absolute_url": "\/tag:orthosis"
+      },
+      {
+        "name": "Orthotics",
+        "tag": "orthotics",
+        "url": "https:\/\/api.thingiverse.com\/tags\/orthotics",
+        "count": 45,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/orthotics\/things",
+        "absolute_url": "\/tag:Orthotics"
+      },
+      {
+        "name": "prothesis",
+        "tag": "prothesis",
+        "url": "https:\/\/api.thingiverse.com\/tags\/prothesis",
+        "count": 39,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/prothesis\/things",
+        "absolute_url": "\/tag:prothesis"
+      },
+      {
+        "name": "Touchscreen",
+        "tag": "touchscreen",
+        "url": "https:\/\/api.thingiverse.com\/tags\/touchscreen",
+        "count": 741,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/touchscreen\/things",
+        "absolute_url": "\/tag:Touchscreen"
+      },
+      {
+        "name": "typing",
+        "tag": "typing",
+        "url": "https:\/\/api.thingiverse.com\/tags\/typing",
+        "count": 23,
+        "things_url": "https:\/\/api.thingiverse.com\/tags\/typing\/things",
+        "absolute_url": "\/tag:typing"
+      }
+    ],
+    "categories_url": "https:\/\/api.thingiverse.com\/things\/2200674\/categories",
+    "file_count": 2,
+    "is_private": 0,
+    "is_purchased": 0,
+    "app_id": null,
+    "download_count": 1005,
+    "view_count": 4631,
+    "education": {
+      "grades": [],
+      "subjects": []
+    },
+    "remix_count": 0,
+    "make_count": 1,
+    "app_count": 5,
+    "root_comment_count": 1,
+    "moderation": "",
+    "is_derivative": true,
+    "ancestors": [
+      {
+        "id": 1315004,
+        "name": "touchscreen typing cuff stylus rev 2",
+        "url": "https:\/\/api.thingiverse.com\/things\/1315004",
+        "public_url": "https:\/\/www.thingiverse.com\/thing:1315004",
+        "created_at": "2016-02-03T20:28:22+00:00",
+        "thumbnail": "https:\/\/cdn.thingiverse.com\/renders\/4c\/52\/d7\/c0\/39\/b3696f08a1e6f1d98be80953d7439d05_thumb_medium.JPG",
+        "preview_image": "https:\/\/cdn.thingiverse.com\/renders\/4c\/52\/d7\/c0\/39\/b3696f08a1e6f1d98be80953d7439d05_preview_card.JPG",
+        "creator": {
+          "id": 604166,
+          "name": "accesswoodworx",
+          "first_name": "Michael",
+          "last_name": "Papp",
+          "url": "https:\/\/api.thingiverse.com\/users\/accesswoodworx",
+          "public_url": "https:\/\/www.thingiverse.com\/accesswoodworx",
+          "thumbnail": "https:\/\/cdn.thingiverse.com\/assets\/13\/db\/ac\/a4\/df\/Access_Woodworx_square.jpg",
+          "count_of_followers": 35,
+          "count_of_following": 8,
+          "count_of_designs": 36,
+          "collection_count": 11,
+          "make_count": 11,
+          "accepts_tips": true,
+          "is_following": false,
+          "location": "Birmingham, AL",
+          "cover": "https:\/\/cdn.thingiverse.com\/site\/img\/default\/cover\/cover-3_preview_large.jpg",
+          "is_admin": false,
+          "is_moderator": false,
+          "is_featured": false,
+          "is_verified": false
+        },
+        "is_private": 0,
+        "is_purchased": 0,
+        "is_published": 1,
+        "is_featured": false,
+        "is_edu_approved": null,
+        "is_printable": false,
+        "is_winner": false,
+        "allows_derivatives": true,
+        "comment_count": 11,
+        "make_count": 2,
+        "like_count": 89,
+        "tags": [
+          {
+            "name": "accessibility",
+            "tag": "accessibility",
+            "url": "https:\/\/api.thingiverse.com\/tags\/accessibility",
+            "count": 568,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/accessibility\/things",
+            "absolute_url": "\/tag:accessibility"
+          },
+          {
+            "name": "adapted device",
+            "tag": "adapted_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/adapted_device",
+            "count": 10,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/adapted_device\/things",
+            "absolute_url": "\/tag:adapted_device"
+          },
+          {
+            "name": "android",
+            "tag": "android",
+            "url": "https:\/\/api.thingiverse.com\/tags\/android",
+            "count": 1556,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/android\/things",
+            "absolute_url": "\/tag:android"
+          },
+          {
+            "name": "AssistiveTech",
+            "tag": "assistivetech",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistivetech",
+            "count": 836,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistivetech\/things",
+            "absolute_url": "\/tag:AssistiveTech"
+          },
+          {
+            "name": "assistive device",
+            "tag": "assistive_device",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_device",
+            "count": 591,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_device\/things",
+            "absolute_url": "\/tag:assistive_device"
+          },
+          {
+            "name": "assistive technology",
+            "tag": "assistive_technology",
+            "url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology",
+            "count": 620,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/assistive_technology\/things",
+            "absolute_url": "\/tag:assistive_technology"
+          },
+          {
+            "name": "disability",
+            "tag": "disability",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disability",
+            "count": 533,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disability\/things",
+            "absolute_url": "\/tag:disability"
+          },
+          {
+            "name": "disabled",
+            "tag": "disabled",
+            "url": "https:\/\/api.thingiverse.com\/tags\/disabled",
+            "count": 274,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/disabled\/things",
+            "absolute_url": "\/tag:disabled"
+          },
+          {
+            "name": "iOS",
+            "tag": "ios",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ios",
+            "count": 102,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ios\/things",
+            "absolute_url": "\/tag:iOS"
+          },
+          {
+            "name": "iPad",
+            "tag": "ipad",
+            "url": "https:\/\/api.thingiverse.com\/tags\/ipad",
+            "count": 1792,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/ipad\/things",
+            "absolute_url": "\/tag:iPad"
+          },
+          {
+            "name": "iphone",
+            "tag": "iphone",
+            "url": "https:\/\/api.thingiverse.com\/tags\/iphone",
+            "count": 7804,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/iphone\/things",
+            "absolute_url": "\/tag:iphone"
+          },
+          {
+            "name": "rehab",
+            "tag": "rehab",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rehab",
+            "count": 25,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rehab\/things",
+            "absolute_url": "\/tag:rehab"
+          },
+          {
+            "name": "rehabilitation",
+            "tag": "rehabilitation",
+            "url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation",
+            "count": 123,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/rehabilitation\/things",
+            "absolute_url": "\/tag:rehabilitation"
+          },
+          {
+            "name": "splint",
+            "tag": "splint",
+            "url": "https:\/\/api.thingiverse.com\/tags\/splint",
+            "count": 113,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/splint\/things",
+            "absolute_url": "\/tag:splint"
+          },
+          {
+            "name": "tablet",
+            "tag": "tablet",
+            "url": "https:\/\/api.thingiverse.com\/tags\/tablet",
+            "count": 2436,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/tablet\/things",
+            "absolute_url": "\/tag:tablet"
+          },
+          {
+            "name": "typing",
+            "tag": "typing",
+            "url": "https:\/\/api.thingiverse.com\/tags\/typing",
+            "count": 23,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/typing\/things",
+            "absolute_url": "\/tag:typing"
+          },
+          {
+            "name": "typing aid",
+            "tag": "typing_aid",
+            "url": "https:\/\/api.thingiverse.com\/tags\/typing_aid",
+            "count": 10,
+            "things_url": "https:\/\/api.thingiverse.com\/tags\/typing_aid\/things",
+            "absolute_url": "\/tag:typing_aid"
+          }
+        ],
+        "is_nsfw": null,
+        "is_ai": false,
+        "rank": null,
+        "collect_count": 218,
+        "moderation": "",
+        "is_banned": false,
+        "needs_moderation": 0,
+        "is_decoy": 0,
+        "is_comments_disabled": false
+      }
+    ],
+    "type_name": "Thing",
+    "is_banned": false,
+    "is_comments_disabled": false,
+    "needs_moderation": 0,
+    "is_decoy": 0,
+    "zip_data": {
+      "files": [
+        {
+          "name": "Typing_orthosis.STL",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/a5\/18\/7c\/32\/ab\/Typing_orthosis.STL"
+        },
+        {
+          "name": "typing.scad",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/43\/04\/33\/11\/6f\/typing.scad"
+        }
+      ],
+      "images": [
+        {
+          "name": "user.png",
+          "url": "https:\/\/cdn.thingiverse.com\/assets\/35\/f0\/64\/a1\/9d\/user.png"
+        },
+        {
+          "name": "725f7bcf01e78ee13f9ffbb8abec308d.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/ca\/1b\/b4\/ee\/16\/725f7bcf01e78ee13f9ffbb8abec308d.png"
+        },
+        {
+          "name": "9d0fdea8a96c8f14cbe0aeba7ceebfd6.png",
+          "url": "https:\/\/cdn.thingiverse.com\/renders\/d4\/8b\/e8\/e9\/04\/9d0fdea8a96c8f14cbe0aeba7ceebfd6.png"
+        }
+      ]
+    }
+  }
+}
